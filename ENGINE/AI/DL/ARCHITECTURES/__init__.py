@@ -1,0 +1,10 @@
+"""
+BIGAI ARCHITECTURES
+"""
+from BIGAI.API.AI.DL.ARCHITECTURES import DARNN
+from BIGAI.API.AI.DL.ARCHITECTURES import TFT
+
+
+__all__ = ["DARNN", "TFT"]
+
+__version__ = "0.0.1"
