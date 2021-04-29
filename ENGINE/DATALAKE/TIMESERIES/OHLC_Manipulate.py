@@ -47,5 +47,4 @@ def Df_Remove_Columns(df, to_remove):
     return df[df.columns.difference(to_remove)]
 
 def OHLC_DF_to_REGRESSION(df):
-
-
+    pass

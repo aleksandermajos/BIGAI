@@ -6,8 +6,9 @@ from ENGINE.DATALAKE.TIMESERIES.Opening_Closing_Times_MT45 import Open_Time_To_E
 from ENGINE.DATALAKE.TIMESERIES.Opening_Closing_Times_MT45 import Close_Time_To_Existing_Chart, Close_Time_To_New_Chart
 from ENGINE.DATALAKE.TIMESERIES.Opening_Closing_Times_MT45 import Average_OpenTimes
 from ENGINE.DATALAKE.TIMESERIES.Opening_Closing_Times_MT45 import Average_CloseTimes
-from ENGINE.DATALAKE.TIMESERIES import Oanda_Data
+from ENGINE.DATALAKE.TIMESERIES.Oanda_Data import OandaData
 from ENGINE.DATALAKE.TIMESERIES.Oanda_Data import exampleAuth
+from ENGINE.DATALAKE.TIMESERIES.OHLC_Manipulate import Add_Growing_Column, Add_Diff_CO_Column, List_Of_Dict_To_DF, Df_To_NumPy, Df_Remove_Columns
 
 __all__ = [
     "Write_Brokers_Opening_Times",
@@ -19,7 +20,12 @@ __all__ = [
     "Average_OpenTimes",
     "Average_CloseTimes",
     "OandaData",
-    "exampleAuth"
+    "exampleAuth",
+    'Add_Growing_Column',
+    'Add_Diff_CO_Column',
+    'List_Of_Dict_To_DF',
+    'Df_To_NumPy',
+    'Df_Remove_Columns'
 ]
 
 __version__ = "0.0.8"
