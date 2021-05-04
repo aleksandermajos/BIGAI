@@ -44,7 +44,29 @@ def Df_To_CSV(df,path,name):
     df.to_csv(path+name, index=True)
 
 def Df_Remove_Columns(df, to_remove):
-    return df[df.columns.difference(to_remove)]
+    df_new = df[df.columns.difference(to_remove)]
+    return df_new
 
-def OHLC_DF_to_REGRESSION(df):
-    pass
+def OHLC_DF_to_REGRESSION_C(df):
+    if "volume" in df:
+        df = Df_Remove_Columns(df,["volume"])
+    df['time_idx'] = df.index + 0
+    if "time" in df:
+        df = Df_Remove_Columns(df,["time"])
+    df['pred'] = df.C
+    df['pred'] = df['pred'].shift(-1)
+    df.drop(df.tail(1).index, inplace=True)
+    cols = ['time_idx', 'O', 'H', 'L', 'C', 'pred']
+    df = df[cols]
+    return df
+
+def OHLC_DF_to_CLASSIFICATION_C(df):
+    df = OHLC_DF_to_REGRESSION_C(df)
+    df["Diff_CO"] = df.pred - df.C
+    df["Growing"] = df["Diff_CO"] >= 0
+    df.Growing.replace((True, False), (1, -1), inplace=True)
+    df = Df_Remove_Columns(df, ["Diff_CO", "pred"])
+    df.rename(columns={"Growing": "pred"}, inplace=True)
+    cols = ['time_idx','O','H', 'L', 'C', 'pred']
+    df = df[cols]
+    return df
