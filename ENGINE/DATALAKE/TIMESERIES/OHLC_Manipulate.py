@@ -66,7 +66,7 @@ def OHLC_DF_to_CLASSIFICATION_C(df):
     df["Growing"] = df["Diff_CO"] >= 0
     df.Growing.replace((True, False), (1, -1), inplace=True)
     df = Df_Remove_Columns(df, ["Diff_CO", "pred"])
-    df.rename(columns={"Growing": "pred"}, inplace=True)
+    df = df.rename(columns={"Growing": "pred"})
     cols = ['time_idx','O','H', 'L', 'C', 'pred']
     df = df[cols]
     return df
