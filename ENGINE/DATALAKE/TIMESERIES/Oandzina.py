@@ -11,12 +11,11 @@ from pytorch_forecasting.data import NaNLabelEncoder
 from pytorch_forecasting.data.examples import generate_ar_data
 from pytorch_forecasting.metrics import SMAPE
 OD = OandaData()
-data = OD.GetData("2021-01-01T00:00:00Z", "2021-04-21T00:00:00Z", "EUR_USD", "M15", "DF")
+data = OD.GetData("2021-02-01T00:00:00Z", "2021-05-04T00:00:00Z", "EUR_USD", "M15", "DF")
 df = OHLC_DF_to_REGRESSION_C(data)
 training, train_dataloader, val_dataloader = DF_to_TSDataSet(df,max_encoder_length=60,max_prediction_length=1)
 actuals = torch.cat([y[0] for x, y in iter(val_dataloader)])
-for x, y in iter(val_dataloader):
-    print(y[0])
+
 
 baseline_predictions = Baseline().predict(val_dataloader)
 value = SMAPE()(baseline_predictions, actuals)

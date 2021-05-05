@@ -28,7 +28,7 @@ def DF_to_TSDataSet(data, max_encoder_length = 60, max_prediction_length = 20):
         max_prediction_length=prediction_length
     )
 
-    validation = TimeSeriesDataSet.from_dataset(training, data, min_prediction_idx=training_cutoff + 1)
+    validation = TimeSeriesDataSet.from_dataset(training, data, min_prediction_idx=training_cutoff)
     batch_size = 128
     train_dataloader = training.to_dataloader(train=True, batch_size=batch_size, num_workers=0)
     val_dataloader = validation.to_dataloader(train=False, batch_size=batch_size, num_workers=0)
