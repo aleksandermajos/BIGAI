@@ -10,10 +10,8 @@ from pytorch_forecasting.data import NaNLabelEncoder
 from pytorch_forecasting.data.examples import generate_ar_data
 from pytorch_forecasting.metrics import SMAPE
 
-def DF_to_TSDataSet(data):
+def DF_to_TSDataSet(data, max_encoder_length = 60, max_prediction_length = 20):
     data.insert(0,'series','True')
-    max_encoder_length = 60
-    max_prediction_length = 20
 
     training_cutoff = data["time_idx"].max() - max_prediction_length
 
