@@ -34,4 +34,4 @@ def DF_to_TSDataSet(data):
     batch_size = 128
     train_dataloader = training.to_dataloader(train=True, batch_size=batch_size, num_workers=0)
     val_dataloader = validation.to_dataloader(train=False, batch_size=batch_size, num_workers=0)
-    return train_dataloader, val_dataloader
+    return training, train_dataloader, val_dataloader
