@@ -5,6 +5,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - pip
   - _r-mutex=1.0.0=anacondar_1
   - argon2-cffi=20.1.0=py38h2bbff1b_1
   - async_generator=1.10=pyhd3eb1b0_0

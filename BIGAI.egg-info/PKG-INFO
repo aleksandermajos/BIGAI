@@ -1,4 +1,4 @@
-Metadata-Version: 1.1
+Metadata-Version: 2.1
 Name: BIGAI
 Version: 0.0.10
 Summary: An AI Library as a Baseline to create AI Projects
@@ -7,9 +7,12 @@ Author: Aleksander Majos
 Author-email: aleksander.majos@gmail.com
 License: LICENSE.txt
 Download-URL: https://github.com/aleksandermajos/BIGAI
-Description: # BIGAI
-        BUSINESS AS A READY TO USE FUNCTIONALITIES
-        ENGINE AS CODE - REDY TO REIMPLEMENT IF NECESSARY
-        
-        
 Platform: UNKNOWN
+License-File: LICENSE.txt
+
+# BIGAI
+BUSINESS AS A READY TO USE FUNCTIONALITIES
+ENGINE AS CODE - REDY TO REIMPLEMENT IF NECESSARY
+
+
+
