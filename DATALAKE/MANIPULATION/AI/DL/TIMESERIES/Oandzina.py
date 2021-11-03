@@ -1,6 +1,6 @@
 from Oanda_Data import OandaData
-from ENGINE.DATALAKE.TIMESERIES.OHLC_Manipulate import OHLC_DF_to_REGRESSION_C
-from DATALAKE.MANIPULATION.AI.DL import DF_to_TSDataSet
+from DATALAKE.MANIPULATION.AI.DL.TIMESERIES.OHLC_Manipulate import OHLC_DF_to_REGRESSION_C
+from DATALAKE.MANIPULATION.AI.DL.TIMESERIES.Data_to_PytorchForecasting import DF_to_TSDataSet
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import EarlyStopping
 import torch
