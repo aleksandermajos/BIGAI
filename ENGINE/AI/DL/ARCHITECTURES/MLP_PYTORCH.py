@@ -55,7 +55,7 @@ if __name__ == '__main__':
     dataset = CIFAR10(os.getcwd(), download=True, transform=transforms.ToTensor())
     pl.seed_everything(42)
     mlp = MLP_PYTORCH_LIGHNING()
-    trainer = pl.Trainer(auto_scale_batch_size='power', gpus=1, deterministic=True, max_epochs=5)
+    trainer = pl.Trainer(auto_scale_batch_size='power', deterministic=True, max_epochs=5)
     trainer.fit(mlp, DataLoader(dataset))
 
 
