@@ -53,15 +53,19 @@ def OHLC_DF_to_REGRESSION_C(df):
     df['time_idx'] = df.index + 0
     if "time" in df:
         df = Df_Remove_Columns(df,["time"])
+    if "Diff_CO" in df:
+        df = Df_Remove_Columns(df, ["Diff_CO"])
+    if "Growing" in df:
+        df = Df_Remove_Columns(df, ["Growing"])
     df['pred'] = df.C
     df['pred'] = df['pred'].shift(-1)
     df.drop(df.tail(1).index, inplace=True)
     cols = ['time_idx', 'O', 'H', 'L', 'C', 'pred']
     df = df[cols]
+    df = Df_Remove_Columns(df, ["O", "H", "L", "C"])
     return df
 
 def OHLC_DF_to_CLASSIFICATION_C(df):
-    df = OHLC_DF_to_REGRESSION_C(df)
     df["Diff_CO"] = df.pred - df.C
     df["Growing"] = df["Diff_CO"] >= 0
     df.Growing.replace((True, False), (1, -1), inplace=True)

@@ -1,5 +1,7 @@
+import pandas as pd
+
 from Oanda_Data import OandaData
-from DATALAKE.MANIPULATION.AI.DL.TIMESERIES.OHLC_Manipulate import OHLC_DF_to_REGRESSION_C
+from DATALAKE.MANIPULATION.AI.DL.TIMESERIES.OHLC_Manipulate import OHLC_DF_to_CLASSIFICATION_C, OHLC_DF_to_REGRESSION_C
 from DATALAKE.MANIPULATION.AI.DL.TIMESERIES.Data_to_PytorchForecasting import DF_to_TSDataSet
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import EarlyStopping
@@ -7,10 +9,17 @@ import torch
 
 from pytorch_forecasting import Baseline, NBeats
 from pytorch_forecasting.metrics import SMAPE
+'''
 OD = OandaData()
-data = OD.GetData("2021-02-01T00:00:00Z", "2021-05-04T00:00:00Z", "EUR_USD", "M15", "DF")
+data = OD.GetData("2021-10-11T00:00:00Z", "2021-11-11T00:00:00Z", "EUR_USD", "M15", "DF")
+'''
+
+data = pd.read_csv('OANDA_EUR_USD_H4.csv')
 df = OHLC_DF_to_REGRESSION_C(data)
-training, train_dataloader, val_dataloader = DF_to_TSDataSet(df,max_encoder_length=60,max_prediction_length=1)
+df_train = df.sample(frac = 0.7)
+
+df_val = df.drop(df_train.index)
+training, validation, train_dataloader, val_dataloader = DF_to_TSDataSet(df_train, df_val, max_encoder_length=60,max_prediction_length=1)
 actuals = torch.cat([y[0] for x, y in iter(val_dataloader)])
 
 
@@ -22,7 +31,7 @@ print(value)
 early_stop_callback = EarlyStopping(monitor="val_loss", min_delta=1e-4, patience=10, verbose=False, mode="min")
 trainer = pl.Trainer(
     max_epochs=100,
-    gpus=[0],
+    gpus=0,
     weights_summary="top",
     gradient_clip_val=0.1,
     callbacks=[early_stop_callback],
