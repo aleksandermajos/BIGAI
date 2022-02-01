@@ -11,7 +11,8 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-**PYTHON+ALGORITHMS+DATA STRUCTURES+ALGORITHMS:**
+**28 DAYS OF CODE CHALLENGE:
+BOOKS AND HACKERRANK:**
 
 Part|                         NAME                         
 ---:|:----------------------------------------------------:
