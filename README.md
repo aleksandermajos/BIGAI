@@ -11,15 +11,17 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-**28 DAYS OF CODE CHALLENGE:
-BOOKS AND HACKERRANK:**
+**NLP CHALLENGE:**
 
-Part|                         NAME                         
----:|:----------------------------------------------------:
-1|                 GROOKING ALGORITHMS                  |1
-2|                 PRACTICAL STATISTICS                 |2
-3|                    FLUENT PYTHON                     |3
-4|                 LEARNING ALGORITHMS                  |4
-5|       ADVANCED ALGORITHMS AND DATA STRUCTIURES       |5
-6|    MACHINE LEARNING WITH PYTORCH AND SCIKIT-LEARN    |6
+Part|                                       NAME                                        
+---:|:---------------------------------------------------------------------------------:
+1|                 Natural Language Processing with Python and spaCy                 |1
+2|                       Practical Natural Language Processing                       |2
+3|                    Python Natural Language Processing Cookbook                    |3
+4|                      Real-World Natural Language Processing                       |4
+5|                       Natural Language Processing in Action                       |5
+6|                   Transformers for Natural Language Processing                    |6
+7|                                         Natural Language Processing with Transformers                                          |7
+8|                   Transfer Learning for Natural Language Processing                    |8
+9|                   Mastering Transformers                   |9
 
