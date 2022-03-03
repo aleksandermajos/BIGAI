@@ -13,18 +13,10 @@
 **TODO:**
 **NLP ENGINEER IN 3 MONTHS:**
 
-Part|                       NAME                        
----:|:-------------------------------------------------:
-1| Natural Language Processing with Python and spaCy |1
-2|       Practical Natural Language Processing       |2
-3|    Python Natural Language Processing Cookbook    |3
-4|      Real-World Natural Language Processing       |4
-5|       Natural Language Processing in Action       |5
-6|   Transformers for Natural Language Processing    |6
-7|   Natural Language Processing with Transformers   |7
-8| Transfer Learning for Natural Language Processing |8
-9|              Mastering Transformers               |9
-10|                 Desktop APP PYQT                  |10
-11|                   Web App DASH                    |11
-12|                  NEMO Framework                   |12
+Part|             NAME              
+---:|:-----------------------------:
+1|   NLP ENGINEER IN 3 MONTHS    |1
+2| ML.DL.RL ENGINEER IN 3 MONTHS |2
+3|  QUANT DEVELOPER IN 3 MONTHS  |3
+
 
