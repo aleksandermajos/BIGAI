@@ -1,4 +1,4 @@
-# BIGAI
+# BIGAI ENGINE.DESKTOP
 
 **MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS** by Aleksander Majos
 
@@ -11,9 +11,10 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
+**ENGINE.DESKTOP.PYQT:**
 
-**ENGINE.DL.NLP**
-**ENGINE.DESKTOP.PYQT**
-**ENGINE.WWW.DASH**
-**BIGAI SCHOOL: NLP ENGINEER IN 3 MONTHS**
+Part|       NAME        
+---:|:-----------------:
+1| PYQT5 DESKTOP APP |1
+
 
