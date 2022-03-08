@@ -31,4 +31,4 @@ Part|                      NAME
 15|               ENGINE.AI.DL.NLP            |15
 16|            ENGINE.PRODUCTION.DESKTOP.PYQT                  |16
 17| ENGINE.PRODUCTION.MOBILE.PYQT |17
-19|               SCHOOL.NLP ENGINEER IN 3 MONTHS             |19
+18|               SCHOOL.NLP ENGINEER IN 3 MONTHS             |18
