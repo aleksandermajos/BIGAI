@@ -13,15 +13,15 @@
 **TODO:**
 **NLP ENGINEER IN 3 MONTHS:**
 
-Part|                       NAME                        
----:|:-------------------------------------------------:
-1| Natural Language Processing with Python and spaCy |1
-2|       Practical Natural Language Processing       |2
-3|    Python Natural Language Processing Cookbook    |3
-4|      Real-World Natural Language Processing       |4
-5|       Natural Language Processing in Action       |5
-6|   Transformers for Natural Language Processing    |6
-7|   Natural Language Processing with Transformers   |7
-8| Transfer Learning for Natural Language Processing |8
-9|              Mastering Transformers               |9
-
+Part|                                ALOHAPP                                
+---:|:------------------------------------------------------------------:
+1| GATHERING DATA FROM WIKI,RADIO, LITTLE PRINCE, SELF LEARNING BOOKS |1
+2|              SIMPLEST QT APP WITH SIDE LIST OF WORDS               |2
+3|           N_GRAMS + SENTENCES FRO IT - REVERSO SCRAPPING           |3
+4|                       INTELLIGENT SENTENCES                        |4
+5|                    SPEECH TO TEXT MIC FR,EN QT                     |5
+6|                        TEXT TO SPEECH FR,EN                        |6
+7|                       TRANSLATE FR-EN,EN-FR                        |7
+8|          TEXT FORMATING COLORS,PART OF SPEECH,TRANSLATION          |8
+9|              DATA FROM RADIO,BOOK, SELF LEARNING BOOK              |9
+10|                          SHORT STORY TALK                          |10
