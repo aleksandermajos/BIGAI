@@ -12,8 +12,26 @@
 
 **TODO:**
 
-**ENGINE.AI.DL.NLP**
-**ENGINE.DESKTOP.PYQT**
-**ENGINE.WWW.DASH**
-**BIGAI SCHOOL: NLP ENGINEER IN 3 MONTHS**
-
+Part|                      NAME                      
+---:|:----------------------------------------------:
+1|               ENGINE.LANG.PYTHON.SELF                |1
+2| ENGINE.LANG.PYTHON.ALGORITHMS |2
+3|    ENGINE.LANG.PYTHON.PANDAS    |3
+4|              ENGINE.LANG.PYTHON.STATISTICS               |4
+5|              ENGINE.LANG.PYTHON.DATA STRUCTURES               |5
+6|              ENGINE.LANG.PYTHON.VISUALIZATIONS               |6
+7|                 ENGINE.AI.ML.DECISION TREES              |7
+8| ENGINE.AI.ML.SKLEARN |8
+9|   ENGINE.AI.ML.SVM    |9
+10|            ENGINE.AI.DL.FRAMEWORKS                |10
+11|               ENGINE.AI.DL.ARCHITECTURES             |11
+12|             ENGINE.AI.DL.COMPUTER VISION              |12
+13|             ENGINE.AI.DL.TIMESERIES                |13
+14|              ENGINE.AI.ML.NLP               |14
+15|               ENGINE.AI.DL.NLP            |15
+16|            ENGINE.PRODUCTION.DESKTOP.PYQT                  |16
+17| ENGINE.PRODUCTION.MOBILE.PYQT |17
+18|  SCHOOL.PYTHON ENGINEER IN 3 MONTHS     |18
+19|           SCHOOL.ML ENGINEER IN 3 MONTHS                 |19
+20|               SCHOOL.NLP ENGINEER IN 3 MONTHS             |20
+21|              SCHOOL.QUANT ENGINEER IN 3 MONTHS             |21

@@ -24,7 +24,4 @@ Part|                       NAME
 7|   Natural Language Processing with Transformers   |7
 8| Transfer Learning for Natural Language Processing |8
 9|              Mastering Transformers               |9
-10|                 Desktop APP PYQT                  |10
-11|                   Web App DASH                    |11
-12|                  NEMO Framework                   |12
 

@@ -13,10 +13,11 @@
 **TODO:**
 **NLP ENGINEER IN 3 MONTHS:**
 
-Part|             NAME              
----:|:-----------------------------:
-1|   NLP ENGINEER IN 3 MONTHS    |1
-2| ML.DL.RL ENGINEER IN 3 MONTHS |2
-3|  QUANT DEVELOPER IN 3 MONTHS  |3
+Part|            NAME             
+---:|:---------------------------:
+1| PYTHON ENGINEER IN 3 MONTHS |1
+2|   ML ENGINEER IN 3 MONTHS   |2
+3|  NLP DEVELOPER IN 3 MONTHS  |3
+4| QUANT DEVELOPER IN 3 MONTHS |4
 
 
