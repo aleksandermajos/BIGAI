@@ -11,7 +11,7 @@ from pytorch_forecasting import Baseline, NBeats
 from pytorch_forecasting.metrics import SMAPE
 '''
 OD = OandaData()
-data = OD.GetData("2021-10-11T00:00:00Z", "2021-11-11T00:00:00Z", "EUR_USD", "M15", "DF")
+DATA = OD.GetData("2021-10-11T00:00:00Z", "2021-11-11T00:00:00Z", "EUR_USD", "M15", "DF")
 '''
 
 data = pd.read_csv('OANDA_EUR_USD_H4.csv')

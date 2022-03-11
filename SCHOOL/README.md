@@ -15,9 +15,7 @@
 
 Part|            NAME             
 ---:|:---------------------------:
-1| PYTHON ENGINEER IN 3 MONTHS |1
-2|   ML ENGINEER IN 3 MONTHS   |2
-3|  NLP DEVELOPER IN 3 MONTHS  |3
-4| QUANT DEVELOPER IN 3 MONTHS |4
+1|   ML ENGINEER IN 3 MONTHS   |1
+
 
 
