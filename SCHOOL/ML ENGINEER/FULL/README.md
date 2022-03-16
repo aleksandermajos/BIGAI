@@ -11,7 +11,7 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-**ML ENGINEER IN 3 MONTHS:**
+**ML ENGINEER 30 DAYS OF CODE:**
 
 Part|        ALOHAPP AND QUANTMAVERICK AS END TO END PROJECTS        
 ---:|:--------------------------------------------------------------:

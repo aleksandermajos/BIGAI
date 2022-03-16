@@ -13,9 +13,9 @@
 **TODO:**
 **NLP ENGINEER IN 3 MONTHS:**
 
-Part|            NAME             
----:|:---------------------------:
-1|   ML ENGINEER IN 3 MONTHS   |1
+Part|             NAME              
+---:|:-----------------------------:
+1| ML ENGINEER |1
 
 
 
