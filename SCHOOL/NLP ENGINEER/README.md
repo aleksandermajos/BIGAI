@@ -1,4 +1,4 @@
-# BIGAI SCHOOL
+# BIGAI SCHOOL NLP ENGINEER
 
 **MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS** by Aleksander Majos
 
@@ -11,13 +11,5 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-**ML.DL.RL ENGINEER IN 3 MONTHS:**
-
-Part|       NAME        
----:|:-----------------:
-1| ML.DL.RL ENGINEER |1
-2|   NLP ENGINEER    |2
-3|  QUANT DEVELOPER  |3
-
-
+**NLP ENGINEER:**
 
