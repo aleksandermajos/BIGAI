@@ -9,7 +9,7 @@ import pandas as pd
 
 def Write_Brokers_Opening_Times(Chart):
     data_path = Path(Path(
-        __file__).resolve().parent.parent.parent) / "DATA\BROKERS_OPEN_TIMES.csv"
+        __file__).resolve().parent.parent.parent.parent) / "DATA\BROKERS_OPEN_TIMES.csv"
     data_path_last = fspath(data_path)
     column_names = ["Broker","Symbol", "Period", "OpenTime"]
     df = pd.DataFrame(columns=column_names)

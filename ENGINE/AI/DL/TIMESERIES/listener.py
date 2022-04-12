@@ -4,8 +4,6 @@ from ENGINE.AI.DL.TIMESERIES.chart import ChartFX
 from ENGINE.AI.DL.TIMESERIES.strategy import StrategyFXTickRandom
 import pandas as pd
 import json
-from pathlib import Path
-from os import fspath
 import os.path
 
 
@@ -70,7 +68,7 @@ class Listener:
                     if x.WindowID == WindowID:
                         exist = True
                         data = x.GetData(my_json)
-                        #self.Strategy['StrategyFXTickRandom'].Decide(self.Charts)
+                        self.Strategy['StrategyFXTickRandom'].Decide(self.Charts)
                         if self.TimeLine.empty:
                             #data_path = Path(Path(__file__).resolve().parent.parent)
                             #data_path_last = fspath(data_path)

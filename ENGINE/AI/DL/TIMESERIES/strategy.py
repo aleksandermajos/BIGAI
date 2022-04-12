@@ -22,6 +22,13 @@ class StrategyFX(Strategy):
     def Decide(self, Charts):
         pass
 
+class StrategyFX_LSTM(StrategyFX):
+    def __init__(self, name):
+        self.name = name
+
+    def Decide(self, Charts):
+        pass
+
 class StrategyFXTickRandom(StrategyFX):
     def __init__(self, name):
         self.name = name
@@ -57,7 +64,7 @@ class StrategyFXTickArbitrage(StrategyFX):
 
 
     def Decide(self, Charts):
-        if len(Charts) > 6:
+        if len(Charts) > 2:
             for x in Charts:
                 for y in Charts:
                     if (x.ap_diff > 0 and y.ap_diff < 0) and ((abs(x.ap_diff)+abs(y.ap_diff)) > 0.00002):
