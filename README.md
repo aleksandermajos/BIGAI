@@ -14,6 +14,6 @@
 
 Part|   NAME   
 ---:|:--------:
-1|  ENGINE  |1
-2|  SCHOOL  |2
+1|  SCHOOL  |1
+2|  ENGINE  |2
 3| BUSINESS |3

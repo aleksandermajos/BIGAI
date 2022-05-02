@@ -28,7 +28,7 @@ SAMPLE_RATE = 16000
 # In[23]:
 
 
-asr_model = nemo_asr.models.EncDecCTCModel.from_pretrained('stt_fr_quartznet15x5')
+asr_model = nemo_asr.models.EncDecCTCModel.from_pretrained(model_name="stt_pl_quartznet15x5")
 
 
 # ## Observing the config of the model
