@@ -1,6 +1,9 @@
 # BIGAISCHOOL ML.DL.RL ENGINEER BEGINNER THEORY
 
-**MACHINE LEARNING, DEEP LEARNING COURSE BASED ON BIGAI ENGINE** by Aleksander Majos
+**MACHINE LEARNING, DEEP LEARNING BEGINNER THEORY COURSE BASED ON BIGAI ENGINE**
+
+This contains Jupyter Notebooks Files run on Jupyter Notebook or Jupyter Lab
+It is build upon BIGAI Engine
 
 > **BEWARE**: This is a work in progress!
 >
@@ -12,9 +15,10 @@
 
 **TODO:**
 
-**REQUIREMENTS.ipynb:**:+1:
+REQUIREMENTS.ipynb:👍
 
-**BIGAI YT CHANNEL START**:+1:
+BIGAI YT CHANNEL START👍
+
 
 
 
