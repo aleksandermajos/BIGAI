@@ -1,6 +1,6 @@
-# BIGAI SCHOOL ML.DL.RL ENGINEER
+# BIGAISCHOOL ML.DL.RL ENGINEER BEGINNER THEORY
 
-**MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS** by Aleksander Majos
+**MACHINE LEARNING, DEEP LEARNING COURSE BASED ON BIGAI ENGINE** by Aleksander Majos
 
 > **BEWARE**: This is a work in progress!
 >
@@ -11,5 +11,10 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-**ML.DL.RL ENGINEER:**
+
+**REQUIREMENTS.ipynb:**:+1:
+
+**BIGAI YT CHANNEL START**:+1:
+
+
 
