@@ -1,7 +1,0 @@
-README.md
-setup.py
-Trading_env.egg-info/PKG-INFO
-Trading_env.egg-info/SOURCES.txt
-Trading_env.egg-info/dependency_links.txt
-Trading_env.egg-info/requires.txt
-Trading_env.egg-info/top_level.txt
