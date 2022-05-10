@@ -1,10 +1,9 @@
-# BIGAISCHOOL ML.DL.RL ENGINEER BEGINNER
+# BIGAISCHOOL ML.DL.RL ENGINEER BEGINNER THEORY
 
-**MACHINE LEARNING, DEEP LEARNING BEGINNER COURSE BASED ON BIGAI ENGINE**
+**MACHINE LEARNING, DEEP LEARNING BEGINNER THEORY COURSE BASED ON BIGAI ENGINE**
 
-This contains PRACTICE and THEORY parts.
-THEORY is where You have all Jupyter files, pictures, videos, formulas etc.
-PRACTICE is where You have use cases in real-world project in Jupyter files
+This contains Jupyter Notebooks Files run on Jupyter Notebook or Jupyter Lab
+It is build upon BIGAI Engine
 
 > **BEWARE**: This is a work in progress!
 >
@@ -16,10 +15,9 @@ PRACTICE is where You have use cases in real-world project in Jupyter files
 
 **TODO:**
 
-Part|   NAME   
----:|:--------:
-1|  THEORY  |1
-2| PRACTICE |2
+REQUIREMENTS.ipynb:👍
+
+BIGAI YT CHANNEL START👍
 
 
 
