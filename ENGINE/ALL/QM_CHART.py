@@ -244,7 +244,7 @@ class ChartFIX(Chart):
         diff = stop-start
         if data == 'b\'\'':
             return pd.DataFrame()
-        if "CASES" in data:
+        if "USE" in data:
             headerAndBodyAndTrailer = self.MarketDataReq(str(self.seq_num), str(self.subscription_id))
             print('MARTKET_DATA_REQ packet sent to ctrader!!!')
             self.s.sendall(headerAndBodyAndTrailer.encode(encoding='ascii'))

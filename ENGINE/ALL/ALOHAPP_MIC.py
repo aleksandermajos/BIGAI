@@ -1,13 +1,10 @@
-import sys
 import pyaudio
 import threading
 import atexit
 import numpy as np
 from PyQt5.QtCore import pyqtSlot
-
 import sys
 
-from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (
     QApplication,
     QCheckBox,
@@ -90,12 +87,3 @@ class BBL_Form(QMainWindow):
     @pyqtSlot()
     def on_click(self):
         print('USE MIC!')
-
-
-
-
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    window = BBL_Form()
-    window.show()
-    app.exec()
