@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/aleks/PycharmProjects/BIGAI/ENGINE/AI/MLOPS/mlruns/0/15ff25a035ed4991860ac6206081995b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 15ff25a035ed4991860ac6206081995b
+run_uuid: 15ff25a035ed4991860ac6206081995b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1649245335711
+status: 1
+tags: []
+user_id: aleks
