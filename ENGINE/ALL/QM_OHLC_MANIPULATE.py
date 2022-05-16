@@ -37,7 +37,7 @@ def Add_Diff_CO_Column(df):
 
 def Add_Growing_Column(df):
     df["Growing"] = df["Diff_CO"] >= 0
-    df.Growing.replace((True, False), (1, -1), inplace=True)
+    df.Growing.replace((True, False), (1, 0), inplace=True)
     df = df[df.columns.difference(['Diff_CO'])]
     return df
 
