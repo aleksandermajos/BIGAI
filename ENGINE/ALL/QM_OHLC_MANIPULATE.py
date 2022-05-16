@@ -38,6 +38,7 @@ def Add_Diff_CO_Column(df):
 def Add_Growing_Column(df):
     df["Growing"] = df["Diff_CO"] >= 0
     df.Growing.replace((True, False), (1, -1), inplace=True)
+    df = df[df.columns.difference(['Diff_CO'])]
     return df
 
 def Df_To_CSV(df,path,name):
@@ -74,3 +75,11 @@ def OHLC_DF_to_CLASSIFICATION_C(df):
     cols = ['time_idx','O','H', 'L', 'C', 'pred']
     df = df[cols]
     return df
+
+def MT4_DF_to_CLASSIFICATION(df):
+    df.columns = ['Data', 'Time', 'O', 'H', 'L', 'C', 'V']
+    data = Df_Remove_Columns(df, ['Data', 'Time', 'V'])
+    data = Add_Diff_CO_Column(data)
+    data = Add_Growing_Column(data)
+    data = data.reindex(['O', 'H', 'L', 'C', 'Growing'], axis=1)
+    return data

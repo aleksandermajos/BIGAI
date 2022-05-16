@@ -18,7 +18,7 @@ check_packages(d)
 
 v1 = np.array([1, 2, 3])
 v2 = 0.5 * v1
-np.arccos(v1.dot(v2) / (np.linalg.norm(v1) * np.linalg.norm(v2)))
+zero=np.arccos(v1.dot(v2) / (np.linalg.norm(v1) * np.linalg.norm(v2)))
 
 df = get_iris_dataset()
 
