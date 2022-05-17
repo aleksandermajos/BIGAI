@@ -1,5 +1,6 @@
 import pandas as pd
 from ENGINE.ALL.QM_OHLC_MANIPULATE import MT4_DF_to_CLASSIFICATION
+from ENGINE.ALL.QM_DF_TO_PYTORCH import new_dataset
 from sklearn.model_selection import train_test_split
 import numpy as np
 import pandas as pd
@@ -12,23 +13,15 @@ import torch.nn.functional as F
 import torch.nn as nn
 from torch.autograd import Variable
 import tqdm
-'''
-dataset = pd.read_csv('DATA\\iris.csv')
-# transform species to numerics
-dataset.loc[dataset.species=='Iris-setosa', 'species'] = 0
-dataset.loc[dataset.species=='Iris-versicolor', 'species'] = 1
-dataset.loc[dataset.species=='Iris-virginica', 'species'] = 2
-
-train_X, test_X, train_y, test_y = train_test_split(dataset[dataset.columns[0:4]].values,
-                                                    dataset.species.values, test_size=0.2)
-
-'''
-
 
 data = pd.read_csv('DATA\\QM_MT4_CSV\\EURUSD.30.csv')
 data = MT4_DF_to_CLASSIFICATION(data)
+X,Y= new_dataset(data,10)
+
 X_train, X_test, y_train, y_test = train_test_split(data[data.columns[0:4]].values,
                                                     data.Growing.values, test_size=0.2)
+
+
 
 class Model(nn.Module):
     def __init__(self, input_dim):
