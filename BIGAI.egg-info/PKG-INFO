@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: BIGAI
+Version: 0.0.2
+Summary: An AI Library as a Baseline to create AI Projects
+Home-page: UNKNOWN
+Author: Aleksander Majos
+Author-email: aleksander.majos@gmail.com
+License: LICENSE.txt
+Download-URL: https://github.com/aleksandermajos/BIGAI
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+# BIGAI
+
+**MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS** by Aleksander Majos
+
+> **BEWARE**: This is a work in progress!
+>
+> * Code here may change and disappear without warning.
+>
+> * Major reorganizations may happen at any time.
+>
+> * No promises. No guarantees. Use at own risk.
+
+**TODO:**
+
+Part|   NAME   
+---:|:--------:
+1|  SCHOOL  |1
+2|  ENGINE  |2
+3| BUSINESS |3
+
+
