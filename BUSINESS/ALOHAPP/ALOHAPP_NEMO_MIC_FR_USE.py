@@ -5,7 +5,7 @@ from omegaconf import OmegaConf
 import copy
 import nemo.collections.asr as nemo_asr
 from torch.utils.data import DataLoader
-from BUSINESS.USE.ALOHAPP.ALOHAPP_NEMO_MIC_FR import AudioDataLayer , FrameASR
+from BUSINESS.ALOHAPP.ALOHAPP_NEMO_MIC_FR import AudioDataLayer , FrameASR
 
 SAMPLE_RATE = 16000
 asr_model = nemo_asr.models.EncDecCTCModel.from_pretrained(model_name="stt_pl_quartznet15x5")

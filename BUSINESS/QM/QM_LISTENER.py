@@ -1,7 +1,7 @@
 import zmq
 import zmq.asyncio
-from BUSINESS.USE.QM.QM_CHART import ChartFX
-from BUSINESS.USE.QM.QM_STRATEGY import StrategyFXTickRandom
+from BUSINESS.QM.QM_CHART import ChartFX
+from BUSINESS.QM.QM_STRATEGY import StrategyFXTickRandom
 import pandas as pd
 import json
 import os.path

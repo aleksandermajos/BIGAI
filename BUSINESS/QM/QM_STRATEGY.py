@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 import json
 from random import choice
-from BUSINESS.USE.QM.QM_OPENING_CLOSING_MT4_TIMES import Open_Time_To_Existing_Chart
+from BUSINESS.QM.QM_OPENING_CLOSING_MT4_TIMES import Open_Time_To_Existing_Chart
 
 
 class Strategy(ABC):

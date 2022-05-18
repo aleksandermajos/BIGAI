@@ -1,5 +1,5 @@
-from BUSINESS.USE.QM.QM_OHLC_MANIPULATE import MT4_DF_to_CLASSIFICATION
-from BUSINESS.USE.QM.QM_DF_TO_PYTORCH import new_dataset
+from BUSINESS.QM.QM_OHLC_MANIPULATE import MT4_DF_to_CLASSIFICATION
+from BUSINESS.QM.QM_DF_TO_PYTORCH import new_dataset
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

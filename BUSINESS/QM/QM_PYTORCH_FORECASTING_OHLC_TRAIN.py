@@ -1,5 +1,5 @@
-from BUSINESS.USE.QM.QM_OHLC_MANIPULATE import OHLC_DF_to_REGRESSION_C
-from BUSINESS.USE.QM.QM_DF_TO_PYTORCH_FORECASTING import DF_to_TSDataSet
+from BUSINESS.QM.QM_OHLC_MANIPULATE import OHLC_DF_to_REGRESSION_C
+from BUSINESS.QM.QM_DF_TO_PYTORCH_FORECASTING import DF_to_TSDataSet
 import torch
 import pandas as pd
 from pytorch_forecasting import Baseline, NBeats
