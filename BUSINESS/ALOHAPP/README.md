@@ -1,4 +1,4 @@
-# ALOHAPP
+# BIGAI BUSINESS ALOHAPP
 
 **MODULAR LEARNING LANGUAGE SYSTEM BASED ON BIGAI ENGINE**by Aleksander Majos
 
@@ -24,3 +24,4 @@ Part|                                NAME
 8|          TEXT FORMATING COLORS,PART OF SPEECH,TRANSLATION          |8
 9|              DATA FROM RADIO,BOOK, SELF LEARNING BOOK              |9
 10|                          SHORT STORY TALK                          |10
+11|                   BLEND INTO EXPISTING ECOSYSTEM                   |11
