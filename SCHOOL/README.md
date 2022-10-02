@@ -22,13 +22,10 @@ Each Course is divided on Beginner and Advance Level
 
 **TODO:**
 
-*ML.DL.RL ENGINEER COURSE*
+Part|              NAME              
+---:|:------------------------------:
+1|             ENGINE             |1
 
-*NLP ENGINEER COURSE*
-
-*QUANT TRADER COURSE*
-
-*QUANTUM ENGINEER COURSE*
 
 
 

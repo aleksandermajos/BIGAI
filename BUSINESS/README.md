@@ -1,6 +1,6 @@
-# BIGAI
+# BIGAI BUSINES
 
-**MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS** by Aleksander Majos
+**MODULAR FRAMEWORK BASED ON MACHINE LEARNING, DEEP LEARNING AND REINFORCEMENT LEARNING ALGORITHMS** by Aleksander Majos
 
 > **BEWARE**: This is a work in progress!
 >
@@ -12,8 +12,6 @@
 
 **TODO:**
 
-Part|   NAME   
----:|:--------:
-1|  ENGINE  |1
-2|  SCHOOL  |2
-3| BUSINESS |3
+Part|  NAME  
+---:|:------:
+1| ENGINE |1
