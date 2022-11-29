@@ -1,7 +1,9 @@
 from fairseq.checkpoint_utils import load_model_ensemble_and_task_from_hf_hub
 from fairseq.models.text_to_speech.hub_interface import TTSHubInterface
 import IPython.display as ipd
+import torch
 
+device = "cuda" if torch.cuda.is_available() else "cpu"
 
 models, cfg, task = load_model_ensemble_and_task_from_hf_hub(
     "facebook/tts_transformer-fr-cv7_css10",

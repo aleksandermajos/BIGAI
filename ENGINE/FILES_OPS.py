@@ -2,7 +2,7 @@ import os
 import subprocess
 
 current_path = os.getcwd()
-lang = 'French'
+lang = 'German'
 learning_path = './DATA/PHRASES/LEARNING/'+lang
 
 def get_all_names(path):
