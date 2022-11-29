@@ -20,5 +20,3 @@ def convert_all_mp3_to_16kbwav(path,delete=True):
             if delete == True:
                 os.remove(full_input_path)
 
-
-convert_all_mp3_to_16kbwav(path=learning_path,delete=True)
