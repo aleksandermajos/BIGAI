@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIGAI.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/BIGAI.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/TTS_DE_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_DE_SILERO.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +30,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/aleksander/PycharmProjects/BIGAI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -61,6 +75,8 @@
       <workItem from="1638556958637" duration="16000" />
       <workItem from="1646763717492" duration="5000" />
       <workItem from="1668949866329" duration="33000" />
+      <workItem from="1670346134527" duration="21000" />
+      <workItem from="1670346408523" duration="803000" />
     </task>
     <servers />
   </component>
