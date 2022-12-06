@@ -9,10 +9,11 @@ class StableDiffiusion():
         self.pipe = self.pipe.to("cuda")
         self.path = "../../ALOHAPP/DATA/PIC/"
 
+
     def askModel(self,prompt,h=768,w=768):
         image = self.pipe(prompt, height=h, width=w).images[0]
         return image
 
     def ask_and_save(self,prompt,file,h=768,w=768):
         image = self.askModel(prompt,h=h,w=w)
-        image.save(self.path+file)
+        image.save(self.path+'buli.png')
