@@ -1,7 +1,7 @@
 import pyaudio
 import wave
 
-class Recorder():
+class Mic_Recorder():
 
     def __init__(self,length=10,path="../DATA/PHRASES/SPEAKING/",file='polish666.wav'):
         self.length = length
