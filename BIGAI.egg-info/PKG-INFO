@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: BIGAI
-Version: 0.0.2
+Version: 0.0.3
 Summary: An AI Library as a Baseline to create AI Projects
 Home-page: UNKNOWN
 Author: Aleksander Majos
@@ -22,12 +22,6 @@ License-File: LICENSE.txt
 >
 > * No promises. No guarantees. Use at own risk.
 
-**TODO:**
 
-Part|   NAME   
----:|:--------:
-1|  ENGINE  |1
-2|  SCHOOL  |2
-3| BUSINESS |3
 
 
