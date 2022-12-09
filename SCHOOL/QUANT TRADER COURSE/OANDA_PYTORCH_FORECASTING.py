@@ -1,5 +1,5 @@
-from ENGINE.DATA_OANDA_GET import OandaData
-from ENGINE.DATA_OHLC_MANIPULATE import OHLC_DF_to_REGRESSION_C
+from BUSINESS.QUANT.DATA_OANDA_GET import OandaData
+from BUSINESS.QUANT.DATA_OHLC_MANIPULATE import OHLC_DF_to_REGRESSION_C
 from ENGINE.DATA_DF_TO_PYTORCH_FORECASTING import DF_to_TSDataSet
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import EarlyStopping

@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from INSTRUMENT_QM import InstrumentMT4, InstrumentCTRADER
-from ENGINE.ACCOUNT_QM import AccountMT4, AccountCTRADER, AccountFXCMAPI, AccountFIX
+from BUSINESS.QUANT.ACCOUNT_QM import AccountMT4, AccountCTRADER, AccountFXCMAPI, AccountFIX
 from TRANSACTION_QM import TransactionMT4, TransactionCTRADER
 import json
 import pandas as pd

@@ -7,7 +7,7 @@ class StableDiffiusion():
         scheduler = EulerDiscreteScheduler.from_pretrained(model_id, subfolder="scheduler")
         self.pipe = StableDiffusionPipeline.from_pretrained(model_id, scheduler=scheduler, revision="fp16",torch_dtype=torch.float16)
         self.pipe = self.pipe.to("cuda")
-        self.path = "../../ALOHAPP/DATA/PIC/"
+        self.path = "../../../ALOHAPP/DATA/PIC/"
 
 
     def askModel(self,prompt,h=768,w=768):
