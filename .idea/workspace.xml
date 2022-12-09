@@ -5,56 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI BEGINNING FOR SCHOOL">
-      <change afterPath="$PROJECT_DIR$/BUSINESS/ML.DL.RL/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BUSINESS/NLP/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BUSINESS/PRODUCTION/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BUSINESS/QUANT/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BUSINESS/QUANTUM/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/METRICS_DL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/TRAINING_DL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/TUNING_DL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/ACTIVATION_FUNC_DL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/MATPLOTLIB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/NUMPY.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PANDAS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/TENSORFLOW_START.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/BROKERS_OPEN_TIMES.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/DATA_CANDLES.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/QM_MT4_CSV/EURUSD.240.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/QM_MT4_CSV/EURUSD.30.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/QM_MT4_CSV/EURUSD.60.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/QM_MT5_CSV/EURUSD_M30_202001020600_202207181600.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/cTRADER/EURUSD_Candlestick_30_M_BID_01.01.2021-16.07.2022.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUSINESS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ACCOUNT_QM.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANT/ACCOUNT_QM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ASR_WHISPER.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/NLP/ASR_WHISPER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/CHART_QM.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANT/CHART_QM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/DATA_OANDA_GET.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANT/DATA_OANDA_GET.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/DATA_OHLC_MANIPULATE.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANT/DATA_OHLC_MANIPULATE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/DATA_PLAT_CLASSIFICATION_QM.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANT/DATA_PLAT_CLASSIFICATION_QM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/FILES_OPS.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/NLP/FILES_OPS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/INSTRUMENT_QM.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANT/INSTRUMENT_QM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/LISTENER_QM.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANT/LISTENER_QM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/PIC_GEN_STABLEDIFF.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/NLP/PIC_GEN_STABLEDIFF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/REC_MIC_PYAUDIO.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/NLP/REC_MIC_PYAUDIO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/REC_SPEAKER.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/NLP/REC_SPEAKER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/SCRAPPING_REVERSO_BS.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/NLP/SCRAPPING_REVERSO_BS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/STRATEGY_QM.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANT/STRATEGY_QM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TEXTGEN_BLOOM.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/NLP/TEXTGEN_BLOOM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TIME_OPENING_CLOSING_MT4_QM.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANT/TIME_OPENING_CLOSING_MT4_QM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TRANSACTION_QM.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANT/TRANSACTION_QM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TRANSLATE_EN_DE_FAIRQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/NLP/TRANSLATE_EN_DE_FAIRQ.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TTS_DE_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/NLP/TTS_DE_SILERO.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/TF_START.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/EVALUATION_MODELS_DL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA_PLAT_CLASSIFICATION_QM.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA_PLAT_CLASSIFICATION_QM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DF_TO_PYTORCH.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DF_TO_PYTORCH.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/OANDA_PYTORCH_FORECASTING.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/OANDA_PYTORCH_FORECASTING.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/PYTORCH_FORECASTING_OHLC_TRAIN.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/PYTORCH_FORECASTING_OHLC_TRAIN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/PYTORCH_MLP_FROM_MT4.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/PYTORCH_MLP_FROM_MT4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/TENSORFLOW_START.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/TENSORFLOW_START.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +237,7 @@
       <workItem from="1670420206844" duration="3175000" />
       <workItem from="1670438887476" duration="173000" />
       <workItem from="1670519062106" duration="929000" />
-      <workItem from="1670573106750" duration="7311000" />
+      <workItem from="1670573106750" duration="8272000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -300,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670576481192</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BIGAI BEGINNING FOR SCHOOL">
+      <created>1670592216969</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670592216969</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
