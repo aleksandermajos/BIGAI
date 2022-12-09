@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="CUDA CPU">
-      <change afterPath="$PROJECT_DIR$/ENGINE/DL_PLAIDML.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/MLFLOW_DL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/MODELS_DL_TF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/REGRESS_DL_TF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/VISUALIZE_DL.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/TF_START.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_LIGHT_CANCER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/CLASSIF_DL_TF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_START.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_START.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_START2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/REQUIREMENTS.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/REQUIREMENTS.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pytorch-deep-learning/00_pytorch_fundamentals.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../pytorch-deep-learning/00_pytorch_fundamentals.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pytorch-deep-learning/06_pytorch_transfer_learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../pytorch-deep-learning/06_pytorch_transfer_learning.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tensorflow-deep-learning/00_tensorflow_fundamentals.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow-deep-learning/00_tensorflow_fundamentals.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tensorflow-deep-learning/02_neural_network_classification_in_tensorflow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow-deep-learning/02_neural_network_classification_in_tensorflow.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow-deep-learning/04_transfer_learning_in_tensorflow_part_1_feature_extraction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow-deep-learning/04_transfer_learning_in_tensorflow_part_1_feature_extraction.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +61,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/aleksander/PycharmProjects/BIGAI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aleksander/PycharmProjects/tensorflow-deep-learning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.DL_PLAIDML">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../tensorflow-deep-learning" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.PYTORCH_GPU">
     <configuration name="DL_MAC_PLAIDML" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,6 +126,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="PYTHON_ENV_CHECK" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTHON_ENV_CHECK.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PYTORCH_GPU" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_GPU.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,6 +194,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PYTORCH_GPU" />
+        <item itemvalue="Python.PYTHON_ENV_CHECK" />
         <item itemvalue="Python.DL_PLAIDML" />
         <item itemvalue="Python.DL_MAC_PLAIDML" />
       </list>
@@ -154,6 +218,9 @@
       <workItem from="1670364544574" duration="386000" />
       <workItem from="1670420102494" duration="93000" />
       <workItem from="1670420206844" duration="3175000" />
+      <workItem from="1670438887476" duration="173000" />
+      <workItem from="1670519062106" duration="929000" />
+      <workItem from="1670573106750" duration="2316000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -184,6 +251,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="CUDA CPU" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BIGAI$PYTHON_ENV_CHECK.coverage" NAME="PYTHON_ENV_CHECK Coverage Results" MODIFIED="1670573919587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE" />
+    <SUITE FILE_PATH="coverage/BIGAI$PYTORCH_GPU.coverage" NAME="PYTORCH_GPU Coverage Results" MODIFIED="1670573980727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE" />
     <SUITE FILE_PATH="coverage/BIGAI$DL_PLAIDML.coverage" NAME="DL_PLAIDML Coverage Results" MODIFIED="1670423752096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$DL_MAC_PLAIDML.coverage" NAME="DL_MAC_PLAIDML Coverage Results" MODIFIED="1670422128857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
   </component>
