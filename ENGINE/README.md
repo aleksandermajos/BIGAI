@@ -1,4 +1,4 @@
-# BIGAI BUSINES
+# BIGAI ENGINE
 
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
 
@@ -7,7 +7,7 @@
 
 
 
-**MODULAR FRAMEWORK BASED ON MACHINE LEARNING, DEEP LEARNING AND REINFORCEMENT LEARNING ALGORITHMS** by Aleksander Majos
+**MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS** by Aleksander Majos
 
 > **BEWARE**: This is a work in progress!
 >
@@ -16,4 +16,5 @@
 > * Major reorganizations may happen at any time.
 >
 > * No promises. No guarantees. Use at own risk.
+
 

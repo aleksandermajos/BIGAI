@@ -1,16 +1,10 @@
 # BIGAISCHOOL
 
-**COURSES:**
+*⭐️ Like this repo? please star & consider donating to keep it maintained*
 
-*1>MACHINE LEARNING, DEEP LEARNING, REINFORCEMENT LEARNING COURSE BASED ON BIGAI ENGINE*
+<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-*2>NATURAL LANGUAGE PROCESSING COURSE BASED ON BIGAI ENGINE*
 
-*3>QUANT TRADER COURSE BASED ON BIGAI ENGINE*
-
-*4>QUANTUM ENGINEER COURSE BASED ON BIGAI ENGINE*
-
-Each Course is divided on Beginner and Advance Level
 
 > **BEWARE**: This is a work in progress!
 >
@@ -20,11 +14,6 @@ Each Course is divided on Beginner and Advance Level
 >
 > * No promises. No guarantees. Use at own risk.
 
-**TODO:**
-
-Part|              NAME              
----:|:------------------------------:
-1|             ENGINE             |1
 
 
 

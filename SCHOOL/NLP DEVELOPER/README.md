@@ -1,4 +1,4 @@
-# BIGAI BUSINES
+# BIGAISCHOOL NLP DEV COURSE
 
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
 
@@ -7,7 +7,13 @@
 
 
 
-**MODULAR FRAMEWORK BASED ON MACHINE LEARNING, DEEP LEARNING AND REINFORCEMENT LEARNING ALGORITHMS** by Aleksander Majos
+**PYTHON, PROBLEM SOLVING BASED ON QUANT ALGORITHMS**
+
+This contains Jupyter Notebooks Files run on Jupyter Notebook or Jupyter Lab
+also
+This contains py Files run on Python enviroment
+also
+END TO END PROJECT CALLED QUANTMAVERICK
 
 > **BEWARE**: This is a work in progress!
 >
@@ -16,4 +22,15 @@
 > * Major reorganizations may happen at any time.
 >
 > * No promises. No guarantees. Use at own risk.
+
+**TODO:**
+
+
+
+
+
+
+
+
+
 

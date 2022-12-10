@@ -4,7 +4,89 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI BEGINNING FOR SCHOOL" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="COFFEE">
+      <change afterPath="$PROJECT_DIR$/BUSINESS/BIO/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BUSINESS/CV/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BUSINESS/RL/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/BIOINFORMATICS DEV/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/BIOINFORMATICS DEV/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/BIOINFORMATICS DEV/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/COMPUTER VISION DEVELOPER/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/COMPUTER VISION DEVELOPER/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/COMPUTER VISION DEVELOPER/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/NLP DEVELOPER/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/NLP DEVELOPER/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/NLP DEVELOPER/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/QUANTUM DEV/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/QUANTUM DEV/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/QUANTUM DEV/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/REINFORCEMENT LEARNING DEVELOPER/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/REINFORCEMENT LEARNING DEVELOPER/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/REINFORCEMENT LEARNING DEVELOPER/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ALOHAPP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ALOHAPP/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ALOHAPP/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ALOHAPP/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BUSINESS/ML.DL.RL/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/DS.ML.DL/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BUSINESS/NLP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/NLP/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BUSINESS/PRODUCTION/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/PRODUCTION/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BUSINESS/QUANT/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANT/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BUSINESS/QUANTUM/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/QUANTUM/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BUSINESS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/ACTIVATION_FUNC_DL.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/ACTIVATION_FUNC_DL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/DATA/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/DATA/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/ADALINE.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/ADALINE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/GRADIENT.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/GRADIENT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/IRIS_DESCR.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/LINEARY_NONLINEARY.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/MIN_COST_FUNCTION.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/ML_CLASS.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/ML_CLUSTERING.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/ML_DIM_RED.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/ML_DIV.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/ML_DIV.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/ML_FLOW.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/ML_FLOW_FULL.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/ML_REGRESSION.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/ML_RL.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/ML_RL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/NEURON.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/NEURON.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/PERCEPTRON.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/PERCEPTRON_LEARNING_RULE.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/FIGURES/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/FIGURES/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/MATPLOTLIB.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/MATPLOTLIB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/MLFLOW_PYTORCH_IRIS.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/MLFLOW_PYTORCH_IRIS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/NUMPY.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/NUMPY.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PANDAS.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/PANDAS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTHON_ENV_CHECK.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/PYTHON_ENV_CHECK.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCHF_TFT.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/PYTORCHF_TFT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_DARNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/PYTORCH_DARNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_DARNN_TRAIN.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/PYTORCH_DARNN_TRAIN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_GPU.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/PYTORCH_GPU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_LIGHT_MLP_CIFAR.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/PYTORCH_LIGHT_MLP_CIFAR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_LIGHT_XOR.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/PYTORCH_LIGHT_XOR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_MLP_IRIS_DATASET.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/PYTORCH_MLP_IRIS_DATASET.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/PYTORCH_START.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/PYTORCH_START.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE/TENSORFLOW_START.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/TENSORFLOW_START.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/BROKERS_OPEN_TIMES.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/DATA/BROKERS_OPEN_TIMES.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/DATA_CANDLES.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/DATA/DATA_CANDLES.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/QM_MT4_CSV/EURUSD.240.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/DATA/QM_MT4_CSV/EURUSD.240.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/QM_MT4_CSV/EURUSD.30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/DATA/QM_MT4_CSV/EURUSD.30.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/QM_MT4_CSV/EURUSD.60.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/DATA/QM_MT4_CSV/EURUSD.60.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/QM_MT5_CSV/EURUSD_M30_202001020600_202207181600.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/DATA/QM_MT5_CSV/EURUSD_M30_202001020600_202207181600.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/DATA/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA/cTRADER/EURUSD_Candlestick_30_M_BID_01.01.2021-16.07.2022.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/DATA/cTRADER/EURUSD_Candlestick_30_M_BID_01.01.2021-16.07.2022.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DATA_PLAT_CLASSIFICATION_QM.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/DATA_PLAT_CLASSIFICATION_QM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/DF_TO_PYTORCH.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/DF_TO_PYTORCH.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/FIGURES/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/FIGURES/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/OANDA_PYTORCH_FORECASTING.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/OANDA_PYTORCH_FORECASTING.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/PYTORCH_FORECASTING_OHLC_TRAIN.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/PYTORCH_FORECASTING_OHLC_TRAIN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/PYTORCH_FORECASTING_TFT_FROM_OHLC.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/PYTORCH_FORECASTING_TFT_FROM_OHLC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/PYTORCH_IRIS_CLASSIFICATION.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/PYTORCH_IRIS_CLASSIFICATION.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/PYTORCH_MLP_FROM_MT4.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/PYTORCH_MLP_FROM_MT4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/QUANT TRADER COURSE/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/QUANT DEV/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QUANTMAVERICK/START.py" beforeDir="false" afterPath="$PROJECT_DIR$/../QUANTMAVERICK/START.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,28 +125,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aleksander/PycharmProjects/BIGAI/BUSINESS/QUANTUM&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/aleksander/PycharmProjects/BIGAI/BUSINESS/RL",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/BUSINESS/QUANTUM" />
-      <recent name="$PROJECT_DIR$/BUSINESS/PRODUCTION" />
-      <recent name="$PROJECT_DIR$/BUSINESS/NLP" />
-      <recent name="$PROJECT_DIR$/BUSINESS/QUANT" />
-      <recent name="$PROJECT_DIR$/BUSINESS/ML.DL.RL" />
+      <recent name="$PROJECT_DIR$/BUSINESS/RL" />
+      <recent name="$PROJECT_DIR$/BUSINESS/CV" />
+      <recent name="$PROJECT_DIR$/BUSINESS/BIO" />
+      <recent name="$PROJECT_DIR$/ENGINE" />
+      <recent name="$PROJECT_DIR$/SCHOOL/REINFORCEMENT LEARNING DEVELOPER" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/BUSINESS/QUANT" />
@@ -239,7 +321,8 @@
       <workItem from="1670668512801" duration="342000" />
       <workItem from="1670669158098" duration="292000" />
       <workItem from="1670670154255" duration="165000" />
-      <workItem from="1670681011789" duration="1338000" />
+      <workItem from="1670681011789" duration="1473000" />
+      <workItem from="1670686199449" duration="3021000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -276,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670684444283</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="COFFEE">
+      <created>1670685085769</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670685085769</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +386,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CUDA CPU" />
     <MESSAGE value="BIGAI BEGINNING FOR SCHOOL" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI BEGINNING FOR SCHOOL" />
+    <MESSAGE value="COFFEE" />
+    <option name="LAST_COMMIT_MESSAGE" value="COFFEE" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BIGAI$TENSORFLOW_START.coverage" NAME="TENSORFLOW_START Coverage Results" MODIFIED="1670578107234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/ML.DL.RL ENGINEER COURSE" />

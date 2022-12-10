@@ -1,4 +1,4 @@
-# BIGAI BUSINES ML.DL.RL
+# BIGAI BUSINES RL
 
 **MODULAR BUSINESS READY TO USE ML.DL.RL METHODS BASED ON BIGAI ENGINE** by Aleksander Majos
 
@@ -10,10 +10,3 @@
 >
 > * No promises. No guarantees. Use at own risk.
 
-**TODO:**
-
-Part|   NAME   
----:|:--------:
-1|  ENGINE  |1
-2|  SCHOOL  |2
-3| BUSINESS |3
