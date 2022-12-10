@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="CUDA CPU">
-      <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIGAI.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/BIGAI.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIGAI.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BIGAI.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUSINESS/NLP/PIC_GEN_STABLEDIFF.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/CV/PIC_GEN_STABLEDIFF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DS.ML.DL ENGINEER/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/BIGAI-0.0.3-py3.9.egg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/BIGAI-0.0.3-py3.9.egg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QUANTMAVERICK/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../QUANTMAVERICK/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README PROJECTS" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +155,7 @@
       <workItem from="1670420206844" duration="3175000" />
       <workItem from="1670691952391" duration="92000" />
       <workItem from="1670692601045" duration="387000" />
-      <workItem from="1670693188533" duration="1046000" />
+      <workItem from="1670693188533" duration="1178000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -175,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670347438927</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="README PROJECTS">
+      <created>1670694372086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670694372086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +190,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CUDA CPU" />
-    <option name="LAST_COMMIT_MESSAGE" value="CUDA CPU" />
+    <MESSAGE value="README PROJECTS" />
+    <option name="LAST_COMMIT_MESSAGE" value="README PROJECTS" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BIGAI$DL_PLAIDML.coverage" NAME="DL_PLAIDML Coverage Results" MODIFIED="1670423752096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
