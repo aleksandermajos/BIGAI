@@ -1,5 +1,13 @@
 # BIGAISCHOOL DS.ML.DL ENGINEER COURSE
 
+
+*⭐️ Like this repo? please star & consider donating to keep it maintained*
+
+<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+
+
 **PYTHON, PROBLEM SOLVING BASED ON MACHINE LEARNING, DEEP LEARNING, REINFORCEMENT LEARNING MATERIALS**
 
 This contains Jupyter Notebooks Files run on Jupyter Notebook or Jupyter Lab
@@ -46,12 +54,6 @@ ROLES AND PROJECTS:
 -DATA SCIENCE + SIMPLE PROJECTS
 -ML ENGINEER + SIMPLE PROJECTS
 -DL ENGINEER + SIMPLE PROJECTS
--QUANT DEV + SIMPLE PROJECTS
--NLP DEV + SIMPLE PROJECTS
--CV DEV + SIMPLE PROJECTS
--RL DEV + SIMPLE PROJECTS
--BIOINFORMATICS DEV + SIMPLE PROJECTS
--QUANTUM DEV + SIMPLE PROJECTS
 
 
 
