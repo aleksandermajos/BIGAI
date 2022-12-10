@@ -1,5 +1,12 @@
 # BIGAISCHOOL QUANT DEV COURSE
 
+*⭐️ Like this repo? please star & consider donating to keep it maintained*
+
+<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+
+
 **PYTHON, PROBLEM SOLVING BASED ON QUANT ALGORITHMS**
 
 This contains Jupyter Notebooks Files run on Jupyter Notebook or Jupyter Lab
@@ -16,7 +23,6 @@ END TO END PROJECT CALLED QUANTMAVERICK
 >
 > * No promises. No guarantees. Use at own risk.
 
-**TODO:**
 **TODO:**
 ML.DL.RL ENGINEER COURSE
 IDEA OF HEDGE SYSTEM WORKING FROM YOUR HOME
