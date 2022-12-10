@@ -3,8 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ALOHAPP" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../PyChatGPT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../QUANTMAVERICK" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../pytorch-deep-learning" vcs="Git" />
   </component>
 </project>
