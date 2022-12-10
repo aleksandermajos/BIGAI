@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: BIGAI
-Version: 0.0.3
+Version: 0.0.4
 Summary: An AI Library as a Baseline to create AI Projects
 Download-URL: https://github.com/aleksandermajos/BIGAI
 Author: Aleksander Majos
@@ -9,6 +9,13 @@ License: LICENSE.txt
 License-File: LICENSE.txt
 
 # BIGAI
+
+*⭐️ Like this repo? please star & consider donating to keep it maintained*
+
+<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+
 
 **MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS** by Aleksander Majos
 
