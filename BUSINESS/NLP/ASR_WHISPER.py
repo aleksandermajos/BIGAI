@@ -1,6 +1,7 @@
 import os
 import torch
 import whisper
+from transformers import WhisperProcessor, WhisperForConditionalGeneration
 import re
 from BUSINESS.NLP.FILES_OPS import get_all_names
 
@@ -9,7 +10,9 @@ lang = 'Spanish'
 learning_path = '../DATA/PHRASES/LEARNING/'+lang
 
 class WhisperModel():
-        def __init__(self,size='medium', lang='polish'):
+        def __init__(self,size='small', lang='polish'):
+            #processor = WhisperProcessor.from_pretrained("openai/whisper-large-v2")
+            #self.model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-large-v2")
             self.model = whisper.load_model(size)
             self.options = dict(language=lang, beam_size=5, best_of=5)
             self.transcribe_options = dict(task="transcribe", **self.options)
