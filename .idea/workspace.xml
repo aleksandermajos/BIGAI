@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README PROJECTS">
-      <change beforePath="$PROJECT_DIR$/../ALOHAPP/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ALOHAPP/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BUSINESS/NLP/ASR_WHISPER.py" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/NLP/ASR_WHISPER.py" afterDir="false" />
-    </list>
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="WHISPER 2.0 TRY" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +32,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ALOHAPP" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -185,7 +182,7 @@
       <workItem from="1670693188533" duration="1178000" />
       <workItem from="1670694487771" duration="188000" />
       <workItem from="1670707498351" duration="539000" />
-      <workItem from="1670708880256" duration="2477000" />
+      <workItem from="1670708880256" duration="2617000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -208,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670694659480</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="WHISPER 2.0 TRY">
+      <created>1670711648255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670711648255</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +232,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CUDA CPU" />
     <MESSAGE value="README PROJECTS" />
-    <option name="LAST_COMMIT_MESSAGE" value="README PROJECTS" />
+    <MESSAGE value="WHISPER 2.0 TRY" />
+    <option name="LAST_COMMIT_MESSAGE" value="WHISPER 2.0 TRY" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BIGAI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1670710761004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ALOHAPP" />
