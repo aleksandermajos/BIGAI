@@ -13,6 +13,7 @@ Each Jupyter Notebook will contain standarize structure:
 -Pictures explanation
 -Animation explanationGIF/ VideoYT
 -Math Formula
+-Link to external resources
 -Implementation
 -Use case(s)
 
