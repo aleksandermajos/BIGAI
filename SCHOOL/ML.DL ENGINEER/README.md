@@ -1,4 +1,4 @@
-# BIGAISCHOOL DS.ML.DL ENGINEER COURSE
+# BIGAISCHOOL ML.DL ENGINEER COURSE
 
 Every jupyter notebook exist here in this repo will be comprising methods from ENGINE.
 It is divided into specific subject use later on with specific IT roles

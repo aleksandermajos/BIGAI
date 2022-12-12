@@ -5,7 +5,7 @@
 <a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 Every notebook exist here in this repo will be comprasing methods from ENGINE.
-It is divided into specific IT Roles where mandatory is to take DS.ML.DL ENGINEER(about 80H) ending with Google certificate.
+It is divided into specific IT Roles where mandatory is to take ML.DL ENGINEER(about 80H) ending with Google certificate.
 Rest of the courses are based on DS.ML.DL
 
 Each Jupyter Notebook will contain standarize structure:
