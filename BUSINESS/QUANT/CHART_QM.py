@@ -1,14 +1,14 @@
 from abc import ABC, abstractmethod
-from INSTRUMENT_QM import InstrumentMT4, InstrumentCTRADER
+from BUSINESS.QUANT.INSTRUMENT_QM import InstrumentMT4, InstrumentCTRADER
 from BUSINESS.QUANT.ACCOUNT_QM import AccountMT4, AccountCTRADER, AccountFXCMAPI, AccountFIX
-from TRANSACTION_QM import TransactionMT4, TransactionCTRADER
+from BUSINESS.QUANT.TRANSACTION_QM import TransactionMT4, TransactionCTRADER
 import json
 import pandas as pd
 import zmq
 import zmq.asyncio
-from DATA_OANDA_GET import exampleAuth
-from TIME_OPENING_CLOSING_MT4_QM import Open_Time_To_New_Chart, Close_Time_To_New_Chart
-from TIME_OPENING_CLOSING_MT4_QM import Average_OpenTimes, Average_CloseTimes
+from BUSINESS.QUANT.DATA_OANDA_GET import exampleAuth
+from BUSINESS.QUANT.TIME_OPENING_CLOSING_MT4_QM import Open_Time_To_New_Chart, Close_Time_To_New_Chart
+from BUSINESS.QUANT.TIME_OPENING_CLOSING_MT4_QM import Average_OpenTimes, Average_CloseTimes
 import fxcmpy
 import socket
 from datetime import datetime
