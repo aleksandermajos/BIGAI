@@ -175,6 +175,7 @@ dependencies:
     - basicsr==1.4.2
     - bcrypt==3.2.0
     - beautifulsoup4==4.10.0
+    - bigai==0.0.3
     - bitarray==2.6.0
     - bitsandbytes==0.32.3
     - black==19.10b0
@@ -352,6 +353,7 @@ dependencies:
     - huggingface-hub==0.11.0
     - humanfriendly==10.0
     - hydra-core==1.2.0
+    - hyperpyyaml==1.1.0
     - idna==2.10
     - imageio==2.16.1
     - imagesize==1.3.0
@@ -556,6 +558,7 @@ dependencies:
     - pipreqs==0.4.11
     - pkginfo==1.8.2
     - platformdirs==2.5.4
+    - playsound==1.3.0
     - plotly==5.6.0
     - pluggy==1.0.0
     - ply==3.11
@@ -679,7 +682,7 @@ dependencies:
     - realesrgan==0.3.0
     - regex==2022.1.18
     - repoze-lru==0.7
-    - requests==2.25.1
+    - requests==2.24.0
     - requests-ntlm==1.1.0
     - requests-oauthlib==1.3.1
     - requests-toolbelt==0.9.1
@@ -719,6 +722,7 @@ dependencies:
     - shiboken6==6.3.1
     - shiny==0.2.4
     - shortuuid==1.0.8
+    - simpleaudio==1.0.4
     - simplegeneric==0.8.1
     - simplejson==3.17.6
     - singledispatchmethod==1.0
@@ -741,6 +745,7 @@ dependencies:
     - spacy-loggers==1.0.1
     - spacy-transformers==1.1.4
     - spectralcluster==0.2.4
+    - speechbrain==0.5.13
     - speechrecognition==3.8.1
     - sphinx==4.4.0
     - sphinxcontrib-applehelp==1.0.2
@@ -805,7 +810,7 @@ dependencies:
     - torch-complex==0.4.3
     - torch-pitch-shift==1.2.0
     - torch-stft==0.1.4
-    - torchaudio==0.10.0+cu113
+    - torchaudio==0.10.0
     - torchdiffeq==0.2.3
     - torchmetrics==0.7.2
     - torchtext==0.11.0

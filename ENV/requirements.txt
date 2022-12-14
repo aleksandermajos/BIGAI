@@ -53,8 +53,8 @@ backports.weakref==1.0.post1
 basicsr==1.4.2
 bcrypt==3.2.0
 beautifulsoup4==4.10.0
-# Editable install with no version control (BIGAI==0.0.2)
--e c:\users\aleks\anaconda3\envs\bigai\lib\site-packages\bigai-0.0.2-py3.9.egg
+# Editable install with no version control (BIGAI==0.0.3)
+-e c:\users\aleks\anaconda3\envs\bigai\lib\site-packages\bigai-0.0.3-py3.9.egg
 bitarray==2.6.0
 bitsandbytes==0.32.3
 black==19.10b0
@@ -241,7 +241,8 @@ huggingface-hub==0.11.0
 huggingsound==0.1.2
 humanfriendly==10.0
 hydra-core==1.2.0
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
+HyperPyYAML==1.1.0
+idna==2.10
 imageio==2.16.1
 imagesize==1.3.0
 imbalanced-learn==0.9.1
@@ -456,6 +457,7 @@ pip-api==0.0.28
 pipreqs==0.4.11
 pkginfo==1.8.2
 platformdirs==2.5.4
+playsound==1.3.0
 plotly==5.6.0
 pluggy==1.0.0
 ply==3.11
@@ -630,6 +632,7 @@ shellingham==1.5.0
 shiboken6==6.3.1
 shiny==0.2.4
 shortuuid==1.0.8
+simpleaudio==1.0.4
 simplegeneric==0.8.1
 simplejson==3.17.6
 singledispatchmethod==1.0
@@ -652,6 +655,7 @@ spacy-legacy==3.0.9
 spacy-loggers==1.0.1
 spacy-transformers==1.1.4
 spectralcluster==0.2.4
+speechbrain==0.5.13
 SpeechRecognition==3.8.1
 Sphinx==4.4.0
 sphinxcontrib-applehelp==1.0.2
