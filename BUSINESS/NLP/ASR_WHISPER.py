@@ -39,7 +39,8 @@ class WhisperModel():
             list_of_files = get_all_names(path)
             for name in list_of_files:
                 filename, file_extension = os.path.splitext(name)
-                if file_extension == fe:
+                contains_digit = any(map(str.isdigit, filename))
+                if file_extension == fe and contains_digit:
                     full_input_path = path + '/' + name
                     transcription = self.model.transcribe(full_input_path, **self.transcribe_options)["text"]
                     translation = self.model.transcribe(full_input_path, **self.translate_options)["text"]
@@ -47,7 +48,9 @@ class WhisperModel():
                     print(translation)
                     full_output_path = path + '/' + transcription + file_extension
                     full_output_path = re.sub("[$@&!?]", "", full_output_path)
-                    os.rename(full_input_path, full_output_path)
+                    isFileExist = os.path.isfile(full_output_path)
+                    if isFileExist==False:
+                        os.rename(full_input_path, full_output_path)
                     self.last_transcribe = transcription
                     self.last_translate = translation
             return transcription
