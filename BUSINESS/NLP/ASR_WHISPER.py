@@ -19,19 +19,29 @@ class WhisperModel():
             self.translate_options = dict(task="translate", **self.options)
             self.last_transcribe =""
             self.last_translate =""
+            self.full_input_path =''
+            self.full_output_path=''
 
 
         def transcribe_file(self,path,file):
             filename, file_extension = os.path.splitext(file)
             full_input_path = path + '/' + file
+            self.full_input_path = full_input_path
             transcription = self.model.transcribe(full_input_path, **self.transcribe_options)["text"]
-            translation = self.model.transcribe(full_input_path, **self.translate_options)["text"]
             print(transcription)
-            print(translation)
             full_output_path = path + '/' + transcription + file_extension
             full_output_path = re.sub("[$@&!?]", "", full_output_path)
-            os.rename(full_input_path, full_output_path)
+            self.full_output_path = full_output_path
+            isExist = os.path.exists(full_output_path)
+            if not isExist:
+                os.rename(full_input_path, full_output_path)
             self.last_transcribe = transcription
+
+
+        def translate_file(self):
+            full_input_path = self.full_output_path
+            translation = self.model.transcribe(full_input_path, **self.translate_options)["text"]
+            print(translation)
             self.last_translate = translation
 
 
