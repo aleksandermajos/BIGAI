@@ -18,8 +18,9 @@ class TTS_FR():
         audio_paths = self.model.save_wav(text=text,
                              speaker=self.speaker,
                              sample_rate=self.sample_rate)
-        filename = 'test.wav'
+        filename = audio_paths
         wave_obj = sa.WaveObject.from_wave_file(filename)
         play_obj = wave_obj.play()
         play_obj.wait_done()  # Wait until sound has finished playing
+        os.remove(audio_paths)
 
