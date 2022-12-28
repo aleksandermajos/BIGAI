@@ -1,7 +1,7 @@
 from transformers import FSMTForConditionalGeneration, FSMTTokenizer
 
 
-class Translate():
+class Translate_EN_DE():
 
     def __init__(self):
         mname = "facebook/wmt19-en-de"

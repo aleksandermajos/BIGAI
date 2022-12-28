@@ -1,7 +1,6 @@
 import os
 import torch
 import whisper
-from transformers import WhisperProcessor, WhisperForConditionalGeneration
 import re
 from BUSINESS.NLP.FILES_OPS import get_all_names
 
