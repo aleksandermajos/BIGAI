@@ -1,14 +1,14 @@
 from abc import ABC, abstractmethod
-from BUSINESS.QUANT.INSTRUMENT_QM import InstrumentMT4, InstrumentCTRADER
-from BUSINESS.QUANT.ACCOUNT_QM import AccountMT4, AccountCTRADER, AccountFXCMAPI, AccountFIX
-from BUSINESS.QUANT.TRANSACTION_QM import TransactionMT4, TransactionCTRADER
+from BUSINESS.DSMLDL.QUANT.INSTRUMENT_QM import InstrumentMT4, InstrumentCTRADER
+from BUSINESS.DSMLDL.QUANT.ACCOUNT_QM import AccountMT4, AccountCTRADER, AccountFXCMAPI, AccountFIX
+from BUSINESS.DSMLDL.QUANT.TRANSACTION_QM import TransactionMT4, TransactionCTRADER
 import json
 import pandas as pd
 import zmq
 import zmq.asyncio
-from BUSINESS.QUANT.DATA_OANDA_GET import exampleAuth
-from BUSINESS.QUANT.TIME_OPENING_CLOSING_MT4_QM import Open_Time_To_New_Chart, Close_Time_To_New_Chart
-from BUSINESS.QUANT.TIME_OPENING_CLOSING_MT4_QM import Average_OpenTimes, Average_CloseTimes
+from BUSINESS.DSMLDL.QUANT.DATA_OANDA_GET import exampleAuth
+from BUSINESS.DSMLDL.QUANT.TIME_OPENING_CLOSING_MT4_QM import Open_Time_To_New_Chart, Close_Time_To_New_Chart
+from BUSINESS.DSMLDL.QUANT.TIME_OPENING_CLOSING_MT4_QM import Average_OpenTimes, Average_CloseTimes
 import fxcmpy
 import socket
 from datetime import datetime
@@ -18,6 +18,7 @@ import oandapyV20
 import time
 import numpy as np
 from os import fspath
+import os
 from pathlib import Path
 
 class Chart(ABC):
@@ -65,9 +66,8 @@ class ChartFX(Chart):
         data = self.req.recv()
         if len(data) > 2:
             data = data.decode('utf8')
-            data_path = Path(Path(__file__).resolve().parent)
-            data_path_last = fspath(data_path)
-            data_path_last = data_path_last+"\\DATA/DATA_CANDLES.csv"
+            print(os.getcwd())
+            data_path_last = "DATA/DATA_CANDLES.csv"
             self.data_candles_path = data_path_last
             f = open(data_path_last, "w")
             f.write(data[:])
