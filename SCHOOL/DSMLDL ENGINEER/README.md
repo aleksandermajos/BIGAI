@@ -11,7 +11,9 @@ Each Jupyter Notebook will contain standarize structure:
 -Animation explanationGIF/ VideoYT
 -Math Formula
 -Link to external resources
--Implementation
+-AI Implementation
+-Human Implementation
+-Human Translation to 10 Languages by Natives
 -Use case(s)
 
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
