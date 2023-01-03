@@ -3,9 +3,10 @@ from pathlib import Path
 from os import fspath
 import oandapyV20
 from oandapyV20.contrib.factories import InstrumentsCandlesFactory
+import fxcmpy
 
 
-def exampleAuth(path):
+def exampleAuth_OANDA(path):
     accountID, token = None, None
     with open(path + "account.txt") as I:
         accountID = I.read().strip()
@@ -13,10 +14,16 @@ def exampleAuth(path):
         token = I.read().strip()
     return accountID, token
 
+def exampleAuth_FXCM(path):
+    token = None
+    with open(path + "token.txt") as I:
+        token = I.read().strip()
+    return token
+
 
 class OandaData():
-    def __init__(self):
-        self.accountID, self.token = exampleAuth('C:\\oanda\\')
+    def __init__(self,path):
+        self.accountID, self.token = exampleAuth_OANDA(path)
 
     def GetData(self,start, stop, instrument, period, format):
         self.start = start
@@ -56,6 +63,27 @@ class OandaData():
             lista.append(r.response.get('candles'))
 
         if format == "DF": return List_Of_Dict_To_DF(lista)
+
+class FXCMData():
+    def __init__(self,path):
+        self.token = exampleAuth_FXCM(path)
+        self.fxcm_con = fxcmpy.fxcmpy(access_token=self.token, log_level='error')
+        self.server_name = "api-demo.fxcm.com"
+        self.Broker = "FXCM"
+
+
+
+    def GetData(self,start, stop, instrument, period, format):
+        self.start = start
+        self.stop = stop
+        self.instrument = instrument
+        self.period = period
+        self.format = format
+        self.fxcm_con.subscribe_market_data(self.instrument)
+        self.tick = ""
+
+
+
 
 
 

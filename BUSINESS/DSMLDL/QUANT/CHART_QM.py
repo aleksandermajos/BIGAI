@@ -6,20 +6,19 @@ import json
 import pandas as pd
 import zmq
 import zmq.asyncio
-from BUSINESS.DSMLDL.QUANT.DATA_OANDA_GET import exampleAuth
+from ENGINE.DATA_API import exampleAuth_OANDA, exampleAuth_FXCM, FXCMData
 from BUSINESS.DSMLDL.QUANT.TIME_OPENING_CLOSING_MT4_QM import Open_Time_To_New_Chart, Close_Time_To_New_Chart
 from BUSINESS.DSMLDL.QUANT.TIME_OPENING_CLOSING_MT4_QM import Average_OpenTimes, Average_CloseTimes
-import fxcmpy
 import socket
 from datetime import datetime
 import functools
 import oandapyV20.endpoints.pricing as pricing
 import oandapyV20
+import fxcmpy
 import time
 import numpy as np
-from os import fspath
 import os
-from pathlib import Path
+
 
 class Chart(ABC):
 
@@ -166,7 +165,7 @@ class ChartOanda(Chart):
     def __init__(self, Symbol):
         self.Broker = "Oanda"
         self.Symbol = Symbol
-        self.oanda_accountID, self.oanda_access_token = exampleAuth("C:/Oanda/")
+        self.oanda_accountID, self.oanda_access_token = exampleAuth_OANDA("/Users/aleksander/PycharmProjects/OANDA/")
         self.oanda_client = oandapyV20.API(access_token=self.oanda_access_token, environment="practice")
         self.params = {"instruments": "EUR_USD"}
         self.oanda_r = pricing.PricingInfo(accountID=self.oanda_accountID, params=self.params)
@@ -178,15 +177,16 @@ class ChartOanda(Chart):
         return self.tick
 
 class ChartFXCM(Chart):
-    def __init__(self, Symbol):
-        self.Broker = "FXCM"
-        self.Symbol = Symbol
-        self.fxcm_TOKEN = "326d2c5147244eedaef93d9727a416a1ea1a8597"
-        self.fxcm_con = fxcmpy.fxcmpy(access_token=self.fxcm_TOKEN, log_level='error')
-        self.fxcm_con.subscribe_market_data('EUR/USD')
-        self.tick = ""
+    def __init__(self):
+        self.token = exampleAuth_FXCM('/Users/aleksander/PycharmProjects/FXCM/')
+        self.fxcm_con = fxcmpy.fxcmpy(access_token=self.token, log_level='error')
         self.server_name = "api-demo.fxcm.com"
-        self.account = AccountFXCMAPI(self.server_name)
+        self.Broker = "FXCM"
+
+
+
+
+
 
 
     def GetData(self,Symbol):

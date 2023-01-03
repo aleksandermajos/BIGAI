@@ -4,7 +4,7 @@ import simpleaudio as sa
 
 class TTS_FR():
 
-    def __init__(self,speaker='fr_0'):
+    def __init__(self,speaker='random'):
         DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
         self.device = torch.device(DEVICE)
         self.local_file = 'DATA/MODELS/TTS/v3_fr.pt'
@@ -18,9 +18,7 @@ class TTS_FR():
         audio_paths = self.model.save_wav(text=text,
                              speaker=self.speaker,
                              sample_rate=self.sample_rate)
-        filename = audio_paths
+        filename = 'test.wav'
         wave_obj = sa.WaveObject.from_wave_file(filename)
         play_obj = wave_obj.play()
         play_obj.wait_done()  # Wait until sound has finished playing
-        os.remove(audio_paths)
-
