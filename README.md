@@ -1,10 +1,17 @@
 # BIGAI
 
+**THIS REPO IS SUPPLEMENT OF YT CHANNEL: ** https://www.youtube.com/channel/UCLNTRwFXhwYRjva_NffipAA
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
 
 <a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-**MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS** by Aleksander Majos
+**MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS
+CONTAINS FOLLOWING PARTS:
+-ENGINE
+-SCHOOL
+-TRAINER
+-BUSINESS
+** by Aleksander Majos
 
 > **BEWARE**: This is a work in progress!
 >
@@ -14,4 +21,9 @@
 >
 > * No promises. No guarantees. Use at own risk.
 
+**TODO:**
+BIGAI_ENGINE
+BIGAI_SCHOOL
+BIGAI_TRAINER
+BIGAI_BUSINESS
 
