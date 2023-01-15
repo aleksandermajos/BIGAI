@@ -10,7 +10,7 @@ op_sys = platform.uname()
 if op_sys.system == 'Windows':
     FD = FXCMData('C:\\Users\\aleksander\\PycharmProjects\\FXCM\\')
     OD = OandaData('C:\\Users\\aleksander\\PycharmProjects\\OANDA\\')
-if op_sys.system =='MAC':
+if op_sys.system =='Darwin':
     FD = FXCMData('/Users/aleksander/PycharmProjects/FXCM/')
     OD = OandaData('/Users/aleksander/PycharmProjects/OANDA/')
 
