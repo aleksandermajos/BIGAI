@@ -7,7 +7,7 @@ class TTS_DE():
     def __init__(self,speaker='eva_k'):
         DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
         self.device = torch.device(DEVICE)
-        self.local_file = 'DATA/MODELS/TTS/model_de_silero.pt'
+        self.local_file = '../DATA/MODELS/TTS/model_de_silero.pt'
         print(os.getcwd())
         self.model = torch.package.PackageImporter(self.local_file).load_pickle("tts_models", "model")
         self.model.to(self.device)
