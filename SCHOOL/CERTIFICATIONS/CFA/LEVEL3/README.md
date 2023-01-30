@@ -1,4 +1,4 @@
-# BIGAI_SCHOOL_CERTIFICATIONS_GOOGLE_TENSORFLOW_DEVELOPER
+# BIGAI_SCHOOL_CERTIFICATIONS_CFA_LEVEL3
 
 **THIS REPO IS SUPPLEMENT OF YT CHANNEL: ** https://www.youtube.com/channel/UCLNTRwFXhwYRjva_NffipAA
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
@@ -8,7 +8,7 @@
 
 
 
-**DESKTOP APP BIGAI_SCHOOL_CERTIFICATIONS_GOOGLE_TENSORFLOW_DEVELOPER** by Aleksander Majos
+**DESKTOP APP BIGAI_SCHOOL_CERTIFICATIONS_CFA_LEVEL3** by Aleksander Majos
 
 > **BEWARE**: This is a work in progress!
 >
@@ -19,8 +19,7 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-GOOGLE TENSORFLOW DEVELOPER CERTIFICATION
-
+CFA LEVEL3
 
 
 
