@@ -1,4 +1,5 @@
-# BIGAI_SCHOOL_CERTIFICATIONS
+# BIGAI_SCHOOL_SKILLS_NLP
+
 
 **THIS REPO IS SUPPLEMENT OF YT CHANNEL: ** https://www.youtube.com/channel/UCLNTRwFXhwYRjva_NffipAA
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
@@ -16,7 +17,7 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-GOOGLE TENSORFLOW DEVELOPER CERTIFICATION
+
 
 
 
