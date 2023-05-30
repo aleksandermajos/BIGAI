@@ -19,8 +19,10 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-SKILLS TF
+
 SKILLS NLP
+
+SKILLS TF
 
 
 

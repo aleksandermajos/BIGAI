@@ -1,4 +1,5 @@
-# BIGAI_SCHOOL_SKILLS_DL_GOOGLE_TENSORFLOW_DEVELOPER
+# BIGAI_SCHOOL_SKILLS_NLP
+
 
 **THIS REPO IS SUPPLEMENT OF YT CHANNEL: ** https://www.youtube.com/channel/UCLNTRwFXhwYRjva_NffipAA
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
@@ -6,9 +7,6 @@
 <a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
-
-
-**DESKTOP APP BIGAI_SCHOOL_CERTIFICATIONS_GOOGLE_TENSORFLOW_DEVELOPER** by Aleksander Majos
 
 > **BEWARE**: This is a work in progress!
 >
@@ -18,8 +16,15 @@
 >
 > * No promises. No guarantees. Use at own risk.
 
-**TODO:**
-GOOGLE TENSORFLOW DEVELOPER CERTIFICATION
+**TODO:DEEP DIVE INTO TRANSFORMER ARCHITECTURE:**
+
+NLP WITH TRANSFORMERS 
+
+TRANSFORMERS FOR NLP
+
+KARPATHY YT TRANSFORMER
+
+
 
 
 
