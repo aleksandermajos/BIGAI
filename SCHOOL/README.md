@@ -7,9 +7,6 @@
 
 
 
-
-**DESKTOP APP BIGAI_SCHOOL BASED ON BIGAI_ENGINE, WHISPER, FLET** by Aleksander Majos
-
 > **BEWARE**: This is a work in progress!
 >
 > * Code here may change and disappear without warning.
@@ -19,10 +16,7 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-SKILLS NLP
-SKILLS NUMPY
-SKILLS PANDAS
-SKILLS TF
+DL IN TENSORFLOW
 
 
 

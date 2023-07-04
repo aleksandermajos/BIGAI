@@ -5,8 +5,357 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="WHISPER 2.0 TRY">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/PT_FUNDAMENTALS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/PYTHON.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/STATI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/TF_FUNDAMENTALS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/DATA/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER ELEVEN_TRANSFORMERS/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/DATA/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/TF_COMPUTER_VISION.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/DATA/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOURTEEN_GRAPH BASED NN/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/DATA/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FOUR_TRANSFER LEARNING/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/DATA/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER NINE_GENERATIVE/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/DATA/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/TF_TIME_SERIES.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SIX_NLP/TF_NLP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/DATA/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TEN_RL/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/DATA/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THIRTEEN_MLOPS/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/DATA/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/TF_CLASSIFICATION.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/DATA/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/DATA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/DATA/insurance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/ADALINE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/GRADIENT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/ML_DIV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/ML_RL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/NEURON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/FIGURES/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/TF_REGRESSION.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BUSINESS/APP/BIGAI_BUSINESS.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/MATPLOTLIB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/APP/BIGAI_ENGINE.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/NUMPY.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/ASR_WHISPER.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/CHATGPT_UNOFFICIAL.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/DATA_API.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/DATA_DF_TO_PYTORCH.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/DATA_OHLC_MANIPULATE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/FILES_OPS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/GPU_PYTORCH.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/JAX.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/OPENAI_CHATGPT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/PYTHON_ENV_CHECK.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/PYTORCH_DARNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/REC_MIC_PYAUDIO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/REC_SPEAKER.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/TEST_NEW/basic-text-buttons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/TEST_NEW/text-buttons-with-custom-content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/TEST_NEW/text-buttons-with-icons.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/TFT_PYTORCH.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/TRANSLATE_EN_DE_FAIRQ.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/TRANSLATE_EN_FR_FAIRQ.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/TRANSLATE_EN_FR_NEMO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/TTS_DE_SILERO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/TTS_FR_SILERO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/model_de_silero.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/APP/BIGAI_SCHOOL.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/PANDAS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/ALGORITHMS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/BIGDATA/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/BIOINFORMATICS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/EXAMPLE_FOR_TF_CERT-checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/EXERCISES-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/NUMPY-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/PANDAS-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/SOLUTIONS-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_CLASSIFICATION-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_COMPUTER_VISION-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_NLP-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_REGRESSION-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_TIME_SERIES-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/DATA/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/DATA/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/DATA/insurance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/DATA/insurance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/EXAMPLE_FOR_TF_CERT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/EXERCISES.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/MATPLOTLIB.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ADALINE.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/ADALINE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/GRADIENT.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/GRADIENT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/IRIS_DESCR.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/LINEARY_NONLINEARY.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/MIN_COST_FUNCTION.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_CLASS.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_CLUSTERING.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_DIM_RED.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_DIV.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/ML_DIV.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_FLOW.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_FLOW_FULL.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_REGRESSION.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_RL.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/ML_RL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/NEURON.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/NEURON.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/PERCEPTRON.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/PERCEPTRON_LEARNING_RULE.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/FIGURES/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/NUMPY.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/PYTHON.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/PANDAS.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/STATI.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/SOLUTIONS.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/PT_FUNDAMENTALS.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_CLASSIFICATION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER THREE_CLASSIFICATION/TF_CLASSIFICATION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_COMPUTER_VISION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER FIVE_COMPUTER VISION/TF_COMPUTER_VISION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_FUNDAMENTALS.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/TF_FUNDAMENTALS.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_NLP.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SIX_NLP/TF_NLP.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_REGRESSION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER TWO_REGRESSION/TF_REGRESSION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_TIME_SERIES.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/NUMPY.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/fingerprint.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/keras_metadata.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model_HDF5.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/insurance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER EIGHT_AUTOENCODERS/DATA/insurance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CFA/LEVEL1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CFA/LEVEL2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CFA/LEVEL3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CFA/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CPP INSTITUTE/CPA/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CPP INSTITUTE/CPE/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CPP INSTITUTE/CPP/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CPP INSTITUTE/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/GOOGLE/ML ENGINEER GCP/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CERTIFICATIONS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/CPP/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/DL/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/FINANCE/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/FLET/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/FLET/TO_DO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/FLUTTER/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/MATHEMATICS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/ML_ENGINEER/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/NLP/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/PYTHON/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/QUANTUM/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/RL/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/LATER/STATISTICS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/NUMPY/NUMPY.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/PANDAS/PANDAS.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER  ONE_FUNDAMENTALS/PANDAS.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/TF/TF_CLASSIFICATION.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/TF/TF_COMPUTER_VISION.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/TF/TF_FUNDAMENTALS.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/TF/TF_NLP.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/TF/TF_REGRESSION.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SKILLS/TF/TF_TIME_SERIES.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/DL/CHAPTER SEVEN_TIME SERIES/TF_TIME_SERIES.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +369,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -53,7 +403,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/aleksander/PycharmProjects/BIGAI",
+    "last_opened_file_path": "C:/Users/aleks/PycharmProjects/BIGAI/SCHOOL/SKILLS/DL/CHAPTER  ONE_FUNDAMENTALS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,9 +413,19 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\SKILLS\DL\CHAPTER  ONE_FUNDAMENTALS" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\SKILLS\DL" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\SKILLS\DL\CHAPTER SEVEN_TIME SERIES" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\SKILLS\DL\CHAPTER EIGHT_GENERATIVE" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\SKILLS\DL\CHAPTER ELEVEN_TRAINING AND DEPLOYING ON SCALE" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/SCHOOL/SKILLS/LATER" />
-      <recent name="$PROJECT_DIR$/BUSINESS/CV" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\SKILLS" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\SKILLS\DL\CHAPTER  ONE_FUNDAMENTALS" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\SKILLS\DL\CHAPTER TWO_REGRESSION" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\SKILLS\DL\CHAPTER SIX_NLP" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main (1)">
@@ -202,6 +562,8 @@
       <workItem from="1685949892487" duration="131000" />
       <workItem from="1685950051282" duration="3000" />
       <workItem from="1686400377568" duration="152000" />
+      <workItem from="1688456113937" duration="230000" />
+      <workItem from="1688456552413" duration="3677000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
