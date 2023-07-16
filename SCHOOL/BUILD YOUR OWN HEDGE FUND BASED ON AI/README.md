@@ -1,18 +1,10 @@
-# BIGAI
-
-**THIS REPO IS SUPPLEMENT OF ALOHA YT CHANNEL: **https://www.youtube.com/channel/UCLNTRwFXhwYRjva_NffipAA
-
+# BIGAI_SCHOOL_BUILD YOUR OWN HEDGE FUND BASED ON AI
 
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
 
 <a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-**MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS
-CONTAINS FOLLOWING PARTS:
--SCHOOL
--ENGINE
--BUSINESS
-** by Aleksander Majos
+
 
 > **BEWARE**: This is a work in progress!
 >
@@ -23,7 +15,20 @@ CONTAINS FOLLOWING PARTS:
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-BIGAI_SCHOOL
-BIGAI_ENGINE
-BIGAI_BUSINESS
+CHAPTER 1 FUNDAMENTALS:
+-CHECK YOUR INSTALLATION
+-ACTIVATION FUNCTIONS
+-MNIST EXAMPLE TF
+-BASICS OF MLFLOW
+-UP_DOWN EXAMPLE
+-CONNECT WITH REAL MARKET
+
+
+
+
+
+
+
+
+
 
