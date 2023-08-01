@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL README">
-      <change afterPath="$PROJECT_DIR$/ENGINE/SDXL.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL START">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/SDXL.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/SDXL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/CHECK_INSTALATION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/CHECK_INSTALATION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/EXAMPLE_MLFLOW_MNIST.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/EXAMPLE_MLFLOW_MNIST.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/EXAMPLE_MNIST.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/EXAMPLE_MNIST.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/PT_REGRESSION.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/TF_REGRESSION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/TF_REGRESSION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/PT_CLASSIFICATION.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/TF_CLASSIFICATION.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/PT_COMPUTER_VISION.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/TF_COMPUTER_VISION.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CZARNA/Chapter_2/logistic_regression_using_keras_API.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../CZARNA/Chapter_2/logistic_regression_using_keras_API.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CZARNA/Chapter_2/multiple_linear_regression_using_keras_API.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../CZARNA/Chapter_2/multiple_linear_regression_using_keras_API.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CZARNA/Chapter_2/simple_linear_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../CZARNA/Chapter_2/simple_linear_regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CZARNA/Chapter_2/simple_linear_regression_using_keras_API.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../CZARNA/Chapter_2/simple_linear_regression_using_keras_API.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CZARNA/Chapter_3/cifar10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CZARNA/Chapter_3/cifar10.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +52,7 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../CZARNA" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,7 +94,7 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\SKILLS\DL\CHAPTER SIX_NLP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mnist">
+  <component name="RunManager" selected="Python.SDXL">
     <configuration name="DL_MAC_PLAIDML" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,6 +131,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/DL_PLAIDML.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SDXL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/SDXL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,8 +213,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.9 (BIGAI)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CZARNA/Chapter_1" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -192,6 +230,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SDXL" />
         <item itemvalue="Python.mnist" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.DL_PLAIDML" />
@@ -249,7 +288,18 @@
       <workItem from="1689923480524" duration="31000" />
       <workItem from="1689983629244" duration="478000" />
       <workItem from="1689993459369" duration="726000" />
-      <workItem from="1690193531033" duration="5676000" />
+      <workItem from="1690193531033" duration="5744000" />
+      <workItem from="1690270222925" duration="89000" />
+      <workItem from="1690368263247" duration="630000" />
+      <workItem from="1690449010888" duration="343000" />
+      <workItem from="1690449432743" duration="452000" />
+      <workItem from="1690457637382" duration="979000" />
+      <workItem from="1690537523761" duration="1825000" />
+      <workItem from="1690542154534" duration="1190000" />
+      <workItem from="1690554984210" duration="1241000" />
+      <workItem from="1690556919244" duration="36000" />
+      <workItem from="1690854960649" duration="3745000" />
+      <workItem from="1690909088253" duration="4360000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -303,7 +353,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689503490311</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="BIGAI SCHOOL START">
+      <option name="closed" value="true" />
+      <created>1690213139576</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690213139576</updated>
+    </task>
+    <task id="LOCAL-00009" summary="BIGAI SCHOOL START">
+      <option name="closed" value="true" />
+      <created>1690213170585</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690213170585</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +396,8 @@
     <MESSAGE value="WHISPER 2.0 TRY" />
     <MESSAGE value="BIGAI REAL PURPOSE" />
     <MESSAGE value="BIGAI SCHOOL README" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SCHOOL README" />
+    <MESSAGE value="BIGAI SCHOOL START" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SCHOOL START" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -345,13 +412,19 @@
           <line>49</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/SDXL.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BIGAI$DL_MAC_PLAIDML.coverage" NAME="DL_MAC_PLAIDML Coverage Results" MODIFIED="1670422128857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1690204637871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_1" />
     <SUITE FILE_PATH="coverage/BIGAI$DL_PLAIDML.coverage" NAME="DL_PLAIDML Coverage Results" MODIFIED="1670423752096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1671574689688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$SDXL.coverage" NAME="SDXL Coverage Results" MODIFIED="1690556065323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1690204637871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_1" />
   </component>
 </project>
