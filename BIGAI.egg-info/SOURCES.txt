@@ -13,170 +13,1140 @@ BIGAI.egg-info/PKG-INFO
 BIGAI.egg-info/SOURCES.txt
 BIGAI.egg-info/dependency_links.txt
 BIGAI.egg-info/not-zip-safe
-BIGAI.egg-info/requires.txt
 BIGAI.egg-info/top_level.txt
 BUSINESS/PIC_GEN_STABLEDIFF.py
 BUSINESS/README.md
-BUSINESS/APP/BIGAI_BUSINESS.py
+ENGINE/ACCOUNT.py
+ENGINE/ACTIONS.py
 ENGINE/ASR_WHISPER.py
+ENGINE/BARK.py
+ENGINE/CHART.py
 ENGINE/CHATGPT_UNOFFICIAL.py
+ENGINE/CONTAINERS.py
 ENGINE/DATA_API.py
 ENGINE/DATA_DF_TO_PYTORCH.py
 ENGINE/DATA_OHLC_MANIPULATE.py
+ENGINE/DATA_PLAT_OHLC_MANIPULATE.py
+ENGINE/DATA_PLAT_REGRESSION.py
+ENGINE/DIVIDE_SENTENCES.py
+ENGINE/FILES_OP.py
 ENGINE/FILES_OPS.py
+ENGINE/GENERATE_SENTENCES.py
+ENGINE/GIVE_WORDS.py
 ENGINE/GPU_PYTORCH.py
+ENGINE/INSTRUMENT.py
+ENGINE/LEMMA.py
+ENGINE/LISTENER.py
+ENGINE/LLAMA_CPP.py
+ENGINE/LOAD_PICS.py
+ENGINE/LOAD_SENTENCES.py
+ENGINE/LOAD_WORDS.py
+ENGINE/NEW_LANG_PIPELINE.py
 ENGINE/OPENAI_CHATGPT.py
 ENGINE/PYTHON_ENV_CHECK.py
 ENGINE/PYTORCH_DARNN.py
+ENGINE/QUANTMAVERICK.py
 ENGINE/README.md
 ENGINE/REC_MIC_PYAUDIO.py
 ENGINE/REC_SPEAKER.py
+ENGINE/SDXL.py
+ENGINE/SILERO_SSML.py
+ENGINE/STABLE_DIFFXL.py
+ENGINE/START.py
+ENGINE/STRATEGY.py
+ENGINE/TATOEBA.py
 ENGINE/TFT_PYTORCH.py
+ENGINE/TIME_OPENING_CLOSING_MT4.py
+ENGINE/TRANSACTION.py
 ENGINE/TRANSLATE_EN_DE_FAIRQ.py
 ENGINE/TRANSLATE_EN_FR_FAIRQ.py
 ENGINE/TRANSLATE_EN_FR_NEMO.py
 ENGINE/TTS_DE_SILERO.py
+ENGINE/TTS_EN_SILERO.py
+ENGINE/TTS_ES_SILERO.py
 ENGINE/TTS_FR_SILERO.py
-ENGINE/APP/BIGAI_ENGINE.py
+ENGINE/TTS_RU_SILERO.py
+ENGINE/TTS_UA_SILERO.py
+ENGINE/UPGRADE_USER_FILES.py
+ENGINE/USER_FILES_WORDS.py
 ENGINE/DATA/EURUSD_M30_202001020600_202207181600.csv
 ENGINE/DATA/iris.csv
+ENGINE/DATA/MODELS/TTS/model_de_silero.pt
+ENGINE/DATA/MODELS/TTS/v3_fr.pt
 ENGINE/ENV/BIGAI_W11_ALOHA.yml
 ENGINE/ENV/requirements.txt
-ENGINE/TEST/DATA_API_TEST.py
-ENGINE/TEST/GPU_PYTORCH_TEST.py
-ENGINE/TEST_NEW/basic-text-buttons.py
-ENGINE/TEST_NEW/text-buttons-with-custom-content.py
-ENGINE/TEST_NEW/text-buttons-with-icons.py
+ENGINE/PLATFORMS/__init__.py
+ENGINE/PLATFORMS/MT45/__init__.py
+ENGINE/PLATFORMS/MT45/MQL4/metaeditor.exe
+ENGINE/PLATFORMS/MT45/MQL4/Experts/BOSSAFX vo 2.00.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Experts/MACD Sample.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Experts/MACD Sample.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Experts/Moving Average.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Experts/Moving Average.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Experts/czas_odnas.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Experts/mqlcache.dat
+ENGINE/PLATFORMS/MT45/MQL4/Experts/QUANTMAVERICK/QUANTMAVERICK.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Experts/QUANTMAVERICK/QUANTMAVERICK.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Experts/QUANTMAVERICK/TestyZMQ.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Include/MovingAverages.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Object.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/StdLibErr.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/WinUser32.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/hash.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/json.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/stderror.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/stdlib.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/Array.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/ArrayChar.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/ArrayDouble.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/ArrayFloat.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/ArrayInt.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/ArrayLong.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/ArrayObj.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/ArrayShort.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/ArrayString.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/List.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/Tree.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Arrays/TreeNode.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Canvas/Canvas.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/ChartObjects/ChartObject.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/ChartObjects/ChartObjectPanel.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/ChartObjects/ChartObjectsArrows.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/ChartObjects/ChartObjectsBmpControls.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/ChartObjects/ChartObjectsChannels.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/ChartObjects/ChartObjectsFibo.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/ChartObjects/ChartObjectsGann.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/ChartObjects/ChartObjectsLines.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/ChartObjects/ChartObjectsShapes.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/ChartObjects/ChartObjectsTxtControls.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Charts/Chart.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/BmpButton.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/Button.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/CheckBox.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/CheckGroup.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/ComboBox.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/DateDropList.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/DatePicker.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/Defines.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/Dialog.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/Edit.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/Label.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/ListView.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/Panel.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/Picture.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/RadioButton.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/RadioGroup.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/Rect.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/Scrolls.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/SpinEdit.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/TimePicker.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/Wnd.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/WndClient.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/WndContainer.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/WndObj.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/CheckBoxOff.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/CheckBoxOn.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/Close.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/CloseDisable.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/CloseOff.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/CloseOn.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/DateDropOff.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/DateDropOn.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/Down.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/DownDisable.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/DownSmall.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/DownTransp.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/DropOff.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/DropOn.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/ExpandDisable.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/ExpandOff.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/ExpandOn.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/HelpDisable.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/HelpOff.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/HelpOn.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/Left.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/LeftDisable.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/LeftTransp.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/RadioButtonOff.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/RadioButtonOn.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/Restore.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/RestoreDisable.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/RestoreOff.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/RestoreOn.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/Right.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/RightDisable.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/RightTransp.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/SpinDec.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/SpinInc.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/ThumbHor.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/ThumbHorDisable.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/ThumbVert.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/ThumbVertDisable.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/Turn.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/TurnOff.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/TurnOn.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/Up.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/UpDisable.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/UpSmall.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/UpTransp.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/down_smoll.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Controls/res/up_smoll.bmp
+ENGINE/PLATFORMS/MT45/MQL4/Include/Files/File.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Files/FileBin.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Files/FilePipe.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Files/FileTxt.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Indicators/BillWilliams.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Indicators/Custom.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Indicators/Indicator.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Indicators/Indicators.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Indicators/Oscilators.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Indicators/Series.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Indicators/TimeSeries.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Indicators/Trend.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Indicators/Volumes.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Mql/Lang/Error.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Mql/Lang/GlobalVariable.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Mql/Lang/Mql.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Mql/Lang/Native.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/QUANTMAVERICKMT4/Util.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Include/QUANTMAVERICKMT4/hash.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/QUANTMAVERICKMT4/json.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Strings/String.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Tools/DateTime.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Zmq/AtomicCounter.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Zmq/Context.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Zmq/Errno.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Zmq/Socket.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Zmq/SocketOptions.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Zmq/Z85.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Zmq/Zmq.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Include/Zmq/ZmqMsg.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/ATR.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/ATR.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Accelerator.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Accelerator.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Accumulation.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Accumulation.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Alligator.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Alligator.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Analizator_historii.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Awesome.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Awesome.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/BOSSAFX.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Bands.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Bands.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Bears.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Bears.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Bulls.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Bulls.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/CCI.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/CCI.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Custom Moving Averages.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Custom Moving Averages.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Heiken Ashi.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Heiken Ashi.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Ichimoku.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Ichimoku.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Kalkulator_BOSSAFX.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Konwerter wykresow.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/MACD.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/MACD.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Momentum.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Momentum.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Multi_BOSSAFX.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/OsMA.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/OsMA.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Parabolic.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Parabolic.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/RSI.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/RSI.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Stochastic.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Stochastic.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Swapy_BOSSAFX.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Tabela Specyfikacji_BOSSAFX.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/ZigZag.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/ZigZag.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Zmiennosc vs Spread_BOSSAFX .ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/iExposure.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/iExposure.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/mqlcache.dat
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Examples/SimplePanel/PanelDialog.mqh
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Examples/SimplePanel/SimplePanel.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Indicators/Examples/SimplePanel/SimplePanel.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Libraries/libsodium.dll
+ENGINE/PLATFORMS/MT45/MQL4/Libraries/libzmq.dll
+ENGINE/PLATFORMS/MT45/MQL4/Libraries/mqlcache.dat
+ENGINE/PLATFORMS/MT45/MQL4/Libraries/stdlib.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Libraries/stdlib.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Kupno_BOSSAFX.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Kupno_BOSSAFX.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/PeriodConverter.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/PeriodConverter.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Sprzedaz_BOSSAFX.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Sprzedaz_BOSSAFX.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Zamknij_BOSSAFX.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Zamknij_wszystko_BOSSAFX.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/mqlcache.dat
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Examples/DLL/DLLSample.cpp
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Examples/DLL/DLLSample.def
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Examples/DLL/DLLSample.vcxproj
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Examples/DLL/DLLSampleTester.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Examples/DLL/DLLSampleTester.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Examples/DLL/Libraries/DLLSample.dll
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Examples/Pipes/PipeClient.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Examples/Pipes/PipeClient.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Examples/Pipes/PipeClientPure.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/Examples/Pipes/PipeClientPure.mq4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/ZMQTEST/TestZmq.ex4
+ENGINE/PLATFORMS/MT45/MQL4/Scripts/ZMQTEST/TestZmq.mq4
+ENGINE/PLATFORMS/MT45/MQL5/experts.dat
+ENGINE/PLATFORMS/MT45/MQL5/metaeditor64.exe
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Advisors/ExpertMACD.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Advisors/ExpertMACD.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Advisors/ExpertMAMA.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Advisors/ExpertMAMA.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Advisors/ExpertMAPSAR.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Advisors/ExpertMAPSAR.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Advisors/ExpertMAPSARSizeOptimized.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Advisors/ExpertMAPSARSizeOptimized.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Advisors/QUANTMAVERICK.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Advisors/QUANTMAVERICK.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Examples/ChartInChart/ChartInChart.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Examples/ChartInChart/ChartInChart.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Examples/Controls/Controls.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Examples/Controls/Controls.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Examples/Controls/ControlsDialog.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Examples/MACD/MACD Sample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Examples/MACD/MACD Sample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Examples/Moving Average/Moving Average.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Experts/Examples/Moving Average/Moving Average.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Images/dollar.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Images/euro.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/JAson.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/MovingAverages.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Object.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/StdLibErr.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/VirtualKeys.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/Array.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/ArrayChar.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/ArrayDouble.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/ArrayFloat.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/ArrayInt.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/ArrayLong.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/ArrayObj.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/ArrayShort.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/ArrayString.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/List.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/Tree.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Arrays/TreeNode.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Canvas/Canvas.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Canvas/FlameCanvas.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Canvas/Charts/ChartCanvas.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Canvas/Charts/HistogramChart.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Canvas/Charts/LineChart.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Canvas/Charts/PieChart.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObject.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObjectPanel.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObjectSubChart.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObjectsArrows.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObjectsBmpControls.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObjectsChannels.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObjectsElliott.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObjectsFibo.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObjectsGann.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObjectsLines.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObjectsShapes.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/ChartObjects/ChartObjectsTxtControls.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Charts/Chart.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/BmpButton.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/Button.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/CheckBox.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/CheckGroup.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/ComboBox.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/DateDropList.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/DatePicker.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/Defines.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/Dialog.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/Edit.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/Label.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/ListView.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/Panel.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/Picture.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/RadioButton.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/RadioGroup.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/Rect.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/Scrolls.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/SpinEdit.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/Wnd.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/WndClient.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/WndContainer.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/WndObj.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/CheckBoxOff.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/CheckBoxOn.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/Close.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/DateDropOff.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/DateDropOn.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/Down.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/DownTransp.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/DropOff.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/DropOn.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/Left.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/LeftTransp.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/RadioButtonOff.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/RadioButtonOn.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/Restore.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/Right.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/RightTransp.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/SpinDec.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/SpinInc.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/ThumbHor.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/ThumbVert.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/Turn.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/Up.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Controls/res/UpTransp.bmp
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Expert.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/ExpertBase.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/ExpertMoney.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/ExpertSignal.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/ExpertTrade.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/ExpertTrailing.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Money/MoneyFixedLot.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Money/MoneyFixedMargin.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Money/MoneyFixedRisk.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Money/MoneyNone.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Money/MoneySizeOptimized.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalAC.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalAMA.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalAO.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalBearsPower.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalBullsPower.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalCCI.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalDEMA.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalDeMarker.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalEnvelopes.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalFrAMA.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalITF.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalMA.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalMACD.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalRSI.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalRVI.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalSAR.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalStoch.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalTEMA.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalTRIX.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Signal/SignalWPR.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Trailing/TrailingFixedPips.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Trailing/TrailingMA.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Trailing/TrailingNone.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Expert/Trailing/TrailingParabolicSAR.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Files/File.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Files/FileBin.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Files/FilePipe.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Files/FileTxt.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/ArrayList.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/HashMap.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/HashSet.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/LinkedList.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Queue.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/RedBlackTree.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/SortedMap.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/SortedSet.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Stack.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Interfaces/ICollection.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Interfaces/IComparable.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Interfaces/IComparer.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Interfaces/IEqualityComparable.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Interfaces/IEqualityComparer.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Interfaces/IList.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Interfaces/IMap.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Interfaces/ISet.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Internal/ArrayFunction.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Internal/CompareFunction.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Internal/DefaultComparer.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Internal/DefaultEqualityComparer.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Internal/EqualFunction.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Internal/HashFunction.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Internal/Introsort.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Generic/Internal/PrimeGenerator.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Graphics/Axis.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Graphics/ColorGenerator.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Graphics/Curve.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Graphics/Graphic.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Indicators/BillWilliams.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Indicators/Custom.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Indicators/Indicator.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Indicators/Indicators.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Indicators/Oscilators.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Indicators/Series.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Indicators/TimeSeries.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Indicators/Trend.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Indicators/Volumes.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/alglib.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/alglibinternal.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/alglibmisc.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/ap.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/arrayresize.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/bitconvert.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/complex.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/dataanalysis.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/delegatefunctions.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/diffequations.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/fasttransforms.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/integration.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/interpolation.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/linalg.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/matrix.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/optimization.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/solvers.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/specialfunctions.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Alglib/statistics.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/dictionary.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/fuzzyrule.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/fuzzyterm.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/fuzzyvariable.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/genericfuzzysystem.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/helper.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/inferencemethod.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/mamdanifuzzysystem.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/membershipfunction.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/ruleparser.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/sugenofuzzysystem.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Fuzzy/sugenovariable.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Beta.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Binomial.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Cauchy.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/ChiSquare.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Exponential.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/F.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Gamma.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Geometric.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Hypergeometric.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Logistic.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Lognormal.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Math.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/NegativeBinomial.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/NoncentralBeta.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/NoncentralChiSquare.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/NoncentralF.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/NoncentralT.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Normal.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Poisson.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Stat.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/T.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Uniform.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Math/Stat/Weibull.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/OpenCL/OpenCL.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/QUANTMAVERICKMT4/Util.mq4
+ENGINE/PLATFORMS/MT45/MQL5/Include/QUANTMAVERICKMT4/Util2.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Include/Strings/String.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Tools/DateTime.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Trade/AccountInfo.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Trade/DealInfo.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Trade/HistoryOrderInfo.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Trade/OrderInfo.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Trade/PositionInfo.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Trade/SymbolInfo.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Trade/TerminalInfo.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Trade/Trade.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/errhandlingapi.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/fileapi.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/handleapi.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/libloaderapi.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/memoryapi.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/processenv.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/processthreadsapi.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/securitybaseapi.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/sysinfoapi.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/winapi.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/winbase.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/windef.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/wingdi.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/winnt.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/winreg.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/WinAPI/winuser.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Zmq/AtomicCounter.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Zmq/Common.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Zmq/Context.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Zmq/Errno.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Zmq/Socket.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Zmq/SocketOptions.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Zmq/Z85.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Zmq/Zmq.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Include/Zmq/ZmqMsg.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/AD.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/AD.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ADX.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ADX.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ADXW.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ADXW.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/AMA.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/AMA.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ASI.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ASI.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ATR.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ATR.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Accelerator.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Accelerator.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Alligator.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Alligator.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Awesome_Oscillator.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Awesome_Oscillator.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/BB.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/BB.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/BW-ZoneTrade.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/BW-ZoneTrade.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Bears.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Bears.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Bulls.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Bulls.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/CCI.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/CCI.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/CHO.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/CHO.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/CHV.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/CHV.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ColorBars.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ColorBars.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ColorCandlesDaily.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ColorCandlesDaily.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ColorLine.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ColorLine.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Custom Moving Average.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Custom Moving Average.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/DEMA.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/DEMA.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/DPO.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/DPO.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/DeMarker.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/DeMarker.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Envelopes.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Envelopes.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Force_Index.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Force_Index.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/FrAMA.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/FrAMA.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Fractals.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Fractals.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Gator.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Gator.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Gator_2.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Gator_2.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Heiken_Ashi.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Heiken_Ashi.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Ichimoku.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Ichimoku.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/MACD.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/MACD.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/MFI.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/MFI.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/MI.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/MI.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/MarketFacilitationIndex.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/MarketFacilitationIndex.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Momentum.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Momentum.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/OBV.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/OBV.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/OsMA.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/OsMA.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/PVT.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/PVT.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ParabolicSAR.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ParabolicSAR.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Price_Channel.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Price_Channel.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ROC.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ROC.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/RSI.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/RSI.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/RVI.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/RVI.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/StdDev.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/StdDev.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Stochastic.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Stochastic.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/TEMA.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/TEMA.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/TRIX.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/TRIX.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Ultimate_Oscillator.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Ultimate_Oscillator.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/VIDYA.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/VIDYA.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/VROC.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/VROC.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Volumes.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Volumes.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/WPR.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/WPR.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/W_AD.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/W_AD.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ZigZag.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ZigZag.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ZigzagColor.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/ZigzagColor.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Canvas/FlameChart.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Canvas/FlameChart.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Panels/ChartPanel/ChartPanel.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Panels/ChartPanel/ChartPanel.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Panels/ChartPanel/PanelDialog.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Panels/SimplePanel/PanelDialog.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Panels/SimplePanel/SimplePanel.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Indicators/Examples/Panels/SimplePanel/SimplePanel.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Libraries/libsodium.dll
+ENGINE/PLATFORMS/MT45/MQL5/Libraries/libzmq.dll
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/British Pound/chart01.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/British Pound/chart02.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/British Pound/chart03.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/British Pound/chart04.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/British Pound/order.wnd
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/Default/order.wnd
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/Euro/chart01.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/Euro/chart02.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/Euro/chart03.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/Euro/chart04.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/Euro/order.wnd
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/Market Overview/chart01.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/Market Overview/chart02.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/Market Overview/chart03.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/Market Overview/chart04.chr
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Charts/Market Overview/order.wnd
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/SymbolSets/forex.all.set
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/SymbolSets/forex.crosses.set
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/SymbolSets/forex.major.set
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Templates/ADX.tpl
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Templates/BollingerBands.tpl
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Templates/Momentum.tpl
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Templates/ReportHistory.htm
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Templates/ReportTester.htm
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Templates/ReportTrade.htm
+ENGINE/PLATFORMS/MT45/MQL5/Profiles/Tester/Moving Average.set
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/jason_test.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/jason_test.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/AccountInfo/AccountInfoSample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/AccountInfo/AccountInfoSample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/AccountInfo/AccountInfoSampleInit.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/ArrayDouble/ArrayDoubleSample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/ArrayDouble/ArrayDoubleSample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/Canvas/CanvasSample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/Canvas/CanvasSample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/Canvas/Charts/HistogramChartSample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/Canvas/Charts/HistogramChartSample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/Canvas/Charts/LineChartSample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/Canvas/Charts/LineChartSample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/Canvas/Charts/PieChartSample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/Canvas/Charts/PieChartSample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/ObjectChart/ChartSampleInit.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/ObjectChart/ObjChartSample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/ObjectChart/ObjChartSample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/ObjectSphere/Sphere.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/ObjectSphere/SphereSample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/ObjectSphere/SphereSample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/BitonicSort.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/BitonicSort.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/FFT.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/FFT.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/MatrixMult.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/MatrixMult.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/Wavelet.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/Wavelet.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/Kernels/bitonicsort.cl
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/Kernels/fft.cl
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/Kernels/matrixmult.cl
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Double/Kernels/wavelet.cl
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/BitonicSort.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/BitonicSort.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/FFT.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/FFT.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/MatrixMult.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/MatrixMult.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/Wavelet.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/Wavelet.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/Kernels/bitonicsort.cl
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/Kernels/fft.cl
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/Kernels/matrixmult.cl
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OpenCL/Float/Kernels/wavelet.cl
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OrderInfo/OrderInfoSample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OrderInfo/OrderInfoSample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/OrderInfo/OrderInfoSampleInit.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/PositionInfo/PositionInfoSample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/PositionInfo/PositionInfoSample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/PositionInfo/PositionInfoSampleInit.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/SymbolInfo/SymbolInfoSample.ex5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/SymbolInfo/SymbolInfoSample.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/Examples/SymbolInfo/SymbolInfoSampleInit.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Alglib/TestClasses.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Alglib/TestClasses.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Alglib/TestInterfaces.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Alglib/TestInterfaces.mqh
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Fuzzy/TestFuzzy.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Generic/TestArrayList.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Generic/TestHashMap.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Generic/TestHashSet.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Generic/TestLinkedList.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Generic/TestQueue.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Generic/TestRedBlackTree.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Generic/TestSortedMap.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Generic/TestSortedSet.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Generic/TestStack.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Stat/TestStat.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Stat/TestStatBenchmark.mq5
+ENGINE/PLATFORMS/MT45/MQL5/Scripts/UnitTests/Stat/TestStatPrecision.mq5
+ENGINE/PLATFORMS/MT45/MT5_PYTHON/__init__.py
+ENGINE/PLATFORMS/MT45/MT5_PYTHON/test.py
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK.algo
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/New cBot.v12.suo
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK.sln
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/UpgradeLog.htm
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/Util.cs
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/.vs/QUANTMAVERICK/v15/.suo
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/.vs/QUANTMAVERICK/v15/Server/sqlite3/db.lock
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/.vs/QUANTMAVERICK/v15/Server/sqlite3/storage.ide
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/.vs/QUANTMAVERICK/v15/Server/sqlite3/storage.ide-shm
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/.vs/QUANTMAVERICK/v15/Server/sqlite3/storage.ide-wal
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/.vs/QUANTMAVERICK/v16/.suo
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/QUANTMAVERICK.cs
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/QUANTMAVERICK.csproj
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/QUANTMAVERICK.cs~RF1a09c82f.TMP
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/QUANTMAVERICK.cs~RFf53a06c.TMP
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/QUANTMAVERICK.cs~RFf7822ad.TMP
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/QUANTMAVERICK.cs~RFf800f8c.TMP
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/QUANTMAVERICK.cs~RFfccfdf1.TMP
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/QUANTMAVERICK.cs~RFfe1bad7.TMP
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/Util.cs
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/Util.cs~RFc8b2a9.TMP
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/app.config
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/packages.config
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/Properties/AssemblyInfo.cs
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/Properties/Resources.Designer.cs
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/Properties/Resources.resx
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/obj/Debug/New cBot.csproj.CoreCompileInputs.cache
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/obj/Debug/New cBot.csprojAssemblyReference.cache
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/obj/Debug/QUANTMAVERICK.csproj.CoreCompileInputs.cache
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/obj/Debug/QUANTMAVERICK.csprojAssemblyReference.cache
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/obj/Debug/build.force
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/QUANTMAVERICK/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/repositories.config
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/AsyncIO.0.1.17.0/AsyncIO.0.1.17.0.nupkg
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/AsyncIO.0.1.17.0/lib/net35/AsyncIO.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/AsyncIO.0.1.17.0/lib/net40/AsyncIO.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/AsyncIO.0.1.26.0/AsyncIO.0.1.26.0.nupkg
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/AsyncIO.0.1.26.0/lib/monoandroid60/AsyncIO.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/AsyncIO.0.1.26.0/lib/net35/AsyncIO.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/AsyncIO.0.1.26.0/lib/net40/AsyncIO.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/AsyncIO.0.1.26.0/lib/netstandard1.3/AsyncIO.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/AsyncIO.0.1.26.0/lib/xamarinios10/AsyncIO.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/NetMQ.4.0.0.1/NetMQ.4.0.0.1.nupkg
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/NetMQ.4.0.0.1/lib/monoandroid60/NetMQ.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/NetMQ.4.0.0.1/lib/net35/NetMQ.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/NetMQ.4.0.0.1/lib/net40/NetMQ.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/NetMQ.4.0.0.1/lib/netstandard1.3/NetMQ.dll
+ENGINE/PLATFORMS/cTrader/QUANTMAVERICK/packages/NetMQ.4.0.0.1/lib/xamarinios10/NetMQ.dll
+ENGINE/PLATFORMS/cTrader/ctrader/API/cAlgo.API.dll
+ENGINE/PLATFORMS/cTrader/ctrader/API/cAlgo.API.xml
+ENGINE/PLATFORMS/cTrader/ctrader/AsyncIO.0.1.17.0/AsyncIO.0.1.17.0.nupkg
+ENGINE/PLATFORMS/cTrader/ctrader/AsyncIO.0.1.17.0/lib/net35/AsyncIO.dll
+ENGINE/PLATFORMS/cTrader/ctrader/AsyncIO.0.1.17.0/lib/net40/AsyncIO.dll
+ENGINE/PLATFORMS/cTrader/ctrader/JSON/net40/Newtonsoft.Json.dll
+ENGINE/PLATFORMS/cTrader/ctrader/JSON/net40/Newtonsoft.Json.pdb
+ENGINE/PLATFORMS/cTrader/ctrader/JSON/net40/Newtonsoft.Json.xml
+ENGINE/PLATFORMS/cTrader/ctrader/NetMQ.3.3.2.2/NetMQ.3.3.2.2.nupkg
+ENGINE/PLATFORMS/cTrader/ctrader/NetMQ.3.3.2.2/lib/net35/NetMQ.XML
+ENGINE/PLATFORMS/cTrader/ctrader/NetMQ.3.3.2.2/lib/net35/NetMQ.dll
+ENGINE/PLATFORMS/cTrader/ctrader/NetMQ.3.3.2.2/lib/net40/NetMQ.XML
+ENGINE/PLATFORMS/cTrader/ctrader/NetMQ.3.3.2.2/lib/net40/NetMQ.dll
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/API/Castle.Zmq.dll
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/API/cAlgo.API.dll
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/API/cAlgo.API.xml
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/Journals/Spotware/Journal-2017-02.txt
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/Sources/Robots/Castle.Zmq.dll
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/Sources/Robots/Castle.Zmq.pdb
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/Sources/Robots/New cBot.algo
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/Sources/Robots/New cBot/New cBot.sln
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/Sources/Robots/New cBot/New cBot.v12.suo
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/Sources/Robots/New cBot/New cBot/New cBot.cs
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/Sources/Robots/New cBot/New cBot/New cBot.csproj
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/Sources/Robots/New cBot/New cBot/Properties/AssemblyInfo.cs
+ENGINE/PLATFORMS/cTrader/ctrader/cAlgo/Sources/Robots/New cBot/New cBot/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+MLPIPELINE/README.md
+MONEY/README.md
 SCHOOL/README.md
-SCHOOL/APP/BIGAI_SCHOOL.py
-SCHOOL/SKILLS/README.md
-SCHOOL/SKILLS/FLET/README.md
-SCHOOL/SKILLS/FLET/TO_DO.py
-SCHOOL/SKILLS/LATER/ALGORITHMS/README.md
-SCHOOL/SKILLS/LATER/BIGDATA/README.md
-SCHOOL/SKILLS/LATER/BIOINFORMATICS/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/EXAMPLE_FOR_TF_CERT.py
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/EXERCISES.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/NUMPY.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/PANDAS.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/SOLUTIONS.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_CLASSIFICATION.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_COMPUTER_VISION.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_FUNDAMENTALS.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_NLP.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_REGRESSION.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_TIME_SERIES.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/Untitled.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model_HDF5.h5
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/insurance.csv
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/model.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/EXAMPLE_FOR_TF_CERT-checkpoint.py
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/EXERCISES-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/NUMPY-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/PANDAS-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/SOLUTIONS-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_CLASSIFICATION-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_COMPUTER_VISION-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_NLP-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_REGRESSION-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_TIME_SERIES-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/Untitled-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/DATA/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/DATA/insurance.csv
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ADALINE.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/GRADIENT.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/IRIS_DESCR.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/LINEARY_NONLINEARY.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/MIN_COST_FUNCTION.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_CLASS.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_CLUSTERING.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_DIM_RED.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_DIV.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_FLOW.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_FLOW_FULL.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_REGRESSION.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_RL.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/NEURON.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/PERCEPTRON.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/PERCEPTRON_LEARNING_RULE.png
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/fingerprint.pb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/keras_metadata.pb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/saved_model.pb
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/variables/variables.data-00000-of-00001
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/GOOGLE/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/variables/variables.index
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CFA/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CFA/LEVEL1/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CFA/LEVEL2/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CFA/LEVEL3/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CPP INSTITUTE/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CPP INSTITUTE/CPA/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CPP INSTITUTE/CPE/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/CPP INSTITUTE/CPP/README.md
-SCHOOL/SKILLS/LATER/CERTIFICATIONS/LATER/GOOGLE/ML ENGINEER GCP/README.md
-SCHOOL/SKILLS/LATER/CPP/README.md
-SCHOOL/SKILLS/LATER/DL/README.md
-SCHOOL/SKILLS/LATER/FINANCE/README.md
-SCHOOL/SKILLS/LATER/FLUTTER/README.md
-SCHOOL/SKILLS/LATER/MATHEMATICS/README.md
-SCHOOL/SKILLS/LATER/ML_ENGINEER/README.md
-SCHOOL/SKILLS/LATER/NLP/README.md
-SCHOOL/SKILLS/LATER/PYTHON/README.md
-SCHOOL/SKILLS/LATER/QUANTUM/README.md
-SCHOOL/SKILLS/LATER/RL/README.md
-SCHOOL/SKILLS/LATER/STATISTICS/README.md
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/EXAMPLE_FOR_TF_CERT.py
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/EXERCISES.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/NUMPY.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/PANDAS.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/README.md
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/SOLUTIONS.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_CLASSIFICATION.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_COMPUTER_VISION.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_FUNDAMENTALS.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_NLP.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_REGRESSION.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/TF_TIME_SERIES.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/Untitled.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model_HDF5.h5
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/insurance.csv
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/model.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/EXAMPLE_FOR_TF_CERT-checkpoint.py
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/EXERCISES-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/NUMPY-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/PANDAS-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/SOLUTIONS-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_CLASSIFICATION-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_COMPUTER_VISION-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_NLP-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_REGRESSION-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/TF_TIME_SERIES-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/.ipynb_checkpoints/Untitled-checkpoint.ipynb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/DATA/README.md
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/DATA/insurance.csv
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ADALINE.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/GRADIENT.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/IRIS_DESCR.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/LINEARY_NONLINEARY.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/MIN_COST_FUNCTION.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_CLASS.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_CLUSTERING.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_DIM_RED.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_DIV.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_FLOW.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_FLOW_FULL.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_REGRESSION.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/ML_RL.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/NEURON.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/PERCEPTRON.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/PERCEPTRON_LEARNING_RULE.png
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/FIGURES/README.md
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/fingerprint.pb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/keras_metadata.pb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/saved_model.pb
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/variables/variables.data-00000-of-00001
-SCHOOL/SKILLS/LATER/TF/TENSORFLOW DEVELOPER CERTIFICATION COURSE/best_model/variables/variables.index
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/ACTIVATION_FUNCTIONS.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/CHECK_INSTALATION.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/EXAMPLE_MLFLOW_MNIST.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/EXAMPLE_MNIST.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/LOSS_FUNCTIONS.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/METRICS.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/.ipynb_checkpoints/CHECK_INSTALATION-checkpoint.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/.ipynb_checkpoints/EXAMPLE_MLFLOW_MNIST-checkpoint.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/.ipynb_checkpoints/EXAMPLE_MNIST-checkpoint.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/.ipynb_checkpoints/LOSS_FUNCTIONS-checkpoint.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/.ipynb_checkpoints/METRICS-checkpoint.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/PT_RL.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/TF_RL.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 10 RL/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/PT_TRANSFORMERS.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/TF_TRANSFORMERS.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 11 TRANSFORMERS/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/PT_TRAINING_DEPLOYMENT.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/TF_TRAINING_DEPLOYMENT.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 12 TRAINING AND DEPLOYING ON SCALE/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/PT_MLOPS.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/TF_MLOPS.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 13 MLOPS DEEP DIVE/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/PT_GRAPH_NN.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/TF_GRAPH_NN.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 14 GRAPH BASED NN/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/TF_REGRESSION.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/PT_TIME_SERIES.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/TF_TIME_SERIES.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 7 TIME SERIES DEEP DIVE/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/PT_AUTOENCODERS.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/TF_AUTOENCODERS.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 8 AUTOENCODERS/FIGURES/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/PT_GENERATIVE.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/TF_GENERATIVE.ipynb
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/DATA/README.md
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/DATA/insurance.csv
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/ADALINE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/GRADIENT.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/IRIS_DESCR.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/LINEARY_NONLINEARY.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/MIN_COST_FUNCTION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/ML_CLASS.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/ML_CLUSTERING.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/ML_DIM_RED.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/ML_DIV.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/ML_FLOW.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/ML_FLOW_FULL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/ML_REGRESSION.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/ML_RL.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/NEURON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/PERCEPTRON.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/PERCEPTRON_LEARNING_RULE.png
+SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 9 GENERATIVE/FIGURES/README.md
 dist/BIGAI-0.0.3-py3.9.egg

@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
    name='BIGAI',
-   version='0.0.5',
+   version='0.0.6',
    author='Aleksander Majos',
    author_email='aleksander.majos@gmail.com',
    packages=find_packages(),
@@ -11,9 +11,6 @@ setup(
    download_url='https://github.com/aleksandermajos/BIGAI',
    license='LICENSE.txt',
    description='An AI Library as a Baseline to create AI Projects',
-   long_description=open('README.md').read(),
-   install_requires=[
-       "torch>=1.8",
-       "pytorch-lightning>=1.2.5",
-   ],
+   #long_description=open('README.md').read(),
+   install_requires=[],
 )
