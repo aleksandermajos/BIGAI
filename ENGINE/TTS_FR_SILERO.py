@@ -15,8 +15,8 @@ class TTS_FR():
         self.speaker=speaker
 
     def create_and_save(self,text):
-        audio_paths = self.model.save_wav(text=text,
-                             speaker=self.speaker,
+        audio_paths = self.model.save_wav(ssml_text=text,
+                             speaker='fr_0',
                              sample_rate=self.sample_rate)
         filename = 'test.wav'
         wave_obj = sa.WaveObject.from_wave_file(filename)

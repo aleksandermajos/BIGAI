@@ -2,14 +2,14 @@ import os
 import torch
 import whisper
 import re
-from ENGINE.FILES_OPS import get_all_names
+from APP.FILES.FILES_OP import get_all_names
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-lang = 'Spanish'
-learning_path = '../DATA/PHRASES/LEARNING/'+lang
+
+
 
 class WhisperModel():
-        def __init__(self,size='small', lang='polish'):
+        def __init__(self,size='small', lang='german'):
             #processor = WhisperProcessor.from_pretrained("openai/whisper-large-v2")
             #self.model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-large-v2")
             self.model = whisper.load_model(size)

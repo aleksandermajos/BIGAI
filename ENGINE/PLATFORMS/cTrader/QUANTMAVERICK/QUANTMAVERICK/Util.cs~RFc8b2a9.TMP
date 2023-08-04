@@ -1,0 +1,119 @@
+﻿using System;
+using System.Linq;
+using cAlgo.API;
+using cAlgo.API.Indicators;
+using cAlgo.API.Internals;
+using cAlgo.Indicators;
+using NetMQ;
+using NetMQ.Sockets;
+using System.Text;
+
+namespace cAlgo
+{
+    public partial class QUANTMAVERICK : Robot
+    {
+        public string ChartName(string uSymbol, int iPeriod, long iWindowId)
+        {
+            string uRetval = "{";
+            uRetval += "\"Terminal\":" + "\"CTRADER\""+",";
+            uRetval += "\"Broker\":" + "\"FXPRO\"" + ",";
+            uRetval += "\"Symbol\":" + "\"EURUSD\"" + ",";
+            uRetval += "\"Period\":" + "1440" + ",";
+            uRetval += "\"WindowID\":" + "\"RADOSNIE RANDOM\"";
+            uRetval += "}";
+            return (uRetval);
+        }
+
+        public string Price(string uSymbol)
+        {
+            string ti = "";
+            ti = this.Server.Time.Year + "-";
+            if (this.Server.Time.Month.ToString().Length == 1) ti = ti + "0" + this.Server.Time.Month + "-";
+            else ti = ti + this.Server.Time.Month + "-";
+            if (this.Server.Time.Day.ToString().Length == 1) ti = ti + "0" + this.Server.Time.Day + "T";
+            else ti = ti + this.Server.Time.Day + " ";
+            if (this.Server.Time.Hour.ToString().Length == 1) ti = ti + "0" + this.Server.Time.Hour + ":";
+            else ti = ti + this.Server.Time.Hour + ":";
+            if (this.Server.Time.Minute.ToString().Length == 1) ti = ti + "0" + this.Server.Time.Minute + ":";
+            else ti = ti + this.Server.Time.Minute + ":";
+            if (this.Server.Time.Second.ToString().Length == 1) ti = ti + "0" + this.Server.Time.Second + ".";
+            else ti = ti + this.Server.Time.Second + ".";
+
+            if (this.Server.Time.Millisecond.ToString().Length == 1) ti = ti + "00" + this.Server.Time.Millisecond;
+            if (this.Server.Time.Millisecond.ToString().Length == 2) ti = ti + "0" + this.Server.Time.Millisecond;
+            else ti = ti + this.Server.Time.Millisecond;
+            this.utcNow = DateTime.UtcNow;
+            string uRetval = "{";
+            uRetval += "\"symbol\":" + "\""+uSymbol+"\"" + ",";
+            uRetval += "\"time\":" + "\"" +ti+"\"" + ",";
+            uRetval += "\"bid\":" + Symbol.Bid + ",";
+            uRetval += "\"ask\":" + Symbol.Ask + ",";
+            uRetval += "\"volumen\":" + Symbol.VolumeMax;
+            uRetval += "}";
+            return (uRetval);
+        }
+
+        public string Portsnr(int SUBPUB, int REQREP)
+        {
+            string uRetval = "{";
+            uRetval += "\"SubPubPort\":" + "2027" + ",";
+            uRetval += "\"ReqRepPort\":" + "2028";
+            uRetval += "}";
+            return (uRetval);
+        }
+
+        public string AccountInformation()
+        {
+            string uRetval;
+            uRetval = "{";
+            uRetval += "\"status\":" + "\"ok\"" + ",";
+            uRetval += "\"balance\":" + "10000" + ",";
+            uRetval += "\"credit\":" + "8000" + ",";
+            uRetval += "\"company\":" + "\"FXPRO\"" + ",";
+            uRetval += "\"currency\":" + "\"GBP\"" + ",";
+            uRetval += "\"equity\":" + "8000" + ",";
+            uRetval += "\"free_margin\":" + "8000" + ",";
+            uRetval += "\"free_margin_mode\":" + "\"MEGA MODE\"" + ",";
+            uRetval += "\"leverage\":" + "8000" + ",";
+            uRetval += "\"margin\":" + "8000" + ",";
+            uRetval += "\"name\":" + "\"name\"" + ",";
+            uRetval += "\"number\":" + "8000" + ",";
+            uRetval += "\"profit\":" + "8000" + ",";
+            uRetval += "\"server\":" + "\"h20.p.ctrader.com\"" + ",";
+            uRetval += "\"stopout_level\":" + "8000" + ",";
+            uRetval += "\"stopout_mode\":" + "\"MEGA MODE\"";
+            uRetval += "}";
+            return (uRetval);
+        }
+
+        public string InstrumentInfo(string uSymbol)
+        {
+            string uRetval;
+            uRetval = "{";
+            uRetval += "\"symbol\":" + "\"EURUSD\"" + ",";
+            uRetval += "\"contract_size\":" + "8000" + ",";
+            uRetval += "\"min_volume\":" + "8000" + ",";
+            uRetval += "\"max_volume\":" + "8000" + ",";
+            uRetval += "\"swap_long\":" + "8000" + ",";
+            uRetval += "\"swap_short\":" + "8000";
+            uRetval += "}";
+            return (uRetval);
+        }
+
+        public string History(string uSymbol)
+        {
+            string uRetval = "";
+            
+            return (uRetval);
+        }
+
+        public string Transactions(string uSymbol)
+        {
+            string uRetval = "";
+
+            return (uRetval);
+        }
+
+
+    }
+}

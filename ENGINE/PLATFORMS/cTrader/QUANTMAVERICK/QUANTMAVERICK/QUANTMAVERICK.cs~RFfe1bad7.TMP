@@ -1,0 +1,69 @@
+﻿using System;
+using System.Linq;
+using cAlgo.API;
+using cAlgo.API.Indicators;
+using cAlgo.API.Internals;
+using cAlgo.Indicators;
+using NetMQ;
+using NetMQ.Sockets;
+using System.Text;
+namespace cAlgo
+{
+    [Robot(TimeZone = TimeZones.UTC, AccessRights = AccessRights.FullAccess)]
+    public class QUANTMAVERICK : Robot
+    {
+        [Parameter(DefaultValue = 0.0)]
+        public double Parameter { get; set; }
+
+        static NetMQContext ctx = NetMQContext.Create();
+        NetMQSocket SUBLISTENERPORTS = ctx.CreateSubscriberSocket();
+        private NetMQSocket SOCPUB = ctx.CreatePublisherSocket();
+        private NetMQSocket SOCREP = ctx.CreateResponseSocket();
+
+        protected override void OnStart()
+        {
+            using (ctx)
+            {
+                using (SUBLISTENERPORTS)
+                {
+                    using (SOCPUB)
+                    {
+                        using (SOCREP)
+                        {
+                            string topic = "";
+                            SUBLISTENERPORTS.Connect("tcp://localhost:2025");
+                            SUBLISTENERPORTS.Subscribe(topic);
+                            string messageTopicReceived = SUBLISTENERPORTS.ReceiveFrameString();
+                            string messageReceived = SUBLISTENERPORTS.ReceiveFrameString();
+                            Print(messageReceived);
+                            SOCPUB.Bind("tcp://*:2027");
+                            SOCREP.Bind("tcp://*:2028");
+                        }
+                    }
+                }
+            }
+        }
+
+        protected override void OnTick()
+        {
+            using (ctx)
+            {
+                using (SOCPUB)
+                {
+                    using (SOCREP)
+                    {
+                        SOCPUB.Send("oko", dontWait: true);
+                    }
+                }
+
+            }
+        }
+
+        protected override void OnStop()
+        {
+
+        }
+    }
+
+
+}

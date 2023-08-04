@@ -1,8 +1,9 @@
 import openai
+path = ""
 
 class ChatGPT():
     def __init__(self):
-        f = open("/Users/aleksander/PycharmProjects/OPENAI/account.txt", "r")
+        f = open(path+"account.txt", "r")
         openai.api_key = f.read()
     def talk(self, text):
         completion = openai.ChatCompletion.create(
@@ -11,4 +12,4 @@ class ChatGPT():
                 {"role": "user", "content": text}
             ]
         )
-        return completion
+        return completion.choices[0].message.content

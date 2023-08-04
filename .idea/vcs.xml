@@ -4,5 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../CZARNA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../manning_tf2_in_action" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../tensorflow-deep-learning" vcs="Git" />
   </component>
 </project>

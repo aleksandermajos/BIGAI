@@ -5,22 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL START">
+      <change afterPath="$PROJECT_DIR$/ENGINE/ACCOUNT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/CHART.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/DATA_PLAT_OHLC_MANIPULATE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/DATA_PLAT_REGRESSION.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/DIVIDE_SENTENCES.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/GENERATE_SENTENCES.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/GIVE_WORDS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/INSTRUMENT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/LEMMA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/LISTENER.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/LOAD_PICS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/LOAD_SENTENCES.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/LOAD_WORDS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/NEW_LANG_PIPELINE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/QUANTMAVERICK.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/START.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/STRATEGY.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/TATOEBA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/TIME_OPENING_CLOSING_MT4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/TRANSACTION.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/UPGRADE_USER_FILES.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/USER_FILES_WORDS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MLPIPELINE/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MONEY/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CZARNA/.idea/Deep-Learning-with-TensorFlow-and-Keras-3rd-edition.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manning_tf2_in_action/.idea/manning_tf2_in_action.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/SDXL.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/SDXL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/CHECK_INSTALATION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/CHECK_INSTALATION.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/EXAMPLE_MLFLOW_MNIST.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/EXAMPLE_MLFLOW_MNIST.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/EXAMPLE_MNIST.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS/EXAMPLE_MNIST.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/PT_REGRESSION.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/TF_REGRESSION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 2 REGRESSION/TF_REGRESSION.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/PT_CLASSIFICATION.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 3 CLASSIFICATION/TF_CLASSIFICATION.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/PT_COMPUTER_VISION.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 5 COMPUTER VISION/TF_COMPUTER_VISION.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CZARNA/Chapter_2/logistic_regression_using_keras_API.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../CZARNA/Chapter_2/logistic_regression_using_keras_API.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CZARNA/Chapter_2/multiple_linear_regression_using_keras_API.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../CZARNA/Chapter_2/multiple_linear_regression_using_keras_API.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CZARNA/Chapter_2/simple_linear_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../CZARNA/Chapter_2/simple_linear_regression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CZARNA/Chapter_2/simple_linear_regression_using_keras_API.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../CZARNA/Chapter_2/simple_linear_regression_using_keras_API.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CZARNA/Chapter_3/cifar10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CZARNA/Chapter_3/cifar10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/DATA_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/DATA_API.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/OPENAI_CHATGPT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/OPENAI_CHATGPT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/PT_TRANSFER_LEARNING.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 4 TRANSFER LEARNING/TF_TRANSFER_LEARNING.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 6 NLP/PT_NLP.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 6 NLP/TF_NLP.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +69,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../CZARNA" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -63,28 +81,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/PycharmProjects/BIGAI/SCHOOL/BUILD YOUR OWN HEDGE FUND BASED ON AI/CHAPTER 1 FUNDAMENTALS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/aleks/PycharmProjects/BIGAI/ENGINE",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\ENGINE" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\MONEY" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\PIPELINE" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\BUILD YOUR OWN HEDGE FUND BASED ON AI\CHAPTER 1 FUNDAMENTALS" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\DL\CHAPTER FOURTEEN_GRAPH BASED NN" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\DL\CHAPTER THIRTEEN_MLOPS" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\DL\CHAPTER TWELVE_TRAINING AND DEPLOYING ON SCALE" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\DL\CHAPTER ELEVEN_TRANSFORMERS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
@@ -94,29 +113,7 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\SKILLS\DL\CHAPTER SIX_NLP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SDXL">
-    <configuration name="DL_MAC_PLAIDML" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BIGAI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/DL_MAC_PLAIDML.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.elmo_from_tfhub">
     <configuration name="DL_PLAIDML" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,6 +150,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/SDXL.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="elmo_from_tfhub" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deep-Learning-with-TensorFlow-and-Keras-3rd-edition" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CZARNA/Chapter_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CZARNA/Chapter_4/elmo_from_tfhub.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SDXL" />
+        <item itemvalue="Python.elmo_from_tfhub" />
         <item itemvalue="Python.mnist" />
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.SDXL" />
         <item itemvalue="Python.DL_PLAIDML" />
-        <item itemvalue="Python.DL_MAC_PLAIDML" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +318,13 @@
       <workItem from="1690554984210" duration="1241000" />
       <workItem from="1690556919244" duration="36000" />
       <workItem from="1690854960649" duration="3745000" />
-      <workItem from="1690909088253" duration="4360000" />
+      <workItem from="1690909088253" duration="4386000" />
+      <workItem from="1690914176312" duration="655000" />
+      <workItem from="1690975047729" duration="4754000" />
+      <workItem from="1690995872755" duration="839000" />
+      <workItem from="1691046031651" duration="4901000" />
+      <workItem from="1691144926552" duration="60000" />
+      <workItem from="1691150721945" duration="1259000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -369,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690213170585</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="BIGAI SCHOOL START">
+      <option name="closed" value="true" />
+      <created>1690913975876</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690913975877</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,6 +454,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BIGAI$elmo_from_tfhub.coverage" NAME="elmo_from_tfhub Coverage Results" MODIFIED="1690995663295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_4" />
     <SUITE FILE_PATH="coverage/BIGAI$DL_MAC_PLAIDML.coverage" NAME="DL_MAC_PLAIDML Coverage Results" MODIFIED="1670422128857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$DL_PLAIDML.coverage" NAME="DL_PLAIDML Coverage Results" MODIFIED="1670423752096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1671574689688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ALOHAPP" />

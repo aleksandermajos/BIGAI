@@ -1,0 +1,21 @@
+2017.02.06 16:48:24.181 | cAlgo started
+2017.02.06 16:51:14.431 | Demo account 3156953 successfully created
+2017.02.06 19:34:26.576 | cAlgo started
+2017.02.07 13:32:40.845 | cAlgo started
+2017.02.07 18:10:53.693 | cAlgo started
+2017.02.07 18:29:09.346 | cAlgo started
+2017.02.07 18:58:02.103 | cAlgo started
+2017.02.07 21:15:03.122 | cAlgo started
+2017.02.07 21:56:02.887 | cAlgo started
+2017.02.07 22:09:27.273 | cAlgo started
+2017.02.07 22:24:59.493 | cAlgo started
+2017.02.08 07:29:05.805 | cAlgo started
+2017.02.08 09:03:40.019 | cAlgo started
+2017.02.08 13:13:08.456 | cAlgo started
+2017.02.08 13:37:40.137 | cAlgo started
+2017.02.08 13:53:51.571 | cAlgo started
+2017.02.08 17:02:43.277 | cAlgo started
+2017.02.08 17:51:18.208 | cAlgo started
+2017.02.08 18:19:58.455 | cAlgo started
+2017.02.08 18:29:25.368 | cAlgo started
+2017.02.08 19:46:59.533 | cAlgo started
