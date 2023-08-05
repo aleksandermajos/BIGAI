@@ -1,4 +1,5 @@
-# BIGAI_MONEY
+# BIGAI_STARTUP
+
 
 **THIS REPO IS SUPPLEMENT OF YT CHANNEL: ** https://www.youtube.com/channel/UCLNTRwFXhwYRjva_NffipAA
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
@@ -8,7 +9,7 @@
 
 
 
-**WEB APP/DESKTOP APP BIGAI_MONEY BASED ON BIGAIENGINE, BIGAIBUSINESS, BIGAIMLPIPELINE
+**DESKTOP APP BASED ON BIGAI_ENGINE, BIGAI_FLOW, BIGAI_MONEY_FLOW, WHISPER, FLET** by Aleksander Majos
 
 > **BEWARE**: This is a work in progress!
 >
@@ -19,4 +20,4 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-CREATE QUANTMAVERICK POC BASED ON BIGAIMLPIPELINE
+

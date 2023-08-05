@@ -4,7 +4,7 @@
 
 <a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-
+**JUPYTER FILES BASED ON BIGAI_ENGINE
 
 > **BEWARE**: This is a work in progress!
 >
@@ -15,7 +15,7 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-BUILD YOUR OWN HEDGE FUND BASED ON AI
+BUILD YOUR OWN HEDGE FUND BASED ON AI COURSE
 
 
 

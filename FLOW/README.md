@@ -1,4 +1,4 @@
-# BIGAIMLPIPELINE
+# BIGAI_FLOW
 
 **THIS REPO IS SUPPLEMENT OF YT CHANNEL: ** https://www.youtube.com/channel/UCLNTRwFXhwYRjva_NffipAA
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
@@ -8,7 +8,7 @@
 
 
 
-****WEB APP/DESKTOP APP BIGAIMONEY BASED ON BIGAIENGINE, BIGAIBUSINESS, BIGAIMLPIPELINE** by Aleksander Majos
+****WEB APP/DESKTOP APP BIGAI_MONEYFLOW BASED ON BIGAI_ENGINE, BIGAI_STARTUP, BIGAI_FLOW** by Aleksander Majos
 
 > **BEWARE**: This is a work in progress!
 >
@@ -19,4 +19,4 @@
 > * No promises. No guarantees. Use at own risk.
 
 **TODO:**
-SIMPLEST ML PIPELINE BASED ON MLFLOW, BIGAIENGINE
+SIMPLEST ML PIPELINE BASED ON MLFLOW, BIGAI_ENGINE
