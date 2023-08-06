@@ -1,6 +1,6 @@
 import zmq
 import zmq.asyncio
-from CHART import ChartFX
+from ENGINE.CHART import ChartFX
 import pandas as pd
 import json
 import os.path

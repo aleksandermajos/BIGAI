@@ -1,14 +1,14 @@
 from abc import ABC, abstractmethod
-from INSTRUMENT import InstrumentMT4, InstrumentCTRADER
-from ACCOUNT import AccountMT4, AccountCTRADER, AccountFXCMAPI, AccountFIX
-from TRANSACTION import TransactionMT4, TransactionCTRADER
+from ENGINE.INSTRUMENT import InstrumentMT4, InstrumentCTRADER
+from ENGINE.ACCOUNT import AccountMT4, AccountCTRADER, AccountFXCMAPI, AccountFIX
+from ENGINE.TRANSACTION import TransactionMT4, TransactionCTRADER
+from ENGINE.DATA_API import exampleAuth_OANDA, exampleAuth_FXCM, FXCMData
+from ENGINE.TIME_OPENING_CLOSING_MT4 import Open_Time_To_New_Chart, Close_Time_To_New_Chart
+from ENGINE.TIME_OPENING_CLOSING_MT4 import Average_OpenTimes, Average_CloseTimes
 import json
 import pandas as pd
 import zmq
 import zmq.asyncio
-from DATA_API import exampleAuth_OANDA, exampleAuth_FXCM, FXCMData
-from TIME_OPENING_CLOSING_MT4 import Open_Time_To_New_Chart, Close_Time_To_New_Chart
-from TIME_OPENING_CLOSING_MT4 import Average_OpenTimes, Average_CloseTimes
 import socket
 from datetime import datetime
 import functools
@@ -18,6 +18,11 @@ import fxcmpy
 import time
 import numpy as np
 import os
+
+from pathlib import Path
+p = Path.cwd()
+path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
+path = path_beginning+"DATA/QUANTMAVERICK/"
 
 
 class Chart(ABC):
@@ -39,10 +44,10 @@ class ChartFX(Chart):
         self.WindowID = data["WindowID"]
         #data_path = Path(Path(__file__).resolve().parent.parent)
         #data_path_last = fspath(data_path)
-        self.broker_open_times = "C:\\DATA\BROKERS_OPEN_TIMES.csv"
+        self.broker_open_times = path+"BROKERS_OPEN_TIMES.csv"
         self.OpenTimes = Open_Time_To_New_Chart(self,self.broker_open_times)
         self.Average_OpenTimes = Average_OpenTimes(self)
-        self.broker_close_times = "C:\\DATA\BROKERS_CLOSE_TIMES.csv"
+        self.broker_close_times = path+"BROKERS_CLOSE_TIMES.csv"
         self.ClosingTimes = Close_Time_To_New_Chart(self,self.broker_close_times)
         self.Average_CloseTimes = Average_CloseTimes(self)
         self.subport = subport
@@ -53,7 +58,7 @@ class ChartFX(Chart):
         self.sub.connect("tcp://localhost:" + self.subport)
         self.sub.subscribe("")
         self.req.connect("tcp://localhost:" + self.reqport)
-        self.data_candles_path = "C:\\DATA/DATA_CANDLES.csv"
+        self.data_candles_path = path+"DATA_CANDLES.csv"
         self.req.send(b"INSTRUMENTINFO")
         data = self.req.recv()
         data = data.decode('utf8').replace("}{", ", ")
@@ -66,7 +71,7 @@ class ChartFX(Chart):
         if len(data) > 2:
             data = data.decode('utf8')
             print(os.getcwd())
-            data_path_last = "../DATA/DATA_CANDLES.csv"
+            data_path_last = path+"DATA_CANDLES.csv"
             self.data_candles_path = data_path_last
             f = open(data_path_last, "w")
             f.write(data[:])

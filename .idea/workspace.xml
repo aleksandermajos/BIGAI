@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI MACOS">
-      <change afterPath="$PROJECT_DIR$/.idea/jupyter-settings.xml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ALOHAPP MODULAR">
+      <change afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/TIMELINE.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/OPENAI_CHATGPT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/OPENAI_CHATGPT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TTS_DE_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_DE_SILERO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TTS_EN_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_EN_SILERO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TTS_ES_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_ES_SILERO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TTS_FR_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_FR_SILERO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TTS_RU_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_RU_SILERO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TTS_UA_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_UA_SILERO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/USER_FILES_WORDS.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/USER_FILES_WORDS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIGAI.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/BIGAI.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIGAI.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BIGAI.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/QUANTMAVERICK/DATA_CANDLES.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/DATA_CANDLES.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/CHART.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/CHART.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/DATA_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/DATA_API.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/LISTENER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/LISTENER.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/QUANTMAVERICK/START.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/QUANTMAVERICK/START.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,25 +57,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/aleksander/PycharmProjects/BIGAI/DATA/ALOHAPP&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/aleks/PycharmProjects/BIGAI/DATA/QUANTMAVERICK",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/DATA/ALOHAPP" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\QUANTMAVERICK" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\VISIBLE\QUANTMAVERICK" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\ENGINE" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP" />
@@ -92,7 +89,7 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\VISIBLE\ALOHAPP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CONVERSATIONS_AI">
+  <component name="RunManager" selected="Python.START (1)">
     <configuration name="CONVERSATIONS_AI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,20 +156,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SENTENCES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="manning_tf2_in_action" />
+    <configuration name="START (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/STARTUP/ALOHAPP/APP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FRONT/QUANTMAVERICK" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\aleks\PycharmProjects\BIGAI\VISIBLE\ALOHAPP\SENTENCES.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FRONT/QUANTMAVERICK/START.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.START (1)" />
         <item itemvalue="Python.CONVERSATIONS_AI" />
         <item itemvalue="Python.SENTENCES (2)" />
         <item itemvalue="Python.SENTENCES (1)" />
         <item itemvalue="Python.START" />
-        <item itemvalue="Python.SENTENCES" />
       </list>
     </recent_temporary>
   </component>
@@ -305,11 +302,9 @@
       <workItem from="1691150721945" duration="3043000" />
       <workItem from="1691274842604" duration="142000" />
       <workItem from="1691275039928" duration="1489000" />
-      <workItem from="1691307297150" duration="7511000" />
-      <workItem from="1691318435783" duration="1293000" />
-      <workItem from="1691319762643" duration="515000" />
-      <workItem from="1691322003414" duration="1325000" />
-      <workItem from="1691323439998" duration="2009000" />
+      <workItem from="1691307297150" duration="8832000" />
+      <workItem from="1691326323375" duration="18000" />
+      <workItem from="1691326999339" duration="2781000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -411,13 +406,13 @@
       <option name="project" value="LOCAL" />
       <updated>1691275944022</updated>
     </task>
-    <task id="LOCAL-00014" summary="BIGAI MACOS">
+    <task id="LOCAL-00014" summary="BIGAI ALOHAPP MODULAR">
       <option name="closed" value="true" />
-      <created>1691319715735</created>
+      <created>1691315192049</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1691319715735</updated>
+      <updated>1691315192049</updated>
     </task>
     <option name="localTasksCounter" value="15" />
     <servers />
@@ -450,8 +445,8 @@
     <MESSAGE value="BIGAIENGINE ALL FILES" />
     <MESSAGE value="BIGAI ENV FILE" />
     <MESSAGE value="BIGAI README" />
-    <MESSAGE value="BIGAI MACOS" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI MACOS" />
+    <MESSAGE value="BIGAI ALOHAPP MODULAR" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ALOHAPP MODULAR" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,11 +466,6 @@
           <line>31</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/USER_FILES_WORDS.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -487,16 +477,17 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BIGAI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1671574689688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ALOHAPP" />
-    <SUITE FILE_PATH="coverage/BIGAI$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1690204637871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_1" />
-    <SUITE FILE_PATH="coverage/BIGAI$SENTENCES__1_.coverage" NAME="SENTENCES (1) Coverage Results" MODIFIED="1691312037750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VISIBLE/ALOHAPP" />
-    <SUITE FILE_PATH="coverage/BIGAI$SENTENCES__2_.coverage" NAME="SENTENCES (2) Coverage Results" MODIFIED="1691319589008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$elmo_from_tfhub.coverage" NAME="elmo_from_tfhub Coverage Results" MODIFIED="1690995663295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_4" />
+    <SUITE FILE_PATH="coverage/BIGAI$SENTENCES__2_.coverage" NAME="SENTENCES (2) Coverage Results" MODIFIED="1691314113851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$SENTENCES.coverage" NAME="SENTENCES Coverage Results" MODIFIED="1691308783323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/STARTUP/ALOHAPP/APP" />
-    <SUITE FILE_PATH="coverage/BIGAI$CONVERSATIONS_AI.coverage" NAME="CONVERSATIONS_AI Coverage Results" MODIFIED="1691323130863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$START.coverage" NAME="START Coverage Results" MODIFIED="1691309105525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/STARTUP/QUANTMAVERICK/APP" />
     <SUITE FILE_PATH="coverage/BIGAI$DL_MAC_PLAIDML.coverage" NAME="DL_MAC_PLAIDML Coverage Results" MODIFIED="1670422128857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$elmo_from_tfhub.coverage" NAME="elmo_from_tfhub Coverage Results" MODIFIED="1690995663295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_4" />
-    <SUITE FILE_PATH="coverage/BIGAI$SDXL.coverage" NAME="SDXL Coverage Results" MODIFIED="1690556065323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$DL_PLAIDML.coverage" NAME="DL_PLAIDML Coverage Results" MODIFIED="1670423752096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1671574689688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$SDXL.coverage" NAME="SDXL Coverage Results" MODIFIED="1690556065323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1690204637871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_1" />
+    <SUITE FILE_PATH="coverage/BIGAI$CONVERSATIONS_AI.coverage" NAME="CONVERSATIONS_AI Coverage Results" MODIFIED="1691315039170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$START__1_.coverage" NAME="START (1) Coverage Results" MODIFIED="1691330159089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/QUANTMAVERICK" />
+    <SUITE FILE_PATH="coverage/BIGAI$SENTENCES__1_.coverage" NAME="SENTENCES (1) Coverage Results" MODIFIED="1691312037750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VISIBLE/ALOHAPP" />
   </component>
 </project>

@@ -68,9 +68,12 @@ DATA/ALOHAPP/PHRASES/SPEAKING/ Der Chef hat uns ausgewiesen, mehr Zeit mit unser
 DATA/ALOHAPP/PHRASES/SPEAKING/ Er hat eines neues Auto gekauft..wav
 DATA/ALOHAPP/PHRASES/SPEAKING/ Er hat gestern seinen Geburtstag gefeiert..wav
 DATA/ALOHAPP/PHRASES/SPEAKING/ Ich habe das Buch schon geleistet..wav
+DATA/ALOHAPP/PHRASES/SPEAKING/ Ich habe ein Kières Ugler Ihr könnt man Ja.wav
 DATA/ALOHAPP/PHRASES/SPEAKING/ Ich habe heute meinen ersten Arbeitstag..wav
+DATA/ALOHAPP/PHRASES/SPEAKING/ Ich möchte etwas auf die Pufferung sagen, aber nicht auf die Pufferung, weil er sagt Pufferung..wav
 DATA/ALOHAPP/PHRASES/SPEAKING/ Jutro bende zima, a pozimie bende wiosna, ii, datego cheba jehatjese..wav
 DATA/ALOHAPP/PHRASES/SPEAKING/ Sein Auto ist schnell.wav
+DATA/ALOHAPP/PHRASES/SPEAKING/ Sie hat eine schöne Stimme..wav
 DATA/ALOHAPP/PHRASES/SPEAKING/ Wenn.wav
 DATA/ALOHAPP/PHRASES/SPEAKING/ Wir haben gestern Abend einen Film gesehen..wav
 DATA/ALOHAPP/PHRASES/SPEAKING/ Wir haben heute frei..wav
@@ -109,7 +112,11 @@ DATA/ALOHAPP/USER/FR/SENTENCES_FR_1000_V1.xlsx
 DATA/ALOHAPP/USER/FR/SENTENCES_FR_EN_1000_V1.xlsx
 DATA/ALOHAPP/USER/FR/SENTENCES_FR_EN_LEMMA_1000_V1.xlsx
 DATA/ALOHAPP/USER/FR/SENTENCES_FR_LEMMA_1000_V1.xlsx
+DATA/ALOHAPP/USER/SPEAKING/ Bis zum nächsten Mal.wav
+DATA/ALOHAPP/USER/SPEAKING/ Bist du auch glücklich.wav
+DATA/ALOHAPP/USER/SPEAKING/ Danke für Ihr Antwort..wav
 DATA/ALOHAPP/USER/SPEAKING/ Ein Vogel fliegt.wav
+DATA/ALOHAPP/USER/SPEAKING/ Er will die Mädchen bewegen..wav
 DATA/ALOHAPP/USER/SPEAKING/ Es gibt viele Leute in Breslau..wav
 DATA/ALOHAPP/USER/SPEAKING/ Gibt es viele Leute in Breslau.wav
 DATA/ALOHAPP/USER/SPEAKING/ Gibt es viele Mannschaften in Breslau.wav
@@ -121,6 +128,8 @@ DATA/ALOHAPP/USER/SPEAKING/ Haste du ein neues Auto.wav
 DATA/ALOHAPP/USER/SPEAKING/ Hello.wav
 DATA/ALOHAPP/USER/SPEAKING/ How do I know it's auto.wav
 DATA/ALOHAPP/USER/SPEAKING/ How is happy in German.wav
+DATA/ALOHAPP/USER/SPEAKING/ Ich bin müde..wav
+DATA/ALOHAPP/USER/SPEAKING/ Ich bin sehr glücklich..wav
 DATA/ALOHAPP/USER/SPEAKING/ Ich bin wieder..wav
 DATA/ALOHAPP/USER/SPEAKING/ Ich habe Tee und Kaffee..wav
 DATA/ALOHAPP/USER/SPEAKING/ Ich habe der Spiegel.wav
@@ -132,6 +141,7 @@ DATA/ALOHAPP/USER/SPEAKING/ Ich habe einen Spiegel..wav
 DATA/ALOHAPP/USER/SPEAKING/ Ich habe keine Zeit.wav
 DATA/ALOHAPP/USER/SPEAKING/ Ich habe nicht viel Zeit..wav
 DATA/ALOHAPP/USER/SPEAKING/ Ich mag Tee, aber ich like..wav
+DATA/ALOHAPP/USER/SPEAKING/ Ich möchte wissen, was du tun kannst..wav
 DATA/ALOHAPP/USER/SPEAKING/ Ich nehme T..wav
 DATA/ALOHAPP/USER/SPEAKING/ Ich trinke Tee und Kaffee..wav
 DATA/ALOHAPP/USER/SPEAKING/ Ich verstehe das nicht..wav
@@ -141,7 +151,10 @@ DATA/ALOHAPP/USER/SPEAKING/ Kannst du Sandwichen machen.wav
 DATA/ALOHAPP/USER/SPEAKING/ Kannst du mir halfen.wav
 DATA/ALOHAPP/USER/SPEAKING/ Kennst du singen.wav
 DATA/ALOHAPP/USER/SPEAKING/ Sein Auto ist schnell..wav
+DATA/ALOHAPP/USER/SPEAKING/ Sie ist gemütlich..wav
 DATA/ALOHAPP/USER/SPEAKING/ Trinkst die mit mir.wav
+DATA/ALOHAPP/USER/SPEAKING/ Vielen Dank für's Zuhören.wav
+DATA/ALOHAPP/USER/SPEAKING/ W czym jeszcze możesz pomóc.wav
 DATA/ALOHAPP/USER/SPEAKING/ Was bedeutet das.wav
 DATA/ALOHAPP/USER/SPEAKING/ Was bedeutet geschaut.wav
 DATA/ALOHAPP/USER/SPEAKING/ Was bist du von Beruf.wav
