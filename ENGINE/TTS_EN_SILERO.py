@@ -1,9 +1,11 @@
 import torch
 import simpleaudio as sa
 import os
+from pathlib import Path
+p = Path.cwd()
+path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
+path = path_beginning+"MODELS/TTS/"
 
-
-path = "../../MODELS/TTS/"
 
 
 

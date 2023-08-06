@@ -1,5 +1,10 @@
 import openai
-path = "../../DATA/ALOHAPP/"
+
+from pathlib import Path
+p = Path.cwd()
+path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
+path = path_beginning+"DATA/ALOHAPP/"
+
 import os
 cwd = os.getcwd()
 

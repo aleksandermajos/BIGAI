@@ -4,231 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README">
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_1000_V1_RAW.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_EN_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_EN_LEMMA_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_LEMMA_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/DE-PL.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/EN-DE.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/EN-ES.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/EN-FR.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/EN-PL.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/ES-DE.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/ES-PL.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/FR-DE.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/FR-ES.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/FR-PL.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/audio.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/audio_div.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e01.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e02.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e03.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e04.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e05.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e06.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e07.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e08.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e09.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e10.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e01.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e02.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e03.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e04.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e05.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e06.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e07.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e08.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e01.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e02.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e03.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e04.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e05.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e06.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e07.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e08.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/KURZGESAGD/YT_TEST.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Das Buch handelt vor Liebe und Verlust..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Der Chef hat uns angewiesen, mehr Zeit mit unseren Familien zu verbringen..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Der Chef hat uns ausgewiesen, mehr Zeit mit unseren Familien zu verbringen..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Er hat eines neues Auto gekauft..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Er hat gestern seinen Geburtstag gefeiert..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Ich habe das Buch schon geleistet..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Ich habe ein Kières Ugler Ihr könnt man Ja.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Ich habe heute meinen ersten Arbeitstag..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Ich möchte etwas auf die Pufferung sagen, aber nicht auf die Pufferung, weil er sagt Pufferung..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Jutro bende zima, a pozimie bende wiosna, ii, datego cheba jehatjese..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Sein Auto ist schnell.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Sie hat eine schöne Stimme..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Wenn.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Wir haben gestern Abend einen Film gesehen..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ Wir haben heute frei..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ und Olo CF-Funkil See nett ist..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/ALOHA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/SENTENCES_DE_1000_V1_PIC/A bird flies_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN_TIME_LISTENED.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN_TIME_READ.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN_TIME_REPEAT.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/2000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/3000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/4000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/5000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/6000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/7000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/8000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_1000_V1_RAW.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_1000_V1_TIME_LISTENED.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_1000_V1_TIME_READ.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_1000_V1_TIME_REPEAT.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_EN_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_EN_LEMMA_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_LEMMA_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/EN/1000WORDSENGLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/EN/SENTENCES_EN_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/EN/SENTENCES_EN_LEMMA_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/1000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/SENTENCES_ES_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/SENTENCES_ES_EN_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/SENTENCES_ES_EN_LEMMA_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/SENTENCES_ES_LEMMA_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/1000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/SENTENCES_FR_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/SENTENCES_FR_EN_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/SENTENCES_FR_EN_LEMMA_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/SENTENCES_FR_LEMMA_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Bis zum nächsten Mal.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Bist du auch glücklich.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Danke für Ihr Antwort..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ein Vogel fliegt.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Er will die Mädchen bewegen..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Es gibt viele Leute in Breslau..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Gibt es viele Leute in Breslau.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Gibt es viele Mannschaften in Breslau.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Gibt es viele Menschen in Breslau.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Give me some examples with the word verden in German..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Hallo.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Hast du ein neues Auto.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Haste du ein neues Auto.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Hello.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ How do I know it's auto.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ How is happy in German.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich bin müde..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich bin sehr glücklich..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich bin wieder..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich habe Tee und Kaffee..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich habe der Spiegel.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich habe ein neues Auto..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich habe ein neues Auto.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich habe ein neues Hund..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich habe einen Hund..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich habe einen Spiegel..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich habe keine Zeit.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich habe nicht viel Zeit..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich mag Tee, aber ich like..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich möchte wissen, was du tun kannst..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich nehme T..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich trinke Tee und Kaffee..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich verstehe das nicht..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Ich weiß nicht..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ In der Schule lerne ich Mathe..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Kannst du Sandwichen machen.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Kannst du mir halfen.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Kennst du singen.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Sein Auto ist schnell..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Sie ist gemütlich..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Trinkst die mit mir.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Vielen Dank für's Zuhören.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ W czym jeszcze możesz pomóc.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Was bedeutet das.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Was bedeutet geschaut.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Was bist du von Beruf.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Was hast du gemacht gestern.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Wie er kann mir helfen.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Wie geht es dir.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Wie kann halb'n mehr.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ Wir haben keine Zeit..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ hast du neues Haus.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/ in der Stadt..wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDS.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDSARABIC.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDSCHINESE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDSDANISCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDSDUTCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDSGREECE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDSISRAEL.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDSJAPANESE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDSKOREAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDSMALTANESE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDSPERSIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/1000WORDSTURKISCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/1000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/2000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/3000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/4000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/5000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/6000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/7000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/8000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/EN/1000WORDSENGLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/EN/SENTENCES_EN_1000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/1000WORDSSPANISCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/2000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/3000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/4000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/5000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/6000WORDSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/7000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/8000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/1000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/2000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/3000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/4000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/5000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/6000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/7000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/8000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/IT/1000WORDSITALIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/LA/1000WORDSLATIN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/PL/1000WORDSPOLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/PO/1000WORDSPORTUGUESE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RO/1000WORDSROMANIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RU/1000WORDSRUS.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RU/2000WORDSRUS.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RU/3000WORDSRUS.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/test.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/BROKERS_OPEN_TIMES.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/DATA_CANDLES.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT4_CSV/EURUSD.240.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT4_CSV/EURUSD.30.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT4_CSV/EURUSD.60.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/cTRADER/EURUSD_Candlestick_30_M_BID_01.01.2021-16.07.2022.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/CONVERSATIONS_AI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/SENTENCES.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FRONT/QUANTMAVERICK/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MODELS/TTS/v3_1_ru.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MODELS/TTS/v3_en.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MODELS/TTS/v3_es.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MODELS/TTS/v3_ua.pt" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI MACOS">
+      <change afterPath="$PROJECT_DIR$/.idea/jupyter-settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ACTIONS.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/CONTAINERS.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/CONTAINERS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/DATA/EURUSD_M30_202001020600_202207181600.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT5_CSV/EURUSD_M30_202001020600_202207181600.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/DATA/MODELS/TTS/model_de_silero.pt" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/TTS/v3_de.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/DATA/MODELS/TTS/v3_fr.pt" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/TTS/v3_fr.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/DATA/iris.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/DATA_PLAT_REGRESSION.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/DATA_PLAT_REGRESSION.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ENV/BIGAI_W11_ALOHA.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ENV/requirements.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/OPENAI_CHATGPT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/OPENAI_CHATGPT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/REC_MIC_PYAUDIO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/REC_MIC_PYAUDIO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/STABLE_DIFFXL.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/STABLE_DIFFXL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/START.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/QUANTMAVERICK/START.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/TTS_DE_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_DE_SILERO.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/TTS_EN_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_EN_SILERO.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/TTS_ES_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_ES_SILERO.py" afterDir="false" />
@@ -236,8 +17,7 @@
       <change beforePath="$PROJECT_DIR$/ENGINE/TTS_RU_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_RU_SILERO.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/TTS_UA_SILERO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/TTS_UA_SILERO.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/USER_FILES_WORDS.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/USER_FILES_WORDS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FLOW/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/AIFLOW/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STARTUP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/STARTUP/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,29 +60,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/aleks/PycharmProjects/BIGAI/VISIBLE/QUANTMAVERICK",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aleksander/PycharmProjects/BIGAI/DATA/ALOHAPP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\VISIBLE\QUANTMAVERICK" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\ENGINE" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\STARTUP\QUANTMAVERICK" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\FRONT\ALOHAPP" />
@@ -526,6 +306,10 @@
       <workItem from="1691274842604" duration="142000" />
       <workItem from="1691275039928" duration="1489000" />
       <workItem from="1691307297150" duration="7511000" />
+      <workItem from="1691318435783" duration="1293000" />
+      <workItem from="1691319762643" duration="515000" />
+      <workItem from="1691322003414" duration="1325000" />
+      <workItem from="1691323439998" duration="2009000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -627,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691275944022</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="BIGAI MACOS">
+      <option name="closed" value="true" />
+      <created>1691319715735</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691319715735</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -658,7 +450,8 @@
     <MESSAGE value="BIGAIENGINE ALL FILES" />
     <MESSAGE value="BIGAI ENV FILE" />
     <MESSAGE value="BIGAI README" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI README" />
+    <MESSAGE value="BIGAI MACOS" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI MACOS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -678,6 +471,11 @@
           <line>31</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/USER_FILES_WORDS.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -689,16 +487,16 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BIGAI$elmo_from_tfhub.coverage" NAME="elmo_from_tfhub Coverage Results" MODIFIED="1690995663295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_4" />
-    <SUITE FILE_PATH="coverage/BIGAI$SENTENCES__2_.coverage" NAME="SENTENCES (2) Coverage Results" MODIFIED="1691314113851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1671574689688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1690204637871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_1" />
+    <SUITE FILE_PATH="coverage/BIGAI$SENTENCES__1_.coverage" NAME="SENTENCES (1) Coverage Results" MODIFIED="1691312037750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VISIBLE/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$SENTENCES__2_.coverage" NAME="SENTENCES (2) Coverage Results" MODIFIED="1691319589008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$SENTENCES.coverage" NAME="SENTENCES Coverage Results" MODIFIED="1691308783323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/STARTUP/ALOHAPP/APP" />
+    <SUITE FILE_PATH="coverage/BIGAI$CONVERSATIONS_AI.coverage" NAME="CONVERSATIONS_AI Coverage Results" MODIFIED="1691323130863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$START.coverage" NAME="START Coverage Results" MODIFIED="1691309105525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/STARTUP/QUANTMAVERICK/APP" />
     <SUITE FILE_PATH="coverage/BIGAI$DL_MAC_PLAIDML.coverage" NAME="DL_MAC_PLAIDML Coverage Results" MODIFIED="1670422128857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$DL_PLAIDML.coverage" NAME="DL_PLAIDML Coverage Results" MODIFIED="1670423752096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1671574689688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$elmo_from_tfhub.coverage" NAME="elmo_from_tfhub Coverage Results" MODIFIED="1690995663295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_4" />
     <SUITE FILE_PATH="coverage/BIGAI$SDXL.coverage" NAME="SDXL Coverage Results" MODIFIED="1690556065323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1690204637871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_1" />
-    <SUITE FILE_PATH="coverage/BIGAI$CONVERSATIONS_AI.coverage" NAME="CONVERSATIONS_AI Coverage Results" MODIFIED="1691315039170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
-    <SUITE FILE_PATH="coverage/BIGAI$SENTENCES__1_.coverage" NAME="SENTENCES (1) Coverage Results" MODIFIED="1691312037750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VISIBLE/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$DL_PLAIDML.coverage" NAME="DL_PLAIDML Coverage Results" MODIFIED="1670423752096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
   </component>
 </project>

@@ -1,7 +1,10 @@
 import pandas as pd
-path = "../../DATA/ALOHAPP/USER/"
-import os
-cwd = os.getcwd()
+from pathlib import Path
+p = Path.cwd()
+path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
+
+path = path_beginning+"DATA/ALOHAPP/USER/"
+
 
 
 def load_de():

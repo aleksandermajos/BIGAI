@@ -1,7 +1,10 @@
 import torch
 import os
 import simpleaudio as sa
-path = "../../MODELS/TTS/"
+from pathlib import Path
+p = Path.cwd()
+path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
+path = path_beginning+"MODELS/TTS/"
 class TTS_ES():
 
     def __init__(self,speaker='random'):

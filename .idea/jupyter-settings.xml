@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JupyterPersistentConnectionParameters">
+    <option name="knownRemoteServers">
+      <list>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="e4f5dd319aaf8b762acdf77e4ad58f82" />
+          <option name="urlString" value="https://n1d6lbr92m.clg07azjl.paperspacegradient.com" />
+          <authParams2>
+            <map>
+              <entry key="token" value="e4f5dd319aaf8b762acdf77e4ad58f82" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="c28ab2b0c50214a396221039fea0cbc9" />
+          <option name="urlString" value="https://n2phdmgj7n.clcpuovbp.paperspacegradient.com" />
+          <authParams2>
+            <map>
+              <entry key="token" value="c28ab2b0c50214a396221039fea0cbc9" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="3b6bbd37bf09dfb3fd9856d2775b2ea0" />
+          <option name="urlString" value="https://nipvxcpcrk.clg07azjl.paperspacegradient.com" />
+          <authParams2>
+            <map>
+              <entry key="token" value="3b6bbd37bf09dfb3fd9856d2775b2ea0" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+      </list>
+    </option>
+    <option name="moduleParameters">
+      <map>
+        <entry key="$PROJECT_DIR$/../BILINGUALE/.idea/BILINGUALE.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="e4f5dd319aaf8b762acdf77e4ad58f82" />
+              <option name="urlString" value="https://n1d6lbr92m.clg07azjl.paperspacegradient.com" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="e4f5dd319aaf8b762acdf77e4ad58f82" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../whisper/.idea/whisper.iml">
+          <value>
+            <JupyterConnectionParameters>
+              <option name="authType" value="notebook" />
+              <option name="token" value="e4f5dd319aaf8b762acdf77e4ad58f82" />
+              <option name="urlString" value="https://n1d6lbr92m.clg07azjl.paperspacegradient.com" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="e4f5dd319aaf8b762acdf77e4ad58f82" />
+                </map>
+              </authParams2>
+            </JupyterConnectionParameters>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

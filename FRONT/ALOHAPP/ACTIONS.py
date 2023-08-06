@@ -15,6 +15,11 @@ from ENGINE.TTS_DE_SILERO import TTS_DE
 from ENGINE.SILERO_SSML import prepare_ssml
 from ENGINE.UPGRADE_USER_FILES import upgrade_words_conv
 
+from pathlib import Path
+p = Path.cwd()
+path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
+rec_path = path_beginning+"DATA/ALOHAPP/PHRASES/SPEAKING/"
+
 
 
 
@@ -23,7 +28,7 @@ def rec_button_clicked(e):
         magic_row = e.page.conversation_column.controls[0]
         e.page.conversation_column.controls.clear()
         e.page.conversation_column.controls.append(magic_row)
-    mic_recorder = Mic_Recorder(length=3, file='flet.wav')
+    mic_recorder = Mic_Recorder(length=3,path=rec_path, file='flet.wav')
     mic_recorder.record()
     whisper_model = e.page.whisper_model
     whisper_model.transcribe_file(path=mic_recorder.path, file='flet.wav')
