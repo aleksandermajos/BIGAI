@@ -2,7 +2,7 @@ import os
 import torch
 import whisper
 import re
-from APP.FILES.FILES_OP import get_all_names
+from ENGINE.FILES_OP import get_all_names
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 

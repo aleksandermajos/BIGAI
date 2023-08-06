@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
    name='BIGAI',
-   version='0.0.6',
+   version='0.0.7',
    author='Aleksander Majos',
    author_email='aleksander.majos@gmail.com',
    packages=find_packages(),

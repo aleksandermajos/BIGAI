@@ -1,5 +1,5 @@
 import itertools
-from APP.DATA_OP.UPGRADE_USER_FILES import upgrade_words_time_read, upgrade_words_time_listen, upgrade_words_time_repeat
+from ENGINE.UPGRADE_USER_FILES import upgrade_words_time_read, upgrade_words_time_listen, upgrade_words_time_repeat
 
 def give_words(user_words_dictionary, user_words_time_dictionary,start, stop):
     de = user_words_dictionary['de']

@@ -1,7 +1,7 @@
 import pandas as pd
 from datetime import datetime
 import itertools
-from APP.DATA_OP.USER_FILES_WORDS import save_de_time, save_de
+from ENGINE.USER_FILES_WORDS import save_de_time, save_de
 
 
 def upgrade_words_time_read(positions, user_words_time_dictionary, key='read'):
