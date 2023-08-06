@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ALOHAPP MODULAR">
-      <change afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/TIMELINE.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI QUANTMAVERICK MODULAR">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIGAI.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/BIGAI.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIGAI.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BIGAI.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/QUANTMAVERICK/DATA_CANDLES.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/DATA_CANDLES.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/CHART.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/CHART.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/DATA_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/DATA_API.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/LISTENER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/LISTENER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/QUANTMAVERICK/START.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/QUANTMAVERICK/START.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,22 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/aleks/PycharmProjects/BIGAI/DATA/QUANTMAVERICK",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/PycharmProjects/BIGAI/DATA/QUANTMAVERICK&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\QUANTMAVERICK" />
@@ -304,7 +295,8 @@
       <workItem from="1691275039928" duration="1489000" />
       <workItem from="1691307297150" duration="8832000" />
       <workItem from="1691326323375" duration="18000" />
-      <workItem from="1691326999339" duration="2781000" />
+      <workItem from="1691326999339" duration="3007000" />
+      <workItem from="1691330696747" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -414,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691315192049</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="BIGAI QUANTMAVERICK MODULAR">
+      <option name="closed" value="true" />
+      <created>1691330666464</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1691330666464</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +446,8 @@
     <MESSAGE value="BIGAI ENV FILE" />
     <MESSAGE value="BIGAI README" />
     <MESSAGE value="BIGAI ALOHAPP MODULAR" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ALOHAPP MODULAR" />
+    <MESSAGE value="BIGAI QUANTMAVERICK MODULAR" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI QUANTMAVERICK MODULAR" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
