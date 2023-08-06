@@ -1,5 +1,8 @@
 import openai
-path = ""
+path = "../../DATA/ALOHAPP/"
+import os
+cwd = os.getcwd()
+
 
 class ChatGPT():
     def __init__(self):

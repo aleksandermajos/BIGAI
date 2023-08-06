@@ -1,5 +1,8 @@
 import pandas as pd
-path = "../DATA/USER/"
+path = "../../DATA/ALOHAPP/USER/"
+import os
+cwd = os.getcwd()
+
 
 def load_de():
     de = pd.read_excel(path + 'DE/1000WORDSGERMAN.xlsx')

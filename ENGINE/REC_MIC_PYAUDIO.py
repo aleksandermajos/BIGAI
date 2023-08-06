@@ -7,7 +7,7 @@ import subprocess
 
 class Mic_Recorder():
 
-    def __init__(self,length=10,path="../DATA/USER/SPEAKING/",file='polish666.wav'):
+    def __init__(self,length=10,path="../../DATA/ALOHAPP/PHRASES/SPEAKING/",file='flet.wav'):
         self.length = length
         self.chunk = 1024  # Record in chunks of 1024 samples
         self.sample_format = pyaudio.paInt16  # 16 bits per sample

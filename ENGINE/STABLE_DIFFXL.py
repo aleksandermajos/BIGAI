@@ -20,7 +20,7 @@ refiner.to("cuda")
 n_steps = 40
 high_noise_frac = 0.8
 
-prompt = "A snowman,dance,summer,street,sunglasses,headphones"
+prompt = "A snowman,dance,summer,street,sunglasses,headphones, futuristic, wipeout"
 
 # run both experts
 image = base(

@@ -1,7 +1,7 @@
 import torch
 import os
 import simpleaudio as sa
-
+path = "../../MODELS/TTS/"
 
 
 
@@ -10,7 +10,7 @@ class TTS_RU():
     def __init__(self,speaker='xenia'):
         DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
         self.device = torch.device(DEVICE)
-        self.local_file = '../DATA/MODELS/TTS/v3_1_ru.pt'
+        self.local_file = path+'/v3_1_ru.pt'
         print(os.getcwd())
         self.model = torch.package.PackageImporter(self.local_file).load_pickle("tts_models", "model")
         self.model.to(self.device)
