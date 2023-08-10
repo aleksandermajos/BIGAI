@@ -20,7 +20,7 @@ refiner.to("cuda")
 n_steps = 40
 high_noise_frac = 0.8
 
-prompt = "A snowman,dance,summer,street,sunglasses,headphones, futuristic, wipeout"
+prompt = "A round logo for of company about Language Learning, Start-up, Fun  money with name ALOHA"
 
 # run both experts
 image = base(
@@ -75,3 +75,55 @@ image = refiner(
     image=image,
 ).images[0]
 image.save("four.jpg")
+image = base(
+    prompt=prompt,
+    num_inference_steps=n_steps,
+    denoising_end=high_noise_frac,
+    output_type="latent",
+).images
+image = refiner(
+    prompt=prompt,
+    num_inference_steps=n_steps,
+    denoising_start=high_noise_frac,
+    image=image,
+).images[0]
+image.save("five.jpg")
+image = base(
+    prompt=prompt,
+    num_inference_steps=n_steps,
+    denoising_end=high_noise_frac,
+    output_type="latent",
+).images
+image = refiner(
+    prompt=prompt,
+    num_inference_steps=n_steps,
+    denoising_start=high_noise_frac,
+    image=image,
+).images[0]
+image.save("six.jpg")
+image = base(
+    prompt=prompt,
+    num_inference_steps=n_steps,
+    denoising_end=high_noise_frac,
+    output_type="latent",
+).images
+image = refiner(
+    prompt=prompt,
+    num_inference_steps=n_steps,
+    denoising_start=high_noise_frac,
+    image=image,
+).images[0]
+image.save("seven.jpg")
+image = base(
+    prompt=prompt,
+    num_inference_steps=n_steps,
+    denoising_end=high_noise_frac,
+    output_type="latent",
+).images
+image = refiner(
+    prompt=prompt,
+    num_inference_steps=n_steps,
+    denoising_start=high_noise_frac,
+    image=image,
+).images[0]
+image.save("eight.jpg")
