@@ -20,7 +20,7 @@ refiner.to("cuda")
 n_steps = 40
 high_noise_frac = 0.8
 
-prompt = "A round logo for of company about Language Learning, Start-up, Fun  money with name ALOHA"
+prompt = "pussy on the stick"
 
 # run both experts
 image = base(

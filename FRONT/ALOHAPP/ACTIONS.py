@@ -11,7 +11,7 @@ from flet import (
     Switch,
     Text,
 )
-from ENGINE.TTS_DE_SILERO import TTS_DE
+from ENGINE.TTS_ES_SILERO import TTS_ES
 from ENGINE.SILERO_SSML import prepare_ssml
 from ENGINE.UPGRADE_USER_FILES import upgrade_words_conv
 
@@ -19,8 +19,6 @@ from pathlib import Path
 p = Path.cwd()
 path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
 rec_path = path_beginning+"DATA/ALOHAPP/PHRASES/SPEAKING/"
-
-
 
 
 def rec_button_clicked(e):
@@ -84,7 +82,7 @@ def rec_button_clicked(e):
             del e.page.words_buttons[i]
 
 
-    bot_text = e.page.chat_bot.talk(whisper_model.last_transcribe+'.Antworten Sie in maximal drei Sätzen auf Deutsch')
+    bot_text = e.page.chat_bot.talk(whisper_model.last_transcribe+'Responda en no más de tres oraciones en español')
     text_field = ft.TextField(
         label='BOT REPLY',
         multiline=True,
@@ -96,9 +94,9 @@ def rec_button_clicked(e):
     )
     e.page.conversation_column.controls.append(text_field)
     e.page.update()
-    tts_de = TTS_DE()
+    tts_es = TTS_ES()
     bot_text = prepare_ssml(bot_text)
-    tts_de.create_and_save(bot_text)
+    tts_es.create_and_save(bot_text)
 
 
 def mode_control_changed(e):

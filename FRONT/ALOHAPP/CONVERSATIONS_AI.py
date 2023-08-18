@@ -12,7 +12,7 @@ import spacy_stanza
 
 def main(page: ft.Page):
     page.title = "CONVERSATIONS_AI"
-    main_language = 'DE'
+    main_language = 'ES'
 
 
 
@@ -52,6 +52,20 @@ def main(page: ft.Page):
                 page.whisper_model = WhisperModel(size='small', lang='french')
             if os == 'Windows' or os == 'Linux':
                 page.whisper_model = WhisperModel(size='medium', lang='french')
+
+        if main_language == 'ES':
+            page.user_words_dictionary_es = load_es()
+            words_fin, words_pos = give_words_conv(page.user_words_dictionary_es,
+                                                                    words_number=words_number,
+                                                                    word_times=word_times,
+                                                                    lang='ES'
+                                                                   )
+            page.lemma = spacy_stanza.load_pipeline("es")
+            os = platform.system()
+            if os == 'Darwin':
+                page.whisper_model = WhisperModel(size='small', lang='spanish')
+            if os == 'Windows' or os == 'Linux':
+                page.whisper_model = WhisperModel(size='medium', lang='spanish')
 
 
 
