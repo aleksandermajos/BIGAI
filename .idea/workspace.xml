@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI">
-      <change afterPath="$PROJECT_DIR$/SCHOOL/Benchmark_Bark_HuggingFace.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/CODEGEN_CODELLAMA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/.ipynb_checkpoints/CHECK_INSTALATION-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIGAI.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BIGAI.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/CHECK_INSTALATION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CHECK_INSTALATION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/Benchmark_Bark_HuggingFace.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notebooks/01_introduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebooks/01_introduction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notebooks/02_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebooks/02_classification.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
@@ -89,8 +89,8 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\QUANTMAVERICK" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SDXL">
-    <configuration name="BARK_MP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.CODEGEN_CODELLAMA">
+    <configuration name="CODEGEN_CODELLAMA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +103,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/BARK_MP.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/CODEGEN_CODELLAMA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CODEGEN_CODELLAMA" />
         <item itemvalue="Python.SDXL" />
         <item itemvalue="Python.SENTENCES" />
         <item itemvalue="Python.CONVERSATIONS_AI" />
         <item itemvalue="Python.STABLE_DIFFXL" />
-        <item itemvalue="Python.BARK_MP" />
       </list>
     </recent_temporary>
   </component>
@@ -341,6 +341,9 @@
       <workItem from="1693091763011" duration="1380000" />
       <workItem from="1693128010031" duration="1213000" />
       <workItem from="1693129293156" duration="2842000" />
+      <workItem from="1693132145421" duration="89000" />
+      <workItem from="1693139960390" duration="708000" />
+      <workItem from="1693377757610" duration="6823000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -466,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691662828830</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="BIGAI">
+      <option name="closed" value="true" />
+      <created>1693132181853</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1693132181853</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,6 +576,7 @@
     <SUITE FILE_PATH="coverage/BIGAI$BARK_HF.coverage" NAME="BARK_HF Coverage Results" MODIFIED="1692912887256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$MMS.coverage" NAME="MMS Coverage Results" MODIFIED="1692911082328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$SENTENCES.coverage" NAME="SENTENCES Coverage Results" MODIFIED="1693129815438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$CODEGEN_CODELLAMA.coverage" NAME="CODEGEN_CODELLAMA Coverage Results" MODIFIED="1693443636035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$alice_text_generator.coverage" NAME="alice_text_generator Coverage Results" MODIFIED="1691418440406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_5" />
     <SUITE FILE_PATH="coverage/BIGAI$elmo_from_tfhub.coverage" NAME="elmo_from_tfhub Coverage Results" MODIFIED="1690995663295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_4" />
     <SUITE FILE_PATH="coverage/BIGAI$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1690204637871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CZARNA/Chapter_1" />
