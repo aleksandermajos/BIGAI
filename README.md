@@ -41,25 +41,22 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 
 # **TODO:**
 
-## PART 0(WHITE): CLOUD.
-### ETA->16 WEEKS
+## PART 0(WHITE): GCP CLOUD.
+### ETA->5 WEEKS
 
-* AWS Certified Machine Learning - Specialty Certificate
 * Google Professional Machine Learning Engineer Certificate
 * Google TensorFlow Developer Certificate
-* Microsoft Certified: Azure AI Engineer Associate Certificate
-* Microsoft Certified: Azure Data Scientist Associate Certificate
-* Be able to put trained models in any production environment**
+* Be able to put trained models in GCP production environment**
 
 ## PART 1(BLUE): LLM/TRANSFORMERS and NLP.
-### ETA-> BEFORE+10 WEEKS
+### ETA-> BEFORE+7 WEEKS
 
 * Fully use Hugging Face 
 * Finetune LLAMA2/ FALCON for any task
 * Implement Transformer Architecture from scratch in TF and Pytorch
 
 ## PART 2(DARK BLUE): BUILD BIGAI_ENGINE GRAPH.
-### ETA-> BEFORE+18 WEEKS
+### ETA-> BEFORE+13 WEEKS
 
 * LLM RPG
 * CODEGEN LLAMA/FALCON
@@ -81,7 +78,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * BACKUP ENGINE RUST
 
 ## PART 3(ORANGE): BUILD OWN BUSINESSES PROTOTYPES.
-### ETA-> BEFORE+14 WEEKS
+### ETA-> BEFORE+11 WEEKS
 * QUANTMAVERICK
 * ALOHAPP
 * POKER
@@ -90,7 +87,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * DIARY
 
 ## PART 4(DARK ORANGE): BUILD MORE BUSINESSES PROTOTYPES.
-### ETA-> BEFORE+28 WEEKS
+### ETA-> BEFORE+21 WEEKS
 * BODY
 * MIND
 * HABITS
@@ -102,7 +99,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * PLAY
 
 ## PART 5(PURPLE): STARTUP FOR CREATING STARTUP.
-### ETA-> BEFORE+32 WEEKS
+### ETA-> BEFORE+24 WEEKS
 * 10 CUSTOMERS 
 * 100 CUSTOMERS
 * 250 CUSTOMERS
