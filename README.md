@@ -39,8 +39,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * NLP TRANSLATE ✅
 
 
-# **TODO:**
-
+# **TODO:*
 ## PART 0(WHITE): GCP CLOUD.
 ### ETA->5 WEEKS
 
