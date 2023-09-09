@@ -1,23 +1,17 @@
 # BIGAI
+* THIS REPO IS SUPPLEMENT OF ALOHA YT CHANNEL: 
+https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 
-**THIS REPO IS SUPPLEMENT OF ALOHA YT CHANNEL: **https://www.youtube.com/channel/UCLNTRwFXhwYRjva_NffipAA
+### MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS CONTAINS FOLLOWING MODULES:
 
-
-*⭐️ Like this repo? please star & consider donating to keep it maintained*
-
-<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-**MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING ALGORITHMS
-CONTAINS FOLLOWING PARTS:
--SCHOOL
--ENGINE
--BUSINESS
--AIFLOW
--DATA
--FRONT
--MODELS
--MONEYFLOW
-** by Aleksander Majos
+* ENGINE
+* SCHOOL
+* BUSINESS
+* AIFLOW
+* DATA
+* FRONT
+* MODELS
+* MONEYFLOW
 
 > **BEWARE**: This is a work in progress!
 >
@@ -26,6 +20,24 @@ CONTAINS FOLLOWING PARTS:
 > * Major reorganizations may happen at any time.
 >
 > * No promises. No guarantees. Use at own risk.
+
+
+
+
+
+*⭐️ Like this repo? please star & consider donating to keep it maintained*
+
+<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+# **DONE:**
+## PART 2(DARK BLUE): BUILD BIGAI_ENGINE GRAPH.
+
+* PICGEN SDXL ✅
+* VOICE TTS BARKAI ✅
+* VOICE STT WHISPER ✅
+* NLP TRANSLATE ✅
+
 
 # **TODO:**
 
@@ -53,10 +65,6 @@ CONTAINS FOLLOWING PARTS:
 * CODEGEN LLAMA/FALCON
 * TIMESERIES(TS) TFT
 * COMPUTERVISION(CV) VIT
-* PICGEN SDXL ✅
-* VOICE TTS BARKAI ✅
-* VOICE STT WHISPER ✅
-* NLP TRANSLATE ✅
 * APICALLS TOOLS
 * DATATENSORS AUTOML
 * MLOPS MLFLOW
@@ -95,7 +103,7 @@ CONTAINS FOLLOWING PARTS:
 
 ## PART 5(PURPLE): STARTUP FOR CREATING STARTUP.
 ### ETA-> BEFORE+32 WEEKS
-* 10 CUSTOMERS
+* 10 CUSTOMERS 
 * 100 CUSTOMERS
 * 250 CUSTOMERS
 * 500 CUSTOMERS
