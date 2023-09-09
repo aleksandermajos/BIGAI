@@ -70,7 +70,7 @@ def rec_button_clicked(e):
         real_indx_to_del = i
         e.page.repeat_table[i] = e.page.repeat_table[i] - 1
         how_many_times = e.page.repeat_table_full[i]-e.page.repeat_table[i]
-        upgrade_words_conv(how_many_times,e.page.repeat_words_full[real_indx_to_del], e.page.user_words_dictionary_de)
+        upgrade_words_conv(how_many_times,e.page.repeat_words_full[real_indx_to_del], e.page.user_words_dictionary_es)
         if how_many_times >= e.page.repeat_table_full[i]:
             button_index = real_indx_to_del_list.index(i)
             button_index = indx_to_del[button_index]
