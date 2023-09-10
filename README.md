@@ -40,12 +40,11 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 
 
 # **TODO:*
-## PART 0(WHITE): GCP CLOUD.
-### ETA->5 WEEKS
+## PART 0(WHITE): AWS CLOUD.
+### ETA->3 WEEKS
 
-* Google Professional Machine Learning Engineer Certificate
-* Google TensorFlow Developer Certificate
-* Be able to put trained models in GCP production environment**
+* AWS Certified Machine Learning - Specialty
+* Be able to put trained models in AWS production environment**
 
 ## PART 1(BLUE): LLM/TRANSFORMERS and NLP.
 ### ETA-> BEFORE+7 WEEKS
