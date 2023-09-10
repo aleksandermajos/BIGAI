@@ -40,10 +40,14 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 
 
 # **TODO:*
-## PART 0(WHITE): AWS CLOUD.
-### ETA->3 WEEKS
+## PART 0(WHITE): CLOUD.
+### ETA->12 WEEKS
 
 * AWS Certified Machine Learning - Specialty
+* Microsoft Certified: Azure AI Engineer Associate
+* Microsoft Certified: Azure Data Scientist Associate
+* Google Professional Machine Learning Engineer
+* Google TensorFlow Developer Certificate
 * Be able to put trained models in AWS production environment**
 
 ## PART 1(BLUE): LLM/TRANSFORMERS and NLP.
