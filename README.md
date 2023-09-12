@@ -40,21 +40,31 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 
 
 # **TODO:*
-## PART 0(WHITE): GCP CLOUD.
+## PART 0(WHITE): CLOUD.
 ### ETA->5 WEEKS
 
-* Google Professional Machine Learning Engineer Certificate
-* Google TensorFlow Developer Certificate
+* AWS Certified Machine Learning - Specialty
+* Microsoft Certified: Azure AI Engineer Associate
 * Be able to put trained models in GCP production environment**
 
-## PART 1(BLUE): LLM/TRANSFORMERS and NLP.
+## PART 1(GREEN): BIOINFORMATICS.
+### ETA->6 WEEKS
+
+* Genomics in the Azure Cloud
+* Hands-On Healthcare Data
+* Deep Learning for the Life Sciences
+* Mastering Python for Bioinformatics
+* Machine Learning in Biotechnology and Life Sciences
+
+
+## PART 2(BLUE): LLM/TRANSFORMERS and NLP.
 ### ETA-> BEFORE+7 WEEKS
 
 * Fully use Hugging Face 
 * Finetune LLAMA2/ FALCON for any task
 * Implement Transformer Architecture from scratch in TF and Pytorch
 
-## PART 2(DARK BLUE): BUILD BIGAI_ENGINE GRAPH.
+## PART 3(DARK BLUE): BUILD BIGAI_ENGINE GRAPH.
 ### ETA-> BEFORE+13 WEEKS
 
 * LLM RPG
@@ -76,7 +86,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * MAIN GUI
 * BACKUP ENGINE RUST
 
-## PART 3(ORANGE): BUILD OWN BUSINESSES PROTOTYPES.
+## PART 4(ORANGE): BUILD OWN BUSINESSES PROTOTYPES.
 ### ETA-> BEFORE+11 WEEKS
 * QUANTMAVERICK
 * ALOHAPP
@@ -85,7 +95,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * MEDI
 * DIARY
 
-## PART 4(DARK ORANGE): BUILD MORE BUSINESSES PROTOTYPES.
+## PART 5(DARK ORANGE): BUILD MORE BUSINESSES PROTOTYPES.
 ### ETA-> BEFORE+21 WEEKS
 * BODY
 * MIND
@@ -97,7 +107,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * DRUGS
 * PLAY
 
-## PART 5(PURPLE): STARTUP FOR CREATING STARTUP.
+## PART 6(PURPLE): STARTUP FOR CREATING STARTUP.
 ### ETA-> BEFORE+24 WEEKS
 * 10 CUSTOMERS 
 * 100 CUSTOMERS
