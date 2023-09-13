@@ -31,7 +31,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 
 
 # **DONE:**
-## PART 2(DARK BLUE): BUILD BIGAI_ENGINE GRAPH.
+## PART 4(DARK BLUE): BUILD BIGAI_ENGINE GRAPH.
 
 * PICGEN SDXL ✅
 * VOICE TTS BARKAI ✅
@@ -42,14 +42,17 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 # **TODO:*
 
 ## PART 0(WHITE): CLOUD.
-### ETA->5 WEEKS
+### ETA->12 WEEKS
 
 * AWS Certified Machine Learning - Specialty
 * Microsoft Certified: Azure AI Engineer Associate
+* Microsoft Certified: Azure Data Scientist Associate
+* Google Professional Machine Learning Engineer
+* Google TensorFlow Developer Certificate
 * Be able to put trained models in GCP production environment**
 
 ## PART 1(GREEN): BIOINFORMATICS.
-### ETA->6 WEEKS
+### ETA->5 WEEKS
 
 * Genomics in the Azure Cloud
 * Hands-On Healthcare Data
@@ -59,20 +62,26 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 
 
 ## PART 2(YELLOW): LLM/TRANSFORMERS and NLP.PREPARE FOR ALOHA
-### ETA-> BEFORE+9 WEEKS
+### ETA-> BEFORE+7 WEEKS
 
 * Fully use Hugging Face 
 * Finetune LLAMA2/ FALCON for any task
 * Implement Transformer Architecture from scratch in TF and Pytorch
 
 ## PART 3(BLUE): FIN.PREPARE FOR QUANTMAVERICK
-### ETA-> BEFORE+8 WEEKS
+### ETA-> BEFORE+9 WEEKS
 
-* FIN BOOKS x5
+* FIN BOOKS x4
+* FIN C++ BOOKS x3
 
 ## PART 4(DARK BLUE): BUILD BIGAI_ENGINE GRAPH.
-### ETA-> BEFORE+13 WEEKS
+### ETA-> BEFORE+16 WEEKS
 
+* UNREAL 5 FRONTEND
+* C++ BACKEND
+* WHISPER C++
+* RUST BOOK
+* RUST BACKEND
 * LLM RPG
 * CODEGEN LLAMA/FALCON
 * TIMESERIES(TS) TFT
@@ -90,7 +99,6 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * MONEYFLOW + GRANTS
 * API
 * MAIN GUI
-* BACKUP ENGINE RUST
 
 ## PART 5(ORANGE): BUILD OWN BUSINESSES PROTOTYPES.
 ### ETA-> BEFORE+11 WEEKS
@@ -122,6 +130,14 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * 1000 CUSTOMERS
 * 1441 CUSTOMERS
 * 2000 CUSTOMERS
+
+## PART 8(BLACK): GOING QUANTUM.
+### ETA-> BEFORE+18 WEEKS
+* QUANTUM ADV 1
+* QUANTUM ADV 2
+* QUANTUM ADV 3
+
+
 
 
 
