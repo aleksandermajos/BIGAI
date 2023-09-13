@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL OUT OF DIRECTORY">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notebooks/01_introduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebooks/01_introduction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notebooks/02_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../notebooks/02_classification.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/UPGRADE_USER_FILES.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/UPGRADE_USER_FILES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/CONVERSATIONS_AI.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/CONVERSATIONS_AI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,7 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\QUANTMAVERICK" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CODEGEN_CODELLAMA">
+  <component name="RunManager" selected="Python.CONVERSATIONS_AI">
     <configuration name="CODEGEN_CODELLAMA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,10 +223,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CONVERSATIONS_AI" />
         <item itemvalue="Python.CODEGEN_CODELLAMA" />
         <item itemvalue="Python.SDXL" />
         <item itemvalue="Python.SENTENCES" />
-        <item itemvalue="Python.CONVERSATIONS_AI" />
         <item itemvalue="Python.STABLE_DIFFXL" />
       </list>
     </recent_temporary>
@@ -494,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694251435669</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="BIGAI SCHOOL OUT OF DIRECTORY">
+      <option name="closed" value="true" />
+      <created>1694518259277</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1694518259277</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,10 +536,10 @@
     <MESSAGE value="BIGAI ENV FILE" />
     <MESSAGE value="BIGAI ALOHAPP MODULAR" />
     <MESSAGE value="BIGAI QUANTMAVERICK MODULAR" />
-    <MESSAGE value="BIGAI SCHOOL OUT OF DIRECTORY" />
     <MESSAGE value="BIGAI" />
     <MESSAGE value="BIGAI README" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI README" />
+    <MESSAGE value="BIGAI SCHOOL OUT OF DIRECTORY" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SCHOOL OUT OF DIRECTORY" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
