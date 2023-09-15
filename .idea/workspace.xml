@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL OUT OF DIRECTORY">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI FULL ROADMAP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/UPGRADE_USER_FILES.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/UPGRADE_USER_FILES.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/CONVERSATIONS_AI.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/CONVERSATIONS_AI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -503,7 +499,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694518259277</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="BIGAI ALOHAPP DE">
+      <option name="closed" value="true" />
+      <created>1694595192931</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1694595192931</updated>
+    </task>
+    <task id="LOCAL-00022" summary="BIGAI FULL ROADMAP">
+      <option name="closed" value="true" />
+      <created>1694624794225</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1694624794225</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +551,9 @@
     <MESSAGE value="BIGAI" />
     <MESSAGE value="BIGAI README" />
     <MESSAGE value="BIGAI SCHOOL OUT OF DIRECTORY" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SCHOOL OUT OF DIRECTORY" />
+    <MESSAGE value="BIGAI ALOHAPP DE" />
+    <MESSAGE value="BIGAI FULL ROADMAP" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI FULL ROADMAP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
