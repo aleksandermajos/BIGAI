@@ -55,11 +55,11 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * Finetune LLAMA2/ FALCON for any task
 * Implement Transformer Architecture from scratch in TF and Pytorch
 
-## PART 2(BLUE): FIN.PREPARE FOR QUANTMAVERICK
+## PART 2(BLUE): TIME SERIES.PREPARE FOR QUANTMAVERICK
 ### ETA-> BEFORE+9 WEEKS
 
-* FIN BOOKS x4
-* FIN C++ BOOKS x3
+* TS BOOKS x4
+* TS C++ BOOKS x3
 
 ## PART 3(DARK BLUE): BUILD BIGAI_ENGINE GRAPH.
 ### ETA-> BEFORE+16 WEEKS
