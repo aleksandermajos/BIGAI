@@ -1,4 +1,4 @@
-from APP.DATA_OP.LOAD_WORDS import load_de, load_es, load_fr
+from LOAD_WORDS import load_de, load_es, load_fr
 import itertools
 from OPENAI_CHATGPT import ChatGPT
 import pandas as pd
@@ -7,10 +7,10 @@ import time
 
 chat_bot = ChatGPT()
 
-def give_words(start, stop,key='de'):
-    if key=='de': words = load_de()
-    if key=='fr': words = load_fr()
-    if key=='es': words = load_es()
+def give_words(start, stop,dif=1,key='de'):
+    if key=='de': words = load_de(dif)
+    if key=='fr': words = load_fr(dif)
+    if key=='es': words = load_es(dif)
 
     words_fin = words[['WORD']].iloc[start:stop]
     words_fin = words_fin.values.tolist()
@@ -31,7 +31,7 @@ def give_n_sentences_m_word(words_list,sentences=2,key='de'):
         bot_text_list = [x for x in bot_text_list if x != '']
     return bot_text_list
 
-def generate_sentences_from_words(num_sent=6,key='es'):
+def generate_sentences_from_words(num_sent=6,key='de'):
     words = give_words(0,1001,key=key)
     n_sentences = []
 
@@ -47,7 +47,7 @@ def generate_sentences_from_words(num_sent=6,key='es'):
 
     return df
 
-def generate_sentences_from_en(key='es'):
+def generate_sentences_from_en(key='de'):
     n_sentences = []
     path = "../../DATA/WORDS/"
     en = pd.read_excel(path+'EN/SENTENCES_EN_1000_V1.xlsx')
@@ -80,7 +80,7 @@ def generate_sentences_from_en(key='es'):
 
     return en
 
-generate_sentences_from_en(key='es')
+words = give_words(0,1000,dif=2,key='de')
 
 
 
