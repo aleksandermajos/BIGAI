@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI FULL ROADMAP">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ENGINE ALOHA 3 LANGUAGES">
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_2000_V1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_3000_V1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_4000_V1.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/hf-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/qr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/qr_up.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/GENERATE_SENTENCES.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/GENERATE_SENTENCES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/NEW_LANG_PIPELINE.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/NEW_LANG_PIPELINE.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +65,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/bigai/PycharmProjects/BIGAI&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/PycharmProjects/BIGAI/DATA/ALOHAPP/USER/DE&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -73,11 +77,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\USER\DE" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\USER\ES" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\USER\FR" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\WORDS\DE" />
       <recent name="$PROJECT_DIR$/SCHOOL" />
-      <recent name="$PROJECT_DIR$/DATA/ALOHAPP" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\ENGINE" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\QUANTMAVERICK" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
@@ -87,7 +91,7 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\QUANTMAVERICK" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SENTENCES">
+  <component name="RunManager" selected="Python.NEW_LANG_PIPELINE">
     <configuration name="CODEGEN_CODELLAMA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SDXL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="GENERATE_SENTENCES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +149,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/SDXL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GENERATE_SENTENCES.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NEW_LANG_PIPELINE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/NEW_LANG_PIPELINE.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,28 +194,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FRONT/ALOHAPP/SENTENCES.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="STABLE_DIFFXL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BIGAI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/STABLE_DIFFXL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.NEW_LANG_PIPELINE" />
+        <item itemvalue="Python.GENERATE_SENTENCES" />
         <item itemvalue="Python.SENTENCES" />
         <item itemvalue="Python.CONVERSATIONS_AI" />
         <item itemvalue="Python.CODEGEN_CODELLAMA" />
-        <item itemvalue="Python.SDXL" />
-        <item itemvalue="Python.STABLE_DIFFXL" />
       </list>
     </recent_temporary>
   </component>
@@ -345,6 +349,8 @@
       <workItem from="1693469795042" duration="539000" />
       <workItem from="1693562765640" duration="887000" />
       <workItem from="1694101600804" duration="10000" />
+      <workItem from="1694951447749" duration="629000" />
+      <workItem from="1695041679196" duration="679000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -534,7 +540,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694777312825</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="BIGAI ENGINE CLEAN">
+      <option name="closed" value="true" />
+      <created>1694854834121</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1694854834121</updated>
+    </task>
+    <task id="LOCAL-00026" summary="BIGAI ENGINE ALOHA 3 LANGUAGES">
+      <option name="closed" value="true" />
+      <created>1694861064272</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1694861064272</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +594,9 @@
     <MESSAGE value="BIGAI SCHOOL OUT OF DIRECTORY" />
     <MESSAGE value="BIGAI ALOHAPP DE" />
     <MESSAGE value="BIGAI FULL ROADMAP" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI FULL ROADMAP" />
+    <MESSAGE value="BIGAI ENGINE CLEAN" />
+    <MESSAGE value="BIGAI ENGINE ALOHA 3 LANGUAGES" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ENGINE ALOHA 3 LANGUAGES" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -606,11 +630,6 @@
           <url>file://$PROJECT_DIR$/ENGINE/MMS.py</url>
           <line>3</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/CODEGEN_CODELLAMA.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
