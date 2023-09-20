@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ENGINE ALOHA 3 LANGUAGES">
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_2000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_3000_V1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/SENTENCES_DE_4000_V1.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ENGINE ALOHA DE FILES">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/GENERATE_SENTENCES.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/GENERATE_SENTENCES.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/NEW_LANG_PIPELINE.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/NEW_LANG_PIPELINE.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -351,6 +345,7 @@
       <workItem from="1694101600804" duration="10000" />
       <workItem from="1694951447749" duration="629000" />
       <workItem from="1695041679196" duration="679000" />
+      <workItem from="1695119250084" duration="1558000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -556,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694861064272</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="BIGAI ENGINE ALOHA DE FILES">
+      <option name="closed" value="true" />
+      <created>1695119189696</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1695119189696</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,7 +599,8 @@
     <MESSAGE value="BIGAI FULL ROADMAP" />
     <MESSAGE value="BIGAI ENGINE CLEAN" />
     <MESSAGE value="BIGAI ENGINE ALOHA 3 LANGUAGES" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ENGINE ALOHA 3 LANGUAGES" />
+    <MESSAGE value="BIGAI ENGINE ALOHA DE FILES" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ENGINE ALOHA DE FILES" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -41,12 +41,14 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 
 # **TODO:*
 
-## PART 0(WHITE): CLOUD.
-### ETA->6 WEEKS
-
-* Google Professional Machine Learning Engineer
+## PART 0(WHITE): CLOUDS.
+### ETA->11 WEEKS
+* Amazon AWS Certified Machine Learning - Specialty
+* Microsoft Certified: Azure AI Engineer Associate
+* Microsoft Certified: Azure Data Scientist Associate
 * Google TensorFlow Developer Certificate
-* Be able to put trained models in GCP production environment**
+* Google Professional Machine Learning Engineer
+* Be able to put trained models in any cloud production environment**
 
 ## PART 1(YELLOW): LLM/TRANSFORMERS and NLP.PREPARE FOR ALOHA
 ### ETA-> BEFORE+7 WEEKS
