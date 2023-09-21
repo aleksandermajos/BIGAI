@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README. SENTENCES DE RAWS">
+      <change afterPath="$PROJECT_DIR$/SCHOOL/BARK_VOICE_CLONING.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/HF_START.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/HF_TEXT_CLASSIFICATION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_2000_V1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_2000_V1_RAW.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_3000_V1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_3000_V1_RAW.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_4000_V1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_4000_V1_RAW.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_5000_V1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_5000_V1_RAW.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_6000_V1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_6000_V1_RAW.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/GENERATE_SENTENCES.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/GENERATE_SENTENCES.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/NEW_LANG_PIPELINE.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/NEW_LANG_PIPELINE.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/PycharmProjects/BIGAI/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/PycharmProjects/CZARNA&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -355,6 +354,8 @@
       <workItem from="1695201909818" duration="10079000" />
       <workItem from="1695250671269" duration="2443000" />
       <workItem from="1695255390758" duration="34000" />
+      <workItem from="1695289665967" duration="3875000" />
+      <workItem from="1695310893040" duration="383000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -584,7 +585,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695203787135</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="BIGAI README. SENTENCES DE RAWS">
+      <option name="closed" value="true" />
+      <created>1695289799141</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1695289799141</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +634,8 @@
     <MESSAGE value="BIGAI ENGINE ALOHA 3 LANGUAGES" />
     <MESSAGE value="BIGAI ENGINE ALOHA DE FILES" />
     <MESSAGE value="BIGAI README" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI README" />
+    <MESSAGE value="BIGAI README. SENTENCES DE RAWS" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI README. SENTENCES DE RAWS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

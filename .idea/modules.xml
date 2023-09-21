@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BIGAI.iml" filepath="$PROJECT_DIR$/.idea/BIGAI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CZARNA/.idea/Deep-Learning-with-TensorFlow-and-Keras-3rd-edition.iml" filepath="$PROJECT_DIR$/../CZARNA/.idea/Deep-Learning-with-TensorFlow-and-Keras-3rd-edition.iml" />
     </modules>
   </component>
 </project>
