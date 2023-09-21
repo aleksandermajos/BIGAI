@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README. SENTENCES DE RAWS">
-      <change afterPath="$PROJECT_DIR$/SCHOOL/BARK_VOICE_CLONING.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/HF_START.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/HF_TEXT_CLASSIFICATION.ipynb" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL.BARK VOICE CLONING BEG">
+      <change afterPath="$PROJECT_DIR$/SCHOOL/clone_voice.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bark-with-voice-clone/.idea/bark-with-voice-clone.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BARK_VOICE_CLONING.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/BARK_VOICE_CLONING.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,23 +57,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/PycharmProjects/CZARNA&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/aleks/PycharmProjects/CZARNA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\PHRASES\GENERATING\GPT\DE" />
@@ -355,7 +356,7 @@
       <workItem from="1695250671269" duration="2443000" />
       <workItem from="1695255390758" duration="34000" />
       <workItem from="1695289665967" duration="3875000" />
-      <workItem from="1695310893040" duration="383000" />
+      <workItem from="1695310893040" duration="3790000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -593,7 +594,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695289799141</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="BIGAI SCHOOL.BARK VOICE CLONING BEG">
+      <option name="closed" value="true" />
+      <created>1695311304809</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1695311304809</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +644,8 @@
     <MESSAGE value="BIGAI ENGINE ALOHA DE FILES" />
     <MESSAGE value="BIGAI README" />
     <MESSAGE value="BIGAI README. SENTENCES DE RAWS" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI README. SENTENCES DE RAWS" />
+    <MESSAGE value="BIGAI SCHOOL.BARK VOICE CLONING BEG" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SCHOOL.BARK VOICE CLONING BEG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

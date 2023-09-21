@@ -5,5 +5,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Deep-Learning-with-TensorFlow-and-Keras-3rd-edition" />
+    <orderEntry type="module" module-name="bark-with-voice-clone" />
+    <orderEntry type="module" module-name="bark" />
   </component>
 </module>
