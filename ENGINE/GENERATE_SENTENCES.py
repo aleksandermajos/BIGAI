@@ -50,13 +50,13 @@ def generate_sentences_from_words(num_sent=4,dif=1,key='de'):
     df = pd.DataFrame(n_sentences,columns =['Sentences'])
     if key == 'de':
         if dif == 1: df.to_excel("SENTENCES_DE_1000_V1.xlsx", index=False)
-        if dif == 2: df.to_excel("SENTENCES_DE_2000_V1.xlsx", index=False)
-        if dif == 3: df.to_excel("SENTENCES_DE_3000_V1.xlsx", index=False)
-        if dif == 4: df.to_excel("SENTENCES_DE_4000_V1.xlsx", index=False)
-        if dif == 5: df.to_excel("SENTENCES_DE_5000_V1.xlsx", index=False)
-        if dif == 6: df.to_excel("SENTENCES_DE_6000_V1.xlsx", index=False)
-        if dif == 7: df.to_excel("SENTENCES_DE_7000_V1.xlsx", index=False)
-        if dif == 8: df.to_excel("SENTENCES_DE_8000_V1.xlsx", index=False)
+        if dif == 2: df.to_excel("SENTENCES_DE_2000_V1_RAW.xlsx", index=False)
+        if dif == 3: df.to_excel("SENTENCES_DE_3000_V1_RAW.xlsx", index=False)
+        if dif == 4: df.to_excel("SENTENCES_DE_4000_V1_RAW.xlsx", index=False)
+        if dif == 5: df.to_excel("SENTENCES_DE_5000_V1_RAW.xlsx", index=False)
+        if dif == 6: df.to_excel("SENTENCES_DE_6000_V1_RAW.xlsx", index=False)
+        if dif == 7: df.to_excel("SENTENCES_DE_7000_V1_RAW.xlsx", index=False)
+        if dif == 8: df.to_excel("SENTENCES_DE_8000_V1_RAW.xlsx", index=False)
 
     if key=='es':
         if dif==1: df.to_excel("SENTENCES_ES_1000_V1.xlsx", index=False)

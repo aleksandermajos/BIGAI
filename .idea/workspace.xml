@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_2000_V1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_2000_V1_RAW.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_3000_V1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_3000_V1_RAW.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_4000_V1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_4000_V1_RAW.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_5000_V1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_5000_V1_RAW.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_6000_V1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_6000_V1_RAW.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/GENERATE_SENTENCES.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/GENERATE_SENTENCES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/NEW_LANG_PIPELINE.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/NEW_LANG_PIPELINE.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +58,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/aleks/PycharmProjects/BIGAI/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/PycharmProjects/BIGAI/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\PHRASES\GENERATING\GPT\DE" />
@@ -346,7 +352,9 @@
       <workItem from="1694951447749" duration="629000" />
       <workItem from="1695041679196" duration="679000" />
       <workItem from="1695119250084" duration="1558000" />
-      <workItem from="1695201909818" duration="955000" />
+      <workItem from="1695201909818" duration="10079000" />
+      <workItem from="1695250671269" duration="2443000" />
+      <workItem from="1695255390758" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -568,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695202210191</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="BIGAI README">
+      <option name="closed" value="true" />
+      <created>1695203787135</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1695203787135</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,6 +671,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BIGAI$NEW_LANG_PIPELINE.coverage" NAME="NEW_LANG_PIPELINE Coverage Results" MODIFIED="1695202012282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$NEW_LANG_PIPELINE.coverage" NAME="NEW_LANG_PIPELINE Coverage Results" MODIFIED="1695218668347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
   </component>
 </project>

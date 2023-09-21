@@ -41,37 +41,26 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 
 # **TODO:*
 
-## PART 0(WHITE): CLOUDS.
-### ETA->11 WEEKS
-* Amazon AWS Certified Machine Learning - Specialty
-* Microsoft Certified: Azure AI Engineer Associate
-* Microsoft Certified: Azure Data Scientist Associate
+## PART 0(WHITE): DEEP LEARNING.
+### ETA->4 WEEKS
 * Google TensorFlow Developer Certificate
-* Google Professional Machine Learning Engineer
 * Be able to put trained models in any cloud production environment**
 
-## PART 1(GREEN): BIOINFORMATICS.
-### ETA->5 WEEKS
-* Genomics in the Azure Cloud
-* Hands-On Healthcare Data
-* Deep Learning for the Life Sciences
-* Mastering Python for Bioinformatics
-* Machine Learning in Biotechnology and Life Sciences
 
-## PART 2(YELLOW): LLM/TRANSFORMERS and NLP.PREPARE FOR ALOHA
+## PART 1(YELLOW): LLM/TRANSFORMERS and NLP.PREPARE FOR ALOHA
 ### ETA-> BEFORE+7 WEEKS
 
 * Fully use Hugging Face 
 * Finetune LLAMA2/ FALCON for any task
 * Implement Transformer Architecture from scratch in TF and Pytorch
 
-## PART 3(BLUE): TIME SERIES.PREPARE FOR QUANTMAVERICK
+## PART 2(BLUE): TIME SERIES.PREPARE FOR QUANTMAVERICK
 ### ETA-> BEFORE+9 WEEKS
 
 * TS BOOKS x4
 * TS C++ BOOKS x3
 
-## PART 4(DARK BLUE): BUILD BIGAI_ENGINE GRAPH.
+## PART 3(DARK BLUE): BUILD BIGAI_ENGINE GRAPH.
 ### ETA-> BEFORE+16 WEEKS
 
 * UNREAL 5 FRONTEND
@@ -97,7 +86,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * API
 * MAIN GUI
 
-## PART 5(ORANGE): BUILD OWN BUSINESSES PROTOTYPES.
+## PART 4(ORANGE): BUILD OWN BUSINESSES PROTOTYPES.
 ### ETA-> BEFORE+11 WEEKS
 * QUANTMAVERICK
 * ALOHAPP
@@ -106,7 +95,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * MEDI
 * DIARY
 
-## PART 6(DARK ORANGE): BUILD MORE BUSINESSES PROTOTYPES.
+## PART 5(DARK ORANGE): BUILD MORE BUSINESSES PROTOTYPES.
 ### ETA-> BEFORE+21 WEEKS
 * BODY
 * MIND
@@ -118,7 +107,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * DRUGS
 * PLAY
 
-## PART 7(PURPLE): STARTUP FOR CREATING STARTUP.
+## PART 6(PURPLE): STARTUP FOR CREATING STARTUP.
 ### ETA-> BEFORE+24 WEEKS
 * 10 CUSTOMERS 
 * 100 CUSTOMERS
@@ -128,7 +117,7 @@ https://www.youtube.com/channel/UC8y-ZJV4t9OLVG2jj_30IUA
 * 1441 CUSTOMERS
 * 2000 CUSTOMERS
 
-## PART 8(BLACK): GOING QUANTUM.
+## PART 7(BLACK): GOING QUANTUM.
 ### ETA-> BEFORE+18 WEEKS
 * QUANTUM ADV 1
 * QUANTUM ADV 2
