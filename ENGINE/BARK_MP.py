@@ -1,3 +1,5 @@
+import nltk
+nltk.download('punkt')
 import torch.multiprocessing as mp
 mp.set_start_method("spawn")
 from bark.generation import SAMPLE_RATE, preload_models, codec_decode, generate_coarse, generate_fine, \

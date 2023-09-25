@@ -258,8 +258,11 @@ def upgrade_words_pass_act(num_sentences, word, user_words_dictionary, active):
 
     save_de(user_words_dictionary,key='de')
 
-def upgrade_words_conv(num_sentences, word, user_words_dictionary):
-    all_words = user_words_dictionary['de']
+def upgrade_words_conv(lang,num_sentences, word, user_words_dictionary):
+    if lang=='de': all_words = user_words_dictionary['de']
+    if lang == 'fr': all_words = user_words_dictionary['fr']
+    if lang == 'es': all_words = user_words_dictionary['es']
+
     all_words = all_words.values.tolist()
 
 
@@ -269,16 +272,25 @@ def upgrade_words_conv(num_sentences, word, user_words_dictionary):
             break
 
 
-    columns = user_words_dictionary['de'].columns
+    if lang=='de': columns = user_words_dictionary['de'].columns
+    if lang == 'fr': columns = user_words_dictionary['fr'].columns
+    if lang == 'es': columns = user_words_dictionary['es'].columns
+
     df = pd.DataFrame(all_words, columns=columns)
     df = df.fillna(0)
     df = df.astype({'PASSIVE': 'int'})
     df = df.astype({'ACTIVE': 'int'})
     df = df.astype({'CONV': 'int'})
 
-    user_words_dictionary['de'] = df
-
-    save_de(user_words_dictionary,key='de')
+    if lang == 'de':
+        user_words_dictionary['de'] = df
+        save_de(user_words_dictionary,key='de')
+    if lang == 'fr':
+        user_words_dictionary['fr'] = df
+        save_de(user_words_dictionary,key='fr')
+    if lang == 'es':
+        user_words_dictionary['es'] = df
+        save_de(user_words_dictionary,key='es')
 
 
 

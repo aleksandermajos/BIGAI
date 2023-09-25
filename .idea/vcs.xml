@@ -2,9 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ALOHAPP" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../CZARNA" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../bark-with-voice-clone" vcs="Git" />
   </component>
 </project>

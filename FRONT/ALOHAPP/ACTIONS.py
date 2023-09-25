@@ -12,6 +12,8 @@ from flet import (
     Text,
 )
 from ENGINE.TTS_DE_SILERO import TTS_DE
+from ENGINE.TTS_FR_SILERO import TTS_FR
+from ENGINE.TTS_ES_SILERO import TTS_ES
 from ENGINE.SILERO_SSML import prepare_ssml
 from ENGINE.UPGRADE_USER_FILES import upgrade_words_conv
 
@@ -22,6 +24,7 @@ rec_path = path_beginning+"DATA/ALOHAPP/PHRASES/SPEAKING/"
 
 
 def rec_button_clicked(e):
+
     if len(e.page.conversation_column.controls) >11:
         magic_row = e.page.conversation_column.controls[0]
         e.page.conversation_column.controls.clear()
@@ -42,6 +45,18 @@ def rec_button_clicked(e):
     )
     e.page.conversation_column.controls.append(text_field)
     e.page.update()
+    if e.page.main_language=='de':
+        tts_de = TTS_DE()
+        last_transcibe = prepare_ssml(whisper_model.last_transcribe)
+        tts_de.create_and_save(last_transcibe)
+    if e.page.main_language=='fr':
+        tts_fr = TTS_FR()
+        last_transcibe = prepare_ssml(whisper_model.last_transcribe)
+        tts_fr.create_and_save(last_transcibe)
+    if e.page.main_language=='es':
+        tts_es = TTS_ES()
+        last_transcibe = prepare_ssml(whisper_model.last_transcribe)
+        tts_es.create_and_save(last_transcibe)
 
 
     lem = e.page.lemma(whisper_model.last_transcribe)
@@ -70,7 +85,11 @@ def rec_button_clicked(e):
         real_indx_to_del = i
         e.page.repeat_table[i] = e.page.repeat_table[i] - 1
         how_many_times = e.page.repeat_table_full[i]-e.page.repeat_table[i]
-        upgrade_words_conv(how_many_times,e.page.repeat_words_full[real_indx_to_del], e.page.user_words_dictionary_de)
+        if e.page.main_language=='de': upgrade_words_conv('de',how_many_times,e.page.repeat_words_full[real_indx_to_del], e.page.user_words_dictionary_de)
+        if e.page.main_language == 'fr': upgrade_words_conv('fr',how_many_times, e.page.repeat_words_full[real_indx_to_del],
+                                                            e.page.user_words_dictionary_fr)
+        if e.page.main_language == 'es': upgrade_words_conv('es',how_many_times, e.page.repeat_words_full[real_indx_to_del],
+                                                            e.page.user_words_dictionary_es)
         if how_many_times >= e.page.repeat_table_full[i]:
             button_index = real_indx_to_del_list.index(i)
             button_index = indx_to_del[button_index]
@@ -82,7 +101,11 @@ def rec_button_clicked(e):
             del e.page.words_buttons[i]
 
 
-    bot_text = e.page.chat_bot.talk(whisper_model.last_transcribe+'Geben Sie Ihre Antwort in 3 Sätzen auf Deutsch')
+    if e.page.main_language=='de': bot_text = e.page.chat_bot.talk(whisper_model.last_transcribe+'Geben Sie Ihre Antwort in 3 Sätzen auf Deutsch')
+    if e.page.main_language == 'fr': bot_text = e.page.chat_bot.talk(
+        whisper_model.last_transcribe + 'Donnez-moi la réponse en 3 phrases en français')
+    if e.page.main_language == 'es': bot_text = e.page.chat_bot.talk(
+        whisper_model.last_transcribe + 'Dame la respuesta en 3 frases en español')
     text_field = ft.TextField(
         label='BOT REPLY',
         multiline=True,
@@ -94,9 +117,18 @@ def rec_button_clicked(e):
     )
     e.page.conversation_column.controls.append(text_field)
     e.page.update()
-    tts_de = TTS_DE()
-    bot_text = prepare_ssml(bot_text)
-    tts_de.create_and_save(bot_text)
+    if e.page.main_language=='de':
+        tts_de = TTS_DE()
+        bot_text = prepare_ssml(bot_text)
+        tts_de.create_and_save(bot_text)
+    if e.page.main_language=='fr':
+        tts_fr = TTS_FR()
+        bot_text = prepare_ssml(bot_text)
+        tts_fr.create_and_save(bot_text)
+    if e.page.main_language=='es':
+        tts_es = TTS_ES()
+        bot_text = prepare_ssml(bot_text)
+        tts_es.create_and_save(bot_text)
 
 
 def mode_control_changed(e):

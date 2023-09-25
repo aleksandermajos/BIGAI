@@ -13,6 +13,7 @@ import spacy_stanza
 def main(page: ft.Page):
     page.title = "CONVERSATIONS_AI"
     main_language = 'DE'
+    page.main_language = 'de'
 
 
 

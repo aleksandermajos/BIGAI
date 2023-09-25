@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL.BARK VOICE CLONING BEG">
-      <change afterPath="$PROJECT_DIR$/SCHOOL/clone_voice.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bark-with-voice-clone/.idea/bark-with-voice-clone.iml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL OUT OF DIRECTORY">
       <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/BARK_VOICE_CLONING.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/BARK_VOICE_CLONING.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/BARK_MP.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/BARK_MP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/UPGRADE_USER_FILES.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/UPGRADE_USER_FILES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/CONVERSATIONS_AI.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/CONVERSATIONS_AI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/bark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/bark.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,31 +62,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/aleks/PycharmProjects/CZARNA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bigai/PycharmProjects/BIGAI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\PHRASES\GENERATING\GPT\DE" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\USER\DE" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\USER\ES" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\USER\FR" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\WORDS\DE" />
+      <recent name="$PROJECT_DIR$/SCHOOL" />
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\ENGINE" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\QUANTMAVERICK" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
@@ -91,7 +95,51 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\QUANTMAVERICK" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NEW_LANG_PIPELINE">
+  <component name="RunManager" selected="Python.CONVERSATIONS_AI">
+    <configuration name="BARK_HALF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/BARK_HALF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BARK_MP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/BARK_MP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="CODEGEN_CODELLAMA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GENERATE_SENTENCES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SDXL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,51 +197,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GENERATE_SENTENCES.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="NEW_LANG_PIPELINE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BIGAI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/NEW_LANG_PIPELINE.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SENTENCES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BIGAI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FRONT/ALOHAPP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FRONT/ALOHAPP/SENTENCES.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/SDXL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.NEW_LANG_PIPELINE" />
-        <item itemvalue="Python.GENERATE_SENTENCES" />
-        <item itemvalue="Python.SENTENCES" />
         <item itemvalue="Python.CONVERSATIONS_AI" />
+        <item itemvalue="Python.BARK_MP" />
+        <item itemvalue="Python.BARK_HALF" />
         <item itemvalue="Python.CODEGEN_CODELLAMA" />
+        <item itemvalue="Python.SDXL" />
       </list>
     </recent_temporary>
   </component>
@@ -349,14 +353,10 @@
       <workItem from="1693469795042" duration="539000" />
       <workItem from="1693562765640" duration="887000" />
       <workItem from="1694101600804" duration="10000" />
-      <workItem from="1694951447749" duration="629000" />
-      <workItem from="1695041679196" duration="679000" />
-      <workItem from="1695119250084" duration="1558000" />
-      <workItem from="1695201909818" duration="10079000" />
-      <workItem from="1695250671269" duration="2443000" />
-      <workItem from="1695255390758" duration="34000" />
-      <workItem from="1695289665967" duration="3875000" />
-      <workItem from="1695310893040" duration="3790000" />
+      <workItem from="1695037879879" duration="184000" />
+      <workItem from="1695038357472" duration="279000" />
+      <workItem from="1695367703641" duration="1013000" />
+      <workItem from="1695649861294" duration="3977000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -514,95 +514,7 @@
       <option name="project" value="LOCAL" />
       <updated>1694518259277</updated>
     </task>
-    <task id="LOCAL-00021" summary="BIGAI ALOHAPP DE">
-      <option name="closed" value="true" />
-      <created>1694595192931</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1694595192931</updated>
-    </task>
-    <task id="LOCAL-00022" summary="BIGAI FULL ROADMAP">
-      <option name="closed" value="true" />
-      <created>1694624794225</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1694624794225</updated>
-    </task>
-    <task id="LOCAL-00023" summary="BIGAI FULL ROADMAP">
-      <option name="closed" value="true" />
-      <created>1694776962093</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1694776962093</updated>
-    </task>
-    <task id="LOCAL-00024" summary="BIGAI FULL ROADMAP">
-      <option name="closed" value="true" />
-      <created>1694777312825</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1694777312825</updated>
-    </task>
-    <task id="LOCAL-00025" summary="BIGAI ENGINE CLEAN">
-      <option name="closed" value="true" />
-      <created>1694854834121</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1694854834121</updated>
-    </task>
-    <task id="LOCAL-00026" summary="BIGAI ENGINE ALOHA 3 LANGUAGES">
-      <option name="closed" value="true" />
-      <created>1694861064272</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1694861064272</updated>
-    </task>
-    <task id="LOCAL-00027" summary="BIGAI ENGINE ALOHA DE FILES">
-      <option name="closed" value="true" />
-      <created>1695119189696</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1695119189696</updated>
-    </task>
-    <task id="LOCAL-00028" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1695202210191</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1695202210191</updated>
-    </task>
-    <task id="LOCAL-00029" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1695203787135</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1695203787135</updated>
-    </task>
-    <task id="LOCAL-00030" summary="BIGAI README. SENTENCES DE RAWS">
-      <option name="closed" value="true" />
-      <created>1695289799141</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1695289799141</updated>
-    </task>
-    <task id="LOCAL-00031" summary="BIGAI SCHOOL.BARK VOICE CLONING BEG">
-      <option name="closed" value="true" />
-      <created>1695311304809</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1695311304809</updated>
-    </task>
-    <option name="localTasksCounter" value="32" />
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,16 +548,9 @@
     <MESSAGE value="BIGAI ALOHAPP MODULAR" />
     <MESSAGE value="BIGAI QUANTMAVERICK MODULAR" />
     <MESSAGE value="BIGAI" />
-    <MESSAGE value="BIGAI SCHOOL OUT OF DIRECTORY" />
-    <MESSAGE value="BIGAI ALOHAPP DE" />
-    <MESSAGE value="BIGAI FULL ROADMAP" />
-    <MESSAGE value="BIGAI ENGINE CLEAN" />
-    <MESSAGE value="BIGAI ENGINE ALOHA 3 LANGUAGES" />
-    <MESSAGE value="BIGAI ENGINE ALOHA DE FILES" />
     <MESSAGE value="BIGAI README" />
-    <MESSAGE value="BIGAI README. SENTENCES DE RAWS" />
-    <MESSAGE value="BIGAI SCHOOL.BARK VOICE CLONING BEG" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SCHOOL.BARK VOICE CLONING BEG" />
+    <MESSAGE value="BIGAI SCHOOL OUT OF DIRECTORY" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SCHOOL OUT OF DIRECTORY" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -680,6 +585,11 @@
           <line>3</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/CODEGEN_CODELLAMA.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -691,6 +601,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BIGAI$NEW_LANG_PIPELINE.coverage" NAME="NEW_LANG_PIPELINE Coverage Results" MODIFIED="1695218668347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$CONVERSATIONS_AI.coverage" NAME="CONVERSATIONS_AI Coverage Results" MODIFIED="1695653548146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
   </component>
 </project>
