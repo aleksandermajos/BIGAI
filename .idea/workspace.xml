@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL OUT OF DIRECTORY">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI FRONT ALOHA">
+      <change afterPath="$PROJECT_DIR$/BUSINESS/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MARKETING/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/BARK_MP.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/BARK_MP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/UPGRADE_USER_FILES.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/UPGRADE_USER_FILES.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ACTIONS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/CONVERSATIONS_AI.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/CONVERSATIONS_AI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/bark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/bark.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bark-voice-cloning-HuBERT-quantizer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,30 +56,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/bigai/PycharmProjects/BIGAI&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/Users/aleksander/PycharmProjects/BIGAI/MARKETING",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MARKETING" />
       <recent name="$PROJECT_DIR$/SCHOOL" />
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\ENGINE" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\QUANTMAVERICK" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
@@ -357,6 +351,8 @@
       <workItem from="1695038357472" duration="279000" />
       <workItem from="1695367703641" duration="1013000" />
       <workItem from="1695649861294" duration="3977000" />
+      <workItem from="1695655542623" duration="1411000" />
+      <workItem from="1695721200540" duration="2739000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -514,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694518259277</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="BIGAI FRONT ALOHA">
+      <option name="closed" value="true" />
+      <created>1695655617543</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1695655617543</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +554,8 @@
     <MESSAGE value="BIGAI" />
     <MESSAGE value="BIGAI README" />
     <MESSAGE value="BIGAI SCHOOL OUT OF DIRECTORY" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SCHOOL OUT OF DIRECTORY" />
+    <MESSAGE value="BIGAI FRONT ALOHA" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI FRONT ALOHA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
