@@ -11,10 +11,14 @@ from flet import (
     Switch,
     Text,
 )
+'''
 from ENGINE.TTS_DE_SILERO import TTS_DE
 from ENGINE.TTS_FR_SILERO import TTS_FR
 from ENGINE.TTS_ES_SILERO import TTS_ES
+'''
 from ENGINE.SILERO_SSML import prepare_ssml
+
+from ENGINE.TTS_ELEVENLABS_API import generate_and_play
 from ENGINE.UPGRADE_USER_FILES import upgrade_words_conv
 
 from pathlib import Path
@@ -24,6 +28,8 @@ rec_path = path_beginning+"DATA/ALOHAPP/PHRASES/SPEAKING/"
 
 
 def rec_button_clicked(e):
+
+    voice = 'Bella'
 
     if len(e.page.conversation_column.controls) >11:
         magic_row = e.page.conversation_column.controls[0]
@@ -46,18 +52,29 @@ def rec_button_clicked(e):
     e.page.conversation_column.controls.append(text_field)
     e.page.update()
     if e.page.main_language=='de':
+        '''
         tts_de = TTS_DE()
         last_transcibe = prepare_ssml(whisper_model.last_transcribe)
         tts_de.create_and_save(last_transcibe)
+        
+        generate_and_play(text=whisper_model.last_transcribe, voice=voice)
+        '''
     if e.page.main_language=='fr':
+        '''
         tts_fr = TTS_FR()
         last_transcibe = prepare_ssml(whisper_model.last_transcribe)
         tts_fr.create_and_save(last_transcibe)
+        
+        generate_and_play(text=whisper_model.last_transcribe, voice=voice)
+        '''
     if e.page.main_language=='es':
+        '''
         tts_es = TTS_ES()
         last_transcibe = prepare_ssml(whisper_model.last_transcribe)
         tts_es.create_and_save(last_transcibe)
-
+        
+        generate_and_play(text=whisper_model.last_transcribe, voice=voice)
+        '''
 
     lem = e.page.lemma(whisper_model.last_transcribe)
     indx_to_del = []
@@ -101,7 +118,7 @@ def rec_button_clicked(e):
             del e.page.words_buttons[i]
 
 
-    if e.page.main_language=='de': bot_text = e.page.chat_bot.talk(whisper_model.last_transcribe+'Geben Sie Ihre Antwort in 3 Sätzen auf Deutsch')
+    if e.page.main_language=='de': bot_text = e.page.chat_bot.talk(whisper_model.last_transcribe+'Geben Sie Ihre Antwort in nur einem Satz auf Deutsch')
     if e.page.main_language == 'fr': bot_text = e.page.chat_bot.talk(
         whisper_model.last_transcribe + 'Donnez-moi la réponse en 3 phrases en français')
     if e.page.main_language == 'es': bot_text = e.page.chat_bot.talk(
@@ -118,17 +135,26 @@ def rec_button_clicked(e):
     e.page.conversation_column.controls.append(text_field)
     e.page.update()
     if e.page.main_language=='de':
+        '''
         tts_de = TTS_DE()
         bot_text = prepare_ssml(bot_text)
         tts_de.create_and_save(bot_text)
+        '''
+        generate_and_play(text=bot_text, voice=voice)
     if e.page.main_language=='fr':
+        '''
         tts_fr = TTS_FR()
         bot_text = prepare_ssml(bot_text)
         tts_fr.create_and_save(bot_text)
+        '''
+        generate_and_play(text=bot_text, voice=voice)
     if e.page.main_language=='es':
+        '''
         tts_es = TTS_ES()
         bot_text = prepare_ssml(bot_text)
         tts_es.create_and_save(bot_text)
+        '''
+        generate_and_play(text=bot_text, voice=voice)
 
 
 def mode_control_changed(e):
