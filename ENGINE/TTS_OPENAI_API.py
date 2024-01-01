@@ -17,6 +17,7 @@ def generate_and_play(text, voice):
     )
     response.stream_to_file("oko.mp3")
     playsound('oko.mp3')
+    os.remove('oko.mp3')
 
 
 

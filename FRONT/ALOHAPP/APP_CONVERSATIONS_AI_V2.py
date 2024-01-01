@@ -26,7 +26,7 @@ def main(page: ft.Page):
     }
     parser = argparse.ArgumentParser(description="", allow_abbrev=True)
     # Positional args
-    parser.add_argument('-m', '--model', default='medium', type=str, help="Whisper.cpp model, default to %(default)s")
+    parser.add_argument('-m', '--model', default='small', type=str, help="Whisper.cpp model, default to %(default)s")
     parser.add_argument('-ind', '--input_device', type=int, default=None,
                         help=f'Id of The input device (aka microphone)\n'
                              f'available devices {Whisper_live.available_devices()}')
