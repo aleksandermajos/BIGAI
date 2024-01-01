@@ -1,10 +1,10 @@
 from abc import ABC, abstractmethod
-from ENGINE.INSTRUMENT import InstrumentMT4, InstrumentCTRADER
-from ENGINE.ACCOUNT import AccountMT4, AccountCTRADER, AccountFXCMAPI, AccountFIX
-from ENGINE.TRANSACTION import TransactionMT4, TransactionCTRADER
-from ENGINE.DATA_API import exampleAuth_OANDA, exampleAuth_FXCM, FXCMData
-from ENGINE.TIME_OPENING_CLOSING_MT4 import Open_Time_To_New_Chart, Close_Time_To_New_Chart
-from ENGINE.TIME_OPENING_CLOSING_MT4 import Average_OpenTimes, Average_CloseTimes
+from ENGINE.QM_INSTRUMENT import InstrumentMT4, InstrumentCTRADER
+from ENGINE.QM_ACCOUNT import AccountMT4, AccountCTRADER, AccountFXCMAPI, AccountFIX
+from ENGINE.QM_TRANSACTION import TransactionMT4, TransactionCTRADER
+from ENGINE.QM_DATA_API import exampleAuth_OANDA, exampleAuth_FXCM, FXCMData
+from ENGINE.QM_TIME_OPENING_CLOSING_MT4 import Open_Time_To_New_Chart, Close_Time_To_New_Chart
+from ENGINE.QM_TIME_OPENING_CLOSING_MT4 import Average_OpenTimes, Average_CloseTimes
 import json
 import pandas as pd
 import zmq

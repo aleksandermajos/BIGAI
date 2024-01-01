@@ -20,7 +20,7 @@ class TTS_DE():
         self.sample_rate = 48000
         self.speaker=speaker
 
-    def create_and_save(self,text):
+    def generate_and_play(self,text):
         audio_paths = self.model.save_wav(ssml_text=text,
                              speaker='eva_k',
                              sample_rate=self.sample_rate)

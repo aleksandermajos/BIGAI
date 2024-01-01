@@ -1,4 +1,4 @@
-from GENERATE_SENTENCES import generate_sentences_from_words
+from ALOHAPP_GENERATE_SENTENCES import generate_sentences_from_words
 
 
 key_list = ["de"]

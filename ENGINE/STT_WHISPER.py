@@ -2,7 +2,7 @@ import os
 import torch
 import whisper
 import re
-from ENGINE.FILES_OP import get_all_names
+from ENGINE.ALOHAPP_FILES_OP import get_all_names
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -64,3 +64,19 @@ class WhisperModel():
                     self.last_translate = translation
             return transcription
 
+
+
+from pathlib import Path
+p = Path.cwd()
+path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
+path = path_beginning+"DATA/ALOHA/PHRASES/SPEAKING/"
+
+model = WhisperModel(size='large-v2', lang='english')
+
+import time
+start = time.time()
+model.transcribe_file(path, file='jfk.wav')
+end = time.time()
+print(end - start) # time in seconds
+
+oko=4

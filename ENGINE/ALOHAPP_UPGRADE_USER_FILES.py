@@ -1,7 +1,7 @@
 import pandas as pd
 from datetime import datetime
 import itertools
-from ENGINE.USER_FILES_WORDS import save_de_time, save_de
+from ENGINE.ALOHAPP_USER_FILES_WORDS import save_de_time, save_de
 
 
 def upgrade_words_time_read(positions, user_words_time_dictionary, key='read'):
@@ -262,7 +262,21 @@ def upgrade_words_conv(lang,num_sentences, word, user_words_dictionary):
     if lang=='de': all_words = user_words_dictionary['de']
     if lang == 'fr': all_words = user_words_dictionary['fr']
     if lang == 'es': all_words = user_words_dictionary['es']
-
+    if lang == 'it': all_words = user_words_dictionary['it']
+    if lang == 'pt': all_words = user_words_dictionary['pt']
+    if lang == 'ro': all_words = user_words_dictionary['ro']
+    if lang == 'ca': all_words = user_words_dictionary['ca']
+    if lang == 'pl': all_words = user_words_dictionary['pl']
+    if lang == 'en': all_words = user_words_dictionary['en']
+    if lang == 'ko': all_words = user_words_dictionary['ko']
+    if lang == 'ja': all_words = user_words_dictionary['ja']
+    if lang == 'ar': all_words = user_words_dictionary['ar']
+    if lang == 'ru': all_words = user_words_dictionary['ru']
+    if lang == 'zh': all_words = user_words_dictionary['zh']
+    if lang == 'tr': all_words = user_words_dictionary['tr']
+    if lang == 'sv': all_words = user_words_dictionary['sv']
+    if lang == 'nl': all_words = user_words_dictionary['nl']
+    if lang == 'da': all_words = user_words_dictionary['da']
     all_words = all_words.values.tolist()
 
 
@@ -275,6 +289,22 @@ def upgrade_words_conv(lang,num_sentences, word, user_words_dictionary):
     if lang=='de': columns = user_words_dictionary['de'].columns
     if lang == 'fr': columns = user_words_dictionary['fr'].columns
     if lang == 'es': columns = user_words_dictionary['es'].columns
+    if lang == 'it': columns = user_words_dictionary['it'].columns
+    if lang == 'it': columns = user_words_dictionary['it'].columns
+    if lang == 'ro': columns = user_words_dictionary['ro'].columns
+    if lang == 'ca': columns = user_words_dictionary['ca'].columns
+    if lang == 'pl': columns = user_words_dictionary['pl'].columns
+    if lang == 'en': columns = user_words_dictionary['en'].columns
+    if lang == 'ja': columns = user_words_dictionary['ja'].columns
+    if lang == 'ko': columns = user_words_dictionary['ko'].columns
+    if lang == 'ar': columns = user_words_dictionary['ar'].columns
+    if lang == 'ru': columns = user_words_dictionary['ru'].columns
+    if lang == 'zh': columns = user_words_dictionary['zh'].columns
+    if lang == 'tr': columns = user_words_dictionary['tr'].columns
+    if lang == 'sv': columns = user_words_dictionary['sv'].columns
+    if lang == 'nl': columns = user_words_dictionary['nl'].columns
+    if lang == 'da': columns = user_words_dictionary['da'].columns
+
 
     df = pd.DataFrame(all_words, columns=columns)
     df = df.fillna(0)
@@ -291,6 +321,51 @@ def upgrade_words_conv(lang,num_sentences, word, user_words_dictionary):
     if lang == 'es':
         user_words_dictionary['es'] = df
         save_de(user_words_dictionary,key='es')
+    if lang == 'it':
+        user_words_dictionary['it'] = df
+        save_de(user_words_dictionary,key='it')
+    if lang == 'pt':
+        user_words_dictionary['pt'] = df
+        save_de(user_words_dictionary,key='pt')
+    if lang == 'ro':
+        user_words_dictionary['ro'] = df
+        save_de(user_words_dictionary,key='ro')
+    if lang == 'ca':
+        user_words_dictionary['ca'] = df
+        save_de(user_words_dictionary,key='ca')
+    if lang == 'pl':
+        user_words_dictionary['pl'] = df
+        save_de(user_words_dictionary,key='pl')
+    if lang == 'en':
+        user_words_dictionary['en'] = df
+        save_de(user_words_dictionary,key='en')
+    if lang == 'ja':
+        user_words_dictionary['ja'] = df
+        save_de(user_words_dictionary,key='ja')
+    if lang == 'ko':
+        user_words_dictionary['ko'] = df
+        save_de(user_words_dictionary,key='ko')
+    if lang == 'ar':
+        user_words_dictionary['ar'] = df
+        save_de(user_words_dictionary,key='ar')
+    if lang == 'ru':
+        user_words_dictionary['ru'] = df
+        save_de(user_words_dictionary,key='ru')
+    if lang == 'zh':
+        user_words_dictionary['zh'] = df
+        save_de(user_words_dictionary,key='zh')
+    if lang == 'tr':
+        user_words_dictionary['tr'] = df
+        save_de(user_words_dictionary,key='tr')
+    if lang == 'sv':
+        user_words_dictionary['sv'] = df
+        save_de(user_words_dictionary,key='sv')
+    if lang == 'nl':
+        user_words_dictionary['nl'] = df
+        save_de(user_words_dictionary,key='nl')
+    if lang == 'da':
+        user_words_dictionary['da'] = df
+        save_de(user_words_dictionary,key='da')
 
 
 

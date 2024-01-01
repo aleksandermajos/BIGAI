@@ -1,5 +1,5 @@
-from ENGINE.DATA_OHLC_MANIPULATE import Df_Remove_Columns
-from ENGINE.DATA_OHLC_MANIPULATE import Add_Growing_Column, Add_Diff_CO_Column
+from ENGINE.QM_DATA_OHLC_MANIPULATE import Df_Remove_Columns
+from ENGINE.QM_DATA_OHLC_MANIPULATE import Add_Growing_Column, Add_Diff_CO_Column
 
 
 def MT4_DF_to_CLASSIFICATION(df):

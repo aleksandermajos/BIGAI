@@ -3,30 +3,8 @@ from pathlib import Path
 import os
 p = Path.cwd()
 path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
-path = path_beginning+"DATA/ALOHAPP/WORDS/"
+path = path_beginning+"DATA/ALOHA/WORDS/"
 
-
-
-def load_en():
-    en = pd.read_excel(path+'EN/1000WORDSENGLISH.xlsx')
-    en.WORD = en.WORD.str.replace('\d+', '')
-    en = en[en["WORD"].str.contains("rank") == False]
-
-    return en
-
-def load_pl():
-    pl = pd.read_excel(path+'PL/1000WORDSPOLISH.xlsx')
-    pl.WORD = pl.WORD.str.replace('\d+', '')
-    pl = pl[pl["WORD"].str.contains("rank") == False]
-
-    return pl
-
-def load_ru():
-    ru = pd.read_excel(path+'RU/1000WORDSRUS.xlsx')
-    ru.WORD = ru.WORD.str.replace('\d+', '')
-    ru = ru[ru["WORD"].str.contains("rank") == False]
-
-    return ru
 
 def load_de(dif=1):
     if dif == 1: de = pd.read_excel(path+'DE/1000WORDSGERMAN.xlsx')
@@ -37,11 +15,6 @@ def load_de(dif=1):
     if dif == 6: de = pd.read_excel(path + 'DE/6000WORDSGERMAN.xlsx')
     if dif == 7: de = pd.read_excel(path + 'DE/7000WORDSGERMAN.xlsx')
     if dif == 8: de = pd.read_excel(path + 'DE/8000WORDSGERMAN.xlsx')
-
-
-
-
-
 
     de.WORD = de.WORD.str.replace('\d+', '')
     de = de[de["WORD"].str.contains("rank") == False]
@@ -81,5 +54,54 @@ def load_fr(dif=1):
     fr = fr[fr["WORD"].str.contains("rank") == False]
 
     return fr
+
+def load_en(dif=1):
+    print(os.getcwd())
+    if dif==1: en = pd.read_excel(path+'EN/1000WORDSENGLISH.xlsx')
+    if dif == 2: en = pd.read_excel(path + 'EN/2000WORDSENGLISH.xlsx')
+    if dif == 3: en = pd.read_excel(path + 'EN/3000WORDSENGLISH.xlsx')
+    if dif == 4: en = pd.read_excel(path + 'EN/4000WORDSENGLISH.xlsx')
+    if dif == 5: en = pd.read_excel(path + 'EN/5000WORDSENGLISH.xlsx')
+    if dif == 6: en = pd.read_excel(path + 'EN/6000WORDSENGLISH.xlsx')
+    if dif == 7: en = pd.read_excel(path + 'EN/7000WORDSENGLISH.xlsx')
+    if dif == 8: en = pd.read_excel(path + 'EN/8000WORDSENGLISH.xlsx')
+    en.WORD = en.WORD.str.replace('\d+', '')
+    en = en[en["WORD"].str.contains("rank") == False]
+
+    return en
+
+def load_it(dif=1):
+    print(os.getcwd())
+    if dif==1: it = pd.read_excel(path+'IT/1000WORDSITALIAN.xlsx')
+    if dif == 2: it = pd.read_excel(path + 'IT/2000WORDSITALIAN.xlsx')
+    if dif == 3: it = pd.read_excel(path + 'IT/3000WORDSITALIAN.xlsx')
+    if dif == 4: it = pd.read_excel(path + 'IT/4000WORDSITALIAN.xlsx')
+    if dif == 5: it = pd.read_excel(path + 'IT/5000WORDSITALIAN.xlsx')
+    if dif == 6: it = pd.read_excel(path + 'IT/6000WORDSITALIAN.xlsx')
+    if dif == 7: it = pd.read_excel(path + 'IT/7000WORDSITALIAN.xlsx')
+    if dif == 8: it = pd.read_excel(path + 'IT/8000WORDSITALIAN.xlsx')
+    it.WORD = it.WORD.str.replace('\d+', '')
+    it = it[it["WORD"].str.contains("rank") == False]
+
+    return it
+
+def load_pl(dif=1):
+    print(os.getcwd())
+    if dif==1: pl = pd.read_excel(path+'PL/1000WORDSPOLISH.xlsx')
+    if dif == 2: pl = pd.read_excel(path + 'PL/2000WORDSPOLISH.xlsx')
+    if dif == 3: pl = pd.read_excel(path + 'PL/3000WORDSPOLISH.xlsx')
+    if dif == 4: pl = pd.read_excel(path + 'PL/4000WORDSPOLISH.xlsx')
+    if dif == 5: pl = pd.read_excel(path + 'PL/5000WORDSPOLISH.xlsx')
+    if dif == 6: pl = pd.read_excel(path + 'PL/6000WORDSPOLISH.xlsx')
+    if dif == 7: pl = pd.read_excel(path + 'PL/7000WORDSPOLISH.xlsx')
+    if dif == 8: pl = pd.read_excel(path + 'PL/8000WORDSPOLISH.xlsx')
+    pl.WORD = pl.WORD.str.replace('\d+', '')
+    pl = pl[pl["WORD"].str.contains("rank") == False]
+
+    return pl
+
+
+
+
 
 
