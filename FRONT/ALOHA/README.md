@@ -1,6 +1,5 @@
-# ALOHAPP
+# ALOHA
 **THIS REPO IS SUPPLEMENT OF ALOHA YT CHANNEL: **https://www.youtube.com/channel/UC_GUc59ZRezm2PueZy5tohA
-
 
 
 *⭐️ Like this repo? please star & consider donating to keep it maintained*

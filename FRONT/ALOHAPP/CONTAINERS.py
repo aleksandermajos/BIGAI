@@ -1,4 +1,3 @@
-import flet_core
 from flet import (
     FilledButton,
     CircleBorder,
@@ -6,11 +5,28 @@ from flet import (
 )
 import flet as ft
 from flet import (
-    Slider,
-    Switch,
+    ElevatedButton,
+    FilePicker,
+    FilePickerResultEvent,
+    Page,
+    Row,
     Text,
+    icons,
 )
-from FRONT.ALOHAPP.ACTIONS import rec_button_clicked, mode_control_changed
+from ENGINE.ALOHAPP_ACTIONS import pic_button_clicked
+
+
+def pick_files_result(e: FilePickerResultEvent):
+    selected_files.value = (
+        ", ".join(map(lambda f: f.name, e.files)) if e.files else "Cancelled!"
+    )
+    selected_files.update()
+
+
+pick_files_dialog = FilePicker(on_result=pick_files_result)
+selected_files = Text()
+
+
 def generate_words_buttons(list_of_words):
     list_of_buttons = []
     for word in list_of_words:
@@ -32,12 +48,13 @@ def create_words_container(wb):
     return words_column, words_container
 
 def create_conversation_container():
+    """
     rec_button = FilledButton("REC", style=ButtonStyle(shape=CircleBorder(), padding=10), on_click=rec_button_clicked)
     switch_button_control = Switch(label="CONTROL", on_change=mode_control_changed)
     row_conversation_column = ft.Row([switch_button_control, rec_button])
-    conversation_column = ft.Column([],)
     conversation_column.controls.append(row_conversation_column)
-
+    """
+    conversation_column = ft.Column([],)
     conversation_column.scroll = ft.ScrollMode.AUTO
     conversation_container = ft.Container(
         conversation_column,
@@ -49,3 +66,38 @@ def create_conversation_container():
         alignment=ft.alignment.top_center,
     )
     return conversation_column, conversation_container
+
+def create_ocr_container():
+    ocr_column = ft.Column([], )
+    pic_button = FilledButton("PIC", style=ButtonStyle(shape=CircleBorder(), padding=10), on_click=pic_button_clicked)
+    row_ocr_column = ft.Row([pic_button])
+    row_ocr_loadfiles = Row(
+            [
+                ElevatedButton(
+                    "Pick files",
+                    icon=icons.UPLOAD_FILE,
+                    on_click=lambda _: pick_files_dialog.pick_files(
+                        allow_multiple=True
+                    ),
+                ),
+                selected_files,
+            ]
+        )
+
+    ocr_column.controls.append(row_ocr_column)
+    ocr_column.controls.append(row_ocr_loadfiles)
+
+
+
+    ocr_column.scroll = ft.ScrollMode.AUTO
+    ocr_container = ft.Container(
+        ocr_column,
+        expand=True,
+        margin=10,
+        padding=10,
+        bgcolor=ft.colors.CYAN_500,
+        border_radius=10,
+        alignment=ft.alignment.top_center,
+    )
+    return ocr_column, ocr_container
+

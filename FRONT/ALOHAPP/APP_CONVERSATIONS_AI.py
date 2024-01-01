@@ -1,10 +1,10 @@
 import flet as ft
 import platform
-from ENGINE.USER_FILES_WORDS import load_de, load_es, load_fr
+from ENGINE.ALOHAPP_USER_FILES_WORDS import load_de, load_es, load_fr
 from FRONT.ALOHAPP.CONTAINERS import generate_words_buttons,create_words_container, create_conversation_container
-from ENGINE.GIVE_WORDS import give_words_conv
-from ENGINE.OPENAI_CHATGPT import ChatGPT
-from ENGINE.ASR_WHISPER import WhisperModel
+from ENGINE.ALOHAPP_GIVE_WORDS import give_words_conv
+from ENGINE.ALOHAPP_OPENAI_CHATGPT import ChatGPT
+from ENGINE.STT_WHISPER import WhisperModel
 import spacy
 import spacy_stanza
 
@@ -17,7 +17,7 @@ def main(page: ft.Page):
 
 
 
-    words_number = 30
+    words_number = 15
     word_times = 4
     repeat_word = 4
 
@@ -68,18 +68,7 @@ def main(page: ft.Page):
             if os == 'Windows' or os == 'Linux':
                 page.whisper_model = WhisperModel(size='medium', lang='spanish')
 
-
-
-
-
-
-
-
-
         page.chat_bot = ChatGPT()
-
-
-
 
 
         page.words_buttons = generate_words_buttons((words_fin))

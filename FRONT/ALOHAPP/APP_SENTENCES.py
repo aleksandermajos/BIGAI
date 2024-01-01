@@ -15,20 +15,20 @@ from functools import partial
 import platform
 from thefuzz import fuzz
 
-from ENGINE.USER_FILES_WORDS import load_de, load_es, load_fr
-from ENGINE.GIVE_WORDS import give_words
-from ENGINE.UPGRADE_USER_FILES import upgrade_words_pass_act
-from ENGINE.LOAD_PICS import get_pictures
-from ENGINE.OPENAI_CHATGPT import ChatGPT
-from ENGINE.REC_MIC_PYAUDIO import Mic_Recorder
-from ENGINE.ASR_WHISPER import WhisperModel
+from ENGINE.ALOHAPP_USER_FILES_WORDS import load_de, load_es, load_fr
+from ENGINE.ALOHAPP_GIVE_WORDS import give_words
+from ENGINE.ALOHAPP_UPGRADE_USER_FILES import upgrade_words_pass_act
+from ENGINE.ALOHAPP_LOAD_PICS import get_pictures
+from ENGINE.ALOHAPP_OPENAI_CHATGPT import ChatGPT
+from ENGINE.ALOHAPP_REC_MIC_PYAUDIO import Mic_Recorder
+from ENGINE.STT_WHISPER import WhisperModel
 from ENGINE.TTS_DE_SILERO import TTS_DE
 from ENGINE.TTS_EN_SILERO import TTS_EN
 from ENGINE.TTS_ES_SILERO import TTS_ES
 from ENGINE.TTS_FR_SILERO import TTS_FR
-from ENGINE.SILERO_SSML import prepare_ssml, add_space_between_words
+from ENGINE.TTS_SSML_SILERO import prepare_ssml, add_space_between_words
 
-rec_path = "../../DATA/ALOHAPP/PHRASES/SPEAKING/"
+rec_path = "../../DATA/ALOHA/PHRASES/SPEAKING/"
 
 words_number = 10
 sen_number_pass = 8
