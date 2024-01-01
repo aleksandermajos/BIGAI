@@ -19,7 +19,7 @@ from ENGINE.TTS_ES_SILERO import TTS_ES
 '''
 from ENGINE.TTS_SSML_SILERO import prepare_ssml
 
-from ENGINE.TTS_ELEVENLABS_API import generate_and_play
+from ENGINE.TTS_OPENAI_API import generate_and_play
 from ENGINE.ALOHAPP_UPGRADE_USER_FILES import upgrade_words_conv
 
 from pathlib import Path
