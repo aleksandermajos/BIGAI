@@ -4,8 +4,8 @@ from openai import OpenAI
 
 from pathlib import Path
 p = Path.cwd()
-path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
-path = path_beginning+"DATA/ALOHA/"
+path_beginning = str(p.home())+'/PycharmProjects/OPENAI/'
+path = path_beginning+""
 
 import os
 cwd = os.getcwd()

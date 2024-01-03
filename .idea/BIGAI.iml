@@ -6,6 +6,5 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Deep-Learning-with-TensorFlow-and-Keras-3rd-edition" />
     <orderEntry type="module" module-name="handson-ml3" />
-    <orderEntry type="module" module-name="pywhispercpp" />
   </component>
 </module>

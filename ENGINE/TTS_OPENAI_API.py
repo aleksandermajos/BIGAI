@@ -3,8 +3,8 @@ from playsound import playsound
 import os
 from pathlib import Path
 p = Path.cwd()
-path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
-path = path_beginning+"DATA/ALOHA/"
+path_beginning = str(p.home())+'/PycharmProjects/OPENAI/'
+path = path_beginning+""
 cwd = os.getcwd()
 f = open(path+"account.txt", "r")
 client = OpenAI(api_key=f.read())
