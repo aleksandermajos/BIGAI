@@ -9,7 +9,7 @@ from ENGINE.ALOHAPP_STT_WHISPER_LIVE import Whisper_live
 import spacy_stanza
 
 def main(page: ft.Page):
-    page.main_language = 'ja'
+    page.main_language = 'pl'
 
 
     page.title = "CONVERSATIONS_AI"

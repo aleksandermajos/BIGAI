@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BIGAI.iml" filepath="$PROJECT_DIR$/.idea/BIGAI.iml" />
       <module fileurl="file://$PROJECT_DIR$/../CZARNA/.idea/Deep-Learning-with-TensorFlow-and-Keras-3rd-edition.iml" filepath="$PROJECT_DIR$/../CZARNA/.idea/Deep-Learning-with-TensorFlow-and-Keras-3rd-edition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TensorFlow-Developer-Certificate-Guide/.idea/TensorFlow-Developer-Certificate-Guide.iml" filepath="$PROJECT_DIR$/../TensorFlow-Developer-Certificate-Guide/.idea/TensorFlow-Developer-Certificate-Guide.iml" />
       <module fileurl="file://$PROJECT_DIR$/../handson-ml3/.idea/handson-ml3.iml" filepath="$PROJECT_DIR$/../handson-ml3/.idea/handson-ml3.iml" />
     </modules>
   </component>
