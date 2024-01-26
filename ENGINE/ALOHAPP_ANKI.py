@@ -3,7 +3,7 @@ from pathlib import Path
 p = Path.cwd()
 path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
 
-path = path_beginning+"DATA/ALOHAPP/DECKS/JA/JP_FULL"
+path = path_beginning+"DATA/ALOHAPP/DECKS/JA/WANI_KANI"
 
 from ankipandas import Collection
 

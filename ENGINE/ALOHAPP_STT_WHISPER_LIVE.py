@@ -126,6 +126,7 @@ class Whisper_live:
         indx_to_del = []
         words_buttons = self.main_page.words_buttons
         for token in lem:
+            print(token)
             for indx in range(len(words_buttons)):
                 if words_buttons[indx].text in token.lemma_:
                     if len(words_buttons[indx].text) != len(token.lemma_):
