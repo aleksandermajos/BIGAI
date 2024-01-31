@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../pywhispercpp/whisper.cpp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../pywhispercpp/whisper.cpp/bindings/ios" vcs="Git" />
   </component>
 </project>
