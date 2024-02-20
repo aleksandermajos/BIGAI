@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ALOHAPP ANKI" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README">
+      <change afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_ROMANJI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_TRANSLATE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/KEY_HF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/STT_FASTERWHISPER.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/STT_WHISPERX.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/STT_WHISPER_STREAMING.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/TRANSFORMERS_WHISPER.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../whisper_streaming/.idea/whisper_streaming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/STT_WHISPER_CPP.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/STT_WHISPER_CPP_PYWHISPER.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/STT_WHISPER_DISTIL.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/APP_CONVERSATIONS_AI_V2.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/APP_CONVERSATIONS_AI_V2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,8 +71,15 @@
   &quot;keyToString&quot;: {
     &quot;Python.ALOHAPP_ANKI (1).executor&quot;: &quot;Debug&quot;,
     &quot;Python.ALOHAPP_KANJI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ALOHAPP_ROMANJI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ALOHAPP_TRANSLATE.executor&quot;: &quot;Debug&quot;,
     &quot;Python.APP_CONVERSATIONS_AI_V2.executor&quot;: &quot;Debug&quot;,
     &quot;Python.QM_NIXTLA_FIRST.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_FASTERWHISPER.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_WHISPERTIMESTAMPED.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_WHISPERX.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_WHISPER_STREAMING.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TRANSFORMERS_WHISPER.executor&quot;: &quot;Run&quot;,
     &quot;Python.TTS_OPENAI.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -62,7 +87,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/PycharmProjects/BIGAI/SCHOOL/DATA&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/PycharmProjects/whisper_streaming&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -74,11 +99,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\ENGINE" />
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\DATA" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\DECKS\JA" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\ENGINE" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHA" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP/USER" />
@@ -88,7 +113,7 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\VISIBLE\QUANTMAVERICK" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.APP_CONVERSATIONS_AI_V2">
+  <component name="RunManager" selected="Python.ALOHAPP_ROMANJI">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="TensorFlow-Developer-Certificate-Guide" />
       <option name="ENV_FILES" value="" />
@@ -124,7 +149,7 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ALOHAPP_ANKI (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ALOHAPP_ROMANJI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,7 +163,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/ALOHAPP_ANKI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/ALOHAPP_ROMANJI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ALOHAPP_ANKI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ALOHAPP_TRANSLATE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +186,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\aleks\PycharmProjects\BIGAI\ENGINE\ALOHAPP_ANKI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/ALOHAPP_TRANSLATE.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,30 +195,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="APP_CONVERSATIONS_AI_V2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BIGAI" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FRONT/ALOHAPP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FRONT/ALOHAPP/APP_CONVERSATIONS_AI_V2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="QM_NIXTLA_FIRST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="STT_WHISPERX" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,7 +209,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/QM_NIXTLA_FIRST.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/STT_WHISPERX.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +218,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TTS_OPENAI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="STT_WHISPER_STREAMING" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,7 +232,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/TTS_OPENAI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/STT_WHISPER_STREAMING.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TRANSFORMERS_WHISPER" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/TRANSFORMERS_WHISPER.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -404,11 +429,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.APP_CONVERSATIONS_AI_V2" />
-        <item itemvalue="Python.QM_NIXTLA_FIRST" />
-        <item itemvalue="Python.ALOHAPP_ANKI (1)" />
-        <item itemvalue="Python.ALOHAPP_ANKI" />
-        <item itemvalue="Python.TTS_OPENAI" />
+        <item itemvalue="Python.ALOHAPP_ROMANJI" />
+        <item itemvalue="Python.TRANSFORMERS_WHISPER" />
+        <item itemvalue="Python.ALOHAPP_TRANSLATE" />
+        <item itemvalue="Python.STT_WHISPERX" />
+        <item itemvalue="Python.STT_WHISPER_STREAMING" />
       </list>
     </recent_temporary>
   </component>
@@ -581,6 +606,20 @@
       <workItem from="1706695380208" duration="100000" />
       <workItem from="1706695489452" duration="510000" />
       <workItem from="1707053969963" duration="658000" />
+      <workItem from="1707306738232" duration="1356000" />
+      <workItem from="1708107039710" duration="2804000" />
+      <workItem from="1708114420264" duration="188000" />
+      <workItem from="1708115705158" duration="4930000" />
+      <workItem from="1708123169078" duration="262000" />
+      <workItem from="1708131752391" duration="3344000" />
+      <workItem from="1708186500375" duration="712000" />
+      <workItem from="1708196668789" duration="34000" />
+      <workItem from="1708198347980" duration="51000" />
+      <workItem from="1708254730990" duration="18983000" />
+      <workItem from="1708285086347" duration="2869000" />
+      <workItem from="1708289270497" duration="1372000" />
+      <workItem from="1708297540955" duration="341000" />
+      <workItem from="1708297903386" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -834,7 +873,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705229577831</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="BIGAI README">
+      <option name="closed" value="true" />
+      <created>1707306862216</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1707306862216</updated>
+    </task>
+    <task id="LOCAL-00034" summary="BIGAI README">
+      <option name="closed" value="true" />
+      <created>1707307081897</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1707307081897</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -870,7 +925,6 @@
     <MESSAGE value="BIGAI" />
     <MESSAGE value="BIGAI SCHOOL OUT OF DIRECTORY" />
     <MESSAGE value="BIGAI FRONT ALOHA" />
-    <MESSAGE value="BIGAI README" />
     <MESSAGE value="BIGAI ALOHAPP DATA" />
     <MESSAGE value="BIGAI ALOHAPP ENGINE" />
     <MESSAGE value="BIGAI ALOHAPP SCHOOL" />
@@ -879,7 +933,8 @@
     <MESSAGE value="BIGAI ALOHAPP DESKTOP" />
     <MESSAGE value="BIGAI ALOHAPP DESKTOP2" />
     <MESSAGE value="BIGAI ALOHAPP ANKI" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ALOHAPP ANKI" />
+    <MESSAGE value="BIGAI README" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -929,6 +984,21 @@
           <line>23</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/STT_WHISPERX.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/STT_WHISPERX.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/ALOHAPP_ROMANJI.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -945,14 +1015,21 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BIGAI$TRANSFORMERS_WHISPER.coverage" NAME="TRANSFORMERS_WHISPER Coverage Results" MODIFIED="1708289041808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$TTS_OPENAI.coverage" NAME="TTS_OPENAI Coverage Results" MODIFIED="1704129849879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$CONVERSATIONS_AI.coverage" NAME="CONVERSATIONS_AI Coverage Results" MODIFIED="1696591975235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
-    <SUITE FILE_PATH="coverage/BIGAI$TTS_ELEVENLABS_API.coverage" NAME="TTS_ELEVENLABS_API Coverage Results" MODIFIED="1696590057655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_ANKI__1_.coverage" NAME="ALOHAPP_ANKI (1) Coverage Results" MODIFIED="1705245312344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_KANJI.coverage" NAME="ALOHAPP_KANJI Coverage Results" MODIFIED="1704275531987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$QM_NIXTLA_FIRST.coverage" NAME="QM_NIXTLA_FIRST Coverage Results" MODIFIED="1706195770153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$APP_CONVERSATIONS_AI_V2.coverage" NAME="APP_CONVERSATIONS_AI_V2 Coverage Results" MODIFIED="1706695744301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPERX.coverage" NAME="STT_WHISPERX Coverage Results" MODIFIED="1708276814946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$APP_CONVERSATIONS_AI_V2.coverage" NAME="APP_CONVERSATIONS_AI_V2 Coverage Results" MODIFIED="1708255917632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPER_STREAMING.coverage" NAME="STT_WHISPER_STREAMING Coverage Results" MODIFIED="1708271920176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$ELELAB_TTS_API.coverage" NAME="ELELAB_TTS_API Coverage Results" MODIFIED="1696540446169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$KEY_ELEVENLABS.coverage" NAME="KEY_ELEVENLABS Coverage Results" MODIFIED="1696585391806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_ANKI__1_.coverage" NAME="ALOHAPP_ANKI (1) Coverage Results" MODIFIED="1705245312344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$QM_NIXTLA_FIRST.coverage" NAME="QM_NIXTLA_FIRST Coverage Results" MODIFIED="1706195770153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPERTIMESTAMPED.coverage" NAME="STT_WHISPERTIMESTAMPED Coverage Results" MODIFIED="1708268309951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_TRANSLATE.coverage" NAME="ALOHAPP_TRANSLATE Coverage Results" MODIFIED="1708277361744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$CONVERSATIONS_AI.coverage" NAME="CONVERSATIONS_AI Coverage Results" MODIFIED="1696591975235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$STT_FASTERWHISPER.coverage" NAME="STT_FASTERWHISPER Coverage Results" MODIFIED="1708268033347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_ROMANJI.coverage" NAME="ALOHAPP_ROMANJI Coverage Results" MODIFIED="1708297752204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_KANJI.coverage" NAME="ALOHAPP_KANJI Coverage Results" MODIFIED="1704275531987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$TTS_ELEVENLABS_API.coverage" NAME="TTS_ELEVENLABS_API Coverage Results" MODIFIED="1696590057655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
   </component>
 </project>

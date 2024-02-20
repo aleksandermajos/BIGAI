@@ -90,7 +90,7 @@ def main(page: ft.Page):
     my_assistant = Whisper_live(main_page=page,
                                 language=page.main_language,
                                 model=args.model,
-                                input_device=7,
+                                input_device=1,
                                 silence_threshold=args.silence_threshold,
                                 block_duration=args.block_duration,
                                 commands_callback=print)
