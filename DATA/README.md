@@ -1,15 +1,13 @@
 # BIGAI_DATA
 
 
-**THIS REPO IS SUPPLEMENT OF YT CHANNEL: ** https://www.youtube.com/channel/UCLNTRwFXhwYRjva_NffipAA
+### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:
+
+https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
 
 <a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-
-
-
-****DATABASE BIGAI_DATA BASED ON FILES,DATABASES DIVIDED BY STARTUPs** by Aleksander Majos
 
 > **BEWARE**: This is a work in progress!
 >
@@ -18,6 +16,3 @@
 > * Major reorganizations may happen at any time.
 >
 > * No promises. No guarantees. Use at own risk.
-
-**TODO:**
-PROVIDE FULLY ACCESS TO DATA FROM INDIVIDUAL STARTUP

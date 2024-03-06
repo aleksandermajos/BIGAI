@@ -4,24 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README">
-      <change afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_ROMANJI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_TRANSLATE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/KEY_HF.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/STT_FASTERWHISPER.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/STT_WHISPERX.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/STT_WHISPER_STREAMING.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/TRANSFORMERS_WHISPER.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../whisper_streaming/.idea/whisper_streaming.iml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ENGINE WHISPER">
+      <change afterPath="$PROJECT_DIR$/ENGINE/GEN_PIC_SDXL_LIGHTNING.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/STT_WHISPER_CPP.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/STT_WHISPER_CPP_PYWHISPER.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/STT_WHISPER_DISTIL.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIFLOW/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/AIFLOW/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BUSINESS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BUSINESS/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/1000WORDSFRENCH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/1000WORDSFRENCH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/ALOHA/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/ALOHA/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/APP_CONVERSATIONS_AI_V2.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/APP_CONVERSATIONS_AI_V2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/QUANTMAVERICK/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/QUANTMAVERICK/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MARKETING/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/MARKETING/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MONEYFLOW/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/MONEYFLOW/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/._.DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/._.DS_Store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/._output.wav" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/._output.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/.ipynb_checkpoints/HF_BARK-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/.ipynb_checkpoints/HF_BARK-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/.ipynb_checkpoints/HF_CLASSIFICATION-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/.ipynb_checkpoints/HF_CLASSIFICATION-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/.ipynb_checkpoints/TF_CLASSIFICATION-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/.ipynb_checkpoints/TF_CLASSIFICATION-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/.ipynb_checkpoints/TF_REGRESSION-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/.ipynb_checkpoints/TF_REGRESSION-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/.ipynb_checkpoints/TF_SIMPLE_LINEAR_REGRESSION-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/.ipynb_checkpoints/TF_SIMPLE_LINEAR_REGRESSION-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/.ipynb_checkpoints/TTS_TTS-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/.ipynb_checkpoints/TTS_TTS-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/BARK_VOICE_CLONING.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/BARK_VOICE_CLONING.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/DATA/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/DATA/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/DATA/insurance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/DATA/insurance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/DATA/new_hires.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/DATA/new_hires.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/DATA/salary_dataset.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/DATA/salary_dataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/ADALINE.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ADALINE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/GRADIENT.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/GRADIENT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/IRIS_DESCR.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/IRIS_DESCR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/LINEARY_NONLINEARY.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/LINEARY_NONLINEARY.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/MIN_COST_FUNCTION.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/MIN_COST_FUNCTION.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/ML_CLASS.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_CLASS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/ML_CLUSTERING.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_CLUSTERING.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/ML_DIM_RED.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_DIM_RED.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/ML_DIV.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_DIV.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/ML_FLOW.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_FLOW.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/ML_FLOW_FULL.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_FLOW_FULL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/ML_REGRESSION.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_REGRESSION.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/ML_RL.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_RL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/NEURON.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/NEURON.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/PERCEPTRON.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/PERCEPTRON.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/PERCEPTRON_LEARNING_RULE.png" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/PERCEPTRON_LEARNING_RULE.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FIGURES/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/HF_BARK.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/HF_BARK.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/HF_CLASSIFICATION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/HF_CLASSIFICATION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/HF_START.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/HF_START.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/HF_TEXT_CLASSIFICATION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/HF_TEXT_CLASSIFICATION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_ALICE_RNN_TEXT_GEN.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_ALICE_RNN_TEXT_GEN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_CLASSIFICATION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_CLASSIFICATION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_CNN_CIFAR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_CNN_CIFAR.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_CNN_MNIST.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_CNN_MNIST.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_CNN_TRANSFER_LEARNING.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_CNN_TRANSFER_LEARNING.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_LOAD_CNN_CIFAR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_LOAD_CNN_CIFAR.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_LSTM_SENTIMENT_ANALISYS.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_LSTM_SENTIMENT_ANALISYS.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_MULTIPLE_LINEAR_REGRESSION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_MULTIPLE_LINEAR_REGRESSION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_POS_TAGGING.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_POS_TAGGING.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_REGRESSION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_REGRESSION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_SIMPLE_LINEAR_REGRESSION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_SIMPLE_LINEAR_REGRESSION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_SPAM_DETECTION.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_SPAM_DETECTION.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_TRANSFORMER.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_TRANSFORMER.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_VGG16.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_VGG16.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_VGG_EXTRACTING_FEATURES.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_VGG_EXTRACTING_FEATURES.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TF_WORD_EMBEDDINGS.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_WORD_EMBEDDINGS.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/TTS_TTS.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TTS_TTS.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/output.wav" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/output.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STARTUP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/STARTUP/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +130,7 @@
     &quot;Python.ALOHAPP_ROMANJI.executor&quot;: &quot;Debug&quot;,
     &quot;Python.ALOHAPP_TRANSLATE.executor&quot;: &quot;Debug&quot;,
     &quot;Python.APP_CONVERSATIONS_AI_V2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_PIC_SDXL_LIGHTNING.executor&quot;: &quot;Debug&quot;,
     &quot;Python.QM_NIXTLA_FIRST.executor&quot;: &quot;Debug&quot;,
     &quot;Python.STT_FASTERWHISPER.executor&quot;: &quot;Debug&quot;,
     &quot;Python.STT_WHISPERTIMESTAMPED.executor&quot;: &quot;Debug&quot;,
@@ -81,19 +138,20 @@
     &quot;Python.STT_WHISPER_STREAMING.executor&quot;: &quot;Debug&quot;,
     &quot;Python.TRANSFORMERS_WHISPER.executor&quot;: &quot;Run&quot;,
     &quot;Python.TTS_OPENAI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/PycharmProjects/whisper_streaming&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/PycharmProjects/real-time-transcribtion-main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -106,14 +164,14 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\NOTEBOOKS" />
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP/USER" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\FRONT\ALOHAPP" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\MODELS" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\VISIBLE\QUANTMAVERICK" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ALOHAPP_ROMANJI">
+  <component name="RunManager" selected="Python.GEN_PIC_SDXL_LIGHTNING">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="TensorFlow-Developer-Certificate-Guide" />
       <option name="ENV_FILES" value="" />
@@ -172,7 +230,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ALOHAPP_TRANSLATE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="APP_CONVERSATIONS_AI_V2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,12 +239,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FRONT/ALOHAPP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/ALOHAPP_TRANSLATE.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FRONT/ALOHAPP/APP_CONVERSATIONS_AI_V2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,7 +253,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="STT_WHISPERX" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="GEN_PIC_SDXL_LIGHTNING" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,30 +267,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/STT_WHISPERX.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="STT_WHISPER_STREAMING" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BIGAI" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/STT_WHISPER_STREAMING.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GEN_PIC_SDXL_LIGHTNING.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,6 +337,29 @@
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="real-time-transcribtion-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../real-time-transcribtion-main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../real-time-transcribtion-main/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -429,18 +487,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GEN_PIC_SDXL_LIGHTNING" />
+        <item itemvalue="Python.APP_CONVERSATIONS_AI_V2" />
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.ALOHAPP_ROMANJI" />
         <item itemvalue="Python.TRANSFORMERS_WHISPER" />
-        <item itemvalue="Python.ALOHAPP_TRANSLATE" />
-        <item itemvalue="Python.STT_WHISPERX" />
-        <item itemvalue="Python.STT_WHISPER_STREAMING" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -620,6 +678,20 @@
       <workItem from="1708289270497" duration="1372000" />
       <workItem from="1708297540955" duration="341000" />
       <workItem from="1708297903386" duration="26000" />
+      <workItem from="1708428754329" duration="749000" />
+      <workItem from="1708432253709" duration="600000" />
+      <workItem from="1708776483557" duration="2361000" />
+      <workItem from="1708946039850" duration="2036000" />
+      <workItem from="1708955611492" duration="3935000" />
+      <workItem from="1709022062564" duration="2173000" />
+      <workItem from="1709049897257" duration="783000" />
+      <workItem from="1709050737800" duration="1063000" />
+      <workItem from="1709122503651" duration="1306000" />
+      <workItem from="1709158002480" duration="170000" />
+      <workItem from="1709158656845" duration="955000" />
+      <workItem from="1709457641054" duration="33000" />
+      <workItem from="1709713308901" duration="1581000" />
+      <workItem from="1709746249721" duration="2689000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -889,7 +961,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707307081897</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="BIGAI ENGINE WHISPER">
+      <option name="closed" value="true" />
+      <created>1708428820423</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1708428820423</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -934,7 +1014,8 @@
     <MESSAGE value="BIGAI ALOHAPP DESKTOP2" />
     <MESSAGE value="BIGAI ALOHAPP ANKI" />
     <MESSAGE value="BIGAI README" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI README" />
+    <MESSAGE value="BIGAI ENGINE WHISPER" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ENGINE WHISPER" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -985,19 +1066,29 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/STT_WHISPERX.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/STT_WHISPERX.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ENGINE/ALOHAPP_ROMANJI.py</url>
           <line>6</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/APP_CONVERSATIONS_AI_V2.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/APP_CONVERSATIONS_AI_V2.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/APP_CONVERSATIONS_AI_V2.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/GEN_PIC_SDXL_LIGHTNING.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1018,18 +1109,20 @@
     <SUITE FILE_PATH="coverage/BIGAI$TRANSFORMERS_WHISPER.coverage" NAME="TRANSFORMERS_WHISPER Coverage Results" MODIFIED="1708289041808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$TTS_OPENAI.coverage" NAME="TTS_OPENAI Coverage Results" MODIFIED="1704129849879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPERX.coverage" NAME="STT_WHISPERX Coverage Results" MODIFIED="1708276814946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$APP_CONVERSATIONS_AI_V2.coverage" NAME="APP_CONVERSATIONS_AI_V2 Coverage Results" MODIFIED="1708255917632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPER_STREAMING.coverage" NAME="STT_WHISPER_STREAMING Coverage Results" MODIFIED="1708271920176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$APP_CONVERSATIONS_AI_V2.coverage" NAME="APP_CONVERSATIONS_AI_V2 Coverage Results" MODIFIED="1709050929754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$ELELAB_TTS_API.coverage" NAME="ELELAB_TTS_API Coverage Results" MODIFIED="1696540446169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$KEY_ELEVENLABS.coverage" NAME="KEY_ELEVENLABS Coverage Results" MODIFIED="1696585391806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_ANKI__1_.coverage" NAME="ALOHAPP_ANKI (1) Coverage Results" MODIFIED="1705245312344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$QM_NIXTLA_FIRST.coverage" NAME="QM_NIXTLA_FIRST Coverage Results" MODIFIED="1706195770153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPERTIMESTAMPED.coverage" NAME="STT_WHISPERTIMESTAMPED Coverage Results" MODIFIED="1708268309951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$GEN_PIC_SDXL_LIGHTNING.coverage" NAME="GEN_PIC_SDXL_LIGHTNING Coverage Results" MODIFIED="1709158069496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_TRANSLATE.coverage" NAME="ALOHAPP_TRANSLATE Coverage Results" MODIFIED="1708277361744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$CONVERSATIONS_AI.coverage" NAME="CONVERSATIONS_AI Coverage Results" MODIFIED="1696591975235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$STT_FASTERWHISPER.coverage" NAME="STT_FASTERWHISPER Coverage Results" MODIFIED="1708268033347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_ROMANJI.coverage" NAME="ALOHAPP_ROMANJI Coverage Results" MODIFIED="1708297752204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_KANJI.coverage" NAME="ALOHAPP_KANJI Coverage Results" MODIFIED="1704275531987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$TTS_ELEVENLABS_API.coverage" NAME="TTS_ELEVENLABS_API Coverage Results" MODIFIED="1696590057655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1709050087336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../real-time-transcribtion-main" />
   </component>
 </project>

@@ -1,7 +1,11 @@
 # BIGAI_STARTUP
 
 
-**THIS REPO IS SUPPLEMENT OF YT CHANNEL: ** https://www.youtube.com/channel/UCLNTRwFXhwYRjva_NffipAA
+### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:
+
+https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
+
+
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
 
 <a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
