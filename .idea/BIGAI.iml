@@ -10,5 +10,6 @@
     <orderEntry type="module" module-name="whisperXXX" />
     <orderEntry type="module" module-name="real-time-transcribtion-main" />
     <orderEntry type="module" module-name="TensorFlow-Developer-Certificate-Guide" />
+    <orderEntry type="module" module-name="examples" />
   </component>
 </module>
