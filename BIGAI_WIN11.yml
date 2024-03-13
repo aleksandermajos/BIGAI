@@ -152,7 +152,6 @@ dependencies:
   - swig=4.0.2=hd77b12b_4
   - tbb=2021.5.0=h2d74725_0
   - tk=8.6.11=h2bbff1b_1
-  - tzdata=2021e=hda174b7_0
   - uriparser=0.9.3=h33f27b4_1
   - utf8proc=2.6.1=h2bbff1b_0
   - vc=14.2=h21ff451_1
@@ -165,10 +164,11 @@ dependencies:
   - zstd=1.4.9=h19a0ad4_0
   - pip:
     - absl-py==1.0.0
-    - accelerate==0.21.0
+    - accelerate==0.27.2
     - adal==1.2.7
     - addict==2.4.0
-    - aiohttp==3.8.1
+    - aiofiles==23.1.0
+    - aiohttp==3.8.5
     - aiosignal==1.2.0
     - alabaster==0.7.12
     - ale-py==0.7.5
@@ -176,8 +176,10 @@ dependencies:
     - altgraph==0.17.2
     - amqp==5.1.0
     - analytics-python==1.4.0
+    - annotated-types==0.5.0
     - ansicon==1.89.0
     - antlr4-python3-runtime==4.9.3
+    - anyascii==0.3.2
     - anyio==3.5.0
     - apache-beam==2.40.0
     - apex==0.1
@@ -186,6 +188,7 @@ dependencies:
     - argon2-cffi==21.3.0
     - argon2-cffi-bindings==21.2.0
     - arrow==1.2.2
+    - arxiv==1.4.8
     - asgiref==3.5.2
     - asteroid-filterbanks==0.4.0
     - asttokens==2.0.5
@@ -201,6 +204,7 @@ dependencies:
     - autoray==0.2.5
     - autorom==0.4.2
     - autorom-accept-rom-license==0.4.2
+    - av==11.0.0
     - ax-platform==0.2.4
     - azure-common==1.1.28
     - azure-core==1.21.1
@@ -217,17 +221,21 @@ dependencies:
     - backports-cached-property==1.0.1
     - backports-tempfile==1.0
     - backports-weakref==1.0.post1
+    - bangla==0.0.2
     - basicsr==1.4.2
     - bcrypt==3.2.0
     - beartype==0.11.0
     - beautifulsoup4==4.11.1
-    - bigai==0.0.2
+    - binaryornot==0.4.4
     - bitarray==2.6.0
     - bitsandbytes-windows==0.37.5
     - black==19.10b0
     - bleach==4.1.0
     - blessed==1.20.0
     - blis==0.7.9
+    - bnnumerizer==0.0.2
+    - bnunicodenormalizer==0.1.1
+    - boltons==23.0.0
     - boto==2.49.0
     - boto3==1.21.15
     - botocore==1.31.15
@@ -237,14 +245,15 @@ dependencies:
     - bravado-core==5.17.0
     - brotli==1.0.9
     - cachecontrol==0.12.11
+    - cached-property==1.5.2
     - cachetools==5.0.0
     - cachy==0.3.0
     - captum==0.5.0
     - catalogue==2.0.6
     - catboost==1.0.4
     - category-encoders==2.5.0
-    - certifi==2020.6.20
-    - chardet==3.0.4
+    - certifi==2021.10.8
+    - chardet==5.2.0
     - charset-normalizer==2.0.12
     - chex==0.1.4
     - ci-sdr==0.0.0
@@ -256,6 +265,8 @@ dependencies:
     - click==8.1.3
     - click-params==0.3.0
     - cliff==3.10.1
+    - clip-anytorch==2.5.2
+    - clldutils==3.19.0
     - cloudpickle==1.6.0
     - cmaes==0.10.0
     - cmd2==2.4.0
@@ -271,17 +282,23 @@ dependencies:
     - contextlib2==21.6.0
     - contextvars==2.4
     - convertdate==2.4.0
+    - cookiecutter==2.6.0
     - copier==8.1.0
+    - coqpit==0.0.17
+    - coreforecast==0.0.3
     - crashtest==0.3.1
     - crcmod==1.7
     - croniter==1.3.8
     - cryptography==36.0.2
+    - csvw==3.1.3
     - ctc-segmentation==1.7.1
+    - ctranslate2==4.0.0
     - cupy-cuda111==11.6.0
     - cupy-wheel==11.6.0
+    - cutlet==0.3.0
     - cycler==0.11.0
     - cymem==2.0.6
-    - cython==0.29.23
+    - cython==0.29.30
     - cytoolz==0.11.2
     - dagshub==0.2.10-2
     - darts==0.19.0
@@ -291,16 +308,20 @@ dependencies:
     - dask==2022.3.0
     - databricks-cli==0.16.4
     - dataclasses==0.6
-    - datasets==2.14.1
+    - dataclasses-json==0.5.14
+    - datasets==2.17.0
+    - dateparser==1.1.8
     - dateutils==0.6.12
     - de-core-news-sm==3.2.0
     - de-dep-news-trf==3.2.0
     - debtcollector==2.5.0
     - debugpy==1.5.1
-    - decorator==5.1.1
+    - decorator==4.4.2
     - deepdiff==6.2.3
     - defusedxml==0.7.1
+    - demucs==4.0.0
     - deprecated==1.2.13
+    - diffq==0.2.4
     - diffusers==0.19.1
     - dill==0.3.7
     - distance==0.1.3
@@ -315,12 +336,16 @@ dependencies:
     - docstring-parser==0.14.1
     - docutils==0.17.1
     - dogpile-cache==1.1.5
+    - dora-search==0.1.12
+    - dtw-python==1.3.1
+    - duckduckgo-search==3.8.4
     - duet==0.2.5
     - dulwich==0.20.50
     - dunamai==1.18.0
     - editdistance==0.6.0
-    - einops==0.4.1
+    - einops==0.7.0
     - elegy==0.8.6
+    - elevenlabs==0.2.27
     - email-validator==1.3.1
     - emoji==2.2.0
     - en-core-web-lg==3.2.0
@@ -345,30 +370,37 @@ dependencies:
     - facexlib==0.2.5
     - fairscale==0.4.4
     - fairseq==0.12.2
+    - faiss-cpu==1.7.4
     - fastai==2.7.10
     - fastapi==0.100.1
     - fastavro==1.5.2
     - fastcore==1.5.27
     - fastdownload==0.0.5
     - fasteners==0.17.3
+    - faster-whisper==1.0.0
     - fastjsonschema==2.15.3
     - fastprogress==1.0.2
     - fastrlock==0.8
     - fasttext==0.9.2
     - fbs==1.1.3
+    - feedparser==6.0.10
+    - ffmpeg==1.4
     - ffmpeg-python==0.2.0
     - ffmpy==0.3.0
     - filelock==3.6.0
+    - filetype==1.2.0
     - filterpy==1.4.5
     - fire==0.4.0
     - fixtures==3.0.0
+    - flashy==0.0.2
     - flask==2.2.2
     - flask-cors==3.0.10
-    - flatbuffers==2.0
+    - flatbuffers==23.5.26
     - flax==0.4.2
-    - flet==0.8.2
-    - flet-core==0.8.2
-    - flet-runtime==0.8.2
+    - flet==0.21.1
+    - flet-core==0.21.1
+    - flet-ivid==1.2
+    - flet-runtime==0.21.1
     - font-roboto==0.0.1
     - fonts==0.0.3
     - fonttools==4.29.1
@@ -379,14 +411,18 @@ dependencies:
     - fr-dep-news-trf==3.2.0
     - frozendict==2.3.4
     - frozenlist==1.3.0
-    - fsspec==2023.1.0
+    - fsspec==2023.10.0
     - ftfy==6.1.1
+    - fugashi==1.3.0
+    - funcparserlib==1.0.1
     - funcy==2.0
     - fusepy==3.0.1
     - future==0.18.2
     - futurist==2.4.0
     - fxcmpy==1.2.10
     - g2p-en==2.1.0
+    - g2pkk==0.1.2
+    - gast==0.4.0
     - gdown==4.4.0
     - gensim==4.1.2
     - gfpgan==1.3.8
@@ -405,32 +441,47 @@ dependencies:
     - gradio==3.9
     - greenlet==1.1.2
     - grpcio==1.56.2
+    - gruut==2.2.3
+    - gruut-ipa==0.13.0
+    - gruut-lang-de==2.0.0
+    - gruut-lang-en==2.0.0
+    - gruut-lang-es==2.0.0
+    - gruut-lang-fr==2.0.2
     - gym==0.24.0
     - gym-notices==0.0.5
-    - h11==0.14.0
+    - h11==0.12.0
+    - h2==4.1.0
     - h2o==3.36.0.3
     - h5py==3.6.0
     - hdfs==2.7.0
+    - hf-hub-ctranslate2==2.12.0
+    - hierarchicalforecast==0.4.1
     - hijri-converter==2.2.3
     - holidays==0.13
+    - hpack==4.0.0
     - html5lib==1.1
     - htmltools==0.1.2
-    - httpcore==0.16.3
+    - httpcore==0.15.0
     - httplib2==0.19.1
     - httptools==0.5.0
     - httpx==0.24.1
-    - huggingface-hub==0.16.4
+    - huggingface-hub==0.20.3
     - humanfriendly==10.0
+    - hy==0.27.0
+    - hydra-colorlog==1.2.0
     - hydra-core==1.3.1
+    - hyperframe==6.0.1
     - hyperpyyaml==1.1.0
+    - hyrule==0.4.0
     - idna==2.10
     - imageio==2.16.1
+    - imageio-ffmpeg==0.4.9
     - imagesize==1.3.0
     - imbalanced-learn==0.9.1
     - immutables==0.18
-    - importlib-metadata==4.13.0
+    - importlib-metadata==6.8.0
     - importlib-resources==5.7.1
-    - inflect==5.4.0
+    - inflect==5.6.0
     - inflection==0.5.1
     - iniconfig==1.1.1
     - inquirer==3.1.2
@@ -458,10 +509,12 @@ dependencies:
     - jinxed==1.2.0
     - jmespath==0.10.0
     - jmp==0.0.2
-    - joblib==1.3.1
+    - joblib==1.2.0
     - json5==0.9.6
     - jsonargparse==4.13.1
+    - jsonlines==1.2.0
     - jsonmerge==1.9.0
+    - jsonpatch==1.33
     - jsonpickle==2.1.0
     - jsonpointer==2.2
     - jsonref==0.2
@@ -474,13 +527,15 @@ dependencies:
     - jupyterlab-pygments==0.1.2
     - jupyterlab-server==2.10.3
     - jupyterlab-widgets==1.0.2
+    - k-diffusion==0.0.15
     - kafka-python==2.0.2
     - kaggle==1.5.12
     - kaldi-io==0.9.4
     - kaldi-python-io==1.2.2
+    - kaldialign==0.7.2
     - kaldiio==2.17.2
     - kaleido==0.2.1
-    - keras==2.8.0
+    - keras==2.10.0
     - keyring==23.11.0
     - keystoneauth1==4.5.0
     - keystonemiddleware==9.4.0
@@ -495,23 +550,32 @@ dependencies:
     - kombu==5.2.4
     - korean-lunar-calendar==0.2.1
     - kornia==0.6.8
+    - lameenc==1.5.1
+    - langchain==0.0.252
+    - langchain-core==0.1.16
     - langcodes==3.3.0
+    - langgraph==0.0.20
+    - langsmith==0.0.83
+    - language-tags==1.2.0
     - lark==1.1.2
     - lark-parser==0.12.0
     - latexcodec==2.0.1
+    - lazy-loader==0.3
     - libclang==13.0.0
-    - librosa==0.8.1
+    - libmagic==1.0
+    - librosa==0.10.0
     - lightgbm==3.3.2
     - lightning==2.0.6
     - lightning-cloud==0.5.37
     - lightning-flash==0.7.5
-    - lightning-utilities==0.7.1
+    - lightning-utilities==0.10.1
     - linkify-it-py==1.0.3
     - llvmlite==0.40.1
     - lmdb==1.3.0
     - locket==0.2.1
     - lockfile==0.12.2
     - logutils==0.3.5
+    - lorem==0.1.1
     - lunarcalendar==0.0.9
     - lxml==4.9.2
     - macholib==1.16
@@ -520,21 +584,25 @@ dependencies:
     - markdown-it-py==3.0.0
     - markdownify==0.11.6
     - markupsafe==2.1.1
-    - marshmallow==3.14.1
+    - marshmallow==3.20.1
     - matplotlib==3.5.1
     - matplotlib-inline==0.1.3
-    - mdit-py-plugins==0.3.1
+    - mdit-py-plugins==0.4.0
     - mdurl==0.1.1
     - mecab-python3==1.0.3
     - mistune==0.8.4
     - ml-collections==0.1.1
+    - ml-dtypes==0.2.0
     - ml-metadata==1.8.0
     - ml-pipelines-sdk==1.8.0
     - mlflow==2.5.0
     - mlflow-skinny==1.24.0
+    - mlforecast==0.11.6
     - mlxtend==0.20.0
+    - mojimoji==0.0.13
     - monotonic==1.6
     - more-itertools==8.14.0
+    - moviepy==1.0.3
     - mpmath==1.2.1
     - msal==1.17.0
     - msal-extensions==0.3.1
@@ -560,13 +628,17 @@ dependencies:
     - netaddr==0.8.0
     - netifaces==0.11.0
     - networkx==2.7
+    - neuralforecast==1.6.4
     - nfoursid==1.0.0
     - ninja==1.10.2.3
+    - nixtlats==0.1.19
     - nlpaug==1.1.10
     - notebook==6.4.8
     - ntlm-auth==1.5.0
-    - numba==0.57.1
+    - num2words==0.5.12
+    - numba==0.57.0
     - numbskull==0.1.1
+    - numexpr==2.8.4
     - numpy==1.23.5
     - nvidia-ml-py==11.495.46
     - nvidia-pyindex==1.0.9
@@ -576,17 +648,19 @@ dependencies:
     - oauthlib==3.2.2
     - omegaconf==2.3.0
     - onnx==1.11.0
-    - onnxruntime==1.13.1
-    - openai==0.27.1
+    - onnxruntime==1.16.0
+    - openai==1.3.8
     - openai-whisper==20230308
+    - openapi-schema-pydantic==1.2.4
     - opencc==1.1.1
     - opencensus-context==0.1.2
     - opencv-python==4.5.5.64
     - opendatasets==0.1.22
     - openpyxl==3.0.9
+    - openunmix==1.2.1
     - openvino==2023.0.1
     - optax==0.1.3
-    - optimum==1.10.1
+    - optimum==1.11.3.dev0
     - optimum-intel==1.10.1
     - optuna==3.2.0
     - ordered-set==4.1.0
@@ -608,7 +682,7 @@ dependencies:
     - oslo-utils==4.12.2
     - oslo-versionedobjects==2.6.0
     - outcome==1.2.0
-    - packaging==23.1
+    - packaging==23.2
     - pandocfilters==1.5.0
     - pangu==4.0.6.1
     - parameterized==0.8.1
@@ -622,6 +696,7 @@ dependencies:
     - pathy==0.10.1
     - patsy==0.5.2
     - pbr==5.8.1
+    - pdf2image==1.16.3
     - pecan==1.4.1
     - pefile==2022.5.30
     - pennylane==0.22.1
@@ -633,15 +708,16 @@ dependencies:
     - pennylane-sf==0.20.1
     - pesq==0.0.4
     - pexpect==4.8.0
+    - phonemizer==2.2.1
     - pickleshare==0.7.5
     - piexif==1.1.3
-    - pillow==9.0.1
+    - pillow==10.0.0
     - pip==23.1
     - pip-api==0.0.28
     - pipreqs==0.4.11
     - pkginfo==1.8.2
     - platformdirs==2.5.4
-    - playsound==1.3.0
+    - playsound==1.2.2
     - plotly==5.6.0
     - pluggy==1.0.0
     - plumbum==1.8.2
@@ -656,24 +732,26 @@ dependencies:
     - preshed==3.0.6
     - prettytable==3.1.1
     - primepy==1.3
+    - proglog==0.1.10
     - prometheus-client==0.13.1
     - prometheus-flask-exporter==0.19.0
     - promise==2.3
     - prompt-toolkit==3.0.28
     - prophet==1.0.1
     - proto-plus==1.20.6
-    - protobuf==3.19.6
+    - protobuf==3.20.1
     - psutil==5.9.0
     - ptyprocess==0.7.0
     - pure-eval==0.2.2
     - py==1.11.0
     - py-spy==0.3.12
-    - pyannote-audio==0.0.1
-    - pyannote-core==4.3
-    - pyannote-database==4.1.3
+    - pyannote-audio==3.1.1
+    - pyannote-core==5.0.0
+    - pyannote-database==5.0.1
     - pyannote-metrics==3.2
-    - pyannote-pipeline==2.2
-    - pyarrow==12.0.1
+    - pyannote-pipeline==3.0.1
+    - pyarrow==15.0.0
+    - pyarrow-hotfix==0.6
     - pyasn1==0.4.8
     - pyasn1-modules==0.2.8
     - pyaudio==0.2.11
@@ -685,7 +763,8 @@ dependencies:
     - pycaret==3.0.0rc2
     - pychatgpt==0.4.0
     - pycryptodome==3.15.0
-    - pydantic==1.10.11
+    - pydantic==1.10.13
+    - pydantic-core==2.14.6
     - pydeprecate==0.3.1
     - pydot==1.4.2
     - pydotz==1.5.1
@@ -698,6 +777,7 @@ dependencies:
     - pylev==1.4.0
     - pymeeus==0.5.11
     - pymongo==3.12.3
+    - pymupdf==1.22.5
     - pynacl==1.5.0
     - pynndescent==0.5.8
     - pyod==1.0.1
@@ -718,8 +798,10 @@ dependencies:
     - pyqt6-qt6==6.3.1
     - pyqt6-sip==13.4.0
     - pyquil==2.28.2
+    - pyre-extensions==0.0.29
     - pyreadline3==3.4.1
     - pyrsistent==0.18.1
+    - pysbd==0.3.4
     - pyside6==6.3.1
     - pyside6-addons==6.3.1
     - pyside6-essentials==6.3.1
@@ -730,20 +812,23 @@ dependencies:
     - pytest==7.0.1
     - pytest-runner==6.0.0
     - python-constraint==1.4.0
+    - python-crfsuite==0.9.9
     - python-dotenv==0.19.2
     - python-editor==1.0.4
     - python-engineio==3.9.0
     - python-etcd==0.4.5
     - python-graphviz==0.19.1
     - python-keystoneclient==4.4.0
+    - python-magic==0.4.27
     - python-multipart==0.0.5
     - python-rapidjson==1.6
     - python-slugify==6.1.2
     - python-socketio==4.4.0
     - python-vlc==3.0.16120
+    - pytorch-extension==0.2
     - pytorch-forecasting==1.0.0
     - pytorch-lightning==2.0.6
-    - pytorch-metric-learning==1.2.0
+    - pytorch-metric-learning==2.4.1
     - pytorch-optimizer==2.11.1
     - pytorch-wpe==0.0.1
     - pyttsx3==2.90
@@ -751,6 +836,7 @@ dependencies:
     - pytz==2021.3
     - pyvirtualdisplay==3.0
     - pywavelets==1.2.0
+    - pywhispercpp==1.1.3
     - pywin32==227
     - pywin32-ctypes==0.2.0
     - pywinpty==1.1.6
@@ -769,11 +855,14 @@ dependencies:
     - qsharp-core==0.24.201332
     - qt5-applications==5.15.2.2.2
     - qt5-tools==5.15.2.1.2
+    - quadprog==0.1.11
     - quantum-blackbird==0.4.0
     - quantum-xir==0.2.1
     - querystring-parser==1.2.4
     - questionary==1.10.0
     - rapidfuzz==2.0.5
+    - ray==2.9.1
+    - rdflib==7.0.0
     - readchar==4.0.3
     - readme-renderer==40.0
     - realesrgan==0.3.0
@@ -800,24 +889,27 @@ dependencies:
     - s3transfer==0.5.2
     - sacrebleu==2.0.0
     - sacremoses==0.0.47
-    - safetensors==0.3.1
+    - safetensors==0.4.2
     - schemdraw==0.15
     - scikit-base==0.5.0
     - scikit-image==0.19.2
     - scikit-learn==1.3.0
     - scikit-plot==0.3.7
-    - scipy==1.8.1
+    - scipy==1.11.4
     - seaborn==0.11.2
     - secretstorage==3.3.1
+    - segments==2.2.1
     - selenium==4.7.2
     - semantic-version==2.6.0
-    - semver==2.13.0
+    - semver==3.0.2
     - send2trash==1.8.0
+    - sentence-transformers==2.2.2
     - sentencepiece==0.1.96
     - sentry-sdk==1.5.7
     - setproctitle==1.2.2
     - setuptools==67.6.0
     - setuptools-git==1.2
+    - sgmllib3k==1.0.0
     - shap==0.40.0
     - shellingham==1.5.0
     - shiboken6==6.3.1
@@ -828,26 +920,29 @@ dependencies:
     - simplejson==3.17.6
     - singledispatchmethod==1.0
     - six==1.15.0
+    - skops==0.9.0
     - sktime==0.15.0
     - slicer==0.0.7
     - smart-open==5.2.1
     - smmap==5.0.0
     - sniffio==1.2.0
     - snowballstemmer==2.2.0
+    - socksio==1.0.0
     - sortedcontainers==2.4.0
     - soundcard==0.4.1
     - sounddevice==0.4.5
-    - soundfile==0.10.3.post1
+    - soundfile==0.12.1
     - soupsieve==2.3.1
     - sox==1.4.1
-    - spacy==3.2.0
+    - soxr==0.3.5
+    - spacy==3.6.0
     - spacy-alignments==0.8.4
     - spacy-legacy==3.0.12
     - spacy-loggers==1.0.1
-    - spacy-stanza==1.0.2
-    - spacy-transformers==1.1.4
+    - spacy-stanza==1.0.4
+    - spacy-transformers==1.3.4
     - spectralcluster==0.2.4
-    - speechbrain==0.5.13
+    - speechbrain==0.5.16
     - speechrecognition==3.8.1
     - sphinx==4.4.0
     - sphinxcontrib-applehelp==1.0.2
@@ -873,6 +968,7 @@ dependencies:
     - statsmodels==0.13.2
     - stevedore==3.5.0
     - strawberryfields==0.22.0
+    - submitit==1.4.5
     - suno-bark==0.0.1a0
     - swagger-spec-validator==2.7.4
     - sympy==1.9
@@ -880,15 +976,20 @@ dependencies:
     - tatoebatools==0.2.1
     - tbats==1.1.0
     - tempita==0.5.2
-    - tenacity==8.0.1
-    - tensorboard==2.8.0
-    - tensorboard-data-server==0.6.1
+    - tenacity==8.2.2
+    - tensorboard==2.10.1
+    - tensorboard-data-server==0.7.2
     - tensorboard-plugin-wit==1.8.1
-    - tensorboardx==2.5.1
+    - tensorboardx==2.6.2.2
+    - tensorflow==2.10.0
     - tensorflow-datasets==4.6.0
+    - tensorflow-estimator==2.15.0
+    - tensorflow-examples==0.1703207612.1461250479831370929614362828255168868146460245314
     - tensorflow-hub==0.14.0
+    - tensorflow-intel==2.15.0
     - tensorflow-io-gcs-filesystem==0.24.0
     - tensorflow-metadata==1.10.0
+    - tensorflow-text==2.8.1
     - tensorwatch==0.9.1
     - termcolor==1.1.0
     - terminado==0.13.1
@@ -902,35 +1003,42 @@ dependencies:
     - tf-estimator-nightly==2.8.0.dev2021122109
     - thefuzz==0.19.0
     - thewalrus==0.19.0
-    - thinc==8.0.17
+    - thinc==8.1.12
     - threadpoolctl==3.1.0
     - tifffile==2022.2.9
+    - tiktoken==0.4.0
     - timm==0.4.12
-    - tokenizers==0.13.2
+    - tokenizers==0.15.2
     - toml==0.10.2
     - tomli==2.0.1
     - tomlkit==0.11.6
     - toolz==0.11.2
-    - torch==2.0.0+cu118
-    - torch-audiomentations==0.10.0
+    - torch==2.1.0.dev20230806+cu121
+    - torch-audiomentations==0.11.1
     - torch-complex==0.4.3
-    - torch-pitch-shift==1.2.0
+    - torch-pitch-shift==1.2.4
     - torch-stft==0.1.4
     - torchaudio==2.0.1+cu118
     - torchdiffeq==0.2.3
-    - torchmetrics==0.7.2
+    - torchmetrics==1.3.1
+    - torchsde==0.2.5
     - torchtext==0.14.1
     - torchvision==0.15.1+cu118
     - tornado==6.1
     - tqdm==4.63.0
     - trace-updater==0.0.9.1
+    - trainer==0.0.30
     - traitlets==5.9.0
-    - transformers==4.31.0
+    - trampoline==0.1.2
+    - transformers==4.37.2
     - treedlib==0.1.3
     - treeo==0.0.10
+    - treetable==0.2.5
     - treex==0.6.10
     - trio==0.22.0
     - trio-websocket==0.9.2
+    - trl==0.5.0
+    - tts==0.16.2
     - tweedledum==1.1.1
     - twine==4.0.2
     - typed-ast==1.5.2
@@ -938,16 +1046,20 @@ dependencies:
     - typer==0.7.0
     - typing-extensions==4.7.1
     - typing-inspect==0.8.0
+    - tzdata==2023.3
+    - tzlocal==5.0.1
     - uc-micro-py==1.0.1
     - ujson==5.7.0
-    - umap-learn==0.5.3
+    - umap-learn==0.5.1
     - undetected-chromedriver==3.1.7
-    - unidecode==1.3.3
+    - unidecode==1.1.1
+    - unstructured==0.9.0
     - uri-template==1.2.0
     - uritemplate==3.0.1
-    - urllib3==2.0.4
+    - urllib3==1.26.16
     - urwid==2.1.2
     - utils==1.0.1
+    - utilsforecast==0.0.26
     - uvicorn==0.18.2
     - validators==0.18.2
     - vine==5.0.0
@@ -955,13 +1067,14 @@ dependencies:
     - waitress==2.1.1
     - wandb==0.12.11
     - wasabi==0.10.1
-    - watchdog==3.0.0
+    - watchdog==4.0.0
     - watchfiles==0.18.1
     - wcwidth==0.2.5
     - webcolors==1.11.1
     - webdataset==0.1.62
     - webencodings==0.5.1
     - webob==1.8.7
+    - webrtcvad==2.0.10
     - websocket-client==1.6.1
     - websockets==11.0.3
     - webtest==3.0.0
@@ -969,13 +1082,20 @@ dependencies:
     - wget==3.2
     - wheel==0.38.4
     - whisper==1.0
+    - whisper-live==0.1.0
+    - whisper-timestamped==1.14.4
+    - whisperx==3.1.1
     - widgetsnbextension==3.5.2
+    - wikipedia==1.4.0
+    - window-ops==0.0.14
     - wrapt==1.13.3
     - wsme==0.11.0
     - wsproto==1.2.0
+    - wtpsplit==1.3.0
     - wurlitzer==3.0.2
     - xanadu-cloud-client==0.1.2
     - xarray==2022.3.0
+    - xformers==0.0.19
     - xgboost==1.5.2
     - xxhash==3.0.0
     - yapf==0.32.0
@@ -986,5 +1106,6 @@ dependencies:
     - yellowbrick==1.4
     - yfinance==0.2.3
     - youtokentome==1.0.6
+    - youtube-transcript-api==0.6.1
     - zenml==0.10.0
 prefix: C:\Users\aleks\anaconda3\envs\BIGAI
