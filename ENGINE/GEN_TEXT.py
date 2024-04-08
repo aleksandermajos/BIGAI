@@ -10,3 +10,7 @@ llm = Llama(model_path=model_path, n_gpu_layers=30, n_ctx=3584, n_batch=521, ver
 
 output = llm("Q: Name the planets in the solar system? A: ", max_tokens=32, stop=["Q:", "\n"], echo=True)
 print(output)
+output = llm("Q: What is Your name? A: ", max_tokens=32, stop=["Q:", "\n"], echo=True)
+print(output)
+output = llm("Q: What is purpose of live? A: ", max_tokens=32, stop=["Q:", "\n"], echo=True)
+print(output)
