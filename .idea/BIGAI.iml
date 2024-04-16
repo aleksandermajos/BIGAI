@@ -12,5 +12,8 @@
     <orderEntry type="module" module-name="examples" />
     <orderEntry type="module" module-name="Transformers-for-NLP-and-Computer-Vision-3rd-Edition" />
     <orderEntry type="module" module-name="SWE-agent" />
+    <orderEntry type="module" module-name="max" />
+    <orderEntry type="module" module-name="ALL_AI" />
+    <orderEntry type="module" module-name="OpenVoice" />
   </component>
 </module>
