@@ -22,11 +22,11 @@ from ENGINE.ALOHAPP_LOAD_PICS import get_pictures
 from ENGINE.ALOHAPP_OPENAI_CHATGPT import ChatGPT
 from ENGINE.ALOHAPP_REC_MIC_PYAUDIO import Mic_Recorder
 from ENGINE.STT_WHISPER import WhisperModel
-from ENGINE.TTS_DE_SILERO import TTS_DE
-from ENGINE.TTS_EN_SILERO import TTS_EN
-from ENGINE.TTS_ES_SILERO import TTS_ES
-from ENGINE.TTS_FR_SILERO import TTS_FR
-from ENGINE.TTS_SSML_SILERO import prepare_ssml, add_space_between_words
+from ENGINE.TTS_SILERO_DE import TTS_DE
+from ENGINE.TTS_SILERO_EN import TTS_EN
+from ENGINE.TTS_SILERO_ES import TTS_ES
+from ENGINE.TTS_SILERO_FR import TTS_FR
+from ENGINE.TTS_SILERO_SSML import prepare_ssml, add_space_between_words
 
 rec_path = "../../DATA/ALOHA/PHRASES/SPEAKING/"
 

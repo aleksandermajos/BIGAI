@@ -17,9 +17,9 @@ from ENGINE.TTS_DE_SILERO import TTS_DE
 from ENGINE.TTS_FR_SILERO import TTS_FR
 from ENGINE.TTS_ES_SILERO import TTS_ES
 '''
-from ENGINE.TTS_SSML_SILERO import prepare_ssml
+from ENGINE.TTS_SILERO_SSML import prepare_ssml
 
-from ENGINE.TTS_OPENAI_API import generate_and_play
+from ENGINE.KEY_OPENAI import generate_and_play
 from ENGINE.ALOHAPP_UPGRADE_USER_FILES import upgrade_words_conv
 
 from pathlib import Path
