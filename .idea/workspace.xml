@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="LLAMA 3 TEST">
-      <change afterPath="$PROJECT_DIR$/ENGINE/LLM_FINETUNE_LLAMA3.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="LLAMA 3 FINETUNE">
+      <change afterPath="$PROJECT_DIR$/ENGINE/CODE_GEN_LLAMA3_70B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/CODE_GEN_LLAMA3_8B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/GEN_TEXT_OLLAMA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/LLM_FINETUNE_LLAMA3.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/LLM_FINETUNE_LLAMA3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +78,15 @@
     "Python.APP_CONVERSATIONS_AI_V2.executor": "Debug",
     "Python.APP_SENTENCES.executor": "Debug",
     "Python.Anthropic_test.executor": "Debug",
+    "Python.CODE_GEN_LLAMA3_70B.executor": "Debug",
+    "Python.CODE_GEN_LLAMA3_8B.executor": "Debug",
     "Python.GEN_PIC_SDXL_LIGHTNING.executor": "Debug",
     "Python.GEN_TEXT.executor": "Debug",
     "Python.GEN_TEXT_LLAMA_3.executor": "Debug",
     "Python.GEN_TEXT_LLAMA_CPP.executor": "Debug",
     "Python.GEN_TEXT_LLAMA_CPP_LLAMA3.executor": "Debug",
     "Python.GEN_TEXT_OCTOPUS_V2.executor": "Debug",
+    "Python.GEN_TEXT_OLLAMA.executor": "Debug",
     "Python.GPU_JAX.executor": "Debug",
     "Python.GPU_PL.executor": "Debug",
     "Python.GPU_PYTORCH.executor": "Debug",
@@ -94,6 +100,7 @@
     "Python.STT_WHISPER_STREAMING.executor": "Debug",
     "Python.Sliding_AppBar.executor": "Run",
     "Python.TRANSFORMERS_WHISPER.executor": "Run",
+    "Python.TTS_BARK.executor": "Debug",
     "Python.TTS_OPENAI.executor": "Debug",
     "Python.TTS_OPENAI_API.executor": "Debug",
     "Python.VIDEO_PLAYER.executor": "Debug",
@@ -149,7 +156,7 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LLM_FINETUNE_LLAMA3">
+  <component name="RunManager" selected="Python.TTS_BARK">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="TensorFlow-Developer-Certificate-Guide" />
       <option name="ENV_FILES" value="" />
@@ -185,7 +192,7 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GEN_TEXT_LLAMA_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="CODE_GEN_LLAMA3_70B" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,7 +206,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GEN_TEXT_LLAMA_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/CODE_GEN_LLAMA3_70B.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,7 +215,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GEN_TEXT_LLAMA_CPP_LLAMA3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="CODE_GEN_LLAMA3_8B" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,7 +229,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GEN_TEXT_LLAMA_CPP_LLAMA3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/CODE_GEN_LLAMA3_8B.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GPU_PL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="GEN_TEXT_OLLAMA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,7 +252,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GPU_PL.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GEN_TEXT_OLLAMA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,6 +284,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TTS_BARK" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/TTS_BARK.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="TensorFlow-Developer-Certificate-Guide" />
       <option name="ENV_FILES" value="" />
@@ -292,29 +322,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="codemaster4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ALL_AI" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ALL_AI/speech-to-code-main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ALL_AI/speech-to-code-main/codemaster4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -465,11 +472,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TTS_BARK" />
+        <item itemvalue="Python.GEN_TEXT_OLLAMA" />
+        <item itemvalue="Python.CODE_GEN_LLAMA3_70B" />
+        <item itemvalue="Python.CODE_GEN_LLAMA3_8B" />
         <item itemvalue="Python.LLM_FINETUNE_LLAMA3" />
-        <item itemvalue="Python.codemaster4" />
-        <item itemvalue="Python.GEN_TEXT_LLAMA_CPP_LLAMA3" />
-        <item itemvalue="Python.GEN_TEXT_LLAMA_3" />
-        <item itemvalue="Python.GPU_PL" />
       </list>
     </recent_temporary>
   </component>
@@ -757,7 +764,9 @@
       <workItem from="1713543047151" duration="452000" />
       <workItem from="1713543515058" duration="121000" />
       <workItem from="1713555882294" duration="459000" />
-      <workItem from="1713606463869" duration="1645000" />
+      <workItem from="1713606463869" duration="3862000" />
+      <workItem from="1713631849452" duration="2123000" />
+      <workItem from="1713689885492" duration="2094000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -786,14 +795,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00005" summary="BIGAI REAL PURPOSE">
-      <option name="closed" value="true" />
-      <created>1688460491178</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1688460491179</updated>
     </task>
     <task id="LOCAL-00006" summary="BIGAI SCHOOL README">
       <option name="closed" value="true" />
@@ -1147,7 +1148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713543483714</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="LLAMA 3 FINETUNE">
+      <option name="closed" value="true" />
+      <created>1713608124240</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1713608124240</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1173,7 +1182,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI SCHOOL START" />
     <MESSAGE value="BIGAIENGINE ALL FILES" />
     <MESSAGE value="BIGAI ENV FILE" />
     <MESSAGE value="BIGAI ALOHAPP MODULAR" />
@@ -1198,7 +1206,8 @@
     <MESSAGE value="BIGAI README" />
     <MESSAGE value="GPU AWARE" />
     <MESSAGE value="LLAMA 3 TEST" />
-    <option name="LAST_COMMIT_MESSAGE" value="LLAMA 3 TEST" />
+    <MESSAGE value="LLAMA 3 FINETUNE" />
+    <option name="LAST_COMMIT_MESSAGE" value="LLAMA 3 FINETUNE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1302,6 +1311,11 @@
           <line>240</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/TTS_BARK.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1333,20 +1347,23 @@
     <SUITE FILE_PATH="coverage/BIGAI$TTS_ELEVENLABS_API.coverage" NAME="TTS_ELEVENLABS_API Coverage Results" MODIFIED="1696590057655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_KANJI.coverage" NAME="ALOHAPP_KANJI Coverage Results" MODIFIED="1704275531987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1710315508883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/apps/studio-gallery" />
-    <SUITE FILE_PATH="coverage/BIGAI$LLM_FINETUNE_LLAMA3.coverage" NAME="LLM_FINETUNE_LLAMA3 Coverage Results" MODIFIED="1713607770158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$LLM_FINETUNE_LLAMA3.coverage" NAME="LLM_FINETUNE_LLAMA3 Coverage Results" MODIFIED="1713608556970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$responsive_menu_layout.coverage" NAME="responsive_menu_layout Coverage Results" MODIFIED="1710318695670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/responsive_menu_layout" />
     <SUITE FILE_PATH="coverage/BIGAI$simple_inference.coverage" NAME="simple-inference Coverage Results" MODIFIED="1712963850670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../max/examples/inference/bert-python-torchscript" />
     <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPERTIMESTAMPED.coverage" NAME="STT_WHISPERTIMESTAMPED Coverage Results" MODIFIED="1708268309951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$APP_SENTENCES.coverage" NAME="APP_SENTENCES Coverage Results" MODIFIED="1709881057336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$file_picker_upload_progress.coverage" NAME="file-picker-upload-progress Coverage Results" MODIFIED="1710318855136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/controls/file-picker" />
+    <SUITE FILE_PATH="coverage/BIGAI$TTS_BARK.coverage" NAME="TTS_BARK Coverage Results" MODIFIED="1713692296234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GPU_TRAX.coverage" NAME="GPU_TRAX Coverage Results" MODIFIED="1713369431049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1710318587680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/datepicker" />
     <SUITE FILE_PATH="coverage/BIGAI$GPU_PYTORCH.coverage" NAME="GPU_PYTORCH Coverage Results" MODIFIED="1713389195007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GPU_PL.coverage" NAME="GPU_PL Coverage Results" MODIFIED="1713435487754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$STT_FASTERWHISPER.coverage" NAME="STT_FASTERWHISPER Coverage Results" MODIFIED="1708268033347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1710315466084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/apps/icons-browser" />
+    <SUITE FILE_PATH="coverage/BIGAI$STT_FASTERWHISPER.coverage" NAME="STT_FASTERWHISPER Coverage Results" MODIFIED="1708268033347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$CODE_GEN_LLAMA3_70B.coverage" NAME="CODE_GEN_LLAMA3_70B Coverage Results" MODIFIED="1713692024937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPERX.coverage" NAME="STT_WHISPERX Coverage Results" MODIFIED="1709842175429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$KEY_ELEVENLABS.coverage" NAME="KEY_ELEVENLABS Coverage Results" MODIFIED="1696585391806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$GEN_TEXT_OLLAMA.coverage" NAME="GEN_TEXT_OLLAMA Coverage Results" MODIFIED="1713692134018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$dark_light_switch.coverage" NAME="dark_light_switch Coverage Results" MODIFIED="1710318618850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/flet_animations" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_TEXT_LLAMA_CPP.coverage" NAME="GEN_TEXT_LLAMA_CPP Coverage Results" MODIFIED="1713543356806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_ANKI__1_.coverage" NAME="ALOHAPP_ANKI (1) Coverage Results" MODIFIED="1705245312344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
@@ -1361,6 +1378,7 @@
     <SUITE FILE_PATH="coverage/BIGAI$GEN_PIC_SDXL_LIGHTNING.coverage" NAME="GEN_PIC_SDXL_LIGHTNING Coverage Results" MODIFIED="1709158069496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_TEXT.coverage" NAME="GEN_TEXT Coverage Results" MODIFIED="1712919135688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPER_STREAMING.coverage" NAME="STT_WHISPER_STREAMING Coverage Results" MODIFIED="1708271920176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$CODE_GEN_LLAMA3_8B.coverage" NAME="CODE_GEN_LLAMA3_8B Coverage Results" MODIFIED="1713635101835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$vertical_loading_animation.coverage" NAME="vertical_loading_animation Coverage Results" MODIFIED="1710318652097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/flet_animations" />
     <SUITE FILE_PATH="coverage/BIGAI$TRANSFORMERS_WHISPER.coverage" NAME="TRANSFORMERS_WHISPER Coverage Results" MODIFIED="1708289041808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_TEXT_LLAMA_CPP_LLAMA3.coverage" NAME="GEN_TEXT_LLAMA_CPP_LLAMA3 Coverage Results" MODIFIED="1713543522542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />

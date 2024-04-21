@@ -13,7 +13,7 @@ from transformers import (
     pipeline,
 )
 from trl import ORPOConfig, ORPOTrainer, setup_chat_format
-wb_token = ('your api key for WB')
+wb_token = ('a5e67527d93305f7105272821211518c1b089017')
 wandb.login(key=wb_token)
 
 if torch.cuda.get_device_capability()[0] >= 8:
@@ -108,3 +108,25 @@ trainer = ORPOTrainer(
 
 trainer.train()
 trainer.save_model(new_model)
+
+# Flush memory
+del trainer, model
+gc.collect()
+torch.cuda.empty_cache()
+
+# Reload tokenizer and model
+tokenizer = AutoTokenizer.from_pretrained(base_model)
+model = AutoModelForCausalLM.from_pretrained(
+    base_model,
+    low_cpu_mem_usage=True,
+    return_dict=True,
+    torch_dtype=torch.float16,
+    device_map="auto",
+)
+model, tokenizer = setup_chat_format(model, tokenizer)
+
+# Merge adapter with base model
+model = PeftModel.from_pretrained(model, new_model)
+model = model.merge_and_unload()
+model.push_to_hub(new_model, use_temp_dir=False)
+tokenizer.push_to_hub(new_model, use_temp_dir=False)
