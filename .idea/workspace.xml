@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI DEL ALL NON EXISTING SUPROJECTS">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README">
+      <change afterPath="$PROJECT_DIR$/ENGINE/TEXT_GEN_BY_LLAMA3_70B.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/TEXT_GEN_BY_LLAMA3_8B.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/GEN_CODE_LLAMA3_70B.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/CODE_GEN_BY_LLAMA3_70B.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/GEN_CODE_LLAMA3_8B.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/CODE_GEN_BY_LLAMA3_8B.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/LLM_FINETUNE_LLAMA3.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/LLM_FINETUNE_LLAMA3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,83 +71,84 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python.ALOHAPP_ANKI (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ALOHAPP_KANJI.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ALOHAPP_ROMANJI.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ALOHAPP_TRANSLATE.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.APP_CONVERSATIONS_AI.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.APP_CONVERSATIONS_AI_V2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.APP_SENTENCES.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.Anthropic_test.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.CODE_GEN_LLAMA3_70B.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.CODE_GEN_LLAMA3_8B.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_PIC_SDXL.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_PIC_SDXL_LIGHTNING.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_PIC_STABLE_DIFFXL.executor&quot;: &quot;ConcurrencyExecutor&quot;,
-    &quot;Python.GEN_TEXT.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_TEXT_LLAMA_3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_TEXT_LLAMA_CPP.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_TEXT_LLAMA_CPP_LLAMA3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_TEXT_OCTOPUS_V2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_TEXT_OLLAMA.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GPU_JAX.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GPU_PL.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GPU_PYTORCH.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GPU_TF.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GPU_TRAX.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.LLM_FINETUNE_LLAMA3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.QM_NIXTLA_FIRST.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.STT_FASTERWHISPER.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.STT_WHISPERTIMESTAMPED.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.STT_WHISPERX.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.STT_WHISPER_STREAMING.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.Sliding_AppBar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TRANSFORMERS_WHISPER.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.TTS_BARK.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.TTS_BARK_HALF.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.TTS_BARK_MP.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TTS_OPENAI.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.TTS_OPENAI_API.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.VIDEO_PLAYER.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.basic-auth.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.codemaster4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.dark_light_switch.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.file-picker-all-modes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.file-picker-upload-progress.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main (3).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main (4).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main (5).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.page_window.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.responsive_menu_layout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simple-inference.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simple_desktop_layout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.urlShortner.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vertical_loading_animation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.weather_example.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/bigai/PycharmProjects/ALL_AI/speech-to-code-main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.ALOHAPP_ANKI (1).executor": "Debug",
+    "Python.ALOHAPP_KANJI.executor": "Debug",
+    "Python.ALOHAPP_ROMANJI.executor": "Debug",
+    "Python.ALOHAPP_TRANSLATE.executor": "Debug",
+    "Python.APP_CONVERSATIONS_AI.executor": "Debug",
+    "Python.APP_CONVERSATIONS_AI_V2.executor": "Debug",
+    "Python.APP_SENTENCES.executor": "Debug",
+    "Python.Anthropic_test.executor": "Debug",
+    "Python.CODE_GEN_LLAMA3_70B.executor": "Debug",
+    "Python.CODE_GEN_LLAMA3_8B.executor": "Debug",
+    "Python.GEN_CODE_CODELLAMA.executor": "Debug",
+    "Python.GEN_PIC_SDXL.executor": "Debug",
+    "Python.GEN_PIC_SDXL_LIGHTNING.executor": "Debug",
+    "Python.GEN_PIC_STABLE_DIFFXL.executor": "ConcurrencyExecutor",
+    "Python.GEN_TEXT.executor": "Debug",
+    "Python.GEN_TEXT_LLAMA_3.executor": "Debug",
+    "Python.GEN_TEXT_LLAMA_CPP.executor": "Debug",
+    "Python.GEN_TEXT_LLAMA_CPP_LLAMA3.executor": "Debug",
+    "Python.GEN_TEXT_OCTOPUS_V2.executor": "Debug",
+    "Python.GEN_TEXT_OLLAMA.executor": "Debug",
+    "Python.GPU_JAX.executor": "Debug",
+    "Python.GPU_PL.executor": "Debug",
+    "Python.GPU_PYTORCH.executor": "Debug",
+    "Python.GPU_TF.executor": "Debug",
+    "Python.GPU_TRAX.executor": "Debug",
+    "Python.LLM_FINETUNE_LLAMA3.executor": "Debug",
+    "Python.QM_NIXTLA_FIRST.executor": "Debug",
+    "Python.STT_FASTERWHISPER.executor": "Debug",
+    "Python.STT_WHISPERTIMESTAMPED.executor": "Debug",
+    "Python.STT_WHISPERX.executor": "Debug",
+    "Python.STT_WHISPER_STREAMING.executor": "Debug",
+    "Python.Sliding_AppBar.executor": "Run",
+    "Python.TRANSFORMERS_WHISPER.executor": "Debug",
+    "Python.TTS_BARK.executor": "Debug",
+    "Python.TTS_BARK_HALF.executor": "Debug",
+    "Python.TTS_BARK_MP.executor": "Run",
+    "Python.TTS_OPENAI.executor": "Debug",
+    "Python.TTS_OPENAI_API.executor": "Debug",
+    "Python.VIDEO_PLAYER.executor": "Debug",
+    "Python.basic-auth.executor": "Debug",
+    "Python.codemaster4.executor": "Debug",
+    "Python.dark_light_switch.executor": "Debug",
+    "Python.example.executor": "Run",
+    "Python.file-picker-all-modes.executor": "Run",
+    "Python.file-picker-upload-progress.executor": "Run",
+    "Python.main (1).executor": "Debug",
+    "Python.main (2).executor": "Debug",
+    "Python.main (3).executor": "Debug",
+    "Python.main (4).executor": "Debug",
+    "Python.main (5).executor": "Debug",
+    "Python.page_window.executor": "Debug",
+    "Python.responsive_menu_layout.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.simple-inference.executor": "Run",
+    "Python.simple_desktop_layout.executor": "Run",
+    "Python.test2.executor": "Debug",
+    "Python.urlShortner.executor": "Run",
+    "Python.vertical_loading_animation.executor": "Run",
+    "Python.weather_example.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/home/bigai/PycharmProjects/ALL_AI/speech-to-code-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../ALL_AI/speech-to-code-main" />
@@ -150,14 +158,14 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\DATA\ALOHAPP\DECKS\JA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/MODELS/TEXT" />
       <recent name="$PROJECT_DIR$/../ALL_AI" />
+      <recent name="$PROJECT_DIR$/MODELS/TEXT" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\NOTEBOOKS" />
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP/USER" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.GEN_TEXT_LLAMA_3">
+  <component name="RunManager" selected="Python.GPU_TF">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="TensorFlow-Developer-Certificate-Guide" />
       <option name="ENV_FILES" value="" />
@@ -193,6 +201,29 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="GEN_CODE_CODELLAMA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GEN_CODE_CODELLAMA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="GEN_TEXT_LLAMA_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
@@ -208,29 +239,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GEN_TEXT_LLAMA_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GEN_TEXT_OLLAMA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BIGAI" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GEN_TEXT_OLLAMA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GPU_PYTORCH" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="GPU_TF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,7 +307,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GPU_PYTORCH.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GPU_TF.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -473,11 +481,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.GEN_TEXT_LLAMA_3" />
-        <item itemvalue="Python.GEN_TEXT_OLLAMA" />
-        <item itemvalue="Python.GPU_PYTORCH" />
+        <item itemvalue="Python.GPU_TF" />
         <item itemvalue="Python.GPU_PL" />
         <item itemvalue="Python.GPU_JAX" />
+        <item itemvalue="Python.GEN_CODE_CODELLAMA" />
+        <item itemvalue="Python.GEN_TEXT_LLAMA_3" />
       </list>
     </recent_temporary>
   </component>
@@ -770,7 +778,8 @@
       <workItem from="1713689885492" duration="10376000" />
       <workItem from="1713705197263" duration="322000" />
       <workItem from="1713705534355" duration="7000" />
-      <workItem from="1713716450560" duration="751000" />
+      <workItem from="1713716450560" duration="1710000" />
+      <workItem from="1713765535954" duration="2087000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -799,14 +808,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00011" summary="BIGAIENGINE ALL FILES">
-      <option name="closed" value="true" />
-      <created>1691152351676</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1691152351676</updated>
     </task>
     <task id="LOCAL-00012" summary="BIGAI ENV FILE">
       <option name="closed" value="true" />
@@ -1160,7 +1161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713703051043</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="BIGAI README">
+      <option name="closed" value="true" />
+      <created>1713717220022</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1713717220022</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1202,7 +1211,6 @@
     <MESSAGE value="BIGAI SCHOOL LLM" />
     <MESSAGE value="BIGAI SCHOOL README" />
     <MESSAGE value="BIGAI CONDA ENV" />
-    <MESSAGE value="BIGAI README" />
     <MESSAGE value="GPU AWARE" />
     <MESSAGE value="LLAMA 3 TEST" />
     <MESSAGE value="LLAMA 3 FINETUNE" />
@@ -1211,7 +1219,8 @@
     <MESSAGE value="ENGINE ENVIROMENT" />
     <MESSAGE value="BIGAI SCHOOL PORZADKI" />
     <MESSAGE value="BIGAI DEL ALL NON EXISTING SUPROJECTS" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI DEL ALL NON EXISTING SUPROJECTS" />
+    <MESSAGE value="BIGAI README" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1252,29 +1261,14 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/ALOHAPP_ANKI.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ENGINE/QM_NIXTLA_FIRST.py</url>
           <line>23</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/ALOHAPP_ROMANJI.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ENGINE/GEN_PIC_SDXL_LIGHTNING.py</url>
           <line>18</line>
           <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/GEN_TEXT_MISTRAL8x7B.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ENGINE/GEN_TEXT_OCTOPUS_V2.py</url>
@@ -1311,9 +1305,8 @@
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/GEN_TEXT_OLLAMA.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="68" />
+          <url>file://$PROJECT_DIR$/ENGINE/GEN_CODE_CODELLAMA.py</url>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

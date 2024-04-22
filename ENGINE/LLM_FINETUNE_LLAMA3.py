@@ -13,7 +13,7 @@ from transformers import (
     pipeline,
 )
 from trl import ORPOConfig, ORPOTrainer, setup_chat_format
-wb_token = ('a5e67527d93305f7105272821211518c1b089017')
+wb_token = ('YOUR WB TOKEN')
 wandb.login(key=wb_token)
 
 if torch.cuda.get_device_capability()[0] >= 8:

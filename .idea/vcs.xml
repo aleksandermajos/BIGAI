@@ -2,8 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../OpenVoice" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Transformers-for-NLP-and-Computer-Vision-3rd-Edition" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../max" vcs="Git" />
   </component>
 </project>
