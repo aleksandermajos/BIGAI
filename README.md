@@ -44,13 +44,14 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * LANGCHAIN
 * DSPY
 * WEIGHTS AND BIASES
+* LM STUDIO
 * FLET
 * BIGAI API
 * OPENAI API
 * ANTHROPIC API
 * ELEVENLABS API
 * EDENAI API
-* 
+* XAI API
 
 > **BEWARE**: This is a work in progress!
 >
