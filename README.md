@@ -47,6 +47,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * DSPY
 * WEIGHTS AND BIASES
 * LM STUDIO
+* GROQ PLAYGROUND
 * FLET
 * BIGAI API
 * OPENAI API
