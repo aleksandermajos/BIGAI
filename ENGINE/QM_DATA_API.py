@@ -3,7 +3,7 @@ from pathlib import Path
 from os import fspath
 import oandapyV20
 from oandapyV20.contrib.factories import InstrumentsCandlesFactory
-import fxcmpy
+
 
 
 def exampleAuth_OANDA(path):
@@ -64,12 +64,7 @@ class OandaData():
 
         if format == "DF": return List_Of_Dict_To_DF(lista)
 
-class FXCMData():
-    def __init__(self,path):
-        self.token = exampleAuth_FXCM(path)
-        self.fxcm_con = fxcmpy.fxcmpy(access_token=self.token, log_level='error')
-        self.server_name = "api-demo.fxcm.com"
-        self.Broker = "FXCM"
+
 
 
 

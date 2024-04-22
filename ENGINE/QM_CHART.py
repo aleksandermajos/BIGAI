@@ -14,7 +14,7 @@ from datetime import datetime
 import functools
 import oandapyV20.endpoints.pricing as pricing
 import oandapyV20
-import fxcmpy
+
 import time
 import numpy as np
 import os
@@ -181,12 +181,7 @@ class ChartOanda(Chart):
         self.tick=self.oanda_r.response
         return self.tick
 
-class ChartFXCM(Chart):
-    def __init__(self):
-        self.token = exampleAuth_FXCM('/Users/aleksander/PycharmProjects/FXCM/')
-        self.fxcm_con = fxcmpy.fxcmpy(access_token=self.token, log_level='error')
-        self.server_name = "api-demo.fxcm.com"
-        self.Broker = "FXCM"
+
 
 
 
