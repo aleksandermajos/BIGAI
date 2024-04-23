@@ -46,6 +46,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * SWARMS
 * SWE-AGENT
 * LANGCHAIN
+* METAGPT
 * DSPY
 * WEIGHTS AND BIASES
 * LM STUDIO
