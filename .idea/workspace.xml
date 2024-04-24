@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI GOAL">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README ALMOST FINAL">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -787,6 +787,7 @@
       <workItem from="1713845736270" duration="2276000" />
       <workItem from="1713887535849" duration="3024000" />
       <workItem from="1713940048256" duration="5633000" />
+      <workItem from="1713951119436" duration="1888000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -815,14 +816,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00021" summary="BIGAI FRONT ALOHA">
-      <option name="closed" value="true" />
-      <created>1695655617543</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1695655617543</updated>
     </task>
     <task id="LOCAL-00022" summary="BIGAI README">
       <option name="closed" value="true" />
@@ -1176,7 +1169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713942787981</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="BIGAI README ALMOST FINAL">
+      <option name="closed" value="true" />
+      <created>1713951169244</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1713951169244</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1202,7 +1203,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI ALOHAPP SCHOOL" />
     <MESSAGE value="BIGAI ALOHAPP FRONT" />
     <MESSAGE value="BIGAI OPENAI" />
     <MESSAGE value="BIGAI ALOHAPP DESKTOP" />
@@ -1227,7 +1227,8 @@
     <MESSAGE value="BIGAI CLEAN APPROACH LLAMA 3" />
     <MESSAGE value="BIGAI README" />
     <MESSAGE value="BIGAI GOAL" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI GOAL" />
+    <MESSAGE value="BIGAI README ALMOST FINAL" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI README ALMOST FINAL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
