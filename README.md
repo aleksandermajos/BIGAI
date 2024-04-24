@@ -49,7 +49,12 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 
 ### USE OF SPECIFIC FRAMEWORK/TOOL/WEBSITES IN BIGAI ENGINE:
 * PYTORCH 2.2.2
+* PYTORCH LIGHTNING
+* PYTORCH GEOMETRIC
 * TENSORFLOW 2.15.1
+* JAX,TRAX
+* PYCARET
+* MLFLOW
 * HUGGINGFACE
 * LLAMA_CPP
 * CREWAI
@@ -65,6 +70,8 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * LM STUDIO
 * GROQ PLAYGROUND
 * FLET
+* DOCKER
+* KUBERNETES
 * BIGAI API
 * OPENAI API
 * REKA API
@@ -75,6 +82,9 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * EDENAI API
 * TOGETHER.AI API
 * XAI API
+* GCP
+* PYSPARK
+* NEO4J
 
 > **BEWARE**: This is a work in progress!
 >
