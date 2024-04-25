@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README FINAL">
-      <change afterPath="$PROJECT_DIR$/ENGINE/CODE_GEN_BY_CLOUDE_HAIKU.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/GEN_CODE_TEXT_CLAUDE_HAIKU.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI CLOUDE HAIKU GENERATE SNAKE GAME IN PYTHON USING PYGAME">
+      <change afterPath="$PROJECT_DIR$/PIC_RECOGNIZE_CLOUDE_HAIKU.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,7 @@
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.CODE_GEN_BY_CLOUDE_HAIKU">
+  <component name="RunManager" selected="Python.PIC_RECOGNIZE_CLOUDE_HAIKU">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="TensorFlow-Developer-Certificate-Guide" />
       <option name="ENV_FILES" value="" />
@@ -293,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="STT_MMS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PIC_RECOGNIZE_CLOUDE_HAIKU" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,12 +300,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/STT_MMS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/PIC_RECOGNIZE_CLOUDE_HAIKU.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -481,11 +479,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PIC_RECOGNIZE_CLOUDE_HAIKU" />
         <item itemvalue="Python.CODE_GEN_BY_CLOUDE_HAIKU" />
         <item itemvalue="Python.GEN_CODE_TEXT_CLAUDE_HAIKU" />
         <item itemvalue="Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_Q4" />
         <item itemvalue="Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4" />
-        <item itemvalue="Python.STT_MMS" />
       </list>
     </recent_temporary>
   </component>
@@ -792,7 +790,7 @@
       <workItem from="1713940048256" duration="5633000" />
       <workItem from="1713951119436" duration="1888000" />
       <workItem from="1713953550117" duration="2738000" />
-      <workItem from="1714024818445" duration="4426000" />
+      <workItem from="1714024818445" duration="5054000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -821,14 +819,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00023" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1695726095500</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1695726095500</updated>
     </task>
     <task id="LOCAL-00024" summary="BIGAI README">
       <option name="closed" value="true" />
@@ -1182,7 +1172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713953614047</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="BIGAI CLOUDE HAIKU GENERATE SNAKE GAME IN PYTHON USING PYGAME">
+      <option name="closed" value="true" />
+      <created>1714036275988</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1714036275988</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1208,7 +1206,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI OPENAI" />
     <MESSAGE value="BIGAI ALOHAPP DESKTOP" />
     <MESSAGE value="BIGAI ALOHAPP DESKTOP2" />
     <MESSAGE value="BIGAI ALOHAPP ANKI" />
@@ -1233,7 +1230,8 @@
     <MESSAGE value="BIGAI GOAL" />
     <MESSAGE value="BIGAI README ALMOST FINAL" />
     <MESSAGE value="BIGAI README FINAL" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI README FINAL" />
+    <MESSAGE value="BIGAI CLOUDE HAIKU GENERATE SNAKE GAME IN PYTHON USING PYGAME" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI CLOUDE HAIKU GENERATE SNAKE GAME IN PYTHON USING PYGAME" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1330,11 +1328,6 @@
           <url>file://$PROJECT_DIR$/ENGINE/GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_Q4.py</url>
           <line>8</line>
           <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/GEN_CODE_TEXT_CLAUDE_HAIKU.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
