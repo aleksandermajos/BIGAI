@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../CZARNA/.idea/Deep-Learning-with-TensorFlow-and-Keras-3rd-edition.iml" filepath="$PROJECT_DIR$/../CZARNA/.idea/Deep-Learning-with-TensorFlow-and-Keras-3rd-edition.iml" />
       <module fileurl="file://$PROJECT_DIR$/../SWE-agent/.idea/SWE-agent.iml" filepath="$PROJECT_DIR$/../SWE-agent/.idea/SWE-agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Transformers-for-NLP-and-Computer-Vision-3rd-Edition/.idea/Transformers-for-NLP-and-Computer-Vision-3rd-Edition.iml" filepath="$PROJECT_DIR$/../Transformers-for-NLP-and-Computer-Vision-3rd-Edition/.idea/Transformers-for-NLP-and-Computer-Vision-3rd-Edition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../crewAI-examples/.idea/crewAI-examples.iml" filepath="$PROJECT_DIR$/../crewAI-examples/.idea/crewAI-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/../examples/.idea/examples.iml" filepath="$PROJECT_DIR$/../examples/.idea/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/../handson-ml3/.idea/handson-ml3.iml" filepath="$PROJECT_DIR$/../handson-ml3/.idea/handson-ml3.iml" />
       <module fileurl="file://$PROJECT_DIR$/../real-time-transcribtion-main/.idea/real-time-transcribtion-main.iml" filepath="$PROJECT_DIR$/../real-time-transcribtion-main/.idea/real-time-transcribtion-main.iml" />

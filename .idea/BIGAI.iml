@@ -13,5 +13,6 @@
     <orderEntry type="module" module-name="Transformers-for-NLP-and-Computer-Vision-3rd-Edition" />
     <orderEntry type="module" module-name="SWE-agent" />
     <orderEntry type="module" module-name="ALL_AI" />
+    <orderEntry type="module" module-name="crewAI-examples" />
   </component>
 </module>
