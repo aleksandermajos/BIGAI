@@ -6,6 +6,6 @@ path = path_beginning+"MODELS/TEXT/"
 model_path = path+'Meta-Llama-3-70B-Instruct.Q4_K_S.gguf'
 
 
-llm = Llama(model_path=model_path)
+llm = Llama(model_path=model_path,n_gpu_layers=78)
 output = llm("Q: Write in 100 sentences best things to do in life... A: ", max_tokens=320, stop=["Q:", "\n"], echo=True)
 print(output)
