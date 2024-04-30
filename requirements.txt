@@ -12,8 +12,11 @@ altair==5.3.0
 aniso8601==9.0.1
 ankipandas==0.3.15
 annotated-types==0.6.0
-antlr4-python3-runtime==4.11.1
+anthropic==0.25.6
+antlr4-python3-runtime==4.9.3
 anyio==4.3.0
+apispec==6.4.0
+apispec-webframeworks==1.0.0
 appdirs==1.4.4
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
@@ -28,11 +31,13 @@ async-lru==2.0.4
 attrdict==2.0.1
 attrs==23.2.0
 audioread==3.0.1
+Automat==22.10.0
 av==11.0.0
 Babel==2.14.0
 backoff==2.2.1
 bcrypt==4.1.2
 beautifulsoup4==4.12.3
+bidict==0.23.1
 binaryornot==0.4.4
 bitsandbytes==0.43.1
 black==19.10b0
@@ -40,7 +45,7 @@ bleach==6.1.0
 blinker==1.7.0
 blis==0.7.11
 boltons==24.0.0
-boto3==1.34.88
+boto3==1.34.34
 botocore==1.34.88
 braceexpand==0.1.7
 Brotli @ file:///work/ci_py311/brotli-split_1676830125088/work
@@ -60,28 +65,33 @@ click==8.1.7
 clip==0.2.0
 cloudpathlib==0.16.0
 cloudpickle==3.0.0
+cmdstanpy==1.2.2
 colorama==0.4.6
 coloredlogs==15.0.1
 colorlog==6.8.2
 comm==0.2.2
 confection==0.1.4
+constantly==23.10.4
 contextlib2==21.6.0
 contourpy==1.2.1
-cookiecutter==2.6.0
+cookiecutter==2.5.0
 coreforecast==0.0.8
 crewai==0.28.8
 crewai-tools==0.1.7
 cryptography==42.0.5
+cssselect==1.2.0
 ctranslate2==4.1.0
 cutlet==0.4.0
 cycler==0.12.1
 cymem==2.0.8
 Cython==3.0.10
 cytoolz==0.12.3
+darts==0.29.0
 dataclasses-json==0.6.4
 datasets==2.19.0
 debugpy==1.8.1
 decorator==4.4.2
+deepdiff==6.7.1
 defusedxml==0.7.1
 Deprecated==1.2.14
 deprecation==2.1.0
@@ -91,6 +101,7 @@ diskcache==5.6.3
 Distance==0.1.3
 distro==1.9.0
 dm-tree==0.1.8
+dnspython==2.6.1
 docker-pycreds==0.4.0
 docopt==0.6.2
 docstring-parser==0.15
@@ -114,9 +125,12 @@ fastjsonschema==2.19.1
 fasttext @ file:///home/bigai/PycharmProjects/fastText
 ffmpy==0.3.2
 filelock @ file:///croot/filelock_1700591183607/work
+filetype==1.2.0
 flash-attn==2.5.7
-Flask==2.2.5
+Flask==3.0.2
+Flask-Cors==4.0.0
 Flask-RESTful==0.3.10
+Flask-SocketIO==5.3.6
 flatbuffers==24.3.25
 flax==0.8.2
 flet==0.19.0
@@ -138,10 +152,12 @@ g2p-en==2.1.0
 gast==0.5.4
 gdown==5.1.0
 gensim==4.3.2
-gevent==24.2.1
+gevent==23.9.1
+gevent-websocket==0.10.1
 geventhttpclient==2.0.2
 gin-config==0.5.0
 gitdb==4.0.11
+gitignore_parser==0.1.11
 GitPython==3.1.43
 google-api-core==2.18.0
 google-api-python-client==2.126.0
@@ -173,6 +189,7 @@ h11==0.14.0
 h2==3.2.0
 h5py==3.11.0
 hierarchicalforecast==0.4.1
+holidays==0.47
 hpack==3.0.0
 hstspreload==2024.4.1
 httpcore==1.0.5
@@ -183,6 +200,7 @@ huggingface-hub==0.22.2
 humanfriendly==10.0
 hydra-core==1.3.2
 hyperframe==5.2.0
+hyperlink==21.0.0
 HyperPyYAML==1.2.2
 idna @ file:///work/ci_py311/idna_1676822698822/work
 ijson==3.2.3
@@ -191,6 +209,7 @@ imageio-ffmpeg==0.4.9
 imagesize==1.4.1
 importlib-metadata==7.0.0
 importlib_resources==6.4.0
+incremental==22.10.0
 inflect==7.2.0
 iniconfig==2.0.0
 inquirerpy==0.3.4
@@ -201,6 +220,8 @@ ipython==8.23.0
 ipywidgets==8.1.2
 isoduration==20.11.0
 isort==5.13.2
+itemadapter==0.8.0
+itemloaders==1.2.0
 itsdangerous==2.2.0
 jaconv==0.3.4
 jax==0.4.26
@@ -213,6 +234,7 @@ jmespath==1.0.1
 joblib==1.4.0
 json5==0.9.24
 jsonpatch==1.33
+jsonpath-python==1.0.6
 jsonpointer==2.4
 jsonschema==4.21.1
 jsonschema-specifications==2023.12.1
@@ -234,6 +256,7 @@ kfac==0.2.0
 kiwisolver==1.4.5
 kornia==0.7.2
 kornia_rs==0.1.3
+kthread==0.2.3
 kubernetes==29.0.0
 lancedb==0.5.7
 langchain==0.1.16
@@ -242,6 +265,7 @@ langchain-core==0.1.45
 langchain-openai==0.0.5
 langchain-text-splitters==0.0.1
 langcodes==3.3.0
+langdetect==1.0.9
 langsmith==0.1.49
 latexcodec==3.0.0
 lazy_loader==0.4
@@ -249,7 +273,7 @@ Levenshtein==0.22.0
 lhotse==1.22.0
 libclang==18.1.1
 librosa==0.10.1
-lightning==2.2.2
+lightning==2.2.3
 lightning-utilities==0.11.2
 lilcom==1.7
 llama_cpp_python==0.2.61
@@ -257,11 +281,11 @@ llvmlite==0.42.0
 loguru==0.7.2
 lxml==5.2.1
 Mako==1.3.3
-Markdown==3.6
+Markdown==3.5.2
 markdown-it-py==3.0.0
 markdown2==2.4.13
 MarkupSafe==2.1.5
-marshmallow==3.21.1
+marshmallow==3.20.2
 matplotlib==3.8.4
 matplotlib-inline==0.1.6
 max-engine==24.2.1
@@ -293,8 +317,9 @@ nemo_text_processing==0.3.0rc0
 nemo_toolkit==1.23.0
 nerfacc==0.5.3
 nest-asyncio==1.6.0
-networkx==3.3
+networkx==3.2.1
 neuralforecast @ git+https://github.com/Nixtla/neuralforecast.git@0c1a7607ce31aae6db8f53a583c1238e56f821e9
+nfoursid==1.0.1
 ninja==1.11.1.1
 nixtlats==0.3.0
 nltk==3.8.1
@@ -302,7 +327,7 @@ nodeenv==1.8.0
 notebook_shim==0.2.4
 numba==0.59.1
 numcodecs==0.12.1
-numpy==1.26.4
+numpy==1.25.2
 nvidia-cublas-cu12==12.1.3.1
 nvidia-cuda-cupti-cu12==12.1.105
 nvidia-cuda-nvcc-cu12==12.2.140
@@ -320,7 +345,7 @@ oandapyV20==0.7.2
 oauth2client==4.1.3
 oauthlib==3.2.2
 ollama==0.1.8
-omegaconf==2.2.3
+omegaconf==2.3.0
 onnx==1.16.0
 onnxruntime==1.16.3
 open-clip-torch==2.24.0
@@ -347,15 +372,18 @@ optimum @ git+https://github.com/huggingface/optimum.git@56aabbebd0ce532f82f566a
 optree==0.11.0
 optuna==3.6.1
 orbax-checkpoint==0.5.9
+ordered-set==4.1.0
 orjson==3.10.1
 outcome==1.3.0.post0
 overrides==7.7.0
 packaging @ file:///croot/packaging_1710807400464/work
-pandas==2.2.2
+pandas==2.2.0
 pandocfilters==1.5.1
 pangu==4.0.6.1
 parameterized==0.9.0
+parsel==1.9.1
 parso==0.8.4
+passlib==1.7.4
 pathspec==0.12.1
 patsy==0.5.6
 peft==0.10.0
@@ -365,7 +393,9 @@ Pillow==9.2.0
 plac==1.4.3
 platformdirs==4.2.0
 playsound==1.3.0
+plotly==5.21.0
 pluggy==1.5.0
+pmdarima==2.0.4
 pooch==1.8.1
 portalocker==2.8.2
 posthog==3.5.0
@@ -376,6 +406,8 @@ progress==1.6
 prometheus_client==0.20.0
 promise==2.3
 prompt-toolkit==3.0.43
+prophet==1.1.5
+Protego==0.3.1
 proto-plus==1.23.0
 protobuf==4.25.3
 psutil==5.9.5
@@ -383,12 +415,13 @@ ptyprocess==0.7.0
 pulsar-client==3.5.0
 pure-eval==0.2.2
 py==1.11.0
+py4j==0.10.9.7
 pyannote.audio==3.1.1
 pyannote.core==5.0.0
 pyannote.database==5.1.0
 pyannote.metrics==3.2.1
 pyannote.pipeline==3.0.1
-pyarrow==15.0.2
+pyarrow==15.0.0
 pyarrow-hotfix==0.6
 pyasn1==0.6.0
 pyasn1_modules==0.4.0
@@ -401,6 +434,7 @@ pycparser==2.22
 pycryptodomex==3.20.0
 pydantic==2.7.0
 pydantic_core==2.18.1
+PyDispatcher==2.0.7
 pydot==2.0.0
 pydub==0.25.1
 pygame==2.5.2
@@ -411,10 +445,13 @@ PyJWT==2.8.0
 pylance==0.9.18
 pyloudnorm==0.1.1
 PyMCubes==0.1.4
+pymongo==4.6.1
 PyNaCl==1.5.0
 pynini==2.1.5
+pyod==1.1.3
+pyOpenSSL==24.1.0
 pyparsing==3.1.2
-pypdf==3.17.4
+pypdf==4.2.0
 PyPika==0.48.9
 pypinyin==0.51.0
 pypinyin-dict==0.8.0
@@ -423,24 +460,30 @@ pyproject_hooks==1.0.0
 pyright==1.1.359
 pysbd==0.3.4
 PySocks @ file:///work/ci_py311/pysocks_1676822712504/work
+pyspark==3.5.1
 pytest==8.1.1
 pytest-runner==6.0.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.0
+python-engineio==4.9.0
+python-iso639==2024.2.7
 python-json-logger==2.0.7
+python-magic==0.4.27
 python-multipart==0.0.9
 python-rapidjson==1.16
 python-slugify==8.0.4
+python-socketio==5.11.2
 pytorch-lightning==2.0.7
 pytorch-metric-learning==2.5.0
 pytube==15.0.0
-pytz==2024.1
+pytz==2023.3.post1
 pywhispercpp==1.1.3
 PyYAML==6.0
 pyzmq==25.1.2
 qpd==0.4.4
 qrcode==7.4.2
 quadprog==0.1.12
+queuelib==1.6.2
 RandomFileTree==1.2.0
 rapidfuzz==2.13.7
 ratelimiter==1.2.0.post0
@@ -449,6 +492,7 @@ referencing==0.34.0
 regex==2023.12.25
 repath==0.9.0
 requests @ file:///croot/requests_1707355572290/work
+requests-file==2.0.0
 requests-oauthlib==2.0.0
 resampy==0.4.3
 retry==0.9.2
@@ -468,6 +512,7 @@ safetensors==0.4.3
 schema==0.7.5
 scikit-learn==1.4.2
 scipy==1.9.3
+Scrapy==2.11.1
 seaborn==0.13.2
 selenium==4.19.0
 semantic-version==2.10.0
@@ -476,12 +521,16 @@ Send2Trash==1.8.3
 sentence-transformers==2.7.0
 sentencepiece==0.2.0
 sentry-sdk==1.45.0
+service-identity==24.1.0
 setproctitle==1.3.3
+shap==0.45.0
 shapely==2.0.4
 shellingham==1.5.4
 shtab==1.7.1
+simple-websocket==1.0.0
 simpleaudio==1.0.4
 six==1.16.0
+slicer==0.0.7
 smart-open==6.4.0
 smmap==5.0.1
 sniffio==1.3.1
@@ -506,10 +555,11 @@ sphinxcontrib-htmlhelp==2.0.5
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.7
 sphinxcontrib-serializinghtml==1.1.10
-SQLAlchemy==2.0.29
+SQLAlchemy==2.0.27
 sqlglot==23.11.2
 srsly==2.4.8
 stack-data==0.6.3
+stanio==0.5.0
 stanza==1.6.1
 starlette==0.37.2
 statsforecast==1.7.4
@@ -517,7 +567,14 @@ statsmodels==0.14.2
 suno-bark @ git+https://github.com/suno-ai/bark.git@f4f32d4cd480dfec1c245d258174bc9bde3c2148
 sympy==1.12
 tabulate==0.9.0
+taipy==3.1.1
+taipy-config==3.1.1
+taipy-core==3.1.1
+taipy-gui==3.1.1
+taipy-rest==3.1.1
+taipy-templates==3.1.1
 taming-transformers==0.0.1
+tbats==1.1.3
 tenacity==8.2.3
 tensor2tensor==1.15.7
 tensorboard==2.15.2
@@ -533,7 +590,7 @@ tensorflow-io-gcs-filesystem==0.36.0
 tensorflow-metadata==1.14.0
 tensorflow-probability==0.7.0
 tensorflow-text==2.15.0
-tensorstore==0.1.45
+tensorstore==0.1.51
 termcolor==2.4.0
 terminado==0.18.1
 text-unidecode==1.3
@@ -546,6 +603,7 @@ threadpoolctl==3.4.0
 tiktoken==0.5.2
 timm==0.9.2
 tinycss2==1.2.1
+tldextract==5.1.2
 tokenizers @ file:///home/conda/feedstock_root/build_artifacts/tokenizers_1713402733962/work/bindings/python
 toml==0.10.2
 toolz==0.12.1
@@ -570,6 +628,7 @@ trio-websocket==0.11.1
 triton==2.2.0
 tritonclient==2.44.0
 trl==0.8.5
+Twisted==23.10.0
 typed-ast==1.5.5
 typeguard==4.2.1
 typer==0.12.3
@@ -578,12 +637,16 @@ typing-inspect==0.9.0
 typing_extensions==4.11.0
 tyro==0.8.3
 tzdata==2024.1
+tzlocal==5.2
+unstructured==0.13.3
+unstructured-client==0.22.0
 uri-template==1.3.0
 uritemplate==4.1.1
 urllib3 @ file:///croot/urllib3_1707770551213/work
 utilsforecast==0.1.5
 uvicorn==0.29.0
 uvloop==0.19.0
+w3lib==2.1.2
 wandb==0.16.6
 wasabi==1.1.2
 watchdog==3.0.0
@@ -603,6 +666,8 @@ widgetsnbextension==4.0.10
 window_ops==0.0.15
 wrapt==1.14.1
 wsproto==1.2.0
+xarray==2024.3.0
+xgboost==2.0.3
 xxhash==3.4.1
 yarl==1.9.4
 youtokentome==1.0.6
