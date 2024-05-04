@@ -10,11 +10,11 @@
 
 ### BUSINESS BASED ON BIGAI:
 | NAME          | PURPOSE                                                                | TIME - WEEKS |
-|---------------|------------------------------------------------------------------------|--------------|
-| BIGAI_SCHOOL  | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       | 8            |
-| ALOHAPP       | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 8            |
-| QUANTMAVERICK | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   | 8            |
-| SAMURAI       | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                        | 8            |
+|---------------|------------------------------------------------------------------------|-------------|
+| BIGAI_SCHOOL  | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       | 8           |
+| ALOHAPP       | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 8           |
+| QUANTMAVERICK | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   | 10          |
+| SAMURAI       | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                        | 8           |
 
 ### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:
 
