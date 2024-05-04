@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="LLAMA2 VS LLAMA3 PLAY TICKTACTOE.BIGAI SCHOOL">
-      <change afterPath="$PROJECT_DIR$/ENGINE/GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_70B_Q4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/GEN_CODE_TEXT_OLLAMA_DOLPHIN_MISTRAL.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -826,7 +822,8 @@
       <workItem from="1714603139650" duration="23000" />
       <workItem from="1714603557606" duration="1048000" />
       <workItem from="1714637503508" duration="282000" />
-      <workItem from="1714807663378" duration="1794000" />
+      <workItem from="1714807663378" duration="3187000" />
+      <workItem from="1714813246297" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -855,22 +852,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00032" summary="BIGAI ALOHAPP ANKI">
-      <option name="closed" value="true" />
-      <created>1705229577831</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1705229577831</updated>
-    </task>
-    <task id="LOCAL-00033" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1707306862216</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1707306862216</updated>
     </task>
     <task id="LOCAL-00034" summary="BIGAI README">
       <option name="closed" value="true" />
@@ -1216,7 +1197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714479253532</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="README">
+      <option name="closed" value="true" />
+      <created>1714810151169</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1714810151169</updated>
+    </task>
+    <task id="LOCAL-00078" summary="README">
+      <option name="closed" value="true" />
+      <created>1714812592349</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1714812592349</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1242,7 +1239,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI SCHOOL README" />
     <MESSAGE value="BIGAI CONDA ENV" />
     <MESSAGE value="GPU AWARE" />
     <MESSAGE value="LLAMA 3 TEST" />
@@ -1267,7 +1263,8 @@
     <MESSAGE value="BIGAI PHI3" />
     <MESSAGE value="BIGAI ENV SAVE" />
     <MESSAGE value="LLAMA2 VS LLAMA3 PLAY TICKTACTOE.BIGAI SCHOOL" />
-    <option name="LAST_COMMIT_MESSAGE" value="LLAMA2 VS LLAMA3 PLAY TICKTACTOE.BIGAI SCHOOL" />
+    <MESSAGE value="README" />
+    <option name="LAST_COMMIT_MESSAGE" value="README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
