@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="LLAMA2 VS LLAMA3 PLAY TICKTACTOE.BIGAI SCHOOL">
-      <change afterPath="$PROJECT_DIR$/ENGINE/GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_70B_Q4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/GEN_CODE_TEXT_OLLAMA_DOLPHIN_MISTRAL.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="win env">
+      <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -503,8 +502,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
-        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
@@ -827,6 +826,8 @@
       <workItem from="1714603557606" duration="1048000" />
       <workItem from="1714637503508" duration="282000" />
       <workItem from="1714807663378" duration="1794000" />
+      <workItem from="1714838287444" duration="622000" />
+      <workItem from="1714838949864" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -855,14 +856,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00032" summary="BIGAI ALOHAPP ANKI">
-      <option name="closed" value="true" />
-      <created>1705229577831</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1705229577831</updated>
     </task>
     <task id="LOCAL-00033" summary="BIGAI README">
       <option name="closed" value="true" />
@@ -1216,7 +1209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714479253532</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="win env">
+      <option name="closed" value="true" />
+      <created>1714838822258</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1714838822259</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1242,7 +1243,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI SCHOOL README" />
     <MESSAGE value="BIGAI CONDA ENV" />
     <MESSAGE value="GPU AWARE" />
     <MESSAGE value="LLAMA 3 TEST" />
@@ -1267,7 +1267,8 @@
     <MESSAGE value="BIGAI PHI3" />
     <MESSAGE value="BIGAI ENV SAVE" />
     <MESSAGE value="LLAMA2 VS LLAMA3 PLAY TICKTACTOE.BIGAI SCHOOL" />
-    <option name="LAST_COMMIT_MESSAGE" value="LLAMA2 VS LLAMA3 PLAY TICKTACTOE.BIGAI SCHOOL" />
+    <MESSAGE value="win env" />
+    <option name="LAST_COMMIT_MESSAGE" value="win env" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
