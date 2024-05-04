@@ -8,6 +8,22 @@
 * MODELS - TRAINED MODELS AS WEIGHTS MOSTLY FOR PYTORCH
 * DATA - DATA STORAGE FOR SMALL FILES
 
+### BUSINESS BASED ON BIGAI:
+| NAME          | PURPOSE                                                                | TIME - WEEKS |
+|---------------|------------------------------------------------------------------------|--------------|
+| BIGAI_SCHOOL  | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       | 8            |
+| ALOHAPP       | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 8            |
+| QUANTMAVERICK | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   | 8            |
+| SAMURAI       | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                        | 8            |
+
+### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:
+
+https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
+
+*⭐️ Like this repo? please star & consider donating to keep it maintained*
+
+<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 
 ### TO DO IN BIGAI ENGINE:
 * LOCAL MISTRAL 8x7B ON LLAMA_CPP WITH MULTI GPU SUPPORT -->🔥 DONE 🔥
@@ -45,10 +61,6 @@
 * BIGAI_ENGINE PROTOTYPE READY FOR BUSINESS USE
 * SAMURAI PROTOTYPE
 
-
-### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:
-
-https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 
 ### USE OF SPECIFIC FRAMEWORK/TOOL/WEBSITES IN BIGAI ENGINE:
 * PYTORCH 2.2.2
@@ -89,6 +101,8 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * PYSPARK
 * NEO4J
 
+
+
 > **BEWARE**: This is a work in progress!
 >
 > * Code here may change and disappear without warning.
@@ -97,13 +111,6 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 >
 > * No promises. No guarantees. Use at own risk.
 
-
-
-
-
-*⭐️ Like this repo? please star & consider donating to keep it maintained*
-
-<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
 
