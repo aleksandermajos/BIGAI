@@ -88,28 +88,28 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * NEO4J
 
 ### BIG NODES:
-| NAME                          | EXTERNAL API           | INTERNAL              | INTERNAL API | MEMORY   |
-|-------------------------------|------------------------|-----------------------|--------------|----------|
-| TTS                           | OPENAI API🔥 DONE 🔥   |                       |              | 0        |
-| STT                           |                        | WHISPERCPP🔥 DONE 🔥  |              | 2        |
-| GEN CODE_TEXT                 | CLOUDE HAIKU🔥 DONE 🔥 | LLAMA3_8B 🔥 DONE 🔥  |              | 4,5x4=18 |
-| TRANSLATE                     |                        | FAIRSEQ               |              | 2        |
-| GEN PICTURE                   |                        | STABLE DIFFIUSION 3.0 |              | 0        |
-| RECOGNIZE PICTURE             |                        | LLAVA NEXT            |              | 4,5      |
-| GEN VIDEO                     |                        | STORY DIFFIUSION      |              | 12       |
-| GEN 3D OBJECTS                |                        | ?                     |              |          |
-| GEN VOICE/CLONE VOICE         |                        | ?                     |              | 6        |
-| GEN MUSIC                     |                        | ?                     |              |          |
-| GEN TIMELINE/TIMESERIES       |                        | ?                     |              | 4        |
-| RECOGNIZE TIMELINE/TIMESERIES |                        | NIXTLA                |              | 2        |
-| GEN CREW TOGETHER             |                        | CREWAI                |              | 2        |
-| RL AGENT                      |                        | PYTORCH               |              | 6        |
-| GEN INFRASTRUCTURE            |                        | ?                     |              |          |
-| GEN GRAPH KNOWLEDGE           |                        | ?                     |              | 2        |
-| GEN GRAPH REASONING           |                        | ?                     |              | 2        |
-| GEN GRAPH ACTION              |                        | ?                     |              | 2        |
-| GEN iOT ACTION                |                        | ?                     |              |          |
-| GEN EXTENSION WEB             |                        | ?                     |              |          |
+| NAME                          | EXTERNAL API    | INTERNAL              | INTERNAL API | MEMORY   |
+|-------------------------------|-----------------|-----------------------|--------------|----------|
+| TTS                           | OPENAI API🔥    |                       |              | 0        |
+| STT                           |                 | WHISPERCPP🔥  |              | 2        |
+| GEN CODE_TEXT                 | ANTHROPIC API🔥 | LLAMA3_8B 🔥  |              | 4,5x4=18 |
+| TRANSLATE                     |                 | FAIRSEQ               |              | 2        |
+| GEN PICTURE                   |                 | STABLE DIFFIUSION 3.0 |              | 0        |
+| RECOGNIZE PICTURE             |                 | LLAVA NEXT            |              | 4,5      |
+| GEN VIDEO                     |                 | STORY DIFFIUSION      |              | 12       |
+| GEN 3D OBJECTS                |                 | ?                     |              |          |
+| GEN VOICE/CLONE VOICE         |                 | ?                     |              | 6        |
+| GEN MUSIC                     |                 | ?                     |              |          |
+| GEN TIMELINE/TIMESERIES       |                 | ?                     |              | 4        |
+| RECOGNIZE TIMELINE/TIMESERIES |                 | NIXTLA                |              | 2        |
+| GEN CREW TOGETHER             |                 | CREWAI                |              | 2        |
+| RL AGENT                      |                 | PYTORCH               |              | 6        |
+| GEN INFRASTRUCTURE            |                 | ?                     |              |          |
+| GEN GRAPH KNOWLEDGE           |                 | ?                     |              | 2        |
+| GEN GRAPH REASONING           |                 | ?                     |              | 2        |
+| GEN GRAPH ACTION              |                 | ?                     |              | 2        |
+| GEN iOT ACTION                |                 | ?                     |              |          |
+| GEN EXTENSION WEB             |                 | ?                     |              |          |
 
 > **BEWARE**: This is a work in progress!
 >
