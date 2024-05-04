@@ -2,10 +2,10 @@
 ### MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING(LLM) ALGORITHMS FOR FAST PROTOTYPING
 
 *⭐️ INSTALL REQUIREMENTS:*
-pip install -r requirements.txt
+pip install -r requirements_{your_operating_system}.txt
 
 *⭐️ RECREATE CONDA ENVIROMENT:*
-conda env create -f BIGAI_LINUX.yml
+conda env create -f BIGAI_{your_operating_system}.yml
 
 *⭐️ STARTING POINT:*
 BIGAI/SCHOOL/NOTEBOOKS/ANY.ipynb
