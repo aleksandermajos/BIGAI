@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README">
-      <change afterPath="$PROJECT_DIR$/ENGINE/GEN_COMIC_STORYDIFFIUSION.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/GEN_COMIC_STORYDIFFIUSION_GRADIO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/examples/lecun/yann-lecun2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/examples/taylor/1-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/fonts/Inkfree.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/utils/gradio_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/utils/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/utils/pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/utils/style_template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="GEN COMIC">
+      <change afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/LLM_OLLAMA_DOLPHIN_LLAMA3_70B.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +92,7 @@
     "Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4.executor": "Debug",
     "Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_MISTRAL.executor": "Debug",
     "Python.GEN_COMIC_STORYDIFFIUSION.executor": "Run",
-    "Python.GEN_COMIC_STORYDIFFIUSION_GRADIO.executor": "Run",
+    "Python.GEN_COMIC_STORYDIFFIUSION_GRADIO.executor": "Debug",
     "Python.GEN_PIC_SDXL.executor": "Debug",
     "Python.GEN_PIC_SDXL_LIGHTNING.executor": "Debug",
     "Python.GEN_PIC_STABLE_DIFFXL.executor": "ConcurrencyExecutor",
@@ -842,7 +829,7 @@
       <workItem from="1714807663378" duration="3187000" />
       <workItem from="1714813246297" duration="11000" />
       <workItem from="1714848726097" duration="648000" />
-      <workItem from="1714879228331" duration="672000" />
+      <workItem from="1714879228331" duration="989000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -871,14 +858,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00034" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1707307081897</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1707307081897</updated>
     </task>
     <task id="LOCAL-00035" summary="BIGAI ENGINE WHISPER">
       <option name="closed" value="true" />
@@ -1232,7 +1211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714812592349</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="GEN COMIC">
+      <option name="closed" value="true" />
+      <created>1714880121364</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1714880121364</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1258,7 +1245,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI CONDA ENV" />
     <MESSAGE value="GPU AWARE" />
     <MESSAGE value="LLAMA 3 TEST" />
     <MESSAGE value="LLAMA 3 FINETUNE" />
@@ -1283,7 +1269,8 @@
     <MESSAGE value="BIGAI ENV SAVE" />
     <MESSAGE value="LLAMA2 VS LLAMA3 PLAY TICKTACTOE.BIGAI SCHOOL" />
     <MESSAGE value="README" />
-    <option name="LAST_COMMIT_MESSAGE" value="README" />
+    <MESSAGE value="GEN COMIC" />
+    <option name="LAST_COMMIT_MESSAGE" value="GEN COMIC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

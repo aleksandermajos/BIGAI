@@ -28,7 +28,7 @@ BIGAI/ENGINE/ANY.py
 | TRANSLATE                     |                        | FAIRSEQ               |              | 2        |
 | GEN PICTURE                   |                        | STABLE DIFFIUSION 3.0 |              | 0        |
 | RECOGNIZE PICTURE             |                        | LLAVA NEXT            |              | 4,5      |
-| GEN VIDEO                     |                        | STORY DIFFIUSION 🔥     |              | 12       |
+| GEN VIDEO                     |                        | STORY DIFFIUSION 🔥     |              | 24       |
 | GEN 3D OBJECTS                |                        | ?                     |              |          |
 | GEN VOICE/CLONE VOICE         |                        | ?                     |              | 6        |
 | GEN MUSIC                     |                        | ?                     |              |          |
