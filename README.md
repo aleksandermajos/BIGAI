@@ -27,8 +27,9 @@ BIGAI/ENGINE/ANY.py
 | GEN CODE_TEXT                 | CLOUDE HAIKU🔥 | LLAMA3_8B 🔥          |              | 4,5x4=18 |
 | TRANSLATE                     |                        | FAIRSEQ               |              | 2        |
 | GEN PICTURE                   |                        | STABLE DIFFIUSION 3.0 |              | 12       |
-| RECOGNIZE PICTURE             |  CLOUDE HAIKU🔥                      | LLAVA 1.6 🔥            |              | 8        |
-| GEN VIDEO                     |                        | STORY DIFFIUSION 🔥   |              | 24       |
+| RECOGNIZE PICTURE             |  CLOUDE HAIKU🔥                      | LLAVA 1.6 🔥          |              | 8        |
+| GEN COMIC                     |                        | STORY DIFFIUSION 🔥   |              | 24       |
+| GEN VIDEO                     |                        | ?                     |              |     |
 | GEN 3D OBJECTS                |                        | ?                     |              |          |
 | GEN VOICE/CLONE VOICE         |                        | ?                     |              | 6        |
 | GEN MUSIC                     |                        | ?                     |              |          |
