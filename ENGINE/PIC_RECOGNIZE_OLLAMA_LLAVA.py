@@ -1,12 +1,13 @@
 import ollama
+from PIL import Image
 
 res = ollama.chat(
 	model="llava:13b",
 	messages=[
 		{
 			'role': 'user',
-			'content': 'Describe this image:',
-			'images': ['./images/1-1.png']
+			'content': 'Recognize text from this image:',
+			'images': ['./images/ASSI.jpg']
 		}
 	]
 )
