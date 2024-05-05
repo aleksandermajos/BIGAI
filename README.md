@@ -20,29 +20,30 @@ BIGAI/ENGINE/ANY.py
 * DATA - DATA STORAGE FOR SMALL FILES
 
 ### BIG NODES:
-| NAME                          | EXTERNAL API           | INTERNAL              | INTERNAL API | MEMORY   |
-|-------------------------------|------------------------|-----------------------|--------------|----------|
-| TTS                           | OPENAI API🔥  |                       |              | 0        |
-| STT                           |                        | WHISPERCPP🔥          |              | 2        |
+| NAME                          | EXTERNAL API   | INTERNAL              | INTERNAL API | MEMORY   |
+|-------------------------------|----------------|-----------------------|--------------|----------|
+| TTS                           | OPENAI API🔥   |                       |              | 0        |
+| STT                           |                | WHISPERCPP🔥          |              | 2        |
 | GEN CODE_TEXT                 | CLOUDE HAIKU🔥 | LLAMA3_8B 🔥          |              | 4,5x4=18 |
-| TRANSLATE                     |                        | FAIRSEQ               |              | 2        |
-| GEN PICTURE                   |                        | STABLE DIFFIUSION 3.0 |              | 12       |
-| RECOGNIZE PICTURE             |  CLOUDE HAIKU🔥                      | LLAVA 1.6 🔥          |              | 8        |
-| GEN COMIC                     |                        | STORY DIFFIUSION 🔥   |              | 24       |
-| GEN VIDEO                     |                        | ?                     |              |     |
-| GEN 3D OBJECTS                |                        | ?                     |              |          |
-| GEN VOICE/CLONE VOICE         |                        | ?                     |              | 6        |
-| GEN MUSIC                     |                        | ?                     |              |          |
-| GEN TIMELINE/TIMESERIES       |                        | ?                     |              | 4        |
-| RECOGNIZE TIMELINE/TIMESERIES |                        | NIXTLA                |              | 2        |
-| GEN CREW TOGETHER             |                        | CREWAI                |              | 2        |
-| RL AGENT                      |                        | PYTORCH               |              | 6        |
-| GEN INFRASTRUCTURE            |                        | ?                     |              |          |
-| GEN GRAPH KNOWLEDGE           |                        | ?                     |              | 2        |
-| GEN GRAPH REASONING           |                        | ?                     |              | 2        |
-| GEN GRAPH ACTION              |                        | ?                     |              | 2        |
-| GEN iOT ACTION                |                        | ?                     |              |          |
-| GEN EXTENSION WEB             |                        | ?                     |              |          |
+| TRANSLATE                     |                | FAIRSEQ               |              | 2        |
+| GEN PICTURE                   |                | STABLE DIFFIUSION 3.0 |              | 12       |
+| RECOGNIZE PICTURE             | CLOUDE HAIKU🔥 | LLAVA 1.6 🔥          |              | 8        |
+| RECOGNIZE KANJI               |                | ?                     |              |          |
+| GEN COMIC                     |                | STORY DIFFIUSION 🔥   |              | 24       |
+| GEN VIDEO                     |                | ?                     |              |          |
+| GEN 3D OBJECTS                |                | ?                     |              |          |
+| GEN VOICE/CLONE VOICE         |                | ?                     |              | 6        |
+| GEN MUSIC                     |                | ?                     |              |          |
+| GEN TIMELINE/TIMESERIES       |                | ?                     |              | 4        |
+| RECOGNIZE TIMELINE/TIMESERIES |                | NIXTLA                |              | 2        |
+| GEN CREW TOGETHER             |                | CREWAI                |              | 2        |
+| RL AGENT                      |                | PYTORCH               |              | 6        |
+| GEN INFRASTRUCTURE            |                | ?                     |              |          |
+| GEN GRAPH KNOWLEDGE           |                | ?                     |              | 2        |
+| GEN GRAPH REASONING           |                | ?                     |              | 2        |
+| GEN GRAPH ACTION              |                | ?                     |              | 2        |
+| GEN iOT ACTION                |                | ?                     |              |          |
+| GEN EXTENSION WEB             |                | ?                     |              |          |
 
 
 
