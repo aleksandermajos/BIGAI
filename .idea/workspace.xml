@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="GEN COMIC">
-      <change afterPath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/LLM_OLLAMA_DOLPHIN_LLAMA3_70B.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/PIC_RECOGNIZE_OLLAMA_LLAVA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/images/1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ENGINE/images/yann-lecun2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,108 +66,110 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.ALOHAPP_ANKI (1).executor": "Debug",
-    "Python.ALOHAPP_KANJI.executor": "Debug",
-    "Python.ALOHAPP_ROMANJI.executor": "Debug",
-    "Python.ALOHAPP_TRANSLATE.executor": "Debug",
-    "Python.APP_CONVERSATIONS_AI.executor": "Debug",
-    "Python.APP_CONVERSATIONS_AI_V2.executor": "Debug",
-    "Python.APP_SENTENCES.executor": "Debug",
-    "Python.Anthropic_test.executor": "Debug",
-    "Python.CODE_GEN_BY_CLOUDE_HAIKU.executor": "Debug",
-    "Python.CODE_GEN_LLAMA3_70B.executor": "Debug",
-    "Python.CODE_GEN_LLAMA3_8B.executor": "Debug",
-    "Python.GEN_CODE_CODELLAMA.executor": "Debug",
-    "Python.GEN_CODE_TEXT_CLAUDE_HAIKU.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_70B_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_LLAMA3_Q5.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL8x7B_Q5.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL_8x22B_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_PHI3_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_MISTRAL8x7B_Q3.executor": "Debug",
-    "Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_70B_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_MISTRAL.executor": "Debug",
-    "Python.GEN_COMIC_STORYDIFFIUSION.executor": "Run",
-    "Python.GEN_COMIC_STORYDIFFIUSION_GRADIO.executor": "Debug",
-    "Python.GEN_PIC_SDXL.executor": "Debug",
-    "Python.GEN_PIC_SDXL_LIGHTNING.executor": "Debug",
-    "Python.GEN_PIC_STABLE_DIFFXL.executor": "ConcurrencyExecutor",
-    "Python.GEN_TEXT.executor": "Debug",
-    "Python.GEN_TEXT_LLAMA_3.executor": "Debug",
-    "Python.GEN_TEXT_LLAMA_CPP.executor": "Debug",
-    "Python.GEN_TEXT_LLAMA_CPP_LLAMA3.executor": "Debug",
-    "Python.GEN_TEXT_OCTOPUS_V2.executor": "Debug",
-    "Python.GEN_TEXT_OLLAMA.executor": "Debug",
-    "Python.GPU_JAX.executor": "Debug",
-    "Python.GPU_PL.executor": "Debug",
-    "Python.GPU_PYTORCH.executor": "Debug",
-    "Python.GPU_TF.executor": "Debug",
-    "Python.GPU_TRAX.executor": "Debug",
-    "Python.LLM_FINETUNE_LLAMA3.executor": "Debug",
-    "Python.PIC_RECOGNIZE_CLOUDE_HAIKU.executor": "Debug",
-    "Python.PYTHON_ENV_CHECK.executor": "Run",
-    "Python.QM_NIXTLA_FIRST.executor": "Debug",
-    "Python.STT_FASTERWHISPER.executor": "Debug",
-    "Python.STT_MMS.executor": "Debug",
-    "Python.STT_WHISPERTIMESTAMPED.executor": "Debug",
-    "Python.STT_WHISPERX.executor": "Debug",
-    "Python.STT_WHISPER_STREAMING.executor": "Debug",
-    "Python.Sliding_AppBar.executor": "Run",
-    "Python.TRANSFORMERS_WHISPER.executor": "Debug",
-    "Python.TTS_BARK.executor": "Debug",
-    "Python.TTS_BARK_HALF.executor": "Debug",
-    "Python.TTS_BARK_MP.executor": "Run",
-    "Python.TTS_OPENAI.executor": "Debug",
-    "Python.TTS_OPENAI_API.executor": "Debug",
-    "Python.VIDEO_PLAYER.executor": "Debug",
-    "Python.basic-auth.executor": "Debug",
-    "Python.codemaster4.executor": "Debug",
-    "Python.dark_light_switch.executor": "Debug",
-    "Python.example.executor": "Run",
-    "Python.file-picker-all-modes.executor": "Run",
-    "Python.file-picker-upload-progress.executor": "Run",
-    "Python.main (1).executor": "Debug",
-    "Python.main (2).executor": "Debug",
-    "Python.main (3).executor": "Debug",
-    "Python.main (4).executor": "Debug",
-    "Python.main (5).executor": "Debug",
-    "Python.page_window.executor": "Debug",
-    "Python.responsive_menu_layout.executor": "Run",
-    "Python.run.executor": "Run",
-    "Python.simple-inference.executor": "Run",
-    "Python.simple_desktop_layout.executor": "Run",
-    "Python.test2.executor": "Debug",
-    "Python.urlShortner.executor": "Run",
-    "Python.vertical_loading_animation.executor": "Run",
-    "Python.weather_example.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/home/bigai/PycharmProjects/BIGAI/ENGINE",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.ALOHAPP_ANKI (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ALOHAPP_KANJI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ALOHAPP_ROMANJI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ALOHAPP_TRANSLATE.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.APP_CONVERSATIONS_AI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.APP_CONVERSATIONS_AI_V2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.APP_SENTENCES.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Anthropic_test.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CODE_GEN_BY_CLOUDE_HAIKU.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CODE_GEN_LLAMA3_70B.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CODE_GEN_LLAMA3_8B.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_CODELLAMA.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_CLAUDE_HAIKU.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_70B_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_LLAMA3_Q5.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL8x7B_Q5.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL_8x22B_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_PHI3_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_MISTRAL8x7B_Q3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_70B_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_MISTRAL.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_COMIC_STORYDIFFIUSION.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GEN_COMIC_STORYDIFFIUSION_GRADIO.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_PIC_SDXL.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_PIC_SDXL_LIGHTNING.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_PIC_STABLE_DIFFXL.executor&quot;: &quot;ConcurrencyExecutor&quot;,
+    &quot;Python.GEN_TEXT.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_TEXT_LLAMA_3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_TEXT_LLAMA_CPP.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_TEXT_LLAMA_CPP_LLAMA3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_TEXT_OCTOPUS_V2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_TEXT_OLLAMA.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GPU_JAX.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GPU_PL.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GPU_PYTORCH.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GPU_TF.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GPU_TRAX.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.LLM_FINETUNE_LLAMA3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PIC_RECOGNIZE_CLOUDE_HAIKU.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PIC_RECOGNIZE_OLLAMA_LLAVA.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PYTHON_ENV_CHECK.executor&quot;: &quot;Run&quot;,
+    &quot;Python.QM_NIXTLA_FIRST.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.RECOG_PICTURE_OLLAMA_LLAVA.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_FASTERWHISPER.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_MMS.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_WHISPERTIMESTAMPED.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_WHISPERX.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_WHISPER_STREAMING.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Sliding_AppBar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TRANSFORMERS_WHISPER.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TTS_BARK.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TTS_BARK_HALF.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TTS_BARK_MP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TTS_OPENAI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TTS_OPENAI_API.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.VIDEO_PLAYER.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.basic-auth.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.codemaster4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.dark_light_switch.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file-picker-all-modes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file-picker-upload-progress.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main (4).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main (5).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.page_window.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.responsive_menu_layout.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple-inference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_desktop_layout.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.urlShortner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vertical_loading_animation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.weather_example.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bigai/PycharmProjects/BIGAI/ENGINE/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ENGINE/images" />
       <recent name="$PROJECT_DIR$/ENGINE" />
       <recent name="$PROJECT_DIR$/../ALL_AI/speech-to-code-main" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\ENGINE" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\DATA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MODELS/TEXT" />
@@ -176,7 +179,7 @@
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP/USER" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.GEN_COMIC_STORYDIFFIUSION_GRADIO">
+  <component name="RunManager" selected="Python.PIC_RECOGNIZE_OLLAMA_LLAVA">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="TensorFlow-Developer-Certificate-Guide" />
       <option name="ENV_FILES" value="" />
@@ -319,6 +322,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GPU_TF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PIC_RECOGNIZE_OLLAMA_LLAVA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/PIC_RECOGNIZE_OLLAMA_LLAVA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -492,11 +518,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PIC_RECOGNIZE_OLLAMA_LLAVA" />
         <item itemvalue="Python.GEN_COMIC_STORYDIFFIUSION_GRADIO" />
         <item itemvalue="Python.GEN_COMIC_STORYDIFFIUSION_GRADIO" />
         <item itemvalue="Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_70B_Q4" />
         <item itemvalue="Python.GPU_PYTORCH" />
-        <item itemvalue="Python.GPU_TF" />
       </list>
     </recent_temporary>
   </component>
@@ -829,7 +855,7 @@
       <workItem from="1714807663378" duration="3187000" />
       <workItem from="1714813246297" duration="11000" />
       <workItem from="1714848726097" duration="648000" />
-      <workItem from="1714879228331" duration="989000" />
+      <workItem from="1714879228331" duration="2571000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -858,22 +884,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00035" summary="BIGAI ENGINE WHISPER">
-      <option name="closed" value="true" />
-      <created>1708428820423</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1708428820423</updated>
-    </task>
-    <task id="LOCAL-00036" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1709749182162</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1709749182162</updated>
     </task>
     <task id="LOCAL-00037" summary="BIGAI 111 START">
       <option name="closed" value="true" />
@@ -1219,7 +1229,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714880121364</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="GEN COMIC">
+      <option name="closed" value="true" />
+      <created>1714880227195</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1714880227195</updated>
+    </task>
+    <task id="LOCAL-00081" summary="GEN COMIC">
+      <option name="closed" value="true" />
+      <created>1714880270216</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1714880270216</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1403,6 +1429,11 @@
           <line>7</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/PIC_RECOGNIZE_OLLAMA_LLAVA.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1488,6 +1519,7 @@
     <SUITE FILE_PATH="coverage/BIGAI$CODE_GEN_LLAMA3_8B.coverage" NAME="CODE_GEN_LLAMA3_8B Coverage Results" MODIFIED="1713635101835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$vertical_loading_animation.coverage" NAME="vertical_loading_animation Coverage Results" MODIFIED="1710318652097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/flet_animations" />
     <SUITE FILE_PATH="coverage/BIGAI$TRANSFORMERS_WHISPER.coverage" NAME="TRANSFORMERS_WHISPER Coverage Results" MODIFIED="1713694873793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$RECOG_PICTURE_OLLAMA_LLAVA.coverage" NAME="PIC_RECOGNIZE_OLLAMA_LLAVA Coverage Results" MODIFIED="1714882117214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_TEXT_LLAMA_CPP_LLAMA3.coverage" NAME="GEN_TEXT_LLAMA_CPP_LLAMA3 Coverage Results" MODIFIED="1713543522542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_COMIC_STORYDIFFIUSION_GRADIO.coverage" NAME="GEN_COMIC_STORYDIFFIUSION_GRADIO Coverage Results" MODIFIED="1714879931717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_TEXT_LLAMA_3.coverage" NAME="GEN_TEXT_LLAMA_3 Coverage Results" MODIFIED="1713705455725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
