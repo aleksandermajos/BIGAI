@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="TEST OUT DEEPGRAM">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="FINAL README LIST">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -864,7 +864,8 @@
       <workItem from="1715085173233" duration="649000" />
       <workItem from="1715160132797" duration="2101000" />
       <workItem from="1715177095047" duration="1930000" />
-      <workItem from="1715242574286" duration="1769000" />
+      <workItem from="1715242574286" duration="2602000" />
+      <workItem from="1715245439872" duration="574000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -893,22 +894,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00043" summary="BIGAI CONDA ENV">
-      <option name="closed" value="true" />
-      <created>1712879932070</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1712879932070</updated>
-    </task>
-    <task id="LOCAL-00044" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1713260735990</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1713260735990</updated>
     </task>
     <task id="LOCAL-00045" summary="BIGAI README">
       <option name="closed" value="true" />
@@ -1254,7 +1239,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715161802730</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="FINAL README LIST">
+      <option name="closed" value="true" />
+      <created>1715244490857</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1715244490857</updated>
+    </task>
+    <task id="LOCAL-00089" summary="FINAL README LIST">
+      <option name="closed" value="true" />
+      <created>1715244574839</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1715244574840</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1280,7 +1281,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="ENGINE REFACTORING" />
     <MESSAGE value="ENGINE ENVIROMENT" />
     <MESSAGE value="BIGAI SCHOOL PORZADKI" />
     <MESSAGE value="BIGAI DEL ALL NON EXISTING SUPROJECTS" />
@@ -1305,7 +1305,8 @@
     <MESSAGE value="README UPD" />
     <MESSAGE value="ocr" />
     <MESSAGE value="TEST OUT DEEPGRAM" />
-    <option name="LAST_COMMIT_MESSAGE" value="TEST OUT DEEPGRAM" />
+    <MESSAGE value="FINAL README LIST" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINAL README LIST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
