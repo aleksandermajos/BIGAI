@@ -865,7 +865,8 @@
       <workItem from="1715160132797" duration="2101000" />
       <workItem from="1715177095047" duration="1930000" />
       <workItem from="1715242574286" duration="2602000" />
-      <workItem from="1715245439872" duration="574000" />
+      <workItem from="1715245439872" duration="1078000" />
+      <workItem from="1715246551513" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -894,22 +895,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00045" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1713260952433</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1713260952433</updated>
-    </task>
-    <task id="LOCAL-00046" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1713434987373</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1713434987373</updated>
     </task>
     <task id="LOCAL-00047" summary="GPU AWARE">
       <option name="closed" value="true" />
@@ -1255,7 +1240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715244574840</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="FINAL README LIST">
+      <option name="closed" value="true" />
+      <created>1715246021997</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1715246021997</updated>
+    </task>
+    <task id="LOCAL-00091" summary="FINAL README LIST">
+      <option name="closed" value="true" />
+      <created>1715246441133</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1715246441133</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
