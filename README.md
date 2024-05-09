@@ -54,13 +54,13 @@ BIGAI/ENGINE/ANY.py
 ### BUSINESS BASED ON BIGAI:
 | NAME            | PURPOSE                                                                | TIME - WEEKS |
 |-----------------|------------------------------------------------------------------------|--------------|
-| BIGAI_SCHOOL    | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       | ?            |
-| BIGAI_MARKETING | FOR A REASON TO BE VISIBLA SA YOUR BUSINESS                            | ?            |
-| BIGAI_ENGINE    | CORE OF BIGAI.GRPHH BASED LLMs REASONING AND INTERPRETABILITY          | ?            |
-| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | ?            |
-| QUANTMAVERICK   | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   | ?            |
-| SAMURAI         | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                        | ?            |
-| BIGAI_BUSINESS  | TRACE YOUR BUSINESS ON A TIMELINE, AND BUILD NEW ONE                   | ?            |
+| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 30+3=33      |
+| BIGAI_ENGINE    | CORE OF BIGAI.GRPHH BASED LLMs REASONING AND INTERPRETABILITY          | 6            |
+| BIGAI_MARKETING | FOR A REASON TO BE VISIBLA SA YOUR BUSINESS                            | 2            |
+| BIGAI_SCHOOL    | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       | 2            |
+| QUANTMAVERICK   | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   | 8            |
+| SAMURAI         | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                        | 16           |
+| BIGAI_BUSINESS  | TRACE YOUR BUSINESS ON A TIMELINE, AND BUILD NEW ONE                   | 2            |
 
 ### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:
 
