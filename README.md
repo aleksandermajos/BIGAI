@@ -20,40 +20,45 @@ BIGAI/ENGINE/ANY.py
 * DATA - DATA STORAGE FOR SMALL FILES
 
 ### BIG NODES:
-| NAME                          | EXTERNAL API   | INTERNAL              | INTERNAL API | MEMORY   |
-|-------------------------------|----------------|-----------------------|--------------|----------|
-| TTS                           | OPENAI API🔥   |                       |              | 0        |
-| STT                           |                | WHISPERCPP🔥          |              | 2        |
-| GEN CODE_TEXT                 | CLOUDE HAIKU🔥 | LLAMA3_8B 🔥          |              | 4,5x4=18 |
-| TRANSLATE                     |                | FAIRSEQ               |              | 2        |
-| GEN PICTURE                   |                | STABLE DIFFIUSION 3.0 |              | 12       |
-| RECOGNIZE PICTURE             | CLOUDE HAIKU🔥 | LLAVA 1.6 🔥          |              | 8        |
-| RECOGNIZE KANJI               |                | ?                     |              |          |
-| GEN COMIC                     |                | STORY DIFFIUSION 🔥   |              | 24       |
-| GEN VIDEO                     |                | ?                     |              |          |
-| GEN 3D OBJECTS                |                | ?                     |              |          |
-| GEN VOICE/CLONE VOICE         |                | ?                     |              | 6        |
-| GEN MUSIC                     |                | ?                     |              |          |
-| GEN TIMELINE/TIMESERIES       |                | ?                     |              | 4        |
-| RECOGNIZE TIMELINE/TIMESERIES |                | NIXTLA                |              | 2        |
-| GEN CREW TOGETHER             |                | CREWAI                |              | 2        |
-| RL AGENT                      |                | PYTORCH               |              | 6        |
-| GEN INFRASTRUCTURE            |                | ?                     |              |          |
-| GEN GRAPH KNOWLEDGE           |                | ?                     |              | 2        |
-| GEN GRAPH REASONING           |                | ?                     |              | 2        |
-| GEN GRAPH ACTION              |                | ?                     |              | 2        |
-| GEN iOT ACTION                |                | ?                     |              |          |
-| GEN EXTENSION WEB             |                | ?                     |              |          |
+| NAME                             | EXTERNAL API | INTERNAL              | INTERNAL API | TIME |
+|----------------------------------|--------------|-----------------------|--------------|------|
+| TTS                              | OPENAI API   |                       |              | 2    |
+| STT                              |              | WHISPERCPP            |              | 5    |
+| GEN CODE_TEXT                    | CLOUDE HAIKU | LLAMA3_8B             |              | 3    |
+| GEN DATA TO CODE                 |              |                       |              | 5    |
+| FINE TUNE LLAMA3 ON DATA TO CODE |              |                       |              | 10   |
+| VISUALIZE SOLUTION ON GRAPH      |              |                       |              | 8    |
+| TRANSLATE                        |              | FAIRSEQ               |              | 3    |
+| GEN PICTURE                      |              | STABLE DIFFIUSION 3.0 |              | 2    |
+| RECOGNIZE PICTURE                | CLOUDE HAIKU | LLAVA 1.6             |              | 3    |
+| RECOGNIZE KANJI                  |              | ?                     |              | 5    |
+| GEN COMIC                        |              | STORY DIFFIUSION      |              | 5    |
+| GEN VIDEO                        |              | ?                     |              | 6    |
+| GEN 3D OBJECTS                   |              | ?                     |              | 9    |
+| GEN VOICE/CLONE VOICE            |              | ?                     |              | 6    |
+| GEN MUSIC                        |              | ?                     |              | 8    |
+| GEN TIMELINE                     |              | ?                     |              | 12   |
+| GEN TIMESERIES                   |              | ?                     |              | 10   |
+| RECOGNIZE TIMELINE/TIMESERIES    |              | NIXTLA                |              | 8    |
+| GEN CREW TOGETHER                |              | CREWAI                |              | 6    |
+| RL AGENT                         |              | PYTORCH               |              | 8    |
+| GEN INFRASTRUCTURE               |              | ?                     |              | 12   |
+| GEN GRAPH KNOWLEDGE              |              | ?                     |              | 10   |
+| GEN GRAPH REASONING              |              | ?                     |              | 10   |
+| GEN GRAPH ACTION                 |              | ?                     |              | 10   |
+| GEN iOT ACTION                   |              | ?                     |              | 6    |
+| GEN EXTENSION WEB                |              | ?                     |              | 8    |
 
 
 
 ### BUSINESS BASED ON BIGAI:
-| NAME          | PURPOSE                                                                | TIME - WEEKS |
-|---------------|------------------------------------------------------------------------|-------------|
-| BIGAI_SCHOOL  | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       | 8           |
+| NAME          | PURPOSE                                                               | TIME - WEEKS |
+|---------------|-----------------------------------------------------------------------|-------------|
+| BIGAI_SCHOOL  | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS      | 8           |
 | ALOHAPP       | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 8           |
-| QUANTMAVERICK | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   | 10          |
-| SAMURAI       | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                        | 8           |
+| QUANTMAVERICK | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS  | 10          |
+| SAMURAI       | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                       | 8           |
+| BIGAI         | TRACE YOUR BUSINESS ON A TIMELINE, AND BUILD NEW ONE                  | 8           |
 
 ### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:
 
