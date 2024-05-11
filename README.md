@@ -75,16 +75,16 @@ BIGAI/ENGINE/ANY.py
 |-----------------|------------------------------------------------------------------------|--------------|
 | BIGAI_SCHOOL    | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       | 7+3+8=18     |
 | BIGAI_ENGINE    | CORE OF BIGAI.GRAPH BASED LLMs REASONING AND INTERPRETABILITY          | 20           |
-| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 32/2=16      |
 | BIGAI_MARKETING | FOR A REASON TO BE VISIBLA SA YOUR BUSINESS                            | 4            |
 | BIGAI_FINANCE   | FOR A REASON TO FIND SOURCES OF MONEY                                  | 4            |
+| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 18           |
 | QUANTMAVERICK   | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   | 8            |
 | BIGAI_FRONT     | DIFFERENT FRONTENDS SIMILAR TO MODULAR NATURE OF LINUX                 | 6            |
 | SAMURAIAPP      | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                        | 4            |
 | BIGAI_BUSINESS  | TRACE YOUR BUSINESS ON A TIMELINE, AND BUILD NEW ONE                   | 3            |
 | ALOHA GROUP     | ALOHA BASED APPS                                                       | 6+6+8=20     |
 | QUANT GROUP     | QUANT BASED APPS                                                       | 4+4+6=14     |
-| SAMURAI GROUP   | SAMURAI BASED APPS                                                     | 39           |
+| SAMURAI GROUP   | SAMURAI BASED APPS                                                     | 37           |
 | --------------- | ---------------------------------------------------------------------- | SUMMA:156    |
 
 
