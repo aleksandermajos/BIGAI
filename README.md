@@ -35,6 +35,7 @@ BIGAI/ENGINE/ANY.py
 | TEST CODE CREW                                           |                |                         |                | 5      |
 | TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG |                |                         |                | 7      |
 | TRAIN OWN CREW ON TF CODE FROM DOCUMENTATION USING RAG   |                |                         |                | 3      |
+| ------------------------------------                     | -------------- | ----------------------- | -------------- | ------ |
 | GEN GRAPH KNOWLEDGE                                      |                | MICROSOFT VOT           |                | 8      |
 | GEN GRAPH REASONING                                      |                | MICROSOFT VOT           |                | 5      |
 | VISUALIZE SOLUTION ON GRAPH                              |                | MICROSOFT VOT           |                | 3      |
@@ -71,8 +72,8 @@ BIGAI/ENGINE/ANY.py
 | NAME            | PURPOSE                                                                | TIME - WEEKS |
 |-----------------|------------------------------------------------------------------------|--------------|
 | BIGAI_SCHOOL    | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       | 17+3=20      |
-| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 30+3=33      |
-| BIGAI_ENGINE    | CORE OF BIGAI.GRPHH BASED LLMs REASONING AND INTERPRETABILITY          | 6            |
+| BIGAI_ENGINE    | CORE OF BIGAI.GRAPH BASED LLMs REASONING AND INTERPRETABILITY          | 14           |
+| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 34           |
 | BIGAI_MARKETING | FOR A REASON TO BE VISIBLA SA YOUR BUSINESS                            | 2            |
 | BIGAI_FINANCE   | FOR A REASON TO FIND SOURCES OF MONEY                                  | 4            |
 | QUANTMAVERICK   | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   | 6            |

@@ -1183,7 +1183,8 @@
       <workItem from="1715265919187" duration="544000" />
       <workItem from="1715334467362" duration="587000" />
       <workItem from="1715335126732" duration="41000" />
-      <workItem from="1715342512328" duration="3088000" />
+      <workItem from="1715342512328" duration="3539000" />
+      <workItem from="1715365781769" duration="218000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1212,14 +1213,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00048" summary="LLAMA 3 TEST">
-      <option name="closed" value="true" />
-      <created>1713542420373</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1713542420373</updated>
     </task>
     <task id="LOCAL-00049" summary="LLAMA 3 TEST">
       <option name="closed" value="true" />
@@ -1573,7 +1566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715266182746</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="FINAL README LIST">
+      <option name="closed" value="true" />
+      <created>1715345612505</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1715345612506</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
