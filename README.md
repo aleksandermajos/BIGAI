@@ -22,31 +22,33 @@ BIGAI/ENGINE/ANY.py
 ### BIG NODES:
 | NAME                                                     | EXTERNAL API   | INTERNAL                | INTERNAL API   | TIME D          |
 |----------------------------------------------------------|----------------|-------------------------|----------------|-----------------|
-| GEN CODE_TEXT                                            | CLOUDE HAIKU   | LLAMA3_8B               |                | 0               |
-| GEN CREW TOGETHER                                        |                | CREWAI                  |                | 3               |
-| GEN AUTOGEN TOGETHER                                     |                | AUTOGEN                 |                | 3               |
+| GEN CODE_TEXT                                            | CLOUDE HAIKU   | OLLAMA_LLAMA3_8B        |                | 2               |
+| GEN CREW TOGETHER                                        |                | CREWAI                  |                | 4               |
+| GEN AUTOGEN TOGETHER                                     |                | AUTOGEN                 |                | 4               |
 | GEN LANGCHAIN TOGETHER                                   |                | LANGCHAIN               |                | 3               |
 | GEN LANGGRAPH TOGETHER                                   |                | LANGGRAPH               |                | 3               |
-| GEN DATA 5K TO CODE TASKS                                |                | CODILITY DATA           |                | 4               |
+| GEN DATA 5K TO CODE TASKS                                |                | CODILITY DATA           |                | 5               |
 | FINE TUNE CREW ON READY DATA                             |                |                         |                | 2               |
-| FINE TUNE CREW ON DATA TO CODE                           |                |                         |                | 2               |
-| RAG CREW ON READY DATA                                   |                |                         |                | 3               |
+| FINE TUNE CREW ON DATA TO CODE                           |                |                         |                | 4               |
+| RAG CREW ON READY DATA                                   |                |                         |                | 2               |
 | RAG CREW ON DATA TO CODE                                 |                |                         |                | 2               |
-| TEST CODE CREW                                           |                |                         |                | 7               |
-| TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG |                |                         |                | 7               |
+| TEST CODE CREW                                           |                |                         |                | 5               |
+| TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG |                |                         |                | 5               |
 | TRAIN OWN CREW ON TF CODE FROM DOCUMENTATION USING RAG   |                |                         |                | 3               |
-| -------------------------------------------------------  | -------------- | ----------------------- | -------------- | SUMMA: 42/6=7   |
+| KNOWLEDGE OUTSIDE BOOK NLP                               |                |                         |                | =10*3=30/6=5    |
+| -------------------------------------------------------  | -------------- | ----------------------- | -------------- | SUMMA: 49/7=7   |
 | -----------------TRAVEL TO JAPAN-----------------        | -------------- | ----------------------- | -------------- | SUMMA: 3        |
 | GEN GRAPH KNOWLEDGE                                      |                | MICROSOFT VOT           |                | 8               |
 | GEN GRAPH REASONING                                      |                | MICROSOFT VOT           |                | 5               |
 | VISUALIZE SOLUTION ON GRAPH                              |                | MICROSOFT VOT           |                | 3               |
-| TRAIN OWN CREW ON ACTON AND API                          |                |                         |                | 8               |
+| TRAIN OWN CREW ON ACTON AND API                          |                |                         |                | 6               |
 | GEN GRAPH ACTION                                         |                | ?                       |                | 5               |
 | TRAIN OWN CREW ON GRAPH ACTIONS                          |                |                         |                | 3               |
 | FINDING EMPTY SPACES IN GRAPHS                           |                |                         |                | 6               |
 | GENERATE CODE. KNOWLEDGE, REASONING OR ACTION IN GRAPHS  |                |                         |                | 6               |
 | GENERATE FLET GUI FOR BIGAI_SCHOOL                       |                | ?                       |                | 5               |
-| -------------------------------------------------------  | -------------- | ----------------------- | -------------- | SUMMA: 48/6=8   |
+| KNOWLEDGE OUTSIDE BOOK GRPAHS                            |                |                         |                | =10*3=30/6=5    |
+| -------------------------------------------------------  | -------------- | ----------------------- | -------------- | SUMMA: 53/7=8   |
 | TTS                                                      | OPENAI API     |                         |                | 2               |
 | STT                                                      |                | WHISPERCPP              |                | 5               |
 | TRANSLATE                                                |                | FAIRSEQ                 |                | 3               |
@@ -75,9 +77,9 @@ BIGAI/ENGINE/ANY.py
 |-----------------|------------------------------------------------------------------------|--------------|
 | BIGAI_SCHOOL    | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       | 7+3+8=18     |
 | BIGAI_ENGINE    | CORE OF BIGAI.GRAPH BASED LLMs REASONING AND INTERPRETABILITY          | 20           |
+| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 10           |
 | BIGAI_MARKETING | FOR A REASON TO BE VISIBLA SA YOUR BUSINESS                            | 4            |
 | BIGAI_FINANCE   | FOR A REASON TO FIND SOURCES OF MONEY                                  | 4            |
-| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 18           |
 | QUANTMAVERICK   | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   | 8            |
 | BIGAI_FRONT     | DIFFERENT FRONTENDS SIMILAR TO MODULAR NATURE OF LINUX                 | 6            |
 | SAMURAIAPP      | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                        | 4            |

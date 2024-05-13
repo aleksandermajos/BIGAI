@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="FINAL README LIST">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1184,7 +1185,11 @@
       <workItem from="1715335126732" duration="41000" />
       <workItem from="1715342512328" duration="3539000" />
       <workItem from="1715365781769" duration="218000" />
-      <workItem from="1715392477759" duration="2140000" />
+      <workItem from="1715392477759" duration="4218000" />
+      <workItem from="1715397642156" duration="499000" />
+      <workItem from="1715398387782" duration="60000" />
+      <workItem from="1715501468896" duration="856000" />
+      <workItem from="1715577106965" duration="4679000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1213,22 +1218,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00050" summary="LLAMA 3 FINETUNE">
-      <option name="closed" value="true" />
-      <created>1713608124240</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1713608124240</updated>
-    </task>
-    <task id="LOCAL-00051" summary="LLAMA 3 CODE GEN">
-      <option name="closed" value="true" />
-      <created>1713692698657</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1713692698658</updated>
     </task>
     <task id="LOCAL-00052" summary="ENGINE REFACTORING">
       <option name="closed" value="true" />
@@ -1574,7 +1563,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715392592479</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="ALL BUSINESS">
+      <option name="closed" value="true" />
+      <created>1715394636702</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1715394636702</updated>
+    </task>
+    <task id="LOCAL-00096" summary="BIGAI">
+      <option name="closed" value="true" />
+      <created>1715397626645</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1715397626645</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1600,8 +1605,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="ENGINE ENVIROMENT" />
-    <MESSAGE value="BIGAI SCHOOL PORZADKI" />
     <MESSAGE value="BIGAI DEL ALL NON EXISTING SUPROJECTS" />
     <MESSAGE value="BIGAI CODE LLAMA3" />
     <MESSAGE value="BIGAI ENV UPDATE" />
@@ -1625,7 +1628,9 @@
     <MESSAGE value="ocr" />
     <MESSAGE value="TEST OUT DEEPGRAM" />
     <MESSAGE value="FINAL README LIST" />
-    <option name="LAST_COMMIT_MESSAGE" value="FINAL README LIST" />
+    <MESSAGE value="ALL BUSINESS" />
+    <MESSAGE value="BIGAI" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
