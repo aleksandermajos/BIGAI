@@ -20,74 +20,71 @@ BIGAI/ENGINE/ANY.py
 * DATA - DATA STORAGE FOR SMALL FILES
 
 ### BIG NODES:
-| NAME                                                     | EXTERNAL API   | INTERNAL                | INTERNAL API   | TIME D          |
-|----------------------------------------------------------|----------------|-------------------------|----------------|-----------------|
-| GEN CODE_TEXT                                            | CLOUDE HAIKU   | OLLAMA_LLAMA3_8B        |                | 2               |
-| GEN CREW TOGETHER                                        |                | CREWAI                  |                | 4               |
-| GEN AUTOGEN TOGETHER                                     |                | AUTOGEN                 |                | 4               |
-| GEN LANGCHAIN TOGETHER                                   |                | LANGCHAIN               |                | 3               |
-| GEN LANGGRAPH TOGETHER                                   |                | LANGGRAPH               |                | 3               |
-| GEN DATA 5K TO CODE TASKS                                |                | CODILITY DATA           |                | 5               |
-| FINE TUNE CREW ON READY DATA                             |                |                         |                | 2               |
-| FINE TUNE CREW ON DATA TO CODE                           |                |                         |                | 4               |
-| RAG CREW ON READY DATA                                   |                |                         |                | 2               |
-| RAG CREW ON DATA TO CODE                                 |                |                         |                | 2               |
-| TEST CODE CREW                                           |                |                         |                | 5               |
-| TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG |                |                         |                | 5               |
-| TRAIN OWN CREW ON TF CODE FROM DOCUMENTATION USING RAG   |                |                         |                | 3               |
-| KNOWLEDGE OUTSIDE BOOK NLP                               |                |                         |                | =10*3=30/6=5    |
-| -------------------------------------------------------  | -------------- | ----------------------- | -------------- | SUMMA: 49/7=7   |
-| -----------------TRAVEL TO JAPAN-----------------        | -------------- | ----------------------- | -------------- | SUMMA: 3        |
-| GEN GRAPH KNOWLEDGE                                      |                | MICROSOFT VOT           |                | 8               |
-| GEN GRAPH REASONING                                      |                | MICROSOFT VOT           |                | 5               |
-| VISUALIZE SOLUTION ON GRAPH                              |                | MICROSOFT VOT           |                | 3               |
-| TRAIN OWN CREW ON ACTON AND API                          |                |                         |                | 6               |
-| GEN GRAPH ACTION                                         |                | ?                       |                | 5               |
-| TRAIN OWN CREW ON GRAPH ACTIONS                          |                |                         |                | 3               |
-| FINDING EMPTY SPACES IN GRAPHS                           |                |                         |                | 6               |
-| GENERATE CODE. KNOWLEDGE, REASONING OR ACTION IN GRAPHS  |                |                         |                | 6               |
-| GENERATE FLET GUI FOR BIGAI_SCHOOL                       |                | ?                       |                | 5               |
-| KNOWLEDGE OUTSIDE BOOK GRPAHS                            |                |                         |                | =10*3=30/6=5    |
-| -------------------------------------------------------  | -------------- | ----------------------- | -------------- | SUMMA: 53/7=8   |
-| TTS                                                      | OPENAI API     |                         |                | 2               |
-| STT                                                      |                | WHISPERCPP              |                | 5               |
-| TRANSLATE                                                |                | FAIRSEQ                 |                | 3               |
-| PROTOTYPE BIGAI_SCHOOL                                   |                | ?                       |                | 5               |
-| GEN PICTURE                                              |                | STABLE DIFFIUSION 3.0   |                | 2               |
-| RECOGNIZE PICTURE                                        | CLOUDE HAIKU   | LLAVA 1.6               |                | 3               |
-| RECOGNIZE KANJI                                          |                | ?                       |                | 5               |
-| GEN COMIC                                                |                | STORY DIFFIUSION        |                | 5               |
-| GEN VIDEO                                                |                | ?                       |                | 6               |
-| GEN 3D OBJECTS                                           |                | ?                       |                | 9               |
-| GEN VOICE/CLONE VOICE                                    |                | ?                       |                | 6               |
-| GEN MUSIC                                                |                | ?                       |                | 8               |
-| GEN TIMELINE                                             |                | ?                       |                | 12              |
-| GEN TIMESERIES                                           |                | ?                       |                | 10              |
-| RECOGNIZE TIMELINE/TIMESERIES                            |                | NIXTLA                  |                | 8               |
-| RL AGENT                                                 |                | PYTORCH                 |                | 8               |
-| GEN INFRASTRUCTURE                                       |                | ?                       |                | 12              |
-| GEN iOT ACTION                                           |                | ?                       |                | 6               |
-| GEN EXTENSION WEB                                        |                | ?                       |                | 8               |
-| -------------------------------------------------------  | -------------- | ----------------------- | -------------- | SUMMA: 123/6=20 |
+| NAME                                                     | EXTERNAL API   | IN BIGAI PROJECT        | INTERNAL API   |
+|----------------------------------------------------------|----------------|-------------------------|----------------|
+| GEN CODE_TEXT                                            | CLOUDE HAIKU   |                         |                |
+| GEN CREW TOGETHER                                        |                |                         |                |
+| GEN AUTOGEN TOGETHER                                     |                |                         |                |
+| GEN LANGCHAIN TOGETHER                                   |                |                         |                |
+| GEN LANGGRAPH TOGETHER                                   |                |                         |                |
+| GEN DATA 5K TO CODE TASKS                                |                |                         |                |
+| FINE TUNE CREW ON READY DATA                             |                |                         |                |
+| FINE TUNE CREW ON DATA TO CODE                           |                |                         |                |
+| RAG CREW ON READY DATA                                   |                |                         |                |
+| RAG CREW ON DATA TO CODE                                 |                |                         |                |
+| TEST CODE CREW                                           |                |                         |                |
+| TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG |                |                         |                |
+| TRAIN OWN CREW ON TF CODE FROM DOCUMENTATION USING RAG   |                |                         |                |
+| KNOWLEDGE OUTSIDE BOOK NLP                               |                |                         |                |
+| GEN GRAPH KNOWLEDGE                                      |                |                         |                |
+| GEN GRAPH REASONING                                      |                |                         |                |
+| VISUALIZE SOLUTION ON GRAPH                              |                |                         |                |
+| TRAIN OWN CREW ON ACTON AND API                          |                |                         |                |
+| GEN GRAPH ACTION                                         |                |                         |                |
+| TRAIN OWN CREW ON GRAPH ACTIONS                          |                |                         |                |
+| FINDING EMPTY SPACES IN GRAPHS                           |                |                         |                |
+| GENERATE CODE. KNOWLEDGE, REASONING OR ACTION IN GRAPHS  |                |                         |                |
+| GENERATE FLET GUI FOR BIGAI_SCHOOL                       |                |                         |                |
+| KNOWLEDGE OUTSIDE BOOK GRPAHS                            |                |                         |                |
+| TTS                                                      | OPENAI API     |                         |                |
+| STT                                                      |                |                         |                |
+| TRANSLATE                                                |                |                         |                |
+| PROTOTYPE BIGAI_SCHOOL                                   |                |                         |                |
+| GEN PICTURE                                              |                |                         |                |
+| RECOGNIZE PICTURE                                        | CLOUDE HAIKU   |                         |                |
+| RECOGNIZE KANJI                                          |                |                         |                |
+| GEN COMIC                                                |                |                         |                |
+| GEN VIDEO                                                |                |                         |                |
+| GEN 3D OBJECTS                                           |                |                         |                |
+| GEN VOICE/CLONE VOICE                                    |                |                         |                |
+| GEN MUSIC                                                |                |                         |                |
+| GEN TIMELINE                                             |                |                         |                |
+| GEN TIMESERIES                                           |                |                         |                |
+| RECOGNIZE TIMELINE/TIMESERIES                            |                |                         |                |
+| RL AGENT                                                 |                |                         |                |
+| GEN INFRASTRUCTURE                                       |                |                         |                |
+| GEN iOT ACTION                                           |                |                         |                |
+| GEN EXTENSION WEB                                        |                |                         |                |
+| -------------------------------------------------------  | -------------- | ----------------------- | -------------- |
 
 
 
 ### BUSINESS BASED ON BIGAI:
-| NAME            | PURPOSE                                                                | TIME - WEEKS |
-|-----------------|------------------------------------------------------------------------|--------------|
-| BIGAI_SCHOOL    | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       | 7+3+8=18     |
-| BIGAI_ENGINE    | CORE OF BIGAI.GRAPH BASED LLMs REASONING AND INTERPRETABILITY          | 20           |
-| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS | 10           |
-| BIGAI_MARKETING | FOR A REASON TO BE VISIBLA SA YOUR BUSINESS                            | 4            |
-| BIGAI_FINANCE   | FOR A REASON TO FIND SOURCES OF MONEY                                  | 4            |
-| QUANTMAVERICK   | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   | 8            |
-| BIGAI_FRONT     | DIFFERENT FRONTENDS SIMILAR TO MODULAR NATURE OF LINUX                 | 6            |
-| SAMURAIAPP      | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                        | 4            |
-| BIGAI_BUSINESS  | TRACE YOUR BUSINESS ON A TIMELINE, AND BUILD NEW ONE                   | 3            |
-| ALOHA GROUP     | ALOHA BASED APPS                                                       | 6+6+8=20     |
-| QUANT GROUP     | QUANT BASED APPS                                                       | 4+4+6=14     |
-| SAMURAI GROUP   | SAMURAI BASED APPS                                                     | 37           |
-| --------------- | ---------------------------------------------------------------------- | SUMMA:156    |
+| NAME            | PURPOSE                                                                |
+|-----------------|------------------------------------------------------------------------|
+| BIGAI_SCHOOL    | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       |
+| BIGAI_ENGINE    | CORE OF BIGAI.GRAPH BASED LLMs REASONING AND INTERPRETABILITY          |
+| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS |
+| BIGAI_MARKETING | FOR A REASON TO BE VISIBLA SA YOUR BUSINESS                            |
+| BIGAI_FINANCE   | FOR A REASON TO FIND SOURCES OF MONEY                                  |
+| QUANTMAVERICK   | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   |
+| BIGAI_FRONT     | DIFFERENT FRONTENDS SIMILAR TO MODULAR NATURE OF LINUX                 |
+| SAMURAIAPP      | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                        |
+| BIGAI_BUSINESS  | TRACE YOUR BUSINESS ON A TIMELINE, AND BUILD NEW ONE                   |
+| ALOHA GROUP     | ALOHA BASED APPS                                                       |
+| QUANT GROUP     | QUANT BASED APPS                                                       |
+| SAMURAI GROUP   | SAMURAI BASED APPS                                                     |
+| --------------- | ---------------------------------------------------------------------- |
 
 
 ### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:
