@@ -55,7 +55,7 @@ BIGAI/ENGINE/ANY.py
 ### ENGINE NODES:
 | NAME                                                     | EXTERNAL API   | IN BIGAI PROJECT        | INTERNAL API   |
 |----------------------------------------------------------|----------------|-------------------------|----------------|
-| FASTAPI SERVER BLANK                                     |                |                         |                |
+| FASTAPI SERVER TRY                                       |                | ?                       |                |
 | GEN CODE_TEXT                                            | CLOUDE HAIKU   |                         |                |
 | GEN CREW TOGETHER                                        |                |                         |                |
 | GEN AUTOGEN TOGETHER                                     |                |                         |                |
