@@ -1,19 +1,42 @@
 from fastapi import FastAPI, File, UploadFile
 from faster_whisper import WhisperModel
-# import whisper
 import uvicorn
 from io import BytesIO
 import numpy as np
 import librosa
+from fastapi import HTTPException
+from pydantic import BaseModel
+from typing import Dict
 
-# Load the Whisper model
-# model = whisper.load_model("medium")
 model_size = "large-v3"
 model = WhisperModel(model_size, device="cuda", compute_type="float16")
 
-# Initialize FastAPI app
+translations = {
+    ("hello", "es"): "hola",
+    ("world", "es"): "mundo",
+    ("hello", "fr"): "bonjour",
+    ("world", "fr"): "monde"
+}
+class TranslationRequest(BaseModel):
+    text: str
+    target_language: str
+
+
+class TranslationResponse(BaseModel):
+    translated_text: str
+
+
 app = FastAPI()
 
+
+@app.post("/translate", response_model=TranslationResponse)
+def translate(request: TranslationRequest):
+    key = (request.text.lower(), request.target_language.lower())
+    if key in translations:
+        translated_text = translations[key]
+        return TranslationResponse(translated_text=translated_text)
+    else:
+        raise HTTPException(status_code=404, detail="Translation not found")
 
 @app.post("/transcribe/")
 async def transcribe(file: UploadFile = File(...)):
@@ -31,7 +54,7 @@ async def transcribe(file: UploadFile = File(...)):
         audio = np.mean(audio, axis=1)
 
     # Transcribe the audio using Whisper
-    segments, info = model.transcribe(audio, beam_size=5, task='transcribe',language='en')
+    segments, info = model.transcribe(audio, beam_size=5, task='transcribe', language='en')
 
     transcription = ''
     for segment in segments:
