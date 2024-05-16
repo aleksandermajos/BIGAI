@@ -10,7 +10,7 @@ model = WhisperModel(model_size, device="cuda", compute_type="float16")
 # or run on CPU with INT8
 # model = WhisperModel(model_size, device="cpu", compute_type="int8")
 
-segments, info = model.transcribe("my_result.mp3", beam_size=5, task='translate',language='de')
+segments, info = model.transcribe("example.wav", beam_size=5, task='translate',language='en')
 
 print("Detected language '%s' with probability %f" % (info.language, info.language_probability))
 

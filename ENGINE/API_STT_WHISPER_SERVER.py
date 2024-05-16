@@ -1,12 +1,15 @@
 from fastapi import FastAPI, File, UploadFile
-import whisper
+from faster_whisper import WhisperModel
+# import whisper
 import uvicorn
 from io import BytesIO
 import numpy as np
 import librosa
 
 # Load the Whisper model
-model = whisper.load_model("medium")
+# model = whisper.load_model("medium")
+model_size = "large-v3"
+model = WhisperModel(model_size, device="cuda", compute_type="float16")
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -28,10 +31,11 @@ async def transcribe(file: UploadFile = File(...)):
         audio = np.mean(audio, axis=1)
 
     # Transcribe the audio using Whisper
-    result = model.transcribe(audio)
+    segments, info = model.transcribe(audio, beam_size=5, task='transcribe',language='en')
 
-    # Extract the transcription text
-    transcription = result["text"]
+    transcription = ''
+    for segment in segments:
+        transcription += ("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
 
     return {"transcription": transcription}
 
