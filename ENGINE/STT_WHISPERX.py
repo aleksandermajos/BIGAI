@@ -54,16 +54,15 @@ speaker = False # ta flaga ustawia czy dodaje do napisow dzielenie na poszczegol
 
 
 
-from transformers import T5ForConditionalGeneration, T5Tokenizer
-
-model_name = 'jbochi/madlad400-3b-mt'
-model_trans = T5ForConditionalGeneration.from_pretrained(model_name, device_map="auto")
-tokenizer = T5Tokenizer.from_pretrained(model_name)
+checkpoint = 'facebook/nllb-200-distilled-600M'
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
+model_trans = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
+tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 
 
 
 languages = ['rus_Cyrl','pol_Latn','kor_Hang','ukr_Cyrl']  # lista jezykow
-movies = ["movie_1.mp4","movie_2.mp4"] #lista filmow
+movies = ["movie_1.mp4"] #lista filmow
 for movie in movies:
     my_clip = mp.VideoFileClip(movie)
     my_clip.audio.write_audiofile(r"audio.mp3")

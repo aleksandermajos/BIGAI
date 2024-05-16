@@ -37,10 +37,9 @@ def translate(text: str, target_language: str) -> str:
     else:
         raise Exception(f"Error: {response.status_code} - {response.json().get('detail')}")
 
-
 if __name__ == "__main__":
-    text_to_translate = "hello"
-    target_language = "es"
+    text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"
+    target_language = "spa_Latn"
     try:
         translated_text = translate(text_to_translate, target_language)
         print(f"Translated text: {translated_text}")
