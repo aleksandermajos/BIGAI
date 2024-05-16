@@ -19,7 +19,35 @@ BIGAI/ENGINE/ANY.py
 * MODELS - TRAINED MODELS AS WEIGHTS MOSTLY FOR PYTORCH
 * DATA - DATA STORAGE FOR SMALL FILES
 
-### BIG NODES:
+### SCHOOL PLAYGROUND:
+| NAME                                                  | ENGINE USE                            |
+|-------------------------------------------------------|---------------------------------------|
+| AUDIO TO SRT                                          | STT                                   |
+| AUDIO TO LECTOR                                       | STT,TTS                               |
+| VOICE TO PIC                                          | SST,GEN PICTURE                       |
+| PIC TO VOICE                                          | TTS, PIC RECOGNIZE                    |
+| VOICE TO VOICE                                        | STT, TTS                              |
+| VOICE TO TRANSLATED VOICE                             | STT, TTS, TRANSLATE                   |
+| RADIO TO PIC                                          | STT, GEN PICTURE                      |
+| OCR FROM PIC                                          | OCR ROMAN, OCR KANJI                  |
+| CONVERSATIONS AI                                      | TTS,STT, GEN PICTURE, TRANSLATE       |
+| RECOMMEND SYSTEM ON NETFLIX                           | PANDAS                                |
+| RECOMMEND SYSTEM ON MUSIC                             | PANDAS                                |
+| RECOMMEND SYSTEM ON BOOK                              | PANDAS                                |
+| VOICE TO COMIC                                        | STT, GEN PICTURE                      |
+| COMIC TO VOICE                                        | PIC RECOGNIZER, TTS                   |
+| INSIGHTS FROM DATA                                    | PANDAS, SEABORN                       |
+| UNSTRUCTURED DATA TO STRUCTURED DATA                  | PANDAS                                |
+| FLASHCARDS WORDS, SENTENCES TO VOICE                  | TTS, ANKI                             |
+| WORDS TO SENTENCES                                    | GEN CODE_TEXT                         |
+| SENTENCES TO FLASHCARDS                               | PANDAS, ANKI, SPACY                   |
+| CUSTOM FLASHCARDS FROM WORDS,SENTENCES,PICTURES,RADIO | STT,TTS, ANKI, PANDAS,TRANSLATE,SPACY |
+| DRAW KANJI WITH SENTENCES AND AUDIO                   | OCR KANJI, TTS, SPACY                 |
+
+
+
+
+### ENGINE NODES:
 | NAME                                                     | EXTERNAL API   | IN BIGAI PROJECT        | INTERNAL API   |
 |----------------------------------------------------------|----------------|-------------------------|----------------|
 | GEN CODE_TEXT                                            | CLOUDE HAIKU   |                         |                |
@@ -52,7 +80,7 @@ BIGAI/ENGINE/ANY.py
 | PROTOTYPE BIGAI_SCHOOL                                   |                |                         |                |
 | GEN PICTURE                                              |                |                         |                |
 | RECOGNIZE PICTURE                                        | CLOUDE HAIKU   |                         |                |
-| RECOGNIZE KANJI                                          |                |                         |                |
+| OCR ROMAN, OCR KANJI                                     |                |                         |                |
 | GEN COMIC                                                |                |                         |                |
 | GEN VIDEO                                                |                |                         |                |
 | GEN 3D OBJECTS                                           |                |                         |                |

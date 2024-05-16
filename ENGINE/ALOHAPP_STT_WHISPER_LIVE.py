@@ -19,7 +19,7 @@ class Whisper_live:
 
     def __init__(self,main_page,
                  language = 'de',
-                 model='small',
+                 model='large-v3-q5_0',
                  input_device: int = None,
                  silence_threshold: int = 8,
                  q_threshold: int = 16,
