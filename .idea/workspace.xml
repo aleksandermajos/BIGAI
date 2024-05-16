@@ -4,65 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL NOTEBOOKS DEL">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_WHISPER_LIVE.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_WHISPER_LIVE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/CODE_GEN_BY_LLAMA3_8B.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/DATA_DF_TO_PYTORCH.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/examples/lecun/yann-lecun2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/examples/taylor/1-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/fonts/Inkfree.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/utils/gradio_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/utils/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/utils/pipeline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/utils/style_template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/utils/utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/.ipynb_checkpoints/HF_BARK-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/.ipynb_checkpoints/HF_CLASSIFICATION-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/.ipynb_checkpoints/TF_REGRESSION-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/.ipynb_checkpoints/TF_SIMPLE_LINEAR_REGRESSION-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/DATA/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/DATA/insurance.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/DATA/new_hires.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/DATA/salary_dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ADALINE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/GRADIENT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/IRIS_DESCR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/LINEARY_NONLINEARY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/MIN_COST_FUNCTION.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_CLASS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_CLUSTERING.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_DIM_RED.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_DIV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_FLOW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_FLOW_FULL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_REGRESSION.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/ML_RL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/NEURON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/PERCEPTRON.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/PERCEPTRON_LEARNING_RULE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/FIGURES/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/HF_BARK.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/HF_CLASSIFICATION.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/HF_START.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/HF_TEXT_CLASSIFICATION.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/LLM_LLAMA2_VS_LLAMA3.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/LLM_OLLAMA_DOLPHIN_LLAMA3_70B.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_ALICE_RNN_TEXT_GEN.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_CNN_CIFAR.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_CNN_MNIST.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_CNN_TRANSFER_LEARNING.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_LOAD_CNN_CIFAR.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_MULTIPLE_LINEAR_REGRESSION.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_REGRESSION.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_SIMPLE_LINEAR_REGRESSION.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_SPAM_DETECTION.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_VGG_EXTRACTING_FEATURES.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/NOTEBOOKS/TF_WORD_EMBEDDINGS.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1247,7 +1192,9 @@
       <workItem from="1715501468896" duration="856000" />
       <workItem from="1715577106965" duration="4679000" />
       <workItem from="1715816090815" duration="22000" />
-      <workItem from="1715817821396" duration="1996000" />
+      <workItem from="1715817821396" duration="2453000" />
+      <workItem from="1715820318079" duration="78000" />
+      <workItem from="1715821484452" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1276,14 +1223,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00053" summary="ENGINE ENVIROMENT">
-      <option name="closed" value="true" />
-      <created>1713699969669</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1713699969669</updated>
     </task>
     <task id="LOCAL-00054" summary="BIGAI SCHOOL PORZADKI">
       <option name="closed" value="true" />
@@ -1637,7 +1576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715812062475</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="BIGAI SCHOOL NOTEBOOKS DEL">
+      <option name="closed" value="true" />
+      <created>1715819871058</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1715819871058</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1663,7 +1610,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI CODE LLAMA3" />
     <MESSAGE value="BIGAI ENV UPDATE" />
     <MESSAGE value="BIGAI CLEAN APPROACH LLAMA 3" />
     <MESSAGE value="BIGAI README" />
@@ -1688,7 +1634,8 @@
     <MESSAGE value="ALL BUSINESS" />
     <MESSAGE value="BIGAI" />
     <MESSAGE value="BIGAI SCHOOL" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SCHOOL" />
+    <MESSAGE value="BIGAI SCHOOL NOTEBOOKS DEL" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SCHOOL NOTEBOOKS DEL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
