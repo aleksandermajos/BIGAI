@@ -20,29 +20,34 @@ BIGAI/ENGINE/ANY.py
 * DATA - DATA STORAGE FOR SMALL FILES
 
 ### SCHOOL PLAYGROUND:
-| NAME                                                  | ENGINE USE                                     |
-|-------------------------------------------------------|------------------------------------------------|
-| AUDIO TO SRT                                          | STT, FASTAPI                                   |
-| AUDIO TO LECTOR                                       | STT,TTS , FASTAPI                              |
-| VOICE TO PIC                                          | SST,GEN PICTURE, FASTAPI                       |
-| PIC TO VOICE                                          | TTS, PIC RECOGNIZE, FASTAPI                    |
-| VOICE TO VOICE                                        | STT, TTS, FASTAPI                              |
-| VOICE TO TRANSLATED VOICE                             | STT, TTS, TRANSLATE,FASTAPI                    |
-| RADIO TO PIC                                          | STT, GEN PICTURE, FASTAPI                      |
-| OCR FROM PIC                                          | OCR ROMAN, OCR KANJI, FASTAPI                  |
-| CONVERSATIONS AI                                      | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI       |
-| RECOMMEND SYSTEM ON NETFLIX                           | PANDAS                                         |
-| RECOMMEND SYSTEM ON MUSIC                             | PANDAS                                         |
-| RECOMMEND SYSTEM ON BOOK                              | PANDAS                                         |
-| VOICE TO COMIC                                        | STT, GEN PICTURE, FASTAPI                      |
-| COMIC TO VOICE                                        | PIC RECOGNIZER, TTS, FASTAPI                   |
-| INSIGHTS FROM DATA                                    | PANDAS, SEABORN , FASTAPI                      |
-| UNSTRUCTURED DATA TO STRUCTURED DATA                  | PANDAS, FASTAPI                                |
-| FLASHCARDS WORDS, SENTENCES TO VOICE                  | TTS, ANKI, FASTAPI                             |
-| WORDS TO SENTENCES                                    | GEN CODE_TEXT , FASTAPI                        |
-| SENTENCES TO FLASHCARDS                               | PANDAS, ANKI, SPACY, FASTAPI                   |
-| CUSTOM FLASHCARDS FROM WORDS,SENTENCES,PICTURES,RADIO | STT,TTS, ANKI, PANDAS,TRANSLATE,SPACY, FASTAPI |
-| DRAW KANJI WITH SENTENCES AND AUDIO                   | OCR KANJI, TTS, SPACY, FASTAPI                 |
+| NAME                                                  | ENGINE USE                                                  |
+|-------------------------------------------------------|-------------------------------------------------------------|
+| AUDIO TO SRT                                          | STT,TRANSLATE, FASTAPI                                      |
+| AUDIO TO LECTOR                                       | STT,TTS , FASTAPI                                           |
+| VOICE TO PIC                                          | SST,GEN PICTURE, FASTAPI                                    |
+| PIC TO VOICE                                          | TTS, PIC RECOGNIZE, FASTAPI                                 |
+| VOICE TO VOICE                                        | STT, TTS, FASTAPI                                           |
+| VOICE TO TRANSLATED VOICE                             | STT, TTS, TRANSLATE,FASTAPI                                 |
+| RADIO TO PIC                                          | STT, GEN PICTURE, FASTAPI                                   |
+| OCR FROM PIC                                          | OCR ROMAN, OCR KANJI, FASTAPI                               |
+| CONVERSATIONS AI                                      | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI                    |
+| RECOMMEND SYSTEM ON NETFLIX                           | PANDAS                                                      |
+| RECOMMEND SYSTEM ON MUSIC                             | PANDAS                                                      |
+| RECOMMEND SYSTEM ON BOOK                              | PANDAS                                                      |
+| VOICE TO COMIC                                        | STT, GEN PICTURE, FASTAPI                                   |
+| COMIC TO VOICE                                        | PIC RECOGNIZER, TTS, FASTAPI                                |
+| INSIGHTS FROM DATA                                    | PANDAS, SEABORN , FASTAPI                                   |
+| UNSTRUCTURED DATA TO STRUCTURED DATA                  | PANDAS, FASTAPI                                             |
+| FLASHCARDS WORDS, SENTENCES TO VOICE                  | TTS, ANKI, FASTAPI                                          |
+| WORDS TO SENTENCES                                    | GEN CODE_TEXT , FASTAPI                                     |
+| SENTENCES TO FLASHCARDS                               | PANDAS, ANKI, SPACY, FASTAPI                                |
+| CUSTOM FLASHCARDS FROM WORDS,SENTENCES,PICTURES,RADIO | STT,TTS, ANKI, PANDAS,TRANSLATE,SPACY, FASTAPI              |
+| DRAW KANJI WITH SENTENCES AND AUDIO                   | OCR KANJI, TTS, SPACY, FASTAPI                              |
+| AGENTIC, GEN CODE x 36                                | GEN CODE_TEXT, GEN CREW, FINE TUNED, RAG, GEN GRAPH         |
+| TIMESERIES RELATED CODE x 8                           | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
+| RL RELATED CODE x 4                                   | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
+
+
 
 
 
