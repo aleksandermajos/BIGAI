@@ -19,7 +19,7 @@ BIGAI/ENGINE/ANY.py
 * MODELS - TRAINED MODELS AS WEIGHTS MOSTLY FOR PYTORCH
 * DATA - DATA STORAGE FOR SMALL FILES
 
-### SCHOOL PLAYGROUND:
+### BIGAI_SCHOOL:
 | NAME                                                   | ENGINE USE                                                  |
 |--------------------------------------------------------|-------------------------------------------------------------|
 | AUDIO TO SRT                                           | STT,TRANSLATE, FASTAPI                                      |
@@ -48,12 +48,32 @@ BIGAI/ENGINE/ANY.py
 | ANDROID FLET                                           | FLET, ANDROID                                               |
 | iOS FLET                                               | FLET, ANDROID                                               |
 | WEB FLET                                               | FLET, ANDROID                                               |
-| AGENTIC, GEN CODE x 36                                 | GEN CODE_TEXT, GEN CREW, FINE TUNED, RAG, GEN GRAPH         |
-| TIMESERIES RELATED CODE x 8                            | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
-| RL RELATED CODE x 4                                    | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
+| AGENTIC, GEN CODE x 36 (BIGAI_ENGINE)(BIGAI_SCHOOL)    | GEN CODE_TEXT, GEN CREW, FINE TUNED, RAG, GEN GRAPH         |
+| TIMESERIES RELATED CODE x 24 (QM)                      | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
+| MARKETING LLM x 12 (BIGAI_MARKETING)                   | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
+| FINANCE GET LLM x 12 (BIGAI_FINANCE)                   | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
+| UNREAL 5 FRONTEND x24 (BIGAI_FRONT)                    | USING REALTIME INJECTIONS OF ANY OF AI                      |
+| SAMURAI GROUP x80 (SAMURAI)                            | SAMURAI BASED APPS                                          |
+| BIGAI_BUSINESS x50 (BIGAI_BUSINESS)                    | PRO BIGAI BUSINESS WITH INFRASTRUCTURE                      |
+| ALOHA GROUP x50 (ALOHA)                                | ALOHA GROUP BUSINESSES                                      |
+| QUANT GROUP x50 (QUANT)                                | QUANT GROUP BUSINESSES                                      |
+| MOJO/RUST/C++ x25 (QUANT)                              | PROGRAMMING LANGUAGES DIFF THAN PYTHON                      |
 
-
-
+### BUSINESS BASED ON BIGAI:
+| NAME            | PURPOSE                                                                |
+|-----------------|------------------------------------------------------------------------|
+| BIGAI_SCHOOL    | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       |
+| BIGAI_ENGINE    | CORE OF BIGAI.GRAPH BASED LLMs REASONING AND INTERPRETABILITY          |
+| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS |
+| BIGAI_MARKETING | FOR A REASON TO BE VISIBLA SA YOUR BUSINESS                            |
+| BIGAI_FINANCE   | FOR A REASON TO FIND SOURCES OF MONEY                                  |
+| QUANTMAVERICK   | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   |
+| BIGAI_FRONT     | DIFFERENT FRONTENDS SIMILAR TO MODULAR NATURE OF LINUX                 |
+| SAMURAI GROUP   | SAMURAI BASED APPS                                                     |
+| BIGAI_BUSINESS  | TRACE YOUR BUSINESS ON A TIMELINE, AND BUILD NEW ONE                   |
+| ALOHA GROUP     | ALOHA BASED APPS                                                       |
+| QUANT GROUP     | QUANT BASED APPS                                                       |
+| --------------- | ---------------------------------------------------------------------- |
 
 
 
@@ -106,23 +126,6 @@ BIGAI/ENGINE/ANY.py
 | -------------------------------------------------------  | -------------- | ----------------------- |
 
 
-
-### BUSINESS BASED ON BIGAI:
-| NAME            | PURPOSE                                                                |
-|-----------------|------------------------------------------------------------------------|
-| BIGAI_SCHOOL    | FOR LIGHT PROGRAMMING TASKS.VOICE TO CODE + INTERPRETER + AGENTS       |
-| BIGAI_ENGINE    | CORE OF BIGAI.GRAPH BASED LLMs REASONING AND INTERPRETABILITY          |
-| ALOHAPP         | MODULAR LEARNING LANGUAGE APP BASED ON COMPREHENSIBLE INPUT AND AGENTS |
-| BIGAI_MARKETING | FOR A REASON TO BE VISIBLA SA YOUR BUSINESS                            |
-| BIGAI_FINANCE   | FOR A REASON TO FIND SOURCES OF MONEY                                  |
-| QUANTMAVERICK   | MODULAR "HEDGE FUND" AT HOME.TIME SERIES WITH POWER OF CREWAI AGENTS   |
-| BIGAI_FRONT     | DIFFERENT FRONTENDS SIMILAR TO MODULAR NATURE OF LINUX                 |
-| SAMURAIAPP      | TRACE YOUR HABITS ON A TIMELINE BASED ON AGENTS                        |
-| BIGAI_BUSINESS  | TRACE YOUR BUSINESS ON A TIMELINE, AND BUILD NEW ONE                   |
-| ALOHA GROUP     | ALOHA BASED APPS                                                       |
-| QUANT GROUP     | QUANT BASED APPS                                                       |
-| SAMURAI GROUP   | SAMURAI BASED APPS                                                     |
-| --------------- | ---------------------------------------------------------------------- |
 
 
 ### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:

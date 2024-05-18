@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ENGINE API_BIGAI FASTER-WHISPER AND NLLB TRANSLATE">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ENGINE README&#10;CODING TIME!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1089,7 +1088,7 @@
       <workItem from="1715881758176" duration="1846000" />
       <workItem from="1715884150383" duration="414000" />
       <workItem from="1715928036827" duration="6014000" />
-      <workItem from="1716020194394" duration="479000" />
+      <workItem from="1716020194394" duration="1940000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1118,22 +1117,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00061" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1713845866785</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1713845866786</updated>
-    </task>
-    <task id="LOCAL-00062" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1713887721906</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1713887721907</updated>
     </task>
     <task id="LOCAL-00063" summary="BIGAI README">
       <option name="closed" value="true" />
@@ -1479,7 +1462,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715883163391</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="BIGAI ENGINE README&#10;CODING TIME!">
+      <option name="closed" value="true" />
+      <created>1716020698008</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1716020698009</updated>
+    </task>
+    <task id="LOCAL-00107" summary="BIGAI ENGINE README&#10;CODING TIME!">
+      <option name="closed" value="true" />
+      <created>1716021113996</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1716021113996</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1505,7 +1504,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI CLOUDE HAIKU GENERATE SNAKE GAME IN PYTHON USING PYGAME" />
     <MESSAGE value="BIGAI CLOUDE HAIKU RECOGNIZE PICTURES" />
     <MESSAGE value="BIGAI CREWAI FIRST AGENT" />
     <MESSAGE value="BIGAI DEL SOME UNNECESSARY FILES" />
@@ -1530,7 +1528,8 @@
     <MESSAGE value="BIGAI ENGINE API_STT_FASTER-WHISPER" />
     <MESSAGE value="BIGAI ENGINE API_BIGAI FASTER-WHISPER AND MOCK TRANSLATE" />
     <MESSAGE value="BIGAI ENGINE API_BIGAI FASTER-WHISPER AND NLLB TRANSLATE" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ENGINE API_BIGAI FASTER-WHISPER AND NLLB TRANSLATE" />
+    <MESSAGE value="BIGAI ENGINE README&#10;CODING TIME!" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ENGINE README&#10;CODING TIME!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
