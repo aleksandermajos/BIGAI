@@ -45,6 +45,9 @@ BIGAI/ENGINE/ANY.py
 | INSIGHTS FROM DATA                                     | PANDAS, SEABORN , FASTAPI                                   |
 | CREATE SETTINGS                                        | PANDAS, SEABORN , FASTAPI                                   |
 | DRAW KANJI WITH SENTENCES AND AUDIO                    | OCR KANJI, TTS, SPACY, FASTAPI                              |
+| ANDROID FLET                                           | FLET, ANDROID                                               |
+| iOS FLET                                               | FLET, ANDROID                                               |
+| WEB FLET                                               | FLET, ANDROID                                               |
 | AGENTIC, GEN CODE x 36                                 | GEN CODE_TEXT, GEN CREW, FINE TUNED, RAG, GEN GRAPH         |
 | TIMESERIES RELATED CODE x 8                            | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
 | RL RELATED CODE x 4                                    | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
@@ -55,53 +58,52 @@ BIGAI/ENGINE/ANY.py
 
 
 ### ENGINE NODES:
-| NAME                                                     | EXTERNAL API   | IN BIGAI PROJECT        | INTERNAL API   |
-|----------------------------------------------------------|----------------|-------------------------|----------------|
-| FASTAPI SERVER TRY                                       |                | ?                       |                |
-| GEN CODE_TEXT                                            | CLOUDE HAIKU   |                         |                |
-| GEN CREW TOGETHER                                        |                |                         |                |
-| GEN AUTOGEN TOGETHER                                     |                |                         |                |
-| GEN LANGCHAIN TOGETHER                                   |                |                         |                |
-| GEN LANGGRAPH TOGETHER                                   |                |                         |                |
-| GEN DATA 5K TO CODE TASKS                                |                |                         |                |
-| FINE TUNE CREW ON READY DATA                             |                |                         |                |
-| FINE TUNE CREW ON DATA TO CODE                           |                |                         |                |
-| RAG CREW ON READY DATA                                   |                |                         |                |
-| RAG CREW ON DATA TO CODE                                 |                |                         |                |
-| TEST CODE CREW                                           |                |                         |                |
-| TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG |                |                         |                |
-| TRAIN OWN CREW ON TF CODE FROM DOCUMENTATION USING RAG   |                |                         |                |
-| KNOWLEDGE OUTSIDE BOOK NLP                               |                |                         |                |
-| GEN GRAPH KNOWLEDGE                                      |                |                         |                |
-| GEN GRAPH REASONING                                      |                |                         |                |
-| VISUALIZE SOLUTION ON GRAPH                              |                |                         |                |
-| TRAIN OWN CREW ON ACTON AND API                          |                |                         |                |
-| GEN GRAPH ACTION                                         |                |                         |                |
-| TRAIN OWN CREW ON GRAPH ACTIONS                          |                |                         |                |
-| FINDING EMPTY SPACES IN GRAPHS                           |                |                         |                |
-| GENERATE CODE. KNOWLEDGE, REASONING OR ACTION IN GRAPHS  |                |                         |                |
-| GENERATE FLET GUI FOR BIGAI_SCHOOL                       |                |                         |                |
-| KNOWLEDGE OUTSIDE BOOK GRPAHS                            |                |                         |                |
-| TTS                                                      | OPENAI API     |                         |                |
-| STT                                                      |                |                         |                |
-| TRANSLATE                                                |                |                         |                |
-| PROTOTYPE BIGAI_SCHOOL                                   |                |                         |                |
-| GEN PICTURE                                              |                |                         |                |
-| RECOGNIZE PICTURE                                        | CLOUDE HAIKU   |                         |                |
-| OCR ROMAN, OCR KANJI                                     |                |                         |                |
-| GEN COMIC                                                |                |                         |                |
-| GEN VIDEO                                                |                |                         |                |
-| GEN 3D OBJECTS                                           |                |                         |                |
-| GEN VOICE/CLONE VOICE                                    |                |                         |                |
-| GEN MUSIC                                                |                |                         |                |
-| GEN TIMELINE                                             |                |                         |                |
-| GEN TIMESERIES                                           |                |                         |                |
-| RECOGNIZE TIMELINE/TIMESERIES                            |                |                         |                |
-| RL AGENT                                                 |                |                         |                |
-| GEN INFRASTRUCTURE                                       |                |                         |                |
-| GEN iOT ACTION                                           |                |                         |                |
-| GEN EXTENSION WEB                                        |                |                         |                |
-| -------------------------------------------------------  | -------------- | ----------------------- | -------------- |
+| NAME                                                     | EXTERNAL API   | IN BIGAI PROJECT        |
+|----------------------------------------------------------|----------------|-------------------------|
+| FASTAPI SERVER TRY                                       |                | EVERY                   |
+| TTS                                                      | OPENAI API     |                         |
+| STT                                                      |                |                         |
+| TRANSLATE                                                |                |                         |
+| GEN PICTURE                                              |                |                         |
+| RECOGNIZE PICTURE                                        | CLOUDE HAIKU   |                         |
+| OCR ROMAN, OCR KANJI                                     |                |                         |
+| GEN COMIC                                                |                |                         |
+| GEN VIDEO                                                |                |                         |
+| GEN 3D OBJECTS                                           |                |                         |
+| GEN VOICE/CLONE VOICE                                    |                |                         |
+| GEN MUSIC                                                |                |                         |
+| GEN TIMELINE                                             |                |                         |
+| GEN TIMESERIES                                           |                |                         |
+| RECOGNIZE TIMELINE/TIMESERIES                            |                |                         |
+| RL AGENT                                                 |                |                         |
+| GEN CODE_TEXT                                            | CLOUDE HAIKU   |                         |
+| GEN CREW TOGETHER                                        |                |                         |
+| GEN AUTOGEN TOGETHER                                     |                |                         |
+| GEN LANGCHAIN TOGETHER                                   |                |                         |
+| GEN LANGGRAPH TOGETHER                                   |                |                         |
+| GEN DATA 5K TO CODE TASKS                                |                |                         |
+| FINE TUNE CREW ON READY DATA                             |                |                         |
+| FINE TUNE CREW ON DATA TO CODE                           |                |                         |
+| RAG CREW ON READY DATA                                   |                |                         |
+| RAG CREW ON DATA TO CODE                                 |                |                         |
+| TEST CODE CREW                                           |                |                         |
+| TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG |                |                         |
+| TRAIN OWN CREW ON TF CODE FROM DOCUMENTATION USING RAG   |                |                         |
+| KNOWLEDGE OUTSIDE BOOK NLP                               |                |                         |
+| GEN GRAPH KNOWLEDGE                                      |                |                         |
+| GEN GRAPH REASONING                                      |                |                         |
+| VISUALIZE SOLUTION ON GRAPH                              |                |                         |
+| TRAIN OWN CREW ON ACTON AND API                          |                |                         |
+| GEN GRAPH ACTION                                         |                |                         |
+| TRAIN OWN CREW ON GRAPH ACTIONS                          |                |                         |
+| FINDING EMPTY SPACES IN GRAPHS                           |                |                         |
+| GENERATE CODE. KNOWLEDGE, REASONING OR ACTION IN GRAPHS  |                |                         |
+| GENERATE FLET GUI FOR BIGAI_SCHOOL                       |                |                         |
+| KNOWLEDGE OUTSIDE BOOK GRPAHS                            |                |                         |
+| GEN INFRASTRUCTURE                                       |                |                         |
+| GEN iOT ACTION                                           |                |                         |
+| GEN EXTENSION WEB                                        |                |                         |
+| -------------------------------------------------------  | -------------- | ----------------------- |
 
 
 
