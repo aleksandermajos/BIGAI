@@ -4,7 +4,6 @@ import uvicorn
 from io import BytesIO
 import numpy as np
 import librosa
-from fastapi import HTTPException
 from pydantic import BaseModel
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
