@@ -7,7 +7,8 @@ path_beginning = str(p.home())+'/PycharmProjects/OPENAI/'
 path = path_beginning+""
 cwd = os.getcwd()
 f = open(path+"account.txt", "r")
-client = OpenAI(api_key=f.read())
+key = f.read().strip()
+client = OpenAI(api_key=key)
 
 def generate_and_play(text, voice):
     response = client.audio.speech.create(

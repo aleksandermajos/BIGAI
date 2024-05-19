@@ -1,35 +1,41 @@
 # ALOHAPP
 
-### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:
-
-https://www.youtube.com/channel/UCHqb-L4Uc_5nUPPecPo9piw
-
-### DESKTOP WINDOWS:
-* SENTENCES - SOME SENTENCES ACCORDING THE WORDS YOU ARE LEARNING.FOR EACH SENTENCE WILL BE PICTURE/VIDEO/SOUND
-* MOVIE - FOR THOSE OF US WHO WANT TO HAVE SUBTITLES IN MOVIES/SERIES LOCALLY IN YOUR TARGET LANGUAGE
-* HOW_TO_SAY_IT - SUPER USEFUL WHEN YOU NEED TO SAY IN TARGET LANGUAGE BUT YOU CANNOT FIND THE WORDS.YOU SAY IT IN ANY LANGUAGE AND HEAR IT IN TARGET
-* CONVERSATIONS - CONVERSATION WITH AI.USING WORDS YOU KNOW.UNDERSTAND 60+ LANGUAGES
-* PROGRESS - PROGRESS MEASURE IN A WAY WHAT KIND OF NETFLIX YOU CAN WATCH OR READ A BOOK IN TARGET LANGUAGE
-* NETFLIX_YT - SPECIFICALLY FOR RECOMMENDATION NETFLIX OR YT SERIES BASED ON YOUR VOCABULARY
-* RADIO_SONG - SPECIFICALLY FOR RECOMMENDATION RADIO OR SONGS BASED ON YOUR VOCABULARY
-* BOOK - SPECIFICALLY FOR RECOMMENDATION BOOKS BASED ON YOUR VOCABULARY
-* COMICS - SPECIFICALLY FOR RECOMMENDATION COMICS BASED ON YOUR VOCABULARY
-* LISTENER - DESIGN FOR HELPING YOU DURING CONVERSATIONS WITH NATIVES
-* WELCOME - WEB FOR CHECKING YOUR LEVEL OF TARGET LANGUAGE, SOURCES YOU USE AND METHODS
-* SOURCES - KIND OF HUB WHERE YOU CAN DOWNLOAD OR UPLOAD RESOURCES IN YOUR TARGET LANGUAGE
-* CONVERSATIONS_HUMAN - USING WORDS YOU KNOW CONVERSATION WITH ANOTHER USER OF ALOHAPP
-* SETTINGS - FOR CURIOUS PEOPLE.YOU CAN CHANGE HOW BEHAVIOUR OF ALOHAPP
-
-### MOBILE WINDOWS:
-* ANDROID - SIMILAR SET OF WINDOWS LIKE DESKTOP BUT FROM ANDROID PERSPECTIVE
-* iOS - SIMILAR SET OF WINDOWS LIKE DESKTOP BUT FROM iOS PERSPECTIVE
-* WEB - SIMILAR SET OF WINDOWS LIKE DESKTOP BUT FROM WEB PERSPECTIVE
-
-
-
+**THIS REPO IS SUPPLEMENT OF ALOHA YT CHANNEL: **https://www.youtube.com/channel/UCHqb-L4Uc_5nUPPecPo9piw**
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
 
 <a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+
+### DESKTOP WINDOWS:
+| NAME                                                   | ENGINE USE                                                  |
+|--------------------------------------------------------|-------------------------------------------------------------|
+| AUDIO TO SRT                                           | STT,TRANSLATE, FASTAPI                                      |
+| AUDIO TO LECTOR                                        | STT,TTS , FASTAPI                                           |
+| VOICE TO PIC                                           | SST,GEN PICTURE, FASTAPI                                    |
+| PIC TO VOICE                                           | TTS, PIC RECOGNIZE, FASTAPI                                 |
+| VOICE TO VOICE                                         | STT, TTS, FASTAPI                                           |
+| VOICE TO TRANSLATED VOICE                              | STT, TTS, TRANSLATE,FASTAPI                                 |
+| DIARY IN TARGET LANGUAGE                               | STT, TTS, TRANSLATE,FASTAPI                                 |
+| RADIO TO PIC                                           | STT, GEN PICTURE, FASTAPI                                   |
+| OCR FROM PIC                                           | OCR ROMAN, OCR KANJI, FASTAPI                               |
+| UNSTRUCTURED DATA TO STRUCTURED DATA                   | PANDAS, FASTAPI                                             |
+| FLASHCARDS WORDS, SENTENCES TO VOICE                   | TTS, ANKI, FASTAPI                                          |
+| WORDS TO SENTENCES                                     | GEN CODE_TEXT , FASTAPI                                     |
+| SENTENCES TO FLASHCARDS                                | PANDAS, ANKI, SPACY, FASTAPI                                |
+| CUSTOM FLASHCARDS FROM WORDS,SENTENCES,PICTURES,RADIO  | STT,TTS, ANKI, PANDAS,TRANSLATE,SPACY, FASTAPI              |
+| CONVERSATIONS AI WITH PICS AND MODULAR WORDS SELECTION | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI                    |
+| RECOMMEND SYSTEM ON NETFLIX                            | PANDAS                                                      |
+| RECOMMEND SYSTEM ON MUSIC                              | PANDAS                                                      |
+| RECOMMEND SYSTEM ON BOOK                               | PANDAS                                                      |
+| VOICE TO COMIC                                         | STT, GEN PICTURE, FASTAPI                                   |
+| COMIC TO VOICE                                         | PIC RECOGNIZER, TTS, FASTAPI                                |
+| INSIGHTS FROM DATA                                     | PANDAS, SEABORN , FASTAPI                                   |
+| CREATE SETTINGS                                        | PANDAS, SEABORN , FASTAPI                                   |
+| DRAW KANJI WITH SENTENCES AND AUDIO                    | OCR KANJI, TTS, SPACY, FASTAPI                              |
+| ANDROID FLET                                           | FLET, ANDROID                                               |
+| iOS FLET                                               | FLET, ANDROID                                               |
+| WEB FLET                                               | FLET, ANDROID                                               |
 
 
 
