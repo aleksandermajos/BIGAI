@@ -69,7 +69,7 @@ class WhisperModel():
 from pathlib import Path
 p = Path.cwd()
 path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
-path = path_beginning+"DATA/ALOHA/PHRASES/SPEAKING/"
+path = path_beginning+"DATA/ALOHAPP/PHRASES/SPEAKING/"
 
 model = WhisperModel(size='large-v2', lang='english')
 
