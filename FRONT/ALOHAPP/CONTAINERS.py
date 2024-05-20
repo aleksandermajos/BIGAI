@@ -66,38 +66,3 @@ def create_conversation_container():
         alignment=ft.alignment.top_center,
     )
     return conversation_column, conversation_container
-
-def create_ocr_container():
-    ocr_column = ft.Column([], )
-    pic_button = FilledButton("PIC", style=ButtonStyle(shape=CircleBorder(), padding=10), on_click=pic_button_clicked)
-    row_ocr_column = ft.Row([pic_button])
-    row_ocr_loadfiles = Row(
-            [
-                ElevatedButton(
-                    "Pick files",
-                    icon=icons.UPLOAD_FILE,
-                    on_click=lambda _: pick_files_dialog.pick_files(
-                        allow_multiple=True
-                    ),
-                ),
-                selected_files,
-            ]
-        )
-
-    ocr_column.controls.append(row_ocr_column)
-    ocr_column.controls.append(row_ocr_loadfiles)
-
-
-
-    ocr_column.scroll = ft.ScrollMode.AUTO
-    ocr_container = ft.Container(
-        ocr_column,
-        expand=True,
-        margin=10,
-        padding=10,
-        bgcolor=ft.colors.CYAN_500,
-        border_radius=10,
-        alignment=ft.alignment.top_center,
-    )
-    return ocr_column, ocr_container
-
