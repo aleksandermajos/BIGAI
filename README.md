@@ -20,44 +20,47 @@ BIGAI/ENGINE/ANY.py
 * DATA - DATA STORAGE FOR SMALL FILES
 
 ### BIGAI_SCHOOL:
-| NAME                                                   | ENGINE USE                                                  |
-|--------------------------------------------------------|-------------------------------------------------------------|
-| AUDIO TO SRT                                           | STT,TRANSLATE, FASTAPI                                      |
-| AUDIO TO LECTOR                                        | STT,TTS , FASTAPI                                           |
-| VOICE TO PIC                                           | SST,GEN PICTURE, FASTAPI                                    |
-| PIC TO VOICE                                           | TTS, PIC RECOGNIZE, FASTAPI                                 |
-| VOICE TO VOICE                                         | STT, TTS, FASTAPI                                           |
-| VOICE TO TRANSLATED VOICE                              | STT, TTS, TRANSLATE,FASTAPI                                 |
-| DIARY IN TARGET LANGUAGE                               | STT, TTS, TRANSLATE,FASTAPI                                 |
-| RADIO TO PIC                                           | STT, GEN PICTURE, FASTAPI                                   |
-| OCR FROM PIC                                           | OCR ROMAN, OCR KANJI, FASTAPI                               |
-| UNSTRUCTURED DATA TO STRUCTURED DATA                   | PANDAS, FASTAPI                                             |
-| FLASHCARDS WORDS, SENTENCES TO VOICE                   | TTS, ANKI, FASTAPI                                          |
-| WORDS TO SENTENCES                                     | GEN CODE_TEXT , FASTAPI                                     |
-| SENTENCES TO FLASHCARDS                                | PANDAS, ANKI, SPACY, FASTAPI                                |
-| CUSTOM FLASHCARDS FROM WORDS,SENTENCES,PICTURES,RADIO  | STT,TTS, ANKI, PANDAS,TRANSLATE,SPACY, FASTAPI              |
-| CONVERSATIONS AI WITH PICS AND MODULAR WORDS SELECTION | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI                    |
-| RECOMMEND SYSTEM ON NETFLIX                            | PANDAS                                                      |
-| RECOMMEND SYSTEM ON MUSIC                              | PANDAS                                                      |
-| RECOMMEND SYSTEM ON BOOK                               | PANDAS                                                      |
-| VOICE TO COMIC                                         | STT, GEN PICTURE, FASTAPI                                   |
-| COMIC TO VOICE                                         | PIC RECOGNIZER, TTS, FASTAPI                                |
-| INSIGHTS FROM DATA                                     | PANDAS, SEABORN , FASTAPI                                   |
-| CREATE SETTINGS                                        | PANDAS, SEABORN , FASTAPI                                   |
-| DRAW KANJI WITH SENTENCES AND AUDIO                    | OCR KANJI, TTS, SPACY, FASTAPI                              |
-| ANDROID FLET                                           | FLET, ANDROID                                               |
-| iOS FLET                                               | FLET, ANDROID                                               |
-| WEB FLET                                               | FLET, ANDROID                                               |
-| AGENTIC, GEN CODE x 36 (BIGAI_ENGINE)(BIGAI_SCHOOL)    | GEN CODE_TEXT, GEN CREW, FINE TUNED, RAG, GEN GRAPH         |
-| TIMESERIES RELATED CODE x 24 (QM)                      | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
-| MARKETING LLM x 12 (BIGAI_MARKETING)                   | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
-| FINANCE GET LLM x 12 (BIGAI_FINANCE)                   | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES |
-| UNREAL 5 FRONTEND x24 (BIGAI_FRONT)                    | USING REALTIME INJECTIONS OF ANY OF AI                      |
-| SAMURAI GROUP x80 (SAMURAI)                            | SAMURAI BASED APPS                                          |
-| BIGAI_BUSINESS x50 (BIGAI_BUSINESS)                    | PRO BIGAI BUSINESS WITH INFRASTRUCTURE                      |
-| ALOHA GROUP x50 (ALOHA)                                | ALOHA GROUP BUSINESSES                                      |
-| QUANT GROUP x50 (QUANT)                                | QUANT GROUP BUSINESSES                                      |
-| MOJO/RUST/C++ x25 (QUANT)                              | PROGRAMMING LANGUAGES DIFF THAN PYTHON                      |
+| NAME                                                     | ENGINE USE                                                    | TIME   |
+|----------------------------------------------------------|---------------------------------------------------------------|--------|
+| AUDIO TO SRT                                             | STT,TRANSLATE, FASTAPI                                        | 2      |
+| AUDIO TO LECTOR                                          | STT,TTS , FASTAPI                                             | 3      |
+| VOICE TO PIC                                             | SST,GEN PICTURE, FASTAPI                                      | 3      |
+| PIC TO VOICE                                             | TTS, PIC RECOGNIZE, FASTAPI                                   | 2      |
+| VOICE TO TRANSLATED VOICE                                | STT, TTS, TRANSLATE,FASTAPI                                   | 2      |
+| DIARY IN TARGET LANGUAGE                                 | STT, TTS, TRANSLATE,FASTAPI                                   | 2      |
+| RADIO TO PIC                                             | STT, GEN PICTURE, FASTAPI                                     | 2      |
+| OCR FROM PIC                                             | OCR ROMAN, OCR KANJI, FASTAPI                                 | 4      |
+| UNSTRUCTURED DATA TO STRUCTURED DATA                     | PANDAS, FASTAPI                                               | 4      |
+| FLASHCARDS WORDS, SENTENCES TO VOICE                     | TTS, ANKI, FASTAPI                                            | 4      |
+| WORDS TO SENTENCES                                       | GEN CODE_TEXT , FASTAPI                                       | 3      |
+| SENTENCES TO FLASHCARDS                                  | PANDAS, ANKI, SPACY, FASTAPI                                  | 4      |
+| CUSTOM FLASHCARDS FROM WORDS,SENTENCES,PICTURES,RADIO    | STT,TTS, ANKI, PANDAS,TRANSLATE,SPACY, FASTAPI                | 4      |
+| CONVERSATIONS AI WITH PICS AND MODULAR WORDS SELECTION   | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI                      | 4      |
+| NETFLIX RECOMMENDATIONS                                  | PANDAS                                                        | 4      |
+| RADIO/PODCAST RECOMMENDATIONS                            | PANDAS                                                        | 3      |
+| MUSIC RECOMMENDATIONS                                    | PANDAS                                                        | 3      |
+| BOOK RECOMMENDATIONS                                     | PANDAS                                                        | 4      |
+| VOICE TO COMIC                                           | STT, GEN PICTURE, FASTAPI                                     | 3      |
+| COMIC TO VOICE                                           | PIC RECOGNIZER, TTS, FASTAPI                                  | 3      |
+| INSIGHTS FROM DATA                                       | PANDAS, SEABORN , FASTAPI                                     | 4      |
+| CREATE SETTINGS                                          | PANDAS, SEABORN , FASTAPI                                     | 5      |
+| DRAW KANJI WITH SENTENCES AND AUDIO                      | OCR KANJI, TTS, SPACY, FASTAPI                                | 5      |
+| ANDROID FLET                                             | FLET, ANDROID                                                 | 10     |
+| iOS FLET                                                 | FLET, ANDROID                                                 | 10     |
+| WEB FLET                                                 | FLET, ANDROID                                                 | 8      |
+| -------------------------------------------------------- | ------------------------------------------------------------- | ------ |
+| SUMMA                                                    |                                                               | 110    |
+| -------------------------------------------------------- | ------------------------------------------------------------- | ------ |
+| AGENTIC, GEN CODE x 36 (BIGAI_ENGINE)(BIGAI_SCHOOL)      | GEN CODE_TEXT, GEN CREW, FINE TUNED, RAG, GEN GRAPH           | 72     |
+| TIMESERIES RELATED CODE x 24 (QM)                        | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 48     |
+| MARKETING LLM x 12 (BIGAI_MARKETING)                     | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 24     |
+| FINANCE GET LLM x 12 (BIGAI_FINANCE)                     | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 24     |
+| UNREAL 5 FRONTEND x24 (BIGAI_FRONT)                      | USING REALTIME INJECTIONS OF ANY OF AI                        | 48     |
+| SAMURAI GROUP x80 (SAMURAI)                              | SAMURAI BASED APPS                                            | 160    |
+| BIGAI_BUSINESS x50 (BIGAI_BUSINESS)                      | PRO BIGAI BUSINESS WITH INFRASTRUCTURE                        | 100    |
+| ALOHA GROUP x50 (ALOHA)                                  | ALOHA GROUP BUSINESSES                                        | 100    |
+| QUANT GROUP x50 (QUANT)                                  | QUANT GROUP BUSINESSES                                        | 100    |
+| MOJO/RUST/C++ x25 (QUANT)                                | PROGRAMMING LANGUAGES DIFF THAN PYTHON                        | 50     |
 
 ### BUSINESS BASED ON BIGAI:
 | NAME            | PURPOSE                                                                |

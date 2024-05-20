@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI FRONTEND CLEANUP">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SCHOOL CODING TIME">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/FRONT_FLET_VIDEOPLAYBACK.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/FRONT_FLET_VIDEOPLAYBACK.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/STT_WHISPERX.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/STT_WHISPERX.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/APP_CONVERSATIONS_AI.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/APP_CONVERSATIONS_AI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/AUDIO_TO_SRT.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/AUDIO_TO_SRT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/CONTAINERS.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/CONTAINERS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/test.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,18 +174,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SCHOOL" />
       <recent name="$PROJECT_DIR$/ENGINE/images" />
       <recent name="$PROJECT_DIR$/ENGINE" />
       <recent name="$PROJECT_DIR$/../ALL_AI/speech-to-code-main" />
       <recent name="C:\Users\aleks\PycharmProjects\BIGAI\ENGINE" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SCHOOL" />
       <recent name="$PROJECT_DIR$/ENGINE" />
       <recent name="$PROJECT_DIR$/../ALL_AI" />
       <recent name="$PROJECT_DIR$/ENGINE/images" />
       <recent name="$PROJECT_DIR$/MODELS/TEXT" />
-      <recent name="C:\Users\aleks\PycharmProjects\BIGAI\SCHOOL\NOTEBOOKS" />
     </key>
   </component>
   <component name="RunManager" selected="Python.AUDIO_TO_SRT">
@@ -1087,7 +1080,7 @@
       <workItem from="1716120081289" duration="64000" />
       <workItem from="1716131823912" duration="4721000" />
       <workItem from="1716144119916" duration="238000" />
-      <workItem from="1716196739671" duration="1813000" />
+      <workItem from="1716196739671" duration="3708000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1116,14 +1109,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00067" summary="BIGAI README FINAL">
-      <option name="closed" value="true" />
-      <created>1713953614047</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1713953614047</updated>
     </task>
     <task id="LOCAL-00068" summary="BIGAI CLOUDE HAIKU GENERATE SNAKE GAME IN PYTHON USING PYGAME">
       <option name="closed" value="true" />
@@ -1477,7 +1462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716143947676</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="BIGAI SCHOOL CODING TIME">
+      <option name="closed" value="true" />
+      <created>1716201932876</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1716201932876</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1503,7 +1496,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI LLAMACPP ORDNUNG" />
     <MESSAGE value="BIGAI PHI3" />
     <MESSAGE value="BIGAI ENV SAVE" />
     <MESSAGE value="LLAMA2 VS LLAMA3 PLAY TICKTACTOE.BIGAI SCHOOL" />
@@ -1528,7 +1520,8 @@
     <MESSAGE value="BIGAI ENGINE FLET VIDEO PLAYBACK" />
     <MESSAGE value="BIGAI ENGINE CHATGPT" />
     <MESSAGE value="BIGAI FRONTEND CLEANUP" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI FRONTEND CLEANUP" />
+    <MESSAGE value="BIGAI SCHOOL CODING TIME" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SCHOOL CODING TIME" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
