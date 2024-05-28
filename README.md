@@ -20,47 +20,51 @@ BIGAI/ENGINE/ANY.py
 * DATA - DATA STORAGE FOR SMALL FILES
 
 ### BIGAI_SCHOOL:
-| NAME                                                     | ENGINE USE                                                    | TIME   |
-|----------------------------------------------------------|---------------------------------------------------------------|--------|
-| AUDIO TO SRT                                             | STT,TRANSLATE, FASTAPI                                        | 2      |
-| AUDIO TO LECTOR                                          | STT,TTS , FASTAPI                                             | 3      |
-| VOICE TO PIC                                             | SST,GEN PICTURE, FASTAPI                                      | 3      |
-| PIC TO VOICE                                             | TTS, PIC RECOGNIZE, FASTAPI                                   | 2      |
-| VOICE TO TRANSLATED VOICE                                | STT, TTS, TRANSLATE,FASTAPI                                   | 2      |
-| DIARY IN TARGET LANGUAGE                                 | STT, TTS, TRANSLATE,FASTAPI                                   | 2      |
-| RADIO TO PIC                                             | STT, GEN PICTURE, FASTAPI                                     | 2      |
-| OCR FROM PIC                                             | OCR ROMAN, OCR KANJI, FASTAPI                                 | 4      |
-| UNSTRUCTURED DATA TO STRUCTURED DATA                     | PANDAS, FASTAPI                                               | 4      |
-| FLASHCARDS WORDS, SENTENCES TO VOICE                     | TTS, ANKI, FASTAPI                                            | 4      |
-| WORDS TO SENTENCES                                       | GEN CODE_TEXT , FASTAPI                                       | 3      |
-| SENTENCES TO FLASHCARDS                                  | PANDAS, ANKI, SPACY, FASTAPI                                  | 4      |
-| CUSTOM FLASHCARDS FROM WORDS,SENTENCES,PICTURES,RADIO    | STT,TTS, ANKI, PANDAS,TRANSLATE,SPACY, FASTAPI                | 4      |
-| CONVERSATIONS AI WITH PICS AND MODULAR WORDS SELECTION   | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI                      | 4      |
-| NETFLIX RECOMMENDATIONS                                  | PANDAS                                                        | 4      |
-| RADIO/PODCAST RECOMMENDATIONS                            | PANDAS                                                        | 3      |
-| MUSIC RECOMMENDATIONS                                    | PANDAS                                                        | 3      |
-| BOOK RECOMMENDATIONS                                     | PANDAS                                                        | 4      |
-| VOICE TO COMIC                                           | STT, GEN PICTURE, FASTAPI                                     | 3      |
-| COMIC TO VOICE                                           | PIC RECOGNIZER, TTS, FASTAPI                                  | 3      |
-| INSIGHTS FROM DATA                                       | PANDAS, SEABORN , FASTAPI                                     | 4      |
-| CREATE SETTINGS                                          | PANDAS, SEABORN , FASTAPI                                     | 5      |
-| DRAW KANJI WITH SENTENCES AND AUDIO                      | OCR KANJI, TTS, SPACY, FASTAPI                                | 5      |
-| ANDROID FLET                                             | FLET, ANDROID                                                 | 10     |
-| iOS FLET                                                 | FLET, ANDROID                                                 | 10     |
-| WEB FLET                                                 | FLET, ANDROID                                                 | 8      |
-| -------------------------------------------------------- | ------------------------------------------------------------- | ------ |
-| SUMMA                                                    |                                                               | 110    |
-| -------------------------------------------------------- | ------------------------------------------------------------- | ------ |
-| AGENTIC, GEN CODE x 36 (BIGAI_ENGINE)(BIGAI_SCHOOL)      | GEN CODE_TEXT, GEN CREW, FINE TUNED, RAG, GEN GRAPH           | 72     |
-| TIMESERIES RELATED CODE x 24 (QM)                        | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 48     |
-| MARKETING LLM x 12 (BIGAI_MARKETING)                     | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 24     |
-| FINANCE GET LLM x 12 (BIGAI_FINANCE)                     | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 24     |
-| UNREAL 5 FRONTEND x24 (BIGAI_FRONT)                      | USING REALTIME INJECTIONS OF ANY OF AI                        | 48     |
-| SAMURAI GROUP x80 (SAMURAI)                              | SAMURAI BASED APPS                                            | 160    |
-| BIGAI_BUSINESS x50 (BIGAI_BUSINESS)                      | PRO BIGAI BUSINESS WITH INFRASTRUCTURE                        | 100    |
-| ALOHA GROUP x50 (ALOHA)                                  | ALOHA GROUP BUSINESSES                                        | 100    |
-| QUANT GROUP x50 (QUANT)                                  | QUANT GROUP BUSINESSES                                        | 100    |
-| MOJO/RUST/C++ x25 (QUANT)                                | PROGRAMMING LANGUAGES DIFF THAN PYTHON                        | 50     |
+| NAME                                                      | ENGINE USE                                                    | TIME   |
+|-----------------------------------------------------------|---------------------------------------------------------------|--------|
+| AUDIO TO SRT                                              | STT,TRANSLATE, FASTAPI                                        | 5      |
+| AUDIO TO LECTOR                                           | STT,TTS , FASTAPI                                             | 4      |
+| VOICE TO PIC                                              | SST,GEN PICTURE, FASTAPI                                      | 4      |
+| PIC TO VOICE                                              | TTS, PIC RECOGNIZE, FASTAPI                                   | 3      |
+| VOICE TO TRANSLATED VOICE                                 | STT, TTS, TRANSLATE,FASTAPI                                   | 3      |
+| DIARY IN TARGET LANGUAGE                                  | STT, TTS, TRANSLATE,FASTAPI                                   | 3      |
+| RADIO TO PIC                                              | STT, GEN PICTURE, FASTAPI                                     | 3      |
+| OCR FROM PIC                                              | OCR ROMAN, OCR KANJI, FASTAPI                                 | 6      |
+| UNSTRUCTURED DATA TO STRUCTURED DATA                      | PANDAS, FASTAPI                                               | 6      |
+| FLASHCARDS WORDS, SENTENCES TO VOICE                      | TTS, ANKI, FASTAPI                                            | 6      |
+| WORDS TO SENTENCES                                        | GEN CODE_TEXT , FASTAPI                                       | 4      |
+| SENTENCES TO FLASHCARDS                                   | PANDAS, ANKI, SPACY, FASTAPI                                  | 6      |
+| CUSTOM FLASHCARDS FROM WORDS,SENTENCES,PICTURES,RADIO     | STT,TTS, ANKI, PANDAS,TRANSLATE,SPACY, FASTAPI                | 6      |
+| CONVERSATIONS AI WITH PICS AND MODULAR WORDS SELECTION    | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI                      | 6      |
+| NETFLIX RECOMMENDATIONS                                   | PANDAS                                                        | 4      |
+| RADIO/PODCAST RECOMMENDATIONS                             | PANDAS                                                        | 4      |
+| MUSIC RECOMMENDATIONS                                     | PANDAS                                                        | 4      |
+| BOOK RECOMMENDATIONS                                      | PANDAS                                                        | 5      |
+| VOICE TO COMIC                                            | STT, GEN PICTURE, FASTAPI                                     | 4      |
+| COMIC TO VOICE                                            | PIC RECOGNIZER, TTS, FASTAPI                                  | 4      |
+| INSIGHTS FROM DATA                                        | PANDAS, SEABORN , FASTAPI                                     | 6      |
+| CREATE SETTINGS                                           | PANDAS, SEABORN , FASTAPI                                     | 6      |
+| DRAW KANJI WITH SENTENCES AND AUDIO                       | OCR KANJI, TTS, SPACY, FASTAPI                                | 6      |
+| WELCOME WINDOW                                            | OCR KANJI, TTS, SPACY, FASTAPI                                | 10     |
+| CONVERSATIONS HUMAN WITH PICS AND MODULAR WORDS SELECTION | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI                      | 12     |
+| ANDROID FLET                                              | FLET, ANDROID                                                 | 12     |
+| iOS FLET                                                  | FLET, ANDROID                                                 | 12     |
+| WEB FLET                                                  | FLET, ANDROID                                                 | 8      |
+| --------------------------------------------------------  | ------------------------------------------------------------- | ------ |
+| SUMMA                                                     |                                                               | 161    |
+| --------------------------------------------------------  | ------------------------------------------------------------- | ------ |
+| AGENTIC, GEN CODE x 36 (BIGAI_ENGINE)(BIGAI_SCHOOL)       | GEN CODE_TEXT, GEN CREW, FINE TUNED, RAG, GEN GRAPH           | 90     |
+| TIMESERIES RELATED CODE x 24 (QM)                         | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 60     |
+| MARKETING LLM x 12 (BIGAI_MARKETING)                      | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 30     |
+| FINANCE GET LLM x 12 (BIGAI_FINANCE)                      | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 30     |
+| UNREAL 5 FRONTEND x24 (BIGAI_FRONT)                       | USING REALTIME INJECTIONS OF ANY OF AI                        | 100    |
+| SAMURAI GROUP x80 (SAMURAI)                               | SAMURAI BASED APPS                                            | 200    |
+| BIGAI_BUSINESS x50 (BIGAI_BUSINESS)                       | PRO BIGAI BUSINESS WITH INFRASTRUCTURE                        | 120    |
+| ALOHA GROUP x50 (ALOHA)                                   | ALOHA GROUP BUSINESSES                                        | 120    |
+| QUANT GROUP x50 (QUANT)                                   | QUANT GROUP BUSINESSES                                        | 120    |
+| MOJO/RUST/C++ x25 (QUANT)                                 | PROGRAMMING LANGUAGES DIFF THAN PYTHON                        | 80     |
+| --------------------------------------------------------  | ------------------------------------------------------------- | ------ |
+| SUMMA                                                     |                                                               | 1040   |
 
 ### BUSINESS BASED ON BIGAI:
 | NAME            | PURPOSE                                                                |
@@ -81,52 +85,52 @@ BIGAI/ENGINE/ANY.py
 
 
 ### ENGINE NODES:
-| NAME                                                     | EXTERNAL API   | IN BIGAI PROJECT        |
-|----------------------------------------------------------|----------------|-------------------------|
-| FASTAPI SERVER TRY                                       |                | EVERY                   |
-| TTS                                                      | OPENAI API     |                         |
-| STT                                                      |                |                         |
-| TRANSLATE                                                |                |                         |
-| GEN PICTURE                                              |                |                         |
-| RECOGNIZE PICTURE                                        | CLOUDE HAIKU   |                         |
-| OCR ROMAN, OCR KANJI                                     |                |                         |
-| GEN COMIC                                                |                |                         |
-| GEN VIDEO                                                |                |                         |
-| GEN 3D OBJECTS                                           |                |                         |
-| GEN VOICE/CLONE VOICE                                    |                |                         |
-| GEN MUSIC                                                |                |                         |
-| GEN TIMELINE                                             |                |                         |
-| GEN TIMESERIES                                           |                |                         |
-| RECOGNIZE TIMELINE/TIMESERIES                            |                |                         |
-| RL AGENT                                                 |                |                         |
-| GEN CODE_TEXT                                            | CLOUDE HAIKU   |                         |
-| GEN CREW TOGETHER                                        |                |                         |
-| GEN AUTOGEN TOGETHER                                     |                |                         |
-| GEN LANGCHAIN TOGETHER                                   |                |                         |
-| GEN LANGGRAPH TOGETHER                                   |                |                         |
-| GEN DATA 5K TO CODE TASKS                                |                |                         |
-| FINE TUNE CREW ON READY DATA                             |                |                         |
-| FINE TUNE CREW ON DATA TO CODE                           |                |                         |
-| RAG CREW ON READY DATA                                   |                |                         |
-| RAG CREW ON DATA TO CODE                                 |                |                         |
-| TEST CODE CREW                                           |                |                         |
-| TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG |                |                         |
-| TRAIN OWN CREW ON TF CODE FROM DOCUMENTATION USING RAG   |                |                         |
-| KNOWLEDGE OUTSIDE BOOK NLP                               |                |                         |
-| GEN GRAPH KNOWLEDGE                                      |                |                         |
-| GEN GRAPH REASONING                                      |                |                         |
-| VISUALIZE SOLUTION ON GRAPH                              |                |                         |
-| TRAIN OWN CREW ON ACTON AND API                          |                |                         |
-| GEN GRAPH ACTION                                         |                |                         |
-| TRAIN OWN CREW ON GRAPH ACTIONS                          |                |                         |
-| FINDING EMPTY SPACES IN GRAPHS                           |                |                         |
-| GENERATE CODE. KNOWLEDGE, REASONING OR ACTION IN GRAPHS  |                |                         |
-| GENERATE FLET GUI FOR BIGAI_SCHOOL                       |                |                         |
-| KNOWLEDGE OUTSIDE BOOK GRPAHS                            |                |                         |
-| GEN INFRASTRUCTURE                                       |                |                         |
-| GEN iOT ACTION                                           |                |                         |
-| GEN EXTENSION WEB                                        |                |                         |
-| -------------------------------------------------------  | -------------- | ----------------------- |
+| NAME                                                     | EXTERNAL API   | IN BIGAI PROJECT        | MEMORY   |
+|----------------------------------------------------------|----------------|-------------------------|----------|
+| FASTAPI SERVER TRY                                       |                | EVERY                   | 0        |
+| TTS                                                      | OPENAI API     |                         | 0        |
+| STT                                                      |                |                         | 3        |
+| TRANSLATE                                                |                |                         | 3        |
+| GEN PICTURE                                              |                |                         | 12       |
+| RECOGNIZE PICTURE                                        | CLOUDE HAIKU   |                         | 8        |
+| OCR ROMAN, OCR KANJI                                     |                |                         | 6        |
+| GEN COMIC                                                |                |                         | 16       |
+| GEN VIDEO                                                |                |                         | 24       |
+| GEN 3D OBJECTS                                           |                |                         | 24       |
+| GEN VOICE/CLONE VOICE                                    |                |                         | 20       |
+| GEN MUSIC                                                |                |                         | 18       |
+| GEN TIMELINE                                             |                |                         | 6        |
+| GEN TIMESERIES                                           |                |                         | 12       |
+| RECOGNIZE TIMELINE/TIMESERIES                            |                |                         | 8        |
+| RL AGENT                                                 |                |                         | 6*4=24   |
+| GEN CODE_TEXT                                            | CLOUDE HAIKU   |                         | 3*24=76  |
+| GEN CREW TOGETHER                                        |                |                         | 8        |
+| GEN AUTOGEN TOGETHER                                     |                |                         | 8        |
+| GEN LANGCHAIN TOGETHER                                   |                |                         | 8        |
+| GEN LANGGRAPH TOGETHER                                   |                |                         | 12       |
+| GEN DATA 5K TO CODE TASKS                                |                |                         | 0        |
+| FINE TUNE CREW ON READY DATA                             |                |                         | 12       |
+| FINE TUNE CREW ON DATA TO CODE                           |                |                         | 12       |
+| RAG CREW ON READY DATA                                   |                |                         | 12       |
+| RAG CREW ON DATA TO CODE                                 |                |                         | 12       |
+| TEST CODE CREW                                           |                |                         | 0        |
+| TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG |                |                         | 18       |
+| TRAIN OWN CREW ON TF CODE FROM DOCUMENTATION USING RAG   |                |                         | 18       |
+| KNOWLEDGE OUTSIDE BOOK NLP                               |                |                         | 0        |
+| GEN GRAPH KNOWLEDGE                                      |                |                         | 6        |
+| GEN GRAPH REASONING                                      |                |                         | 12       |
+| VISUALIZE SOLUTION ON GRAPH                              |                |                         | 0        |
+| TRAIN OWN CREW ON ACTON AND API                          |                |                         | 18       |
+| GEN GRAPH ACTION                                         |                |                         | 0        |
+| TRAIN OWN CREW ON GRAPH ACTIONS                          |                |                         | 18       |
+| FINDING EMPTY SPACES IN GRAPHS                           |                |                         | 6        |
+| GENERATE CODE. KNOWLEDGE, REASONING OR ACTION IN GRAPHS  |                |                         | 18       |
+| GENERATE FLET GUI FOR BIGAI_SCHOOL                       |                |                         | 12       |
+| KNOWLEDGE OUTSIDE BOOK GRPAHS                            |                |                         | 12       |
+| GEN INFRASTRUCTURE                                       |                |                         | 8        |
+| GEN iOT ACTION                                           |                |                         | 0        |
+| GEN EXTENSION WEB                                        |                |                         | 0        |
+| -------------------------------------------------------  | -------------- | ----------------------- | -------- |
 
 
 
