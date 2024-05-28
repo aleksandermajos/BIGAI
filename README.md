@@ -19,52 +19,92 @@ BIGAI/ENGINE/ANY.py
 * MODELS - TRAINED MODELS AS WEIGHTS MOSTLY FOR PYTORCH
 * DATA - DATA STORAGE FOR SMALL FILES
 
+
+### BIGAI_SCHOOL_HELPER:
+| NAME                                                        | TIME   |
+|-------------------------------------------------------------|--------|
+| PART A ---------------------------------------------------- | ------ |
+| GEN CODE_TEXT                                               | 0      |
+| GEN DATA 5K FROM LEETCODE, HACKERRANK AND KAGGLE            | 3      |
+| UNIFIED CODE TASKS TO ONE FORMAT                            | 3      |
+| GEN CREW TOGETHER                                           | 3      |
+| FINE TUNE CREW ON READY DATA                                | 2      |
+| FINE TUNE CREW ON FORMATED DATA TO CODE                     | 2      |
+| RAG CREW ON READY DATA                                      | 3      |
+| RAG CREW ON DATA TO CODE                                    | 2      |
+| TEST CODE CREW + ENDING LOOP                                | 3      |
+| TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG    | 4      |
+| FLET GUI TASK/CODE/EXPLANATION + LUNCH EXTERNAL WINDOWS     | 4      |
+| HACKERRANK SCENARIO                                         | 2      |
+| AAAI SCENARIO-GITHUB                                        | 2      |
+| TF SCENARIO                                                 | 2      |
+| INTERVIEW SCENARIO+TRANSLATE                                | 2      |
+| ---------------------------------------------------------   | ------ |
+| PART B ---------------------------------------------------- | ------ |
+| GEN GRAPH KNOWLEDGE                                         | 8      |
+| GEN GRAPH REASONING                                         | 5      |
+| VISUALIZE SOLUTION ON GRAPH                                 | 3      |
+| TRAIN OWN CREW ON ACTON AND API                             | 8      |
+| GEN GRAPH ACTION                                            | 5      |
+| TRAIN OWN CREW ON GRAPH ACTIONS                             | 3      |
+| FINDING EMPTY SPACES INN GRAPHS                             | 6      |
+| GENERATE CODE. KNOWLEDGE, REASONING OR ACTION IN GRAPHS     | 6      |
+| GENERATE FLET GUI FOR BIGAI_SCHOOL                          | 5      |
+| PROTOTYPE BIGAI_SCHOOL_HELPER                               | 5      |
+| ---------------------------------------------------------   | ------ |
+
+
+
+
+
 ### BIGAI_SCHOOL:
-| NAME                                                      | ENGINE USE                                                    | TIME   |
-|-----------------------------------------------------------|---------------------------------------------------------------|--------|
-| AUDIO TO SRT                                              | STT,TRANSLATE, FASTAPI                                        | 5      |
-| AUDIO TO LECTOR                                           | STT,TTS , FASTAPI                                             | 4      |
-| VOICE TO PIC                                              | SST,GEN PICTURE, FASTAPI                                      | 4      |
-| PIC TO VOICE                                              | TTS, PIC RECOGNIZE, FASTAPI                                   | 3      |
-| VOICE TO TRANSLATED VOICE                                 | STT, TTS, TRANSLATE,FASTAPI                                   | 3      |
-| DIARY IN TARGET LANGUAGE                                  | STT, TTS, TRANSLATE,FASTAPI                                   | 3      |
-| RADIO TO PIC                                              | STT, GEN PICTURE, FASTAPI                                     | 3      |
-| OCR FROM PIC                                              | OCR ROMAN, OCR KANJI, FASTAPI                                 | 6      |
-| UNSTRUCTURED DATA TO STRUCTURED DATA                      | PANDAS, FASTAPI                                               | 6      |
-| FLASHCARDS WORDS, SENTENCES TO VOICE                      | TTS, ANKI, FASTAPI                                            | 6      |
-| WORDS TO SENTENCES                                        | GEN CODE_TEXT , FASTAPI                                       | 4      |
-| SENTENCES TO FLASHCARDS                                   | PANDAS, ANKI, SPACY, FASTAPI                                  | 6      |
-| CUSTOM FLASHCARDS FROM WORDS,SENTENCES,PICTURES,RADIO     | STT,TTS, ANKI, PANDAS,TRANSLATE,SPACY, FASTAPI                | 6      |
-| CONVERSATIONS AI WITH PICS AND MODULAR WORDS SELECTION    | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI                      | 6      |
-| NETFLIX RECOMMENDATIONS                                   | PANDAS                                                        | 4      |
-| RADIO/PODCAST RECOMMENDATIONS                             | PANDAS                                                        | 4      |
-| MUSIC RECOMMENDATIONS                                     | PANDAS                                                        | 4      |
-| BOOK RECOMMENDATIONS                                      | PANDAS                                                        | 5      |
-| VOICE TO COMIC                                            | STT, GEN PICTURE, FASTAPI                                     | 4      |
-| COMIC TO VOICE                                            | PIC RECOGNIZER, TTS, FASTAPI                                  | 4      |
-| INSIGHTS FROM DATA                                        | PANDAS, SEABORN , FASTAPI                                     | 6      |
-| CREATE SETTINGS                                           | PANDAS, SEABORN , FASTAPI                                     | 6      |
-| DRAW KANJI WITH SENTENCES AND AUDIO                       | OCR KANJI, TTS, SPACY, FASTAPI                                | 6      |
-| WELCOME WINDOW                                            | OCR KANJI, TTS, SPACY, FASTAPI                                | 10     |
-| CONVERSATIONS HUMAN WITH PICS AND MODULAR WORDS SELECTION | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI                      | 12     |
-| ANDROID FLET                                              | FLET, ANDROID                                                 | 12     |
-| iOS FLET                                                  | FLET, ANDROID                                                 | 12     |
-| WEB FLET                                                  | FLET, ANDROID                                                 | 8      |
-| --------------------------------------------------------  | ------------------------------------------------------------- | ------ |
-| SUMMA                                                     |                                                               | 161    |
-| --------------------------------------------------------  | ------------------------------------------------------------- | ------ |
-| AGENTIC, GEN CODE x 36 (BIGAI_ENGINE)(BIGAI_SCHOOL)       | GEN CODE_TEXT, GEN CREW, FINE TUNED, RAG, GEN GRAPH           | 90     |
-| TIMESERIES RELATED CODE x 24 (QM)                         | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 60     |
-| MARKETING LLM x 12 (BIGAI_MARKETING)                      | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 30     |
-| FINANCE GET LLM x 12 (BIGAI_FINANCE)                      | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES   | 30     |
-| UNREAL 5 FRONTEND x24 (BIGAI_FRONT)                       | USING REALTIME INJECTIONS OF ANY OF AI                        | 100    |
-| SAMURAI GROUP x80 (SAMURAI)                               | SAMURAI BASED APPS                                            | 200    |
-| BIGAI_BUSINESS x50 (BIGAI_BUSINESS)                       | PRO BIGAI BUSINESS WITH INFRASTRUCTURE                        | 120    |
-| ALOHA GROUP x50 (ALOHA)                                   | ALOHA GROUP BUSINESSES                                        | 120    |
-| QUANT GROUP x50 (QUANT)                                   | QUANT GROUP BUSINESSES                                        | 120    |
-| MOJO/RUST/C++ x25 (QUANT)                                 | PROGRAMMING LANGUAGES DIFF THAN PYTHON                        | 80     |
-| --------------------------------------------------------  | ------------------------------------------------------------- | ------ |
-| SUMMA                                                     |                                                               | 1040   |
+| NAME                                                      | ENGINE USE                                                     | TIME   |
+|-----------------------------------------------------------|----------------------------------------------------------------|--------|
+| BIGAI_SCHOOL_HELPER PART A +YT START                      | STT, TTS, TRANSLATE, FASTAPI, CREWAI, OLLAMA,CODE GEN. PIC GEN | 33     |
+| AUDIO TO SRT                                              | STT,TRANSLATE, FASTAPI                                         | 4      |
+| AUDIO TO LECTOR                                           | STT,TTS , FASTAPI                                              | 3      |
+| VOICE TO PIC                                              | SST,GEN PICTURE, FASTAPI                                       | 3      |
+| PIC TO VOICE                                              | TTS, PIC RECOGNIZE, FASTAPI                                    | 2      |
+| VOICE TO TRANSLATED VOICE                                 | STT, TTS, TRANSLATE,FASTAPI                                    | 2      |
+| DIARY IN TARGET LANGUAGE                                  | STT, TTS, TRANSLATE,FASTAPI                                    | 3      |
+| RADIO TO PIC                                              | STT, GEN PICTURE, FASTAPI                                      | 3      |
+| OCR FROM PIC                                              | OCR ROMAN, OCR KANJI, FASTAPI                                  | 5      |
+| UNSTRUCTURED DATA TO STRUCTURED DATA                      | PANDAS, FASTAPI                                                | 5      |
+| FLASHCARDS WORDS, SENTENCES TO VOICE                      | TTS, ANKI, FASTAPI                                             | 5      |
+| WORDS TO SENTENCES                                        | GEN CODE_TEXT , FASTAPI                                        | 4      |
+| SENTENCES TO FLASHCARDS                                   | PANDAS, ANKI, SPACY, FASTAPI                                   | 6      |
+| CUSTOM FLASHCARDS FROM WORDS,SENTENCES,PICTURES,RADIO     | STT,TTS, ANKI, PANDAS,TRANSLATE,SPACY, FASTAPI                 | 5      |
+| CONVERSATIONS AI WITH PICS AND MODULAR WORDS SELECTION    | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI                       | 5      |
+| NETFLIX RECOMMENDATIONS                                   | PANDAS                                                         | 4      |
+| RADIO/PODCAST RECOMMENDATIONS                             | PANDAS                                                         | 4      |
+| MUSIC RECOMMENDATIONS                                     | PANDAS                                                         | 4      |
+| BOOK RECOMMENDATIONS                                      | PANDAS                                                         | 5      |
+| VOICE TO COMIC                                            | STT, GEN PICTURE, FASTAPI                                      | 4      |
+| COMIC TO VOICE                                            | PIC RECOGNIZER, TTS, FASTAPI                                   | 4      |
+| INSIGHTS FROM DATA                                        | PANDAS, SEABORN , FASTAPI                                      | 6      |
+| CREATE SETTINGS                                           | PANDAS, SEABORN , FASTAPI                                      | 6      |
+| DRAW KANJI WITH SENTENCES AND AUDIO                       | OCR KANJI, TTS, SPACY, FASTAPI                                 | 6      |
+| WELCOME WINDOW                                            | OCR KANJI, TTS, SPACY, FASTAPI                                 | 10     |
+| CONVERSATIONS HUMAN WITH PICS AND MODULAR WORDS SELECTION | TTS,STT, GEN PICTURE, TRANSLATE, FASTAPI                       | 12     |
+| ANDROID FLET                                              | FLET, ANDROID                                                  | 12     |
+| iOS FLET                                                  | FLET, ANDROID                                                  | 12     |
+| WEB FLET                                                  | FLET, ANDROID                                                  | 8      |
+| BIGAI_SCHOOL_HELPER PART B                                | STT, TTS, TRANSLATE, FASTAPI, CREWAI, OLLAMA,CODE GEN. PIC GEN | 54     |
+| --------------------------------------------------------  | -------------------------------------------------------------  | ------ |
+| SUMMA                                                     |                                                                | 240    |
+| --------------------------------------------------------  | -------------------------------------------------------------  | ------ |
+| AGENTIC, GEN CODE x 36 (BIGAI_ENGINE)(BIGAI_SCHOOL)       | GEN CODE_TEXT, GEN CREW, FINE TUNED, RAG, GEN GRAPH            | 0      |
+| TIMESERIES RELATED CODE x 24 (QM)                         | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES    | 60     |
+| MARKETING LLM x 12 (BIGAI_MARKETING)                      | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES    | 30     |
+| FINANCE GET LLM x 12 (BIGAI_FINANCE)                      | GEN TIMELINE, GEN TIMESERIES, RECOGNIZE TIMELINE/TIMESERIES    | 30     |
+| UNREAL 5 FRONTEND x24 (BIGAI_FRONT)                       | USING REALTIME INJECTIONS OF ANY OF AI                         | 100    |
+| SAMURAI GROUP x80 (SAMURAI)                               | SAMURAI BASED APPS                                             | 200    |
+| BIGAI_BUSINESS x50 (BIGAI_BUSINESS)                       | PRO BIGAI BUSINESS WITH INFRASTRUCTURE                         | 120    |
+| ALOHA GROUP x50 (ALOHA)                                   | ALOHA GROUP BUSINESSES                                         | 120    |
+| QUANT GROUP x50 (QUANT)                                   | QUANT GROUP BUSINESSES                                         | 120    |
+| MOJO/RUST/C++ x25 (QUANT)                                 | PROGRAMMING LANGUAGES DIFF THAN PYTHON                         | 80     |
+| --------------------------------------------------------  | -------------------------------------------------------------  | ------ |
+| SUMMA                                                     |                                                                | 1040   |
 
 ### BUSINESS BASED ON BIGAI:
 | NAME            | PURPOSE                                                                |
