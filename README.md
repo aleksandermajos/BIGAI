@@ -24,17 +24,14 @@ BIGAI/ENGINE/ANY.py
 | NAME                                                        | TIME   |
 |-------------------------------------------------------------|--------|
 | PART A ---------------------------------------------------- | ------ |
-| GEN CODE_TEXT                                               | 0      |
-| GEN DATA 5K FROM LEETCODE, HACKERRANK AND KAGGLE            | 3      |
-| UNIFIED CODE TASKS TO ONE FORMAT                            | 3      |
+| STT WHISPERX PLUS MULTISPEAKER WITH VAD AND PYAUDIO         | 2      |
+| GEN DATA 5K FROM LEETCODE                                   | 2      |
 | GEN CREW TOGETHER                                           | 3      |
-| FINE TUNE CREW ON READY DATA                                | 2      |
 | FINE TUNE CREW ON FORMATED DATA TO CODE                     | 2      |
-| RAG CREW ON READY DATA                                      | 3      |
 | RAG CREW ON DATA TO CODE                                    | 2      |
-| TEST CODE CREW + ENDING LOOP                                | 3      |
-| TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG    | 4      |
-| FLET GUI TASK/CODE/EXPLANATION + LUNCH EXTERNAL WINDOWS     | 4      |
+| TEST CODE CREW + ENDING LOOP                                | 2      |
+| TRAIN OWN CREW ON FLET CODE FROM DOCUMENTATION USING RAG    | 5      |
+| FLET GUI TASK/HINTS/CODE + LUNCH EXTERNAL WINDOWS           | 4      |
 | HACKERRANK SCENARIO                                         | 2      |
 | AAAI SCENARIO-GITHUB                                        | 2      |
 | TF SCENARIO                                                 | 2      |
@@ -60,7 +57,7 @@ BIGAI/ENGINE/ANY.py
 ### BIGAI_SCHOOL:
 | NAME                                                      | ENGINE USE                                                     | TIME   |
 |-----------------------------------------------------------|----------------------------------------------------------------|--------|
-| BIGAI_SCHOOL_HELPER PART A +YT START                      | STT, TTS, TRANSLATE, FASTAPI, CREWAI, OLLAMA,CODE GEN. PIC GEN | 33     |
+| BIGAI_SCHOOL_HELPER PART A +YT START                      | STT, TTS, TRANSLATE, FASTAPI, CREWAI, OLLAMA,CODE GEN. PIC GEN | 31     |
 | AUDIO TO SRT                                              | STT,TRANSLATE, FASTAPI                                         | 4      |
 | AUDIO TO LECTOR                                           | STT,TTS , FASTAPI                                              | 3      |
 | VOICE TO PIC                                              | SST,GEN PICTURE, FASTAPI                                       | 3      |
