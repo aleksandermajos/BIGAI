@@ -3,12 +3,20 @@ import webrtcvad
 import numpy as np
 import whisperx
 import collections
+from ENGINE.KEY_OPENAI import generate_and_play
+from KEY_GROQ import provide_key
+from groq import Groq
+
+client = Groq(
+    api_key=provide_key()
+)
+
 
 # Initialize Whisper model
-model = whisperx.load_model("base",device="cuda")
+model = whisperx.load_model("large-v3",device="cuda")
 
 # WebRTC VAD setup
-vad = webrtcvad.Vad(3)  # Aggressiveness from 0 to 3
+vad = webrtcvad.Vad(0)  # Aggressiveness from 0 to 3
 
 # Audio recording parameters
 FORMAT = pyaudio.paInt16
@@ -21,6 +29,7 @@ CHUNK = int(RATE * FRAME_DURATION_MS / 1000)  # Number of samples per frame
 audio = pyaudio.PyAudio()
 
 
+
 def process_audio(buffer):
     print("Processing audio for transcription...")
     # Convert the buffer to a single byte string
@@ -31,7 +40,24 @@ def process_audio(buffer):
 
     # Transcribe using Whisperx
     print("Transcribing audio...")
-    result = model.transcribe(audio_np, language="en")
+    result = model.transcribe(audio_np, language="ja")
+    text = result['segments'][0]['text']
+
+
+    chat_completion = client.chat.completions.create(
+        messages=[
+            {"role": "system", "content": "あなたはいつも短く、日本語のみで答える数少ないアシスタントです"},
+            {"role": "user","content": text}
+        ],
+        model="llama3-8b-8192",
+    )
+
+    bot_reply = chat_completion.choices[0].message.content
+
+
+    #bot_text = chat_bot.talk(result['segments'][0]['text'])
+    generate_and_play(text=bot_reply, voice='nova')
+    #generate_and_play(text=bot_text, voice='onyx')
 
     if 'text' in result:
         print("Transcription:", result['text'])

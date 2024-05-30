@@ -9,14 +9,14 @@ message = client.messages.create(
     model="claude-3-haiku-20240307",
     max_tokens=2000,
     temperature=1,
-    system="You are an expert Python developer",
+    system="You are an expert in short and precise answers ",
     messages=[
         {
             "role": "user",
             "content": [
                 {
                     "type": "text",
-                    "text": "Can You write Snake game in Python using PyGame without any comments?"
+                    "text": "Can You tell me why a sky is blue?"
                 }
             ]
         }
