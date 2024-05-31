@@ -17,12 +17,12 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | NAME         | AS CODE                                  | YT VIDEO                                                     |
 |--------------|------------------------------------------|--------------------------------------------------------------|
 | BIGAI_INTRO  | N/A                                      | https://www.youtube.com/watch?v=n1PFJsCFyZs&ab_channel=BIGAI |
-| BIGAI GITHUB | https://github.com/aleksandermajos/BIGAI |                                                              |
+| BIGAI GITHUB | https://github.com/aleksandermajos/BIGAI |  🔥                                                            |
 
 ### BIGAI_ENGINE:
 | NAME                                   | AS FUNCT | AS API | YT VIDEO |
 |----------------------------------------|----------|--------|----------|
-| BIGAI_ENGINE_INTRO                     | N/A      | N/A    |          |
+| BIGAI_ENGINE_INTRO                     | N/A      | N/A    |    🔥    |
 | FASTAPI CLIENT/SERVER LOCALLY          | N/A      |        |          |
 | VOICE ACTIVITY DETECTION - VAD LOCALLY |          | N/A    |          |
 | TEXT GEN GROQ EXTERNALLY               |          |        |          |
@@ -43,8 +43,8 @@ conda env create -f BIGAI_{your_operating_system}.yml
 ### BIGAI_SCHOOL-CODE_COMPANION:
 | NAME                                                     | AS CODE | YT VIDEO |
 |----------------------------------------------------------|---------|----------|
-| BIGAI_SCHOOL_INTRO                                       | N/A     |          |
-| CODE_COMPANION PROJECT INTRO                             | N/A     |          |
+| BIGAI_SCHOOL_INTRO                                       | N/A     | 🔥       |
+| CODE_COMPANION PROJECT INTRO                             | N/A     | 🔥       |
 | GEN DATA 5K FROM LEETCODE                                |         |          |
 | GEN CREW TOGETHER                                        |         |          |
 | FINE TUNE CREW ON FORMATED DATA TO CODE                  |         |          |
@@ -65,14 +65,14 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | FINDING EMPTY SPACES INN GRAPHS                          |         |          |
 | GENERATE CODE. KNOWLEDGE, REASONING OR ACTION IN GRAPHS  |         |          |
 | GENERATE FLET GUI FOR BIGAI_SCHOOL                       |         |          |
-| PROTOTYPE BIGAI_SCHOOL_HELPER                            |         |          |
+| PROTOTYPE BIGAI_SCHOOL-CODE_COMPANION                    |         |          |
 
 
 ### BIGAI_FRONT-ALOHAPP:
 | NAME                                                      | AS CODE | YT VIDEO |
 |-----------------------------------------------------------|---------|----------|
-| BIGAI_FRONT INTRO                                         | N/A     |          |
-| ALOHAPP PROJECT INTRO                                     | N/A     |          |
+| BIGAI_FRONT INTRO                                         | N/A     | 🔥       |
+| ALOHAPP PROJECT INTRO                                     | N/A     | 🔥       |
 | AUDIO TO SRT                                              |         |          |
 | AUDIO TO LECTOR                                           |         |          |
 | VOICE TO PIC                                              |         |          |
@@ -105,8 +105,8 @@ conda env create -f BIGAI_{your_operating_system}.yml
 ### BIGAI_FRONT-QUANTMAVERICK:
 | NAME                        | AS CODE | YT VIDEO |
 |-----------------------------|---------|----------|
-| BIGAI_FRONT INTRO           | N/A     |          |
-| QUANTMAVERICK PROJECT INTRO | N/A     |          |
+| BIGAI_FRONT INTRO           | N/A     | 🔥       |
+| QUANTMAVERICK PROJECT INTRO | N/A     | 🔥       |
 
 
 
