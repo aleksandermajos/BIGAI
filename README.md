@@ -12,13 +12,12 @@ conda env create -f BIGAI_{your_operating_system}.yml
 * SCHOOL - PLAYGROUND FOR LEARNING AND TESTING NEW CODE.CODECOMPANION AS MAIN TOOL TO DO SO
 * ENGINE - TESTED METHODS AS FUNCT OR API FOR LATER USE BY PROJECTS
 * FRONT - FRONTEND FOR PROJECTS.RECENTLY ALOHAPP AND QUANTMAVERICK
-* MODELS - TRAINED MODELS AS WEIGHTS MOSTLY FOR PYTORCH
-* DATA - DATA STORAGE FOR SMALL FILES
 
 ### BIGAI:
-| NAME        | AS CODE | YT VIDEO |
-|-------------|---------|----------|
-| BIGAI_INTRO | N/A     |          |
+| NAME         | AS CODE | YT VIDEO |
+|--------------|---------|----------|
+| BIGAI_INTRO  | N/A     |          |
+| BIGAI GITHUB |         |          |
 
 ### BIGAI_ENGINE:
 | NAME                                   | AS FUNCT | AS API | YT VIDEO |
@@ -41,10 +40,11 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | SCRAPPING NET ? LOCALLY                |          |        |          |
 | RAG ALGO ? LOCALLY                     |          |        |          |
 
-### BIGAI_SCHOOL-CODECOMPANION:
+### BIGAI_SCHOOL-CODE_COMPANION:
 | NAME                                                     | AS CODE | YT VIDEO |
 |----------------------------------------------------------|---------|----------|
 | BIGAI_SCHOOL_INTRO                                       | N/A     |          |
+| CODE_COMPANION PROJECT INTRO                             | N/A     |          |
 | GEN DATA 5K FROM LEETCODE                                |         |          |
 | GEN CREW TOGETHER                                        |         |          |
 | FINE TUNE CREW ON FORMATED DATA TO CODE                  |         |          |
@@ -71,6 +71,7 @@ conda env create -f BIGAI_{your_operating_system}.yml
 ### BIGAI_FRONT-ALOHAPP:
 | NAME                                                      | AS CODE | YT VIDEO |
 |-----------------------------------------------------------|---------|----------|
+| BIGAI_FRONT INTRO                                         | N/A     |          |
 | ALOHAPP PROJECT INTRO                                     | N/A     |          |
 | AUDIO TO SRT                                              |         |          |
 | AUDIO TO LECTOR                                           |         |          |
@@ -104,7 +105,8 @@ conda env create -f BIGAI_{your_operating_system}.yml
 ### BIGAI_FRONT-QUANTMAVERICK:
 | NAME                        | AS CODE | YT VIDEO |
 |-----------------------------|---------|----------|
-| QUANTMAVERICK PROJECT INTRO |  N/A    |          |
+| BIGAI_FRONT INTRO           | N/A     |          |
+| QUANTMAVERICK PROJECT INTRO | N/A     |          |
 
 
 
