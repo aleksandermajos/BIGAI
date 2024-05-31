@@ -14,10 +14,10 @@ conda env create -f BIGAI_{your_operating_system}.yml
 * FRONT - FRONTEND FOR PROJECTS.RECENTLY ALOHAPP AND QUANTMAVERICK
 
 ### BIGAI:
-| NAME         | AS CODE | YT VIDEO |
-|--------------|---------|----------|
-| BIGAI_INTRO  | N/A     |          |
-| BIGAI GITHUB |         |          |
+| NAME         | AS CODE                                  | YT VIDEO                                                     |
+|--------------|------------------------------------------|--------------------------------------------------------------|
+| BIGAI_INTRO  | N/A                                      | https://www.youtube.com/watch?v=n1PFJsCFyZs&ab_channel=BIGAI |
+| BIGAI GITHUB | https://github.com/aleksandermajos/BIGAI |                                                              |
 
 ### BIGAI_ENGINE:
 | NAME                                   | AS FUNCT | AS API | YT VIDEO |

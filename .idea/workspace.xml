@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="VAD WITH STT TTS GROQ">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README WITH YT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -1137,7 +1137,7 @@
       <workItem from="1717070244754" duration="2750000" />
       <workItem from="1717084097820" duration="5330000" />
       <workItem from="1717093256734" duration="4876000" />
-      <workItem from="1717136525323" duration="7899000" />
+      <workItem from="1717136525323" duration="9050000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1166,22 +1166,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00076" summary="LLAMA2 VS LLAMA3 PLAY TICKTACTOE.BIGAI SCHOOL">
-      <option name="closed" value="true" />
-      <created>1714479253532</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1714479253532</updated>
-    </task>
-    <task id="LOCAL-00077" summary="README">
-      <option name="closed" value="true" />
-      <created>1714810151169</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1714810151169</updated>
     </task>
     <task id="LOCAL-00078" summary="README">
       <option name="closed" value="true" />
@@ -1527,7 +1511,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717153573250</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="README WITH YT">
+      <option name="closed" value="true" />
+      <created>1717156333149</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1717156333149</updated>
+    </task>
+    <task id="LOCAL-00122" summary="README WITH YT">
+      <option name="closed" value="true" />
+      <created>1717157041698</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1717157041698</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1553,7 +1553,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="PIC RECOGNIZE LOCALLY LLAVA" />
     <MESSAGE value="README UPD" />
     <MESSAGE value="ocr" />
     <MESSAGE value="TEST OUT DEEPGRAM" />
@@ -1578,7 +1577,8 @@
     <MESSAGE value="leetcode files" />
     <MESSAGE value="VAD WITH WHISPERX WORKING!!!!!!!" />
     <MESSAGE value="VAD WITH STT TTS GROQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="VAD WITH STT TTS GROQ" />
+    <MESSAGE value="README WITH YT" />
+    <option name="LAST_COMMIT_MESSAGE" value="README WITH YT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
