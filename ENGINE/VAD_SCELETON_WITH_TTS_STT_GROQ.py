@@ -40,24 +40,22 @@ def process_audio(buffer):
 
     # Transcribe using Whisperx
     print("Transcribing audio...")
-    result = model.transcribe(audio_np, language="ja")
+    result = model.transcribe(audio_np, language="en")
     text = result['segments'][0]['text']
 
 
     chat_completion = client.chat.completions.create(
         messages=[
-            {"role": "system", "content": "あなたはいつも短く、日本語のみで答える数少ないアシスタントです"},
+            {"role": "system", "content": "You are clever assistant who answer concisely"},
             {"role": "user","content": text}
         ],
-        model="llama3-8b-8192",
+        model="llama3-70b-8192",
     )
 
     bot_reply = chat_completion.choices[0].message.content
 
-
-    #bot_text = chat_bot.talk(result['segments'][0]['text'])
     generate_and_play(text=bot_reply, voice='nova')
-    #generate_and_play(text=bot_text, voice='onyx')
+    #generate_and_play(text=bot_reply, voice='onyx')
 
     if 'text' in result:
         print("Transcription:", result['text'])
