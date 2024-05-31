@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="VAD WITH STT TTS GROQ">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/VAD_SCELETON_WITH_TTS_STT_GROQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/VAD_SCELETON_WITH_TTS_STT_GROQ.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1138,7 +1137,7 @@
       <workItem from="1717070244754" duration="2750000" />
       <workItem from="1717084097820" duration="5330000" />
       <workItem from="1717093256734" duration="4876000" />
-      <workItem from="1717136525323" duration="5146000" />
+      <workItem from="1717136525323" duration="7899000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1167,14 +1166,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00075" summary="BIGAI ENV SAVE">
-      <option name="closed" value="true" />
-      <created>1714464112616</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1714464112616</updated>
     </task>
     <task id="LOCAL-00076" summary="LLAMA2 VS LLAMA3 PLAY TICKTACTOE.BIGAI SCHOOL">
       <option name="closed" value="true" />
@@ -1528,7 +1519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717095932790</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="VAD WITH STT TTS GROQ">
+      <option name="closed" value="true" />
+      <created>1717153573249</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1717153573250</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
