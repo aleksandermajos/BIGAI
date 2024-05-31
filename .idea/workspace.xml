@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README WITH YT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1137,7 +1136,7 @@
       <workItem from="1717070244754" duration="2750000" />
       <workItem from="1717084097820" duration="5330000" />
       <workItem from="1717093256734" duration="4876000" />
-      <workItem from="1717136525323" duration="9050000" />
+      <workItem from="1717136525323" duration="11125000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1166,22 +1165,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00078" summary="README">
-      <option name="closed" value="true" />
-      <created>1714812592349</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1714812592349</updated>
-    </task>
-    <task id="LOCAL-00079" summary="GEN COMIC">
-      <option name="closed" value="true" />
-      <created>1714880121364</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1714880121364</updated>
     </task>
     <task id="LOCAL-00080" summary="GEN COMIC">
       <option name="closed" value="true" />
@@ -1527,7 +1510,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717157041698</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="README WITH YT">
+      <option name="closed" value="true" />
+      <created>1717157478541</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1717157478541</updated>
+    </task>
+    <task id="LOCAL-00124" summary="README WITH YT">
+      <option name="closed" value="true" />
+      <created>1717159691947</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1717159691947</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
