@@ -108,6 +108,12 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | BIGAI_FRONT INTRO           | N/A     | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw) |
 | QUANTMAVERICK PROJECT INTRO | N/A     | 🔥                                                |
 
+### BIGAI_FRONT-SAMURAI:
+| NAME                  | AS CODE | YT VIDEO                                          |
+|-----------------------|---------|---------------------------------------------------|
+| BIGAI_FRONT INTRO     | N/A     | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw) |
+| SAMURAI PROJECT INTRO | N/A     | 🔥                                                |
+
 
 
 
