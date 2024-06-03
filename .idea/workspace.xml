@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI GITHUB YT LINK WITH WRAP LINES">
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/OCR/PIC1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/OCR/PIC2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/OCR/PIC3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/OCR/PIC4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/OCR/PIC5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/OCR_JAPANESE_MANGAOCR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/PIC_REGOG_PHI3VISION.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/VAD_SCELETON_WITH_TTS_STT_GROQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/VAD_SCELETON_WITH_TTS_STT_GROQ.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="TRY OCR AND VISION WITH KANJI">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crewAI-examples/.idea/crewAI-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../crewAI-examples/.idea/crewAI-examples.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1157,7 +1147,7 @@
       <workItem from="1717218488658" duration="8832000" />
       <workItem from="1717231399114" duration="1103000" />
       <workItem from="1717241525499" duration="1350000" />
-      <workItem from="1717392607929" duration="3551000" />
+      <workItem from="1717392607929" duration="4932000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1186,14 +1176,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00083" summary="PIC RECOGNIZE LOCALLY LLAVA">
-      <option name="closed" value="true" />
-      <created>1714887365864</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1714887365864</updated>
     </task>
     <task id="LOCAL-00084" summary="PIC RECOGNIZE LOCALLY LLAVA">
       <option name="closed" value="true" />
@@ -1547,7 +1529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717221283171</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="TRY OCR AND VISION WITH KANJI">
+      <option name="closed" value="true" />
+      <created>1717396180291</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1717396180291</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1573,7 +1563,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="TEST OUT DEEPGRAM" />
     <MESSAGE value="FINAL README LIST" />
     <MESSAGE value="ALL BUSINESS" />
     <MESSAGE value="BIGAI" />
@@ -1598,7 +1587,8 @@
     <MESSAGE value="README WITH YT" />
     <MESSAGE value="BIGAI GITHUB YT LINK" />
     <MESSAGE value="BIGAI GITHUB YT LINK WITH WRAP LINES" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI GITHUB YT LINK WITH WRAP LINES" />
+    <MESSAGE value="TRY OCR AND VISION WITH KANJI" />
+    <option name="LAST_COMMIT_MESSAGE" value="TRY OCR AND VISION WITH KANJI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
