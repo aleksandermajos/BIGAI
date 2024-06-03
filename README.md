@@ -1,12 +1,9 @@
 # BIGAI
 ### MODULAR FRAMEWORK BASED ON MACHINE LEARNING AND DEEP LEARNING(LLM) ALGORITHMS FOR FAST PROTOTYPING
 
-*⭐️ INSTALL REQUIREMENTS:*
-pip install -r requirements_{your_operating_system}.txt
+### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:
 
-*⭐️ RECREATE CONDA ENVIROMENT:*
-conda env create -f BIGAI_{your_operating_system}.yml
-
+https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 
 ### MAIN MODULES:
 * ENGINE - TESTED METHODS AS FUNCT OR API FOR LATER USE BY PROJECTS
@@ -155,17 +152,15 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | YET UNKNOWN FLET WINDOWS        |         |                                                   |
 | METAHUMANS UNREAL 5 AS FRONTEND |         |                                                   |
 
+*⭐️ INSTALL REQUIREMENTS:*
+pip install -r requirements_{your_operating_system}.txt
 
-
-
-### THIS REPO IS SUPPLEMENT OF BIGAI YT CHANNEL:
-
-https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
+*⭐️ RECREATE CONDA ENVIROMENT:*
+conda env create -f BIGAI_{your_operating_system}.yml
 
 *⭐️ Like this repo? please star & consider donating to keep it maintained*
 
 <a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
 
 
 > **BEWARE**: This is a work in progress!
