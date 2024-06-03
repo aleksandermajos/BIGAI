@@ -61,30 +61,30 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | METAHUMANS UNREAL 5 AS FRONTEND FOR BIGAI AND EVERY OTHER PROJECT |                                                                                                                |                                                                                                                                                                                                                       |                                                    |
 
 ### BIGAI_SCHOOL-SMALL PROJECTS:
-| NAME                           | AS CODE | YT VIDEO |
-|--------------------------------|---------|----------|
-| LANGUAGE DETECTOR TOOL         |         |          |
-| LLAMA3 FUNCTION CALLING        |         |          |
-| LLAMA3 FINETUNING              |         |          |
-| EASIEST RAG                    |         |          |
-| SCRAPPING TOOL                 |         |          |
-| MIXTURE OF EXPERTS AND MODELS  |         |          |
-| SPEECH TO CODE                 |         |          |
-| YT CLIP ANALIZE                |         |          |
-| SPEECH TO PIC                  |         |          |
-| PIC TO SPEECH                  |         |          |
-| CREWAI LOCAL AND EXTERNAL      |         |          |
-| CREATE SRT FROM MOVIE          |         |          |
-| RADIO                          |         |          |
-| FLASHCARDS ANKI                |         |          |
-| TIMELINE SIMPLES IDEA          |         |          |
-| BUILD TRANSFORMER FROM SCRATCH |         |          |
-| BUILD MAMBA FROM SCRATCH       |         |          |
-| EXREACTION DATA FROM PDFs      |         |          |
-| VISUALIZE GRPAHS               |         |          |
-| RL ALGIORITHMS ON FIN DATA     |         |          |
-| UNREAL CONNECT TO ...          |         |          |
-| UNKNOWN SMALL PROJECTS         |         |          |
+| NAME                           | AS CODE                                                                                                      | YT VIDEO                                               |
+|--------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| LANGUAGE DETECTOR TOOL         | [LANGUAGE DETECTOR TOOL](https://github.com/aleksandermajos/BIGAI/tree/main/SCHOOL/SMALL%20PROJECTS/LD_TOOL) | [LANGUAGE DETECTOR TOOL](https://youtu.be/YMDSjfe51BM) |
+| LLAMA3 FUNCTION CALLING        |                                                                                                              |                                                        |
+| LLAMA3 FINETUNING              |                                                                                                              |                                                        |
+| EASIEST RAG                    |                                                                                                              |                                                        |
+| SCRAPPING TOOL                 |                                                                                                              |                                                        |
+| MIXTURE OF EXPERTS AND MODELS  |                                                                                                              |                                                        |
+| SPEECH TO CODE                 |                                                                                                              |                                                        |
+| YT CLIP ANALIZE                |                                                                                                              |                                                        |
+| SPEECH TO PIC                  |                                                                                                              |                                                        |
+| PIC TO SPEECH                  |                                                                                                              |                                                        |
+| CREWAI LOCAL AND EXTERNAL      |                                                                                                              |                                                        |
+| CREATE SRT FROM MOVIE          |                                                                                                              |                                                        |
+| RADIO                          |                                                                                                              |                                                        |
+| FLASHCARDS ANKI                |                                                                                                              |                                                        |
+| TIMELINE SIMPLES IDEA          |                                                                                                              |                                                        |
+| BUILD TRANSFORMER FROM SCRATCH |                                                                                                              |                                                        |
+| BUILD MAMBA FROM SCRATCH       |                                                                                                              |                                                        |
+| EXREACTION DATA FROM PDFs      |                                                                                                              |                                                        |
+| VISUALIZE GRPAHS               |                                                                                                              |                                                        |
+| RL ALGIORITHMS ON FIN DATA     |                                                                                                              |                                                        |
+| UNREAL CONNECT TO ...          |                                                                                                              |                                                        |
+| UNKNOWN SMALL PROJECTS         |                                                                                                              |                                                        |
 
 ### BIGAI_SCHOOL-CODE_COMPANION:
 | NAME                                                     | AS CODE | YT VIDEO                                                     |

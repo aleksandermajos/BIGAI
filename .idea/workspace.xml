@@ -4,43 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="TRY OCR AND VISION WITH KANJI">
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/LD_TOOL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/LD_TOOL.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/LD_TOOL_PERF.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/LD_TOOL_TRAIN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/Pic_Class_Report.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/Pic_Conf_Matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/Pic_Pred_Prob.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/Unify_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/data_lang.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/deu_sentences.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/fra_sentences.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/pol_sentences.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/spa_sentences.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data_arch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/model_arch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="LD TOOL AS BIGAI SCHOOL SMALL PROJECTS">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/AUDIO_TO_SRT.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/AUDIO_TO_SRT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/FRONT_FLET_VIDEOPLAYBACK.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/FRONT_FLET_VIDEOPLAYBACK.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/oko.json" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/oko.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/oko.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/oko.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/oko.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/oko.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/question.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/question.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/read_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/read_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/test_q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/test_q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1187,7 +1152,7 @@
       <workItem from="1717405295057" duration="825000" />
       <workItem from="1717411279360" duration="481000" />
       <workItem from="1717411787433" duration="1426000" />
-      <workItem from="1717449407569" duration="2210000" />
+      <workItem from="1717449407569" duration="2521000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1216,14 +1181,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00086" summary="ocr">
-      <option name="closed" value="true" />
-      <created>1714989360175</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1714989360175</updated>
     </task>
     <task id="LOCAL-00087" summary="TEST OUT DEEPGRAM">
       <option name="closed" value="true" />
@@ -1577,7 +1534,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717398813487</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="LD TOOL AS BIGAI SCHOOL SMALL PROJECTS">
+      <option name="closed" value="true" />
+      <created>1717451704477</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1717451704478</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1603,7 +1568,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="FINAL README LIST" />
     <MESSAGE value="ALL BUSINESS" />
     <MESSAGE value="BIGAI" />
     <MESSAGE value="BIGAI SCHOOL" />
@@ -1628,7 +1592,8 @@
     <MESSAGE value="BIGAI GITHUB YT LINK" />
     <MESSAGE value="BIGAI GITHUB YT LINK WITH WRAP LINES" />
     <MESSAGE value="TRY OCR AND VISION WITH KANJI" />
-    <option name="LAST_COMMIT_MESSAGE" value="TRY OCR AND VISION WITH KANJI" />
+    <MESSAGE value="LD TOOL AS BIGAI SCHOOL SMALL PROJECTS" />
+    <option name="LAST_COMMIT_MESSAGE" value="LD TOOL AS BIGAI SCHOOL SMALL PROJECTS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
