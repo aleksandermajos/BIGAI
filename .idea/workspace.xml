@@ -5,7 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="TRY OCR AND VISION WITH KANJI">
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/LD_TOOL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/LD_TOOL.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/LD_TOOL_PERF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/LD_TOOL_TRAIN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/Pic_Class_Report.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/Pic_Conf_Matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/Pic_Pred_Prob.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/Unify_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/data_lang.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/deu_sentences.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/fra_sentences.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/pol_sentences.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data/spa_sentences.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/data_arch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/model_arch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/AUDIO_TO_SRT.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/AUDIO_TO_SRT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/FRONT_FLET_VIDEOPLAYBACK.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/FRONT_FLET_VIDEOPLAYBACK.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/oko.json" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/oko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/oko.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/oko.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/oko.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/oko.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/question.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/question.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/read_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/read_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/test_q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/test_q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +194,7 @@
     "Python.example.executor": "Run",
     "Python.file-picker-all-modes.executor": "Run",
     "Python.file-picker-upload-progress.executor": "Run",
-    "Python.main (1).executor": "Debug",
+    "Python.main (1).executor": "Run",
     "Python.main (2).executor": "Debug",
     "Python.main (3).executor": "Debug",
     "Python.main (4).executor": "Debug",
@@ -186,7 +221,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/home/bigai/PycharmProjects/BIGAI/ENGINE",
+    "last_opened_file_path": "/home/bigai/PycharmProjects/BIGAI/SCHOOL/SMALL PROJECTS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -198,21 +233,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS" />
       <recent name="$PROJECT_DIR$/ENGINE" />
       <recent name="$PROJECT_DIR$/../ALL_AI/Speech-to-text" />
       <recent name="$PROJECT_DIR$/SCHOOL" />
       <recent name="$PROJECT_DIR$/../ALL_AI/low-latency-sts-main" />
-      <recent name="$PROJECT_DIR$/ENGINE/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SCHOOL/CODECOMPANION" />
       <recent name="$PROJECT_DIR$/ENGINE" />
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP/PIC/OCR" />
       <recent name="$PROJECT_DIR$/../ALL_AI" />
       <recent name="$PROJECT_DIR$/MODELS/TEXT" />
-      <recent name="$PROJECT_DIR$/SCHOOL" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PIC_REGOG_PHI3VISION">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="TensorFlow-Developer-Certificate-Guide" />
       <option name="ENV_FILES" value="" />
@@ -446,29 +481,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GPU_PYTORCH" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BIGAI" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/GPU_PYTORCH.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="OCR_JAPANESE_MANGAOCR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
@@ -553,6 +565,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FRONT/ALOHAPP/alohapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FRONT/ALOHAPP/alohapp/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -726,11 +761,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.PIC_REGOG_PHI3VISION" />
         <item itemvalue="Python.OCR_JAPANESE_MANGAOCR" />
         <item itemvalue="Python.VAD_SCELETON_WITH_TTS_STT_GROQ" />
         <item itemvalue="Python.APP_CONVERSATIONS_AI" />
-        <item itemvalue="Python.GPU_PYTORCH" />
       </list>
     </recent_temporary>
   </component>
@@ -1147,7 +1182,12 @@
       <workItem from="1717218488658" duration="8832000" />
       <workItem from="1717231399114" duration="1103000" />
       <workItem from="1717241525499" duration="1350000" />
-      <workItem from="1717392607929" duration="4932000" />
+      <workItem from="1717392607929" duration="5383000" />
+      <workItem from="1717402794163" duration="647000" />
+      <workItem from="1717405295057" duration="825000" />
+      <workItem from="1717411279360" duration="481000" />
+      <workItem from="1717411787433" duration="1426000" />
+      <workItem from="1717449407569" duration="2210000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1176,22 +1216,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00084" summary="PIC RECOGNIZE LOCALLY LLAVA">
-      <option name="closed" value="true" />
-      <created>1714887487738</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1714887487738</updated>
-    </task>
-    <task id="LOCAL-00085" summary="README UPD">
-      <option name="closed" value="true" />
-      <created>1714905360971</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1714905360971</updated>
     </task>
     <task id="LOCAL-00086" summary="ocr">
       <option name="closed" value="true" />
@@ -1537,7 +1561,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717396180291</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="TRY OCR AND VISION WITH KANJI">
+      <option name="closed" value="true" />
+      <created>1717398542438</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1717398542438</updated>
+    </task>
+    <task id="LOCAL-00130" summary="TRY OCR AND VISION WITH KANJI">
+      <option name="closed" value="true" />
+      <created>1717398813487</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1717398813487</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1776,14 +1816,14 @@
     <SUITE FILE_PATH="coverage/BIGAI$Sliding_AppBar.coverage" NAME="Sliding_AppBar Coverage Results" MODIFIED="1710318641510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/flet_animations" />
     <SUITE FILE_PATH="coverage/BIGAI$VAD1.coverage" NAME="VAD1 Coverage Results" MODIFIED="1717058634537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$urlShortner.coverage" NAME="urlShortner Coverage Results" MODIFIED="1710318745453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/url_shortner" />
-    <SUITE FILE_PATH="coverage/BIGAI$FRONT_FLET_VIDEOPLAYBACK.coverage" NAME="FRONT_FLET_VIDEOPLAYBACK Coverage Results" MODIFIED="1716876053609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL" />
     <SUITE FILE_PATH="coverage/BIGAI$CONVERSATIONS_AI.coverage" NAME="CONVERSATIONS_AI Coverage Results" MODIFIED="1696591975235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$FRONT_FLET_VIDEOPLAYBACK.coverage" NAME="FRONT_FLET_VIDEOPLAYBACK Coverage Results" MODIFIED="1716876053609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL" />
     <SUITE FILE_PATH="coverage/BIGAI$ELELAB_TTS_API.coverage" NAME="ELELAB_TTS_API Coverage Results" MODIFIED="1696540446169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$AUDIO_TO_SRT__1_.coverage" NAME="AUDIO_TO_SRT (1) Coverage Results" MODIFIED="1716876047023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL" />
     <SUITE FILE_PATH="coverage/BIGAI$PIC_RECOGNIZE_CLOUDE_HAIKU.coverage" NAME="PIC_RECOGNIZE_CLOUDE_HAIKU Coverage Results" MODIFIED="1714036955189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/BIGAI$TTS_ELEVENLABS_API.coverage" NAME="TTS_ELEVENLABS_API Coverage Results" MODIFIED="1696590057655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$GEN_COMIC_STORYDIFFIUSION.coverage" NAME="GEN_COMIC_STORYDIFFIUSION Coverage Results" MODIFIED="1714879971574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$AUDIO_TO_SRT.coverage" NAME="AUDIO_TO_SRT Coverage Results" MODIFIED="1716201515382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$GEN_COMIC_STORYDIFFIUSION.coverage" NAME="GEN_COMIC_STORYDIFFIUSION Coverage Results" MODIFIED="1714879971574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$TTS_ELEVENLABS_API.coverage" NAME="TTS_ELEVENLABS_API Coverage Results" MODIFIED="1696590057655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GPU_KERAS.coverage" NAME="GPU_KERAS Coverage Results" MODIFIED="1716108197946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_70B_Q4.coverage" NAME="GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_70B_Q4 Coverage Results" MODIFIED="1714469704501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$responsive_menu_layout.coverage" NAME="responsive_menu_layout Coverage Results" MODIFIED="1710318695670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/responsive_menu_layout" />
@@ -1851,8 +1891,8 @@
     <SUITE FILE_PATH="coverage/BIGAI$STT_MMS.coverage" NAME="STT_MMS Coverage Results" MODIFIED="1713768361149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$OCR_JAPANESE_MANGAOCR.coverage" NAME="OCR_JAPANESE_MANGAOCR Coverage Results" MODIFIED="1717394847314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GPU_PL.coverage" NAME="GPU_PL Coverage Results" MODIFIED="1714076680640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1710315466084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/apps/icons-browser" />
     <SUITE FILE_PATH="coverage/BIGAI$STT_FASTERWHISPER.coverage" NAME="STT_FASTERWHISPER Coverage Results" MODIFIED="1715870267839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1717412219393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP/alohapp" />
     <SUITE FILE_PATH="coverage/BIGAI$VAD_SCELETON_WITH_TTS_STT.coverage" NAME="VAD_SCELETON_WITH_TTS_STT_GROQ Coverage Results" MODIFIED="1717097157887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPERX.coverage" NAME="STT_WHISPERX Coverage Results" MODIFIED="1715875097453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$PYTHON_ENV_CHECK.coverage" NAME="PYTHON_ENV_CHECK Coverage Results" MODIFIED="1713767792272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
