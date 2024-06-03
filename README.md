@@ -56,6 +56,8 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | FINDING EMPTY SPACES INN GRAPHS                                   |                                                                                                                |                                                                                                                                                                                                                       |                                                    |
 | GENERATE CODE. KNOWLEDGE, REASONING OR ACTION IN GRAPHS           |                                                                                                                |                                                                                                                                                                                                                       |                                                    |
 | METAHUMANS UNREAL 5 AS FRONTEND FOR BIGAI AND EVERY OTHER PROJECT |                                                                                                                |                                                                                                                                                                                                                       |                                                    |
+| RUST BACKEND                                                      |                                                                                                                |                                                                                                                                                                                                                       |                                                    |
+| MOJO BACKEND                                                      |                                                                                                                |                                                                                                                                                                                                                       |                                                    |
 
 ### BIGAI_SCHOOL-SMALL PROJECTS:
 | NAME                           | AS CODE                                                                                                      | YT VIDEO                                               |
@@ -80,7 +82,10 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | EXREACTION DATA FROM PDFs      |                                                                                                              |                                                        |
 | VISUALIZE GRPAHS               |                                                                                                              |                                                        |
 | RL ALGIORITHMS ON FIN DATA     |                                                                                                              |                                                        |
+| SMART DEV SCENARIO             |                                                                                                              |                                                        |
 | UNREAL CONNECT TO ...          |                                                                                                              |                                                        |
+| RUST SCENARIO                  |                                                                                                              |                                                        |
+| MOJO SCENARIO                  |                                                                                                              |                                                        |
 | UNKNOWN SMALL PROJECTS         |                                                                                                              |                                                        |
 
 ### BIGAI_SCHOOL-CODE_COMPANION:
@@ -100,6 +105,9 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | TF SCENARIO                                              |         |                                                              |
 | INTERVIEW SCENARIO+TRANSLATE                             |         |                                                              |
 | METAHUMANS UNREAL 5 AS FRONTEND                          |         |                                                              |
+| C++ SCENARIO                                             |         |                                                              |
+| RUST SCENARIO                                            |         |                                                              |
+| MOJO SCENARIO                                            |         |                                                              |
 
 ### BIGAI_FRONT-ALOHAPP:
 | NAME                                                      | AS CODE | YT VIDEO                                              |
@@ -134,7 +142,12 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | DRAW KANJI WITH SENTENCES AND AUDIO                       |         |                                                       |
 | WELCOME WINDOW                                            |         |                                                       |
 | CONVERSATIONS HUMAN WITH PICS AND MODULAR WORDS SELECTION |         |                                                       |
+| SMART SPEAKERS                                            |         |                                                       |
+| SMART GLASSES                                             |         |                                                       |
+| SMART WATCHES                                             |         |                                                       |
+| CHROME EXTENSION                                          |         |                                                       |
 | METAHUMANS UNREAL 5 AS FRONTEND                           |         |                                                       |
+| CONSOLE SUPPORT                                           |         |                                                       |
 
 ### BIGAI_FRONT-QUANTMAVERICK:
 | NAME                            | AS CODE | YT VIDEO                                          |
@@ -143,6 +156,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | QUANTMAVERICK PROJECT INTRO     | N/A     | 🔥                                                |
 | YET UNKNOWN FLET WINDOWS        |         |                                                   |
 | METAHUMANS UNREAL 5 AS FRONTEND |         |                                                   |
+| CONSOLE SUPPORT                 |         |                                                   |
 
 ### BIGAI_FRONT-SAMURAI:
 | NAME                            | AS CODE | YT VIDEO                                          |
@@ -151,6 +165,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | SAMURAI PROJECT INTRO           | N/A     | 🔥                                                |
 | YET UNKNOWN FLET WINDOWS        |         |                                                   |
 | METAHUMANS UNREAL 5 AS FRONTEND |         |                                                   |
+| CONSOLE SUPPORT                 |         |                                                   |
 
 *⭐️ INSTALL REQUIREMENTS:*
 pip install -r requirements_{your_operating_system}.txt

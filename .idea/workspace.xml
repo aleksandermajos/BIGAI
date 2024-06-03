@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="LD TOOL AS BIGAI SCHOOL SMALL PROJECTS">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="YT LINK ON BEGINNING">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1152,7 +1153,7 @@
       <workItem from="1717405295057" duration="825000" />
       <workItem from="1717411279360" duration="481000" />
       <workItem from="1717411787433" duration="1426000" />
-      <workItem from="1717449407569" duration="2521000" />
+      <workItem from="1717449407569" duration="3715000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1181,22 +1182,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00087" summary="TEST OUT DEEPGRAM">
-      <option name="closed" value="true" />
-      <created>1715161802730</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1715161802730</updated>
-    </task>
-    <task id="LOCAL-00088" summary="FINAL README LIST">
-      <option name="closed" value="true" />
-      <created>1715244490857</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1715244490857</updated>
     </task>
     <task id="LOCAL-00089" summary="FINAL README LIST">
       <option name="closed" value="true" />
@@ -1542,7 +1527,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717451704478</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="SMALL PROJECTS STARTS">
+      <option name="closed" value="true" />
+      <created>1717452111282</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1717452111282</updated>
+    </task>
+    <task id="LOCAL-00133" summary="YT LINK ON BEGINNING">
+      <option name="closed" value="true" />
+      <created>1717452224882</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1717452224882</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1568,8 +1569,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="ALL BUSINESS" />
-    <MESSAGE value="BIGAI" />
     <MESSAGE value="BIGAI SCHOOL" />
     <MESSAGE value="BIGAI SCHOOL NOTEBOOKS DEL" />
     <MESSAGE value="BIGAI FASTAPI TRY WITH WHISPER" />
@@ -1593,7 +1592,9 @@
     <MESSAGE value="BIGAI GITHUB YT LINK WITH WRAP LINES" />
     <MESSAGE value="TRY OCR AND VISION WITH KANJI" />
     <MESSAGE value="LD TOOL AS BIGAI SCHOOL SMALL PROJECTS" />
-    <option name="LAST_COMMIT_MESSAGE" value="LD TOOL AS BIGAI SCHOOL SMALL PROJECTS" />
+    <MESSAGE value="SMALL PROJECTS STARTS" />
+    <MESSAGE value="YT LINK ON BEGINNING" />
+    <option name="LAST_COMMIT_MESSAGE" value="YT LINK ON BEGINNING" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
