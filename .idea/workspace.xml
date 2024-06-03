@@ -1153,7 +1153,7 @@
       <workItem from="1717405295057" duration="825000" />
       <workItem from="1717411279360" duration="481000" />
       <workItem from="1717411787433" duration="1426000" />
-      <workItem from="1717449407569" duration="3715000" />
+      <workItem from="1717449407569" duration="6036000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1182,14 +1182,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00089" summary="FINAL README LIST">
-      <option name="closed" value="true" />
-      <created>1715244574839</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1715244574840</updated>
     </task>
     <task id="LOCAL-00090" summary="FINAL README LIST">
       <option name="closed" value="true" />
@@ -1543,7 +1535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717452224882</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="YT LINK ON BEGINNING">
+      <option name="closed" value="true" />
+      <created>1717453177998</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1717453177998</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
