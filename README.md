@@ -97,6 +97,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | BIGAI_SCHOOL_INTRO                                       | N/A     | [BIGAI_SCHOOL_INTRO](https://youtu.be/HRiwMqpM0b4)           |
 | CODE_COMPANION PROJECT INTRO                             | N/A     | [CODE_COMPANION PROJECT INTRO](https://youtu.be/rEeSF0LezIA) |
 | SPEECH TO EXPLANATION FLET PROTOTYPE                     |  🔥     |                                                              |
+| OCR TO EXPLANATION FLET PROTOTYPE                        |  🔥     |                                                              |
 | GEN DATA 5K FROM LEETCODE                                |         |                                                              |
 | GEN CREW TOGETHER                                        |         |                                                              |
 | FINE TUNE CREW ON FORMATED DATA TO CODE                  |         |                                                              |
