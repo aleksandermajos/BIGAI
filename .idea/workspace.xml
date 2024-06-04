@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="YT LINK ON BEGINNING">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="PRIORITY CODING">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -64,139 +64,139 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python tests.Python tests in test_vad.py.executor": "Debug",
-    "Python.ALOHAPP_ANKI (1).executor": "Debug",
-    "Python.ALOHAPP_KANJI.executor": "Debug",
-    "Python.ALOHAPP_ROMANJI.executor": "Debug",
-    "Python.ALOHAPP_TRANSLATE.executor": "Debug",
-    "Python.API_BIGAI_CLIENT.executor": "Run",
-    "Python.API_BIGAI_SERVER.executor": "Run",
-    "Python.API_SERVER_STT_WHISPER.executor": "Debug",
-    "Python.API_STT_WHISPER_CLIENT.executor": "Run",
-    "Python.API_STT_WHISPER_SERVER.executor": "Run",
-    "Python.APP_CONVERSATIONS_AI.executor": "Debug",
-    "Python.APP_CONVERSATIONS_AI_V2.executor": "Debug",
-    "Python.APP_OCR_WINDOW.executor": "Debug",
-    "Python.APP_SENTENCES.executor": "Debug",
-    "Python.AUDIO_TO_SRT (1).executor": "Run",
-    "Python.AUDIO_TO_SRT.executor": "Debug",
-    "Python.Anthropic_test.executor": "Debug",
-    "Python.BLACKJACK.executor": "Run",
-    "Python.CODE_GEN_BY_CLOUDE_HAIKU.executor": "Debug",
-    "Python.CODE_GEN_LLAMA3_70B.executor": "Debug",
-    "Python.CODE_GEN_LLAMA3_8B.executor": "Debug",
-    "Python.FRONT_FLET_VIDEOPLAYBACK.executor": "Run",
-    "Python.GEN_CODE_CODELLAMA.executor": "Debug",
-    "Python.GEN_CODE_TEXT_CLAUDE_HAIKU.executor": "Debug",
-    "Python.GEN_CODE_TEXT_GROQ.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_3_INSTRUCT.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_70B_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_LLAMA3_Q5.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL8x7B_Q5.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL_8x22B_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_LLAMA_CPP_PHI3_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_MISTRAL8x7B_Q3.executor": "Debug",
-    "Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_70B_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4.executor": "Debug",
-    "Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_MISTRAL.executor": "Debug",
-    "Python.GEN_CODE_TEXT_OLLAMA_LLAMA3.executor": "Debug",
-    "Python.GEN_COMIC_STORYDIFFIUSION.executor": "Run",
-    "Python.GEN_COMIC_STORYDIFFIUSION_GRADIO.executor": "Debug",
-    "Python.GEN_PIC_SDXL.executor": "Debug",
-    "Python.GEN_PIC_SDXL_LIGHTNING.executor": "Debug",
-    "Python.GEN_PIC_STABLE_DIFFXL.executor": "ConcurrencyExecutor",
-    "Python.GEN_TEXT.executor": "Debug",
-    "Python.GEN_TEXT_LLAMA_3.executor": "Debug",
-    "Python.GEN_TEXT_LLAMA_CPP.executor": "Debug",
-    "Python.GEN_TEXT_LLAMA_CPP_LLAMA3.executor": "Debug",
-    "Python.GEN_TEXT_OCTOPUS_V2.executor": "Debug",
-    "Python.GEN_TEXT_OLLAMA.executor": "Debug",
-    "Python.GPU_JAX.executor": "Debug",
-    "Python.GPU_KERAS.executor": "Debug",
-    "Python.GPU_PL.executor": "Debug",
-    "Python.GPU_PYTORCH.executor": "Debug",
-    "Python.GPU_TF.executor": "Debug",
-    "Python.GPU_TRAX.executor": "Debug",
-    "Python.LLM_FINETUNE_LLAMA3.executor": "Debug",
-    "Python.OCR_JAPANESE_MANGAOCR.executor": "Debug",
-    "Python.PIC_RECOGNIZE_CLOUDE_HAIKU.executor": "Debug",
-    "Python.PIC_RECOGNIZE_OLLAMA_LLAVA.executor": "Debug",
-    "Python.PIC_REGOG_PHI3VISION.executor": "Debug",
-    "Python.POKER.executor": "Debug",
-    "Python.PYAUDIO_DEVICES.executor": "Debug",
-    "Python.PYTHON_ENV_CHECK.executor": "Run",
-    "Python.QM_NIXTLA_FIRST.executor": "Debug",
-    "Python.RECOG_PICTURE_OLLAMA_LLAVA.executor": "Debug",
-    "Python.REC_AUDIO_PYAUDIO.executor": "Debug",
-    "Python.REC_VOICE_PYAUDIO.executor": "Debug",
-    "Python.STT_FASTERWHISPER.executor": "Debug",
-    "Python.STT_MMS.executor": "Debug",
-    "Python.STT_WHISPERTIMESTAMPED.executor": "Debug",
-    "Python.STT_WHISPERX.executor": "Debug",
-    "Python.STT_WHISPERX_VAD_PYAUDIO.executor": "Run",
-    "Python.STT_WHISPERX_VAD_SOUNDDEVICE.executor": "Debug",
-    "Python.STT_WHISPER_STREAMING.executor": "Debug",
-    "Python.Sliding_AppBar.executor": "Run",
-    "Python.TEXT_RECOGNIZE_TROCR.executor": "Debug",
-    "Python.TRANSFORMERS_WHISPER.executor": "Debug",
-    "Python.TTS_BARK.executor": "Debug",
-    "Python.TTS_BARK_HALF.executor": "Debug",
-    "Python.TTS_BARK_MP.executor": "Run",
-    "Python.TTS_DEEPGRAM.executor": "Debug",
-    "Python.TTS_OPENAI.executor": "Debug",
-    "Python.TTS_OPENAI_API.executor": "Debug",
-    "Python.VAD1.executor": "Run",
-    "Python.VAD_SCELETON_WITH_TTS_STT.executor": "Debug",
-    "Python.VAD_SCELETON_WITH_TTS_STT_GROQ.executor": "Debug",
-    "Python.VIDEO_PLAYER.executor": "Debug",
-    "Python.aha_vad.executor": "Debug",
-    "Python.basic-auth.executor": "Debug",
-    "Python.codemaster4.executor": "Debug",
-    "Python.dark_light_switch.executor": "Debug",
-    "Python.example.executor": "Run",
-    "Python.file-picker-all-modes.executor": "Run",
-    "Python.file-picker-upload-progress.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main (2).executor": "Debug",
-    "Python.main (3).executor": "Debug",
-    "Python.main (4).executor": "Debug",
-    "Python.main (5).executor": "Debug",
-    "Python.page_window.executor": "Debug",
-    "Python.pyaudio_ID.executor": "Debug",
-    "Python.responsive_menu_layout.executor": "Run",
-    "Python.run.executor": "Run",
-    "Python.scarjo.executor": "Debug",
-    "Python.scarjo2.executor": "Debug",
-    "Python.simple-inference.executor": "Run",
-    "Python.simple_desktop_layout.executor": "Run",
-    "Python.talk.executor": "Debug",
-    "Python.test2.executor": "Debug",
-    "Python.urlShortner.executor": "Run",
-    "Python.vad2.executor": "Debug",
-    "Python.vertical_loading_animation.executor": "Run",
-    "Python.voice69.executor": "Debug",
-    "Python.weather_example.executor": "Run",
-    "Python.web.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/home/bigai/PycharmProjects/BIGAI/SCHOOL/SMALL PROJECTS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in test_vad.py.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ALOHAPP_ANKI (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ALOHAPP_KANJI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ALOHAPP_ROMANJI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ALOHAPP_TRANSLATE.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.API_BIGAI_CLIENT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.API_BIGAI_SERVER.executor&quot;: &quot;Run&quot;,
+    &quot;Python.API_SERVER_STT_WHISPER.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.API_STT_WHISPER_CLIENT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.API_STT_WHISPER_SERVER.executor&quot;: &quot;Run&quot;,
+    &quot;Python.APP_CONVERSATIONS_AI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.APP_CONVERSATIONS_AI_V2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.APP_OCR_WINDOW.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.APP_SENTENCES.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.AUDIO_TO_SRT (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.AUDIO_TO_SRT.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Anthropic_test.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.BLACKJACK.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CODE_GEN_BY_CLOUDE_HAIKU.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CODE_GEN_LLAMA3_70B.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.CODE_GEN_LLAMA3_8B.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.FRONT_FLET_VIDEOPLAYBACK.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GEN_CODE_CODELLAMA.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_CLAUDE_HAIKU.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_GROQ.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_3_INSTRUCT.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_70B_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_LLAMA3_Q5.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL8x7B_Q5.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL_8x22B_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_PHI3_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_MISTRAL8x7B_Q3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_70B_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_MISTRAL.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_CODE_TEXT_OLLAMA_LLAMA3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_COMIC_STORYDIFFIUSION.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GEN_COMIC_STORYDIFFIUSION_GRADIO.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_PIC_SDXL.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_PIC_SDXL_LIGHTNING.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_PIC_STABLE_DIFFXL.executor&quot;: &quot;ConcurrencyExecutor&quot;,
+    &quot;Python.GEN_TEXT.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_TEXT_LLAMA_3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_TEXT_LLAMA_CPP.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_TEXT_LLAMA_CPP_LLAMA3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_TEXT_OCTOPUS_V2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GEN_TEXT_OLLAMA.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GPU_JAX.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GPU_KERAS.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GPU_PL.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GPU_PYTORCH.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GPU_TF.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.GPU_TRAX.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.LLM_FINETUNE_LLAMA3.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.OCR_JAPANESE_MANGAOCR.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PIC_RECOGNIZE_CLOUDE_HAIKU.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PIC_RECOGNIZE_OLLAMA_LLAVA.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PIC_REGOG_PHI3VISION.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.POKER.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PYAUDIO_DEVICES.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.PYTHON_ENV_CHECK.executor&quot;: &quot;Run&quot;,
+    &quot;Python.QM_NIXTLA_FIRST.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.RECOG_PICTURE_OLLAMA_LLAVA.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.REC_AUDIO_PYAUDIO.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.REC_VOICE_PYAUDIO.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_FASTERWHISPER.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_MMS.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_WHISPERTIMESTAMPED.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_WHISPERX.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_WHISPERX_VAD_PYAUDIO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.STT_WHISPERX_VAD_SOUNDDEVICE.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.STT_WHISPER_STREAMING.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Sliding_AppBar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TEXT_RECOGNIZE_TROCR.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TRANSFORMERS_WHISPER.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TTS_BARK.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TTS_BARK_HALF.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TTS_BARK_MP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TTS_DEEPGRAM.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TTS_OPENAI.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.TTS_OPENAI_API.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.VAD1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.VAD_SCELETON_WITH_TTS_STT.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.VAD_SCELETON_WITH_TTS_STT_GROQ.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.VIDEO_PLAYER.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.aha_vad.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.basic-auth.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.codemaster4.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.dark_light_switch.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file-picker-all-modes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.file-picker-upload-progress.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main (4).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main (5).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.page_window.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.pyaudio_ID.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.responsive_menu_layout.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scarjo.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.scarjo2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.simple-inference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_desktop_layout.executor&quot;: &quot;Run&quot;,
+    &quot;Python.talk.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.urlShortner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vad2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.vertical_loading_animation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.voice69.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.weather_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.web.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bigai/PycharmProjects/BIGAI/SCHOOL/SMALL PROJECTS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS" />
@@ -1153,7 +1153,9 @@
       <workItem from="1717405295057" duration="825000" />
       <workItem from="1717411279360" duration="481000" />
       <workItem from="1717411787433" duration="1426000" />
-      <workItem from="1717449407569" duration="6036000" />
+      <workItem from="1717449407569" duration="6786000" />
+      <workItem from="1717456415525" duration="2695000" />
+      <workItem from="1717482818630" duration="3774000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1182,30 +1184,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00090" summary="FINAL README LIST">
-      <option name="closed" value="true" />
-      <created>1715246021997</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1715246021997</updated>
-    </task>
-    <task id="LOCAL-00091" summary="FINAL README LIST">
-      <option name="closed" value="true" />
-      <created>1715246441133</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1715246441133</updated>
-    </task>
-    <task id="LOCAL-00092" summary="FINAL README LIST">
-      <option name="closed" value="true" />
-      <created>1715266182746</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1715266182746</updated>
     </task>
     <task id="LOCAL-00093" summary="FINAL README LIST">
       <option name="closed" value="true" />
@@ -1543,7 +1521,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717453177998</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="ADDING MEM REQUIREMENTS">
+      <option name="closed" value="true" />
+      <created>1717455510131</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1717455510131</updated>
+    </task>
+    <task id="LOCAL-00136" summary="PRIORITY CODING">
+      <option name="closed" value="true" />
+      <created>1717455654829</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1717455654829</updated>
+    </task>
+    <task id="LOCAL-00137" summary="PRIORITY CODING">
+      <option name="closed" value="true" />
+      <created>1717455747444</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1717455747444</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1569,8 +1571,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI SCHOOL" />
-    <MESSAGE value="BIGAI SCHOOL NOTEBOOKS DEL" />
     <MESSAGE value="BIGAI FASTAPI TRY WITH WHISPER" />
     <MESSAGE value="BIGAI README UPDATE" />
     <MESSAGE value="BIGAI ENGINE API_STT_WHISPER" />
@@ -1594,7 +1594,9 @@
     <MESSAGE value="LD TOOL AS BIGAI SCHOOL SMALL PROJECTS" />
     <MESSAGE value="SMALL PROJECTS STARTS" />
     <MESSAGE value="YT LINK ON BEGINNING" />
-    <option name="LAST_COMMIT_MESSAGE" value="YT LINK ON BEGINNING" />
+    <MESSAGE value="ADDING MEM REQUIREMENTS" />
+    <MESSAGE value="PRIORITY CODING" />
+    <option name="LAST_COMMIT_MESSAGE" value="PRIORITY CODING" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
