@@ -3,9 +3,17 @@ import webrtcvad
 import numpy as np
 import whisperx
 import collections
-from ENGINE.KEY_OPENAI import generate_and_play
+from playsound import playsound
 from ENGINE.KEY_GROQ import provide_key
 from groq import Groq
+from melo.api import TTS
+
+
+speed = 0.8
+device_melo = 'cuda:0'
+model_melo = TTS(language='JP', device=device_melo)
+speaker_ids = model_melo.hps.data.spk2id
+
 
 client = Groq(
     api_key=provide_key()
@@ -42,12 +50,16 @@ def process_audio(buffer):
     print("Transcribing audio...")
     result = model.transcribe(audio_np, language="ja")
     text = result['segments'][0]['text']
-    print(result['segments'][0]['text'])
+    print(text)
+
+    output_path = 'oko.wav'
+    model_melo.tts_to_file(text, speaker_ids['JP'], output_path, speed=speed)
+    playsound('oko.wav')
 
 
     chat_completion = client.chat.completions.create(
         messages=[
-            {"role": "system", "content": "あなたは簡潔に答えてくれる賢いアシスタントです.あなたの答えは日本語のみです"},
+            {"role": "system", "content": "あなたは世界の広範な知識を持つ貴族です。あなたの答えはいつも短く、日本語です"},
             {"role": "user","content": text}
         ],
         model="llama3-70b-8192",
@@ -56,8 +68,9 @@ def process_audio(buffer):
     bot_reply = chat_completion.choices[0].message.content
     print(bot_reply)
 
-    #generate_and_play(text=result['segments'][0]['text'], voice='nova')
-    generate_and_play(text=bot_reply, voice='nova')
+    output_path = 'oko.wav'
+    model_melo.tts_to_file(bot_reply, speaker_ids['JP'], output_path, speed=speed)
+    playsound('oko.wav')
 
     if 'text' in result:
         print("Transcription:", result['text'])
