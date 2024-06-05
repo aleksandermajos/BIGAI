@@ -5,13 +5,14 @@ import whisperx
 import collections
 from playsound import playsound
 from ENGINE.KEY_GROQ import provide_key
+from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from groq import Groq
 from melo.api import TTS
 
 
-speed = 0.8
+speed = 1
 device_melo = 'cuda:0'
-model_melo = TTS(language='JP', device=device_melo)
+model_melo = TTS(language='EN', device=device_melo)
 speaker_ids = model_melo.hps.data.spk2id
 
 
@@ -48,18 +49,19 @@ def process_audio(buffer):
 
     # Transcribe using Whisperx
     print("Transcribing audio...")
-    result = model.transcribe(audio_np, language="ja")
+    result = model.transcribe(audio_np, language="en")
     text = result['segments'][0]['text']
     print(text)
 
+    '''
     output_path = 'oko.wav'
     model_melo.tts_to_file(text, speaker_ids['JP'], output_path, speed=speed)
     playsound('oko.wav')
-
+    '''
 
     chat_completion = client.chat.completions.create(
         messages=[
-            {"role": "system", "content": "あなたは世界の広範な知識を持つ貴族です。あなたの答えはいつも短く、日本語です"},
+            {"role": "system", "content": "You are super sophisticated aristocrat.Answering only super sophisticated vocabulary"},
             {"role": "user","content": text}
         ],
         model="llama3-70b-8192",
@@ -69,7 +71,7 @@ def process_audio(buffer):
     print(bot_reply)
 
     output_path = 'oko.wav'
-    model_melo.tts_to_file(bot_reply, speaker_ids['JP'], output_path, speed=speed)
+    model_melo.tts_to_file(bot_reply, speaker_ids['EN-BR'], output_path, speed=speed)
     playsound('oko.wav')
 
     if 'text' in result:
@@ -84,7 +86,7 @@ def record_and_transcribe():
                         channels=CHANNELS,
                         rate=RATE,
                         input=True,
-                        frames_per_buffer=CHUNK,input_device_index=3)
+                        frames_per_buffer=CHUNK,input_device_index=find_mic_id())
 
     num_padding_frames = int(300 / FRAME_DURATION_MS)  # 300ms padding
     ring_buffer = collections.deque(maxlen=num_padding_frames)
