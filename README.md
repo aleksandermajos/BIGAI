@@ -66,6 +66,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | NAME                           | AS CODE                                                                                                      | YT VIDEO                                               |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | LANGUAGE DETECTOR TOOL         | [LANGUAGE DETECTOR TOOL](https://github.com/aleksandermajos/BIGAI/tree/main/SCHOOL/SMALL%20PROJECTS/LD_TOOL) | [LANGUAGE DETECTOR TOOL](https://youtu.be/YMDSjfe51BM) |
+| CODESTRAL22B WITH CONTINUE     |                                                                                                              |                                                        |
 | LLAMA3 FUNCTION CALLING        |                                                                                                              |                                                        |
 | LLAMA3 FINETUNING              |                                                                                                              |                                                        |
 | EASIEST RAG                    |                                                                                                              |                                                        |

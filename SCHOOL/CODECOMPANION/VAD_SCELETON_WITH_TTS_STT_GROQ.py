@@ -10,9 +10,9 @@ from groq import Groq
 from melo.api import TTS
 
 
-speed = 1
+speed = 0.9
 device_melo = 'cuda:0'
-model_melo = TTS(language='EN', device=device_melo)
+model_melo = TTS(language='JP', device=device_melo)
 speaker_ids = model_melo.hps.data.spk2id
 
 
@@ -49,19 +49,19 @@ def process_audio(buffer):
 
     # Transcribe using Whisperx
     print("Transcribing audio...")
-    result = model.transcribe(audio_np, language="en")
+    result = model.transcribe(audio_np, language="ja")
     text = result['segments'][0]['text']
     print(text)
 
-    '''
+
     output_path = 'oko.wav'
     model_melo.tts_to_file(text, speaker_ids['JP'], output_path, speed=speed)
     playsound('oko.wav')
-    '''
+
 
     chat_completion = client.chat.completions.create(
         messages=[
-            {"role": "system", "content": "You are super sophisticated aristocrat.Answering only super sophisticated vocabulary"},
+            {"role": "system", "content": "あなたはとても怒っていて、一言で言えば洗練されています、人事アシスタント"},
             {"role": "user","content": text}
         ],
         model="llama3-70b-8192",
@@ -71,7 +71,7 @@ def process_audio(buffer):
     print(bot_reply)
 
     output_path = 'oko.wav'
-    model_melo.tts_to_file(bot_reply, speaker_ids['EN-BR'], output_path, speed=speed)
+    model_melo.tts_to_file(bot_reply, speaker_ids['JP'], output_path, speed=speed)
     playsound('oko.wav')
 
     if 'text' in result:
