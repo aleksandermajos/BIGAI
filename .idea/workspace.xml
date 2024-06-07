@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="MELOTTS IN ACTION + MIC">
-      <change afterPath="$PROJECT_DIR$/ENGINE/CODE_GEN_BY_CODESTRAL22B.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="CODESTRAL AND CONTINUE">
+      <change afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/VAD_LOOP_LC.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_ROMANJI.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_ROMANJI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/VAD_SCELETON_WITH_TTS_STT_GROQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/VAD_SCELETON_WITH_TTS_STT_GROQ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/AUDIO_TO_SRT.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/AUDIO_TO_SRT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/FRONT_FLET_VIDEOPLAYBACK.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/FLET/FRONT_FLET_VIDEOPLAYBACK.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/VAD_SCELETON_WITH_TTS_STT_GROQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/HACKERRANK/VAD_LOOP_HR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/oko.json" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/oko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/oko.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/oko.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/oko.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/oko.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/question.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/question.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/read_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/read_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/test_q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/test_q_1442_countTripletsThatCanFormTwoArraysOfEqualXor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +203,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/home/bigai/PycharmProjects/BIGAI/SCHOOL/CODECOMPANION",
+    "last_opened_file_path": "/home/bigai/PycharmProjects/BIGAI/SCHOOL/CODECOMPANION/HACKERRANK",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -500,7 +509,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="VAD_SCELETON_WITH_TTS_STT_GROQ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="VAD_LOOP_LC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -514,7 +523,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SCHOOL/CODECOMPANION/VAD_SCELETON_WITH_TTS_STT_GROQ.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/VAD_LOOP_LC.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -736,7 +745,7 @@
       <list>
         <item itemvalue="Python.CODE_GEN_BY_CODESTRAL22B" />
         <item itemvalue="Python.melo_testy" />
-        <item itemvalue="Python.VAD_SCELETON_WITH_TTS_STT_GROQ (1)" />
+        <item itemvalue="Python.VAD_LOOP_LC" />
         <item itemvalue="Python.PYAUDIO_DEVICES" />
         <item itemvalue="Python.ALOHAPP_ROMANJI" />
       </list>
@@ -1173,7 +1182,7 @@
       <workItem from="1717749202762" duration="859000" />
       <workItem from="1717750114221" duration="241000" />
       <workItem from="1717750372810" duration="164000" />
-      <workItem from="1717750555855" duration="1269000" />
+      <workItem from="1717750555855" duration="3123000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1202,14 +1211,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00099" summary="BIGAI FASTAPI TRY WITH WHISPER">
-      <option name="closed" value="true" />
-      <created>1715849084497</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1715849084497</updated>
     </task>
     <task id="LOCAL-00100" summary="BIGAI README UPDATE">
       <option name="closed" value="true" />
@@ -1563,7 +1564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717591273706</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="CODESTRAL AND CONTINUE">
+      <option name="closed" value="true" />
+      <created>1717751982162</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1717751982162</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1589,7 +1598,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI ENGINE API_BIGAI FASTER-WHISPER AND MOCK TRANSLATE" />
     <MESSAGE value="BIGAI ENGINE API_BIGAI FASTER-WHISPER AND NLLB TRANSLATE" />
     <MESSAGE value="BIGAI ENGINE README&#10;CODING TIME!" />
     <MESSAGE value="BIGAI ENGINE FLET VIDEO PLAYBACK" />
@@ -1614,7 +1622,8 @@
     <MESSAGE value="CONDA ENV UPDATE" />
     <MESSAGE value="MELOTTS IN ACTION" />
     <MESSAGE value="MELOTTS IN ACTION + MIC" />
-    <option name="LAST_COMMIT_MESSAGE" value="MELOTTS IN ACTION + MIC" />
+    <MESSAGE value="CODESTRAL AND CONTINUE" />
+    <option name="LAST_COMMIT_MESSAGE" value="CODESTRAL AND CONTINUE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1776,16 +1785,6 @@
           <url>file://$PROJECT_DIR$/ENGINE/PIC_REGOG_PHI3VISION.py</url>
           <line>36</line>
           <option name="timeStamp" value="111" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SCHOOL/CODECOMPANION/melo_testy.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SCHOOL/CODECOMPANION/melo_testy.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ENGINE/ALOHAPP_ROMANJI.py</url>
