@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="OCR PADDLE JP+TTS + ENV SAVE">
-      <change afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT/SUPER_RUDE_ASSISTANT_LOCAL.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="SMALL FROJECTS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/GEN_CODE_TEXT_OLLAMA_LLAMA3.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/GEN_CODE_TEXT_OLLAMA_LLAMA3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/KEY_GROQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/KEY_GROQ.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/OCR_PADDLEOCR.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/OCR_PADDLEOCR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/SCREENSHOOT_SELENIUM.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/SCREENSHOOT_SELENIUM.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/result.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/result.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Transformers-for-NLP-and-Computer-Vision-3rd-Edition/Chapter02/Multi_Head_Attention_Sub_Layer.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Transformers-for-NLP-and-Computer-Vision-3rd-Edition/Chapter02/Multi_Head_Attention_Sub_Layer.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +197,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/home/bigai/PycharmProjects/BIGAI/SCHOOL/SMALL PROJECTS/EASIEST RAG",
+    "last_opened_file_path": "/home/bigai/PycharmProjects/BIGAI/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -219,10 +210,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT" />
-      <recent name="$PROJECT_DIR$/ENGINE" />
-      <recent name="$PROJECT_DIR$/ENGINE/ppocr_img/imgs_en" />
-      <recent name="$PROJECT_DIR$/SCHOOL/CODECOMPANION/HACKERRANK" />
-      <recent name="$PROJECT_DIR$/SCHOOL/CODECOMPANION" />
+      <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/TRANSFORMER_ARCH" />
+      <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/TOKENIZERS DEEP DIVE" />
+      <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/PRETRAIN ROBERTA FROM SCRATCH" />
+      <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/METRICS FOR LLM SYSTEMS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SCHOOL/CODECOMPANION/FLET" />
@@ -1192,7 +1183,7 @@
       <workItem from="1717804582402" duration="2030000" />
       <workItem from="1717807095056" duration="3143000" />
       <workItem from="1717828734265" duration="8426000" />
-      <workItem from="1717927917737" duration="2216000" />
+      <workItem from="1717927917737" duration="3624000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1221,14 +1212,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00104" summary="BIGAI ENGINE API_BIGAI FASTER-WHISPER AND MOCK TRANSLATE">
-      <option name="closed" value="true" />
-      <created>1715873300403</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1715873300403</updated>
     </task>
     <task id="LOCAL-00105" summary="BIGAI ENGINE API_BIGAI FASTER-WHISPER AND NLLB TRANSLATE">
       <option name="closed" value="true" />
@@ -1582,7 +1565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717808028904</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="SMALL FROJECTS">
+      <option name="closed" value="true" />
+      <created>1717931229469</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1717931229470</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1608,7 +1599,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI FRONTEND CLEANUP" />
     <MESSAGE value="BIGAI SCHOOL CODING TIME" />
     <MESSAGE value="BIGAI CODE TEST" />
     <MESSAGE value="WHISPERX_VAD TRY" />
@@ -1633,7 +1623,8 @@
     <MESSAGE value="CODESTRAL CODE" />
     <MESSAGE value="OCR PADDLE + ENV SAVE" />
     <MESSAGE value="OCR PADDLE JP+TTS + ENV SAVE" />
-    <option name="LAST_COMMIT_MESSAGE" value="OCR PADDLE JP+TTS + ENV SAVE" />
+    <MESSAGE value="SMALL FROJECTS" />
+    <option name="LAST_COMMIT_MESSAGE" value="SMALL FROJECTS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
