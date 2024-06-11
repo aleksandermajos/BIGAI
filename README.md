@@ -123,44 +123,59 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | MOJO SCENARIO                                            |         |                                                              |
 
 ### BIGAI_FRONT-ALOHAPP:
-| NAME                                                      | AS CODE | YT VIDEO                                              |
-|-----------------------------------------------------------|---------|-------------------------------------------------------|
-| BIGAI_FRONT INTRO                                         | N/A     | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)     |
-| ALOHAPP PROJECT INTRO                                     | N/A     | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E) |
-| DATA SOURCES                                              | 🔥      |                                                       |
-| USER CLASS                                                |         |                                                       |
-| TIMELINE CLASS                                            |         |                                                       |
-| AUDIO TO SRT                                              |         |                                                       |
-| AUDIO TO LECTOR                                           |         |                                                       |
-| VOICE TO PIC                                              |         |                                                       |
-| PIC TO VOICE                                              |         |                                                       |
-| VOICE TO TRANSLATED VOICE                                 |         |                                                       |
-| DIARY IN TARGET LANGUAGE                                  |         |                                                       |
-| RADIO TO PIC                                              |         |                                                       |
-| OCR FROM PIC                                              |         |                                                       |
-| UNSTRUCTURED DATA TO STRUCTURED DATA                      |         |                                                       |
-| FLASHCARDS WORDS, SENTENCES TO VOICE                      |         |                                                       |
-| WORDS TO SENTENCES                                        |         |                                                       |
-| SENTENCES TO FLASHCARDS                                   |         |                                                       |
-| CUSTOM FLASHCARDS FROM WORDS,SENTENCES,PICTURES,RADIO     |         |                                                       |
-| CONVERSATIONS AI WITH PICS AND MODULAR WORDS SELECTION    |         |                                                       |
-| NETFLIX RECOMMENDATIONS                                   |         |                                                       |
-| RADIO/PODCAST RECOMMENDATIONS                             |         |                                                       |
-| MUSIC RECOMMENDATIONS                                     |         |                                                       |
-| BOOK RECOMMENDATIONS                                      |         |                                                       |
-| VOICE TO COMIC                                            |         |                                                       |
-| COMIC TO VOICE                                            |         |                                                       |
-| INSIGHTS FROM DATA                                        |         |                                                       |
-| CREATE SETTINGS                                           |         |                                                       |
-| DRAW KANJI WITH SENTENCES AND AUDIO                       |         |                                                       |
-| WELCOME WINDOW                                            |         |                                                       |
-| CONVERSATIONS HUMAN WITH PICS AND MODULAR WORDS SELECTION |         |                                                       |
-| SMART SPEAKERS                                            |         |                                                       |
-| SMART GLASSES                                             |         |                                                       |
-| SMART WATCHES                                             |         |                                                       |
-| CHROME EXTENSION                                          |         |                                                       |
-| METAHUMANS UNREAL 5 AS FRONTEND                           |         |                                                       |
-| CONSOLE SUPPORT                                           |         |                                                       |
+| NAME                                                           | AS CODE   | YT VIDEO                                                | DAYS   |
+|----------------------------------------------------------------|-----------|---------------------------------------------------------|--------|
+| BIGAI_FRONT INTRO                                              | N/A       | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       | 0      |
+| ALOHAPP PROJECT INTRO                                          | N/A       | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   | 0      |
+| DATA SOURCES - ASSIMIL 6 LANGUAGES                             | 🔥        |                                                         | 2      |
+| USER CLASS                                                     | 🔥        |                                                         | 1      |
+| TIMELINE CLASS                                                 | 🔥        |                                                         | 1      |
+| START USING!LUNCH ALOHA YT!DONATIONS                           | 🔥        |                                                         | 0      |
+| AUDIO TO SRT WINDOW                                            |           |                                                         | 2      |
+| AUDIO TO LECTOR WINDOW                                         |           |                                                         | 1      |
+| VOICE TO PIC WINDOW                                            |           |                                                         | 2      |
+| PIC TO VOICE WINDOW                                            |           |                                                         | 1      |
+| VOICE TO TRANSLATED VOICE WINDOW                               |           |                                                         | 2      |
+| DIARY IN TARGET LANGUAGE WINDOW                                |           |                                                         | 2      |
+| RADIO TO PIC WINDOW                                            |           |                                                         | 2      |
+| OCR FROM PIC                                                   |           |                                                         | 2      |
+| -------------------------------------------------------------- | --------- | ------------------------------------------------------- | ------ |
+| DRAW KANJI                                                     |           |                                                         | 6      |
+| KANJI INFO DICTIONARY                                          |           |                                                         | 4      |
+| READ ANKI DECKS                                                |           |                                                         | 3      |
+| WRITE ANKI DECKS FROM WORDS,SENTENCES,PICTURES,RADIO           |           |                                                         | 6      |
+| -------------------------------------------------------------- | --------- | ------------------------------------------------------- | ------ |
+| CONVERSATIONS AI WITH PICS AND MODULAR WORDS SELECTION VER_3   |           |                                                         | 8      |
+| GOING FOR FINANCE                                              |           |                                                         | 6      |
+| PROGRESS WINDOW VER_1                                          |           |                                                         | 6      |
+| NETFLIX WINDOW RECOMMENDATIONS                                 |           |                                                         | 4      |
+| RADIO/PODCAST WINDOW RECOMMENDATIONS                           |           |                                                         | 3      |
+| MUSIC WINDOW RECOMMENDATIONS                                   |           |                                                         | 4      |
+| BOOK WINDOW RECOMMENDATIONS+CREATE ON THE GO                   |           |                                                         | 4      |
+| COMIC WINDOW RECOMMENDATIONS+CREATE ON THE GO                  |           |                                                         | 4      |
+| ARTICLES WINDOW RECENT BASED ON RAG RECOMMENDATIONS            |           |                                                         | 4      |
+| INSIGHTS FROM ADDITIONAL DATA                                  |           |                                                         | 3      |
+| PROGRESS WINDOW VER_2                                          |           |                                                         | 2      |
+| SETTINGS WINDOW + ADDING POLYGLOT EDITION                      |           |                                                         | 4      |
+| SOURCES WINDOW VER_1                                           |           |                                                         | 3      |
+| WELCOME WINDOW + CHECKING YOUR LEVEL                           |           |                                                         | 4      |
+| CONVERSATIONS HUMAN WITH PICS AND MODULAR WORDS SELECTION      |           |                                                         | 6      |
+| -------------------------------------------------------------- | --------- | ------------------------------------------------------- | ------ |
+| LOCAL/OPENAI VARIANT + OUT OF BIGAI UMBRELLA                   |           |                                                         | 4      |
+| WEB VERSION + OUT OF BIGAI UMBRELLA                            |           |                                                         | 6      |
+| WEB ON MOBILE VERSION + OUT OF BIGAI UMBRELLA                  |           |                                                         | 10     |
+| -------------------------------------------------------------- | --------- | ------------------------------------------------------- | ------ |
+| ADDING 14 LANGUAGES                                            |           |                                                         | 10     |
+| FIX ERRORS                                                     |           |                                                         | 10     |
+| GETTING FIN                                                    |           |                                                         | 5      |
+| -------------------------------------------------------------- | --------- | ------------------------------------------------------- | ------ |
+| SMART SPEAKERS                                                 |           |                                                         | 8      |
+| SMART GLASSES                                                  |           |                                                         | 8      |
+| SMART WATCHES                                                  |           |                                                         | 8      |
+| CHROME EXTENSION                                               |           |                                                         | 8      |
+| -------------------------------------------------------------- | --------- | ------------------------------------------------------- | ------ |
+| METAHUMANS UNREAL 5 AS FRONTEND                                |           |                                                         | 30     |
+| CONSOLE SUPPORT                                                |           |                                                         | 30     |
 
 ### BIGAI_FRONT-QUANTMAVERICK:
 | NAME                            | AS CODE | YT VIDEO                                          |
