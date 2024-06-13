@@ -1,64 +1,93 @@
-from fastapi import FastAPI, File, UploadFile
-from faster_whisper import WhisperModel
+from fastapi import FastAPI, File, UploadFile, HTTPException
+from fastapi.responses import FileResponse
+import whisperx
 import uvicorn
 from io import BytesIO
 import numpy as np
 import librosa
 from pydantic import BaseModel
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
+import torch
+from diffusers import StableDiffusion3Pipeline
+from ENGINE.PYAUDIO_DEVICES import find_mic_id
 
-
-model_size = "large-v3"
-model = WhisperModel(model_size, device="cuda", compute_type="float16")
-
-
-checkpoint = 'facebook/nllb-200-distilled-600M'
-model_trans = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
-tokenizer = AutoTokenizer.from_pretrained(checkpoint)
-translator = pipeline('translation', model=model_trans, tokenizer=tokenizer, src_lang='en', tgt_lang="spa_Latn",
-                          max_length=400)
-
-
-class TranslationRequest(BaseModel):
-    text: str
-    target_language: str
-
-class TranslationResponse(BaseModel):
-    translated_text: str
-
+generate_image = True
+translate = True
+transcribe = True
 
 app = FastAPI()
 
 
-@app.post("/translate", response_model=TranslationResponse)
-def translate(request: TranslationRequest):
-    translated_text = translator(request.text)[0]['translation_text']
-    return TranslationResponse(translated_text=translated_text)
+if generate_image:
+    pipe = StableDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium-diffusers",
+                                                    torch_dtype=torch.float16)
+    pipe = pipe.to("cuda")
+    class ImageRequest(BaseModel):
+        prompt: str
+        negative_prompt: str
+        num_inference_steps: int
 
 
-@app.post("/transcribe/")
-async def transcribe(file: UploadFile = File(...)):
-    # Read the file as bytes
-    audio_bytes = await file.read()
+    @app.post("/generate_image/")
+    async def generate_image(request: ImageRequest):
+        try:
+            image = pipe(
+                prompt=request.prompt,
+                negative_prompt=request.negative_prompt,
+                num_inference_steps=request.num_inference_steps,
+                guidance_scale=7.0,
+            ).images[0]
+            file_path = "pic.png"
+            image.save(file_path)
+            return FileResponse(file_path, media_type="image/png", filename="pic.png")
 
-    # Convert bytes to BytesIO
-    audio_file = BytesIO(audio_bytes)
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=str(e))
 
-    # Load the audio file with librosa
-    audio, sr = librosa.load(audio_file, sr=None)  # sr=None to preserve the original sampling rate
 
-    # Ensure audio is a 1D numpy array
-    if audio.ndim == 2:
-        audio = np.mean(audio, axis=1)
+if transcribe:
+    # Initialize Whisper model
+    model = whisperx.load_model("large-v3", device="cuda")
 
-    # Transcribe the audio using Whisper
-    segments, info = model.transcribe(audio, beam_size=5, task='transcribe', language='en')
+    class TranscribeResponse(BaseModel):
+        transcribe_text: str
 
-    transcription = ''
-    for segment in segments:
-        transcription += ("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
 
-    return {"transcription": transcription}
+    @app.post("/transcribe/")
+    async def transcribe(file: UploadFile = File(...)):
+
+        audio = whisperx.load_audio(file.filename)
+
+        result = model.transcribe(audio, batch_size=16, task="transcribe", language= 'en')
+
+        transcription = ''
+        for segment in result['segments']:
+            transcription += ("[%.2fs -> %.2fs] %s" % (segment['start'], segment['end'], segment['text']))
+
+        return TranscribeResponse(transcribe_text=transcription)
+
+
+if translate:
+    checkpoint = 'facebook/nllb-200-distilled-600M'
+    model_trans = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
+    tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+    translator = pipeline('translation', model=model_trans, tokenizer=tokenizer, src_lang='en', tgt_lang="spa_Latn",
+                          max_length=400)
+
+
+    class TranslationRequest(BaseModel):
+        text: str
+        target_language: str
+
+
+    class TranslationResponse(BaseModel):
+        translated_text: str
+
+
+    @app.post("/translate", response_model=TranslationResponse)
+    def translate(request: TranslationRequest):
+        translated_text = translator(request.text)[0]['translation_text']
+        return TranslationResponse(translated_text=translated_text)
 
 
 if __name__ == "__main__":

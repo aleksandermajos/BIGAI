@@ -43,7 +43,7 @@ def generate_subtitle_file(language, segments, file_name,speaker = False):
 
 hf_key = provide_key()
 device = "cuda" #tu sobie wpisz cpu zamiast cuda i poleci na procku
-audio_file = "../SCHOOL/audio.mp3"
+audio_file = "audio.mp3"
 batch_size = 16
 if device =='cpu':
     compute_type = "float"
