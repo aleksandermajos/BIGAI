@@ -1,6 +1,5 @@
 import requests
 
-
 def generate_image(prompt: str, negative_prompt: str, num_inference_steps: int, save_path: str):
     url = "http://127.0.0.1:8000/generate_image/"
 
@@ -61,6 +60,10 @@ def translate(text: str, target_language: str) -> str:
         return translated_text
     else:
         raise Exception(f"Error: {response.status_code} - {response.json().get('detail')}")
+
+
+
+
 
 if __name__ == "__main__":
     text=transcribe(audio_file="audio.mp3")

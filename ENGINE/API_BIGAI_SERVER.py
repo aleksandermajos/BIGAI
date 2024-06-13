@@ -1,24 +1,17 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
-from fastapi.responses import FileResponse
-import whisperx
-import uvicorn
-from io import BytesIO
-import numpy as np
-import librosa
-from pydantic import BaseModel
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
-import torch
-from diffusers import StableDiffusion3Pipeline
-from ENGINE.PYAUDIO_DEVICES import find_mic_id
 
 generate_image = True
-translate = True
-transcribe = True
+translate = False
+STT = False
+TTS_ = False
 
 app = FastAPI()
 
-
 if generate_image:
+    from pydantic import BaseModel
+    import torch
+    from fastapi.responses import FileResponse
+    from diffusers import StableDiffusion3Pipeline
     pipe = StableDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium-diffusers",
                                                     torch_dtype=torch.float16)
     pipe = pipe.to("cuda")
@@ -45,8 +38,8 @@ if generate_image:
             raise HTTPException(status_code=500, detail=str(e))
 
 
-if transcribe:
-    # Initialize Whisper model
+if STT:
+    import whisperx
     model = whisperx.load_model("large-v3", device="cuda")
 
     class TranscribeResponse(BaseModel):
@@ -58,7 +51,7 @@ if transcribe:
 
         audio = whisperx.load_audio(file.filename)
 
-        result = model.transcribe(audio, batch_size=16, task="transcribe", language= 'en')
+        result = model.STT(audio, batch_size=16, task="transcribe", language='en')
 
         transcription = ''
         for segment in result['segments']:
@@ -66,8 +59,20 @@ if transcribe:
 
         return TranscribeResponse(transcribe_text=transcription)
 
+if TTS_:
+    from melo.api import TTS
+    speed = 0.9
+    device_melo = 'cuda:0'
+    model_melo = TTS(language='EN', device=device_melo)
+    speaker_ids = model_melo.hps.data.spk2id
+
+
+
+
+
 
 if translate:
+    from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
     checkpoint = 'facebook/nllb-200-distilled-600M'
     model_trans = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
@@ -91,4 +96,5 @@ if translate:
 
 
 if __name__ == "__main__":
+    import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)

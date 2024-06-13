@@ -68,7 +68,7 @@ for movie in movies:
     my_clip.audio.write_audiofile(r"audio.mp3")
     audio = whisperx.load_audio(audio_file)
     for language in languages:
-        result = model.transcribe(audio, batch_size=batch_size, task="transcribe", language= 'en')
+        result = model.STT(audio, batch_size=batch_size, task="transcribe", language='en')
         print(result["segments"]) # before alignment
         model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=device)
         result = whisperx.align(result["segments"], model_a, metadata, audio, device, return_char_alignments=False)

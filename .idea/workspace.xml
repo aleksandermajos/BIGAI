@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="ALOHAPP FIRST">
-      <change afterPath="$PROJECT_DIR$/ENGINE/PIC_GEN_SD3.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE">
+      <change afterPath="$PROJECT_DIR$/ENGINE/AI_PIC_GENERATOR.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/OCR_PADDLEOCR.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/OCR_PADDLEOCR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/STT_MMS.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/STT_WHISPERX_SRT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/STT_WHISPERX_SRT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/TEXT_RECOGNIZE_TROCR.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/OCR_TROCR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/VAD_SCELETON_WITH_TTS_STT_GROQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/VAD_SCELETON_WITH_TTS_STT_GROQ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/HACKERRANK/VAD_LOOP_HR.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/HACKERRANK/VAD_LOOP_HR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/VAD_LOOP_LC.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/VAD_LOOP_LC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT/SUPER_RUDE_ASSISTANT_LOCAL.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT/SUPER_RUDE_ASSISTANT_LOCAL.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python tests.Python tests in test_vad.py.executor": "Debug",
+    "Python.AI_PIC_GENERATOR.executor": "Debug",
     "Python.ALOHAPP_ANKI (1).executor": "Debug",
     "Python.ALOHAPP_ANKI.executor": "Debug",
     "Python.ALOHAPP_KANJI.executor": "Debug",
@@ -234,7 +236,7 @@
       <recent name="$PROJECT_DIR$/ENGINE" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.API_BIGAI_CLIENT">
+  <component name="RunManager" selected="Python.AI_PIC_GENERATOR">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="TensorFlow-Developer-Certificate-Guide" />
       <option name="ENV_FILES" value="" />
@@ -445,6 +447,29 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="AI_PIC_GENERATOR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BIGAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ENGINE" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/AI_PIC_GENERATOR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="API_BIGAI_CLIENT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BIGAI" />
       <option name="ENV_FILES" value="" />
@@ -529,29 +554,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ENGINE/STT_WHISPERX_SRT.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SUPER_RUDE_ASSISTANT_LOCAL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BIGAI" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT/SUPER_RUDE_ASSISTANT_LOCAL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -748,11 +750,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.API_BIGAI_CLIENT" />
+        <item itemvalue="Python.AI_PIC_GENERATOR" />
         <item itemvalue="Python.API_BIGAI_SERVER" />
+        <item itemvalue="Python.API_BIGAI_CLIENT" />
         <item itemvalue="Python.STT_WHISPERX_SRT" />
         <item itemvalue="Python.STT_FASTERWHISPER" />
-        <item itemvalue="Python.SUPER_RUDE_ASSISTANT_LOCAL" />
       </list>
     </recent_temporary>
   </component>
@@ -1203,7 +1205,8 @@
       <workItem from="1718114351722" duration="5400000" />
       <workItem from="1718129594947" duration="10000" />
       <workItem from="1718169011162" duration="5600000" />
-      <workItem from="1718260890104" duration="14847000" />
+      <workItem from="1718260890104" duration="17739000" />
+      <workItem from="1718302963319" duration="2387000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1232,14 +1235,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00107" summary="BIGAI ENGINE README&#10;CODING TIME!">
-      <option name="closed" value="true" />
-      <created>1716021113996</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1716021113996</updated>
     </task>
     <task id="LOCAL-00108" summary="BIGAI ENGINE README&#10;CODING TIME!">
       <option name="closed" value="true" />
@@ -1593,7 +1588,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718108621580</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE">
+      <option name="closed" value="true" />
+      <created>1718297678702</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1718297678702</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1619,7 +1622,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI SCHOOL CODING TIME" />
     <MESSAGE value="BIGAI CODE TEST" />
     <MESSAGE value="WHISPERX_VAD TRY" />
     <MESSAGE value="leetcode files" />
@@ -1644,7 +1646,8 @@
     <MESSAGE value="OCR PADDLE + ENV SAVE" />
     <MESSAGE value="OCR PADDLE JP+TTS + ENV SAVE" />
     <MESSAGE value="SMALL FROJECTS" />
-    <option name="LAST_COMMIT_MESSAGE" value="SMALL FROJECTS" />
+    <MESSAGE value="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1828,14 +1831,14 @@
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="197" />
+          <url>file://$PROJECT_DIR$/ENGINE/AI_PIC_GENERATOR.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="205" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="201" />
+          <url>file://$PROJECT_DIR$/ENGINE/AI_PIC_GENERATOR.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="206" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1862,19 +1865,19 @@
     <SUITE FILE_PATH="coverage/BIGAI$Sliding_AppBar.coverage" NAME="Sliding_AppBar Coverage Results" MODIFIED="1710318641510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/flet_animations" />
     <SUITE FILE_PATH="coverage/BIGAI$VAD1.coverage" NAME="VAD1 Coverage Results" MODIFIED="1717058634537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$urlShortner.coverage" NAME="urlShortner Coverage Results" MODIFIED="1710318745453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/url_shortner" />
-    <SUITE FILE_PATH="coverage/BIGAI$FRONT_FLET_VIDEOPLAYBACK.coverage" NAME="FRONT_FLET_VIDEOPLAYBACK Coverage Results" MODIFIED="1716876053609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL" />
     <SUITE FILE_PATH="coverage/BIGAI$CONVERSATIONS_AI.coverage" NAME="CONVERSATIONS_AI Coverage Results" MODIFIED="1696591975235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$FRONT_FLET_VIDEOPLAYBACK.coverage" NAME="FRONT_FLET_VIDEOPLAYBACK Coverage Results" MODIFIED="1716876053609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL" />
     <SUITE FILE_PATH="coverage/BIGAI$ELELAB_TTS_API.coverage" NAME="ELELAB_TTS_API Coverage Results" MODIFIED="1696540446169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$AUDIO_TO_SRT__1_.coverage" NAME="AUDIO_TO_SRT (1) Coverage Results" MODIFIED="1716876047023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL" />
     <SUITE FILE_PATH="coverage/BIGAI$PIC_RECOGNIZE_CLOUDE_HAIKU.coverage" NAME="PIC_RECOGNIZE_CLOUDE_HAIKU Coverage Results" MODIFIED="1714036955189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/BIGAI$TTS_ELEVENLABS_API.coverage" NAME="TTS_ELEVENLABS_API Coverage Results" MODIFIED="1696590057655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$GEN_COMIC_STORYDIFFIUSION.coverage" NAME="GEN_COMIC_STORYDIFFIUSION Coverage Results" MODIFIED="1714879971574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$AUDIO_TO_SRT.coverage" NAME="AUDIO_TO_SRT Coverage Results" MODIFIED="1716201515382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$GEN_COMIC_STORYDIFFIUSION.coverage" NAME="GEN_COMIC_STORYDIFFIUSION Coverage Results" MODIFIED="1714879971574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$TTS_ELEVENLABS_API.coverage" NAME="TTS_ELEVENLABS_API Coverage Results" MODIFIED="1696590057655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GPU_KERAS.coverage" NAME="GPU_KERAS Coverage Results" MODIFIED="1717803342754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_70B_Q4.coverage" NAME="GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_70B_Q4 Coverage Results" MODIFIED="1714469704501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$TTS_DEEPGRAM.coverage" NAME="TTS_DEEPGRAM Coverage Results" MODIFIED="1715161648578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$responsive_menu_layout.coverage" NAME="responsive_menu_layout Coverage Results" MODIFIED="1710318695670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/responsive_menu_layout" />
-    <SUITE FILE_PATH="coverage/BIGAI$API_BIGAI_SERVER.coverage" NAME="API_BIGAI_SERVER Coverage Results" MODIFIED="1718297437988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$TTS_DEEPGRAM.coverage" NAME="TTS_DEEPGRAM Coverage Results" MODIFIED="1715161648578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$API_BIGAI_SERVER.coverage" NAME="API_BIGAI_SERVER Coverage Results" MODIFIED="1718304506221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$APP_SENTENCES.coverage" NAME="APP_SENTENCES Coverage Results" MODIFIED="1716134442265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$file_picker_upload_progress.coverage" NAME="file-picker-upload-progress Coverage Results" MODIFIED="1710318855136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/controls/file-picker" />
     <SUITE FILE_PATH="coverage/BIGAI$TTS_BARK.coverage" NAME="TTS_BARK Coverage Results" MODIFIED="1713692296234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
@@ -1906,7 +1909,7 @@
     <SUITE FILE_PATH="coverage/BIGAI$GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL8x7B_Q5.coverage" NAME="GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL8x7B_Q5 Coverage Results" MODIFIED="1717084600296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$LD_TOOL_PERF.coverage" NAME="LD_TOOL_PERF Coverage Results" MODIFIED="1718173595011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_TEXT.coverage" NAME="GEN_TEXT Coverage Results" MODIFIED="1712919135688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$API_BIGAI_CLIENT.coverage" NAME="API_BIGAI_CLIENT Coverage Results" MODIFIED="1718297401631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$API_BIGAI_CLIENT.coverage" NAME="API_BIGAI_CLIENT Coverage Results" MODIFIED="1718297510198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$SUPER_RUDE_ASSISTANT_LOCAL.coverage" NAME="SUPER_RUDE_ASSISTANT_LOCAL Coverage Results" MODIFIED="1718277320439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT" />
     <SUITE FILE_PATH="coverage/BIGAI$CODE_GEN_LLAMA3_8B.coverage" NAME="CODE_GEN_LLAMA3_8B Coverage Results" MODIFIED="1713635101835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$TTS_MELO.coverage" NAME="TTS_MELO Coverage Results" MODIFIED="1717527493666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
@@ -1916,6 +1919,7 @@
     <SUITE FILE_PATH="coverage/BIGAI$SUPER_RUDE_ASSISTANT.coverage" NAME="SUPER_RUDE_ASSISTANT_LOCAL Coverage Results" MODIFIED="1717845899948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4.coverage" NAME="GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4 Coverage Results" MODIFIED="1714502405041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP_TRANSLATE.coverage" NAME="ALOHAPP_TRANSLATE Coverage Results" MODIFIED="1708277361744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$AI_PIC_GENERATOR.coverage" NAME="AI_PIC_GENERATOR Coverage Results" MODIFIED="1718305113204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$QM_NIXTLA_FIRST.coverage" NAME="QM_NIXTLA_FIRST Coverage Results" MODIFIED="1706195770153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$simple_desktop_layout.coverage" NAME="simple_desktop_layout Coverage Results" MODIFIED="1710318714398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/simple_desktop_layout" />
     <SUITE FILE_PATH="coverage/BIGAI$TEXT_RECOGNIZE_TROCR.coverage" NAME="TEXT_RECOGNIZE_TROCR Coverage Results" MODIFIED="1714989319335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
