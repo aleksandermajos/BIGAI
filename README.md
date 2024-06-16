@@ -10,28 +10,6 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * SCHOOL - PLAYGROUND FOR LEARNING AND TESTING NEW CODE.CODECOMPANION AS MAIN TOOL TO DO SO
 * FRONT - FRONTEND FOR PROJECTS.RECENTLY ALOHAPP AND QUANTMAVERICK
 
-### AI KNOWLEDGE:
-| NAME/LINK                                                                                                 | YT VIDEO |
-|-----------------------------------------------------------------------------------------------------------|----------|
-| [TRANSFORMER FOR NLP](https://learning.oreilly.com/library/view/transformers-for-natural/9781805128724/)  |          |
-| [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/) |          |
-| [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)           |          |
-| [NLP](https://learning.oreilly.com/library/view/natural-language-processing/9781098136789/)               |          |
-| [STATISTICS](https://learning.oreilly.com/library/view/the-statistics-and/9781800209763/)                 |          |
-| FINE TUNE, TRANSFER LEARNING, RAG                                                                         |          |
-| CREW FRAMEWORKS                                                                                           |          |
-| JAMBA ARCHITECTURE , xLSTM                                                                                |          |
-| RETRIEVAL DATA FROM LLM                                                                                   |          |
-| INTERPRETABILITY ANTROPIC LIKE                                                                            |          |
-| ACTION DATA BASED LLM                                                                                     |          |
-| CHAIN OF THOUGHTS DATA BASED LLM                                                                          |          |
-| ARCHITECTURE CHAIN OF PARTS DATA BASED LLM                                                                |          |
-| ARCHITECTURE TIME SERIES MODELS                                                                           |          |
-| TIMELINE ARCHITECTURE                                                                                     |          |
-| REINFORCEMENT LEARNING ARCHITECTURE                                                                       |          |
-| BUILD PERFECT DATA ACTION/CODE/COT/COP                                                                    |          |
-
-
 ### BIGAI:
 | NAME                                                      | AS CODE                                                  | YT VIDEO                                                                    |
 |-----------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -186,6 +164,27 @@ conda env create -f BIGAI_{your_operating_system}.yml
 >
 > * No promises. No guarantees. Use at own risk.
 
+### AI KNOWLEDGE:
+| NAME/LINK                                                                                                   | YT VIDEO  |
+|-------------------------------------------------------------------------------------------------------------|-----------|
+| [TRANSFORMER FOR NLP](https://learning.oreilly.com/library/view/transformers-for-natural/9781805128724/)    |           |
+| [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/)   |           |
+| [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)             |           |
+| [NLP](https://learning.oreilly.com/library/view/natural-language-processing/9781098136789/)                 |           |
+| [STATISTICS](https://learning.oreilly.com/library/view/the-statistics-and/9781800209763/)                   |           |
+| FINE TUNE, TRANSFER LEARNING, RAG                                                                           |           |
+| CREW FRAMEWORKS                                                                                             |           |
+| ----------------------------------------------------------------------------------------------------------- | --------- |
+| JAMBA ARCHITECTURE , xLSTM                                                                                  |           |
+| RETRIEVAL DATA FROM LLM                                                                                     |           |
+| INTERPRETABILITY ANTROPIC LIKE                                                                              |           |
+| ACTION DATA BASED LLM                                                                                       |           |
+| CHAIN OF THOUGHTS DATA BASED LLM                                                                            |           |
+| ARCHITECTURE CHAIN OF PARTS DATA BASED LLM                                                                  |           |
+| ARCHITECTURE TIME SERIES MODELS                                                                             |           |
+| TIMELINE ARCHITECTURE                                                                                       |           |
+| REINFORCEMENT LEARNING ARCHITECTURE                                                                         |           |
+| BUILD PERFECT DATA ACTION/CODE/COT/COP                                                                      |           |
 
 
 
