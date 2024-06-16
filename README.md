@@ -10,6 +10,28 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * SCHOOL - PLAYGROUND FOR LEARNING AND TESTING NEW CODE.CODECOMPANION AS MAIN TOOL TO DO SO
 * FRONT - FRONTEND FOR PROJECTS.RECENTLY ALOHAPP AND QUANTMAVERICK
 
+### AI KNOWLEDGE:
+| NAME/LINK                                                                                                 | YT VIDEO |
+|-----------------------------------------------------------------------------------------------------------|----------|
+| [TRANSFORMER FOR NLP](https://learning.oreilly.com/library/view/transformers-for-natural/9781805128724/)  |          |
+| [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/) |          |
+| [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)           |          |
+| [NLP](https://learning.oreilly.com/library/view/natural-language-processing/9781098136789/)               |          |
+| [STATISTICS](https://learning.oreilly.com/library/view/the-statistics-and/9781800209763/)                 |          |
+| FINE TUNE, TRANSFER LEARNING, RAG                                                                         |          |
+| CREW FRAMEWORKS                                                                                           |          |
+| JAMBA ARCHITECTURE , xLSTM                                                                                |          |
+| RETRIEVAL DATA FROM LLM                                                                                   |          |
+| INTERPRETABILITY ANTROPIC LIKE                                                                            |          |
+| ACTION DATA BASED LLM                                                                                     |          |
+| CHAIN OF THOUGHTS DATA BASED LLM                                                                          |          |
+| ARCHITECTURE CHAIN OF PARTS DATA BASED LLM                                                                |          |
+| ARCHITECTURE TIME SERIES MODELS                                                                           |          |
+| TIMELINE ARCHITECTURE                                                                                     |          |
+| REINFORCEMENT LEARNING ARCHITECTURE                                                                       |          |
+| BUILD PERFECT DATA ACTION/CODE/COT/COP                                                                    |          |
+
+
 ### BIGAI:
 | NAME                                                      | AS CODE                                                  | YT VIDEO                                                                    |
 |-----------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -46,52 +68,27 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | TIMESERIES NIXTLA                      |                                                                                                                |                                                                                                                                                                                                                       |                                                    | 16/8   |
 | RL AGENT  ?                            |                                                                                                                |                                                                                                                                                                                                                       |                                                    | 12/6   |
 
-
-
 ### BIGAI_SCHOOL-SMALL PROJECTS:
-| NAME                                           | AS CODE                                                                                                                 | YT VIDEO                                               |
-|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| LANGUAGE DETECTOR TOOL                         | [LANGUAGE DETECTOR TOOL](https://github.com/aleksandermajos/BIGAI/tree/main/SCHOOL/SMALL%20PROJECTS/LD_TOOL)            | [LANGUAGE DETECTOR TOOL](https://youtu.be/YMDSjfe51BM) |
-| CODESTRAL22B OLLAMA WITH CONTINUE IN JETBRAINS | N/A                                                                                                                     |                                                        |
-| SUPER RUDE ASSISTANT                           | [SUPER RUDE ASSISTANT](https://github.com/aleksandermajos/BIGAI/tree/main/SCHOOL/SMALL%20PROJECTS/SUPER_RUDE_ASSISTANT) |                                                        |
-| TRANSFORMER ARCH                               |                                                                                                                         |                                                        |
-| METRICS FOR LLM SYSTEMS                        |                                                                                                                         |                                                        |
-| FINE-TUNING BERT                               |                                                                                                                         |                                                        |
-| PRETRAIN ROBERTA FROM SCRATCH                  |                                                                                                                         |                                                        |
-| FINE TUNE OPENAI MODELS                        |                                                                                                                         |                                                        |
-| TOKENIZERS DEEP DIVE                           |                                                                                                                         |                                                        |
-| EASIEST RAG                                    |                                                                                                                         |                                                        |
-| LLAMA3 FUNCTION CALLING                        |                                                                                                                         |                                                        |
-| LLAMA3 FINETUNING                              |                                                                                                                         |                                                        |
-| SCRAPPING TOOL                                 |                                                                                                                         |                                                        |
-| MIXTURE OF EXPERTS AND MODELS                  |                                                                                                                         |                                                        |
-| SPEECH TO CODE                                 |                                                                                                                         |                                                        |
-| YT CLIP ANALIZE                                |                                                                                                                         |                                                        |
-| SPEECH TO PIC                                  |                                                                                                                         |                                                        |
-| PIC TO SPEECH                                  |                                                                                                                         |                                                        |
-| CREWAI LOCAL AND EXTERNAL                      |                                                                                                                         |                                                        |
-| CREATE SRT FROM MOVIE                          |                                                                                                                         |                                                        |
-| RADIO                                          |                                                                                                                         |                                                        |
-| FLASHCARDS ANKI                                |                                                                                                                         |                                                        |
-| TIMELINE SIMPLES IDEA                          |                                                                                                                         |                                                        |
-| BUILD TRANSFORMER FROM SCRATCH                 |                                                                                                                         |                                                        |
-| BUILD MAMBA FROM SCRATCH                       |                                                                                                                         |                                                        |
-| EXREACTION DATA FROM PDFs                      |                                                                                                                         |                                                        |
-| VISUALIZE GRPAHS                               |                                                                                                                         |                                                        |
-| RL ALGIORITHMS ON FIN DATA                     |                                                                                                                         |                                                        |
-| SMART DEV SCENARIO                             |                                                                                                                         |                                                        |
-| UNREAL CONNECT TO ...                          |                                                                                                                         |                                                        |
-| RUST SCENARIO                                  |                                                                                                                         |                                                        |
-| MOJO SCENARIO                                  |                                                                                                                         |                                                        |
-| UNKNOWN SMALL PROJECTS                         |                                                                                                                         |                                                        |
+| NAME                            | AS CODE                                                                                                                 | YT VIDEO                                               |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| LANGUAGE DETECTOR TOOL(LD_TOOL) | [LANGUAGE DETECTOR TOOL](https://github.com/aleksandermajos/BIGAI/tree/main/SCHOOL/SMALL%20PROJECTS/LD_TOOL)            | [LANGUAGE DETECTOR TOOL](https://youtu.be/YMDSjfe51BM) |
+| CODESTRAL22B OLLAMA             | N/A                                                                                                                     |                                                        |
+| SUPER RUDE ASSISTANT            | [SUPER RUDE ASSISTANT](https://github.com/aleksandermajos/BIGAI/tree/main/SCHOOL/SMALL%20PROJECTS/SUPER_RUDE_ASSISTANT) |                                                        |
+| TRANSFORMER ARCH                |                                                                                                                         |                                                        |
+| METRICS FOR LLM SYSTEMS         |                                                                                                                         |                                                        |
+| FINE-TUNING BERT                |                                                                                                                         |                                                        |
+| PRETRAIN ROBERTA FROM SCRATCH   |                                                                                                                         |                                                        |
+| FINE TUNE OPENAI MODELS         |                                                                                                                         |                                                        |
+| TOKENIZERS DEEP DIVE            |                                                                                                                         |                                                        |
+| EASIEST RAG                     |                                                                                                                         |                                                        |
 
 ### BIGAI_SCHOOL-CODE_COMPANION:
 | NAME                                                     | AS CODE | YT VIDEO                                                     |
 |----------------------------------------------------------|---------|--------------------------------------------------------------|
 | BIGAI_SCHOOL_INTRO                                       | N/A     | [BIGAI_SCHOOL_INTRO](https://youtu.be/HRiwMqpM0b4)           |
 | CODE_COMPANION PROJECT INTRO                             | N/A     | [CODE_COMPANION PROJECT INTRO](https://youtu.be/rEeSF0LezIA) |
-| SPEECH TO EXPLANATION FLET PROTOTYPE                     |  🔥     |                                                              |
-| OCR TO EXPLANATION FLET PROTOTYPE                        |  🔥     |                                                              |
+| SPEECH TO EXPLANATION FLET PROTOTYPE                     |         |                                                              |
+| OCR TO EXPLANATION FLET PROTOTYPE                        |         |                                                              |
 | GEN DATA 5K FROM LEETCODE                                |         |                                                              |
 | GEN DATA 5K FROM HACKERRANK                              |         |                                                              |
 | GEN CREW TOGETHER                                        |         |                                                              |
@@ -104,10 +101,6 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | TF SCENARIO                                              |         |                                                              |
 | TONS OF GITHUB SCENARIOS                                 |         |                                                              |
 | INTERVIEW SCENARIO+TRANSLATE                             |         |                                                              |
-| METAHUMANS UNREAL 5 AS FRONTEND                          |         |                                                              |
-| C++ SCENARIO                                             |         |                                                              |
-| RUST SCENARIO                                            |         |                                                              |
-| MOJO SCENARIO                                            |         |                                                              |
 
 ### BIGAI_FRONT-ALOHAPP:
 | NAME                                                           | AS CODE   | YT VIDEO                                                | DAYS   |
@@ -159,28 +152,20 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | SMART SPEAKERS                                                 |           |                                                         | 8      |
 | SMART GLASSES                                                  |           |                                                         | 8      |
 | SMART WATCHES                                                  |           |                                                         | 8      |
-| CHROME EXTENSION                                               |           |                                                         | 8      |
-| -------------------------------------------------------------- | --------- | ------------------------------------------------------- | ------ |
-| METAHUMANS UNREAL 5 AS FRONTEND                                |           |                                                         | 30     |
-| CONSOLE SUPPORT                                                |           |                                                         | 30     |
+| CHROME EXTENSION                                               |           |                                                         | 8      |                                                        | 30     |
 
 ### BIGAI_FRONT-QUANTMAVERICK:
 | NAME                            | AS CODE | YT VIDEO                                          |
 |---------------------------------|---------|---------------------------------------------------|
 | BIGAI_FRONT INTRO               | N/A     | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw) |
 | QUANTMAVERICK PROJECT INTRO     | N/A     |                                                   |
-| YET UNKNOWN FLET WINDOWS        |         |                                                   |
-| METAHUMANS UNREAL 5 AS FRONTEND |         |                                                   |
-| CONSOLE SUPPORT                 |         |                                                   |
 
 ### BIGAI_FRONT-SAMURAI:
 | NAME                            | AS CODE | YT VIDEO                                          |
 |---------------------------------|---------|---------------------------------------------------|
 | BIGAI_FRONT INTRO               | N/A     | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw) |
 | SAMURAI PROJECT INTRO           | N/A     |                                                   |
-| YET UNKNOWN FLET WINDOWS        |         |                                                   |
-| METAHUMANS UNREAL 5 AS FRONTEND |         |                                                   |
-| CONSOLE SUPPORT                 |         |                                                   |
+
 
 *⭐️ INSTALL REQUIREMENTS:*
 pip install -r requirements_{your_operating_system}.txt

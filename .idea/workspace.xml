@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE">
-      <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ENGINE README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -1204,7 +1201,8 @@
       <workItem from="1718260890104" duration="17739000" />
       <workItem from="1718302963319" duration="2387000" />
       <workItem from="1718400862296" duration="272000" />
-      <workItem from="1718536967844" duration="1345000" />
+      <workItem from="1718536967844" duration="1552000" />
+      <workItem from="1718539222338" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1233,14 +1231,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00108" summary="BIGAI ENGINE README&#10;CODING TIME!">
-      <option name="closed" value="true" />
-      <created>1716022141604</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1716022141604</updated>
     </task>
     <task id="LOCAL-00109" summary="BIGAI ENGINE FLET VIDEO PLAYBACK">
       <option name="closed" value="true" />
@@ -1594,7 +1584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718297678702</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="BIGAI ENGINE README">
+      <option name="closed" value="true" />
+      <created>1718538530955</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1718538530956</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1620,7 +1618,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI CODE TEST" />
     <MESSAGE value="WHISPERX_VAD TRY" />
     <MESSAGE value="leetcode files" />
     <MESSAGE value="VAD WITH WHISPERX WORKING!!!!!!!" />
@@ -1645,7 +1642,8 @@
     <MESSAGE value="OCR PADDLE JP+TTS + ENV SAVE" />
     <MESSAGE value="SMALL FROJECTS" />
     <MESSAGE value="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE" />
+    <MESSAGE value="BIGAI ENGINE README" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ENGINE README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
