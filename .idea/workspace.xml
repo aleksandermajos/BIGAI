@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE">
-      <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI README">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1203,6 +1203,8 @@
       <workItem from="1718373662034" duration="9242000" />
       <workItem from="1718529970467" duration="682000" />
       <workItem from="1718611156509" duration="217000" />
+      <workItem from="1718611382873" duration="1760000" />
+      <workItem from="1718618414786" duration="962000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1231,22 +1233,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00109" summary="BIGAI ENGINE FLET VIDEO PLAYBACK">
-      <option name="closed" value="true" />
-      <created>1716115822686</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1716115822686</updated>
-    </task>
-    <task id="LOCAL-00110" summary="BIGAI ENGINE CHATGPT">
-      <option name="closed" value="true" />
-      <created>1716120137675</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1716120137675</updated>
     </task>
     <task id="LOCAL-00111" summary="BIGAI FRONTEND CLEANUP">
       <option name="closed" value="true" />
@@ -1592,7 +1578,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718611205460</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE">
+      <option name="closed" value="true" />
+      <created>1718611414315</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1718611414315</updated>
+    </task>
+    <task id="LOCAL-00155" summary="BIGAI README">
+      <option name="closed" value="true" />
+      <created>1718611571194</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1718611571194</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1618,7 +1620,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI CODE TEST" />
     <MESSAGE value="WHISPERX_VAD TRY" />
     <MESSAGE value="leetcode files" />
     <MESSAGE value="VAD WITH WHISPERX WORKING!!!!!!!" />
@@ -1643,7 +1644,8 @@
     <MESSAGE value="OCR PADDLE JP+TTS + ENV SAVE" />
     <MESSAGE value="SMALL FROJECTS" />
     <MESSAGE value="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE" />
+    <MESSAGE value="BIGAI README" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
