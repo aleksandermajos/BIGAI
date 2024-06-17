@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE">
-      <change afterPath="$PROJECT_DIR$/ENGINE/LANG_CODES.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/AI_PIC_GENERATOR.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/AI_PIC_GENERATOR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_TRANSLATE_EN_FR_FAIRQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_TRANSLATE_EN_FR_FAIRQ.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_TRANSLATE_EN_FR_NEMO.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_TRANSLATE_EN_FR_NEMO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/STT_WHISPERX_SRT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/STT_WHISPERX_SRT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/VAD_SCELETON_WITH_TTS_STT_GROQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/VAD_SCELETON_WITH_TTS_STT_GROQ.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/HACKERRANK/VAD_LOOP_HR.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/HACKERRANK/VAD_LOOP_HR.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/VAD_LOOP_LC.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE/VAD_LOOP_LC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT/SUPER_RUDE_ASSISTANT_LOCAL.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT/SUPER_RUDE_ASSISTANT_LOCAL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BIGAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BIGAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1213,6 +1202,7 @@
       <workItem from="1718302963319" duration="2387000" />
       <workItem from="1718373662034" duration="9242000" />
       <workItem from="1718529970467" duration="682000" />
+      <workItem from="1718611156509" duration="217000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1241,14 +1231,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00108" summary="BIGAI ENGINE README&#10;CODING TIME!">
-      <option name="closed" value="true" />
-      <created>1716022141604</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1716022141604</updated>
     </task>
     <task id="LOCAL-00109" summary="BIGAI ENGINE FLET VIDEO PLAYBACK">
       <option name="closed" value="true" />
@@ -1602,7 +1584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718297678702</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="BIGAI SERVER GENERATE IMAGE,TRANSCRIBE, TRANSLATE">
+      <option name="closed" value="true" />
+      <created>1718611205459</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1718611205460</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1845,11 +1835,6 @@
           <url>file://$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/AI_PIC_GENERATOR.py</url>
           <line>18</line>
           <option name="timeStamp" value="206" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py</url>
-          <line>87</line>
-          <option name="timeStamp" value="220" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py</url>
