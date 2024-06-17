@@ -40,7 +40,7 @@ def process_audio(buffer):
 
     # Transcribe using Whisperx
     print("Transcribing audio...")
-    result = model.STT(audio_np, language="ja")
+    result = model.STT_WHISPERX(audio_np, language="ja")
     text = result['segments'][0]['text']
     print(result['segments'][0]['text'])
 

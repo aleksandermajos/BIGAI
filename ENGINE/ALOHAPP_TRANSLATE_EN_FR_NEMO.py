@@ -8,5 +8,5 @@ class Translate_EN_FR_NEMO():
             model_name="nmt_en_fr_transformer24x6")
 
     def translate(self,text):
-        fr =  self.model.translate([text], source_lang="en", target_lang="fr")
+        fr =  self.model.TRANSLATE_NLLB([text], source_lang="en", target_lang="fr")
         return fr[0]

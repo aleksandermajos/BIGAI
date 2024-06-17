@@ -61,11 +61,27 @@ def translate(text: str, target_language: str) -> str:
     else:
         raise Exception(f"Error: {response.status_code} - {response.json().get('detail')}")
 
+def tts_melo(text: str, lang: str, output: str):
+    url = "http://127.0.0.1:8000/tts_melo"
+    payload = {
+        "text": text,
+        "lang": lang,
+        "output_path": output
+    }
+    response = requests.post(url, json=payload)
+    if response.status_code == 200:
+        print("file saved in "+ output)
+        return output
+    else:
+        raise Exception(f"Error: {response.status_code} - {response.json().get('detail')}")
 
 
 
 
 if __name__ == "__main__":
+    tts_melo("I do not have a dream",lang="en", output="dream.wav")
+    tts_melo("私には夢があります", lang="jp", output="dream_jp.wav")
+
     text=transcribe(audio_file="audio.mp3")
 
     result = generate_image(prompt="A nice young girl with black eyes ",negative_prompt="",num_inference_steps=56, save_path="oko.png")
