@@ -4,6 +4,7 @@ import numpy as np
 import whisperx
 import collections
 from ENGINE.KEY_OPENAI import generate_and_play
+from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from KEY_GROQ import provide_key
 from groq import Groq
 
@@ -40,7 +41,7 @@ def process_audio(buffer):
 
     # Transcribe using Whisperx
     print("Transcribing audio...")
-    result = model.STT_WHISPERX(audio_np, language="ja")
+    result = model.transcribe(audio_np, language="ja")
     text = result['segments'][0]['text']
     print(result['segments'][0]['text'])
 
@@ -71,7 +72,7 @@ def record_and_transcribe():
                         channels=CHANNELS,
                         rate=RATE,
                         input=True,
-                        frames_per_buffer=CHUNK,input_device_index=11)
+                        frames_per_buffer=CHUNK,input_device_index=find_mic_id())
 
     num_padding_frames = int(300 / FRAME_DURATION_MS)  # 300ms padding
     ring_buffer = collections.deque(maxlen=num_padding_frames)

@@ -2,8 +2,8 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 from pydantic import BaseModel
 
 GEN_IMAGE_SD3 = False
-TRANSLATE_NLLB = False
-STT_WHISPERX = False
+TRANSLATE_NLLB = True
+STT_WHISPERX = True
 TTS_MELO = True
 
 app = FastAPI()
@@ -56,7 +56,7 @@ if STT_WHISPERX:
 
         audio = whisperx.load_audio(file.filename)
 
-        result = model.STT_WHISPERX(audio, batch_size=16, task="transcribe", language='en')
+        result = model.transcribe(audio, batch_size=16, task="transcribe",language="en")
 
         transcription = ''
         for segment in result['segments']:
