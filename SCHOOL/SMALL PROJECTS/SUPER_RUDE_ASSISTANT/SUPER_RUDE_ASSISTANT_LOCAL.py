@@ -12,7 +12,7 @@ import ollama
 
 
 speed = 0.9
-device_melo = 'cuda:0'
+device_melo = 'cpu'
 model_melo = TTS(language='EN', device=device_melo)
 speaker_ids = model_melo.hps.data.spk2id
 
@@ -23,7 +23,7 @@ client = Groq(
 
 
 # Initialize Whisper model
-model = whisperx.load_model("large-v3",device="cuda")
+model = whisperx.load_model("large-v3",device="cpu",compute_type='float')
 
 # WebRTC VAD setup
 vad = webrtcvad.Vad(0)  # Aggressiveness from 0 to 3
@@ -88,7 +88,7 @@ def record_and_transcribe():
                         channels=CHANNELS,
                         rate=RATE,
                         input=True,
-                        frames_per_buffer=CHUNK,input_device_index=find_mic_id())
+                        frames_per_buffer=CHUNK,input_device_index=0)
 
     num_padding_frames = int(300 / FRAME_DURATION_MS)  # 300ms padding
     ring_buffer = collections.deque(maxlen=num_padding_frames)

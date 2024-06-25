@@ -14,7 +14,7 @@ client = Groq(
 
 
 # Initialize Whisper model
-model = whisperx.load_model("large-v3",device="cuda")
+model = whisperx.load_model("small",device="cpu",compute_type='int8')
 
 # WebRTC VAD setup
 vad = webrtcvad.Vad(0)  # Aggressiveness from 0 to 3

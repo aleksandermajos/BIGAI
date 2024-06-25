@@ -102,13 +102,12 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | DIARY IN TARGET LANGUAGE WINDOW                                |           |                                                         | 2      |
 | RADIO TO PIC WINDOW                                            |           |                                                         | 2      |
 | OCR FROM PIC                                                   |           |                                                         | 2      |
-| -------------------------------------------------------------- | --------- | ------------------------------------------------------- | ------ |
 | DRAW KANJI                                                     |           |                                                         | 6      |
 | KANJI INFO DICTIONARY                                          |           |                                                         | 4      |
 | READ ANKI DECKS                                                |           |                                                         | 3      |
 | WRITE ANKI DECKS FROM WORDS,SENTENCES,PICTURES,RADIO           |           |                                                         | 6      |
-| -------------------------------------------------------------- | --------- | ------------------------------------------------------- | ------ |
 | CONVERSATIONS AI WITH PICS AND MODULAR WORDS SELECTION VER_3   |           |                                                         | 8      |
+| -------------------------------------------------------------- | --------- | ------------------------------------------------------- | ------ |
 | GOING FOR FINANCE                                              |           |                                                         | 6      |
 | PROGRESS WINDOW VER_1                                          |           |                                                         | 6      |
 | NETFLIX WINDOW RECOMMENDATIONS                                 |           |                                                         | 4      |
@@ -180,9 +179,10 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | FINE TUNE, TRANSFER LEARNING, RAG                                                                         | 4    |
 | TRANSFORMER FROM SCRATCH                                                                                  | 4    |
 | CREW FRAMEWORKS                                                                                           | 3    |
-| --------------------------------------------------------------------------------------------------------  | 25   |
-| [NLP](https://learning.oreilly.com/library/view/natural-language-processing/9781098136789/)               |      |
-| [STATISTICS](https://learning.oreilly.com/library/view/the-statistics-and/9781800209763/)                 |      |
+| [NLP](https://learning.oreilly.com/library/view/natural-language-processing/9781098136789/)               | 6    |
+| [STATISTICS](https://learning.oreilly.com/library/view/the-statistics-and/9781800209763/)                 | 6    |
+| [GIT](https://learning.oreilly.com/library/view/learning-git/9781098133900/)                              | 6    |
+| --------------------------------------------------------------------------------------------------------  | 43   |
 | JAMBA ARCHITECTURE , xLSTM                                                                                |      |
 | RETRIEVAL DATA FROM LLM                                                                                   |      |
 | INTERPRETABILITY ANTROPIC LIKE                                                                            |      |
