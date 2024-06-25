@@ -2,9 +2,9 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 from pydantic import BaseModel
 
 GEN_IMAGE_SD3 = False
-TRANSLATE_NLLB = True
+TRANSLATE_NLLB = False
 STT_WHISPERX = True
-TTS_MELO = True
+TTS_MELO = False
 
 app = FastAPI()
 

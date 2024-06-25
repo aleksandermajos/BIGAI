@@ -13,7 +13,7 @@ import ollama
 
 speed = 0.9
 device_melo = 'cuda:0'
-model_melo = TTS(language='EN', device=device_melo)
+model_melo = TTS(language='JP', device=device_melo)
 speaker_ids = model_melo.hps.data.spk2id
 
 
@@ -50,7 +50,7 @@ def process_audio(buffer):
 
     # Transcribe using Whisperx
     print("Transcribing audio...")
-    result = model.transcribe(audio_np, language="en")
+    result = model.transcribe(audio_np, language="jp")
     text = result['segments'][0]['text']
     print(text)
 
@@ -66,7 +66,7 @@ def process_audio(buffer):
     bot_reply = chat_completion.choices[0].message.content
         '''
     bot_reply = ollama.chat(model='llama3', messages=[
-        {"role": "system", "content": "You are super rude assistant.Use only vulgar words"},
+        {"role": "system", "content": "You are super nice assistant.Use only sophisticated words"},
         {'role': 'user','content': text}
     ])
     bot_reply=bot_reply['message']['content']

@@ -79,11 +79,12 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+    '''
     tts_melo("I do not have a dream",lang="en", output="dream.wav")
     tts_melo("私には夢があります", lang="jp", output="dream_jp.wav")
-
-    text=transcribe(audio_file="dream_jp.wav")
-
+    '''
+    text=transcribe(audio_file="01 Lecon 01 - introduction rapide.mp3")
+    '''
     text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"
     target_language = "spa_Latn"
     translated_text = translate(text_to_translate, target_language)
@@ -92,4 +93,5 @@ if __name__ == "__main__":
     result = generate_image(prompt="A nice young girl with black eyes ", negative_prompt="", num_inference_steps=56,
                             save_path="oko.png")
     print(result)
+    '''
 
