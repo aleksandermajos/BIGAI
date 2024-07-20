@@ -177,13 +177,14 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/) | 4      |
 | [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)           | 5      |
 | FINE TUNE, TRANSFER LEARNING, RAG                                                                         | 3      |
-| TRANSFORMER FROM SCRATCH                                                                                  | 4      |
+| TRANSFORMER FROM SCRATCH                                                                                  | 3      |
 | CREW FRAMEWORKS                                                                                           | 3      |
 | [NLP](https://learning.oreilly.com/library/view/natural-language-processing/9781098136789/)               | 4      |
-| [STATISTICS](https://learning.oreilly.com/library/view/the-statistics-and/9781800209763/)                 | 5      |
-| [GIT](https://learning.oreilly.com/library/view/learning-git/9781098133900/)                              | 5      |
-| [DOCKER](https://www.oreilly.com/library/view/the-ultimate-docker/9781804613986/)                         | 5      |
-| --------------------------------------------------------------------------------------------------------  | --42-- |
+| [STATISTICS](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/)           | 4      |
+| [GIT](https://learning.oreilly.com/library/view/learning-git/9781098133900/)                              | 3      |
+| [DOCKER](https://learning.oreilly.com/library/view/docker-deep-dive/9781835884386/)                       | 4      |
+| [KUBERNETES](https://learning.oreilly.com/library/view/the-kubernetes-book/9781835880302/)                | 4      |
+| --------------------------------------------------------------------------------------------------------  | --46-- |
 | JAMBA ARCHITECTURE , xLSTM                                                                                | 6      |
 | RETRIEVAL DATA FROM LLM                                                                                   | 6      |
 | INTERPRETABILITY ANTROPIC LIKE                                                                            | 10     |
