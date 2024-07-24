@@ -1,29 +1,25 @@
 import pyaudio
 import webrtcvad
 import numpy as np
-import whisperx
+from lightning_whisper_mlx import LightningWhisperMLX
 import collections
-from playsound import playsound
 from ENGINE.KEY_GROQ import provide_key
-from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from groq import Groq
+from playsound import playsound
 from melo.api import TTS
 import ollama
-
 
 speed = 0.9
 device_melo = 'cpu'
 model_melo = TTS(language='EN', device=device_melo)
 speaker_ids = model_melo.hps.data.spk2id
 
-
 client = Groq(
     api_key=provide_key()
 )
 
-
 # Initialize Whisper model
-model = whisperx.load_model("large-v3",device="cpu",compute_type='float')
+model = LightningWhisperMLX(model="medium", batch_size=12, quant=None)
 
 # WebRTC VAD setup
 vad = webrtcvad.Vad(0)  # Aggressiveness from 0 to 3
@@ -50,37 +46,31 @@ def process_audio(buffer):
 
     # Transcribe using Whisperx
     print("Transcribing audio...")
-    result = model.transcribe(audio_np, language="en")
-    text = result['segments'][0]['text']
+    text = model.transcribe(audio_np)['text']
     print(text)
-
 
     '''
     chat_completion = client.chat.completions.create(
         messages=[
-            {"role": "system", "content": "You are super rude assistant.Use only vulgar words"},
+            {"role": "system", "content": "You are super rude assistant.Use only vulgar words.Answer always use maximal 3 sentences"},
             {"role": "user","content": text}
         ],
         model="llama3-70b-8192",
     )
     bot_reply = chat_completion.choices[0].message.content
-        '''
+    '''
     bot_reply = ollama.chat(model='llama3', messages=[
-        {"role": "system", "content": "You are super rude assistant.Use only vulgar words"},
+        {"role": "system", "content": "You are super smart and sophisticated assistant.Answer always use maximal 3 short sentences"},
         {'role': 'user','content': text}
     ])
     bot_reply=bot_reply['message']['content']
+
     print(bot_reply)
 
     output_path = 'oko.wav'
     model_melo.tts_to_file(bot_reply, speaker_ids['EN-BR'], output_path, speed=speed)
     playsound('oko.wav')
 
-    if 'text' in result:
-        print("Transcription:", result['text'])
-    else:
-        print("Error: 'text' not in transcription result")
-        print(result)
 
 
 def record_and_transcribe():

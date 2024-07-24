@@ -11,7 +11,7 @@ import sounddevice as sd
 
 
 def main(page: ft.Page):
-    page.main_language = 'ko'
+    page.main_language = 'pl'
     print(sd.query_devices())
 
 
@@ -90,7 +90,7 @@ def main(page: ft.Page):
     my_assistant = Whisper_live(main_page=page,
                                 language=page.main_language,
                                 model=args.model,
-                                input_device=11,
+                                input_device=0,
                                 silence_threshold=args.silence_threshold,
                                 block_duration=args.block_duration,
                                 commands_callback=print)

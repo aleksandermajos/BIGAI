@@ -1,9 +1,9 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from pydantic import BaseModel
 
-GEN_IMAGE_SD3 = False
+GEN_IMAGE_SD3 = True
 TRANSLATE_NLLB = False
-STT_WHISPERX = True
+STT_WHISPERX = False
 TTS_MELO = False
 
 app = FastAPI()
@@ -16,7 +16,7 @@ if GEN_IMAGE_SD3:
 
     pipe = StableDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium-diffusers",
                                                     torch_dtype=torch.float16)
-    pipe = pipe.to("cuda")
+    pipe = pipe.to("cpu")
 
 
     class ImageRequest(BaseModel):
