@@ -10,6 +10,69 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * SCHOOL - PLAYGROUND FOR LEARNING AND TESTING NEW CODE.CODECOMPANION AS MAIN TOOL TO DO SO
 * FRONT - FRONTEND FOR PROJECTS.RECENTLY ALOHAPP AND QUANTMAVERICK
 
+### BIGAI_FRONT-ALOHAPP:
+| NAME                                                            | AS CODE      | YT VIDEO                                                | DAYS     |
+|-----------------------------------------------------------------|--------------|---------------------------------------------------------|----------|
+| BIGAI_FRONT INTRO                                               | N/A          | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       | 0        |
+| ALOHAPP PROJECT INTRO                                           | N/A          | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   | 0        |
+| LOAD ASSIMIL SOURCE                                             |              |                                                         | 3        |
+| LOAD LITTLE PRINCE - BOOK SOURCE                                |              |                                                         | 3        |
+| DIVIDE SOURCE ON CHAPTERS/PARTS                                 |              |                                                         | 3        |
+| CREATE CLASSES WORD                                             |              |                                                         | 2        |
+| CREATE CLASSES USER AND TIMELINE                                |              |                                                         | 4        |
+| CONVERSATION PROTOTYPE                                          |              |                                                         | 4        |
+| ALL SOURCES RATIO - GET WORDS TO LEARN FOR USER                 |              |                                                         | 3        |
+| FUTURE AND PAST WORDS                                           |              |                                                         | 3        |
+| HELPER WINDOW AND LANG PRIORITY                                 |              |                                                         | 4        |
+| NGRAM CLASS + REST CLASSES                                      |              |                                                         | 4        |
+| PICK A RIGHT PART OF A SOURCE                                   |              |                                                         | 3        |
+| PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                    |              |                                                         | 3        |
+| -------------------------------------------                     | ------------ | ---------                                               | --39--   |
+| LOCAL/OPENAI VARIANT + OUT OF BIGAI UMBRELLA                    |              |                                                         | 4        |
+| WEB VERSION + OUT OF BIGAI UMBRELLA                             |              |                                                         | 6        |
+| WEB ON MOBILE VERSION + OUT OF BIGAI UMBRELLA                   |              |                                                         | 10       |
+| ADDING 14 LANGUAGES                                             |              |                                                         | 10       |
+| FIX ERRORS                                                      |              |                                                         | 10       |
+| GETTING FIN                                                     |              |                                                         | 5        |
+| SMART SPEAKERS                                                  |              |                                                         | 8        |
+| SMART GLASSES                                                   |              |                                                         | 8        |
+| SMART WATCHES                                                   |              |                                                         | 8        |
+| CHROME EXTENSION                                                |              |                                                         | 8        |
+| --------------------------------------------------------------- | ---------    | ------------------------------------------------------- | ---77--- |
+
+### AI KNOWLEDGE:
+| NAME/LINK                                                                                                 | TIME   |
+|-----------------------------------------------------------------------------------------------------------|--------|
+| [TRANSFORMER FOR NLP](https://learning.oreilly.com/library/view/transformers-for-natural/9781805128724/)  | 5      |
+| [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/) | 4      |
+| [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)           | 5      |
+| FINE TUNE, TRANSFER LEARNING, RAG                                                                         | 3      |
+| TRANSFORMER FROM SCRATCH                                                                                  | 3      |
+| CREW FRAMEWORKS                                                                                           | 3      |
+| [NLP](https://learning.oreilly.com/library/view/natural-language-processing/9781098136789/)               | 4      |
+| [STATISTICS](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/)           | 4      |
+| [GIT](https://learning.oreilly.com/library/view/learning-git/9781098133900/)                              | 3      |
+| [DOCKER](https://learning.oreilly.com/library/view/docker-deep-dive/9781835884386/)                       | 4      |
+| --------------------------------------------------------------------------------------------------------  | --39-- |
+| JAMBA ARCHITECTURE , xLSTM                                                                                | 6      |
+| RETRIEVAL DATA FROM LLM                                                                                   | 6      |
+| INTERPRETABILITY ANTROPIC LIKE                                                                            | 10     |
+| ACTION DATA BASED LLM                                                                                     | 8      |
+| CHAIN OF THOUGHTS DATA BASED LLM                                                                          | 8      |
+| ARCHITECTURE CHAIN OF PARTS DATA BASED LLM                                                                | 8      |
+| ARCHITECTURE TIME SERIES MODELS                                                                           | 8      |
+| TIMELINE ARCHITECTURE                                                                                     | 10     |
+| REINFORCEMENT LEARNING ARCHITECTURE                                                                       | 10     |
+| BUILD PERFECT DATA ACTION/CODE/COT/COP                                                                    | 14     |
+| --------------------------------------------------------                                                  | --88-- |
+
+
+
+
+
+
+
+
 ### BIGAI:
 | NAME                                                      | AS CODE                                                  | YT VIDEO                                                                    |
 |-----------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -85,57 +148,6 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | TONS OF GITHUB SCENARIOS                                 |         |                                                              |
 | INTERVIEW SCENARIO+TRANSLATE                             |         |                                                              |
 
-### BIGAI_FRONT-ALOHAPP:
-| NAME                                                            | AS CODE   | YT VIDEO                                                | DAYS     |
-|-----------------------------------------------------------------|-----------|---------------------------------------------------------|----------|
-| BIGAI_FRONT INTRO                                               | N/A       | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       | 0        |
-| ALOHAPP PROJECT INTRO                                           | N/A       | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   | 0        |
-| DATA SOURCES - ASSIMIL 6 LANGUAGES                              | 🔥        |                                                         | 2        |
-| USER CLASS                                                      | 🔥        |                                                         | 1        |
-| TIMELINE CLASS                                                  | 🔥        |                                                         | 1        |
-| START USING!LUNCH ALOHA YT!DONATIONS                            | 🔥        |                                                         | 0        |
-| AUDIO TO SRT WINDOW                                             |           |                                                         | 2        |
-| AUDIO TO LECTOR WINDOW                                          |           |                                                         | 1        |
-| VOICE TO PIC WINDOW                                             |           |                                                         | 2        |
-| PIC TO VOICE WINDOW                                             |           |                                                         | 1        |
-| VOICE TO TRANSLATED VOICE WINDOW                                |           |                                                         | 2        |
-| DIARY IN TARGET LANGUAGE WINDOW                                 |           |                                                         | 2        |
-| RADIO TO PIC WINDOW                                             |           |                                                         | 2        |
-| OCR FROM PIC                                                    |           |                                                         | 2        |
-| DRAW KANJI                                                      |           |                                                         | 6        |
-| KANJI INFO DICTIONARY                                           |           |                                                         | 4        |
-| READ ANKI DECKS                                                 |           |                                                         | 3        |
-| WRITE ANKI DECKS FROM WORDS,SENTENCES,PICTURES,RADIO            |           |                                                         | 6        |
-| CONVERSATIONS AI WITH PICS AND MODULAR WORDS SELECTION VER_3    |           |                                                         | 6        |
-| --------------------------------------------------------------  | --------- | ------------------------------------------------------- | ---43--- |
-| GOING FOR FINANCE                                               |           |                                                         | 6        |
-| PROGRESS WINDOW VER_1                                           |           |                                                         | 6        |
-| NETFLIX WINDOW RECOMMENDATIONS                                  |           |                                                         | 4        |
-| RADIO/PODCAST WINDOW RECOMMENDATIONS                            |           |                                                         | 3        |
-| MUSIC WINDOW RECOMMENDATIONS                                    |           |                                                         | 4        |
-| BOOK WINDOW RECOMMENDATIONS+CREATE ON THE GO                    |           |                                                         | 4        |
-| COMIC WINDOW RECOMMENDATIONS+CREATE ON THE GO                   |           |                                                         | 4        |
-| ARTICLES WINDOW RECENT BASED ON RAG RECOMMENDATIONS             |           |                                                         | 4        |
-| INSIGHTS FROM ADDITIONAL DATA                                   |           |                                                         | 3        |
-| PROGRESS WINDOW VER_2                                           |           |                                                         | 2        |
-| SETTINGS WINDOW + ADDING POLYGLOT EDITION                       |           |                                                         | 4        |
-| SOURCES WINDOW VER_1                                            |           |                                                         | 3        |
-| WELCOME WINDOW + CHECKING YOUR LEVEL                            |           |                                                         | 4        |
-| CONVERSATIONS HUMAN WITH PICS AND MODULAR WORDS SELECTION       |           |                                                         | 6        |
-| LOCAL/OPENAI VARIANT + OUT OF BIGAI UMBRELLA                    |           |                                                         | 4        |
-| WEB VERSION + OUT OF BIGAI UMBRELLA                             |           |                                                         | 6        |
-| WEB ON MOBILE VERSION + OUT OF BIGAI UMBRELLA                   |           |                                                         | 10       |
-| --------------------------------------------------------------  | --------- | ------------------------------------------------------- | ---77--- |
-| ADDING 14 LANGUAGES                                             |           |                                                         | 10       |
-| FIX ERRORS                                                      |           |                                                         | 10       |
-| GETTING FIN                                                     |           |                                                         | 5        |
-| SMART SPEAKERS                                                  |           |                                                         | 8        |
-| SMART GLASSES                                                   |           |                                                         | 8        |
-| SMART WATCHES                                                   |           |                                                         | 8        |
-| CHROME EXTENSION                                                |           |                                                         | 8        |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | ---66--- |
-
-
 ### BIGAI_FRONT-QUANTMAVERICK:
 | NAME                            | AS CODE | YT VIDEO                                          |
 |---------------------------------|---------|---------------------------------------------------|
@@ -168,32 +180,4 @@ conda env create -f BIGAI_{your_operating_system}.yml
 >
 > * No promises. No guarantees. Use at own risk.
 
-
-
-### AI KNOWLEDGE:
-| NAME/LINK                                                                                                 | TIME   |
-|-----------------------------------------------------------------------------------------------------------|--------|
-| [TRANSFORMER FOR NLP](https://learning.oreilly.com/library/view/transformers-for-natural/9781805128724/)  | 5      |
-| [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/) | 4      |
-| [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)           | 5      |
-| FINE TUNE, TRANSFER LEARNING, RAG                                                                         | 3      |
-| TRANSFORMER FROM SCRATCH                                                                                  | 3      |
-| CREW FRAMEWORKS                                                                                           | 3      |
-| [NLP](https://learning.oreilly.com/library/view/natural-language-processing/9781098136789/)               | 4      |
-| [STATISTICS](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/)           | 4      |
-| [GIT](https://learning.oreilly.com/library/view/learning-git/9781098133900/)                              | 3      |
-| [DOCKER](https://learning.oreilly.com/library/view/docker-deep-dive/9781835884386/)                       | 4      |
-| [KUBERNETES](https://learning.oreilly.com/library/view/the-kubernetes-book/9781835880302/)                | 4      |
-| --------------------------------------------------------------------------------------------------------  | --46-- |
-| JAMBA ARCHITECTURE , xLSTM                                                                                | 6      |
-| RETRIEVAL DATA FROM LLM                                                                                   | 6      |
-| INTERPRETABILITY ANTROPIC LIKE                                                                            | 10     |
-| ACTION DATA BASED LLM                                                                                     | 8      |
-| CHAIN OF THOUGHTS DATA BASED LLM                                                                          | 8      |
-| ARCHITECTURE CHAIN OF PARTS DATA BASED LLM                                                                | 8      |
-| ARCHITECTURE TIME SERIES MODELS                                                                           | 8      |
-| TIMELINE ARCHITECTURE                                                                                     | 10     |
-| REINFORCEMENT LEARNING ARCHITECTURE                                                                       | 10     |
-| BUILD PERFECT DATA ACTION/CODE/COT/COP                                                                    | 14     |
-| --------------------------------------------------------                                                  | --88-- |
 

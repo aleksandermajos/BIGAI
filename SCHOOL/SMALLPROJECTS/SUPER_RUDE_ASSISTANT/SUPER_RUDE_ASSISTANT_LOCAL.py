@@ -1,16 +1,17 @@
 import pyaudio
 import webrtcvad
 import numpy as np
-from lightning_whisper_mlx import LightningWhisperMLX
+import whisperx
 import collections
 from ENGINE.KEY_GROQ import provide_key
+from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from groq import Groq
 from playsound import playsound
 from melo.api import TTS
 import ollama
 
 speed = 0.9
-device_melo = 'cpu'
+device_melo = 'cuda'
 model_melo = TTS(language='EN', device=device_melo)
 speaker_ids = model_melo.hps.data.spk2id
 
@@ -19,7 +20,7 @@ client = Groq(
 )
 
 # Initialize Whisper model
-model = LightningWhisperMLX(model="medium", batch_size=12, quant=None)
+model = whisperx.load_model("large-v3",device="cuda",compute_type='float')
 
 # WebRTC VAD setup
 vad = webrtcvad.Vad(0)  # Aggressiveness from 0 to 3
@@ -46,7 +47,8 @@ def process_audio(buffer):
 
     # Transcribe using Whisperx
     print("Transcribing audio...")
-    text = model.transcribe(audio_np)['text']
+    result = model.transcribe(audio_np, language="en")
+    text = result['segments'][0]['text']
     print(text)
 
     '''
@@ -71,6 +73,11 @@ def process_audio(buffer):
     model_melo.tts_to_file(bot_reply, speaker_ids['EN-BR'], output_path, speed=speed)
     playsound('oko.wav')
 
+    if 'text' in result:
+        print("Transcription:", result['text'])
+    else:
+        print("Error: 'text' not in transcription result")
+        print(result)
 
 
 def record_and_transcribe():
@@ -78,7 +85,7 @@ def record_and_transcribe():
                         channels=CHANNELS,
                         rate=RATE,
                         input=True,
-                        frames_per_buffer=CHUNK,input_device_index=0)
+                        frames_per_buffer=CHUNK,input_device_index=find_mic_id())
 
     num_padding_frames = int(300 / FRAME_DURATION_MS)  # 300ms padding
     ring_buffer = collections.deque(maxlen=num_padding_frames)
