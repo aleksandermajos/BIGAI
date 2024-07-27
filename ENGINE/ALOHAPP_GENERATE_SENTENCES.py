@@ -143,7 +143,7 @@ def generate_sentences_from_words(num_sent=2,dif=1,key='de'):
 
 def generate_sentences_from_en(key='de',dif=1):
     n_sentences = []
-    path = "../../DATA/WORDS/"
+    path = "../../DATA/FREQ_DICT_WORDS/"
     if dif ==1: en = pd.read_excel(path+'EN/SENTENCES_EN_1000_V1.xlsx')
     if dif == 2: en = pd.read_excel(path + 'EN/SENTENCES_EN_2000_V1.xlsx')
     if dif == 3: en = pd.read_excel(path + 'EN/SENTENCES_EN_3000_V1.xlsx')

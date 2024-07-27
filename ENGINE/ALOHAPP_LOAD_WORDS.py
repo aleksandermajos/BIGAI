@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 p = Path.cwd()
 path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
-path = path_beginning+"DATA/ALOHA/WORDS/"
+path = path_beginning+"DATA/ALOHA/FREQ_DICT_WORDS/"
 
 
 def load_de(dif=1):

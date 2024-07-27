@@ -4,12 +4,458 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ENGINE README BEFORE JP">
-      <change afterPath="$PROJECT_DIR$/ENGINE/CODE_GEN_BY_LLAMA31_8B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ENGINE SUPERRUDE ASSISTANT x86">
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/DE/LITTLE_PRINCE/01 Der Kleine Prinz - Info.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/DE/SELF_LEARNING/ASSIMIL/01 Lekcja 1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/DE/SELF_LEARNING/BLONDYNA/000z1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/DE/SELF_LEARNING/MOWIMY PO NIEMIECKU/00.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/DE/SELF_LEARNING/SAMOUCZEK JEZYKA NIEMIECKIEGO POCZATKUJACY/01_info.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/ES/LITTLE_PRINCE/01 El principito - Info.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/ES/SELF_LEARNING/ASSIMIL/Leçon 1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/ES/SELF_LEARNING/JEZYK HISZPANKI DLA POCZATKUJACYCH/01 Track 1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/ES/SELF_LEARNING/MOWIMY PO HISZPANSKU DLA POCZATKUJACYCH/01 Track 1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/FR/LITTLE_PRINCE/01 Le Petit Prince - Info.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/FR/SELF_LEARNING/ASSIMIL/001L001-LESSON.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/FR/SELF_LEARNING/MOWIMY_PO_FRANCUSKU/Lekcja 0.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/IT/ASSIMIL/L001-LESSON.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/IT/LITTLE_PRINCE/01 Il Piccolo Principe - Dedica.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/KLEO/KLEO_S01E01.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/SMALLPROJECTS/SUPER_RUDE_ASSISTANT/SUPER_RUDE_ASSISTANT_LOCAL.py" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/SMALLPROJECTS/SUPER_RUDE_ASSISTANT/SUPER_RUDE_ASSISTANT_LOCAL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/._.DS_Store" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/._.DS_Store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/DECKS/JA/JP_FULL/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/DECKS/JA/WANI_KANI/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_1000_V1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_1000_V1_RAW.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_EN_1000_V1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_EN_LEMMA_1000_V1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/GPT/DE/SENTENCES_DE_LEMMA_1000_V1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/DE-PL.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/EN-DE.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/EN-ES.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/EN-FR.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/EN-PL.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/ES-DE.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/ES-PL.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/FR-DE.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/FR-ES.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/FR-PL.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/audio.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/GENERATING/TATOEBA/audio_div.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e01.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s01e01.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e02.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s01e02.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e03.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s01e03.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e04.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s01e04.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e05.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s01e05.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e06.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s01e06.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e07.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s01e07.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e08.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s01e08.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e09.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s01e09.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s01e10.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s01e10.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e01.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s02e01.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e02.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s02e02.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e03.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s02e03.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e04.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s02e04.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e05.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s02e05.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e06.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s02e06.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e07.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s02e07.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s02e08.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s02e08.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e01.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s03e01.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e02.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s03e02.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e03.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s03e03.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e04.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s03e04.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e05.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s03e05.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e06.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s03e06.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e07.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s03e07.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/DARK/dark s03e08.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/NETFLIX/DE/DARK/dark s03e08.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/NETFLIX_YT/KURZGESAGD/YT_TEST.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/EXEL/YT/DE/KURZGESAGD/YT_TEST.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ABC beruht..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Baytist S.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Beine Kot, biaue Kot..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Brauche eine Pause und möchtest schlafen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/C'est plus simple que j'ai pensé..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/C'était incroyable..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Comment peux-je dire cela en français.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Das Buch handelt vor Liebe und Verlust..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Das ist Präsidentem Polski..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Das ist der 2. Test..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Das ist der Test..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Das ist ein Wahnsinn.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Das ist einfach eine einfache Antwort..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Das ist fantastisch..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Das ist nicht möglich..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Der Chef hat uns angewiesen, mehr Zeit mit unseren Familien zu verbringen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Der Chef hat uns ausgewiesen, mehr Zeit mit unseren Familien zu verbringen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Die Katze und die Hund..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Die Worte habe ich verstanden..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Du kannst mir mehr sagen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Du möchtest auf die Karte spielen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Du verstehst das.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Einen hohen und neuen Katze..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Er hat eines neues Auto gekauft..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Er hat gestern seinen Geburtstag gefeiert..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Er ist des Präsident aus Polen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Eruffy.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Es ist funktioniert oder nicht.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Es ist nicht funktioniert..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Fogel fliegt.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Geh nach Hause und roll dich..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hallo Mein Name ist Lyuba. Ich freue mich sehr, mit euch zu sein..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hallo..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hallo.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hast du Pferd oder Katze.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hast du ein Auto.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hast du ein Fett.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hast du ein Hund.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hast du ein Telefon oder ein Telefon.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hast du eine Geld.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hast du eine Kette oder ein Pferd.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hast du einen Girl.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hast du einen Pferd.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hast du viel Geld.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hello..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Hello.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich bin bezdomen und ich habe nichts zu essen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich bin müde..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich bin nicht müde..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich bin sehr müde..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich erkläre nicht..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich gehe nach Hause zu sehen, Herr Dr..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich gehe nicht lange nach der Physik..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich glaube nicht, dass der Film mich so....wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich hab dich heute zum Schluss crocheted..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich habe auch eine scharfe Karte und eine scharfe Karte..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich habe das Buch schon geleistet..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich habe ein Kières Ugler Ihr könnt man Ja.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich habe heute meinen ersten Arbeitstag..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich habe nicht zu essen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich kann mir helfen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich möchte etwas auf die Pufferung sagen, aber nicht auf die Pufferung, weil er sagt Pufferung..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich möchte ihn essen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich schlage vor..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich trinke Tee und Kaffee..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich verstehe das nicht..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ich verstehe die Sätze nicht..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ihr könnt nicht die Antwort auf die Frage stellen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ist das Ganze northeast.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ist das MPF-Schwester.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ist das ein zweites Mal.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ist das funktioniert oder nicht.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ist das funktioniert.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ist das so.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ist das verständlich.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ist das wirklich.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Ja, wir haben uns gespielt. Wir haben uns gespielt..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Je n'en comprends pas..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Je ne comprends pas le but de cette dernière action..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Je ne comprends pas..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Je ne sais pas comment dire ça en français..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Jedna mała proszba.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Jetzt gehe ich key to the doctor..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Jetzt muss man erst im.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Jetzt scharfst du dich oder nicht.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Jutro bende zima, a pozimie bende wiosna, ii, datego cheba jehatjese..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Kim ist Andrzej Duda.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Klick auf die die.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Lasch un len, Isch mathe..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Man kann sagen, dass es funktioniert..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Meine Frage ist, was mischt es du.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Mieszkam we Wrocławie, pochodzę z Warszawy..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Mit mir.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Na, dann machen wir es.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/No entiendo..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Postbrunnen, Kuchen.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Qu'est ce que tu veux dire en français.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Qu'est-ce qu'il faut dire en anglais.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Sein Auto ist schnell.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Sie haben die Regierung verändert..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Sie hat eine schöne Stimme..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Sous-titres réalisés par la communauté d'Amara.org.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Testieren wir mit dem Mikrofon..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Tu comprends ce que je dis.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Warum das nicht funktioniert.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Warum funktioniert das.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Warum meinst du, dass du ihn geben musst.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Was bedeutet Gräben-Soll.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Was bedeutet das.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Was hast du gemacht.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Was ist das.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Was machen Sie.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Was möchtest du.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Welcher Colour ist dein Kott.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wenn wir das ändern....wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wenn.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wer ist Andrzej Duda.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wer ist Präsident auf Polen.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wie ist Andrzej Duda.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wie spät ist es.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wie viel Geld hast du.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wie viele Fette hast du.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wie will denn anybody known German Nee, do komputera, mówię, wieso komputera.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Willst du Musik hören.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wir haben gestern Abend einen Film gesehen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wir haben heute frei..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wir haben keine Zeit..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wir müssen das verbessern..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wir werden es geben..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Wir wollen das..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Zamosh na myašli..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Zdanie ze Słowem Miecz..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/Zrobiłem zakupy y kupiłem 2 yabuca..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/die.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/einen Blick auf den Marktwert..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/haben keine Zeit..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/je ne le sais pas.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/o si es el tiempo para el compil..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/ob es funktioniert..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/test_en.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/und Nuk Makrowa..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/und Olo CF-Funkil See nett ist..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/und die Wand..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/was passiert ist..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PHRASES/SPEAKING/y esta es el paranacompiel.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/ALOHA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/OCR/PIC1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/OCR/PIC2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/OCR/PIC3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/OCR/PIC4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/OCR/PIC5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/PIC/SENTENCES_DE_1000_V1_PIC/A bird flies_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/AR/1000WORDSARABIC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/1000WORDSARABIC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/AR/2000WORDSARABIC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/2000WORDSARABIC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/AR/3000WORDSARABIC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/3000WORDSARABIC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/AR/4000WORDSARABIC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/4000WORDSARABIC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/AR/5000WORDSARABIC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/5000WORDSARABIC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/AR/6000WORDSARABIC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/6000WORDSARABIC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/AR/7000WORDSARABIC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/7000WORDSARABIC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/AR/8000WORDSARABIC.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/8000WORDSARABIC.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DA/1000WORDSDANISCH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/1000WORDSGERMAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/2000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/2000WORDSGERMAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/3000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/3000WORDSGERMAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/4000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/4000WORDSGERMAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/5000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/5000WORDSGERMAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/6000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/6000WORDSGERMAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/7000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/7000WORDSGERMAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/DE/8000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/8000WORDSGERMAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/EN/1000WORDSENGLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/EN/2000WORDSENGLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/2000WORDSENGLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/EN/3000WORDSENGLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/3000WORDSENGLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/EN/4000WORDSENGLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/4000WORDSENGLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/EN/5000WORDSENGLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/5000WORDSENGLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/EN/6000WORDSENGLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/6000WORDSENGLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/EN/7000WORDSENGLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/7000WORDSENGLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/EN/8000WORDSENGLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/8000WORDSENGLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/1000WORDSSPANISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/2000WORDSSPANISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/2000WORDSSPANISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/3000WORDSSPANISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/3000WORDSSPANISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/4000WORDSSPANISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/4000WORDSSPANISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/5000WORDSSPANISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/5000WORDSSPANISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/6000WORDSPANISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/6000WORDSPANISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/7000WORDSSPANISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/7000WORDSSPANISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ES/8000WORDSSPANISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/8000WORDSSPANISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/1000WORDSFRENCH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/2000WORDSFRENCH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/2000WORDSFRENCH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/3000WORDSFRENCH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/3000WORDSFRENCH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/4000WORDSFRENCH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/4000WORDSFRENCH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/5000WORDSFRENCH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/5000WORDSFRENCH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/6000WORDSFRENCH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/6000WORDSFRENCH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/7000WORDSFRENCH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/7000WORDSFRENCH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/FR/8000WORDSFRENCH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/8000WORDSFRENCH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/IT/1000WORDSITALIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/IT/2000WORDSITALIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/2000WORDSITALIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/IT/3000WORDSITALIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/3000WORDSITALIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/IT/4000WORDSITALIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/4000WORDSITALIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/IT/5000WORDSITALIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/5000WORDSITALIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/IT/6000WORDSITALIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/6000WORDSITALIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/IT/7000WORDSITALIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/7000WORDSITALIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/IT/8000WORDSITALIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/8000WORDSITALIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/JA/._1000WORDSJAPANESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/JA/1000WORDSJAPANESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/JA/2000WORDSJAPANESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/JA/3000WORDSJAPANESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/JA/4000WORDSJAPANESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/JA/5000WORDSJAPANESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/JA/6000WORDSJAPANESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/JA/7000WORDSJAPANESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/JA/8000WORDSJAPANESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/KO/1000WORDSKOREAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/1000WORDSKOREAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/KO/2000WORDSKOREAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/2000WORDSKOREAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/KO/3000WORDSKOREAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/3000WORDSKOREAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/KO/4000WORDSKOREAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/4000WORDSKOREAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/KO/5000WORDSKOREAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/5000WORDSKOREAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/KO/6000WORDSKOREAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/6000WORDSKOREAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/KO/7000WORDSKOREAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/7000WORDSKOREAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/KO/8000WORDSKOREAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/8000WORDSKOREAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/NL/1000WORDSDUTCH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/PL/1000WORDSPOLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/PL/2000WORDSPOLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/2000WORDSPOLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/PL/3000WORDSPOLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/3000WORDSPOLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/PL/4000WORDSPOLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/4000WORDSPOLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/PL/5000WORDSPOLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/5000WORDSPOLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/PL/6000WORDSPOLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/6000WORDSPOLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/PL/7000WORDSPOLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/7000WORDSPOLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/PL/8000WORDSPOLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/8000WORDSPOLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/RU/1000WORDSRUSSIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/1000WORDSRUSSIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/RU/2000WORDSRUSSIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/2000WORDSRUSSIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/RU/3000WORDSRUSSIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/3000WORDSRUSSIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/RU/4000WORDSRUSSIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/4000WORDSRUSSIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/RU/5000WORDSRUSSIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/5000WORDSRUSSIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/RU/6000WORDSRUSSIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/6000WORDSRUSSIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/RU/7000WORDSRUSSIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/7000WORDSRUSSIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/RU/8000WORDSRUSSIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/8000WORDSRUSSIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Bis zum nächsten Mal.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Bist du auch glücklich.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Danke für Ihr Antwort..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ein Vogel fliegt.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Er will die Mädchen bewegen..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Es gibt viele Leute in Breslau..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Gibt es viele Leute in Breslau.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Gibt es viele Mannschaften in Breslau.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Gibt es viele Menschen in Breslau.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Give me some examples with the word verden in German..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Hallo.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Hast du ein neues Auto.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Haste du ein neues Auto.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Hello.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/How do I know it's auto.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/How is happy in German.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich bin müde..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich bin sehr glücklich..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich bin wieder..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich habe Tee und Kaffee..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich habe der Spiegel.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich habe ein neues Auto..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich habe ein neues Auto.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich habe ein neues Hund..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich habe einen Hund..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich habe einen Spiegel..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich habe keine Zeit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich habe nicht viel Zeit..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich mag Tee, aber ich like..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich möchte wissen, was du tun kannst..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich nehme T..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich trinke Tee und Kaffee..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich verstehe das nicht..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Ich weiß nicht..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/In der Schule lerne ich Mathe..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Kannst du Sandwichen machen.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Kannst du mir halfen.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Kennst du singen.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Sein Auto ist schnell..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Sie ist gemütlich..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Trinkst die mit mir.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Vielen Dank für's Zuhören.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/W czym jeszcze możesz pomóc.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Was bedeutet das.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Was bedeutet geschaut.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Was bist du von Beruf.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Was hast du gemacht gestern.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Wie er kann mir helfen.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Wie geht es dir.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Wie kann halb'n mehr.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/Wir haben keine Zeit..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/hast du neues Haus.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SPEAKING/in der Stadt..wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/SV/1000WORDSSWEDISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ZH/1000WORDSCHINESE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/1000WORDSCHINESE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ZH/2000WORDSCHINESE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/2000WORDSCHINESE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ZH/3000WORDSCHINESE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/3000WORDSCHINESE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ZH/4000WORDSCHINESE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/4000WORDSCHINESE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ZH/5000WORDSCHINESE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/5000WORDSCHINESE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ZH/6000WORDSCHINESE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/6000WORDSCHINESE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ZH/7000WORDSCHINESE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/7000WORDSCHINESE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/USER/ZH/8000WORDSCHINESE.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/8000WORDSCHINESE.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/AR/1000WORDSARABIC.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/AR/2000WORDSARABIC.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/AR/3000WORDSARABIC.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/AR/4000WORDSARABIC.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/AR/5000WORDSARABIC.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/AR/6000WORDSARABIC.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/AR/7000WORDSARABIC.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/AR/8000WORDSARABIC.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/._1000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/._1000WORDSGERMAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/1000WORDSGERMAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/1000WORDSGERMAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/2000WORDSGERMAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/3000WORDSGERMAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/4000WORDSGERMAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/5000WORDSGERMAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/6000WORDSGERMAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/7000WORDSGERMAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/DE/8000WORDSGERMAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/EN/1000WORDSENGLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/1000WORDSENGLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/EN/2000WORDSENGLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/EN/3000WORDSENGLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/EN/4000WORDSENGLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/EN/5000WORDSENGLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/EN/6000WORDSENGLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/EN/7000WORDSENGLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/EN/8000WORDSENGLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/1000WORDSSPANISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/1000WORDSSPANISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/2000WORDSSPANISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/3000WORDSSPANISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/4000WORDSSPANISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/5000WORDSSPANISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/6000WORDSPANISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/7000WORDSSPANISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ES/8000WORDSSPANISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/1000WORDSFRENCH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/1000WORDSFRENCH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/2000WORDSFRENCH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/3000WORDSFRENCH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/4000WORDSFRENCH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/5000WORDSFRENCH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/6000WORDSFRENCH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/7000WORDSFRENCH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/FR/8000WORDSFRENCH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/IT/1000WORDSITALIAN.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/1000WORDSITALIAN.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/IT/2000WORDSITALIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/IT/3000WORDSITALIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/IT/4000WORDSITALIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/IT/5000WORDSITALIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/IT/6000WORDSITALIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/IT/7000WORDSITALIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/IT/8000WORDSITALIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/KO/1000WORDSKOREAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/KO/2000WORDSKOREAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/KO/3000WORDSKOREAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/KO/4000WORDSKOREAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/KO/5000WORDSKOREAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/KO/6000WORDSKOREAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/KO/7000WORDSKOREAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/KO/8000WORDSKOREAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/PL/1000WORDSPOLISH.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/1000WORDSPOLISH.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/PL/2000WORDSPOLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/PL/3000WORDSPOLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/PL/4000WORDSPOLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/PL/5000WORDSPOLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/PL/6000WORDSPOLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/PL/7000WORDSPOLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/PL/8000WORDSPOLISH.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RU/1000WORDSRUSSIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RU/2000WORDSRUSSIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RU/3000WORDSRUSSIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RU/4000WORDSRUSSIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RU/5000WORDSRUSSIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RU/6000WORDSRUSSIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RU/7000WORDSRUSSIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/RU/8000WORDSRUSSIAN.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ZH/1000WORDSCHINESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ZH/2000WORDSCHINESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ZH/3000WORDSCHINESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ZH/4000WORDSCHINESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ZH/5000WORDSCHINESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ZH/6000WORDSCHINESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ZH/7000WORDSCHINESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/WORDS/ZH/8000WORDSCHINESE.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/edenai.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_GENERATE_SENTENCES.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_GENERATE_SENTENCES.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_LOAD_WORDS.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_LOAD_WORDS.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,179 +513,179 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests in test_vad.py.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.AI_PIC_GENERATOR.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ALOHAPP_ANKI (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ALOHAPP_ANKI.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ALOHAPP_KANJI.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ALOHAPP_ROMANJI.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ALOHAPP_TRANSLATE.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.API_BIGAI_CLIENT.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.API_BIGAI_SERVER.executor&quot;: &quot;Run&quot;,
-    &quot;Python.API_SERVER_STT_WHISPER.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.API_STT_WHISPER_CLIENT.executor&quot;: &quot;Run&quot;,
-    &quot;Python.API_STT_WHISPER_SERVER.executor&quot;: &quot;Run&quot;,
-    &quot;Python.APP_CONVERSATIONS_AI.executor&quot;: &quot;Run&quot;,
-    &quot;Python.APP_CONVERSATIONS_AI_V2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.APP_OCR_WINDOW.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.APP_SENTENCES.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.AUDIO_TO_SRT (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.AUDIO_TO_SRT.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.Anthropic_test.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.BLACKJACK.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CODE_GEN_BY_CLOUDE_HAIKU.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.CODE_GEN_BY_CODESTRAL22B.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.CODE_GEN_BY_GWEN2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CODE_GEN_BY_LLAMA31_70B.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.CODE_GEN_BY_LLAMA31_8B.executor&quot;: &quot;Run&quot;,
-    &quot;Python.CODE_GEN_LLAMA3_70B.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.CODE_GEN_LLAMA3_8B.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.FRONT_FLET_VIDEOPLAYBACK.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GEN_CODE_CODELLAMA.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_CLAUDE_HAIKU.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_GROQ.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_LLAMA_3_INSTRUCT.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_70B_Q4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_Q4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_LLAMA3_Q5.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL8x7B_Q5.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL_8x22B_Q4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_LLAMA_CPP_PHI3_Q4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_MISTRAL8x7B_Q3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_70B_Q4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_MISTRAL.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_CODE_TEXT_OLLAMA_LLAMA3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_COMIC_STORYDIFFIUSION.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GEN_COMIC_STORYDIFFIUSION_GRADIO.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_PIC_SDXL.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_PIC_SDXL_LIGHTNING.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_PIC_STABLE_DIFFXL.executor&quot;: &quot;ConcurrencyExecutor&quot;,
-    &quot;Python.GEN_QR_CODE.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GEN_TEXT.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_TEXT_LLAMA_3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_TEXT_LLAMA_CPP.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_TEXT_LLAMA_CPP_LLAMA3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_TEXT_OCTOPUS_V2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GEN_TEXT_OLLAMA.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GPUAPPLEPYTORCH.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GPU_JAX.executor&quot;: &quot;Run&quot;,
-    &quot;Python.GPU_KERAS.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GPU_PL.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GPU_PYTORCH.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GPU_TF.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.GPU_TRAX.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.KEY_OPENAI.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.LD_TOOL_PERF.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.LD_TOOL_TRAIN.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.LLM_FINETUNE_LLAMA3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.OCR_JAPANESE_MANGAOCR.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.OCR_PADDLEOCR.executor&quot;: &quot;Run&quot;,
-    &quot;Python.OCR_PADDLE_GPU.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.PIC_GEN_SD3.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.PIC_RECOGNIZE_CLOUDE_HAIKU.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.PIC_RECOGNIZE_OLLAMA_LLAVA.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.PIC_REGOG_PHI3VISION.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.POKER.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.PYAUDIO_DEVICES.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.PYTHON_ENV_CHECK.executor&quot;: &quot;Run&quot;,
-    &quot;Python.QM_NIXTLA_FIRST.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.RECOG_PICTURE_OLLAMA_LLAVA.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.REC_AUDIO_PYAUDIO.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.REC_VOICE_PYAUDIO.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.SCREENSHOOT_SELENIUM.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.STT_FASTERWHISPER.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.STT_MMS.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.STT_WHISPERTIMESTAMPED.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.STT_WHISPERX.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.STT_WHISPERX_SRT.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.STT_WHISPERX_VAD_PYAUDIO.executor&quot;: &quot;Run&quot;,
-    &quot;Python.STT_WHISPERX_VAD_SOUNDDEVICE.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.STT_WHISPER_STREAMING.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.SUPER_RUDE_ASSISTANT.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.SUPER_RUDE_ASSISTANT_LOCAL (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.SUPER_RUDE_ASSISTANT_LOCAL.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Sliding_AppBar.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TEXT_RECOGNIZE_TROCR.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.TRANSFORMERS_WHISPER.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.TTS_BARK.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.TTS_BARK_HALF.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.TTS_BARK_MP.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TTS_DEEPGRAM.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.TTS_MELO.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.TTS_OPENAI.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.TTS_OPENAI_API.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.VAD1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.VAD_LOOP_LC.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.VAD_SCELETON_WITH_TTS_STT.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.VAD_SCELETON_WITH_TTS_STT_GROQ (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.VAD_SCELETON_WITH_TTS_STT_GROQ.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.VIDEO_PLAYER.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.aha_vad.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.basic-auth.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.codemaster4.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.dark_light_switch.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.file-picker-all-modes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.file-picker-upload-progress.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lwh.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main (3).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main (4).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.main (5).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.melo_testy.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.page_window.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ps (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Python.ps.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.pyaudio_ID.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.responsive_menu_layout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scarjo.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.scarjo2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.simple-inference.executor&quot;: &quot;Run&quot;,
-    &quot;Python.simple_desktop_layout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.talk.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.urlShortner.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vad2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.vertical_loading_animation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.voice69.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.weather_example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.web.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/bigai/PycharmProjects/BIGAI/ENGINE&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests in test_vad.py.executor": "Debug",
+    "Python.AI_PIC_GENERATOR.executor": "Debug",
+    "Python.ALOHAPP_ANKI (1).executor": "Debug",
+    "Python.ALOHAPP_ANKI.executor": "Debug",
+    "Python.ALOHAPP_KANJI.executor": "Debug",
+    "Python.ALOHAPP_ROMANJI.executor": "Debug",
+    "Python.ALOHAPP_TRANSLATE.executor": "Debug",
+    "Python.API_BIGAI_CLIENT.executor": "Debug",
+    "Python.API_BIGAI_SERVER.executor": "Run",
+    "Python.API_SERVER_STT_WHISPER.executor": "Debug",
+    "Python.API_STT_WHISPER_CLIENT.executor": "Run",
+    "Python.API_STT_WHISPER_SERVER.executor": "Run",
+    "Python.APP_CONVERSATIONS_AI.executor": "Run",
+    "Python.APP_CONVERSATIONS_AI_V2.executor": "Debug",
+    "Python.APP_OCR_WINDOW.executor": "Debug",
+    "Python.APP_SENTENCES.executor": "Debug",
+    "Python.AUDIO_TO_SRT (1).executor": "Run",
+    "Python.AUDIO_TO_SRT.executor": "Debug",
+    "Python.Anthropic_test.executor": "Debug",
+    "Python.BLACKJACK.executor": "Run",
+    "Python.CODE_GEN_BY_CLOUDE_HAIKU.executor": "Debug",
+    "Python.CODE_GEN_BY_CODESTRAL22B.executor": "Debug",
+    "Python.CODE_GEN_BY_GWEN2.executor": "Run",
+    "Python.CODE_GEN_BY_LLAMA31_70B.executor": "Debug",
+    "Python.CODE_GEN_BY_LLAMA31_8B.executor": "Run",
+    "Python.CODE_GEN_LLAMA3_70B.executor": "Debug",
+    "Python.CODE_GEN_LLAMA3_8B.executor": "Debug",
+    "Python.FRONT_FLET_VIDEOPLAYBACK.executor": "Run",
+    "Python.GEN_CODE_CODELLAMA.executor": "Debug",
+    "Python.GEN_CODE_TEXT_CLAUDE_HAIKU.executor": "Debug",
+    "Python.GEN_CODE_TEXT_GROQ.executor": "Debug",
+    "Python.GEN_CODE_TEXT_LLAMA_3_INSTRUCT.executor": "Debug",
+    "Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_70B_Q4.executor": "Debug",
+    "Python.GEN_CODE_TEXT_LLAMA_CPP_DOLPHIN_LLAMA3_Q4.executor": "Debug",
+    "Python.GEN_CODE_TEXT_LLAMA_CPP_LLAMA3_Q5.executor": "Debug",
+    "Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL8x7B_Q5.executor": "Debug",
+    "Python.GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL_8x22B_Q4.executor": "Debug",
+    "Python.GEN_CODE_TEXT_LLAMA_CPP_PHI3_Q4.executor": "Debug",
+    "Python.GEN_CODE_TEXT_MISTRAL8x7B_Q3.executor": "Debug",
+    "Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_70B_Q4.executor": "Debug",
+    "Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_LLAMA3_8B_Q4.executor": "Debug",
+    "Python.GEN_CODE_TEXT_OLLAMA_DOLPHIN_MISTRAL.executor": "Debug",
+    "Python.GEN_CODE_TEXT_OLLAMA_LLAMA3.executor": "Debug",
+    "Python.GEN_COMIC_STORYDIFFIUSION.executor": "Run",
+    "Python.GEN_COMIC_STORYDIFFIUSION_GRADIO.executor": "Debug",
+    "Python.GEN_PIC_SDXL.executor": "Debug",
+    "Python.GEN_PIC_SDXL_LIGHTNING.executor": "Debug",
+    "Python.GEN_PIC_STABLE_DIFFXL.executor": "ConcurrencyExecutor",
+    "Python.GEN_QR_CODE.executor": "Run",
+    "Python.GEN_TEXT.executor": "Debug",
+    "Python.GEN_TEXT_LLAMA_3.executor": "Debug",
+    "Python.GEN_TEXT_LLAMA_CPP.executor": "Debug",
+    "Python.GEN_TEXT_LLAMA_CPP_LLAMA3.executor": "Debug",
+    "Python.GEN_TEXT_OCTOPUS_V2.executor": "Debug",
+    "Python.GEN_TEXT_OLLAMA.executor": "Debug",
+    "Python.GPUAPPLEPYTORCH.executor": "Run",
+    "Python.GPU_JAX.executor": "Run",
+    "Python.GPU_KERAS.executor": "Debug",
+    "Python.GPU_PL.executor": "Debug",
+    "Python.GPU_PYTORCH.executor": "Debug",
+    "Python.GPU_TF.executor": "Debug",
+    "Python.GPU_TRAX.executor": "Debug",
+    "Python.KEY_OPENAI.executor": "Debug",
+    "Python.LD_TOOL_PERF.executor": "Debug",
+    "Python.LD_TOOL_TRAIN.executor": "Debug",
+    "Python.LLM_FINETUNE_LLAMA3.executor": "Debug",
+    "Python.OCR_JAPANESE_MANGAOCR.executor": "Debug",
+    "Python.OCR_PADDLEOCR.executor": "Run",
+    "Python.OCR_PADDLE_GPU.executor": "Debug",
+    "Python.PIC_GEN_SD3.executor": "Debug",
+    "Python.PIC_RECOGNIZE_CLOUDE_HAIKU.executor": "Debug",
+    "Python.PIC_RECOGNIZE_OLLAMA_LLAVA.executor": "Debug",
+    "Python.PIC_REGOG_PHI3VISION.executor": "Debug",
+    "Python.POKER.executor": "Debug",
+    "Python.PYAUDIO_DEVICES.executor": "Debug",
+    "Python.PYTHON_ENV_CHECK.executor": "Run",
+    "Python.QM_NIXTLA_FIRST.executor": "Debug",
+    "Python.RECOG_PICTURE_OLLAMA_LLAVA.executor": "Debug",
+    "Python.REC_AUDIO_PYAUDIO.executor": "Debug",
+    "Python.REC_VOICE_PYAUDIO.executor": "Debug",
+    "Python.SCREENSHOOT_SELENIUM.executor": "Debug",
+    "Python.STT_FASTERWHISPER.executor": "Debug",
+    "Python.STT_MMS.executor": "Debug",
+    "Python.STT_WHISPERTIMESTAMPED.executor": "Debug",
+    "Python.STT_WHISPERX.executor": "Debug",
+    "Python.STT_WHISPERX_SRT.executor": "Debug",
+    "Python.STT_WHISPERX_VAD_PYAUDIO.executor": "Run",
+    "Python.STT_WHISPERX_VAD_SOUNDDEVICE.executor": "Debug",
+    "Python.STT_WHISPER_STREAMING.executor": "Debug",
+    "Python.SUPER_RUDE_ASSISTANT.executor": "Debug",
+    "Python.SUPER_RUDE_ASSISTANT_LOCAL (1).executor": "Debug",
+    "Python.SUPER_RUDE_ASSISTANT_LOCAL.executor": "Run",
+    "Python.Sliding_AppBar.executor": "Run",
+    "Python.TEXT_RECOGNIZE_TROCR.executor": "Debug",
+    "Python.TRANSFORMERS_WHISPER.executor": "Debug",
+    "Python.TTS_BARK.executor": "Debug",
+    "Python.TTS_BARK_HALF.executor": "Debug",
+    "Python.TTS_BARK_MP.executor": "Run",
+    "Python.TTS_DEEPGRAM.executor": "Debug",
+    "Python.TTS_MELO.executor": "Debug",
+    "Python.TTS_OPENAI.executor": "Debug",
+    "Python.TTS_OPENAI_API.executor": "Debug",
+    "Python.VAD1.executor": "Run",
+    "Python.VAD_LOOP_LC.executor": "Debug",
+    "Python.VAD_SCELETON_WITH_TTS_STT.executor": "Debug",
+    "Python.VAD_SCELETON_WITH_TTS_STT_GROQ (1).executor": "Run",
+    "Python.VAD_SCELETON_WITH_TTS_STT_GROQ.executor": "Debug",
+    "Python.VIDEO_PLAYER.executor": "Debug",
+    "Python.aha_vad.executor": "Debug",
+    "Python.basic-auth.executor": "Debug",
+    "Python.codemaster4.executor": "Debug",
+    "Python.dark_light_switch.executor": "Debug",
+    "Python.example.executor": "Run",
+    "Python.file-picker-all-modes.executor": "Run",
+    "Python.file-picker-upload-progress.executor": "Run",
+    "Python.lwh.executor": "Debug",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Debug",
+    "Python.main (3).executor": "Debug",
+    "Python.main (4).executor": "Debug",
+    "Python.main (5).executor": "Debug",
+    "Python.melo_testy.executor": "Debug",
+    "Python.page_window.executor": "Debug",
+    "Python.ps (1).executor": "Debug",
+    "Python.ps.executor": "Debug",
+    "Python.pyaudio_ID.executor": "Debug",
+    "Python.responsive_menu_layout.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.scarjo.executor": "Debug",
+    "Python.scarjo2.executor": "Debug",
+    "Python.simple-inference.executor": "Run",
+    "Python.simple_desktop_layout.executor": "Run",
+    "Python.talk.executor": "Debug",
+    "Python.test2.executor": "Debug",
+    "Python.urlShortner.executor": "Run",
+    "Python.vad2.executor": "Debug",
+    "Python.vertical_loading_animation.executor": "Run",
+    "Python.voice69.executor": "Debug",
+    "Python.weather_example.executor": "Run",
+    "Python.web.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/TATOEBA/DE",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ENGINE" />
-      <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT" />
-      <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/TRANSFORMER_ARCH" />
-      <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/TOKENIZERS DEEP DIVE" />
-      <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/PRETRAIN ROBERTA FROM SCRATCH" />
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP/TATOEBA/DE" />
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP/PIC" />
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP/DECKS/ASSIMIL/ES" />
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP/DECKS/ASSIMIL/DE" />
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP/DECKS/ASSIMIL/FR" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS" />
-      <recent name="$PROJECT_DIR$/SCHOOL/CODECOMPANION/FLET" />
-      <recent name="$PROJECT_DIR$/SCHOOL/CODECOMPANION/LEETCODE" />
-      <recent name="$PROJECT_DIR$/FRONT/ALOHAPP" />
-      <recent name="$PROJECT_DIR$/SCHOOL/CODECOMPANION" />
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP/VIDEO" />
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP/DECKS/ASSIMIL/IT" />
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/DE/SELF_LEARNING" />
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/ES/SELF_LEARNING" />
+      <recent name="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/FR/SELF_LEARNING" />
     </key>
   </component>
   <component name="RunManager" selected="Python.CODE_GEN_BY_LLAMA31_8B">
@@ -1069,11 +1515,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.CODE_GEN_BY_LLAMA31_8B" />
         <item itemvalue="Python.SUPER_RUDE_ASSISTANT_LOCAL (1)" />
-        <item itemvalue="Python.CODE_GEN_BY_LLAMA31_70B" />
-        <item itemvalue="Python.API_BIGAI_SERVER" />
+        <item itemvalue="Python.GPU_PYTORCH" />
         <item itemvalue="Python.GPUAPPLEPYTORCH" />
+        <item itemvalue="Python.CODE_GEN_BY_LLAMA31_8B" />
+        <item itemvalue="Python.CODE_GEN_BY_LLAMA31_70B" />
       </list>
     </recent_temporary>
   </component>
@@ -1555,6 +2001,9 @@
       <workItem from="1721804856676" duration="255000" />
       <workItem from="1721805599584" duration="1944000" />
       <workItem from="1721897161740" duration="1748000" />
+      <workItem from="1721915598085" duration="1469000" />
+      <workItem from="1722061595733" duration="442000" />
+      <workItem from="1722062053619" duration="6439000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1583,14 +2032,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00114" summary="BIGAI CODE TEST">
-      <option name="closed" value="true" />
-      <created>1716929651167</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1716929651167</updated>
     </task>
     <task id="LOCAL-00115" summary="WHISPERX_VAD TRY">
       <option name="closed" value="true" />
@@ -1944,7 +2385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719569440313</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="BIGAI ENGINE SUPERRUDE ASSISTANT x86">
+      <option name="closed" value="true" />
+      <created>1721915626153</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1721915626153</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1970,7 +2419,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="VAD WITH WHISPERX WORKING!!!!!!!" />
     <MESSAGE value="VAD WITH STT TTS GROQ" />
     <MESSAGE value="README WITH YT" />
     <MESSAGE value="BIGAI GITHUB YT LINK" />
@@ -1995,7 +2443,8 @@
     <MESSAGE value="BIGAI README" />
     <MESSAGE value="BIGAI ENGINE GWEN2 TEST, 3xGPU" />
     <MESSAGE value="BIGAI ENGINE README BEFORE JP" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ENGINE README BEFORE JP" />
+    <MESSAGE value="BIGAI ENGINE SUPERRUDE ASSISTANT x86" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ENGINE SUPERRUDE ASSISTANT x86" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
