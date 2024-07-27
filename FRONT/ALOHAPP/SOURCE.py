@@ -7,6 +7,10 @@ class SOURCE(object):
     part = 0
     language = ''
     words = []
+    sentences = []
+    audio = []
+    pics = []
+    videos = []
     def __init__(self, source_type,user_type,part, language):
         self.source_type = source_type
         self.user_type = user_type
