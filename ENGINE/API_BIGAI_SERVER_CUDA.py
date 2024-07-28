@@ -2,6 +2,9 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 from pydantic import BaseModel
 from ENGINE.KEY_OPENAI import generate_and_play
 from playsound import playsound
+from fastapi import FastAPI, File, UploadFile, Form
+from fastapi.responses import JSONResponse
+from pydantic import BaseModel
 
 
 STT_WHISPERX = True
@@ -14,7 +17,6 @@ app = FastAPI()
 
 if STT_WHISPERX:
     import whisperx
-
     model = whisperx.load_model("large-v3", device="cuda")
 
 
@@ -23,11 +25,11 @@ if STT_WHISPERX:
 
 
     @app.post("/transcribe/")
-    async def transcribe(file: UploadFile = File(...)):
+    async def transcribe(file: UploadFile = File(...), language: str = Form(...)):
 
         audio = whisperx.load_audio(file.filename)
 
-        result = model.transcribe(audio, batch_size=16, task="transcribe",language="en")
+        result = model.transcribe(audio, batch_size=16, task="transcribe",language=language)
 
         transcription = ''
         for segment in result['segments']:

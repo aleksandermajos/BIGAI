@@ -27,12 +27,13 @@ def generate_image(prompt: str, negative_prompt: str, num_inference_steps: int, 
         return f"An error occurred: {e}"
 
 
-def transcribe(audio_file):
+def transcribe(file_path, language):
     # The URL of the FastAPI server
     url = "http://127.0.0.1:8000/transcribe/"
+    data = {'language': language}
 
     # Path to the audio file you want to transcribe
-    audio_file_path = audio_file
+    audio_file_path = file_path
 
     # Open the audio file in binary mode
     with open(audio_file_path, "rb") as audio_file:
@@ -40,7 +41,7 @@ def transcribe(audio_file):
         files = {"file": audio_file}
 
         # Make a POST request to the server
-        response = requests.post(url, files=files)
+        response = requests.post(url, files=files, data=data)
         if response.status_code == 200:
             transcribed_text = response.text
             return transcribed_text
@@ -79,16 +80,13 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+    text=transcribe(file_path="ITALIA.mp3", language='it')
+
     tts_melo("Der Mann gibt dem Hund den Knochen.",lang="de", output="example_de.wav")
     tts_melo("I do not have a dream",lang="en", output="dream.wav")
     tts_melo("私には夢があります", lang="jp", output="dream_jp.wav")
 
 
-
-
-
-
-    text=transcribe(audio_file="01 Lecon 01 - introduction rapide.mp3")
 
     '''
     text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"

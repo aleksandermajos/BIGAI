@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ALOHAPP DATA SOURCE">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ENGINE API SERVER TTS ALL LANGUAGES">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER_CUDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER_CUDA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/KEY_OPENAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/KEY_OPENAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/LANG_CODES.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/LANG_CODES.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/example.wav" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,11 +235,11 @@
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP/DECKS/ASSIMIL/FR" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ENGINE" />
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP/VIDEO" />
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP/DECKS/ASSIMIL/IT" />
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/DE/SELF_LEARNING" />
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/ES/SELF_LEARNING" />
-      <recent name="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/FR/SELF_LEARNING" />
     </key>
   </component>
   <component name="RunManager" selected="Python.API_BIGAI_CLIENT">
@@ -1538,7 +1535,7 @@
       <workItem from="1721915598085" duration="1469000" />
       <workItem from="1722061595733" duration="442000" />
       <workItem from="1722062053619" duration="13545000" />
-      <workItem from="1722149911311" duration="2883000" />
+      <workItem from="1722149911311" duration="6756000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1567,14 +1564,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00117" summary="leetcode files">
-      <option name="closed" value="true" />
-      <created>1717004481645</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1717004481645</updated>
     </task>
     <task id="LOCAL-00118" summary="VAD WITH WHISPERX WORKING!!!!!!!">
       <option name="closed" value="true" />
@@ -1928,7 +1917,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722079039334</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="BIGAI ENGINE API SERVER TTS ALL LANGUAGES">
+      <option name="closed" value="true" />
+      <created>1722152826421</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1722152826421</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1954,7 +1951,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI GITHUB YT LINK" />
     <MESSAGE value="BIGAI GITHUB YT LINK WITH WRAP LINES" />
     <MESSAGE value="TRY OCR AND VISION WITH KANJI" />
     <MESSAGE value="LD TOOL AS BIGAI SCHOOL SMALL PROJECTS" />
@@ -1979,7 +1975,8 @@
     <MESSAGE value="BIGAI ENGINE SUPERRUDE ASSISTANT x86" />
     <MESSAGE value="BIGAI ALOHAPP DATA" />
     <MESSAGE value="BIGAI ALOHAPP DATA SOURCE" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ALOHAPP DATA SOURCE" />
+    <MESSAGE value="BIGAI ENGINE API SERVER TTS ALL LANGUAGES" />
+    <option name="LAST_COMMIT_MESSAGE" value="BIGAI ENGINE API SERVER TTS ALL LANGUAGES" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2189,8 +2186,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="262" />
+          <line>82</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER_CUDA.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="270" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -2264,7 +2276,7 @@
     <SUITE FILE_PATH="coverage/BIGAI$GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL8x7B_Q5.coverage" NAME="GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL8x7B_Q5 Coverage Results" MODIFIED="1717084600296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$LD_TOOL_PERF.coverage" NAME="LD_TOOL_PERF Coverage Results" MODIFIED="1718173595011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_TEXT.coverage" NAME="GEN_TEXT Coverage Results" MODIFIED="1712919135688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$API_BIGAI_CLIENT.coverage" NAME="API_BIGAI_CLIENT Coverage Results" MODIFIED="1722152744172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$API_BIGAI_CLIENT.coverage" NAME="API_BIGAI_CLIENT Coverage Results" MODIFIED="1722156588952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$SUPER_RUDE_ASSISTANT_LOCAL.coverage" NAME="SUPER_RUDE_ASSISTANT_LOCAL Coverage Results" MODIFIED="1721684255905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/SUPER_RUDE_ASSISTANT" />
     <SUITE FILE_PATH="coverage/BIGAI$CODE_GEN_LLAMA3_8B.coverage" NAME="CODE_GEN_LLAMA3_8B Coverage Results" MODIFIED="1713635101835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$TTS_MELO.coverage" NAME="TTS_MELO Coverage Results" MODIFIED="1717527493666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
@@ -2340,7 +2352,7 @@
     <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPER_STREAMING.coverage" NAME="STT_WHISPER_STREAMING Coverage Results" MODIFIED="1708271920176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$PYAUDIO_DEVICES.coverage" NAME="PYAUDIO_DEVICES Coverage Results" MODIFIED="1721680412500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$pyaudio_ID.coverage" NAME="pyaudio_ID Coverage Results" MODIFIED="1716955440257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ALL_AI/low-latency-sts-main" />
-    <SUITE FILE_PATH="coverage/BIGAI$API_BIGAI_SERVER_CUDA.coverage" NAME="API_BIGAI_SERVER_CUDA Coverage Results" MODIFIED="1722152713445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
+    <SUITE FILE_PATH="coverage/BIGAI$API_BIGAI_SERVER_CUDA.coverage" NAME="API_BIGAI_SERVER_CUDA Coverage Results" MODIFIED="1722156555026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$RECOG_PICTURE_OLLAMA_LLAVA.coverage" NAME="PIC_RECOGNIZE_OLLAMA_LLAVA Coverage Results" MODIFIED="1714882117214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$vertical_loading_animation.coverage" NAME="vertical_loading_animation Coverage Results" MODIFIED="1710318652097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/community/flet_animations" />
     <SUITE FILE_PATH="coverage/BIGAI$TRANSFORMERS_WHISPER.coverage" NAME="TRANSFORMERS_WHISPER Coverage Results" MODIFIED="1713694873793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
