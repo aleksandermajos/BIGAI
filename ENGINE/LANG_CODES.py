@@ -3,7 +3,6 @@ def get_lang_name_to_tts_melo(lang):
     if lang == "en": return 'EN','EN-BR'
     if lang == "es": return 'ES','ES'
     if lang == "fr": return 'FR','FR'
-    if lang == "de": return 'DE','DE'
     if lang == "zh": return 'ZH','ZH'
     if lang == "ko": return 'KR','KR'
 
