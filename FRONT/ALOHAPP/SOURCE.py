@@ -18,6 +18,10 @@ class SOURCE(object):
 
     pics = []
     videos = []
+
+    def populate_words_text(self):
+        pass
+
     def __init__(self, name ,source_type,user_type,part, language):
         self.name = name
         self.source_type = source_type
@@ -27,8 +31,7 @@ class SOURCE(object):
         if self.source_type not in SOURCE.source_type:
             print(f'Source type {self.source_type} not supported')
 
-    def populate_words_text(self):
-        pass
+
 
     def populate_n_gram_text(self):
         pass

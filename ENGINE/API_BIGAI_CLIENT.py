@@ -43,7 +43,7 @@ def transcribe(file_path, language):
         # Make a POST request to the server
         response = requests.post(url, files=files, data=data)
         if response.status_code == 200:
-            transcribed_text = response.text
+            transcribed_text = response.json()
             return transcribed_text
         else:
             raise Exception(f"Error: {response.status_code} - {response.json().get('detail')}")

@@ -5,6 +5,12 @@ from playsound import playsound
 from fastapi import FastAPI, File, UploadFile, Form
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
+from fastapi import FastAPI, UploadFile, File, HTTPException
+from fastapi.responses import JSONResponse
+import whisperx
+from pydub import AudioSegment
+import os
+import tempfile
 
 
 STT_WHISPERX = True
@@ -20,10 +26,6 @@ if STT_WHISPERX:
     model = whisperx.load_model("large-v3", device="cuda")
 
 
-    class TranscribeResponse(BaseModel):
-        transcribe_text: str
-
-
     @app.post("/transcribe/")
     async def transcribe(file: UploadFile = File(...), language: str = Form(...)):
 
@@ -31,11 +33,16 @@ if STT_WHISPERX:
 
         result = model.transcribe(audio, batch_size=16, task="transcribe",language=language)
 
-        transcription = ''
-        for segment in result['segments']:
-            transcription += ("[%.2fs -> %.2fs] %s" % (segment['start'], segment['end'], segment['text']))
+        device = 'cuda'
+        model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=device)
+        result = whisperx.align(result["segments"], model_a, metadata, audio, device, return_char_alignments=False)
 
-        return TranscribeResponse(transcribe_text=transcription)
+
+        response_data = {
+            "segments": result["segments"]
+        }
+
+        return JSONResponse(content=response_data)
 
 if TTS_MELO:
     from melo.api import TTS
