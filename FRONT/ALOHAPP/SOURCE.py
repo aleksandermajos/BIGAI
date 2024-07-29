@@ -1,8 +1,9 @@
 from ENGINE.API_BIGAI_CLIENT import transcribe, tts_melo
-import stanza
+import pickle
 import spacy_stanza
 from pydub import AudioSegment
-import math
+
+
 
 
 class SOURCE(object):
@@ -44,7 +45,8 @@ class SOURCE(object):
         for segment in text['segments']:
             lem = lemma(segment['text'])
             segment_audio = audio[segment['start']*1000:segment['end']*1000]
-            segment_audio.export(segment['text']+".mp3", format="mp3")
+            #segment_audio.export(segment['text']+".mp3", format="mp3")
+            segment['text_audio'] = segment_audio
             lem_text = []
             for token in lem:
                 lem_text.append(str(token.lemma_))
@@ -58,18 +60,16 @@ class SOURCE(object):
                 for token in lem:
                     lem_word = (str(token.lemma_))
                 word['word_lemma'] = lem_word
-        oko=5
+        return text
 
-
-
-
-
-        oko=5
 
     def populate_audio(self):
         pass
 
 path =r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/DE/LITTLE_PRINCE/03 Der Kleine Prinz - Kapitel 1.mp3'
 LITTLEPRINCE_AUDIO_BOOK_PART1_DE = SOURCE(name='LITTLEPRINCE_AUDIO_BOOK_PART1_DE',path = path, source_type='AUDIO', user_type='BOOK', part=1, language='de')
-LITTLEPRINCE_AUDIO_BOOK_PART1_DE.populate_text()
-oko=6
+pick = LITTLEPRINCE_AUDIO_BOOK_PART1_DE.populate_text()
+with open('my_pick.pkl', 'wb') as file:
+    # Step 4: Use pickle.dump() to serialize and save the dictionary
+    pickle.dump(pick, file)
+oko=5
