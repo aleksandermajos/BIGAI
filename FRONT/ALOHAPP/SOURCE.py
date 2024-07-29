@@ -1,4 +1,9 @@
 from ENGINE.API_BIGAI_CLIENT import transcribe, tts_melo
+import stanza
+import spacy_stanza
+from pydub import AudioSegment
+import math
+
 
 class SOURCE(object):
     source_type = ['AUDIO', 'DECKS', 'EXEL', 'PIC', 'TATOEBA', 'TEXT', 'VIDEO']
@@ -6,9 +11,9 @@ class SOURCE(object):
     part = 0
     language = ''
 
-    words_text = []
-    n_grams_text = []
-    sentences_text = []
+    words_text = set()
+    n_grams_text = set()
+    sentences_text = set()
 
     words_audio = []
     n_grams_audio = []
@@ -33,14 +38,37 @@ class SOURCE(object):
 
 
     def populate_text(self):
+        lemma = spacy_stanza.load_pipeline("de")
         text = transcribe(file_path=self.path, language='de')
+        audio = AudioSegment.from_file(self.path)
+        for segment in text['segments']:
+            lem = lemma(segment['text'])
+            segment_audio = audio[segment['start']*1000:segment['end']*1000]
+            segment_audio.export(segment['text']+".mp3", format="mp3")
+            lem_text = []
+            for token in lem:
+                lem_text.append(str(token.lemma_))
+            filtered_lem_text= [item for item in lem_text if '.' not in item and '_' not in item and ' ' not in item and ', ' not in item and ',' not in item]
+            segment['text_lemma'] = filtered_lem_text
+
+
+            for word in segment['words']:
+                lem = lemma(word['word'])
+                lem_word = ''
+                for token in lem:
+                    lem_word = (str(token.lemma_))
+                word['word_lemma'] = lem_word
+        oko=5
+
+
+
+
+
         oko=5
 
     def populate_audio(self):
         pass
-'''
-text=transcribe(file_path=path, language='de')
-'''
+
 path =r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/DE/LITTLE_PRINCE/03 Der Kleine Prinz - Kapitel 1.mp3'
 LITTLEPRINCE_AUDIO_BOOK_PART1_DE = SOURCE(name='LITTLEPRINCE_AUDIO_BOOK_PART1_DE',path = path, source_type='AUDIO', user_type='BOOK', part=1, language='de')
 LITTLEPRINCE_AUDIO_BOOK_PART1_DE.populate_text()
