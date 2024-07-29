@@ -1,16 +1,10 @@
-from fastapi import FastAPI, File, UploadFile, HTTPException
-from pydantic import BaseModel
 from ENGINE.KEY_OPENAI import generate_and_play
 from playsound import playsound
-from fastapi import FastAPI, File, UploadFile, Form
-from fastapi.responses import JSONResponse
+from fastapi import Form
 from pydantic import BaseModel
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import JSONResponse
-import whisperx
-from pydub import AudioSegment
-import os
-import tempfile
+
 
 
 STT_WHISPERX = True
@@ -27,9 +21,9 @@ if STT_WHISPERX:
 
 
     @app.post("/transcribe/")
-    async def transcribe(file: UploadFile = File(...), language: str = Form(...)):
+    async def transcribe(file: UploadFile = File(...), language: str = Form(...), file_path: str = Form(...)):
 
-        audio = whisperx.load_audio(file.filename)
+        audio = whisperx.load_audio(file_path)
 
         result = model.transcribe(audio, batch_size=16, task="transcribe",language=language)
 

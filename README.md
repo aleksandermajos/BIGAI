@@ -43,9 +43,10 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 ### AI KNOWLEDGE:
 | NAME/LINK                                                                                                 | TIME   |
 |-----------------------------------------------------------------------------------------------------------|--------|
-| [TRANSFORMER FOR NLP](https://learning.oreilly.com/library/view/transformers-for-natural/9781805128724/)  | 5      |
-| [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/) | 4      |
-| [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)           | 5      |
+| [TRANSFORMER FOR NLP](https://learning.oreilly.com/library/view/transformers-for-natural/9781805128724/)  | 6      |
+| [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/) | 6      |
+| [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)           | 6      |
+| --------------------------------------------------------------------------------------------------------  | --18-- |
 | FINE TUNE, TRANSFER LEARNING, RAG                                                                         | 3      |
 | TRANSFORMER FROM SCRATCH                                                                                  | 3      |
 | CREW FRAMEWORKS                                                                                           | 3      |
@@ -53,7 +54,6 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | [STATISTICS](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/)           | 4      |
 | [GIT](https://learning.oreilly.com/library/view/learning-git/9781098133900/)                              | 3      |
 | [DOCKER](https://learning.oreilly.com/library/view/docker-deep-dive/9781835884386/)                       | 4      |
-| --------------------------------------------------------------------------------------------------------  | --39-- |
 | JAMBA ARCHITECTURE , xLSTM                                                                                | 6      |
 | RETRIEVAL DATA FROM LLM                                                                                   | 6      |
 | INTERPRETABILITY ANTROPIC LIKE                                                                            | 10     |

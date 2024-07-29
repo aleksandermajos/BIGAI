@@ -30,7 +30,9 @@ def generate_image(prompt: str, negative_prompt: str, num_inference_steps: int, 
 def transcribe(file_path, language):
     # The URL of the FastAPI server
     url = "http://127.0.0.1:8000/transcribe/"
-    data = {'language': language}
+    data = {'language': language,
+            'file_path': file_path
+            }
 
     # Path to the audio file you want to transcribe
     audio_file_path = file_path

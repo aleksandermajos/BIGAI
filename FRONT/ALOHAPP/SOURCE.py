@@ -1,5 +1,3 @@
-from dataclasses import dataclass
-from typing import NamedTuple
 from ENGINE.API_BIGAI_CLIENT import transcribe, tts_melo
 
 class SOURCE(object):
@@ -22,8 +20,9 @@ class SOURCE(object):
     def populate_words_text(self):
         pass
 
-    def __init__(self, name ,source_type,user_type,part, language):
+    def __init__(self, name, path, source_type,user_type,part, language):
         self.name = name
+        self.path = path
         self.source_type = source_type
         self.user_type = user_type
         self.part = part
@@ -33,34 +32,16 @@ class SOURCE(object):
 
 
 
-    def populate_n_gram_text(self):
+    def populate_text(self):
+        text = transcribe(file_path=self.path, language='de')
+        oko=5
+
+    def populate_audio(self):
         pass
-
-    def populate_sentences_text(self):
-        pass
-
-
-
-    def populate_words_audio(self):
-        pass
-
-    def populate_n_grams_audio(self):
-        pass
-
-    def populate_sentences_audio(self):
-        pass
-
-    def populate_pics(self):
-        pass
-
-    def populate_videos(self):
-        pass
-
-
-
-
-
-
-
-LP_AUDIO_BOOK_PART1_DE = SOURCE(name='LP',source_type='AUDIO', user_type='BOOK', part=1, language='de')
-oko=7
+'''
+text=transcribe(file_path=path, language='de')
+'''
+path =r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/DE/LITTLE_PRINCE/03 Der Kleine Prinz - Kapitel 1.mp3'
+LITTLEPRINCE_AUDIO_BOOK_PART1_DE = SOURCE(name='LITTLEPRINCE_AUDIO_BOOK_PART1_DE',path = path, source_type='AUDIO', user_type='BOOK', part=1, language='de')
+LITTLEPRINCE_AUDIO_BOOK_PART1_DE.populate_text()
+oko=6
