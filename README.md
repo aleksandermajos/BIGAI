@@ -15,38 +15,38 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 |-----------------------------------------------------------------|--------------|---------------------------------------------------------|----------|
 | BIGAI_FRONT INTRO                                               | N/A          | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       | 0        |
 | ALOHAPP PROJECT INTRO                                           | N/A          | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   | 0        |
-| LOAD ASSIMIL SOURCE                                             |              |                                                         | 3        |
-| LOAD LITTLE PRINCE - BOOK SOURCE                                |              |                                                         | 3        |
-| DIVIDE SOURCE ON CHAPTERS/PARTS                                 |              |                                                         | 3        |
+| LOAD ASSIMIL SOURCE                                             |              |                                                         | 0        |
+| LOAD LITTLE PRINCE - BOOK SOURCE                                |              |                                                         | 0        |
+| DIVIDE SOURCE ON CHAPTERS/PARTS                                 |              |                                                         | 1        |
 | CREATE CLASSES WORD                                             |              |                                                         | 2        |
-| CREATE CLASSES USER AND TIMELINE                                |              |                                                         | 4        |
-| CONVERSATION PROTOTYPE                                          |              |                                                         | 4        |
+| CREATE CLASSES USER AND TIMELINE                                |              |                                                         | 3        |
 | ALL SOURCES RATIO - GET WORDS TO LEARN FOR USER                 |              |                                                         | 3        |
+| CONVERSATION PROTOTYPE                                          |              |                                                         | 4        |
 | FUTURE AND PAST WORDS                                           |              |                                                         | 3        |
 | HELPER WINDOW AND LANG PRIORITY                                 |              |                                                         | 4        |
 | NGRAM CLASS + REST CLASSES                                      |              |                                                         | 4        |
 | PICK A RIGHT PART OF A SOURCE                                   |              |                                                         | 3        |
 | PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                    |              |                                                         | 3        |
-| -------------------------------------------                     | ------------ | ---------                                               | --39--   |
+| -------------------------------------------                     | ------------ | ---------                                               | --30--   |
 | LOCAL/OPENAI VARIANT + OUT OF BIGAI UMBRELLA                    |              |                                                         | 4        |
 | WEB VERSION + OUT OF BIGAI UMBRELLA                             |              |                                                         | 6        |
-| WEB ON MOBILE VERSION + OUT OF BIGAI UMBRELLA                   |              |                                                         | 10       |
-| ADDING 14 LANGUAGES                                             |              |                                                         | 10       |
-| FIX ERRORS                                                      |              |                                                         | 10       |
+| WEB ON MOBILE VERSION + OUT OF BIGAI UMBRELLA                   |              |                                                         | 8        |
+| ADDING 14 LANGUAGES                                             |              |                                                         | 8        |
+| FIX ERRORS                                                      |              |                                                         | 8        |
 | GETTING FIN                                                     |              |                                                         | 5        |
 | SMART SPEAKERS                                                  |              |                                                         | 8        |
 | SMART GLASSES                                                   |              |                                                         | 8        |
 | SMART WATCHES                                                   |              |                                                         | 8        |
 | CHROME EXTENSION                                                |              |                                                         | 8        |
-| --------------------------------------------------------------- | ---------    | ------------------------------------------------------- | ---77--- |
+| --------------------------------------------------------------- | ---------    | ------------------------------------------------------- | ---71--- |
 
 ### AI KNOWLEDGE:
 | NAME/LINK                                                                                                 | TIME   |
 |-----------------------------------------------------------------------------------------------------------|--------|
-| [TRANSFORMER FOR NLP](https://learning.oreilly.com/library/view/transformers-for-natural/9781805128724/)  | 6      |
-| [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/) | 6      |
-| [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)           | 6      |
-| --------------------------------------------------------------------------------------------------------  | --18-- |
+| [TRANSFORMER FOR NLP](https://learning.oreilly.com/library/view/transformers-for-natural/9781805128724/)  | 10     |
+| [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/) | 10     |
+| [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)           | 10     |
+| --------------------------------------------------------------------------------------------------------  | --30-- |
 | FINE TUNE, TRANSFER LEARNING, RAG                                                                         | 3      |
 | TRANSFORMER FROM SCRATCH                                                                                  | 3      |
 | CREW FRAMEWORKS                                                                                           | 3      |

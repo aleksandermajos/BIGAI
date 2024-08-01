@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="BIGAI ALOHAPP SOURCE PICKLE SAVE">
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/DE/LITTLE_PRINCE/01 Der Kleine Prinz - Info.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/DE/SELF_LEARNING/ASSIMIL/01 Lekcja 1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/ES/LITTLE_PRINCE/01 El principito - Info.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/ES/SELF_LEARNING/ASSIMIL/Leçon 1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/FR/LITTLE_PRINCE/01 Le Petit Prince - Info.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/FR/SELF_LEARNING/ASSIMIL/001L001-LESSON.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/IT/LITTLE_PRINCE/01 Il Piccolo Principe - Dedica.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/AUDIO/BOOK/IT/SELF_LEARNING/ASSIMIL/L001-LESSON.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
