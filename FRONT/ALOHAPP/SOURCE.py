@@ -75,7 +75,6 @@ files = [f for f in path_data.iterdir() if f.is_file()]
 for chapter_path in files:
     file_name = chapter_path.name
     path_str = str(chapter_path)
-    print(file_name)
     current_chapter = SOURCE(name=file_name,path = path_str, source_type='AUDIO', user_type='BOOK', language='de')
     result = current_chapter.populate_text()
     with open(path_str+'.pkl', 'wb') as file:
