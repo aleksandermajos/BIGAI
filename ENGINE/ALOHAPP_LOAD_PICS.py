@@ -1,6 +1,6 @@
 import pandas as pd
 from PIL import Image
-path = "../DATA/PIC/SENTENCES_DE_1000_V1_PIC/"
+path = "../DATA/ALOHAPP/PIC/SENTENCES_DE_1000_V1_PIC/"
 
 def get_pictures(sentence):
     pictures =[]

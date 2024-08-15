@@ -11,60 +11,42 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * FRONT - FRONTEND FOR PROJECTS.RECENTLY ALOHAPP AND QUANTMAVERICK
 
 ### BIGAI_FRONT-ALOHAPP:
-| NAME                                                            | AS CODE      | YT VIDEO                                                | DAYS     |
-|-----------------------------------------------------------------|--------------|---------------------------------------------------------|----------|
-| BIGAI_FRONT INTRO                                               | N/A          | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       | 0        |
-| ALOHAPP PROJECT INTRO                                           | N/A          | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   | 0        |
-| LOAD ASSIMIL SOURCE                                             |              |                                                         | 0        |
-| LOAD LITTLE PRINCE - BOOK SOURCE                                |              |                                                         | 0        |
-| DIVIDE SOURCE ON CHAPTERS/PARTS                                 |              |                                                         | 1        |
-| CREATE CLASSES WORD                                             |              |                                                         | 2        |
-| CREATE CLASSES USER AND TIMELINE                                |              |                                                         | 3        |
-| ALL SOURCES RATIO - GET WORDS TO LEARN FOR USER                 |              |                                                         | 3        |
-| CONVERSATION PROTOTYPE                                          |              |                                                         | 4        |
-| FUTURE AND PAST WORDS                                           |              |                                                         | 3        |
-| HELPER WINDOW AND LANG PRIORITY                                 |              |                                                         | 4        |
-| NGRAM CLASS + REST CLASSES                                      |              |                                                         | 4        |
-| PICK A RIGHT PART OF A SOURCE                                   |              |                                                         | 3        |
-| PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                    |              |                                                         | 3        |
-| -------------------------------------------                     | ------------ | ---------                                               | --30--   |
-| LOCAL/OPENAI VARIANT + OUT OF BIGAI UMBRELLA                    |              |                                                         | 4        |
-| WEB VERSION + OUT OF BIGAI UMBRELLA                             |              |                                                         | 6        |
-| WEB ON MOBILE VERSION + OUT OF BIGAI UMBRELLA                   |              |                                                         | 8        |
-| ADDING 14 LANGUAGES                                             |              |                                                         | 8        |
-| FIX ERRORS                                                      |              |                                                         | 8        |
-| GETTING FIN                                                     |              |                                                         | 5        |
-| SMART SPEAKERS                                                  |              |                                                         | 8        |
-| SMART GLASSES                                                   |              |                                                         | 8        |
-| SMART WATCHES                                                   |              |                                                         | 8        |
-| CHROME EXTENSION                                                |              |                                                         | 8        |
-| --------------------------------------------------------------- | ---------    | ------------------------------------------------------- | ---71--- |
+| NAME                                                            | AS CODE      | YT VIDEO                                                |
+|-----------------------------------------------------------------|--------------|---------------------------------------------------------|
+| BIGAI_FRONT INTRO                                               | N/A          | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       |
+| ALOHAPP PROJECT INTRO                                           | N/A          | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   |
+| LOAD ASSIMIL SOURCE                                             |              |                                                         |
+| LOAD LITTLE PRINCE - BOOK SOURCE                                |              |                                                         |
+| DIVIDE SOURCE ON CHAPTERS/PARTS                                 |              |                                                         |
+| CREATE CLASSES WORD                                             |              |                                                         |
+| CREATE CLASSES USER AND TIMELINE                                |              |                                                         |
+| ALL SOURCES RATIO - GET WORDS TO LEARN FOR USER                 |              |                                                         |
+| CONVERSATION PROTOTYPE                                          |              |                                                         |
+| FUTURE AND PAST WORDS                                           |              |                                                         |
+| HELPER WINDOW AND LANG PRIORITY                                 |              |                                                         |
+| NGRAM CLASS + REST CLASSES                                      |              |                                                         |
+| PICK A RIGHT PART OF A SOURCE                                   |              |                                                         |
+| PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                    |              |                                                         |
+| LOCAL/OPENAI VARIANT + OUT OF BIGAI UMBRELLA                    |              |                                                         |
+| WEB VERSION + OUT OF BIGAI UMBRELLA                             |              |                                                         |
+| WEB ON MOBILE VERSION + OUT OF BIGAI UMBRELLA                   |              |                                                         |
+| ADDING 14 LANGUAGES                                             |              |                                                         |
+| FIX ERRORS                                                      |              |                                                         |
+| GETTING FIN                                                     |              |                                                         |
+| SMART SPEAKERS                                                  |              |                                                         |
+| SMART GLASSES                                                   |              |                                                         |
+| SMART WATCHES                                                   |              |                                                         |
+| CHROME EXTENSION                                                |              |                                                         |
+| --------------------------------------------------------------- | ---------    | ------------------------------------------------------- |
 
 ### AI KNOWLEDGE:
-| NAME/LINK                                                                                                 | TIME   |
-|-----------------------------------------------------------------------------------------------------------|--------|
-| [TRANSFORMER FOR NLP](https://learning.oreilly.com/library/view/transformers-for-natural/9781805128724/)  | 10     |
-| [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/) | 10     |
-| [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)           | 10     |
-| --------------------------------------------------------------------------------------------------------  | --30-- |
-| FINE TUNE, TRANSFER LEARNING, RAG                                                                         | 3      |
-| TRANSFORMER FROM SCRATCH                                                                                  | 3      |
-| CREW FRAMEWORKS                                                                                           | 3      |
-| [NLP](https://learning.oreilly.com/library/view/natural-language-processing/9781098136789/)               | 4      |
-| [STATISTICS](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/)           | 4      |
-| [GIT](https://learning.oreilly.com/library/view/learning-git/9781098133900/)                              | 3      |
-| [DOCKER](https://learning.oreilly.com/library/view/docker-deep-dive/9781835884386/)                       | 4      |
-| JAMBA ARCHITECTURE , xLSTM                                                                                | 6      |
-| RETRIEVAL DATA FROM LLM                                                                                   | 6      |
-| INTERPRETABILITY ANTROPIC LIKE                                                                            | 10     |
-| ACTION DATA BASED LLM                                                                                     | 8      |
-| CHAIN OF THOUGHTS DATA BASED LLM                                                                          | 8      |
-| ARCHITECTURE CHAIN OF PARTS DATA BASED LLM                                                                | 8      |
-| ARCHITECTURE TIME SERIES MODELS                                                                           | 8      |
-| TIMELINE ARCHITECTURE                                                                                     | 10     |
-| REINFORCEMENT LEARNING ARCHITECTURE                                                                       | 10     |
-| BUILD PERFECT DATA ACTION/CODE/COT/COP                                                                    | 14     |
-| --------------------------------------------------------                                                  | --88-- |
+| NAME/LINK                                                                                                 |
+|-----------------------------------------------------------------------------------------------------------|
+| [TRANSFORMER FOR NLP](https://learning.oreilly.com/library/view/transformers-for-natural/9781805128724/)  |
+| [HANDS OF GENERATIVE AI](https://learning.oreilly.com/library/view/hands-on-generative-ai/9781098149239/) |
+| [MASTERING PYTORCH](https://learning.oreilly.com/library/view/mastering-pytorch/9781801074308/)           |
+| [GIT](https://learning.oreilly.com/library/view/learning-git/9781098133900/)                              |
+| [STATISTICS](https://learning.oreilly.com/library/view/practical-statistics-for/9781492072935/)           |
 
 
 
