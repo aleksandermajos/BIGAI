@@ -1,3 +1,7 @@
+import torch
+from diffusers import StableDiffusionXLPipeline, UNet2DConditionModel, EulerDiscreteScheduler
+from huggingface_hub import hf_hub_download
+from safetensors.torch import load_file
 import pyaudio
 import webrtcvad
 import numpy as np
@@ -9,11 +13,6 @@ from groq import Groq
 from playsound import playsound
 from melo.api import TTS
 import ollama
-
-speed = 0.9
-device_melo = 'cuda'
-model_melo = TTS(language='EN', device=device_melo)
-speaker_ids = model_melo.hps.data.spk2id
 
 client = Groq(
     api_key=provide_key()
@@ -35,7 +34,17 @@ CHUNK = int(RATE * FRAME_DURATION_MS / 1000)  # Number of samples per frame
 # Initialize PyAudio
 audio = pyaudio.PyAudio()
 
+base = "stabilityai/stable-diffusion-xl-base-1.0"
+repo = "ByteDance/SDXL-Lightning"
+ckpt = "sdxl_lightning_4step_unet.safetensors" # Use the correct ckpt for your step setting!
 
+# Load model.
+unet = UNet2DConditionModel.from_config(base, subfolder="unet").to("cuda", torch.float16)
+unet.load_state_dict(load_file(hf_hub_download(repo, ckpt), device="cuda"))
+pipe = StableDiffusionXLPipeline.from_pretrained(base, unet=unet, torch_dtype=torch.float16, variant="fp16").to("cuda")
+
+# Ensure sampler uses "trailing" timesteps.
+pipe.scheduler = EulerDiscreteScheduler.from_config(pipe.scheduler.config, timestep_spacing="trailing")
 
 def process_audio(buffer):
     print("Processing audio for transcription...")
@@ -73,11 +82,7 @@ def process_audio(buffer):
     model_melo.tts_to_file(bot_reply, speaker_ids['EN-BR'], output_path, speed=speed)
     playsound('oko.wav')
 
-    if 'text' in result:
-        print("Transcription:", result['text'])
-    else:
-        print("Error: 'text' not in transcription result")
-        print(result)
+
 
 
 def record_and_transcribe():
@@ -121,10 +126,3 @@ def record_and_transcribe():
         except Exception as e:
             print(f"Error: {e}")
             break
-
-
-if __name__ == "__main__":
-    try:
-        record_and_transcribe()
-    finally:
-        audio.terminate()
