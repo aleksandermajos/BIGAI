@@ -11,38 +11,38 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 * FRONT - FRONTEND FOR PROJECTS.RECENTLY ALOHAPP AND QUANTMAVERICK
 
 ### BIGAI_FRONT-ALOHAPP:
-| NAME                                                            | AS CODE   | YT VIDEO                                                | TIME                                                    |
-|-----------------------------------------------------------------|-----------|---------------------------------------------------------|---------------------------------------------------------|
-| BIGAI_FRONT INTRO                                               | N/A       | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       | 0                                                       |
-| ALOHAPP PROJECT INTRO                                           | N/A       | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   | 0                                                       |
-| LOAD ASSIMIL SOURCE                                             |           |                                                         | 0                                                       |
-| LOAD LITTLE PRINCE - BOOK SOURCE                                |           |                                                         | 0                                                       |
-| LOAD SAMOUCZEK WP                                               |           |                                                         | 0                                                       |
-| LOAD BLONDYNKA                                                  |           |                                                         | 2                                                       |
-| DIVIDE SOURCE ON CHAPTERS/PARTS                                 |           |                                                         | 0                                                       |
-| CREATE CLASSES WORD                                             |           |                                                         | 6                                                       |
-| CREATE CLASSES USER AND TIMELINE                                |           |                                                         | 12                                                      |
-| ALL SOURCES RATIO - GET WORDS TO LEARN FOR USER                 |           |                                                         | 12                                                      |
-| CONVERSATION PROTOTYPE                                          |           |                                                         | 18                                                      |
-| FUTURE AND PAST WORDS                                           |           |                                                         | 12                                                      |
-| HELPER WINDOW AND LANG PRIORITY                                 |           |                                                         | 18                                                      |
-| START YT CHANNEL.S T A R T   L E A R N I N G                    |           |                                                         | 6                                                       |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA: 86H                                              |
-| NGRAM CLASS + REST CLASSES                                      |           |                                                         | 18                                                      |
-| PICK A RIGHT PART OF A SOURCE                                   |           |                                                         | 12                                                      |
-| PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                    |           |                                                         | 18                                                      |
-| LOCAL/OPENAI VARIANT + OUT OF BIGAI UMBRELLA                    |           |                                                         | 12                                                      |
-| WEB VERSION+SERVER + OUT OF BIGAI UMBRELLA                      |           |                                                         | 18                                                      |
-| WEB ON MOBILE VERSION + OUT OF BIGAI UMBRELLA                   |           |                                                         | 12                                                      |
-| ADDING 14 LANGUAGES                                             |           |                                                         | 18                                                      |
-| FIX ERRORS                                                      |           |                                                         | 12                                                      |
-| GETTING FIN PL 36K                                              |           |                                                         | 36                                                      |
-| SMART SPEAKERS                                                  |           |                                                         | 36                                                      |
-| SMART WATCHES APPLE WATCH,ANDROID WEARABLE                      |           |                                                         | 36                                                      |
-| CHROME EXTENSION                                                |           |                                                         | 48                                                      |
-| SMART GLASSES                                                   |           |                                                         | 48                                                      |
-| GETTING FIN UK 52K                                              |           |                                                         | 48                                                      |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | ------------------------------------------------------- |
+| NAME                                                            | AS CODE   | YT VIDEO                                                | TIME       |
+|-----------------------------------------------------------------|-----------|---------------------------------------------------------|------------|
+| BIGAI_FRONT INTRO                                               | N/A       | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       | 0          |
+| ALOHAPP PROJECT INTRO                                           | N/A       | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   | 0          |
+| LOAD ASSIMIL SOURCE                                             |           |                                                         | 0          |
+| LOAD LITTLE PRINCE - BOOK SOURCE                                |           |                                                         | 0          |
+| LOAD SAMOUCZEK WP                                               |           |                                                         | 0          |
+| LOAD BLONDYNKA                                                  |           |                                                         | 2          |
+| DIVIDE SOURCE ON CHAPTERS/PARTS                                 |           |                                                         | 0          |
+| CREATE CLASSES WORD                                             |           |                                                         | 6          |
+| CREATE CLASSES USER AND TIMELINE                                |           |                                                         | 12         |
+| ALL SOURCES RATIO - GET WORDS TO LEARN FOR USER                 |           |                                                         | 12         |
+| CONVERSATION PROTOTYPE                                          |           |                                                         | 18         |
+| FUTURE AND PAST WORDS                                           |           |                                                         | 12         |
+| HELPER WINDOW AND LANG PRIORITY                                 |           |                                                         | 18         |
+| START YT CHANNEL.S T A R T   L E A R N I N G                    |           |                                                         | 6          |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA: 86H |
+| NGRAM CLASS + REST CLASSES                                      |           |                                                         | 18         |
+| PICK A RIGHT PART OF A SOURCE                                   |           |                                                         | 12         |
+| PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                    |           |                                                         | 18         |
+| LOCAL/OPENAI VARIANT + OUT OF BIGAI UMBRELLA                    |           |                                                         | 12         |
+| WEB VERSION+SERVER + OUT OF BIGAI UMBRELLA                      |           |                                                         | 18         |
+| WEB ON MOBILE VERSION + OUT OF BIGAI UMBRELLA                   |           |                                                         | 12         |
+| ADDING 14 LANGUAGES                                             |           |                                                         | 18         |
+| GETTING FIN PL 36K                                              |           |                                                         | 36         |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:144  |
+| SMART SPEAKERS                                                  |           |                                                         | 36         |
+| SMART WATCHES APPLE WATCH,ANDROID WEARABLE                      |           |                                                         | 36         |
+| CHROME EXTENSION                                                |           |                                                         | 48         |
+| SMART GLASSES                                                   |           |                                                         | 48         |
+| GETTING FIN UK 52K                                              |           |                                                         | 48         |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:216  |
 
 ### AI KNOWLEDGE:
 | NAME/LINK                                                                                                 |
