@@ -2,19 +2,18 @@ import pandas as pd
 from neuralforecast import NeuralForecast
 from neuralforecast.models import TFT
 import torch
-
-# Set the device to the first GPU
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+from sklearn.model_selection import train_test_split
 
-# Load your OHLC dataset (assumed to be in a pandas DataFrame format)
-# The dataset must contain: unique_id (series identifier), ds (timestamp), O, H, L, C columns (Open, High, Low, Close).
+
 df = pd.read_csv('EURUSD_60M.csv')
 
-# Prepare the data for the NeuralForecast model
-df = df.rename(columns={'C': 'y'})  # Rename the Close price as 'y', which will be our target variable
+df['y'] = df['C']
+df['y'] = df['y'].shift(-1).fillna(0)
 df = df.rename(columns={'Time': 'ds'})
 df['unique_id'] = 'series_1'
 df['ds'] = pd.to_datetime(df['ds'], errors='coerce')
+train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
 
 
 # Initialize the TFT model for hourly data
@@ -29,16 +28,23 @@ model = NeuralForecast(models=[tft],
                        freq='H')
 
 # Fit the model (NeuralForecast handles the dataset preparation)
-model.fit(df)
+model.fit(train_df)
 
-# Forecast the next 24 periods (hours) for each unique series
-forecasts_df = model.predict()
+test_forecast = model.predict(test_df)
 
-# Display the forecast results
-print(forecasts_df.head())
+# Assuming your test_df contains the actual values in column 'y'
+# Compare predictions with actual values
+comparison_df = test_df[['ds', 'y']].copy()  # Copy actual values
+comparison_df['y_hat'] = test_forecast['y_hat']  # Add predictions
 
-# Optionally, you can save the forecasts
-forecasts_df.to_csv('tft_forecasts_hourly.csv', index=False)
+# Display the comparison
+print(comparison_df.head())
+
+# Optionally calculate some metrics
+from sklearn.metrics import mean_squared_error, mean_absolute_error
+
+mse = mean_squared_error(comparison_df['y'], comparison_df['y_hat'])
+mae = mean_absolute_error(comparison_df['y'], comparison_df['y_hat'])
 
 
 

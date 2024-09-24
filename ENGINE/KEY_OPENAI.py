@@ -23,8 +23,3 @@ def generate_and_play(text, voice, path=''):
     else:
         response.stream_to_file(path)
         playsound(path)
-
-
-
-
-

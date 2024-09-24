@@ -9,7 +9,6 @@
     <orderEntry type="module" module-name="whisper_streaming" />
     <orderEntry type="module" module-name="whisperXXX" />
     <orderEntry type="module" module-name="real-time-transcribtion-main" />
-    <orderEntry type="module" module-name="Transformers-for-NLP-and-Computer-Vision-3rd-Edition" />
     <orderEntry type="module" module-name="SWE-agent" />
   </component>
 </module>
