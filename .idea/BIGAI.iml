@@ -10,5 +10,6 @@
     <orderEntry type="module" module-name="whisperXXX" />
     <orderEntry type="module" module-name="real-time-transcribtion-main" />
     <orderEntry type="module" module-name="SWE-agent" />
+    <orderEntry type="module" module-name="master_o1_agent-main" />
   </component>
 </module>

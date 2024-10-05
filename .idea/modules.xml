@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../SWE-agent/.idea/SWE-agent.iml" filepath="$PROJECT_DIR$/../SWE-agent/.idea/SWE-agent.iml" />
       <module fileurl="file://$PROJECT_DIR$/../examples/.idea/examples.iml" filepath="$PROJECT_DIR$/../examples/.idea/examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/../handson-ml3/.idea/handson-ml3.iml" filepath="$PROJECT_DIR$/../handson-ml3/.idea/handson-ml3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../master_o1_agent-main/.idea/master_o1_agent-main.iml" filepath="$PROJECT_DIR$/../master_o1_agent-main/.idea/master_o1_agent-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/../real-time-transcribtion-main/.idea/real-time-transcribtion-main.iml" filepath="$PROJECT_DIR$/../real-time-transcribtion-main/.idea/real-time-transcribtion-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/../whisperXXX/.idea/whisperXXX.iml" filepath="$PROJECT_DIR$/../whisperXXX/.idea/whisperXXX.iml" />
       <module fileurl="file://$PROJECT_DIR$/../whisper_streaming/.idea/whisper_streaming.iml" filepath="$PROJECT_DIR$/../whisper_streaming/.idea/whisper_streaming.iml" />
