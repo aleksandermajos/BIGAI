@@ -10,6 +10,6 @@ image = pipe(
     guidance_scale=0.0,
     num_inference_steps=4,
     max_sequence_length=256,
-    generator=torch.Generator("mps:0").manual_seed(0)
+    generator=torch.Generator("cuda:0").manual_seed(0)
 ).images[0]
 image.save("flux-schnell.png")

@@ -68,14 +68,14 @@ class SOURCE(object):
 
 
 p = Path.cwd()
-path_data = str(p.home())+'/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/DE/LITTLE_PRINCE/'
+path_data = str(p.home())+'/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/FR/SELF_LEARNING/MOWIMY_PO_FRANCUSKU'
 path_data = Path(path_data)
 files = [f for f in path_data.iterdir() if f.is_file()]
 
 for chapter_path in files:
     file_name = chapter_path.name
     path_str = str(chapter_path)
-    current_chapter = SOURCE(name=file_name,path = path_str, source_type='AUDIO', user_type='BOOK', language='de')
+    current_chapter = SOURCE(name=file_name,path = path_str, source_type='AUDIO', user_type='BOOK', language='fr')
     result = current_chapter.populate_text()
     with open(path_str+'.pkl', 'wb') as file:
         pickle.dump(result, file)

@@ -36,6 +36,3 @@ def o1_preview():
     )
 
     print(response.choices[0].message.content)
-
-o1_preview()
-oko=5

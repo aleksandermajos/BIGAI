@@ -82,7 +82,10 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
-    text=transcribe(file_path="ITALIA.mp3", language='it')
+    text=transcribe(file_path="Interview 241004_103430.m4a", language='pl')
+
+
+
 
     tts_melo("Der Mann gibt dem Hund den Knochen.",lang="de", output="example_de.wav")
     tts_melo("I do not have a dream",lang="en", output="dream.wav")
