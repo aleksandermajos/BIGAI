@@ -9,6 +9,9 @@ from playsound import playsound
 from melo.api import TTS
 import ollama
 
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 speed = 0.9
 device_melo = 'cpu'
 model_melo = TTS(language='EN', device=device_melo)

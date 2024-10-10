@@ -82,7 +82,7 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
-    text=transcribe(file_path="Interview 241004_103430.m4a", language='pl')
+    text=transcribe(file_path="jfk.mp3", language='pl')
 
 
 

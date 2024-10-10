@@ -4,6 +4,8 @@ from fastapi import Form
 from pydantic import BaseModel
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import JSONResponse
+import platform
+os_name = platform.system()
 
 
 
@@ -16,27 +18,45 @@ TRANSLATE_NLLB = False
 app = FastAPI()
 
 if STT_WHISPERX:
-    import whisperx
-    model = whisperx.load_model("large-v3", device="cuda")
+    if os_name == 'Darwin':
+        from lightning_whisper_mlx import LightningWhisperMLX
+        import whisperx
+        import numpy as np
+
+        model = LightningWhisperMLX(model="medium", batch_size=12, quant=None)
 
 
-    @app.post("/transcribe/")
-    async def transcribe(file: UploadFile = File(...), language: str = Form(...), file_path: str = Form(...)):
+        @app.post("/transcribe/")
+        async def transcribe(file: UploadFile = File(...), language: str = Form(...), file_path: str = Form(...)):
+            audio = whisperx.load_audio(file_path)
+            audio_np = np.frombuffer(audio, dtype=np.int16).astype(np.float32) / 32768.0
+            text = model.transcribe(audio)['text']
 
-        audio = whisperx.load_audio(file_path)
-
-        result = model.transcribe(audio, batch_size=16, task="transcribe",language=language)
-
-        device = 'cuda'
-        model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=device)
-        result = whisperx.align(result["segments"], model_a, metadata, audio, device, return_char_alignments=False)
+            return JSONResponse(content=text)
 
 
-        response_data = {
-            "segments": result["segments"]
-        }
+    if os_name == 'Linux':
+        import whisperx
+        model = whisperx.load_model("large-v3", device="cuda")
 
-        return JSONResponse(content=response_data)
+
+        @app.post("/transcribe/")
+        async def transcribe(file: UploadFile = File(...), language: str = Form(...), file_path: str = Form(...)):
+
+            audio = whisperx.load_audio(file_path)
+
+            result = model.transcribe(audio, batch_size=16, task="transcribe",language=language)
+
+            device = 'cuda'
+            model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=device)
+            result = whisperx.align(result["segments"], model_a, metadata, audio, device, return_char_alignments=False)
+
+
+            response_data = {
+                "segments": result["segments"]
+            }
+
+            return JSONResponse(content=response_data)
 
 if TTS_MELO:
     from melo.api import TTS
@@ -58,7 +78,12 @@ if TTS_MELO:
 
         if get_lang_name_to_tts_melo(lang_beg):
             speed = 0.9
-            device_melo = 'cuda:0'
+            if os_name == 'Linux':
+                device_melo = 'cuda:0'
+            if os_name == 'Darwin':
+                device_melo = 'cpu'
+
+
             lang, speaker = get_lang_name_to_tts_melo(lang_beg)
             model_melo = TTS(language=lang, device=device_melo)
             speaker_ids = model_melo.hps.data.spk2id
@@ -70,7 +95,11 @@ if TTS_MELO:
             if current_lang != melo_lang:
                 lang, speaker = get_lang_name_to_tts_melo(lang_beg)
                 speed = 0.9
-                device_melo = 'cuda:0'
+                if os_name == 'Linux':
+                    device_melo = 'cuda:0'
+                if os_name == 'Darwin':
+                    device_melo = 'cpu'
+
                 model_melo = TTS(language=lang, device=device_melo)
                 speaker_ids = model_melo.hps.data.spk2id
                 speaker_ids = speaker_ids[speaker]
