@@ -2,11 +2,8 @@ from ENGINE.API_BIGAI_CLIENT import transcribe, tts_melo
 import pickle
 import spacy_stanza
 from pydub import AudioSegment
-from openai import OpenAI
-from playsound import playsound
-import os
 from pathlib import Path
-import pathlib
+
 
 
 
