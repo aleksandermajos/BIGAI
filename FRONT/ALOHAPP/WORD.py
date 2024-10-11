@@ -2,9 +2,10 @@ import datetime
 from typing import List
 
 class WORD:
-    def __init__(self, word, lang):
+    def __init__(self, word, lang, difficulty):
         self.word = word
         self.lang = lang
+        self.difficulty = difficulty
 
     Part: List[str] = []
     Possibilities: List[str] = []

@@ -4,9 +4,34 @@ import pickle
 import spacy_stanza
 from pydub import AudioSegment
 from pathlib import Path
+import os
+import re
 
 
-class SOURCE(object):
+class SOURCE:
+    source_type = ['AUDIO', 'DECKS', 'EXEL', 'PIC', 'TATOEBA', 'TEXT', 'VIDEO']
+    user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA','NETFLIX', 'YT', 'TEXT','PIC', 'VIDEO', 'FREQDICT']
+
+    def __init__(self, source_type, user_type, path):
+        if source_type not in self.source_type:
+            raise ValueError(f"Invalid color '{source_type}'. Allowed source_type are: {self.source_type}")
+        self.source_type = source_type
+        if user_type not in self.user_type:
+            raise ValueError(f"Invalid color '{user_type}'. Allowed source_type are: {self.user_type}")
+        self.user_type = user_type
+        self.path = path
+        self.parts = sorted(get_all_paths_in_one_source(path))
+
+        words_in_parts = []
+        for part in self.parts:
+            words_in_parts.append(get_words_from_one_pickle(path+'/'+part))
+        self.words_in_parts = words_in_parts
+        self.all_words = set().union(*self.words_in_parts)
+
+
+
+
+class SOURCE_CREATE(object):
     source_type = ['AUDIO', 'DECKS', 'EXEL', 'PIC', 'TATOEBA', 'TEXT', 'VIDEO']
     user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA','NETFLIX', 'YT', 'TEXT','PIC', 'VIDEO', 'FREQDICT']
     part = 0
@@ -30,7 +55,7 @@ class SOURCE(object):
         self.source_type = source_type
         self.user_type = user_type
         self.language = language
-        if self.source_type not in SOURCE.source_type:
+        if self.source_type not in SOURCE_CREATE.source_type:
             print(f'Source type {self.source_type} not supported')
 
 
@@ -69,18 +94,41 @@ class SOURCE(object):
         for chapter_path in files:
             file_name = chapter_path.name
             path_str = str(chapter_path)
-            current_chapter = SOURCE(name=file_name, path=path_str, source_type=source_type, user_type=user_type,language=language)
+            current_chapter = SOURCE_CREATE(name=file_name, path=path_str, source_type=source_type, user_type=user_type, language=language)
             result = current_chapter.populate_text()
 
             with open(path_str + '.pkl', 'wb') as file:
                 pickle.dump(result, file)
 
-        return self.load_my_pickle(path)
+        return load_my_pickle(path)
 
-    @staticmethod
-    def load_my_pickle(self,path):
+
+def load_my_pickle(path):
         with open(path, 'rb') as file:
             loaded_dict = pickle.load(file)
         return loaded_dict
 
+def get_words_from_one_pickle(path):
+    data = load_my_pickle(path)
+    words_gathered = set()
+    for current_segment in data['segments']:
+        for word in current_segment['words']:
+            words_gathered.add(word['word_lemma'])
+    remove_punctuations = {',', '.', '?', '!', ';', ':','...','%'}
+    words_gathered.difference_update(remove_punctuations)
+    pattern = re.compile(r'\d')
+    words_gathered = {s for s in words_gathered if not pattern.search(s)}
+    return words_gathered
 
+def get_all_paths_in_one_source(path):
+    extension='.pkl'
+    if not extension.startswith('.'):
+        extension = '.' + extension
+    all_files = os.listdir(path)
+    filtered_files = [file for file in all_files if file.endswith(extension)]
+
+    return filtered_files
+
+
+def get_list_of_sources_in_language(path, language):
+    pass

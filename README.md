@@ -10,12 +10,12 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 |-----------------------------------------------------------------|-----------|---------------------------------------------------------|------------|
 | BIGAI_FRONT INTRO                                               | N/A       | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       | 0          |
 | ALOHAPP PROJECT INTRO                                           | N/A       | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   | 0          |
-| ALL SOURCES RATIO - GET WORDS TO LEARN FOR USER                 |           |                                                         | 12         |
+| CLASSES USE                                                     |           |                                                         | 6          |
 | CONVERSATION PROTOTYPE BASED ON SERVER                          |           |                                                         | 18         |
 | FUTURE AND PAST WORDS                                           |           |                                                         | 12         |
 | HELPER WINDOW AND LANG PRIORITY                                 |           |                                                         | 24         |
 | START YT CHANNEL.S T A R T   L E A R N I N G                    |           |                                                         | 6          |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA: 72H |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA: 66H |
 | NGRAM CLASS + REST CLASSES                                      |           |                                                         | 18         |
 | PICK A RIGHT PART OF A SOURCE                                   |           |                                                         | 12         |
 | PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                    |           |                                                         | 18         |
@@ -28,7 +28,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | GETTING FIN PL 18K                                              |           |                                                         | 36         |
 | FIRST CUSTOMER(S)                                               |           |                                                         | 0          |
 | --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:36   |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | ALL:264    |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | ALL:258    |
 
 | NAME                                                            | AS CODE   | YT VIDEO                                                | TIME      |
 |-----------------------------------------------------------------|-----------|---------------------------------------------------------|-----------|
