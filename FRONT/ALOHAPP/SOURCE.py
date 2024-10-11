@@ -1,12 +1,9 @@
+from fastcore.xtras import load_pickle
 from ENGINE.API_BIGAI_CLIENT import transcribe, tts_melo
 import pickle
 import spacy_stanza
 from pydub import AudioSegment
 from pathlib import Path
-
-
-
-
 
 
 class SOURCE(object):
@@ -62,27 +59,28 @@ class SOURCE(object):
                 word['word_lemma'] = lem_word
         return text
 
+    def create_pickle(self, path, source_type, user_type, language):
+        p = Path.cwd()
+        path_data = str(
+            p.home()) + path
+        path_data = Path(path_data)
+        files = [f for f in path_data.iterdir() if f.is_file()]
+
+        for chapter_path in files:
+            file_name = chapter_path.name
+            path_str = str(chapter_path)
+            current_chapter = SOURCE(name=file_name, path=path_str, source_type=source_type, user_type=user_type,language=language)
+            result = current_chapter.populate_text()
+
+            with open(path_str + '.pkl', 'wb') as file:
+                pickle.dump(result, file)
+
+        return self.load_my_pickle(path)
+
+    @staticmethod
+    def load_my_pickle(self,path):
+        with open(path, 'rb') as file:
+            loaded_dict = pickle.load(file)
+        return loaded_dict
 
 
-p = Path.cwd()
-path_data = str(p.home())+'/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/FR/SELF_LEARNING/MOWIMY_PO_FRANCUSKU'
-path_data = Path(path_data)
-files = [f for f in path_data.iterdir() if f.is_file()]
-
-for chapter_path in files:
-    file_name = chapter_path.name
-    path_str = str(chapter_path)
-    current_chapter = SOURCE(name=file_name,path = path_str, source_type='AUDIO', user_type='BOOK', language='fr')
-    result = current_chapter.populate_text()
-    with open(path_str+'.pkl', 'wb') as file:
-        pickle.dump(result, file)
-
-'''
-path =r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/DE/LITTLE_PRINCE/03 Der Kleine Prinz - Kapitel 1.mp3'
-LITTLEPRINCE_AUDIO_BOOK_PART1_DE = SOURCE(name='LITTLEPRINCE_AUDIO_BOOK_PART1_DE',path = path, source_type='AUDIO', user_type='BOOK', part=1, language='de')
-pick = LITTLEPRINCE_AUDIO_BOOK_PART1_DE.populate_text()
-with open('my_pick.pkl', 'wb') as file:
-    # Step 4: Use pickle.dump() to serialize and save the dictionary
-    pickle.dump(pick, file)
-oko=5
-'''

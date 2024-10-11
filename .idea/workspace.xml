@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="ALL DATA OUT OF GIT">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1509,7 +1508,7 @@
       <workItem from="1728566223012" duration="743000" />
       <workItem from="1728567019932" duration="1115000" />
       <workItem from="1728569565318" duration="5114000" />
-      <workItem from="1728628347781" duration="6045000" />
+      <workItem from="1728628347781" duration="7541000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1538,14 +1537,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00130" summary="TRY OCR AND VISION WITH KANJI">
-      <option name="closed" value="true" />
-      <created>1717398813487</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1717398813487</updated>
     </task>
     <task id="LOCAL-00131" summary="LD TOOL AS BIGAI SCHOOL SMALL PROJECTS">
       <option name="closed" value="true" />
@@ -1899,7 +1890,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728566886187</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="README">
+      <option name="closed" value="true" />
+      <created>1728663297654</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1728663297655</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1925,7 +1924,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="CONDA ENV UPDATE" />
     <MESSAGE value="MELOTTS IN ACTION" />
     <MESSAGE value="MELOTTS IN ACTION + MIC" />
     <MESSAGE value="CODESTRAL AND CONTINUE" />
@@ -1950,7 +1948,8 @@
     <MESSAGE value="BIGAI README" />
     <MESSAGE value="ALL DATA" />
     <MESSAGE value="APPLE SILICON" />
-    <option name="LAST_COMMIT_MESSAGE" value="APPLE SILICON" />
+    <MESSAGE value="README" />
+    <option name="LAST_COMMIT_MESSAGE" value="README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
