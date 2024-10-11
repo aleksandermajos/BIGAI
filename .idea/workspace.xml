@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="REVISED SOURCE CLASS">
-      <change afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/USER_ALEX.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="USER + INITIAL SOURCE HAS BEEN POPULATED">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/USER.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/USER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/WORD.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/WORD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/USER_ALEX.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/USER_ALEX.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1513,7 +1509,7 @@
       <workItem from="1728566223012" duration="743000" />
       <workItem from="1728567019932" duration="1115000" />
       <workItem from="1728569565318" duration="5114000" />
-      <workItem from="1728628347781" duration="18002000" />
+      <workItem from="1728628347781" duration="19292000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1542,14 +1538,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00132" summary="SMALL PROJECTS STARTS">
-      <option name="closed" value="true" />
-      <created>1717452111282</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1717452111282</updated>
     </task>
     <task id="LOCAL-00133" summary="YT LINK ON BEGINNING">
       <option name="closed" value="true" />
@@ -1903,7 +1891,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728669172793</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="USER + INITIAL SOURCE HAS BEEN POPULATED">
+      <option name="closed" value="true" />
+      <created>1728679481659</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1728679481659</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1929,7 +1925,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="MELOTTS IN ACTION + MIC" />
     <MESSAGE value="CODESTRAL AND CONTINUE" />
     <MESSAGE value="HACKERRANK" />
     <MESSAGE value="CODESTRAL CODE" />
@@ -1954,7 +1949,8 @@
     <MESSAGE value="APPLE SILICON" />
     <MESSAGE value="README" />
     <MESSAGE value="REVISED SOURCE CLASS" />
-    <option name="LAST_COMMIT_MESSAGE" value="REVISED SOURCE CLASS" />
+    <MESSAGE value="USER + INITIAL SOURCE HAS BEEN POPULATED" />
+    <option name="LAST_COMMIT_MESSAGE" value="USER + INITIAL SOURCE HAS BEEN POPULATED" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2173,8 +2169,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/USER_ALEX.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="323" />
+          <line>11</line>
+          <option name="timeStamp" value="327" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -2333,7 +2329,7 @@
     <SUITE FILE_PATH="coverage/BIGAI$GPU_TRAX.coverage" NAME="GPU_TRAX Coverage Results" MODIFIED="1717803391890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$lwh.coverage" NAME="lwh Coverage Results" MODIFIED="1721685638640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/SMALLPROJECTS/SUPER_RUDE_ASSISTANT" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_PIC_STABLE_DIFFXL.coverage" NAME="GEN_PIC_STABLE_DIFFXL Coverage Results" MODIFIED="1713695445000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$USER_ALEX.coverage" NAME="USER_ALEX Coverage Results" MODIFIED="1728679256682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$USER_ALEX.coverage" NAME="USER_ALEX Coverage Results" MODIFIED="1728680638498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$CODE_GEN_BY_LLAMA31_70B.coverage" NAME="CODE_GEN_BY_LLAMA31_70B Coverage Results" MODIFIED="1721753558969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_CODE_TEXT_CLAUDE_HAIKU.coverage" NAME="GEN_CODE_TEXT_CLAUDE_HAIKU Coverage Results" MODIFIED="1717092028951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$LD_TOOL_TRAIN.coverage" NAME="LD_TOOL_TRAIN Coverage Results" MODIFIED="1718173064934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL" />
