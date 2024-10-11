@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="APPLE SILICON">
-      <change afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/PROGRESS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/WORDUSE.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="ALL DATA OUT OF GIT">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/QUANTMAVERICK/BROKERS_OPEN_TIMES.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/BROKERS_OPEN_TIMES.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/QUANTMAVERICK/DATA_CANDLES.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/DATA_CANDLES.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT4_CSV/EURUSD.240.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT4_CSV/EURUSD.240.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT4_CSV/EURUSD.30.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT4_CSV/EURUSD.30.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT4_CSV/EURUSD.60.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT4_CSV/EURUSD.60.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT5_CSV/EURUSD_M30_202001020600_202207181600.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/QM_MT5_CSV/EURUSD_M30_202001020600_202207181600.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/QUANTMAVERICK/TIMELINE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/TIMELINE.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/QUANTMAVERICK/cTRADER/EURUSD_Candlestick_30_M_BID_01.01.2021-16.07.2022.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/QUANTMAVERICK/cTRADER/EURUSD_Candlestick_30_M_BID_01.01.2021-16.07.2022.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/AUDIO_TO_SRT.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/TIMELINE.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/TIMELINE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/USER.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/USER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/WORD.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/WORD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +47,12 @@
     &quot;assignee&quot;: &quot;aleksandermajos&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/aleksandermajos/BIGAI.git&quot;,
-    &quot;accountId&quot;: &quot;57255f2a-a4f8-48e5-9f8c-1a8bc0aa7568&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/aleksandermajos/BIGAI.git",
+    "accountId": "04f747ae-25db-49ef-9071-5d3744e5742a"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -1524,6 +1509,7 @@
       <workItem from="1728566223012" duration="743000" />
       <workItem from="1728567019932" duration="1115000" />
       <workItem from="1728569565318" duration="5114000" />
+      <workItem from="1728628347781" duration="6045000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
