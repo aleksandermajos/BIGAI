@@ -13,10 +13,12 @@ class USER:
         self.words_pd = words_pd
         self.time_pd = time_pd
         self.old_new = old_new
+        self.sources: List[SOURCE] = []
+        self.sources.append(SOURCE(source_type='AUDIO',user_type='BOOK',name='ASSIMIL',lang='fr',path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/FR/SELF_LEARNING/ASSIMIL'))
 
 
     words: List[Tuple[Timeline, WordUse]] = []
-    sources: List[SOURCE] = []
+
 
 
     def Update_Sources(self):

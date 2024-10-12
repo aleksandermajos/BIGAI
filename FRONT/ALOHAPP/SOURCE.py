@@ -12,7 +12,7 @@ class SOURCE:
     source_type = ['AUDIO', 'DECKS', 'EXEL', 'PIC', 'TATOEBA', 'TEXT', 'VIDEO']
     user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA','NETFLIX', 'YT', 'TEXT','PIC', 'VIDEO', 'FREQDICT']
 
-    def __init__(self, source_type, user_type, path):
+    def __init__(self, source_type, user_type, name, lang, path):
         if source_type not in self.source_type:
             raise ValueError(f"Invalid color '{source_type}'. Allowed source_type are: {self.source_type}")
         self.source_type = source_type
@@ -27,6 +27,8 @@ class SOURCE:
             words_in_parts.append(get_words_from_one_pickle(path+'/'+part))
         self.words_in_parts = words_in_parts
         self.all_words = set().union(*self.words_in_parts)
+        self.name = name
+        self.lang = lang
 
 
 
