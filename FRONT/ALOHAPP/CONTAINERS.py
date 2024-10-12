@@ -45,7 +45,7 @@ def create_words_container(wb):
         expand=False,
         alignment=ft.alignment.top_center,
     )
-    return words_container
+    return words_column, words_container
 
 def create_conversation_container():
     conversation_column = ft.Column([],)
@@ -59,7 +59,7 @@ def create_conversation_container():
         border_radius=10,
         alignment=ft.alignment.top_center,
     )
-    return conversation_container
+    return conversation_column, conversation_container
 
 def create_helper_container():
     helper_column = ft.Column([],)
@@ -73,4 +73,4 @@ def create_helper_container():
         border_radius=10,
         alignment=ft.alignment.top_center,
     )
-    return helper_container
+    return helper_column, helper_container
