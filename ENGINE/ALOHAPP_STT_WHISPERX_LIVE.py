@@ -5,6 +5,7 @@ import whisperx
 import collections
 from ENGINE.KEY_GROQ import provide_key
 from ENGINE.PYAUDIO_DEVICES import find_mic_id
+from ENGINE.TTS_OPENAI import generate_and_play
 from groq import Groq
 from playsound import playsound
 from melo.api import TTS
@@ -74,10 +75,10 @@ class VoiceAssistant:
 
 
 
-        '''
+
         chat_completion = self.client.chat.completions.create(
             messages=[
-                {"role": "system", "content": "You are super rude assistant.Use only vulgar words.Answer always use maximal 3 sentences"},
+                {"role": "system", "content": "You are super rude assistant.Use only vulgar words.Answer always in french and use maximal 3 sentences"},
                 {"role": "user","content": text}
             ],
             model="llama3-70b-8192",
@@ -85,11 +86,11 @@ class VoiceAssistant:
         bot_reply = chat_completion.choices[0].message.content
         '''
         bot_reply = ollama.chat(model='llama3.1:8b', messages=[
-            {"role": "system", "content": "You are super smart and sophisticated assistant answering always in 2 sentences"},
+            {"role": "system", "content": "You are super rude and sophisticated assistant answering always in 2 sentences"},
             {'role': 'user','content': text}
         ])
         bot_reply = bot_reply['message']['content']
-
+        '''
         print(bot_reply)
 
         text_field = ft.TextField(
@@ -104,9 +105,13 @@ class VoiceAssistant:
         self.main_page.update()
 
 
+
+        generate_and_play(text=bot_reply,voice='nova')
+        '''
         output_path = 'oko.wav'
         self.model_melo.tts_to_file(bot_reply, self.speaker_ids['FR'], output_path, speed=self.speed)
         playsound('oko.wav')
+        '''
 
         if 'text' in result:
             print("Transcription:", result['text'])

@@ -1,20 +1,22 @@
-from openai import OpenAI
 from playsound import playsound
+from ENGINE.KEY_OPENAI import provide_key
+from openai import OpenAI
 import os
-from pathlib import Path
-p = Path.cwd()
-path_beginning = str(p.home())+'/PycharmProjects/BIGAI/'
-path = path_beginning+"DATA/ALOHA/"
-cwd = os.getcwd()
-f = open(path+"account.txt", "r")
-client = OpenAI(api_key=f.read())
 
-response = client.audio.speech.create(
-    model="tts-1-hd",
-    voice="onyx",
-    input="Pan kleks ruchal panny mlode"
+key=provide_key()
+client = OpenAI(api_key=key)
 
-)
 
-response.stream_to_file("output.mp3")
-playsound('output.mp3')
+def generate_and_play(text, voice, path=''):
+    response = client.audio.speech.create(
+        model="tts-1",
+        voice=voice,
+        input=text
+    )
+    if path == '':
+        response.stream_to_file("oko.mp3")
+        playsound('oko.mp3')
+        os.remove('oko.mp3')
+    else:
+        response.stream_to_file(path)
+        playsound(path)
