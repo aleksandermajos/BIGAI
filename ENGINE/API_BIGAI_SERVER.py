@@ -19,9 +19,8 @@ app = FastAPI()
 if STT_WHISPERX:
     if os_name == 'Darwin':
         from lightning_whisper_mlx import LightningWhisperMLX
-        import whisperx
         import numpy as np
-
+        import whisperx
         model = LightningWhisperMLX(model="medium", batch_size=12, quant=None)
 
 
@@ -29,7 +28,7 @@ if STT_WHISPERX:
         async def transcribe(file: UploadFile = File(...), language: str = Form(...), file_path: str = Form(...)):
             audio = whisperx.load_audio(file_path)
             audio_np = np.frombuffer(audio, dtype=np.int16).astype(np.float32) / 32768.0
-            text = model.transcribe(audio,language=language)['text']
+            text = model.transcribe(audio, language=language)['text']
 
             return JSONResponse(content=text)
 

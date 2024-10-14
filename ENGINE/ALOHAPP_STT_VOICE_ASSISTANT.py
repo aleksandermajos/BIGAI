@@ -11,9 +11,12 @@ import pyaudio
 import ollama
 import flet as ft
 import os
+import platform
+os_name = platform.system()
+
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='groq'):
+    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='groq'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -60,7 +63,8 @@ class VoiceAssistant:
         if self.stt == 'whisper':
             print("Transcribing audio...")
             text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='fr')
-            text = text['segments'][0]['text']
+            if os_name == 'Linux':
+                text = text['segments'][0]['text']
             print(text)
 
         text_field = ft.TextField(

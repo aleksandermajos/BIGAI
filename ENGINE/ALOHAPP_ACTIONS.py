@@ -1,5 +1,5 @@
 from ENGINE.ALOHAPP_REC_MIC_PYAUDIO import Mic_Recorder
-import cv2 as cv
+
 import flet_core
 from flet import (
     FilledButton,
