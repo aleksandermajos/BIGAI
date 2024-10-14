@@ -1,31 +1,37 @@
-import pyaudio
 import webrtcvad
 import numpy as np
-import whisperx
 import collections
 from ENGINE.KEY_GROQ import provide_key
 from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from ENGINE.TTS_OPENAI import generate_and_play
+from ENGINE.API_BIGAI_CLIENT import *
 from groq import Groq
-from playsound import playsound
-from melo.api import TTS
+from scipy.io.wavfile import write
+import pyaudio
 import ollama
 import flet as ft
+import os
 
 class VoiceAssistant:
-    def __init__(self,main_page):
+    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='groq'):
         self.main_page = main_page
-        self.speed = 0.9
-        self.device_melo = 'cuda'
-        self.model_melo = TTS(language='FR', device=self.device_melo)
-        self.speaker_ids = self.model_melo.hps.data.spk2id
+        if stt == 'whisper':
+            self.stt = 'whisper'
 
-        self.client = Groq(
-            api_key=provide_key()
-        )
+        if tts == 'melo':
+            self.tts = 'melo'
+        if tts == 'openai':
+            self.tts = 'openai'
+            self.tts_voice = "alloy"
 
-        # Initialize Whisper model
-        self.model = whisperx.load_model("large-v3", device="cuda", compute_type='float')
+        if text_gen == 'groq':
+            self.text_gen = 'groq'
+            self.client_groq = Groq(
+                api_key=provide_key()
+            )
+        if text_gen == 'ollama':
+            self.text_gen = 'ollama'
+
 
         # WebRTC VAD setup
         self.vad = webrtcvad.Vad(0)  # Aggressiveness from 0 to 3
@@ -47,12 +53,15 @@ class VoiceAssistant:
 
         # Convert byte string to numpy array
         audio_np = np.frombuffer(audio_data, dtype=np.int16).astype(np.float32) / 32768.0
+        write('audio_file.wav',self.RATE, audio_np)
 
-        # Transcribe using Whisperx
-        print("Transcribing audio...")
-        result = self.model.transcribe(audio_np, language="fr")
-        text = result['segments'][0]['text']
-        print(text)
+
+        print(os.getcwd())
+        if self.stt == 'whisper':
+            print("Transcribing audio...")
+            text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='fr')
+            text = text['segments'][0]['text']
+            print(text)
 
         text_field = ft.TextField(
             label='YOUR SENTENCE',
@@ -62,6 +71,8 @@ class VoiceAssistant:
             value=text,
             icon=ft.icons.EMOJI_EMOTIONS
         )
+
+
 
         if len(self.main_page.conversation_column.controls) > 8:
             magic_row = self.main_page.conversation_column.controls[0]
@@ -74,23 +85,28 @@ class VoiceAssistant:
         self.main_page.update()
 
 
+        if self.tts == 'melo':
+            tts_melo(text, lang="fr", output="example_fr.wav")
+        if self.tts == 'openai':
+            generate_and_play(text,voice=self.tts_voice)
 
+        if self.text_gen == 'groq':
+            chat_completion = self.client_groq.chat.completions.create(
+                messages=[
+                    {"role": "system", "content": "You are super rude assistant.Use only vulgar words.Answer always in french and use maximal 3 sentences"},
+                    {"role": "user","content": text}
+                ],
+                model="llama3-70b-8192",
+            )
+            bot_reply = chat_completion.choices[0].message.content
 
-        chat_completion = self.client.chat.completions.create(
-            messages=[
-                {"role": "system", "content": "You are super rude assistant.Use only vulgar words.Answer always in french and use maximal 3 sentences"},
-                {"role": "user","content": text}
-            ],
-            model="llama3-70b-8192",
-        )
-        bot_reply = chat_completion.choices[0].message.content
-        '''
-        bot_reply = ollama.chat(model='llama3.1:8b', messages=[
-            {"role": "system", "content": "You are super rude and sophisticated assistant answering always in 2 sentences"},
-            {'role': 'user','content': text}
-        ])
-        bot_reply = bot_reply['message']['content']
-        '''
+        if self.text_gen == 'ollama':
+            bot_reply = ollama.chat(model='llama3.1:8b', messages=[
+                {"role": "system", "content": "You are super rude and sophisticated assistant answering always in 2 sentences"},
+                {'role': 'user','content': text}
+            ])
+            bot_reply = bot_reply['message']['content']
+
         print(bot_reply)
 
         text_field = ft.TextField(
@@ -104,20 +120,11 @@ class VoiceAssistant:
         self.main_page.conversation_column.controls.append(text_field)
         self.main_page.update()
 
+        if self.tts == 'melo':
+            tts_melo(bot_reply, lang="fr", output="example_fr.wav")
+        if self.tts == 'openai':
+            generate_and_play(bot_reply,voice=self.tts_voice)
 
-
-        generate_and_play(text=bot_reply,voice='nova')
-        '''
-        output_path = 'oko.wav'
-        self.model_melo.tts_to_file(bot_reply, self.speaker_ids['FR'], output_path, speed=self.speed)
-        playsound('oko.wav')
-        '''
-
-        if 'text' in result:
-            print("Transcription:", result['text'])
-        else:
-            print("Error: 'text' not in transcription result")
-            print(result)
 
     def record_and_transcribe(self):
         stream = self.audio.open(format=self.FORMAT,

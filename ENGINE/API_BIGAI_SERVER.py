@@ -1,4 +1,4 @@
-from ENGINE.KEY_OPENAI import generate_and_play
+from ENGINE.TTS_OPENAI import generate_and_play
 from playsound import playsound
 from fastapi import Form
 from pydantic import BaseModel
@@ -11,9 +11,8 @@ os_name = platform.system()
 
 STT_WHISPERX = True
 TTS_MELO = True
+TRANSLATE_NLLB = True
 GEN_IMAGE_SD3 = False
-TRANSLATE_NLLB = False
-
 
 app = FastAPI()
 
@@ -30,7 +29,7 @@ if STT_WHISPERX:
         async def transcribe(file: UploadFile = File(...), language: str = Form(...), file_path: str = Form(...)):
             audio = whisperx.load_audio(file_path)
             audio_np = np.frombuffer(audio, dtype=np.int16).astype(np.float32) / 32768.0
-            text = model.transcribe(audio)['text']
+            text = model.transcribe(audio,language=language)['text']
 
             return JSONResponse(content=text)
 

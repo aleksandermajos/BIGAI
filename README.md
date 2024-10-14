@@ -6,32 +6,32 @@
 https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 
 ### ALOHAPP:
-| NAME                                                            | AS CODE   | YT VIDEO                                                | TIME       |
-|-----------------------------------------------------------------|-----------|---------------------------------------------------------|------------|
-| BIGAI_FRONT INTRO                                               | N/A       | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       | 0          |
-| ALOHAPP PROJECT INTRO                                           | N/A       | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   | 0          |
-| CONVERSATION PROTOTYPE BASED ON SERVER                          |           |                                                         | 24         |
-| CLASSES POPULATE                                                |           |                                                         | 8          |
-| FUTURE AND PAST WORDS                                           |           |                                                         | 12         |
-| HELPER WINDOW AND LANG PRIORITY                                 |           |                                                         | 24         |
-| S T A R T   L E A R N I N G                                     |           |                                                         | 6          |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA: 74H |
-| NGRAM CLASS + REST CLASSES                                      |           |                                                         | 18         |
-| PICK A RIGHT PART OF A SOURCE                                   |           |                                                         | 12         |
-| PIC GENERATE COLUMN                                             |           |                                                         | 3          |
-| CREATE DECK FROM OWN WORDS WITH PICTURES                        |           |                                                         | 18         |
-| PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                    |           |                                                         | 18         |
-| START YT CHANNEL                                                |           |                                                         | 6          |
-| LOCAL/OPENAI VARIANT + OUT OF BIGAI UMBRELLA                    |           |                                                         | 12         |
-| SCALING KUBERNETES + ROUTER OUT                                 |           |                                                         | 48         |
-| WEB VERSION+SERVER + OUT OF BIGAI UMBRELLA                      |           |                                                         | 18         |
-| WEB ON MOBILE VERSION + OUT OF BIGAI UMBRELLA                   |           |                                                         | 12         |
-| ADDING 14 LANGUAGES                                             |           |                                                         | 18         |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:156  |
-| GETTING FIN PL 18K                                              |           |                                                         | 36         |
-| FIRST CUSTOMER(S)                                               |           |                                                         | 0          |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:36   |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | ALL:266    |
+| NAME                                                            | AS CODE   | YT VIDEO                                                | TIME         |
+|-----------------------------------------------------------------|-----------|---------------------------------------------------------|--------------|
+| BIGAI_FRONT INTRO                                               | N/A       | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       | 0            |
+| ALOHAPP PROJECT INTRO                                           | N/A       | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   | 0            |
+| CONVERSATION PROTOTYPE BASED ON SERVER                          |           |                                                         | 4            |
+| CLASSES POPULATE                                                |           |                                                         | 8            |
+| FUTURE AND PAST WORDS                                           |           |                                                         | 12           |
+| HELPER WINDOW AND LANG PRIORITY                                 |           |                                                         | 24           |
+| S T A R T   L E A R N I N G                                     |           |                                                         | 6            |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA: 54H   |
+| NGRAM CLASS + REST CLASSES                                      |           |                                                         | 18           |
+| PICK A RIGHT PART OF A SOURCE                                   |           |                                                         | 12           |
+| PIC GENERATE COLUMN                                             |           |                                                         | 3            |
+| CREATE DECK FROM OWN WORDS WITH PICTURES                        |           |                                                         | 18           |
+| PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                    |           |                                                         | 18           |
+| START YT CHANNEL                                                |           |                                                         | 6            |
+| LOCAL/OPENAI VARIANT + OUT OF BIGAI UMBRELLA                    |           |                                                         | 12           |
+| SCALING KUBERNETES + ROUTER OUT                                 |           |                                                         | 48           |
+| WEB VERSION+SERVER + OUT OF BIGAI UMBRELLA                      |           |                                                         | 18           |
+| WEB ON MOBILE VERSION + OUT OF BIGAI UMBRELLA                   |           |                                                         | 12           |
+| ADDING 14 LANGUAGES                                             |           |                                                         | 18           |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:156    |
+| GETTING FIN PL 18K                                              |           |                                                         | 36           |
+| FIRST CUSTOMER(S)                                               |           |                                                         | 0            |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:36     |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | ALL:192/24=8 |
 
 | NAME                                                            | AS CODE   | YT VIDEO                                                | TIME      |
 |-----------------------------------------------------------------|-----------|---------------------------------------------------------|-----------|
@@ -49,7 +49,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | FULL XBOX ON UNREAL                                             |           |                                                         | 120       |
 | GETTING FIN UK 144K                                             |           |                                                         | 48        |
 | --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:408 |   
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | ALL:1208  |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | ALL:1148  |
 
 *⭐️ INSTALL REQUIREMENTS:*
 pip install -r requirements_{your_operating_system}.txt
