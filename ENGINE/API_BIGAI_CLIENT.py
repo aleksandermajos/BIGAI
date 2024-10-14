@@ -82,6 +82,13 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+    result = generate_image(prompt="A nice young girl with black eyes ", negative_prompt="", num_inference_steps=30,
+                            save_path="oko1.png")
+    result = generate_image(prompt="A nice young girl with white eyes ", negative_prompt="", num_inference_steps=30,
+                            save_path="oko2.png")
+
+
+
     text=transcribe(file_path="audio_file.wav", language='pl')
 
 

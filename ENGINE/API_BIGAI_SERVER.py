@@ -12,7 +12,7 @@ os_name = platform.system()
 STT_WHISPERX = True
 TTS_MELO = True
 TRANSLATE_NLLB = True
-GEN_IMAGE_SD3 = False
+GEN_IMAGE_SD3 = True
 
 app = FastAPI()
 
@@ -130,7 +130,7 @@ if GEN_IMAGE_SD3:
 
     pipe = StableDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium-diffusers",
                                                     torch_dtype=torch.float16)
-    pipe = pipe.to("cpu")
+    pipe = pipe.to("cuda:0")
 
 
     class ImageRequest(BaseModel):
@@ -147,6 +147,8 @@ if GEN_IMAGE_SD3:
                 negative_prompt=request.negative_prompt,
                 num_inference_steps=request.num_inference_steps,
                 guidance_scale=7.0,
+                height=512,
+                width=512
             ).images[0]
             file_path = "pic.png"
             image.save(file_path)

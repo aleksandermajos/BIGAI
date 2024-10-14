@@ -5,12 +5,14 @@ from ENGINE.KEY_GROQ import provide_key
 from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from ENGINE.TTS_OPENAI import generate_and_play
 from ENGINE.API_BIGAI_CLIENT import *
+from ENGINE.ALOHAPP_LANG_CODES import give_me_lang_code
 from groq import Groq
 from scipy.io.wavfile import write
 import pyaudio
 import ollama
 import flet as ft
 import os
+import time
 import platform
 os_name = platform.system()
 
@@ -62,7 +64,7 @@ class VoiceAssistant:
         print(os.getcwd())
         if self.stt == 'whisper':
             print("Transcribing audio...")
-            text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='fr')
+            text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language=self.main_page.user.langs[0][0])
             if os_name == 'Linux':
                 text = text['segments'][0]['text']
             print(text)
@@ -86,18 +88,23 @@ class VoiceAssistant:
 
 
         self.main_page.conversation_column.controls.append(text_field)
+        unique_filename = f"oko_{time.time()}.png"
+        generate_image(prompt=text, negative_prompt="", num_inference_steps=56,save_path=unique_filename)
+        img = ft.Image(src=unique_filename, width=512, height=512)
+        self.main_page.conversation_column.controls.append(img)
+
         self.main_page.update()
 
 
         if self.tts == 'melo':
-            tts_melo(text, lang="fr", output="example_fr.wav")
+            tts_melo(text, lang=self.main_page.user.langs[0][0], output="example.wav")
         if self.tts == 'openai':
             generate_and_play(text,voice=self.tts_voice)
 
         if self.text_gen == 'groq':
             chat_completion = self.client_groq.chat.completions.create(
                 messages=[
-                    {"role": "system", "content": "You are super rude assistant.Use only vulgar words.Answer always in french and use maximal 3 sentences"},
+                    {"role": "system", "content": 'You are super assistant.Use only words like you describe a picture.Answer always in '+ give_me_lang_code(self.main_page.user.langs[0][0])+' language and use maximal 3 sentences'},
                     {"role": "user","content": text}
                 ],
                 model="llama3-70b-8192",
@@ -106,7 +113,7 @@ class VoiceAssistant:
 
         if self.text_gen == 'ollama':
             bot_reply = ollama.chat(model='llama3.1:8b', messages=[
-                {"role": "system", "content": "You are super rude and sophisticated assistant answering always in 2 sentences"},
+                {"role": "system", "content": 'You are super rude and sophisticated assistant answering always in '+ give_me_lang_code(self.main_page.user.langs[0][0])+ ' language in 2 sentences'},
                 {'role': 'user','content': text}
             ])
             bot_reply = bot_reply['message']['content']
@@ -122,12 +129,21 @@ class VoiceAssistant:
 
         )
         self.main_page.conversation_column.controls.append(text_field)
+        unique_filename = f"oko_{time.time()}.png"
+        generate_image(prompt=bot_reply, negative_prompt="", num_inference_steps=56,save_path=unique_filename)
+        img = ft.Image(src=unique_filename, width=512, height=512)
+        self.main_page.conversation_column.controls.append(img)
         self.main_page.update()
 
         if self.tts == 'melo':
-            tts_melo(bot_reply, lang="fr", output="example_fr.wav")
+            tts_melo(bot_reply, lang=self.main_page.user.langs[0][0], output="example.wav")
         if self.tts == 'openai':
             generate_and_play(bot_reply,voice=self.tts_voice)
+
+
+
+
+
 
 
     def record_and_transcribe(self):
