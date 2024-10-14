@@ -10,12 +10,11 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 |-----------------------------------------------------------------|-----------|---------------------------------------------------------|--------------|
 | BIGAI_FRONT INTRO                                               | N/A       | [BIGAI_FRONT INTRO](https://youtu.be/bpBZph6hoxw)       | 0            |
 | ALOHAPP PROJECT INTRO                                           | N/A       | [ALOHAPP PROJECT INTRO](https://youtu.be/aJ--aE14A2E)   | 0            |
-| CONVERSATION PROTOTYPE BASED ON SERVER                          |           |                                                         | 4            |
 | CLASSES POPULATE                                                |           |                                                         | 8            |
-| FUTURE AND PAST WORDS                                           |           |                                                         | 12           |
-| HELPER WINDOW AND LANG PRIORITY                                 |           |                                                         | 24           |
+| FUTURE AND PAST WORDS                                           |           |                                                         | 8            |
+| HELPER WINDOW AND LANG PRIORITY                                 |           |                                                         | 18           |
 | S T A R T   L E A R N I N G                                     |           |                                                         | 6            |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA: 54H   |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA: 40H   |
 | NGRAM CLASS + REST CLASSES                                      |           |                                                         | 18           |
 | PICK A RIGHT PART OF A SOURCE                                   |           |                                                         | 12           |
 | PIC GENERATE COLUMN                                             |           |                                                         | 3            |

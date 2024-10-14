@@ -6,7 +6,12 @@ from USER import USER
 
 def main(page: ft.Page):
     page.title = "ALOHAPP"
-    page.Alex_user = USER(native='pl', langs=['fr', 'es'])
+    page.Alex_user = USER(native='pl', langs=[
+        ("fr", 10),
+        ("es", 8),
+        ("de", 8),
+        ("it", 2)
+    ])
 
     page.words_buttons = generate_words_buttons(list(page.Alex_user.sources[0].words_in_parts[0]))
     page.words_column ,page.words_container = create_words_container(page.words_buttons)
