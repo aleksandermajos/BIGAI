@@ -12,7 +12,7 @@ os_name = platform.system()
 STT_WHISPERX = True
 TTS_MELO = True
 TRANSLATE_NLLB = True
-GEN_IMAGE_SD3 = True
+GEN_IMAGE_SD3 = False
 
 app = FastAPI()
 

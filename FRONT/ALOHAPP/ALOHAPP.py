@@ -13,6 +13,9 @@ def main(page: ft.Page):
         ("it", 2)
     ])
 
+    page.user.Update_Words_Present()
+    page.user.Create_Prompt_From_Words_Present()
+
     page.words_buttons = generate_words_buttons(list(page.user.sources[0].words_in_parts[0]))
     page.words_column ,page.words_container = create_words_container(page.words_buttons)
     page.conversation_column ,page.conversation_container = create_conversation_container()

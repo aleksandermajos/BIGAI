@@ -30,6 +30,23 @@ class SOURCE:
         self.name = name
         self.lang = lang
 
+    def get_words_from_n_parts(self,start, end):
+        if start < 0 or end >= len(self.words_in_parts):
+            raise IndexError("Start or end index is out of range.")
+        if start > end:
+            raise ValueError("Start index cannot be greater than end index.")
+
+            # Initialize an empty set for the union
+        result_set = set()
+
+        # Iterate through the specified range and update the result_set
+        for i in range(start, end + 1):
+            result_set.update(self.words_in_parts[i])
+
+        return result_set
+
+
+
 
 
 

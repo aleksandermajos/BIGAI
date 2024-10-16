@@ -6,7 +6,10 @@ class WordUse:
         self.word = word
 
     Write: List[datetime] = []
+    Rewrite: List[datetime] = []
     Read: List[datetime] = []
     Hear: List[datetime] = []
+    Repeat: List[datetime] = []
     Say: List[datetime] = []
+
 

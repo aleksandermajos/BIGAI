@@ -34,8 +34,11 @@ class VoiceAssistant:
             self.client_groq = Groq(
                 api_key=provide_key()
             )
+            self.welcome = True
         if text_gen == 'ollama':
             self.text_gen = 'ollama'
+
+        self.context = ''
 
 
         # WebRTC VAD setup
@@ -88,11 +91,13 @@ class VoiceAssistant:
 
 
         self.main_page.conversation_column.controls.append(text_field)
+        '''
         unique_filename = f"oko_{time.time()}.png"
         generate_image(prompt=text, negative_prompt="", num_inference_steps=56,save_path=unique_filename)
         img = ft.Image(src=unique_filename, width=512, height=512)
         self.main_page.conversation_column.controls.append(img)
-
+        '''
+        self.context += text
         self.main_page.update()
 
 
@@ -102,18 +107,25 @@ class VoiceAssistant:
             generate_and_play(text,voice=self.tts_voice)
 
         if self.text_gen == 'groq':
-            chat_completion = self.client_groq.chat.completions.create(
-                messages=[
-                    {"role": "system", "content": 'You are super assistant.Use only words like you describe a picture.Answer always in '+ give_me_lang_code(self.main_page.user.langs[0][0])+' language and use maximal 3 sentences'},
-                    {"role": "user","content": text}
-                ],
-                model="llama3-70b-8192",
-            )
+            if self.welcome:
+                chat_completion = self.client_groq.chat.completions.create(
+                    messages=[
+                        {"role": "system", "content": 'You have a limited vocabulary consisting of the following words: '+self.main_page.user.prompt_present +'.Use ONLY provided words.'+'Answer always in '+ give_me_lang_code(self.main_page.user.langs[0][0])+' language and use maximal 3 sentences.Additionally provide your response with english translation. '},
+                        {"role": "user","content": self.context}
+                    ],
+                    model="llama3-70b-8192",
+                )
+                self.welcome = False
+            else:
+                chat_completion = self.client_groq.chat.completions.create(
+                    messages=[{"role": "user", "content": self.context}],
+                    model="llama3-70b-8192",
+                )
             bot_reply = chat_completion.choices[0].message.content
 
         if self.text_gen == 'ollama':
             bot_reply = ollama.chat(model='llama3.1:8b', messages=[
-                {"role": "system", "content": 'You are super rude and sophisticated assistant answering always in '+ give_me_lang_code(self.main_page.user.langs[0][0])+ ' language in 2 sentences'},
+                {"role": "system", "content": 'You have a limited vocabulary consisting of the following words: '+self.main_page.user.prompt_present +'Answer always in '+ give_me_lang_code(self.main_page.user.langs[0][0])+' language and use maximal 2 sentences'},
                 {'role': 'user','content': text}
             ])
             bot_reply = bot_reply['message']['content']
@@ -129,10 +141,13 @@ class VoiceAssistant:
 
         )
         self.main_page.conversation_column.controls.append(text_field)
+        '''
         unique_filename = f"oko_{time.time()}.png"
         generate_image(prompt=bot_reply, negative_prompt="", num_inference_steps=56,save_path=unique_filename)
         img = ft.Image(src=unique_filename, width=512, height=512)
         self.main_page.conversation_column.controls.append(img)
+        '''
+        self.context += bot_reply
         self.main_page.update()
 
         if self.tts == 'melo':
