@@ -164,7 +164,7 @@ if TRANSLATE_NLLB:
     checkpoint = 'facebook/nllb-200-distilled-600M'
     model_trans = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
-    translator = pipeline('translation', model=model_trans, tokenizer=tokenizer, src_lang='en', tgt_lang="spa_Latn",
+    translator = pipeline('translation', model=model_trans, tokenizer=tokenizer, src_lang='fr', tgt_lang="en",
                           max_length=400)
 
 

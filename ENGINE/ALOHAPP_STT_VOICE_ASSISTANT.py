@@ -12,13 +12,13 @@ import pyaudio
 import ollama
 import flet as ft
 import os
-import time
+
 import platform
 os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='groq'):
+    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='ollama'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -39,6 +39,7 @@ class VoiceAssistant:
             self.text_gen = 'ollama'
 
         self.context = ''
+
 
 
         # WebRTC VAD setup
@@ -110,7 +111,7 @@ class VoiceAssistant:
             if self.welcome:
                 chat_completion = self.client_groq.chat.completions.create(
                     messages=[
-                        {"role": "system", "content": 'You have a limited vocabulary consisting of the following words: '+self.main_page.user.prompt_present +'.Use ONLY provided words.'+'Answer always in '+ give_me_lang_code(self.main_page.user.langs[0][0])+' language and use maximal 3 sentences.Additionally provide your response with english translation. '},
+                        {"role": "system", "content": 'You have a limited vocabulary consisting of the following words: '+self.main_page.user.prompt_present +'.Use ONLY provided words.'+'Answer always in '+ give_me_lang_code(self.main_page.user.langs[0][0])+' language and use maximal 2 sentences'},
                         {"role": "user","content": self.context}
                     ],
                     model="llama3-70b-8192",
@@ -118,19 +119,28 @@ class VoiceAssistant:
                 self.welcome = False
             else:
                 chat_completion = self.client_groq.chat.completions.create(
-                    messages=[{"role": "user", "content": self.context}],
+                    messages=[
+                        {"role": "system",
+                         "content": 'Remember that You have a limited vocabulary consisting of the following words: ' + self.main_page.user.prompt_present + '.Use ONLY provided words.' + 'Answer always in ' + give_me_lang_code(
+                             self.main_page.user.langs[0][0]) + ' language and use maximal 2 short sentences'},
+                        {"role": "user", "content": self.context}
+                    ],
                     model="llama3-70b-8192",
                 )
             bot_reply = chat_completion.choices[0].message.content
 
         if self.text_gen == 'ollama':
-            bot_reply = ollama.chat(model='llama3.1:8b', messages=[
-                {"role": "system", "content": 'You have a limited vocabulary consisting of the following words: '+self.main_page.user.prompt_present +'Answer always in '+ give_me_lang_code(self.main_page.user.langs[0][0])+' language and use maximal 2 sentences'},
-                {'role': 'user','content': text}
+            bot_reply = ollama.chat(model='mistral-small', messages=[
+                {"role": "system",
+                 "content": 'Remember that You have a limited vocabulary consisting of the following words: ' + self.main_page.user.prompt_present + '.Use ONLY provided words.' + 'Answer always in ' + give_me_lang_code(
+                     self.main_page.user.langs[0][0]) + ' language and use maximal 2 short sentences.Additionally provide translation for each individual word to polish in a format: one word - translation'},
+                {"role": "user", "content": self.context}
             ])
             bot_reply = bot_reply['message']['content']
 
         print(bot_reply)
+
+
 
         text_field = ft.TextField(
             label='BOT REPLY',

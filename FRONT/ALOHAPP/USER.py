@@ -35,7 +35,7 @@ class USER:
         for lang in self.langs:
             for source in self.sources:
                 if lang[0] ==source.lang:
-                    self.words_present = self.sources[0].get_words_from_n_parts(start=0, end=7)
+                    self.words_present = self.sources[0].get_words_from_n_parts(start=0, end=2)
 
 
     def Update_Words_Future(self):
