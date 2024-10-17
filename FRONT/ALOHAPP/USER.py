@@ -22,13 +22,13 @@ class USER:
 
 
     words_past: List[List[WordUse]] = []
-    words_present: Set[str] = set()
+    words_present: List[Set[str]] = []
+    words_future: List[Set[str]] = []
     prompt_present: ''
-    words_future: Set[str] = set()
 
 
 
-    def Update_Words_Past(self):
+    def Update_Words_Past(self,my_sentences, bot_sentences):
         pass
 
     def Update_Words_Present(self):

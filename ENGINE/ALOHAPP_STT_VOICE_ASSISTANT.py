@@ -5,11 +5,11 @@ from openai import OpenAI
 from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from ENGINE.TTS_OPENAI import generate_and_play
 from ENGINE.API_BIGAI_CLIENT import *
-from ENGINE.ALOHAPP_LANG_CODES import give_me_lang_code
+from ENGINE.ALOHAPP_TEXT_GEN import generate_text
 from groq import Groq
 from scipy.io.wavfile import write
 import pyaudio
-import ollama
+
 import flet as ft
 import os
 
@@ -18,7 +18,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='openai'):
+    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='ollama'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -46,6 +46,9 @@ class VoiceAssistant:
             self.client_openai = OpenAI(api_key=key)
 
         self.context = ''
+        self.my_sentences = []
+        self.bot_sentences = []
+
         self.main_language = self.main_page.user.langs[0][0]
 
 
@@ -76,11 +79,12 @@ class VoiceAssistant:
         print(os.getcwd())
         if self.stt == 'whisper':
             print("Transcribing audio...")
-            text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language=self.main_language)
+            text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='')
             if os_name == 'Linux':
                 text = text['segments'][0]['text']
             print(text)
 
+        self.my_sentences.append(text)
         text_field = ft.TextField(
             label='YOUR SENTENCE',
             multiline=True,
@@ -109,53 +113,12 @@ class VoiceAssistant:
         if self.tts == 'openai':
             generate_and_play(text,voice=self.tts_voice)
 
-        if self.text_gen == 'groq':
-            if self.welcome:
-                chat_completion = self.client_groq.chat.completions.create(
-                    messages=[
-                        {"role": "system", "content": 'You have a limited vocabulary consisting of the following words: '+self.main_page.user.prompt_present +'.Use ONLY provided words.'+'Answer always in '+ give_me_lang_code(self.main_language)+' language and use maximal 2 sentences'},
-                        {"role": "user","content": self.context}
-                    ],
-                    model="llama3-70b-8192",
-                )
-                self.welcome = False
-            else:
-                chat_completion = self.client_groq.chat.completions.create(
-                    messages=[
-                        {"role": "system",
-                         "content": 'Remember that You have a limited vocabulary consisting of the following words: ' + self.main_page.user.prompt_present + '.Use ONLY provided words.' + 'Answer always in ' + give_me_lang_code(
-                             self.main_language) + ' language and use maximal 2 short sentences'},
-                        {"role": "user", "content": self.context}
-                    ],
-                    model="llama3-70b-8192",
-                )
-            bot_reply = chat_completion.choices[0].message.content
-
-        if self.text_gen == 'ollama':
-            bot_reply = ollama.chat(model='llama3.1:8b', messages=[
-                {"role": "system",
-                 "content": 'Remember that You have a limited vocabulary consisting of the following words: ' + self.main_page.user.prompt_present + '.Use ONLY provided words.' + 'Answer always in ' + give_me_lang_code(
-                     self.main_language) + ' language and use maximal 2 short sentences.'},
-                {"role": "user", "content": self.context}
-            ])
-            bot_reply = bot_reply['message']['content']
-
-        if self.text_gen == 'openai':
-            response = self.client_openai.chat.completions.create(
-                model="gpt-4o",
-                messages=[
-                {"role": "system",
-                 "content": 'Remember that You have a limited vocabulary consisting of the following words: ' + self.main_page.user.prompt_present + '.Use ONLY provided words.' + 'Answer always in ' + give_me_lang_code(
-                     self.main_language) + ' language and use maximal 2 short sentences.'},
-                {"role": "user", "content": self.context}
-            ]
-            )
-            bot_reply = response.choices[0].message.content
+        bot_reply = generate_text(self)
 
         print(bot_reply)
 
 
-
+        self.bot_sentences.append(bot_reply)
         text_field = ft.TextField(
             label='BOT REPLY',
             multiline=True,
