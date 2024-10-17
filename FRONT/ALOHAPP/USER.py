@@ -1,7 +1,11 @@
 import platform
 from typing import List, Set
+
+from poetry.console.commands import self
+
 from WORDUSE import WordUse
 from SOURCE import SOURCE
+from ENGINE.ALOHAPP_LANGUAGE_DETECT import Detect_language
 os_name = platform.system()
 
 
@@ -10,6 +14,11 @@ class USER:
     def __init__(self, native, langs, words_pd=15, time_pd=60, old_new=80):
         self.native = native
         self.langs = langs
+        self.words_past: List[List[WordUse]] = [[] for _ in range(len(self.langs)+1)]
+        self.words_present: List[Set[str]] = []
+        self.words_future: List[Set[str]] = []
+        self.prompt_present: ''
+
         self.words_pd = words_pd
         self.time_pd = time_pd
         self.old_new = old_new
@@ -21,15 +30,18 @@ class USER:
                                        path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+self.langs[0][0].upper()+'/SELF_LEARNING/ASSIMIL'))
 
 
-    words_past: List[List[WordUse]] = []
-    words_present: List[Set[str]] = []
-    words_future: List[Set[str]] = []
-    prompt_present: ''
-
-
-
     def Update_Words_Past(self,my_sentences, bot_sentences):
-        pass
+        for my_sentence in my_sentences:
+            lang = Detect_language(my_sentence)
+            list_of_lang = [tuple_[0] for tuple_ in self.langs]
+            position = list_of_lang.index(lang)
+            if position:
+                pass
+            else:
+                pass
+            if lang==self.native:
+                pass
+
 
     def Update_Words_Present(self):
         for lang in self.langs:

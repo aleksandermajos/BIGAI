@@ -131,6 +131,8 @@ class VoiceAssistant:
         self.context += bot_reply
         self.main_page.update()
 
+        self.main_page.user.Update_Words_Past(my_sentences=self.my_sentences, bot_sentences=self.bot_sentences)
+
         if self.tts == 'melo':
             tts_melo(bot_reply, lang=self.main_language, output="example.wav")
         if self.tts == 'openai':
