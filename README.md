@@ -11,6 +11,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | UPDATE PASS+PRESENT CLASS PATTERN                                       |           |                                                         | 4         |
 | UPDATE FUTURE CLASS PATTERN                                             |           |                                                         | 2         |
 | DISAPPEAR LEFT WORDS                                                    |           |                                                         | 2         |
+| PRINT OUT WORDS AND TRANSLATIONS                                        |           |                                                         | 3         |
 | TRANSLATION FROM LLM DIVIDE BY 2                                        |           |                                                         | 2         |
 | LOAD ALL SOURCES BY LANGUAGE                                            |           |                                                         | 4         |
 | IMPLEMENT REPETITION SYSTEM                                             |           |                                                         | 6         |
@@ -72,11 +73,12 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | LANGUAGE DETECTOR TO SERVER                                     |           |                                                         | 2         |
 | NIXTLA TS TO SERVER                                             |           |                                                         | 8         |
 | CREWAI TO SERVER                                                |           |                                                         | 16        |
+| LIGHT RAG TO SERVER                                             |           |                                                         | 16        |
 | CRAWLING TO SERVER                                              |           |                                                         | 24        |
 | PIC RECOGNIZER                                                  |           |                                                         | 16        |
 | RAG FULL                                                        |           |                                                         | 72        |
 | SERVER PRO                                                      |           |                                                         | 72        |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:214 |                                           |           |                                                         | 0          |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:230 |                                           |           |                                                         | 0          |
 | CC PROTOTYPE FLET                                               |           |                                                         | 144       |
 | QM PROTOTYPE FLET                                               |           |                                                         | 36        |
 | BIGAI BUSINESS PROTOTYPE                                        |           |                                                         | 72        |
@@ -87,7 +89,7 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | Z                                                               |           |                                                         | 72        |
 | BIGAI ENGINE                                                    |           |                                                         | 144       |
 | --------------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:900 |
-| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | ALL:1114  |
+| --------------------------------------------------------------- | --------- | ------------------------------------------------------- | ALL:1133  |
 
 
 
