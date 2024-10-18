@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="PRE WORDS PAST">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="CLEAR PATH TO PROTOTYPE IN README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -1524,7 +1524,7 @@
       <workItem from="1729066383775" duration="15376000" />
       <workItem from="1729111135552" duration="3190000" />
       <workItem from="1729148743674" duration="21102000" />
-      <workItem from="1729230566423" duration="4898000" />
+      <workItem from="1729230566423" duration="9536000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1553,14 +1553,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00145" summary="HACKERRANK">
-      <option name="closed" value="true" />
-      <created>1717753710532</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1717753710532</updated>
     </task>
     <task id="LOCAL-00146" summary="CODESTRAL CODE">
       <option name="closed" value="true" />
@@ -1914,7 +1906,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729189710788</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="CLEAR PATH TO PROTOTYPE IN README">
+      <option name="closed" value="true" />
+      <created>1729239644651</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1729239644651</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1940,7 +1940,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI ENGINE API SERVER TTS ALL LANGUAGES" />
     <MESSAGE value="BIGAI ENGINE API SERVER TRANSCRIBE ALL LANGUAGES" />
     <MESSAGE value="BIGAI ALOHAPP SOURCE methods name" />
     <MESSAGE value="BIGAI ALOHAPP TRANSCRIBE WORD TIMESTAMPS" />
@@ -1965,7 +1964,8 @@
     <MESSAGE value="ALOHAPP OPENAI TEXT GEN" />
     <MESSAGE value="ALOHAPP OPENAI TEXT GEN MODULE SEPARATE" />
     <MESSAGE value="PRE WORDS PAST" />
-    <option name="LAST_COMMIT_MESSAGE" value="PRE WORDS PAST" />
+    <MESSAGE value="CLEAR PATH TO PROTOTYPE IN README" />
+    <option name="LAST_COMMIT_MESSAGE" value="CLEAR PATH TO PROTOTYPE IN README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
