@@ -21,7 +21,6 @@ def main(page: ft.Page):
     page.conversation_column ,page.conversation_container = create_conversation_container()
     page.helper_column ,page.helper_container = create_helper_container()
 
-
     row = ft.Row(
         [page.conversation_container, page.helper_container, page.words_container], expand=True)
     page.add(row)

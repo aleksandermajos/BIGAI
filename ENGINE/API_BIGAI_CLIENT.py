@@ -1,5 +1,35 @@
 import requests
 
+import requests
+
+
+def detect_language(text, url='http://127.0.0.1:8000/detect_language'):
+    """
+    Sends text to the language detection server and returns the detected language code and confidence score.
+
+    Parameters:
+    - text (str): The text to analyze for language detection.
+    - url (str): The URL of the language detection endpoint.
+
+    Returns:
+    - dict: A dictionary containing 'language_code' and 'confidence'.
+
+    Raises:
+    - requests.HTTPError: If the server returns an unsuccessful status code.
+    """
+    payload = {'text': text}
+    response = requests.post(url, json=payload)
+
+    # Raise an exception for bad status codes
+    response.raise_for_status()
+
+    # Parse the JSON response
+    data = response.json()
+    return {
+        'language_code': data['language_code'],
+        'confidence': data['confidence']
+    }
+
 def generate_image(prompt: str, negative_prompt: str, num_inference_steps: int, save_path: str):
     url = "http://127.0.0.1:8000/generate_image/"
 
@@ -51,10 +81,11 @@ def transcribe(file_path, language):
             raise Exception(f"Error: {response.status_code} - {response.json().get('detail')}")
 
 
-def translate(text: str, target_language: str) -> str:
+def translate(text: str, source_language: str, target_language: str) -> str:
     url = "http://127.0.0.1:8000/translate"
     payload = {
         "text": text,
+        "source_language": source_language,
         "target_language": target_language
     }
     response = requests.post(url, json=payload)
@@ -82,6 +113,36 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+    text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"
+    source_language = 'eng_Latn'
+    target_language = "fra_Latn"
+    translated_text = translate(text_to_translate,source_language, target_language)
+
+
+
+
+
+    result = detect_language("Detected language")
+    language_code = result['language_code']
+    confidence = result['confidence']
+    print(f"Detected language: {language_code} with confidence {confidence}")
+
+
+
+
+
+
+
+
+
+    text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"
+    target_language = "fra_Latn"
+    translated_text = translate(text_to_translate, target_language)
+
+
+
+    text = transcribe(file_path="audio_file.wav", language='pl')
+
     result = generate_image(prompt="A nice young girl with black eyes ", negative_prompt="", num_inference_steps=30,
                             save_path="oko1.png")
     result = generate_image(prompt="A nice young girl with white eyes ", negative_prompt="", num_inference_steps=30,
@@ -89,7 +150,7 @@ if __name__ == "__main__":
 
 
 
-    text=transcribe(file_path="audio_file.wav", language='pl')
+
 
 
 

@@ -12,9 +12,44 @@ os_name = platform.system()
 STT_WHISPERX = True
 TTS_MELO = True
 TRANSLATE_NLLB = True
+LANG_DETECT_FT = True
 GEN_IMAGE_SD3 = False
 
 app = FastAPI()
+if LANG_DETECT_FT:
+    import os
+    import fasttext
+
+    if os_name == 'Darwin':
+        MODEL_PATH = r'/Users/bigai/PycharmProjects/BIGAI/MODELS/TEXT/fasttext/lid.176.bin'
+
+    # Check if the model file exists, if not, download it
+    if not os.path.exists(MODEL_PATH):
+        import urllib.request
+
+        print("Downloading model...")
+        url = 'https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin'
+        urllib.request.urlretrieve(url, MODEL_PATH)
+        print("Model downloaded.")
+
+    # Load the FastText language identification model
+    model_FT  = fasttext.load_model(MODEL_PATH)
+
+
+    class TextInput(BaseModel):
+        text: str
+
+
+    @app.post('/detect_language')
+    async def detect_language(input: TextInput):
+        # Use the FastText model to predict the language
+        predictions = model_FT.predict(input.text, k=1)  # Get top prediction
+        label = predictions[0][0]  # e.g., '__label__en'
+        language_code = label.replace('__label__', '')  # e.g., 'en'
+        confidence = predictions[1][0]  # e.g., 0.99
+
+        return {'language_code': language_code, 'confidence': confidence}
+
 
 if STT_WHISPERX:
     if os_name == 'Darwin':
@@ -28,7 +63,8 @@ if STT_WHISPERX:
         async def transcribe(file: UploadFile = File(...), language: str = Form(...), file_path: str = Form(...)):
             audio = whisperx.load_audio(file_path)
             audio_np = np.frombuffer(audio, dtype=np.int16).astype(np.float32) / 32768.0
-            text = model.transcribe(audio, language=language)['text']
+            if language == 'zz': text = model.transcribe(audio)['text']
+            else: text = model.transcribe(audio,language=language)['text']
 
             return JSONResponse(content=text)
 
@@ -159,17 +195,16 @@ if GEN_IMAGE_SD3:
 
 if TRANSLATE_NLLB:
     from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
-    from LANG_CODES import get_lang_name_to_nllb
 
     checkpoint = 'facebook/nllb-200-distilled-600M'
     model_trans = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
-    translator = pipeline('translation', model=model_trans, tokenizer=tokenizer, src_lang='fr', tgt_lang="en",
-                          max_length=400)
+
 
 
     class TranslationRequest(BaseModel):
         text: str
+        source_language: str
         target_language: str
 
 
@@ -179,6 +214,8 @@ if TRANSLATE_NLLB:
 
     @app.post("/translate", response_model=TranslationResponse)
     def translate(request: TranslationRequest):
+        translator = pipeline('translation', model=model_trans, tokenizer=tokenizer,src_lang=request.source_language, tgt_lang=request.target_language,
+                              max_length=400)
         translated_text = translator(request.text)[0]['translation_text']
         return TranslationResponse(translated_text=translated_text)
 

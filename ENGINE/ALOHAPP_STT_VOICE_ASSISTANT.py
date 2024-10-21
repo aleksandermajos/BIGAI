@@ -79,7 +79,7 @@ class VoiceAssistant:
         print(os.getcwd())
         if self.stt == 'whisper':
             print("Transcribing audio...")
-            text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='')
+            text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
             if os_name == 'Linux':
                 text = text['segments'][0]['text']
             print(text)
@@ -130,9 +130,9 @@ class VoiceAssistant:
         self.main_page.conversation_column.controls.append(text_field)
         self.context += bot_reply
         self.main_page.update()
-
+        '''
         self.main_page.user.Update_Words_Past(my_sentences=self.my_sentences, bot_sentences=self.bot_sentences)
-
+        '''
         if self.tts == 'melo':
             tts_melo(bot_reply, lang=self.main_language, output="example.wav")
         if self.tts == 'openai':

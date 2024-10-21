@@ -1,10 +1,9 @@
-def get_lang_name_to_tts_melo(lang):
-    if lang == "jp": return 'JP','JP'
-    if lang == "en": return 'EN','EN-BR'
-    if lang == "es": return 'ES','ES'
-    if lang == "fr": return 'FR','FR'
-    if lang == "zh": return 'ZH','ZH'
-    if lang == "ko": return 'KR','KR'
+def get_lang_name_to_tts_melo(short):
+    if short == 'en': return 'english'
+    if short == 'de': return 'german'
+    if short == 'fr': return 'french'
+    if short == 'es': return 'spanish'
+    if short == 'it': return 'italian'
 
 def get_lang_name_to_nllb(lang):
     if lang == "jp": return 'jpn_Jpan'
