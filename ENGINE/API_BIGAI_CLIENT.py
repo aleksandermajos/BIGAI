@@ -113,6 +113,9 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+    text = transcribe(file_path="audio_file.wav", language='pl')
+
+
     text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"
     source_language = 'eng_Latn'
     target_language = "fra_Latn"
@@ -141,7 +144,7 @@ if __name__ == "__main__":
 
 
 
-    text = transcribe(file_path="audio_file.wav", language='pl')
+
 
     result = generate_image(prompt="A nice young girl with black eyes ", negative_prompt="", num_inference_steps=30,
                             save_path="oko1.png")

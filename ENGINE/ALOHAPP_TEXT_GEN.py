@@ -6,11 +6,13 @@ def generate_text(page):
     current_prompt = 'You have a limited vocabulary consisting of the following words: ' + page.main_page.user.prompt_present + '.Use only provided words.' + 'Answer always in ' + get_lang_name_to_tts_melo(
         page.main_language) + ' language and use maximal 2 short sentences'
 
+    '''
     source_language = detect_language(current_prompt)
     source_language = get_lang_name_to_nllb(source_language['language_code'])
     target_language = get_lang_name_to_nllb(page.main_language)
 
     current_prompt = translate(current_prompt, source_language, target_language)
+    '''
     if page.text_gen == 'groq':
         if page.welcome:
             chat_completion = page.client_groq.chat.completions.create(

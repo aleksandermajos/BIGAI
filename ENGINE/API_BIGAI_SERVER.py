@@ -23,6 +23,9 @@ if LANG_DETECT_FT:
     if os_name == 'Darwin':
         MODEL_PATH = r'/Users/bigai/PycharmProjects/BIGAI/MODELS/TEXT/fasttext/lid.176.bin'
 
+    if os_name == 'Linux':
+        MODEL_PATH = r'/home/bigai/PycharmProjects/BIGAI/MODELS/TEXT/fasttext/lid.176.bin'
+
     # Check if the model file exists, if not, download it
     if not os.path.exists(MODEL_PATH):
         import urllib.request

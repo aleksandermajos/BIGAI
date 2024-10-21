@@ -73,14 +73,16 @@ class VoiceAssistant:
 
         # Convert byte string to numpy array
         audio_np = np.frombuffer(audio_data, dtype=np.int16).astype(np.float32) / 32768.0
-        write('audio_file.wav',self.RATE, audio_np)
+        write(os.getcwd()+'/audio_file.wav',self.RATE, audio_np)
 
 
         print(os.getcwd())
         if self.stt == 'whisper':
             print("Transcribing audio...")
-            text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
+            if os_name == 'Darwin':
+                text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
             if os_name == 'Linux':
+                text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='')
                 text = text['segments'][0]['text']
             print(text)
 
