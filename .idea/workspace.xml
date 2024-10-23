@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README 1060H OF WORK">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README 1612H OF WORK" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,12 +44,12 @@
     &quot;assignee&quot;: &quot;aleksandermajos&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aleksandermajos/BIGAI.git",
-    "accountId": "04f747ae-25db-49ef-9071-5d3744e5742a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aleksandermajos/BIGAI.git&quot;,
+    &quot;accountId&quot;: &quot;04f747ae-25db-49ef-9071-5d3744e5742a&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -1528,7 +1525,8 @@
       <workItem from="1729148743674" duration="21102000" />
       <workItem from="1729230566423" duration="11202000" />
       <workItem from="1729533693441" duration="358000" />
-      <workItem from="1729578516373" duration="7296000" />
+      <workItem from="1729578516373" duration="7319000" />
+      <workItem from="1729662506008" duration="2853000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1557,14 +1555,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00155" summary="BIGAI README">
-      <option name="closed" value="true" />
-      <created>1718611571194</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1718611571194</updated>
     </task>
     <task id="LOCAL-00156" summary="BIGAI README">
       <option name="closed" value="true" />
@@ -1918,7 +1908,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729586412856</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="README 1612H OF WORK">
+      <option name="closed" value="true" />
+      <created>1729600078420</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1729600078420</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1944,7 +1942,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="BIGAI README" />
     <MESSAGE value="ALL DATA" />
     <MESSAGE value="APPLE SILICON" />
     <MESSAGE value="README" />
@@ -1969,7 +1966,8 @@
     <MESSAGE value="langdetect" />
     <MESSAGE value="langdetect on server.Working on linux" />
     <MESSAGE value="README 1060H OF WORK" />
-    <option name="LAST_COMMIT_MESSAGE" value="README 1060H OF WORK" />
+    <MESSAGE value="README 1612H OF WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="README 1612H OF WORK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
