@@ -124,20 +124,14 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
-    sentences_en = [
-        "The striped bats are hanging on their feet for best",
-        "She was running and jumping in the park.",
-        "They have been studying linguistics for years."
-    ]
+
     sentences_fr = [
         "Les chauves-souris rayées s'accrochent à leurs pattes pour mieux s'en sortir",
         "Elle courait et sautait dans le parc",
         "Ils étudient la linguistique depuis des années"
     ]
-
-
-    lemmatized_en = lemmatize_sentences(sentences_en,lang='en')
     lemmatized_fr = lemmatize_sentences(sentences_fr, lang='fr')
+
 
 
 

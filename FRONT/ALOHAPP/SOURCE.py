@@ -14,10 +14,10 @@ class SOURCE:
 
     def __init__(self, source_type, user_type, name, lang, path):
         if source_type not in self.source_type:
-            raise ValueError(f"Invalid color '{source_type}'. Allowed source_type are: {self.source_type}")
+            raise ValueError(f"Invalid source type '{source_type}'. Allowed source_type are: {self.source_type}")
         self.source_type = source_type
         if user_type not in self.user_type:
-            raise ValueError(f"Invalid color '{user_type}'. Allowed source_type are: {self.user_type}")
+            raise ValueError(f"Invalid user type '{user_type}'. Allowed user_type are: {self.user_type}")
         self.user_type = user_type
         self.path = path
         self.parts = sorted(get_all_paths_in_one_source(path))

@@ -23,6 +23,7 @@ if SPACY_STANZA:
     import spacy_stanza
     from typing import List
 
+    lemma_pl = spacy_stanza.load_pipeline('pl')
     lemma_en = spacy_stanza.load_pipeline('en')
     lemma_fr = spacy_stanza.load_pipeline('fr')
     lemma_es = spacy_stanza.load_pipeline('es')
@@ -46,6 +47,7 @@ if SPACY_STANZA:
         if not request.sentences:
             raise HTTPException(status_code=400, detail="No sentences provided.")
         lang = request.lang
+        if lang == 'pl': lemma = lemma_pl
         if lang == 'fr': lemma = lemma_fr
         if lang == 'en': lemma = lemma_en
         if lang == 'es': lemma = lemma_es

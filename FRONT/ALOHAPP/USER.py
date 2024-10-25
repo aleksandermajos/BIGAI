@@ -1,11 +1,8 @@
 import platform
 from typing import List, Set
-
-from poetry.console.commands import self
-
 from WORDUSE import WordUse
 from SOURCE import SOURCE
-from ENGINE.ALOHAPP_LANGUAGE_DETECT import Detect_language
+from ENGINE.API_BIGAI_CLIENT import *
 os_name = platform.system()
 
 
@@ -32,8 +29,10 @@ class USER:
 
     def Update_Words_Past(self,my_sentences, bot_sentences):
         for my_sentence in my_sentences:
-            lang = Detect_language(my_sentence)
+            lang = detect_language(my_sentence)
+            lang = lang['language_code']
             list_of_lang = [tuple_[0] for tuple_ in self.langs]
+            list_of_lang.append(self.native)
             position = list_of_lang.index(lang)
             if position:
                 pass
