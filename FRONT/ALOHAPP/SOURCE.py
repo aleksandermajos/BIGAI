@@ -20,15 +20,26 @@ class SOURCE:
             raise ValueError(f"Invalid user type '{user_type}'. Allowed user_type are: {self.user_type}")
         self.user_type = user_type
         self.path = path
-        self.parts = sorted(get_all_paths_in_one_source(path))
-
-        words_in_parts = []
-        for part in self.parts:
-            words_in_parts.append(get_words_from_one_pickle(path+'/'+part))
-        self.words_in_parts = words_in_parts
-        self.all_words = set().union(*self.words_in_parts)
         self.name = name
         self.lang = lang
+
+        if source_type=='AUDIO' and user_type=='BOOK':
+            self.parts = sorted(get_all_paths_in_one_source(path))
+            words_in_parts = []
+            for part in self.parts:
+                words_in_parts.append(get_words_from_one_pickle(path+'/'+part))
+            self.words_in_parts = words_in_parts
+            self.all_words = set().union(*self.words_in_parts)
+
+        if source_type=='TEXT' and user_type=='FREQDICT':
+            self.parts = sorted(get_all_paths_in_one_source(path,extension='xlsx'))
+            self.words_in_parts = []
+            for part in self.parts:
+                self.words_in_parts.append(get_words_from_one_freq_dict(path+'/'+part))
+            self.all_words = set().union(*self.words_in_parts)
+
+
+
 
     def get_words_from_n_parts(self,start, end):
         if start < 0 or end >= len(self.words_in_parts):
@@ -139,8 +150,19 @@ def get_words_from_one_pickle(path):
     words_gathered = {s for s in words_gathered if not pattern.search(s)}
     return words_gathered
 
-def get_all_paths_in_one_source(path):
-    extension='.pkl'
+def get_words_from_one_freq_dict(path):
+    import pandas as pd
+    df = pd.read_excel(path)
+    words = df['WORD'].reset_index(drop=True).dropna()
+    words_gathered = set(words)
+    remove_punctuations = {',', '.', '?', '!', ';', ':','...','%'}
+    words_gathered.difference_update(remove_punctuations)
+    pattern = re.compile(r'\d')
+    words_gathered = {s for s in words_gathered if not pattern.search(s)}
+    return words_gathered
+
+def get_all_paths_in_one_source(path, extension = '.pkl'):
+
     if not extension.startswith('.'):
         extension = '.' + extension
     all_files = os.listdir(path)

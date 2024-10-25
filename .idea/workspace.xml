@@ -4,93 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="SPACY STANZA LEMMATIZER ON SERVER">
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/1000WORDSARABIC.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/2000WORDSARABIC.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/3000WORDSARABIC.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/4000WORDSARABIC.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/5000WORDSARABIC.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/6000WORDSARABIC.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/7000WORDSARABIC.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/AR/8000WORDSARABIC.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/1000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/2000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/3000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/4000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/5000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/6000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/7000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/DE/8000WORDSGERMAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/1000WORDSENGLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/2000WORDSENGLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/3000WORDSENGLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/4000WORDSENGLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/5000WORDSENGLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/6000WORDSENGLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/7000WORDSENGLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/EN/8000WORDSENGLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/1000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/2000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/3000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/4000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/5000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/6000WORDSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/7000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ES/8000WORDSSPANISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/1000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/2000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/3000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/4000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/5000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/6000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/7000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/FR/8000WORDSFRENCH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/1000WORDSITALIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/2000WORDSITALIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/3000WORDSITALIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/4000WORDSITALIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/5000WORDSITALIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/6000WORDSITALIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/7000WORDSITALIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/IT/8000WORDSITALIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/1000WORDSKOREAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/2000WORDSKOREAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/3000WORDSKOREAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/4000WORDSKOREAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/5000WORDSKOREAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/6000WORDSKOREAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/7000WORDSKOREAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/KO/8000WORDSKOREAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/1000WORDSPOLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/2000WORDSPOLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/3000WORDSPOLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/4000WORDSPOLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/5000WORDSPOLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/6000WORDSPOLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/7000WORDSPOLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/PL/8000WORDSPOLISH.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/1000WORDSRUSSIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/2000WORDSRUSSIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/3000WORDSRUSSIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/4000WORDSRUSSIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/5000WORDSRUSSIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/6000WORDSRUSSIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/7000WORDSRUSSIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/RU/8000WORDSRUSSIAN.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/1000WORDSCHINESE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/2000WORDSCHINESE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/3000WORDSCHINESE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/4000WORDSCHINESE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/5000WORDSCHINESE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/6000WORDSCHINESE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/7000WORDSCHINESE.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/ZH/8000WORDSCHINESE.xlsx" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="SOURCES TEXT 10 LANGUAGES">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/USER.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/USER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1617,7 +1534,7 @@
       <workItem from="1729667523992" duration="4096000" />
       <workItem from="1729750659345" duration="1268000" />
       <workItem from="1729837106488" duration="665000" />
-      <workItem from="1729837909477" duration="13434000" />
+      <workItem from="1729837909477" duration="20513000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1646,14 +1563,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00158" summary="BIGAI ENGINE README BEFORE JP">
-      <option name="closed" value="true" />
-      <created>1719569440313</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1719569440313</updated>
     </task>
     <task id="LOCAL-00159" summary="BIGAI ENGINE SUPERRUDE ASSISTANT x86">
       <option name="closed" value="true" />
@@ -2007,7 +1916,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729849464236</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="SOURCES TEXT 10 LANGUAGES">
+      <option name="closed" value="true" />
+      <created>1729855847457</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1729855847457</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -2033,7 +1950,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="README" />
     <MESSAGE value="REVISED SOURCE CLASS" />
     <MESSAGE value="USER + INITIAL SOURCE HAS BEEN POPULATED" />
     <MESSAGE value="USER + INITIAL SOURCE HAS BEEN POPULATED.4000 + WORDS TOGETHER!!" />
@@ -2058,7 +1974,8 @@
     <MESSAGE value="README 1612H OF WORK" />
     <MESSAGE value="1 CIRCLE-&gt; 1800H,&#10;ALL CLONES-&gt; 2700H,&#10;NEXT CYCLE+CLONES-&gt;3600H" />
     <MESSAGE value="SPACY STANZA LEMMATIZER ON SERVER" />
-    <option name="LAST_COMMIT_MESSAGE" value="SPACY STANZA LEMMATIZER ON SERVER" />
+    <MESSAGE value="SOURCES TEXT 10 LANGUAGES" />
+    <option name="LAST_COMMIT_MESSAGE" value="SOURCES TEXT 10 LANGUAGES" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2277,13 +2194,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/USER.py</url>
-          <line>33</line>
+          <line>36</line>
           <option name="timeStamp" value="424" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/USER.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="425" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -2390,7 +2302,7 @@
     <SUITE FILE_PATH="coverage/BIGAI$TTS_OPENAI_API.coverage" NAME="TTS_OPENAI_API Coverage Results" MODIFIED="1712875584869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPER_STREAMING.coverage" NAME="STT_WHISPER_STREAMING Coverage Results" MODIFIED="1708271920176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$scarjo2.coverage" NAME="scarjo2 Coverage Results" MODIFIED="1717189224637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ALL_AI/nsfw-scarjo-main" />
-    <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP.coverage" NAME="ALOHAPP Coverage Results" MODIFIED="1729852914118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP.coverage" NAME="ALOHAPP Coverage Results" MODIFIED="1729878943921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$CODE_GEN_BY_O1P.coverage" NAME="CODE_GEN_BY_O1P Coverage Results" MODIFIED="1727660686937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_PIC_FLUX_DEV.coverage" NAME="GEN_PIC_FLUX_DEV Coverage Results" MODIFIED="1728201190284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_COMIC_STORYDIFFIUSION_GRADIO.coverage" NAME="GEN_COMIC_STORYDIFFIUSION_GRADIO Coverage Results" MODIFIED="1714879931717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
