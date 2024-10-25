@@ -35,7 +35,6 @@ class USER:
             lang = detect_language(my_sentence)
             lang = lang['language_code']
             list_of_lang = [tuple_[0] for tuple_ in self.langs]
-            list_of_lang.append(self.native)
             position = list_of_lang.index(lang)
             if position:
                 pass

@@ -87,6 +87,21 @@ class VoiceAssistant:
             print(text)
 
         self.my_sentences.append(text)
+        lang_of_my_sentence = detect_language(self.my_sentences[-1])
+        lang_of_my_sentence = lang_of_my_sentence['language_code']
+
+        if lang_of_my_sentence == self.main_page.user.native:
+            if self.stt == 'whisper':
+                print("Transcribing audio...")
+                if os_name == 'Darwin':
+                    text_ll = transcribe(file_path=os.getcwd()+'/audio_file.wav', language=self.main_language)
+                if os_name == 'Linux':
+                    text_ll = transcribe(file_path=os.getcwd()+'/audio_file.wav', language=self.main_language)
+                    text_ll = text_ll['segments'][0]['text']
+
+
+
+
         text_field = ft.TextField(
             label='YOUR SENTENCE',
             multiline=True,
@@ -109,11 +124,16 @@ class VoiceAssistant:
         self.context += text
         self.main_page.update()
 
-
-        if self.tts == 'melo':
-            tts_melo(text, lang=self.main_language, output="example.wav")
-        if self.tts == 'openai':
-            generate_and_play(text,voice=self.tts_voice)
+        if lang_of_my_sentence != self.main_page.user.native:
+            if self.tts == 'melo':
+                tts_melo(text, lang=self.main_language, output="example.wav")
+            if self.tts == 'openai':
+                generate_and_play(text,voice=self.tts_voice)
+        else:
+            if self.tts == 'melo':
+                tts_melo(text_ll, lang=self.main_language, output="example.wav")
+            if self.tts == 'openai':
+                generate_and_play(text_ll,voice=self.tts_voice)
 
         bot_reply = generate_text(self)
 
@@ -133,7 +153,12 @@ class VoiceAssistant:
         self.context += bot_reply
         self.main_page.update()
 
-        self.main_page.user.Update_Words_Past(my_sentences=self.my_sentences, bot_sentences=self.bot_sentences)
+        if lang_of_my_sentence == self.main_page.user.native:
+            self.my_sentences = self.my_sentences[:-1]
+
+
+        if lang_of_my_sentence != self.main_page.user.native:
+            self.main_page.user.Update_Words_Past(my_sentences=self.my_sentences, bot_sentences=self.bot_sentences)
 
         if self.tts == 'melo':
             tts_melo(bot_reply, lang=self.main_language, output="example.wav")
