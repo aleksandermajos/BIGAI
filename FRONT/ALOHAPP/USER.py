@@ -1,6 +1,8 @@
 import platform
 from typing import List, Set
+from datetime import datetime
 from WORDUSE import WordUse
+from WORD import WORD
 from SOURCE import SOURCE
 from ENGINE.API_BIGAI_CLIENT import *
 os_name = platform.system()
@@ -36,12 +38,17 @@ class USER:
             lang = lang['language_code']
             list_of_lang = [tuple_[0] for tuple_ in self.langs]
             position = list_of_lang.index(lang)
-            if position:
-                pass
-            else:
-                pass
-            if lang==self.native:
-                pass
+            lemmatized = lemmatize_sentences([my_sentence], lang=lang)
+            for word in lemmatized[0]:
+                part_number = 0
+                for part in self.sources[1].words_in_parts:
+                    if word in part:
+                        WORD_INSTANCE = WORD(word,lang,part_number)
+                        WORDUSE_INSTANCE = WordUse(WORD_INSTANCE)
+                        WORDUSE_INSTANCE.Say.append(datetime.now())
+                        part_number = 0
+                    else: part_number += 1
+
 
 
     def Update_Words_Present(self):
