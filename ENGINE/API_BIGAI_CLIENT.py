@@ -1,6 +1,17 @@
 import requests
+from typing import List
 
-import requests
+def lemmatize_sentences(sentences: List[str],lang, url="http://127.0.0.1:8000/lemmatize") -> List[List[str]]:
+    payload = {"sentences": sentences,
+               'lang': lang}
+    try:
+        response = requests.post(url, json=payload)
+        response.raise_for_status()  # Raise an exception for HTTP errors
+        data = response.json()
+        return data.get("lemmatized_sentences", [])
+    except requests.exceptions.RequestException as e:
+        print(f"Error communicating with the server: {e}")
+        return []
 
 
 def detect_language(text, url='http://127.0.0.1:8000/detect_language'):
@@ -113,18 +124,28 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+    sentences_en = [
+        "The striped bats are hanging on their feet for best",
+        "She was running and jumping in the park.",
+        "They have been studying linguistics for years."
+    ]
+    sentences_fr = [
+        "Les chauves-souris rayées s'accrochent à leurs pattes pour mieux s'en sortir",
+        "Elle courait et sautait dans le parc",
+        "Ils étudient la linguistique depuis des années"
+    ]
+
+
+    lemmatized_en = lemmatize_sentences(sentences_en,lang='en')
+    lemmatized_fr = lemmatize_sentences(sentences_fr, lang='fr')
+
+
+
     text = transcribe(file_path="audio_file.wav", language='pl')
-
-
     text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"
     source_language = 'eng_Latn'
     target_language = "fra_Latn"
     translated_text = translate(text_to_translate,source_language, target_language)
-
-
-
-
-
     result = detect_language("Detected language")
     language_code = result['language_code']
     confidence = result['confidence']

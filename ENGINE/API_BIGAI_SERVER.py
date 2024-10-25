@@ -9,13 +9,65 @@ os_name = platform.system()
 
 
 
+
 STT_WHISPERX = True
 TTS_MELO = True
+SPACY_STANZA = True
 TRANSLATE_NLLB = True
 LANG_DETECT_FT = True
 GEN_IMAGE_SD3 = False
 
 app = FastAPI()
+
+if SPACY_STANZA:
+    import spacy_stanza
+    from typing import List
+
+    lemma_en = spacy_stanza.load_pipeline('en')
+    lemma_fr = spacy_stanza.load_pipeline('fr')
+    lemma_es = spacy_stanza.load_pipeline('es')
+    lemma_de = spacy_stanza.load_pipeline('de')
+    lemma_it = spacy_stanza.load_pipeline('it')
+
+
+
+    # Define request and response models
+    class LemmatizeRequest(BaseModel):
+        sentences: List[str]
+        lang: str
+
+
+    class LemmatizeResponse(BaseModel):
+        lemmatized_sentences: List[List[str]]
+
+
+    @app.post("/lemmatize", response_model=LemmatizeResponse)
+    async def lemmatize(request: LemmatizeRequest):
+        if not request.sentences:
+            raise HTTPException(status_code=400, detail="No sentences provided.")
+        lang = request.lang
+        if lang == 'fr': lemma = lemma_fr
+        if lang == 'en': lemma = lemma_en
+        if lang == 'es': lemma = lemma_es
+        if lang == 'de': lemma = lemma_de
+        if lang == 'it': lemma = lemma_it
+
+
+        lemmatized_sentences = []
+        for sentence in request.sentences:
+            lem = lemma(sentence)
+            lem_text = []
+            for token in lem:
+                lem_text.append(str(token.lemma_))
+            filtered_lem_text = [item for item in lem_text if
+                                 '.' not in item and '_' not in item and ' ' not in item and ', ' not in item and ',' not in item]
+            lemmatized_sentences.append(filtered_lem_text)
+
+        return LemmatizeResponse(lemmatized_sentences=lemmatized_sentences)
+
+
+
+
 if LANG_DETECT_FT:
     import os
     import fasttext
