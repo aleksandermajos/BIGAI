@@ -10,7 +10,8 @@ def main(page: ft.Page):
         ("fr", 10),
         ("es", 8),
         ("de", 8),
-        ("it", 2)
+        ("it", 2),
+        ("en", 2)
     ])
 
     page.user.Update_Words_Present()
