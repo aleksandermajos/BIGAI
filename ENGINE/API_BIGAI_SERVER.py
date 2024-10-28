@@ -23,13 +23,16 @@ if SPACY_STANZA:
     import spacy_stanza
     from typing import List
 
-    lemma_pl = spacy_stanza.load_pipeline('pl')
-    lemma_en = spacy_stanza.load_pipeline('en')
-    lemma_fr = spacy_stanza.load_pipeline('fr')
-    lemma_es = spacy_stanza.load_pipeline('es')
-    lemma_de = spacy_stanza.load_pipeline('de')
-    lemma_it = spacy_stanza.load_pipeline('it')
+    lemma_fr = spacy_stanza.load_pipeline('fr', device='cuda:0')
 
+    '''
+    lemma_pl = spacy_stanza.load_pipeline('pl',device='cuda:0')
+    lemma_en = spacy_stanza.load_pipeline('en',device='cuda:0')
+    
+    lemma_es = spacy_stanza.load_pipeline('es',device='cuda:0')
+    lemma_de = spacy_stanza.load_pipeline('de',device='cuda:0')
+    lemma_it = spacy_stanza.load_pipeline('it',device='cuda:0')
+    '''
 
 
     # Define request and response models
@@ -47,13 +50,16 @@ if SPACY_STANZA:
         if not request.sentences:
             raise HTTPException(status_code=400, detail="No sentences provided.")
         lang = request.lang
-        if lang == 'pl': lemma = lemma_pl
+
         if lang == 'fr': lemma = lemma_fr
+
+        '''
+        if lang == 'pl': lemma = lemma_pl
         if lang == 'en': lemma = lemma_en
         if lang == 'es': lemma = lemma_es
         if lang == 'de': lemma = lemma_de
         if lang == 'it': lemma = lemma_it
-
+        '''
 
         lemmatized_sentences = []
         for sentence in request.sentences:
@@ -138,7 +144,7 @@ if STT_WHISPERX:
 
             result = model.transcribe(audio, batch_size=16, task="transcribe",language=language)
 
-            device = 'cuda'
+            device = 'cuda:0'
             model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=device)
             result = whisperx.align(result["segments"], model_a, metadata, audio, device, return_char_alignments=False)
 
@@ -222,7 +228,7 @@ if GEN_IMAGE_SD3:
     from diffusers import StableDiffusion3Pipeline
 
     pipe = StableDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium-diffusers",
-                                                    torch_dtype=torch.float16)
+                                                    torch_dtype=torch.float16,device='cuda:0')
     pipe = pipe.to("cuda:0")
 
 
@@ -272,7 +278,7 @@ if TRANSLATE_NLLB:
     @app.post("/translate", response_model=TranslationResponse)
     def translate(request: TranslationRequest):
         translator = pipeline('translation', model=model_trans, tokenizer=tokenizer,src_lang=request.source_language, tgt_lang=request.target_language,
-                              max_length=400)
+                              max_length=400, device='cuda:0')
         translated_text = translator(request.text)[0]['translation_text']
         return TranslationResponse(translated_text=translated_text)
 
