@@ -139,7 +139,7 @@ if STT_WHISPERX:
 
     if os_name == 'Linux':
         import whisperx
-        model = whisperx.load_model("large-v3", device="cuda:0")
+        model = whisperx.load_model("large-v3", device="cuda")
 
 
         @app.post("/transcribe/")

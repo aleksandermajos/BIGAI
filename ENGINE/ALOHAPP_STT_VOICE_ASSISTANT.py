@@ -18,7 +18,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='ollama'):
+    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='groq'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -173,7 +173,7 @@ class VoiceAssistant:
                                  frames_per_buffer=self.CHUNK,
                                  input_device_index=find_mic_id())
 
-        num_padding_frames = int(300 / self.FRAME_DURATION_MS)  # 300ms padding
+        num_padding_frames = int(400 / self.FRAME_DURATION_MS)  # 400ms padding
         ring_buffer = collections.deque(maxlen=num_padding_frames)
         triggered = False
         frames = []
