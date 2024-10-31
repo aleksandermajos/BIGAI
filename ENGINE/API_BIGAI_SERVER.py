@@ -25,20 +25,20 @@ if SPACY_STANZA:
     from typing import List
 
     if os_name == 'Darwin':
-        lemma_fr = spacy_stanza.load_pipeline('fr')
         lemma_pl = spacy_stanza.load_pipeline('pl')
         lemma_en = spacy_stanza.load_pipeline('en')
+        lemma_fr = spacy_stanza.load_pipeline('fr')
         lemma_es = spacy_stanza.load_pipeline('es')
-        lemma_de = spacy_stanza.load_pipeline('de')
         lemma_it = spacy_stanza.load_pipeline('it')
+        lemma_pt = spacy_stanza.load_pipeline('pt')
 
     if os_name == 'Linux':
-        lemma_fr = spacy_stanza.load_pipeline('fr', device='cuda:0')
         lemma_pl = spacy_stanza.load_pipeline('pl',device='cuda:0')
         lemma_en = spacy_stanza.load_pipeline('en',device='cuda:0')
+        lemma_fr = spacy_stanza.load_pipeline('fr', device='cuda:0')
         lemma_es = spacy_stanza.load_pipeline('es',device='cuda:0')
-        lemma_de = spacy_stanza.load_pipeline('de',device='cuda:0')
         lemma_it = spacy_stanza.load_pipeline('it',device='cuda:0')
+        lemma_pt = spacy_stanza.load_pipeline('pt', device='cuda:0')
 
 
 
@@ -58,12 +58,13 @@ if SPACY_STANZA:
             raise HTTPException(status_code=400, detail="No sentences provided.")
         lang = request.lang
 
-        if lang == 'fr': lemma = lemma_fr
+
         if lang == 'pl': lemma = lemma_pl
         if lang == 'en': lemma = lemma_en
+        if lang == 'fr': lemma = lemma_fr
         if lang == 'es': lemma = lemma_es
-        if lang == 'de': lemma = lemma_de
         if lang == 'it': lemma = lemma_it
+        if lang == 'pt': lemma = lemma_it
 
 
         lemmatized_sentences = []

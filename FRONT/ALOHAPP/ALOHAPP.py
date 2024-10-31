@@ -9,9 +9,8 @@ def main(page: ft.Page):
     page.user = USER(native='pl', langs=[
         ("fr", 10),
         ("es", 8),
-        ("po", 8),
-        ("it", 2),
-        ("en", 0)
+        ("pt", 8),
+        ("it", 2)
     ])
 
     page.user.Update_Words_Present()

@@ -1,4 +1,4 @@
-from ENGINE.API_BIGAI_CLIENT import transcribe
+from ENGINE.API_BIGAI_CLIENT import transcribe, detect_language
 import pickle
 import spacy_stanza
 from pydub import AudioSegment
@@ -11,7 +11,7 @@ class SOURCE:
     source_type = ['AUDIO', 'DECKS', 'EXEL', 'PIC', 'TATOEBA', 'TEXT', 'VIDEO']
     user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA','NETFLIX', 'YT', 'TEXT','PIC', 'VIDEO', 'FREQDICT']
 
-    def __init__(self, source_type, user_type, name, lang, path):
+    def __init__(self, source_type, user_type, name, lang, path, part=-1):
         if source_type not in self.source_type:
             raise ValueError(f"Invalid source type '{source_type}'. Allowed source_type are: {self.source_type}")
         self.source_type = source_type
@@ -21,12 +21,18 @@ class SOURCE:
         self.path = path
         self.name = name
         self.lang = lang
+        self.part = part
 
         if source_type=='AUDIO' and user_type=='BOOK':
-            self.parts = sorted(get_all_paths_in_one_source(path))
+            if part == -1:
+                self.parts = sorted(get_all_paths_in_one_source(path))
+            else:
+                self.parts = sorted(get_all_paths_in_one_source(path))
+                self.parts = [self.parts[part]]
+
             words_in_parts = []
             for part in self.parts:
-                words_in_parts.append(get_words_from_one_pickle(path+'/'+part))
+                words_in_parts.append(get_words_from_one_pickle(path=path+'/'+part,lang=self.lang))
             self.words_in_parts = words_in_parts
             self.all_words = set().union(*self.words_in_parts)
 
@@ -89,8 +95,8 @@ class SOURCE_CREATE(object):
 
 
 
-    def populate_text(self):
-        lemma = spacy_stanza.load_pipeline(self.language)
+    def populate_text(self,lemma):
+        lemma = lemma
         text = transcribe(file_path=self.path, language=self.language)
         audio = AudioSegment.from_file(self.path)
         for segment in text['segments']:
@@ -122,11 +128,12 @@ class SOURCE_CREATE(object):
         path_data = Path(path)
         files = [f for f in path_data.iterdir() if f.is_file()]
 
+        lemma = spacy_stanza.load_pipeline(self.language)
         for chapter_path in files:
             file_name = chapter_path.name
             path_str = str(chapter_path)
             current_chapter = SOURCE_CREATE(name=file_name, path=path_str, source_type=source_type, user_type=user_type, lang=language)
-            result = current_chapter.populate_text()
+            result = current_chapter.populate_text(lemma)
 
             with open(path_str + '.pkl', 'wb') as file:
                 pickle.dump(result, file)
@@ -139,12 +146,18 @@ def load_my_pickle(path):
             loaded_dict = pickle.load(file)
         return loaded_dict
 
-def get_words_from_one_pickle(path):
+def get_words_from_one_pickle(path,lang):
     data = load_my_pickle(path)
     words_gathered = set()
     for current_segment in data['segments']:
         for word in current_segment['words']:
-            words_gathered.add(word['word_lemma'])
+
+            result = detect_language(word['word'])
+            language_code = result['language_code']
+            if language_code == lang:
+                words_gathered.add(word['word_lemma'])
+
+
     remove_punctuations = {',', '.', '?', '!', ';', ':','...','%'}
     words_gathered.difference_update(remove_punctuations)
     pattern = re.compile(r'\d')
@@ -174,11 +187,3 @@ def get_all_paths_in_one_source(path, extension = '.pkl'):
 
 def get_list_of_sources_in_language(path, language):
     pass
-
-path =r'/Users/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/IT/SELF_LEARNING/BLONDYNA_OLD/'
-Blondyna_it = SOURCE_CREATE(name='BLONDYNKA_IT',path = path, source_type='AUDIO', user_type='BOOK', lang='it')
-pick = Blondyna_it.create_pickle(path=path, source_type='AUDIO', user_type='BOOK', language='it')
-with open('my_pick.pkl', 'wb') as file:
-    # Step 4: Use pickle.dump() to serialize and save the dictionary
-    pickle.dump(pick, file)
-oko=5
