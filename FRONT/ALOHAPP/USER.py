@@ -10,9 +10,10 @@ os_name = platform.system()
 
 
 class USER:
-    def __init__(self, native, langs, words_pd=15, time_pd=60, old_new=80):
+    def __init__(self, native, langs, langs_priority, words_pd=15, time_pd=60, old_new=80):
         self.native = native
         self.langs = langs
+        self.langs_priority = langs_priority
         self.words_past: List[List[WordUse]] = [[] for _ in range(len(self.langs))]
         self.words_present: List[Set[str]] = []
         self.words_future: List[Set[str]] = []
@@ -26,28 +27,24 @@ class USER:
             self.sources.append(SOURCE(source_type='AUDIO',user_type='BOOK',name='ASSIMIL',lang=self.langs[0][0],path=r'/Users/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+self.langs[0][0].upper()+'/SELF_LEARNING/ASSIMIL'))
         elif os_name == 'Linux':
             for lang in self.langs:
-                self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='BLONDYNA', lang=lang[0],
-                                       path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+lang[0].upper()+'/SELF_LEARNING/BLONDYNA',part=0))
-                self.sources.append(SOURCE(source_type='TEXT', user_type='FREQDICT', name='FREQDICT'+lang[0].upper(), lang=lang[0],
+                self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='BLONDYNA', lang=lang,
+                                       path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+lang.upper()+'/SELF_LEARNING/BLONDYNA',part=0))
+                self.sources.append(SOURCE(source_type='TEXT', user_type='FREQDICT', name='FREQDICT'+lang.upper(), lang=lang,
                                        path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/' +
-                                            lang[0].upper()))
+                                            lang.upper()))
 
 
-    def Update_Words_Past(self,my_sentences, bot_sentences):
-        for my_sentence in my_sentences:
-            lang = detect_language(my_sentence)
-            lang = lang['language_code']
-
-            lemmatized = lemmatize_sentences([my_sentence], lang=lang)
-            for word in lemmatized[0]:
-                part_number = 0
-                for part in self.sources[1].words_in_parts:
-                    if word in part:
-                        WORD_INSTANCE = WORD(word,lang,part_number)
-                        WORDUSE_INSTANCE = WordUse(WORD_INSTANCE)
-                        WORDUSE_INSTANCE.Say.append(datetime.now())
-                        part_number = 0
-                    else: part_number += 1
+    def Update_Words_Past(self,my_sentences, my_sentences_languages, bot_sentences):
+        lemmatized = lemmatize_sentences(my_sentences[-1], lang=my_sentences_languages[-1])
+        for word in lemmatized:
+            part_number = 0
+            for part in self.sources[1].words_in_parts:
+                if word in part:
+                    WORD_INSTANCE = WORD(word,lang,part_number)
+                    WORDUSE_INSTANCE = WordUse(WORD_INSTANCE)
+                    WORDUSE_INSTANCE.Say.append(datetime.now())
+                    part_number = 0
+                else: part_number += 1
 
 
 

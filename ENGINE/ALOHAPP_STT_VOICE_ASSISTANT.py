@@ -47,9 +47,10 @@ class VoiceAssistant:
 
         self.context = ''
         self.my_sentences = []
+        self.my_sentences_languages = []
         self.bot_sentences = []
 
-        self.main_language = self.main_page.user.langs[0][0]
+        self.main_language = self.main_page.user.langs[0]
 
 
 
@@ -86,9 +87,13 @@ class VoiceAssistant:
                 text = text['segments'][0]['text']
             print(text)
 
-        self.my_sentences.append(text)
-        lang_of_my_sentence = detect_language(self.my_sentences[-1])
+        lang_of_my_sentence = detect_language(text)
         lang_of_my_sentence = lang_of_my_sentence['language_code']
+        if lang_of_my_sentence in self.main_page.user.langs:
+            self.my_sentences.append(text)
+            self.my_sentences_languages.append(lang_of_my_sentence)
+
+
 
         if lang_of_my_sentence == self.main_page.user.native:
             if self.stt == 'whisper':
@@ -118,6 +123,16 @@ class VoiceAssistant:
             self.main_page.conversation_column.controls.clear()
             self.main_page.conversation_column.controls.append(magic_row)
 
+        if lang_of_my_sentence == self.main_page.user.native:
+            text_field_ll = ft.TextField(
+                label='YOUR SENTENCE',
+                multiline=True,
+                label_style=ft.TextStyle(color=ft.colors.YELLOW),
+                color=ft.colors.YELLOW,
+                value=text_ll,
+                icon=ft.icons.EMOJI_EMOTIONS
+            )
+            self.main_page.conversation_column.controls.append(text_field_ll)
 
 
         self.main_page.conversation_column.controls.append(text_field)
@@ -153,11 +168,8 @@ class VoiceAssistant:
         self.context += bot_reply
         self.main_page.update()
 
-        if lang_of_my_sentence == self.main_page.user.native:
-            self.my_sentences = self.my_sentences[:-1]
-
-        if lang_of_my_sentence != self.main_page.user.native:
-            self.main_page.user.Update_Words_Past(my_sentences=self.my_sentences, bot_sentences=self.bot_sentences)
+        if lang_of_my_sentence in self.main_page.user.langs:
+            self.main_page.user.Update_Words_Past(my_sentences=self.my_sentences,my_sentences_languages=self.my_sentences_languages, bot_sentences=self.bot_sentences)
 
         if self.tts == 'melo':
             tts_melo(bot_reply, lang=self.main_language, output="example.wav")
