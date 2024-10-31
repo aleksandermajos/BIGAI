@@ -27,11 +27,12 @@ class USER:
             self.sources.append(SOURCE(source_type='AUDIO',user_type='BOOK',name='ASSIMIL',lang=self.langs[0][0],path=r'/Users/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+self.langs[0][0].upper()+'/SELF_LEARNING/ASSIMIL'))
         elif os_name == 'Linux':
             for lang in self.langs:
+                self.sources.append(
+                    SOURCE(source_type='TEXT', user_type='FREQDICT', name='FREQDICT' + lang.upper(), lang=lang,
+                           path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/' +lang.upper()))
                 self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='BLONDYNA', lang=lang,
-                                       path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+lang.upper()+'/SELF_LEARNING/BLONDYNA',part=0))
-                self.sources.append(SOURCE(source_type='TEXT', user_type='FREQDICT', name='FREQDICT'+lang.upper(), lang=lang,
-                                       path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/' +
-                                            lang.upper()))
+                                       path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+lang.upper()+'/SELF_LEARNING/BLONDYNA',part=-1))
+
 
 
     def Update_Words_Past(self,my_sentences, my_sentences_languages, bot_sentences):

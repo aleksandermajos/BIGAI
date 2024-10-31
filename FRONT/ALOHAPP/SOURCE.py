@@ -1,4 +1,5 @@
 from ENGINE.API_BIGAI_CLIENT import transcribe, detect_language
+from ordered_set import OrderedSet
 import pickle
 import spacy_stanza
 from pydub import AudioSegment
@@ -168,11 +169,14 @@ def get_words_from_one_freq_dict(path):
     import pandas as pd
     df = pd.read_excel(path)
     words = df['WORD'].reset_index(drop=True).dropna()
-    words_gathered = set(words)
+    words_gathered = OrderedSet(words)
+
     remove_punctuations = {',', '.', '?', '!', ';', ':','...','%'}
     words_gathered.difference_update(remove_punctuations)
+
     pattern = re.compile(r'\d')
-    words_gathered = {s for s in words_gathered if not pattern.search(s)}
+    words_gathered = OrderedSet([pattern.sub('', word) for word in words_gathered])
+
     return words_gathered
 
 def get_all_paths_in_one_source(path, extension = '.pkl'):
