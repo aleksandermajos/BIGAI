@@ -1,5 +1,4 @@
-
-from ENGINE.API_BIGAI_CLIENT import transcribe, tts_melo
+from ENGINE.API_BIGAI_CLIENT import transcribe
 import pickle
 import spacy_stanza
 from pydub import AudioSegment
@@ -79,12 +78,12 @@ class SOURCE_CREATE(object):
     videos = []
 
 
-    def __init__(self, name, path, source_type,user_type, language):
+    def __init__(self, name, path, source_type,user_type, lang):
         self.name = name
         self.path = path
         self.source_type = source_type
         self.user_type = user_type
-        self.language = language
+        self.language = lang
         if self.source_type not in SOURCE_CREATE.source_type:
             print(f'Source type {self.source_type} not supported')
 
@@ -115,16 +114,18 @@ class SOURCE_CREATE(object):
         return text
 
     def create_pickle(self, path, source_type, user_type, language):
+        '''
         p = Path.cwd()
         path_data = str(
             p.home()) + path
-        path_data = Path(path_data)
+        '''
+        path_data = Path(path)
         files = [f for f in path_data.iterdir() if f.is_file()]
 
         for chapter_path in files:
             file_name = chapter_path.name
             path_str = str(chapter_path)
-            current_chapter = SOURCE_CREATE(name=file_name, path=path_str, source_type=source_type, user_type=user_type, language=language)
+            current_chapter = SOURCE_CREATE(name=file_name, path=path_str, source_type=source_type, user_type=user_type, lang=language)
             result = current_chapter.populate_text()
 
             with open(path_str + '.pkl', 'wb') as file:
@@ -173,3 +174,11 @@ def get_all_paths_in_one_source(path, extension = '.pkl'):
 
 def get_list_of_sources_in_language(path, language):
     pass
+
+path =r'/Users/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/IT/SELF_LEARNING/BLONDYNA_OLD/'
+Blondyna_it = SOURCE_CREATE(name='BLONDYNKA_IT',path = path, source_type='AUDIO', user_type='BOOK', lang='it')
+pick = Blondyna_it.create_pickle(path=path, source_type='AUDIO', user_type='BOOK', language='it')
+with open('my_pick.pkl', 'wb') as file:
+    # Step 4: Use pickle.dump() to serialize and save the dictionary
+    pickle.dump(pick, file)
+oko=5
