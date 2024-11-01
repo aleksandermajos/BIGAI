@@ -36,17 +36,23 @@ class USER:
 
 
     def Update_Words_Past(self,my_sentences, my_sentences_languages, bot_sentences):
-        lemmatized = lemmatize_sentences(my_sentences[-1], lang=my_sentences_languages[-1])
-        for word in lemmatized:
-            part_number = 0
-            for part in self.sources[1].words_in_parts:
-                if word in part:
-                    WORD_INSTANCE = WORD(word,lang,part_number)
-                    WORDUSE_INSTANCE = WordUse(WORD_INSTANCE)
-                    WORDUSE_INSTANCE.Say.append(datetime.now())
-                    part_number = 0
-                else: part_number += 1
+        lang = my_sentences_languages[-1]
+        lang_pos =  self.langs.index(lang)
+        curr_sentence = my_sentences[-1]
+        lemmatized = lemmatize_sentences([curr_sentence], lang=lang)
+        lemmatized_sentence = lemmatized[-1]
 
+        for word in lemmatized_sentence:
+            for source in self.sources:
+                if source.lang==lang and 'FREQDICT' in source.name:
+                    for thousand, part in enumerate(source.words_in_parts):
+                        if word in part:
+                            get_score = part.items.index(word)+thousand*1000
+                            WORD_INSTANCE = WORD(word, lang, get_score)
+                            WORDUSE_INSTANCE = WordUse(WORD_INSTANCE)
+                            WORDUSE_INSTANCE.Say.append(datetime.now())
+                            self.words_past[lang_pos].append(WORDUSE_INSTANCE)
+                            break
 
 
     def Update_Words_Present(self):
