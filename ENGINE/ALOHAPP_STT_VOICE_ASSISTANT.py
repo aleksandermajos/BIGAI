@@ -6,6 +6,7 @@ from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from ENGINE.TTS_OPENAI import generate_and_play
 from ENGINE.API_BIGAI_CLIENT import *
 from ENGINE.ALOHAPP_TEXT_GEN import generate_text
+from FRONT.ALOHAPP.CONTAINERS import delete_words_buttons
 from groq import Groq
 from scipy.io.wavfile import write
 import pyaudio
@@ -18,7 +19,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='groq'):
+    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='groq'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -169,7 +170,11 @@ class VoiceAssistant:
         self.main_page.update()
 
         if lang_of_my_sentence in self.main_page.user.langs:
-            self.main_page.user.Update_Words_Past(my_sentences=self.my_sentences,my_sentences_languages=self.my_sentences_languages, bot_sentences=self.bot_sentences)
+           known_words =  self.main_page.user.Update_Words_Past(my_sentences=self.my_sentences,my_sentences_languages=self.my_sentences_languages, bot_sentences=self.bot_sentences)
+           if known_words:
+               self.main_page.words_buttons = delete_words_buttons(page=self.main_page, known_words=known_words)
+               self.main_page.update()
+
 
         if self.tts == 'melo':
             tts_melo(bot_reply, lang=self.main_language, output="example.wav")

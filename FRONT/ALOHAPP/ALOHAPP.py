@@ -6,12 +6,14 @@ import pickle
 
 
 
+
 def main(page: ft.Page):
     page.title = "ALOHAPP"
     '''
     page.user = USER(native='pl', langs=["fr", "es", "pt", "it"], langs_priority=[8, 8, 6, 6])
     with open('USER_ALEX.pkl', 'wb') as file:
         pickle.dump(page.user, file)
+    oko=5
     '''
     with open('USER_ALEX.pkl', 'rb') as file:
         page.user = pickle.load(file)
@@ -24,6 +26,7 @@ def main(page: ft.Page):
     page.words_column ,page.words_container = create_words_container(page.words_buttons)
     page.conversation_column ,page.conversation_container = create_conversation_container()
     page.helper_column ,page.helper_container = create_helper_container()
+
 
     row = ft.Row(
         [page.conversation_container, page.helper_container, page.words_container], expand=True)

@@ -33,7 +33,13 @@ class USER:
                            path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/' +lang.upper()))
                 self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='BLONDYNA', lang=lang,
                                        path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+lang.upper()+'/SELF_LEARNING/BLONDYNA',part=-1))
-
+                if lang != 'pt':
+                    self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=lang,
+                                               path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/SELF_LEARNING/ASSIMIL',
+                                               part=-1))
+                    self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='PRINCE', lang=lang,
+                                               path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/LITTLE_PRINCE',
+                                               part=-1))
 
 
     def Update_Words_Past(self,my_sentences, my_sentences_languages, bot_sentences):
@@ -54,7 +60,7 @@ class USER:
                                 Filled = False
                                 if curr_word_use.word.word==word:
                                     curr_word_use.Say.append(datetime.now())
-                                    if len(curr_word_use.Say) >= self.hmt:
+                                    if len(curr_word_use.Say) == self.hmt:
                                         known_words.append(word)
                                     Filled = True
                                     break
@@ -72,6 +78,7 @@ class USER:
                                 WORDUSE_INSTANCE.Say.append(datetime.now())
                                 self.words_past[lang_pos].append(WORDUSE_INSTANCE)
                                 break
+        return known_words
 
 
 

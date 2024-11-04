@@ -33,6 +33,23 @@ def generate_words_buttons(list_of_words):
         list_of_buttons.append(ft.ElevatedButton(word))
     return list_of_buttons
 
+def delete_words_buttons(page, known_words):
+    words_buttons = page.words_buttons
+
+    indx_to_del = []
+    for word in known_words:
+        for indx in range(len(words_buttons)):
+            if words_buttons[indx].text==word:
+                indx_to_del.append(indx)
+
+    for index in sorted(indx_to_del, reverse=True):
+        del words_buttons[index]
+
+    return words_buttons
+
+
+
+
 
 def create_words_container(wb):
     words_column = ft.Column(wb, scroll=ft.ScrollMode.AUTO)
