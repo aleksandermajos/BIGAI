@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="no language zz repaired">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/aleksandermajos/BIGAI.git&quot;,
-    &quot;accountId&quot;: &quot;04f747ae-25db-49ef-9071-5d3744e5742a&quot;
+    &quot;accountId&quot;: &quot;57255f2a-a4f8-48e5-9f8c-1a8bc0aa7568&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -1551,6 +1551,8 @@
       <workItem from="1730556960776" duration="8504000" />
       <workItem from="1730629295164" duration="544000" />
       <workItem from="1730699836022" duration="9652000" />
+      <workItem from="1730719947983" duration="346000" />
+      <workItem from="1730720297371" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1579,14 +1581,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00175" summary="README">
-      <option name="closed" value="true" />
-      <created>1728663297654</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1728663297655</updated>
     </task>
     <task id="LOCAL-00176" summary="REVISED SOURCE CLASS">
       <option name="closed" value="true" />
@@ -1940,7 +1934,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730719136025</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="readme">
+      <option name="closed" value="true" />
+      <created>1730719966091</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1730719966091</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1966,7 +1968,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="CLEAR PATH TO PROTOTYPE AND LANGUAGES" />
     <MESSAGE value="TRAnslate on server fixed, langdetect done" />
     <MESSAGE value="TRAnslate on server fixed, langdetect done without big file" />
     <MESSAGE value="langdetect" />
@@ -1991,7 +1992,8 @@
     <MESSAGE value="alex user" />
     <MESSAGE value="melo_tts repaired" />
     <MESSAGE value="no language zz repaired" />
-    <option name="LAST_COMMIT_MESSAGE" value="no language zz repaired" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
