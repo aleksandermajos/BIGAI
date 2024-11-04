@@ -7,6 +7,7 @@ from ENGINE.TTS_OPENAI import generate_and_play
 from ENGINE.API_BIGAI_CLIENT import *
 from ENGINE.ALOHAPP_TEXT_GEN import generate_text
 from FRONT.ALOHAPP.CONTAINERS import delete_words_buttons
+from ENGINE.ALOHAPP_LANG_CODES import *
 from groq import Groq
 from scipy.io.wavfile import write
 import pyaudio
@@ -175,7 +176,22 @@ class VoiceAssistant:
             value=bot_reply
 
         )
+
+        source_language = get_lang_name_to_nllb(self.main_page.user.langs[0])
+        target_language = get_lang_name_to_nllb(self.main_page.user.native)
+        bot_reply_translated = translate(bot_reply, source_language, target_language)
+        text_field_translated = ft.TextField(
+            label='BOT REPLY TRANSLATED',
+            multiline=True,
+            label_style=ft.TextStyle(color=ft.colors.BLACK),
+            color=ft.colors.BLACK,
+            value=bot_reply_translated
+
+        )
+
+
         self.main_page.conversation_column.controls.append(text_field)
+        self.main_page.conversation_column.controls.append(text_field_translated)
         self.context += bot_reply
         self.main_page.update()
 
