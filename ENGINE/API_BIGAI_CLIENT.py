@@ -125,6 +125,11 @@ def tts_melo(text: str, lang: str, output: str):
 
 if __name__ == "__main__":
 
+
+    tts_melo("Der Mann gibt dem Hund den Knochen.",lang="de", output="example.wav")
+    tts_melo("I do not have a dream",lang="en", output="dream.wav")
+    tts_melo("私には夢があります", lang="jp", output="dream_jp.wav")
+
     sentences_fr = [
         "Les chauves-souris rayées s'accrochent à leurs pattes pour mieux s'en sortir",
         "Elle courait et sautait dans le parc",
@@ -144,19 +149,6 @@ if __name__ == "__main__":
     language_code = result['language_code']
     confidence = result['confidence']
     print(f"Detected language: {language_code} with confidence {confidence}")
-
-
-
-
-
-
-
-
-
-    text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"
-    target_language = "fra_Latn"
-    translated_text = translate(text_to_translate, target_language)
-
 
 
 

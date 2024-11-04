@@ -10,11 +10,12 @@ os_name = platform.system()
 
 
 
-STT_WHISPERX = True
+
+STT_WHISPERX = False
 TTS_MELO = True
-SPACY_STANZA = True
-TRANSLATE_NLLB = True
-LANG_DETECT_FT = True
+SPACY_STANZA = False
+TRANSLATE_NLLB = False
+LANG_DETECT_FT = False
 GEN_IMAGE_SD3 = False
 
 app = FastAPI()
@@ -164,7 +165,7 @@ if STT_WHISPERX:
 if TTS_MELO:
     from melo.api import TTS
     from fastapi.responses import FileResponse
-    from LANG_CODES import get_lang_name_to_tts_melo
+    from ALOHAPP_LANG_CODES import get_lang_name_to_tts_melo
 
 
     class TextRequest(BaseModel):
@@ -187,7 +188,7 @@ if TTS_MELO:
                 device_melo = 'cpu'
 
 
-            lang, speaker = get_lang_name_to_tts_melo(lang_beg)
+            lang,speaker = get_lang_name_to_tts_melo(lang_beg)
             model_melo = TTS(language=lang, device=device_melo)
             speaker_ids = model_melo.hps.data.spk2id
             speaker_ids = speaker_ids[speaker]

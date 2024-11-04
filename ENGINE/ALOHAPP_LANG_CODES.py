@@ -1,5 +1,5 @@
 def get_lang_name_to_tts_melo(short):
-    if short == 'en': return 'english'
+    if short == 'en': return 'english','EN-BR'
     if short == 'de': return 'german'
     if short == 'fr': return 'french'
     if short == 'es': return 'spanish'
