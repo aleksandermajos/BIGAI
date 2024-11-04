@@ -8,14 +8,11 @@ import platform
 os_name = platform.system()
 
 
-
-
-
-STT_WHISPERX = False
+STT_WHISPERX = True
 TTS_MELO = True
-SPACY_STANZA = False
-TRANSLATE_NLLB = False
-LANG_DETECT_FT = False
+SPACY_STANZA = True
+TRANSLATE_NLLB = True
+LANG_DETECT_FT = True
 GEN_IMAGE_SD3 = False
 
 app = FastAPI()
@@ -148,7 +145,7 @@ if STT_WHISPERX:
         async def transcribe(file: UploadFile = File(...), language: str = Form(...), file_path: str = Form(...)):
 
             audio = whisperx.load_audio(file_path)
-
+            if language == 'zz': language=''
             result = model.transcribe(audio, batch_size=16, task="transcribe",language=language)
 
             device = 'cuda:0'

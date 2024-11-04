@@ -138,47 +138,21 @@ if __name__ == "__main__":
     lemmatized_fr = lemmatize_sentences(sentences_fr, lang='fr')
 
 
-
-
     text = transcribe(file_path="audio_file.wav", language='pl')
+
     text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"
     source_language = 'eng_Latn'
     target_language = "fra_Latn"
     translated_text = translate(text_to_translate,source_language, target_language)
+
     result = detect_language("Detected language")
     language_code = result['language_code']
     confidence = result['confidence']
     print(f"Detected language: {language_code} with confidence {confidence}")
 
-
-
-
+    '''
     result = generate_image(prompt="A nice young girl with black eyes ", negative_prompt="", num_inference_steps=30,
                             save_path="oko1.png")
     result = generate_image(prompt="A nice young girl with white eyes ", negative_prompt="", num_inference_steps=30,
                             save_path="oko2.png")
-
-
-
-
-
-
-
-
-    tts_melo("Der Mann gibt dem Hund den Knochen.",lang="de", output="example_de.wav")
-    tts_melo("I do not have a dream",lang="en", output="dream.wav")
-    tts_melo("私には夢があります", lang="jp", output="dream_jp.wav")
-
-
-
     '''
-    text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"
-    target_language = "spa_Latn"
-    translated_text = translate(text_to_translate, target_language)
-    print(f"Translated text: {translated_text}")
-
-    result = generate_image(prompt="A nice young girl with black eyes ", negative_prompt="", num_inference_steps=56,
-                            save_path="oko.png")
-    print(result)
-    '''
-

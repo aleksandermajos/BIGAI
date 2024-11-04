@@ -83,7 +83,7 @@ class VoiceAssistant:
             if os_name == 'Darwin':
                 text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
             if os_name == 'Linux':
-                text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='')
+                text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
                 text = text['segments'][0]['text']
             print(text)
 
