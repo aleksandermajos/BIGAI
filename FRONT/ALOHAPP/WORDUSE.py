@@ -1,15 +1,15 @@
 import datetime
 from typing import List
+from WORD import WORD
 
 class WordUse:
-    def __init__(self, word):
+    def __init__(self, word: WORD):
         self.word = word
-
-    Write: List[datetime] = []
-    Rewrite: List[datetime] = []
-    Read: List[datetime] = []
-    Hear: List[datetime] = []
-    Repeat: List[datetime] = []
-    Say: List[datetime] = []
+        self.Write: List[datetime] = []
+        self.Rewrite: List[datetime] = []
+        self.Read: List[datetime] = []
+        self.Hear: List[datetime] = []
+        self.Repeat: List[datetime] = []
+        self.Say: List[datetime] = []
 
 

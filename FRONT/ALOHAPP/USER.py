@@ -47,12 +47,29 @@ class USER:
                 if source.lang==lang and 'FREQDICT' in source.name:
                     for thousand, part in enumerate(source.words_in_parts):
                         if word in part:
-                            get_score = part.items.index(word)+thousand*1000
-                            WORD_INSTANCE = WORD(word, lang, get_score)
-                            WORDUSE_INSTANCE = WordUse(WORD_INSTANCE)
-                            WORDUSE_INSTANCE.Say.append(datetime.now())
-                            self.words_past[lang_pos].append(WORDUSE_INSTANCE)
-                            continue
+                            Filled = False
+                            for curr_word_use in self.words_past[lang_pos]:
+                                Filled = False
+                                if curr_word_use.word.word==word:
+                                    curr_word_use.Say.append(datetime.now())
+                                    Filled = True
+                                    break
+                            if not Filled:
+                                get_score = part.items.index(word)+thousand*1000
+                                WORD_INSTANCE = WORD(word, lang, get_score)
+                                WORDUSE_INSTANCE = WordUse(WORD_INSTANCE)
+                                WORDUSE_INSTANCE.Say.append(datetime.now())
+                                self.words_past[lang_pos].append(WORDUSE_INSTANCE)
+                                break
+                            if not self.words_past[lang_pos]:
+                                get_score = part.items.index(word) + thousand * 1000
+                                WORD_INSTANCE = WORD(word, lang, get_score)
+                                WORDUSE_INSTANCE = WordUse(WORD_INSTANCE)
+                                WORDUSE_INSTANCE.Say.append(datetime.now())
+                                self.words_past[lang_pos].append(WORDUSE_INSTANCE)
+                                break
+
+
 
 
     def Update_Words_Present(self):
