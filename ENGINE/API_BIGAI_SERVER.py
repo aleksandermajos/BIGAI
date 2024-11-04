@@ -165,7 +165,7 @@ if STT_WHISPERX:
 if TTS_MELO:
     from melo.api import TTS
     from fastapi.responses import FileResponse
-    from ALOHAPP_LANG_CODES import get_lang_name_to_tts_melo
+    from ALOHAPP_LANG_CODES import get_lang_name_to_tts_melo, get_speaker_name_to_tts_melo
 
 
     class TextRequest(BaseModel):
@@ -187,26 +187,13 @@ if TTS_MELO:
             if os_name == 'Darwin':
                 device_melo = 'cpu'
 
-
-            lang,speaker = get_lang_name_to_tts_melo(lang_beg)
+            lang = get_lang_name_to_tts_melo(lang_beg)
+            speaker = get_speaker_name_to_tts_melo(lang)
             model_melo = TTS(language=lang, device=device_melo)
             speaker_ids = model_melo.hps.data.spk2id
             speaker_ids = speaker_ids[speaker]
 
-            current_lang = lang.upper()
-            melo_lang = model_melo.language
 
-            if current_lang != melo_lang:
-                lang, speaker = get_lang_name_to_tts_melo(lang_beg)
-                speed = 0.9
-                if os_name == 'Linux':
-                    device_melo = 'cuda:0'
-                if os_name == 'Darwin':
-                    device_melo = 'cpu'
-
-                model_melo = TTS(language=lang, device=device_melo)
-                speaker_ids = model_melo.hps.data.spk2id
-                speaker_ids = speaker_ids[speaker]
         else:
             generate_and_play(text,'nova',path=output_path)
             lang = lang_beg
