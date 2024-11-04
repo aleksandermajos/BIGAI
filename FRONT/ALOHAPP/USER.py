@@ -52,7 +52,7 @@ class USER:
                             WORDUSE_INSTANCE = WordUse(WORD_INSTANCE)
                             WORDUSE_INSTANCE.Say.append(datetime.now())
                             self.words_past[lang_pos].append(WORDUSE_INSTANCE)
-                            break
+                            continue
 
 
     def Update_Words_Present(self):
