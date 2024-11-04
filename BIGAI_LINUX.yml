@@ -89,7 +89,6 @@ dependencies:
   - openjpeg=2.4.0=h3ad879b_0
   - openssl=3.0.13=h7f8727e_2
   - pcre2=10.42=hebb0a14_0
-  - pillow=10.3.0=py311h5eee18b_0
   - pixman=0.43.2=h59595ed_0
   - portaudio=19.6.0=h7b6447c_4
   - pyaudio=0.2.11=py311h5eee18b_2
@@ -130,7 +129,6 @@ dependencies:
       - ale-py==0.8.1
       - alembic==1.13.1
       - altair==5.3.0
-      - ankipandas==0.3.15
       - annotated-types==0.6.0
       - antlr4-python3-runtime==4.9.3
       - anyascii==0.3.2
@@ -142,17 +140,14 @@ dependencies:
       - arrow==1.3.0
       - asgiref==3.8.1
       - asteroid-filterbanks==0.4.0
-      - astor==0.8.1
       - asttokens==2.4.1
       - astunparse==1.6.3
       - async-lru==2.0.4
-      - attrdict==2.0.1
       - attrs==23.2.0
       - audioread==3.0.1
       - av==11.0.0
       - babel==2.14.0
       - backoff==2.2.1
-      - bce-python-sdk==0.9.14
       - bcrypt==4.1.2
       - beautifulsoup4==4.12.3
       - binaryornot==0.4.4
@@ -192,13 +187,9 @@ dependencies:
       - crewai==0.28.8
       - crewai-tools==0.1.7
       - cryptography==42.0.5
-      - cssselect==1.2.0
-      - cssutils==2.11.1
       - ctranslate2==4.1.0
-      - cutlet==0.4.0
       - cycler==0.12.1
       - cymem==2.0.8
-      - cython==3.0.10
       - dataclasses-json==0.6.4
       - datasets==2.19.0
       - dateparser==1.1.8
@@ -232,12 +223,11 @@ dependencies:
       - fastapi-cli==0.0.2
       - faster-whisper==1.0.1
       - fastjsonschema==2.19.1
+      - fasttext==0.9.3
       - ffmpy==0.3.2
       - filelock==3.13.4
-      - fire==0.6.0
       - flash-attn==2.5.7
       - flask==3.0.3
-      - flask-babel==4.0.0
       - flatbuffers==24.3.25
       - flax==0.8.2
       - flet==0.19.0
@@ -307,7 +297,6 @@ dependencies:
       - hyperpyyaml==1.2.2
       - imageio==2.34.0
       - imageio-ffmpeg==0.4.9
-      - imgaug==0.4.0
       - importlib-metadata==7.0.0
       - importlib-resources==6.4.0
       - inflect==7.0.0
@@ -365,9 +354,7 @@ dependencies:
       - lit==18.1.4
       - llama-cpp-python==0.2.61
       - llvmlite==0.42.0
-      - lmdb==1.4.1
       - loguru==0.7.2
-      - lxml==5.2.2
       - mako==1.3.3
       - markdown==3.6
       - markdown-it-py==3.0.0
@@ -382,7 +369,6 @@ dependencies:
       - mistune==3.0.2
       - ml-dtypes==0.3.2
       - mmh3==4.1.0
-      - mojimoji==0.0.13
       - monotonic==1.6
       - more-itertools==10.2.0
       - moviepy==1.0.3
@@ -437,9 +423,8 @@ dependencies:
       - onnxruntime==1.16.3
       - openai==1.17.0
       - openai-whisper==20231117
-      - opencv-contrib-python==4.6.0.66
-      - opencv-python==4.6.0.66
-      - opencv-python-headless==4.10.0.82
+      - opencv-contrib-python==4.8.0.74
+      - opencv-python==4.9.0.80
       - openpyxl==3.1.2
       - opentelemetry-api==1.24.0
       - opentelemetry-exporter-otlp-proto-common==1.24.0
@@ -457,19 +442,18 @@ dependencies:
       - optree==0.11.0
       - optuna==3.6.1
       - orbax-checkpoint==0.5.9
+      - ordered-set==4.1.0
       - orjson==3.10.1
       - outcome==1.3.0.post0
       - overrides==7.7.0
       - packaging==23.2
-      - paddleocr==2.7.3
-      - paddlepaddle-gpu==2.6.0.post120
       - pandas==2.2.2
       - pandocfilters==1.5.1
       - parso==0.8.4
-      - pdf2docx==0.5.8
       - peft==0.10.0
       - pexpect==4.9.0
       - pfzy==0.3.4
+      - pillow==9.2.0
       - pip==24.0
       - plac==1.4.3
       - platformdirs==4.2.0
@@ -477,7 +461,6 @@ dependencies:
       - pluggy==1.5.0
       - pooch==1.8.1
       - posthog==3.5.0
-      - premailer==3.10.0
       - preshed==3.0.9
       - primepy==1.3
       - proces==0.1.7
@@ -501,9 +484,8 @@ dependencies:
       - pyarrow-hotfix==0.6
       - pyasn1==0.6.0
       - pyasn1-modules==0.4.0
-      - pyclipper==1.3.0.post5
+      - pybind11==2.13.6
       - pycparser==2.22
-      - pycryptodome==3.20.0
       - pycryptodomex==3.20.0
       - pydantic==2.7.0
       - pydantic-core==2.18.1
@@ -515,8 +497,6 @@ dependencies:
       - pyjwt==2.8.0
       - pykakasi==2.2.1
       - pylance==0.9.18
-      - pymupdf==1.24.5
-      - pymupdfb==1.24.3
       - pynacl==1.5.0
       - pyparsing==3.1.2
       - pypdf==3.17.4
@@ -530,12 +510,9 @@ dependencies:
       - pytest==8.1.1
       - python-crfsuite==0.9.10
       - python-dateutil==2.9.0.post0
-      - python-docx==1.1.2
       - python-dotenv==1.0.0
       - python-graphviz==0.8.4
       - python-json-logger==2.0.7
-      - python-mecab-ko==1.3.5
-      - python-mecab-ko-dic==2.1.1.post2
       - python-multipart==0.0.9
       - python-rapidjson==1.16
       - python-slugify==8.0.4
@@ -547,9 +524,6 @@ dependencies:
       - pyyaml==6.0
       - pyzmq==25.1.2
       - qrcode==7.4.2
-      - randomfiletree==1.2.0
-      - rapidfuzz==3.9.3
-      - rarfile==4.2
       - ratelimiter==1.2.0.post0
       - ray==2.11.0
       - referencing==0.34.0
@@ -571,7 +545,6 @@ dependencies:
       - s3transfer==0.10.1
       - safetensors==0.4.3
       - schema==0.7.5
-      - scikit-image==0.23.2
       - scikit-learn==1.4.2
       - scipy==1.9.3
       - selenium==4.19.0
@@ -631,7 +604,6 @@ dependencies:
       - tf-slim==1.1.0
       - thinc==8.2.3
       - threadpoolctl==3.4.0
-      - tifffile==2024.5.22
       - tiktoken==0.5.2
       - timm==0.9.2
       - tinycss2==1.2.1
@@ -674,7 +646,6 @@ dependencies:
       - utilsforecast==0.1.5
       - uvicorn==0.29.0
       - uvloop==0.19.0
-      - visualdl==2.5.3
       - wandb==0.16.6
       - wasabi==0.10.1
       - watchdog==3.0.0

@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="melo_tts repaired">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="no language zz repaired">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/dream.wav" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/dream.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/dream_jp.wav" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/dream_jp.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIGAI_LINUX.yml" beforeDir="false" afterPath="$PROJECT_DIR$/BIGAI_LINUX.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIGAI_LINUX_UBUNTU.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIGAI_MACOS.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1556,7 +1553,7 @@
       <workItem from="1730544656594" duration="3808000" />
       <workItem from="1730556960776" duration="8504000" />
       <workItem from="1730629295164" duration="544000" />
-      <workItem from="1730699836022" duration="6053000" />
+      <workItem from="1730699836022" duration="9652000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1585,14 +1582,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00173" summary="ALL DATA">
-      <option name="closed" value="true" />
-      <created>1728505542718</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1728505542719</updated>
     </task>
     <task id="LOCAL-00174" summary="APPLE SILICON">
       <option name="closed" value="true" />
@@ -1946,7 +1935,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730704030275</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="no language zz repaired">
+      <option name="closed" value="true" />
+      <created>1730706354554</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1730706354554</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1972,7 +1969,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="CLEAR PATH TO PROTOTYPE IN README" />
     <MESSAGE value="CLEAR PATH TO PROTOTYPE AND LANGUAGES" />
     <MESSAGE value="TRAnslate on server fixed, langdetect done" />
     <MESSAGE value="TRAnslate on server fixed, langdetect done without big file" />
@@ -1997,7 +1993,8 @@
     <MESSAGE value="early stage Update words past" />
     <MESSAGE value="alex user" />
     <MESSAGE value="melo_tts repaired" />
-    <option name="LAST_COMMIT_MESSAGE" value="melo_tts repaired" />
+    <MESSAGE value="no language zz repaired" />
+    <option name="LAST_COMMIT_MESSAGE" value="no language zz repaired" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2223,16 +2220,6 @@
           <url>file://$PROJECT_DIR$/ENGINE/OMNIGEN.py</url>
           <line>19</line>
           <option name="timeStamp" value="414" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py</url>
-          <line>85</line>
-          <option name="timeStamp" value="415" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py</url>
-          <line>147</line>
-          <option name="timeStamp" value="440" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
