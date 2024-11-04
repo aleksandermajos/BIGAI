@@ -10,7 +10,7 @@ os_name = platform.system()
 
 
 class USER:
-    def __init__(self, native, langs, langs_priority, words_pd=15, time_pd=60, old_new=80):
+    def __init__(self, native, langs, langs_priority,hmt=2, words_pd=15, time_pd=60, old_new=80):
         self.native = native
         self.langs = langs
         self.langs_priority = langs_priority
@@ -22,6 +22,7 @@ class USER:
         self.words_pd = words_pd
         self.time_pd = time_pd
         self.old_new = old_new
+        self.hmt = hmt
         self.sources: List[SOURCE] = []
         if os_name == 'Darwin':
             self.sources.append(SOURCE(source_type='AUDIO',user_type='BOOK',name='ASSIMIL',lang=self.langs[0][0],path=r'/Users/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+self.langs[0][0].upper()+'/SELF_LEARNING/ASSIMIL'))
@@ -36,6 +37,7 @@ class USER:
 
 
     def Update_Words_Past(self,my_sentences, my_sentences_languages, bot_sentences):
+        known_words = []
         lang = my_sentences_languages[-1]
         lang_pos =  self.langs.index(lang)
         curr_sentence = my_sentences[-1]
@@ -52,6 +54,8 @@ class USER:
                                 Filled = False
                                 if curr_word_use.word.word==word:
                                     curr_word_use.Say.append(datetime.now())
+                                    if len(curr_word_use.Say) >= self.hmt:
+                                        known_words.append(word)
                                     Filled = True
                                     break
                             if not Filled:
