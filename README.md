@@ -8,8 +8,6 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 ### FIRST CYCLE:
 | NAME                                                                    | AS CODE   | YT VIDEO                                                | TIME           |
 |-------------------------------------------------------------------------|-----------|---------------------------------------------------------|----------------|
-| UPDATE PASS+PRESENT CLASS PATTERN                                       |           |                                                         | 4              |
-| DISAPPEAR LEFT WORDS                                                    |           |                                                         | 2              |
 | PRINT OUT WORDS AND TRANSLATIONS                                        |           |                                                         | 3              |
 | TRANSLATION FROM LLM DIVIDE BY 2                                        |           |                                                         | 2              |
 | LOAD ALL SOURCES BY LANGUAGE                                            |           |                                                         | 4              |

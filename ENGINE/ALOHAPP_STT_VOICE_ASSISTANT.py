@@ -85,7 +85,11 @@ class VoiceAssistant:
                 text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
             if os_name == 'Linux':
                 text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
-                text = text['segments'][0]['text']
+                try:
+                    text = text['segments'][0]['text']
+                except IndexError:
+                    print("Error: No transcription segments found. Please try speaking more clearly or check your microphone.")
+                    text='ok'
             print(text)
 
         lang_of_my_sentence = detect_language(text)
@@ -103,7 +107,13 @@ class VoiceAssistant:
                     text_ll = transcribe(file_path=os.getcwd()+'/audio_file.wav', language=self.main_language)
                 if os_name == 'Linux':
                     text_ll = transcribe(file_path=os.getcwd()+'/audio_file.wav', language=self.main_language)
-                    text_ll = text_ll['segments'][0]['text']
+                    try:
+                        text_ll = text_ll['segments'][0]['text']
+                    except IndexError:
+                        print("Error: No transcription segments found. Please try speaking more clearly or check your microphone.")
+                        text = 'ok'
+
+
 
 
 
