@@ -5,8 +5,6 @@ from USER import USER
 import pickle
 
 
-
-
 def main(page: ft.Page):
     page.title = "ALOHAPP"
     '''
@@ -18,11 +16,12 @@ def main(page: ft.Page):
     with open('USER_ALEX.pkl', 'rb') as file:
         page.user = pickle.load(file)
 
+    page.user.hmt = 4
 
     page.user.Update_Words_Present()
     page.user.Create_Prompt_From_Words_Present()
 
-    page.words_buttons = generate_words_buttons(list(page.user.sources[0].words_in_parts[0]))
+    page.words_buttons = generate_words_buttons(list(page.user.sources[2].words_in_parts[0]))
     page.words_column ,page.words_container = create_words_container(page.words_buttons)
     page.conversation_column ,page.conversation_container = create_conversation_container()
     page.helper_column ,page.helper_container = create_helper_container()
