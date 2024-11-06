@@ -96,27 +96,28 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | FIRST CUSTOMERS(10) YT,PRO                                      |           |                                                         | 0         |
 | SAMURAI CLONES                                                  |           |                                                         | 14        |
 | GETTING FIN UK 18K                                              |           |                                                         | 48        |
-| SUMMA---------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:300 |
+| SUMMA---------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:274 |
 
 ### BIGAI BUSINESS:
 | NAME                                                            | AS CODE   | YT VIDEO                                                | TIME      |
 |-----------------------------------------------------------------|-----------|---------------------------------------------------------|-----------|
 | LIST OF BUSINESSES                                              |           |                                                         | 8         |
 | IMPLEMENT INDICATORS                                            |           |                                                         | 8         |
-| PORTFOLIO                                                       |           |                                                         | 24        |
+| PORTFOLIO OF BUSINESSES                                         |           |                                                         | 24        |
 | ADDING ALOHAPP                                                  |           |                                                         | 12        |
 | ADDING CC                                                       |           |                                                         | 12        |
 | RUNNING QM                                                      |           |                                                         | 24        |
 | RUNNING SAMURAI                                                 |           |                                                         | 24        |
 | RUNNING BIGAI BUSINESS                                          |           |                                                         | 24        |
 | ADDING BUSINESS HALF AUTOMATIC                                  |           |                                                         | 24        |
+| PEOPLE ADD BUSINESS                                             |           |                                                         | 24        |
 | WELCOMING WINDOW                                                |           |                                                         | 12        |
 | LANGUAGE ELEMENT                                                |           |                                                         | 12        |
 | WEB VERSION+USER DB SERVER                                      |           |                                                         | 24        |
 | WEB ON MOBILE VERSION                                           |           |                                                         | 24        |
 | FIRST CUSTOMERS(10) YT,PRO                                      |           |                                                         | 0         |
 | GETTING FIN UK 18K                                              |           |                                                         | 48        |
-| SUMMA---------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:320 |
+| SUMMA---------------------------------------------------------- | --------- | ------------------------------------------------------- | SUMMA:304 |
 
 
 
