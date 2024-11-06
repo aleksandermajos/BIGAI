@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="Translate bot part">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1555,7 +1554,7 @@
       <workItem from="1730719947983" duration="346000" />
       <workItem from="1730720297371" duration="8000" />
       <workItem from="1730827999091" duration="1770000" />
-      <workItem from="1730899055402" duration="2410000" />
+      <workItem from="1730899055402" duration="3219000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1584,14 +1583,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00181" summary="ALOHAPP FLET VOICE ASSISTANT FR OPENAI">
-      <option name="closed" value="true" />
-      <created>1728774129588</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1728774129588</updated>
     </task>
     <task id="LOCAL-00182" summary="ALOHAPP FLET VOICE ASSISTANT FR USING SERVER.TTS,STT,TEX_GEN PROVIDERS SEPARATED">
       <option name="closed" value="true" />
@@ -1945,7 +1936,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730837001451</updated>
     </task>
-    <option name="localTasksCounter" value="226" />
+    <task id="LOCAL-00226" summary="Translate bot part">
+      <option name="closed" value="true" />
+      <created>1730902547596</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1730902547596</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
