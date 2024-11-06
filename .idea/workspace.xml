@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="Translate bot part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/ALOHAPP.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ALOHAPP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +47,12 @@
     &quot;assignee&quot;: &quot;aleksandermajos&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aleksandermajos/BIGAI.git",
-    "accountId": "04f747ae-25db-49ef-9071-5d3744e5742a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aleksandermajos/BIGAI.git&quot;,
+    &quot;accountId&quot;: &quot;04f747ae-25db-49ef-9071-5d3744e5742a&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -1555,7 +1554,8 @@
       <workItem from="1730699836022" duration="9652000" />
       <workItem from="1730719947983" duration="346000" />
       <workItem from="1730720297371" duration="8000" />
-      <workItem from="1730827999091" duration="1668000" />
+      <workItem from="1730827999091" duration="1770000" />
+      <workItem from="1730899055402" duration="2410000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1584,14 +1584,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00180" summary="ALOHAPP FLET VOICE ASSISTANT FR">
-      <option name="closed" value="true" />
-      <created>1728772713544</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1728772713545</updated>
     </task>
     <task id="LOCAL-00181" summary="ALOHAPP FLET VOICE ASSISTANT FR OPENAI">
       <option name="closed" value="true" />
@@ -1945,7 +1937,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730754292386</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="Translate bot part">
+      <option name="closed" value="true" />
+      <created>1730837001450</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1730837001451</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -2222,6 +2222,11 @@
           <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/ALOHAPP.py</url>
           <line>18</line>
           <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py</url>
+          <line>164</line>
+          <option name="timeStamp" value="416" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
