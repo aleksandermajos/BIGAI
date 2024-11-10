@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="Translate bot part">
-      <change afterPath="$PROJECT_DIR$/ENGINE/CODE_GEN_BY_DEEPSEEKCODERV2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +50,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/aleksandermajos/BIGAI.git",
-    "accountId": "57255f2a-a4f8-48e5-9f8c-1a8bc0aa7568"
+    "accountId": "04f747ae-25db-49ef-9071-5d3744e5742a"
   }
 }]]></component>
   <component name="MarkdownSettingsMigration">
@@ -1558,6 +1556,9 @@
       <workItem from="1730720297371" duration="8000" />
       <workItem from="1730827999091" duration="1770000" />
       <workItem from="1730899055402" duration="3219000" />
+      <workItem from="1730910333313" duration="1243000" />
+      <workItem from="1731151677809" duration="627000" />
+      <workItem from="1731234171136" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1586,14 +1587,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00182" summary="ALOHAPP FLET VOICE ASSISTANT FR USING SERVER.TTS,STT,TEX_GEN PROVIDERS SEPARATED">
-      <option name="closed" value="true" />
-      <created>1728906438884</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1728906438885</updated>
     </task>
     <task id="LOCAL-00183" summary="ALOHAPP RIGHT BEFORE INITIAL CONVERSATION">
       <option name="closed" value="true" />
@@ -1947,7 +1940,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730902547596</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="Translate bot part">
+      <option name="closed" value="true" />
+      <created>1730910345051</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1730910345051</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
