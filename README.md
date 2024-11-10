@@ -77,49 +77,6 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | GETTING FIN UK 18K                                              | 48        |
 | SUMMA---------------------------------------------------------- | SUMMA:300 |
 
-### SAMURAI:
-| NAME                                                            | TIME      |
-|-----------------------------------------------------------------|-----------|
-| LIST OF GOOD HABITS                                             | 8         |
-| LIST OF BAD HABITS                                              | 8         |
-| YOGA PART                                                       | 24        |
-| MEDI PART                                                       | 12        |
-| WORKING PART                                                    | 12        |
-| RUNNING PART                                                    | 24        |
-| LANG PART                                                       | 16        |
-| FOOD PART                                                       | 24        |
-| BOOK PART                                                       | 12        |
-| WELCOMING WINDOW                                                | 12        |
-| LANGUAGE ELEMENT                                                | 12        |
-| WEB VERSION+USER DB SERVER                                      | 24        |
-| WEB ON MOBILE VERSION                                           | 24        |
-| FIRST CUSTOMERS(10) YT,PRO                                      | 0         |
-| SAMURAI CLONES                                                  | 14        |
-| GETTING FIN UK 18K                                              | 48        |
-| SUMMA---------------------------------------------------------- | SUMMA:274 |
-
-### BIGAI BUSINESS:
-| NAME                                                            | TIME      |
-|-----------------------------------------------------------------|-----------|
-| LIST OF BUSINESSES                                              | 8         |
-| IMPLEMENT INDICATORS                                            | 8         |
-| PORTFOLIO OF BUSINESSES                                         | 24        |
-| ADDING ALOHAPP                                                  | 12        |
-| ADDING CC                                                       | 12        |
-| RUNNING QM                                                      | 24        |
-| RUNNING SAMURAI                                                 | 24        |
-| RUNNING BIGAI BUSINESS                                          | 24        |
-| ADDING BUSINESS HALF AUTOMATIC                                  | 24        |
-| PEOPLE ADD BUSINESS                                             | 24        |
-| WELCOMING WINDOW                                                | 12        |
-| LANGUAGE ELEMENT                                                | 12        |
-| WEB VERSION+USER DB SERVER                                      | 24        |
-| WEB ON MOBILE VERSION                                           | 24        |
-| FIRST CUSTOMERS(10) YT,PRO                                      | 0         |
-| GETTING FIN UK 18K                                              | 48        |
-| SUMMA---------------------------------------------------------- | SUMMA:304 |
-
-
 
 *⭐️ INSTALL REQUIREMENTS:*
 pip install -r requirements_{your_operating_system}.txt
@@ -140,8 +97,65 @@ conda env create -f BIGAI_{your_operating_system}.yml
 >
 > * No promises. No guarantees. Use at own risk.
 
+### SAMURAI:
+| NAME                                                            | TIME      |
+|-----------------------------------------------------------------|-----------|
+| LIST OF GOOD HABITS                                             | 8         |
+| LIST OF BAD HABITS                                              | 8         |
+| YOGA PART                                                       | 24        |
+| MEDI PART                                                       | 12        |
+| WORKING PART                                                    | 12        |
+| RUNNING PART                                                    | 24        |
+| LANG PART                                                       | 16        |
+| FOOD PART                                                       | 24        |
+| BOOK PART                                                       | 12        |
+| WELCOMING WINDOW                                                | 12        |
+| LANGUAGE ELEMENT                                                | 12        |
+| WEB VERSION+USER DB SERVER                                      | 24        |
+| WEB ON MOBILE VERSION                                           | 24        |
+| FIRST CUSTOMERS(10) YT,PRO                                      | 0         |
+| SAMURAI CLONES                                                  | 14        |
+| GETTING FIN UK 18K                                              | 48        |
+| SUMMA---------------------------------------------------------- | SUMMA:300 |
+
+### BIGAI BUSINESS:
+| NAME                                                            | TIME      |
+|-----------------------------------------------------------------|-----------|
+| LIST OF BUSINESSES                                              | 8         |
+| IMPLEMENT INDICATORS                                            | 8         |
+| PORTFOLIO OF BUSINESSES                                         | 24        |
+| ADDING ALOHAPP                                                  | 12        |
+| ADDING CC                                                       | 12        |
+| RUNNING QM                                                      | 24        |
+| RUNNING SAMURAI                                                 | 24        |
+| RUNNING BIGAI BUSINESS                                          | 24        |
+| ADDING BUSINESS PIPELINE                                        | 24        |
+| PEOPLE ADD BUSINESS                                             | 24        |
+| WELCOMING WINDOW                                                | 12        |
+| LANGUAGE ELEMENT                                                | 12        |
+| WEB VERSION+USER DB SERVER                                      | 24        |
+| WEB ON MOBILE VERSION                                           | 24        |
+| FIRST CUSTOMERS(10) YT,PRO                                      | 0         |
+| GETTING FIN UK 18K                                              | 48        |
+| SUMMA---------------------------------------------------------- | SUMMA:304 |
+
+### BIGAI MARKETING:
+| NAME                                                            | TIME      |
+|-----------------------------------------------------------------|-----------|
+| IDENTIFY YOUR BUSINESS                                          | 24        |
+| IDENTIFY BEST ROI MARKETING                                     | 36        |
+| SCRAPPING                                                       | 24        |
+| BUSINESS SPECIFIC RAG                                           | 24        |
+| PEOPLE ADD BUSINESS                                             | 24        |
+| WELCOMING WINDOW                                                | 12        |
+| LANGUAGE ELEMENT                                                | 12        |
+| WEB VERSION+USER DB SERVER                                      | 24        |
+| WEB ON MOBILE VERSION                                           | 24        |
+| SUMMA---------------------------------------------------------- | SUMMA:300 |
 
 
+
+### GUI UNREAL:
 | NAME                                                            | TIME      |
 |-----------------------------------------------------------------|-----------|
 | SMART GLASSES                                                   | 48        |
@@ -152,18 +166,15 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | FULL ANDROID ON UNREAL PORT + ANDROID WEREABLE                  | 160       |
 | FULL iOS ON UNREAL PORT + iOS WEREABLE                          | 160       |
 | BIGAI MARKETING                                                 | 96        |
-| GETTING FIN UK 52K                                              | 48        |
-| --------------------------------------------------------------- | SUMMA:464 |         
+| --------------------------------------------------------------- | SUMMA:304 |         
 
-
+### VR+CONSOLE GUI:
 | NAME                                                            | TIME      |
 |-----------------------------------------------------------------|-----------|
 | FULL VR ON UNREAL + VIDEO GEN                                   | 120       |
 | FULL PLAYSTATION 5 ON UNREAL                                    | 120       |
 | FULL XBOX ON UNREAL                                             | 120       |
-| GETTING FIN UK 144K                                             | 48        |
-| CLONE GROUP A AVAILABLE EVERYWHERE                              | 144       |
-| --------------------------------------------------------------- | SUMMA:552 |   
+| --------------------------------------------------------------- | SUMMA:360 |   
 
 
 

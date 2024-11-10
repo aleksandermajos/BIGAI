@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="Translate bot part">
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -47,12 +47,12 @@
     &quot;assignee&quot;: &quot;aleksandermajos&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aleksandermajos/BIGAI.git",
-    "accountId": "04f747ae-25db-49ef-9071-5d3744e5742a"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aleksandermajos/BIGAI.git&quot;,
+    &quot;accountId&quot;: &quot;04f747ae-25db-49ef-9071-5d3744e5742a&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -1558,7 +1558,8 @@
       <workItem from="1730899055402" duration="3219000" />
       <workItem from="1730910333313" duration="1243000" />
       <workItem from="1731151677809" duration="627000" />
-      <workItem from="1731234171136" duration="507000" />
+      <workItem from="1731234171136" duration="1697000" />
+      <workItem from="1731236174884" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1587,14 +1588,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00183" summary="ALOHAPP RIGHT BEFORE INITIAL CONVERSATION">
-      <option name="closed" value="true" />
-      <created>1728920573375</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1728920573375</updated>
     </task>
     <task id="LOCAL-00184" summary="ALOHAPP FIRST PIC GEN DURING CONV">
       <option name="closed" value="true" />
@@ -1948,7 +1941,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730910345051</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="README">
+      <option name="closed" value="true" />
+      <created>1731234689393</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1731234689394</updated>
+    </task>
+    <option name="localTasksCounter" value="229" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -1974,7 +1975,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="README 1060H OF WORK" />
     <MESSAGE value="README 1612H OF WORK" />
     <MESSAGE value="1 CIRCLE-&gt; 1800H,&#10;ALL CLONES-&gt; 2700H,&#10;NEXT CYCLE+CLONES-&gt;3600H" />
     <MESSAGE value="SPACY STANZA LEMMATIZER ON SERVER" />
@@ -1999,7 +1999,8 @@
     <MESSAGE value="User ALEX 14 Sources" />
     <MESSAGE value="VAD perfect loop" />
     <MESSAGE value="Translate bot part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Translate bot part" />
+    <MESSAGE value="README" />
+    <option name="LAST_COMMIT_MESSAGE" value="README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
