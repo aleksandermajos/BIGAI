@@ -85,7 +85,7 @@ if LANG_DETECT_FT:
     import fasttext
 
     if os_name == 'Darwin':
-        MODEL_PATH = r'/Users/bigai/PycharmProjects/BIGAI/MODELS/TEXT/fasttext/lid.176.bin'
+        MODEL_PATH = r'/Users/bigai_mini/PycharmProjects/BIGAI/MODELS/TEXT/fasttext/lid.176.bin'
 
     if os_name == 'Linux':
         MODEL_PATH = r'/home/bigai/PycharmProjects/BIGAI/MODELS/TEXT/fasttext/lid.176.bin'
@@ -269,7 +269,7 @@ if TRANSLATE_NLLB:
     @app.post("/translate", response_model=TranslationResponse)
     def translate(request: TranslationRequest):
         translator = pipeline('translation', model=model_trans, tokenizer=tokenizer,src_lang=request.source_language, tgt_lang=request.target_language,
-                              max_length=400, device='cuda:0')
+                              max_length=400, device='cpu')
         translated_text = translator(request.text)[0]['translation_text']
         return TranslationResponse(translated_text=translated_text)
 
