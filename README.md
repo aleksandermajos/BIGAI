@@ -11,6 +11,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | CODE GEN LLM LOCALLY                               | 4         |
 | CODE GEN LLM EXTERNALLY                            | 8         |
 | SANDBOX FOR RUNNING CODE + DEBUGGER STATE          | 36        |
+| PIC RECOGNIZE                                      | 36        |
 | CREW AI + FUNCTION CALLING                         | 12        |
 | VOICE CLONING                                      | 12        |
 | TIMESERIES ALGOS                                   | 18        |
@@ -25,7 +26,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | CREATING A PIPELINE FOR ML                         | 30        |
 | CREATING A PIPELINE FOR NEW BUSINESSPLAN           | 18        |
 | CREATING A PIPELINE FOR MARKETING                  | 36        |
-| -----------------------------------------------    | SUMMA:360 |
+| -----------------------------------------------    | SUMMA:400 |
 
 ### UNREAL ENGINE :
 | NAME                     | TIME      |

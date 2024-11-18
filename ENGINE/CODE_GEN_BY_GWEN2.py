@@ -1,87 +1,67 @@
-import tkinter as tk
+import time
+import random
+
+import flet as ft
 
 
-class SnakeGame:
-    def __init__(self):
-        self.root = tk.Tk()
-        self.root.title("Snake game")
+def main(page: ft.Page):
+    page.title = "Snake Game"
+    page.window_width = 600
+    page.window_height = 400
 
-        # Create canvas
-        self.canvas = tk.Canvas(self.root, width=500, height=500, bg="white")
-        self.canvas.pack()
+    snake = [(200, 200), (180, 200), (160, 200)]
+    direction = ft.Vector(10, 0)
+    food = (random.randint(0, page.width // 10) * 10, random.randint(0,
+                                                                     page.height // 10) * 10)
 
-        # Snake position and direction
-        self.snake_pos = [[100, 100], [90, 100], [80, 100]]
-        self.direction = 'Right'
+    def update():
+        nonlocal snake, direction, food
 
-        # Food for snake
-        self.food_pos = self.set_food()
+        head = snake[0]
+        new_head = (head[0] + direction.x, head[1] + direction.y)
 
-        # Binding keys to change direction of the snake
-        self.root.bind('<KeyPress>', self.change_dir)
+        # Check if the snake collides with the walls or itself
+        if not (0 <= new_head[0] < page.width and 0 <= new_head[1] <
+                page.height) or new_head in snake:
+            page.window_close()
 
-        self.run_game()
+        # Check if the snake eats the food
+        if new_head == food:
+            snake.append(new_head)
+            food = (random.randint(0, page.width // 10) * 10,
+                    random.randint(0, page.height // 10) * 10)
 
-    def run_game(self):
-        self.clear_canvas()
-
-        # If snake hits itself or wall, then game over
-        if any(block in self.snake_pos[1:] for block in [self.snake_pos[0]]) \
-                or not 0 <= self.snake_pos[0][0] <= 490 \
-                or not 0 <= self.snake_pos[0][1] <= 490:
-            self.game_over()
         else:
-            # Move snake
-            self.move_snake()
+            snake.pop()
 
-            # If the snake eats food, generate new food and increase length of snake
-            if self.snake_pos[0] == self.food_pos:
-                self.food_pos = self.set_food()
-                self.snake_pos.append(self.snake_pos[-1])
-            else:
-                self.snake_pos.pop()
+        # Update the snake's position
+        snake.insert(0, new_head)
 
-            self.draw_game_elements()
+        for segment in snake:
+            page.canvas.add(ft.CircleSegment(center=ft.Point(segment[0],
+                                                             segment[1]), radius=8, color="green"))
 
-            # update game every 250 milliseconds
-            self.root.after(250, self.run_game)
+        page.canvas.add(ft.CircleSegment(center=ft.Point(food[0],
+                                                         food[1]), radius=8, color="red"))
+        page.update()
 
-    def clear_canvas(self):
-        self.canvas.delete("all")
+    def on_key(event):
+        nonlocal direction
 
-    def change_dir(self, event=None):
-        if (self.direction == "Right" and not event.keysym == "Left") or \
-                (self.direction == "Left" and not event.keysym == "Right") or \
-                (self.direction == "Up" and not event.keysym == "Down") or \
-                (self.direction == "Down" and not event.keysym == "Up"):
-            self.direction = event.keysym
+        if event.key == "ArrowUp" and direction.y != 10:
+            direction = ft.Vector(0, -10)
+        elif event.key == "ArrowDown" and direction.y != -10:
+            direction = ft.Vector(0, 10)
+        elif event.key == "ArrowLeft" and direction.x != 10:
+            direction = ft.Vector(-10, 0)
+        elif event.key == "ArrowRight" and direction.x != -10:
+            direction = ft.Vector(10, 0)
 
-    def move_snake(self):
-        head_x, head_y = self.snake_pos[0]
+    page.on_key_event = on_key
 
-        if self.direction == 'Right':
-            self.snake_pos.insert(0, [head_x + 10, head_y])
-        elif self.direction == 'Left':
-            self.snake_pos.insert(0, [head_x - 10, head_y])
-        elif self.direction == 'Up':
-            self.snake_pos.insert(0, [head_x, head_y - 10])
-        else:
-            self.snake_pos.insert(0, [head_x, head_y + 10])
-
-    def set_food(self):
-        return [self.canvas.create_oval(250, 250, 260, 260, fill="red"), 255, 255]
-
-    def draw_game_elements(self):
-        for pos in self.snake_pos:
-            self.canvas.create_rectangle(pos[0], pos[1], pos[0] + 10, pos[1] + 10, fill="green")
-
-        # Draw Food
-        self.canvas.create_rectangle(self.food_pos[0], self.food_pos[1],
-                                     self.food_pos[0] + 10, self.food_pos[1] + 10, fill='red')
-
-    def game_over(self):
-        self.clear_canvas()
-        self.canvas.create_text(250, 250, text='Game Over!', font=('TkDefaultFont', 30), fill='red')
+    while True:
+        update()
+        time.sleep(0.25)
 
 
-SnakeGame().root.mainloop()
+ft.app(target=main)
