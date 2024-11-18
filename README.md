@@ -5,6 +5,42 @@
 
 https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 
+### BIGAI ENGINE:
+| NAME                                               | TIME      |
+|----------------------------------------------------|-----------|
+| CODE GEN LLM LOCALLY                               | 4         |
+| CODE GEN LLM EXTERNALLY                            | 8         |
+| SANDBOX FOR RUNNING CODE + DEBUGGER STATE          | 36        |
+| CREW AI + FUNCTION CALLING                         | 12        |
+| VOICE CLONING                                      | 12        |
+| TIMESERIES ALGOS                                   | 18        |
+| KNOWLEDGE GRAPH DATABASE                           | 18        |
+| SCRAPPER FULL                                      | 12        |
+| RAG FULL                                           | 24        |
+| FINETUNE FULL                                      | 24        |
+| TRAIN TRANSFORMER FROM SCRATCH ON SMALL FUNC GRAPH | 36        |
+| RL ALGOS                                           | 18        |
+| GENERATE GUI ANY FRAMEWORK                         | 24        |
+| ADDING EXTERNAL TOOLS AND FRAMEWORKS               | 36        |
+| CREATING A PIPELINE FOR ML                         | 30        |
+| CREATING A PIPELINE FOR NEW BUSINESSPLAN           | 18        |
+| CREATING A PIPELINE FOR MARKETING                  | 36        |
+| -----------------------------------------------    | SUMMA:360 |
+
+### UNREAL ENGINE :
+| NAME                     | TIME      |
+|--------------------------|-----------|
+| METAHUMANS WITH LIPS     | 24        |
+| API CALL MP3             | 18        |
+| TRANSCRIBE MP3           | 24        |
+| FACESWAP REAL            | 36        |
+| BODYSWAP REAL            | 64        |
+| ENVIROMENT SWAP REAL     | 64        |
+| LOGIC INJECTION FROM API | 72        |
+| VR/AR                    | 36        |
+| -----------------------  | SUMMA:336 |
+
+
 ### ALOHAPP:
 | NAME                                                                     | TIME      |
 |--------------------------------------------------------------------------|-----------|
@@ -77,26 +113,6 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | GETTING FIN UK 18K                                              | 48        |
 | SUMMA---------------------------------------------------------- | SUMMA:300 |
 
-
-*⭐️ INSTALL REQUIREMENTS:*
-pip install -r requirements_{your_operating_system}.txt
-
-*⭐️ RECREATE CONDA ENVIROMENT:*
-conda env create -f BIGAI_{your_operating_system}.yml
-
-*⭐️ Like this repo? please star & consider donating to keep it maintained*
-
-<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-
-> **BEWARE**: This is a work in progress!
->
-> * Code here may change and disappear without warning.
->
-> * Major reorganizations may happen at any time.
->
-> * No promises. No guarantees. Use at own risk.
-
 ### SAMURAI:
 | NAME                                                            | TIME      |
 |-----------------------------------------------------------------|-----------|
@@ -139,7 +155,7 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | GETTING FIN UK 18K                                              | 48        |
 | SUMMA---------------------------------------------------------- | SUMMA:304 |
 
-### BIGAI MARKETING:
+### BIGAI MARKETING:**
 | NAME                                                            | TIME      |
 |-----------------------------------------------------------------|-----------|
 | IDENTIFY YOUR BUSINESS                                          | 24        |
@@ -153,28 +169,41 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | WEB ON MOBILE VERSION                                           | 24        |
 | SUMMA---------------------------------------------------------- | SUMMA:300 |
 
+### SMART DEVICES/HARDWARE:
+| NAME              | TIME |
+|-------------------|------|
+| SMART GLASSES     | 48   |
+| SMART SPEAKERS    | 36   |
+| CHROME EXTENSION  | 48   |
+| OWN HARDWARE      | 60   |
+| OWN HARDWARE2     | 60   |
+| GETTING FIN       | 48   |
+| SUMMA----------   | SUMMA:300 |
+
+***⭐️ INSTALL REQUIREMENTS:*
+pip install -r requirements_{your_operating_system}.txt
+
+*⭐️ RECREATE CONDA ENVIROMENT:*
+conda env create -f BIGAI_{your_operating_system}.yml
+
+*⭐️ Like this repo? please star & consider donating to keep it maintained*
+
+<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 
-### GUI UNREAL:
-| NAME                                                            | TIME      |
-|-----------------------------------------------------------------|-----------|
-| SMART GLASSES                                                   | 48        |
-| SMART SPEAKERS                                                  | 36        |
-| CHROME EXTENSION                                                | 48        |
-| BIGAI MARKETING                                                 | 96        |
-| GETTING FIN UK 36K                                              | 48        |
-| FULL ANDROID ON UNREAL PORT + ANDROID WEREABLE                  | 160       |
-| FULL iOS ON UNREAL PORT + iOS WEREABLE                          | 160       |
-| BIGAI MARKETING                                                 | 96        |
-| --------------------------------------------------------------- | SUMMA:304 |         
+> **BEWARE**: This is a work in progress!
+>
+> * Code here may change and disappear without warning.
+>
+> * Major reorganizations may happen at any time.
+>
+> * No promises. No guarantees. Use at own risk.
 
-### VR+CONSOLE GUI:
-| NAME                                                            | TIME      |
-|-----------------------------------------------------------------|-----------|
-| FULL VR ON UNREAL + VIDEO GEN                                   | 120       |
-| FULL PLAYSTATION 5 ON UNREAL                                    | 120       |
-| FULL XBOX ON UNREAL                                             | 120       |
-| --------------------------------------------------------------- | SUMMA:360 |   
+
+
+
+
+ 
 
 
 
