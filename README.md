@@ -150,6 +150,9 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | IDENTIFY BEST ROI MARKETING                                     | 36        |
 | SCRAPPING                                                       | 24        |
 | BUSINESS SPECIFIC RAG                                           | 24        |
+| X SPECIFIC RAG                                                  | 24        |
+| TIKTOK SPECIFIC RAG                                             | 24        |
+| YT SPECIFIC RAG                                                 | 24        |
 | PEOPLE ADD BUSINESS                                             | 24        |
 | WELCOMING WINDOW                                                | 12        |
 | LANGUAGE ELEMENT                                                | 12        |

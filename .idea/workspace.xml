@@ -1573,6 +1573,7 @@
       <workItem from="1731812140380" duration="2832000" />
       <workItem from="1731950448881" duration="7579000" />
       <workItem from="1731970858311" duration="632000" />
+      <workItem from="1732001375238" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1601,14 +1602,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00185" summary="ALOHAPP FIRST MEANNGFULL CONVERSATIONS WITH WORDS FROM 7 LESSONS IN ASSIMIL">
-      <option name="closed" value="true" />
-      <created>1729104763038</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1729104763039</updated>
     </task>
     <task id="LOCAL-00186" summary="ALOHAPP FIRST MEANNGFULL CONVERSATIONS WITH WORDS FROM 2 LESSONS IN ASSIMIL">
       <option name="closed" value="true" />
@@ -1962,7 +1955,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731970866271</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="README">
+      <option name="closed" value="true" />
+      <created>1732001424418</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1732001424418</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
