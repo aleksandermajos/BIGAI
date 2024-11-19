@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/CODE_GEN_BY_GWEN2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/CODE_GEN_BY_GWEN2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +47,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/aleksandermajos/BIGAI.git&quot;,
-    &quot;accountId&quot;: &quot;04f747ae-25db-49ef-9071-5d3744e5742a&quot;
+    &quot;accountId&quot;: &quot;57255f2a-a4f8-48e5-9f8c-1a8bc0aa7568&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -1577,6 +1572,7 @@
       <workItem from="1731810180940" duration="38000" />
       <workItem from="1731812140380" duration="2832000" />
       <workItem from="1731950448881" duration="7579000" />
+      <workItem from="1731970858311" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1605,14 +1601,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00184" summary="ALOHAPP FIRST PIC GEN DURING CONV">
-      <option name="closed" value="true" />
-      <created>1728934986783</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1728934986784</updated>
     </task>
     <task id="LOCAL-00185" summary="ALOHAPP FIRST MEANNGFULL CONVERSATIONS WITH WORDS FROM 7 LESSONS IN ASSIMIL">
       <option name="closed" value="true" />
@@ -1966,7 +1954,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731234689394</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="README">
+      <option name="closed" value="true" />
+      <created>1731970866271</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1731970866271</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">

@@ -28,19 +28,6 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | CREATING A PIPELINE FOR MARKETING                  | 36        |
 | -----------------------------------------------    | SUMMA:400 |
 
-### UNREAL ENGINE :
-| NAME                     | TIME      |
-|--------------------------|-----------|
-| METAHUMANS WITH LIPS     | 24        |
-| API CALL MP3             | 18        |
-| TRANSCRIBE MP3           | 24        |
-| FACESWAP REAL            | 36        |
-| BODYSWAP REAL            | 64        |
-| ENVIROMENT SWAP REAL     | 64        |
-| LOGIC INJECTION FROM API | 72        |
-| VR/AR                    | 36        |
-| -----------------------  | SUMMA:336 |
-
 
 ### ALOHAPP:
 | NAME                                                                     | TIME      |
@@ -169,6 +156,19 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | WEB VERSION+USER DB SERVER                                      | 24        |
 | WEB ON MOBILE VERSION                                           | 24        |
 | SUMMA---------------------------------------------------------- | SUMMA:300 |
+
+### UNREAL ENGINE :
+| NAME                     | TIME      |
+|--------------------------|-----------|
+| METAHUMANS WITH LIPS     | 24        |
+| API CALL MP3             | 18        |
+| TRANSCRIBE MP3           | 24        |
+| FACESWAP REAL            | 36        |
+| BODYSWAP REAL            | 64        |
+| ENVIROMENT SWAP REAL     | 64        |
+| LOGIC INJECTION FROM API | 72        |
+| VR/AR                    | 36        |
+| -----------------------  | SUMMA:336 |
 
 ### SMART DEVICES/HARDWARE:
 | NAME              | TIME |
