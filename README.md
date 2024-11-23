@@ -5,6 +5,61 @@
 
 https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 
+### PROJECT ONE:
+| NAME                                                        | TIME      |
+|-------------------------------------------------------------|-----------|
+| USER PICKLE AS API                                          | 12        |
+| SOURCES AS API                                              | 8         |
+| USERS DB API                                                | 8         |
+| UNREAL SIMPLE TTS OPENAI API                                | 12        |
+| UNREAL SIMPLE TEXT GROK API/OPENAI API + LLM MEMORY         | 18        |
+| UNREAL SIMPLE TRANSLATE AND LANG DETECT GROK API/OPENAI API | 12        |
+| UNREAL LOCALLY WHISPER C++                                  | 24        |
+| UNREAL METAHUMANS LIP SYNC                                  | 24        |
+| UNREAL METAHUMANS WORDS-EMOTIONS-FACE                       | 24        |
+| CONVERSATION PROTOTYPE VAD                                  | 24        |
+| RECOMENDING THROUGH CONVERSATION THINGS                     | 18        |
+| EXPORTING TO DESKTOP - MAC, WINDOWS, LINUX                  | 18        |
+| EXPORTING TO MOBILE - iOS, ANDROID                          | 18        |
+| PROTOTYPE OUT - FINANCE 50K                                 | 48        |
+| -----------------------------------------------             | SUMMA:256 |
+
+| NAME                                            | TIME      |
+|-------------------------------------------------|-----------|
+| FACE SWAP REAL                                  | 24        |
+| BODY SWAP REAL                                  | 24        |
+| VOICE SWAP REAL                                 | 24        |
+| ENVIROMENT SWAP REAL                            | 36        |
+| VR/AR - META, STEAM, HTC                        | 36        |
+| EXPORTING TO CONSOLE - XBOX, PLAYSTATION        | 48        |
+| MAKE IOT OFFLINE                                | 12        |
+| PROTOTYPE OUT - FINANCE 144K                    | 52        |
+| ----------------------------------------------- | SUMMA:256 |
+
+
+
+
+***⭐️ INSTALL REQUIREMENTS:*
+pip install -r requirements_{your_operating_system}.txt
+
+*⭐️ RECREATE CONDA ENVIROMENT:*
+conda env create -f BIGAI_{your_operating_system}.yml
+
+*⭐️ Like this repo? please star & consider donating to keep it maintained*
+
+<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+> **BEWARE**: This is a work in progress!
+>
+> * Code here may change and disappear without warning.
+>
+> * Major reorganizations may happen at any time.
+>
+> * No promises. No guarantees. Use at own risk.
+
+
+
 ### BIGAI ENGINE:
 | NAME                                               | TIME      |
 |----------------------------------------------------|-----------|
@@ -160,48 +215,6 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 | WEB ON MOBILE VERSION                                           | 24        |
 | SUMMA---------------------------------------------------------- | SUMMA:300 |
 
-### UNREAL ENGINE :
-| NAME                     | TIME      |
-|--------------------------|-----------|
-| METAHUMANS WITH LIPS     | 24        |
-| API CALL MP3             | 18        |
-| TRANSCRIBE MP3           | 24        |
-| FACESWAP REAL            | 36        |
-| BODYSWAP REAL            | 64        |
-| ENVIROMENT SWAP REAL     | 64        |
-| LOGIC INJECTION FROM API | 72        |
-| VR/AR                    | 36        |
-| -----------------------  | SUMMA:336 |
-
-### SMART DEVICES/HARDWARE:
-| NAME              | TIME |
-|-------------------|------|
-| SMART GLASSES     | 48   |
-| SMART SPEAKERS    | 36   |
-| CHROME EXTENSION  | 48   |
-| OWN HARDWARE      | 60   |
-| OWN HARDWARE2     | 60   |
-| GETTING FIN       | 48   |
-| SUMMA----------   | SUMMA:300 |
-
-***⭐️ INSTALL REQUIREMENTS:*
-pip install -r requirements_{your_operating_system}.txt
-
-*⭐️ RECREATE CONDA ENVIROMENT:*
-conda env create -f BIGAI_{your_operating_system}.yml
-
-*⭐️ Like this repo? please star & consider donating to keep it maintained*
-
-<a href="https://www.buymeacoffee.com/aleksanderu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-
-> **BEWARE**: This is a work in progress!
->
-> * Code here may change and disappear without warning.
->
-> * Major reorganizations may happen at any time.
->
-> * No promises. No guarantees. Use at own risk.
 
 
 
