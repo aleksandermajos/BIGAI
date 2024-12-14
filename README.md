@@ -8,15 +8,11 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 ### ALOHAPP FLET:
 | NAME                                                                     | TIME      |
 |--------------------------------------------------------------------------|-----------|
-| LLM MEMORY TO USER CLASS                                                 | 3         |
-| PRINT OUT WORDS AND TRANSLATIONS                                         | 3         |
-| TRANSLATION FROM LLM DIVIDE BY 2                                         | 2         |
-| LOAD ALL SOURCES BY LANGUAGE                                             | 4         |
-| IMPLEMENT REPETITION SYSTEM                                              | 6         |
+| LLM MEMORY TO USER CLASS                                                 | 8         |
+| HELPER WINDOW WITH ERROR CORRECTION+ SUGESTIONS                          | 8         |
+| HELPER WINDOW WITH MULTILANG SUPPORT+ SUGESTIONS                         | 8         |
 | IMPLEMENT +1 SYSTEM                                                      | 6         |
-| HELPER WINDOW WITH ERROR CORRECTION+ SUGESTIONS                          | 6         |
-| HELPER WINDOW WITH MULTILANG SUPPORT+ SUGESTIONS                         | 6         |
-| TRYB NO DIALOG - JUST TRANSLATE AND SAY                                  | 8         |
+| IMPLEMENT REPETITION SYSTEM                                              | 12        |
 | NGRAM CLASS + REST CLASSES                                               | 12        |
 | PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                             | 12        |
 | ADDING YT,BOOKS, PODCASTS SOURCES WITH 4 LANGUAGES                       | 12        |
