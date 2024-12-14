@@ -5,38 +5,66 @@
 
 https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 
-### PROJECT ONE:
+### ALOHAPP FLET:
+| NAME                                                                     | TIME      |
+|--------------------------------------------------------------------------|-----------|
+| LLM MEMORY TO USER CLASS                                                 | 3         |
+| PRINT OUT WORDS AND TRANSLATIONS                                         | 3         |
+| TRANSLATION FROM LLM DIVIDE BY 2                                         | 2         |
+| LOAD ALL SOURCES BY LANGUAGE                                             | 4         |
+| IMPLEMENT REPETITION SYSTEM                                              | 6         |
+| IMPLEMENT +1 SYSTEM                                                      | 6         |
+| HELPER WINDOW WITH ERROR CORRECTION+ SUGESTIONS                          | 6         |
+| HELPER WINDOW WITH MULTILANG SUPPORT+ SUGESTIONS                         | 6         |
+| TRYB NO DIALOG - JUST TRANSLATE AND SAY                                  | 8         |
+| NGRAM CLASS + REST CLASSES                                               | 12        |
+| PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                             | 12        |
+| ADDING YT,BOOKS, PODCASTS SOURCES WITH 4 LANGUAGES                       | 12        |
+| PROGRESS AS PART OF MOTIVATION PIPELINE                                  | 6         |
+| CLONING VOICE EN                                                         | 6         |
+| SUPER PROTOTYPE LOCAL EN,PL,FR,ES,DE,IT.START YT CHANNEL.START LEARNING  | 4         |
+| ------------------------------------------------------------------------ | SUMMA:96  |
+| SOURCES WINDOW                                                           | 24        |
+| PROGRESS WINDOW                                                          | 24        |
+| WELCOMING WINDOW.FLAGS                                                   | 12        |
+| SETTINGS WINDOW                                                          | 18        |
+| TUTORIAL WINDOW                                                          | 18        |
+| ROUTER OUT                                                               | 18        |
+| KUBERNETES SCALING OUT SIMPLEST SCENARIO                                 | 24        |
+| WEB VERSION+USER DB SERVER                                               | 24        |
+| WEB ON MOBILE VERSION                                                    | 24        |
+| ADDING PO,RU,AR,JA,ZH,DA                                                 | 48        |
+| FIRST CUSTOMERS(10) YT,PRO                                               | 0         |
+| ALOHAPP CLONES                                                           | 18        |
+| GETTING FIN UK 18K                                                       | 48        |
+| ------------------------------------------------------------------------ | SUMMA:300 |
+
+### ALOHAPP UNREAL ENGINE:
 | NAME                                                        | TIME      |
 |-------------------------------------------------------------|-----------|
 | USER PICKLE AS API                                          | 12        |
 | SOURCES AS API                                              | 8         |
 | USERS DB API                                                | 8         |
-| UNREAL SIMPLE TTS OPENAI API                                | 12        |
-| UNREAL SIMPLE TEXT GROK API/OPENAI API + LLM MEMORY         | 18        |
+| UNREAL SIMPLE TTS OPENAI API                                | 6         |
+| UNREAL SIMPLE TEXT GROK API/OPENAI API + LLM MEMORY         | 12        |
 | UNREAL SIMPLE TRANSLATE AND LANG DETECT GROK API/OPENAI API | 12        |
-| UNREAL LOCALLY WHISPER C++                                  | 24        |
+| UNREAL LOCALLY WHISPER C++                                  | 18        |
 | UNREAL METAHUMANS LIP SYNC                                  | 24        |
 | UNREAL METAHUMANS WORDS-EMOTIONS-FACE                       | 24        |
-| CONVERSATION PROTOTYPE VAD                                  | 24        |
+| CONVERSATION PROTOTYPE VAD                                  | 12        |
 | RECOMENDING THROUGH CONVERSATION THINGS                     | 18        |
 | EXPORTING TO DESKTOP - MAC, WINDOWS, LINUX                  | 18        |
 | EXPORTING TO MOBILE - iOS, ANDROID                          | 18        |
 | PROTOTYPE OUT - FINANCE 50K                                 | 48        |
-| -----------------------------------------------             | SUMMA:256 |
-
-| NAME                                            | TIME      |
-|-------------------------------------------------|-----------|
-| FACE SWAP REAL                                  | 24        |
-| BODY SWAP REAL                                  | 24        |
-| VOICE SWAP REAL                                 | 24        |
-| ENVIROMENT SWAP REAL                            | 36        |
-| VR/AR - META, STEAM, HTC                        | 36        |
-| EXPORTING TO CONSOLE - XBOX, PLAYSTATION        | 48        |
-| MAKE IOT OFFLINE                                | 12        |
-| PROTOTYPE OUT - FINANCE 144K                    | 52        |
-| ----------------------------------------------- | SUMMA:256 |
-
-
+| FACE SWAP REAL                                              | 24        |
+| BODY SWAP REAL                                              | 24        |
+| VOICE SWAP REAL                                             | 24        |
+| ENVIROMENT SWAP REAL                                        | 36        |
+| VR/AR - META, STEAM, HTC                                    | 36        |
+| EXPORTING TO CONSOLE - XBOX, PLAYSTATION                    | 48        |
+| MAKE IOT OFFLINE                                            | 12        |
+| PROTOTYPE OUT - FINANCE 144K                                | 52        |
+| -----------------------------------------------             | SUMMA:500 |
 
 
 ***⭐️ INSTALL REQUIREMENTS:*
@@ -57,8 +85,6 @@ conda env create -f BIGAI_{your_operating_system}.yml
 > * Major reorganizations may happen at any time.
 >
 > * No promises. No guarantees. Use at own risk.
-
-
 
 ### BIGAI ENGINE:
 | NAME                                               | TIME      |
@@ -82,38 +108,6 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | CREATING A PIPELINE FOR NEW BUSINESSPLAN           | 18        |
 | CREATING A PIPELINE FOR MARKETING                  | 36        |
 | -----------------------------------------------    | SUMMA:400 |
-
-
-### ALOHAPP:
-| NAME                                                                     | TIME      |
-|--------------------------------------------------------------------------|-----------|
-| PRINT OUT WORDS AND TRANSLATIONS                                         | 3         |
-| TRANSLATION FROM LLM DIVIDE BY 2                                         | 2         |
-| LOAD ALL SOURCES BY LANGUAGE                                             | 4         |
-| IMPLEMENT REPETITION SYSTEM                                              | 6         |
-| IMPLEMENT +1 SYSTEM                                                      | 6         |
-| HELPER WINDOW WITH ERROR CORRECTION+ SUGESTIONS                          | 6         |
-| HELPER WINDOW WITH MULTILANG SUPPORT+ SUGESTIONS                         | 6         |
-| TRYB NO DIALOG - JUST TRANSLATE AND SAY                                  | 8         |
-| NGRAM CLASS + REST CLASSES                                               | 12        |
-| PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                             | 12        |
-| ADDING YT,BOOKS, PODCASTS SOURCES WITH 4 LANGUAGES                       | 12        |
-| PROGRESS AS PART OF MOTIVATION PIPELINE                                  | 6         |
-| SUPER PROTOTYPE LOCAL EN,PL,FR,ES,DE,IT.START YT CHANNEL.START LEARNING  | 4         |
-| SOURCES WINDOW                                                           | 24        |
-| PROGRESS WINDOW                                                          | 24        |
-| WELCOMING WINDOW.FLAGS                                                   | 12        |
-| SETTINGS WINDOW                                                          | 18        |
-| TUTORIAL WINDOW                                                          | 18        |
-| ROUTER OUT                                                               | 18        |
-| KUBERNETES SCALING OUT SIMPLEST SCENARIO                                 | 24        |
-| WEB VERSION+USER DB SERVER                                               | 24        |
-| WEB ON MOBILE VERSION                                                    | 24        |
-| ADDING PO,RU,AR,JA,ZH,DA                                                 | 48        |
-| FIRST CUSTOMERS(10) YT,PRO                                               | 0         |
-| ALOHAPP CLONES                                                           | 18        |
-| GETTING FIN UK 18K                                                       | 48        |
-| ------------------------------------------------------------------------ | SUMMA:360 |
 
 ### CODE COMPANION:
 | NAME                                                            | TIME      |
@@ -214,13 +208,3 @@ conda env create -f BIGAI_{your_operating_system}.yml
 | WEB VERSION+USER DB SERVER                                      | 24        |
 | WEB ON MOBILE VERSION                                           | 24        |
 | SUMMA---------------------------------------------------------- | SUMMA:300 |
-
-
-
-
-
-
- 
-
-
-
