@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIGAI_LINUX.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIGAI_MACOS.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BIGAI_WIN.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/dream.wav" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/dream.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/dream_jp.wav" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/dream_jp.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements_LINUX.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements_MACOS.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +49,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/aleksandermajos/BIGAI.git&quot;,
-    &quot;accountId&quot;: &quot;38e33f02-bda2-4e8d-aaf9-c196a8c6fa81&quot;
+    &quot;accountId&quot;: &quot;57255f2a-a4f8-48e5-9f8c-1a8bc0aa7568&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -1001,8 +991,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.180" />
-        <option value="bundled-python-sdk-85c76a3b01b3-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.180" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -1602,6 +1592,10 @@
       <workItem from="1733155760895" duration="1183000" />
       <workItem from="1733650874415" duration="1413000" />
       <workItem from="1734160155913" duration="712000" />
+      <workItem from="1734199376426" duration="649000" />
+      <workItem from="1734205776445" duration="269000" />
+      <workItem from="1734250839908" duration="28000" />
+      <workItem from="1734251537457" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
