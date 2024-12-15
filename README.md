@@ -6,35 +6,36 @@
 https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 
 ### ALOHAPP FLET:
-| NAME                                                                     | TIME      |
-|--------------------------------------------------------------------------|-----------|
-| MAKE JAPANESE SOURCES                                                    | 8         |
-| LLM MEMORY TO USER CLASS                                                 | 8         |
-| HELPER WINDOW WITH ERROR CORRECTION+ SUGESTIONS                          | 8         |
-| HELPER WINDOW WITH MULTILANG SUPPORT+ SUGESTIONS                         | 8         |
-| IMPLEMENT +1 SYSTEM                                                      | 6         |
-| IMPLEMENT REPETITION SYSTEM                                              | 12        |
-| NGRAM CLASS + REST CLASSES                                               | 12        |
-| PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                             | 12        |
-| ADDING YT,BOOKS, PODCASTS SOURCES WITH 4 LANGUAGES                       | 12        |
-| PROGRESS AS PART OF MOTIVATION PIPELINE                                  | 6         |
-| CLONING VOICE EN                                                         | 6         |
-| SUPER PROTOTYPE LOCAL FR,ES,DE,IT.START YT CHANNEL.START LEARNING        | 4         |
-| ------------------------------------------------------------------------ | SUMMA:96  |
-| SOURCES WINDOW                                                           | 24        |
-| PROGRESS WINDOW                                                          | 24        |
-| WELCOMING WINDOW.FLAGS                                                   | 12        |
-| SETTINGS WINDOW                                                          | 18        |
-| TUTORIAL WINDOW                                                          | 18        |
-| ROUTER OUT                                                               | 18        |
-| KUBERNETES SCALING OUT SIMPLEST SCENARIO                                 | 24        |
-| WEB VERSION+USER DB SERVER                                               | 24        |
-| WEB ON MOBILE VERSION                                                    | 24        |
-| ADDING PO,RU,AR,ZH,DA                                                    | 42        |
-| FIRST CUSTOMERS(10) YT,PRO                                               | 0         |
-| ALOHAPP CLONES                                                           | 18        |
-| GETTING FIN UK 18K                                                       | 48        |
-| ------------------------------------------------------------------------ | SUMMA:300 |
+| NAME                                                                       | TIME      |
+|----------------------------------------------------------------------------|-----------|
+| MAKE JAPANESE SOURCES                                                      | 8         |
+| LLM MEMORY TO USER CLASS.MANY LLMs WITH EACH HISTORY                       | 8         |
+| HELPER WINDOW WITH ERROR CORRECTION+ SUGESTIONS                            | 8         |
+| HELPER WINDOW WITH MULTILANG SUPPORT+ SUGESTIONS                           | 8         |
+| IMPLEMENT +1 SYSTEM                                                        | 6         |
+| IMPLEMENT REPETITION SYSTEM                                                | 12        |
+| NGRAM CLASS + REST CLASSES                                                 | 12        |
+| PROGRESS AS HOW GOOD YOU UNDERSTAND A SOURCE                               | 8         |
+| ADDING YT,NETFLIX,BOOKS,PODCASTS SOURCES WITH 7 LANGUAGES                  | 12        |
+| PROGRESS AS PART OF MOTIVATION PIPELINE                                    | 6         |
+| CLONING VOICE EN,JA                                                        | 8         |
+| SUPER PROTOTYPE LOCAL FR,ES,DE,IT,JA,EN,PL.START YT CHANNEL.START LEARNING | 4         |
+| ------------------------------------------------------------------------   | SUMMA:100 |
+| SOURCES WINDOW                                                             | 24        |
+| KANJI WRITE WINDOW                                                         | 24        |
+| PROGRESS WINDOW                                                            | 24        |
+| WELCOMING WINDOW.FLAGS                                                     | 12        |
+| SETTINGS WINDOW                                                            | 18        |
+| TUTORIAL WINDOW                                                            | 18        |
+| ROUTER OUT                                                                 | 18        |
+| KUBERNETES SCALING OUT SIMPLEST SCENARIO                                   | 24        |
+| WEB VERSION+USER DB SERVER                                                 | 24        |
+| WEB ON MOBILE VERSION                                                      | 24        |
+| ADDING PO,RU,AR,ZH,DA                                                      | 24        |
+| FIRST CUSTOMERS(10) YT,PRO                                                 | 0         |
+| ALOHAPP CLONES                                                             | 18        |
+| GETTING FIN UK 18K                                                         | 48        |
+| ------------------------------------------------------------------------   | SUMMA:300 |
 
 ### ALOHAPP UNREAL ENGINE:
 | NAME                                                        | TIME      |
