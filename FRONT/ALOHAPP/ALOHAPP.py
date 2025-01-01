@@ -1,18 +1,13 @@
 import flet as ft
 from FRONT.ALOHAPP.CONTAINERS import generate_words_buttons,create_words_container, create_conversation_container, create_helper_container
 from ENGINE.ALOHAPP_STT_VOICE_ASSISTANT import VoiceAssistant
-from USER import USER
+from SOURCE import SOURCE
 import pickle
 
 
 def main(page: ft.Page):
     page.title = "ALOHAPP"
-    '''
-    page.user = USER(native='pl', langs=["fr", "es", "pt", "it"], langs_priority=[8, 8, 6, 6])
-    with open('USER_ALEX.pkl', 'wb') as file:
-        pickle.dump(page.user, file)
-    oko=5
-    '''
+
     with open('USER_ALEX.pkl', 'rb') as file:
         page.user = pickle.load(file)
 

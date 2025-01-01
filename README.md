@@ -8,7 +8,7 @@ https://www.youtube.com/channel/UCs5wP4tHR6vaWRWtpR4EKmA
 ### ALOHAPP FLET:
 | NAME                                                                     | TIME      |
 |--------------------------------------------------------------------------|-----------|
-| MAKE JAPANESE SOURCES                                                    | 8         |
+| MAKE JAPANESE SOURCES                                                    | 4         |
 | LLM MEMORY TO USER CLASS                                                 | 8         |
 | HELPER WINDOW WITH ERROR CORRECTION+ SUGESTIONS                          | 8         |
 | HELPER WINDOW WITH MULTILANG SUPPORT+ SUGESTIONS                         | 8         |

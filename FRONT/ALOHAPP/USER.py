@@ -10,7 +10,7 @@ os_name = platform.system()
 
 
 class USER:
-    def __init__(self, native, langs, langs_priority,hmt=2, words_pd=15, time_pd=60, old_new=80):
+    def __init__(self, native, langs, langs_priority,hmt=2, words_pd=25, time_pd=60, old_new=80):
         self.native = native
         self.langs = langs
         self.langs_priority = langs_priority
@@ -33,13 +33,10 @@ class USER:
                            path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/' +lang.upper()))
                 self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='BLONDYNA', lang=lang,
                                        path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+lang.upper()+'/SELF_LEARNING/BLONDYNA',part=-1))
-                if lang != 'pt':
-                    self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=lang,
-                                               path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/SELF_LEARNING/ASSIMIL',
-                                               part=-1))
-                    self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='PRINCE', lang=lang,
-                                               path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/LITTLE_PRINCE',
-                                               part=-1))
+                self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=lang,
+                                           path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/SELF_LEARNING/ASSIMIL',
+                                           part=-1))
+
 
 
     def Update_Words_Past(self,my_sentences, my_sentences_languages, bot_sentences):
