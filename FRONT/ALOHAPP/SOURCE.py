@@ -10,7 +10,7 @@ import re
 
 class SOURCE:
     source_type = ['AUDIO', 'DECKS', 'EXEL', 'PIC', 'TATOEBA', 'TEXT', 'VIDEO']
-    user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA','NETFLIX', 'YT', 'TEXT','PIC', 'VIDEO', 'FREQDICT']
+    user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA','NETFLIX', 'YT', 'TEXT','PIC', 'VIDEO', 'FREQDICT', 'EXAMS']
 
     def __init__(self, source_type, user_type, name, lang, path, part=-1):
         if source_type not in self.source_type:
@@ -42,6 +42,13 @@ class SOURCE:
             self.words_in_parts = []
             for part in self.parts:
                 self.words_in_parts.append(get_words_from_one_freq_dict(path+'/'+part))
+            self.all_words = set().union(*self.words_in_parts)
+
+        if source_type=='TEXT' and user_type=='EXAMS':
+            self.parts = sorted(get_all_paths_in_one_source(path,extension='xlsx'))
+            self.words_in_parts = []
+            for part in self.parts:
+                self.words_in_parts.append(get_words_from_one_exam_jlpt_words(path+'/'+part))
             self.all_words = set().union(*self.words_in_parts)
 
 
@@ -167,8 +174,22 @@ def get_words_from_one_pickle(path,lang):
 
 def get_words_from_one_freq_dict(path):
     import pandas as pd
-    df = pd.read_excel(path)
+    df = pd.read_excel(path, engine='openpyxl')
     words = df['WORD'].reset_index(drop=True).dropna()
+    words_gathered = OrderedSet(words)
+
+    remove_punctuations = {',', '.', '?', '!', ';', ':','...','%'}
+    words_gathered.difference_update(remove_punctuations)
+
+    pattern = re.compile(r'\d')
+    words_gathered = OrderedSet([pattern.sub('', word) for word in words_gathered])
+
+    return words_gathered
+
+def get_words_from_one_exam_jlpt_words(path):
+    import pandas as pd
+    df = pd.read_excel(path, engine='openpyxl')
+    words = df['Kana'].reset_index(drop=True).dropna()
     words_gathered = OrderedSet(words)
 
     remove_punctuations = {',', '.', '?', '!', ';', ':','...','%'}
@@ -191,3 +212,12 @@ def get_all_paths_in_one_source(path, extension = '.pkl'):
 
 def get_list_of_sources_in_language(path, language):
     pass
+'''
+path =r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/ZH/SELF_LEARNING/ASSIMIL'
+ASS_ZH = SOURCE_CREATE(name='ASS_ZH',path = path, source_type='AUDIO', user_type='BOOK', lang='zh')
+pick = ASS_ZH.create_pickle(path=path, source_type='AUDIO', user_type='BOOK', language='zh')
+with open('my_pick.pkl', 'wb') as file:
+    # Step 4: Use pickle.dump() to serialize and save the dictionary
+    pickle.dump(pick, file)
+oko=5
+'''

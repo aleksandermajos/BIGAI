@@ -53,7 +53,7 @@ def save_de(user_words_dictionary,key='de'):
     if key == 'de': user_words_dictionary['de'].to_excel(path + 'DE/1000WORDSGERMAN.xlsx', index=False)
     if key == 'fr': user_words_dictionary['fr'].to_excel(path + 'FR/1000WORDSFRENCH.xlsx', index=False)
     if key == 'es': user_words_dictionary['es'].to_excel(path + 'ES/1000WORDSSPANISH.xlsx', index=False)
-    if key == 'it': user_words_dictionary['it'].to_excel(path + 'IT/1000WORDSITALIAN.xlsx', index=False)
+    if key == 'it': user_words_dictionary['it'].to_excel(path + 'IT/1000WORDSJAPANESE.xlsx', index=False)
     if key == 'pt': user_words_dictionary['pt'].to_excel(path + 'PT/1000WORDSPORTUGUESE.xlsx', index=False)
     if key == 'ro': user_words_dictionary['ro'].to_excel(path + 'RO/1000WORDSROMANIAN.xlsx', index=False)
 
@@ -92,7 +92,7 @@ def load_fr():
     user_dictionary = {"fr": fr}
     return user_dictionary
 def load_it():
-    it = pd.read_excel(path + 'IT/1000WORDSITALIAN.xlsx')
+    it = pd.read_excel(path + 'IT/1000WORDSJAPANESE.xlsx')
     it.WORD = it.WORD.str.replace('\d+', '')
     it = it[it["WORD"].str.contains("rank") == False]
 

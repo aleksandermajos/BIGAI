@@ -72,7 +72,7 @@ def load_en(dif=1):
 
 def load_it(dif=1):
     print(os.getcwd())
-    if dif==1: it = pd.read_excel(path+'IT/1000WORDSITALIAN.xlsx')
+    if dif==1: it = pd.read_excel(path+'IT/1000WORDSJAPANESE.xlsx')
     if dif == 2: it = pd.read_excel(path + 'IT/2000WORDSITALIAN.xlsx')
     if dif == 3: it = pd.read_excel(path + 'IT/3000WORDSITALIAN.xlsx')
     if dif == 4: it = pd.read_excel(path + 'IT/4000WORDSITALIAN.xlsx')

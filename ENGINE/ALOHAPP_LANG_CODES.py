@@ -19,6 +19,7 @@ def get_speaker_name_to_tts_melo(short):
 def get_lang_name_to_nllb(lang):
     if lang == 'pl': return 'pol_Latn'
     if lang == "jp": return 'jpn_Jpan'
+    if lang == "ja": return 'jpn_Jpan'
     if lang == "en": return 'eng_Latn'
     if lang == "es": return 'spa_Latn'
     if lang == "fr": return 'fra_Latn'
