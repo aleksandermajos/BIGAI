@@ -8,9 +8,9 @@ import platform
 os_name = platform.system()
 
 
-STT_WHISPERX = True
-TTS_MELO = True
-SPACY_STANZA = True
+STT_WHISPERX = False
+TTS_MELO = False
+SPACY_STANZA = False
 TRANSLATE_NLLB = True
 LANG_DETECT_FT = True
 GEN_IMAGE_SD3 = False
