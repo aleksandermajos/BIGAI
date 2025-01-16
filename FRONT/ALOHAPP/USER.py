@@ -80,17 +80,17 @@ class USER:
 
 
 
-    def Update_Words_Present(self):
-        for lang in self.langs:
-            for source in self.sources:
-                if lang[0] ==source.lang:
-                    self.words_present = self.sources[0].get_words_from_n_parts(start=0, end=2)
+    def Update_Words_Present(self,source_name,source_lang,start,end):
+        for source in self.sources:
+            if source.lang == source_lang and source.name == source_name:
+                self.words_present = source.get_words_from_n_parts(start=start, end=end)
+                oko=4
 
 
     def Update_Words_Future(self):
         pass
 
-    def Create_Prompt_From_Words_Present(self, lang='fr'):
+    def Create_Prompt_From_Words_Present(self, lang='ja'):
         self.prompt_present = ', '.join(self.words_present)
 
 

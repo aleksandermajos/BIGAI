@@ -11,6 +11,8 @@ from ENGINE.ALOHAPP_LANG_CODES import *
 from groq import Groq
 from scipy.io.wavfile import write
 import pyaudio
+from sudachipy import dictionary
+import pykakasi
 
 import flet as ft
 import os
@@ -20,7 +22,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='ollama'):
+    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='groq'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -51,8 +53,9 @@ class VoiceAssistant:
         self.my_sentences = []
         self.my_sentences_languages = []
         self.bot_sentences = []
-
         self.main_language = self.main_page.user.langs[0]
+        self.tokenizer_obj = dictionary.Dictionary().create()
+        self.kks = pykakasi.kakasi()
 
 
 
@@ -90,7 +93,7 @@ class VoiceAssistant:
                     text = text['segments'][0]['text']
                 except IndexError:
                     print("Error: No transcription segments found. Please try speaking more clearly or check your microphone.")
-                    text='ok'
+                    text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
             print(text)
 
         lang_of_my_sentence = detect_language(text)
@@ -101,7 +104,7 @@ class VoiceAssistant:
 
 
 
-        if lang_of_my_sentence == self.main_page.user.native:
+        if lang_of_my_sentence != self.main_language:
             if self.stt == 'whisper':
                 print("Transcribing audio...")
                 if os_name == 'Darwin':
@@ -120,7 +123,7 @@ class VoiceAssistant:
 
 
         text_field = ft.TextField(
-            label='YOUR SENTENCE',
+            label='YOUR SENTENCE ORGINAL',
             multiline=True,
             label_style=ft.TextStyle(color=ft.colors.YELLOW),
             color=ft.colors.YELLOW,
@@ -135,45 +138,60 @@ class VoiceAssistant:
             self.main_page.conversation_column.controls.clear()
             self.main_page.conversation_column.controls.append(magic_row)
 
-        if lang_of_my_sentence == self.main_page.user.native:
-            text_field_ll = ft.TextField(
-                label='YOUR SENTENCE',
-                multiline=True,
-                label_style=ft.TextStyle(color=ft.colors.YELLOW),
-                color=ft.colors.YELLOW,
-                value=text_ll,
-                icon=ft.icons.EMOJI_EMOTIONS
-            )
-            self.main_page.conversation_column.controls.append(text_field_ll)
+        if len(text_ll) > 0:
+            above = ''
+            below = ''
+            tokens = self.tokenizer_obj.tokenize(text_ll)
+            words = [token.surface() for token in tokens]
+            for word in words:
+                result = self.kks.convert(word)
+                for item in result:
+                    above += item['hira']+' '
+                    below += item['hepburn']+' '
+
+            if lang_of_my_sentence != self.main_language:
+                text_field_ll = ft.TextField(
+                    label='YOUR SENTENCE IN TARGET LANGUAGE',
+                    multiline=True,
+                    label_style=ft.TextStyle(color=ft.colors.YELLOW),
+                    color=ft.colors.YELLOW,
+                    value=f"{above}\n{text_ll}\n{below}",
+                    icon=ft.icons.EMOJI_EMOTIONS,
+                    text_style=ft.TextStyle(size=20, color=ft.colors.WHITE)
+                )
+                self.main_page.conversation_column.controls.append(text_field_ll)
+
 
 
         self.main_page.conversation_column.controls.append(text_field)
-        self.context += text
         self.main_page.update()
 
-        if lang_of_my_sentence != self.main_page.user.native:
-            if self.tts == 'melo':
-                tts_melo(text, lang=self.main_language, output="example.wav")
-            if self.tts == 'openai':
-                generate_and_play(text,voice=self.tts_voice)
-        else:
+        if lang_of_my_sentence != self.main_language:
             if self.tts == 'melo':
                 tts_melo(text_ll, lang=self.main_language, output="example.wav")
             if self.tts == 'openai':
                 generate_and_play(text_ll,voice=self.tts_voice)
 
-        bot_reply = generate_text(self)
 
+        bot_reply = generate_text(self, text)
         print(bot_reply)
 
-
+        above = ''
+        below = ''
+        tokens = self.tokenizer_obj.tokenize(bot_reply)
+        words = [token.surface() for token in tokens]
+        for word in words:
+            result = self.kks.convert(word)
+            for item in result:
+                above += item['hira'] + ' '
+                below += item['hepburn'] + ' '
         self.bot_sentences.append(bot_reply)
         text_field = ft.TextField(
             label='BOT REPLY',
             multiline=True,
             label_style=ft.TextStyle(color=ft.colors.BLACK),
             color=ft.colors.BLACK,
-            value=bot_reply
+            value=f"{above}\n{bot_reply}\n{below}"
 
         )
 
@@ -192,7 +210,8 @@ class VoiceAssistant:
 
         self.main_page.conversation_column.controls.append(text_field)
         self.main_page.conversation_column.controls.append(text_field_translated)
-        self.context += bot_reply
+        self.context += "user:"+text+'.'
+        self.context += "assistant:"+bot_reply+'.'
         self.main_page.update()
 
         if lang_of_my_sentence in self.main_page.user.langs:

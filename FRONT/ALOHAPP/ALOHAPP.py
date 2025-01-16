@@ -13,10 +13,10 @@ def main(page: ft.Page):
 
     page.user.hmt = 4
 
-    page.user.Update_Words_Present()
+    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='ja',start=0,end=4)
     page.user.Create_Prompt_From_Words_Present()
 
-    page.words_buttons = generate_words_buttons(list(page.user.sources[2].words_in_parts[0]))
+    page.words_buttons = generate_words_buttons(list(page.user.words_present))
     page.words_column ,page.words_container = create_words_container(page.words_buttons)
     page.conversation_column ,page.conversation_container = create_conversation_container()
     page.helper_column ,page.helper_container = create_helper_container()
