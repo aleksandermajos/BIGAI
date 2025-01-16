@@ -1,4 +1,5 @@
 from ENGINE.API_BIGAI_CLIENT import transcribe, detect_language
+from sudachipy import dictionary
 from ordered_set import OrderedSet
 import pickle
 import spacy_stanza
@@ -106,25 +107,42 @@ class SOURCE_CREATE(object):
     def populate_text(self,lemma):
         lemma = lemma
         text = transcribe(file_path=self.path, language=self.language)
+
+        tokenizer_obj = dictionary.Dictionary().create()
         audio = AudioSegment.from_file(self.path)
         for segment in text['segments']:
-            lem = lemma(segment['text'])
-            segment_audio = audio[segment['start']*1000:segment['end']*1000]
-            #segment_audio.export(segment['text']+".mp3", format="mp3")
-            segment['text_audio'] = segment_audio
-            lem_text = []
-            for token in lem:
-                lem_text.append(str(token.lemma_))
-            filtered_lem_text= [item for item in lem_text if '.' not in item and '_' not in item and ' ' not in item and ', ' not in item and ',' not in item]
-            segment['text_lemma'] = filtered_lem_text
+            if self.language=='jaaaa':
 
+                tokens = tokenizer_obj.tokenize(segment['text'])
+                segment['text_lemma'] = tokens
+                # Extract words
+                words = [token.surface() for token in tokens]
+                unwanted_elements = ['。', '?', '.','_',' ',', ',',']
+                words = [item for item in words if item not in unwanted_elements]
+                # Get unique words
+                unique_words = set(words)
+                my_list = [item for item in unique_words]
+                word['word_lemma']= my_list
 
-            for word in segment['words']:
-                lem = lemma(word['word'])
-                lem_word = ''
+            else:
+                lem = lemma(segment['text'])
+                segment_audio = audio[segment['start']*1000:segment['end']*1000]
+                #segment_audio.export(segment['text']+".mp3", format="mp3")
+                segment['text_audio'] = segment_audio
+                lem_text = []
                 for token in lem:
-                    lem_word = (str(token.lemma_))
-                word['word_lemma'] = lem_word
+                    lem_text.append(str(token.lemma_))
+                unwanted_elements = ['。', '?', '.', '_', ' ', ', ', ',']
+                filtered_lem_text= [item for item in lem_text if item not in unwanted_elements]
+                segment['text_lemma'] = filtered_lem_text
+
+
+                for word in segment['words']:
+                    lem = lemma(word['word'])
+                    lem_word = ''
+                    for token in lem:
+                        lem_word = (str(token.lemma_))
+                    word['word_lemma'] = lem_word
         return text
 
     def create_pickle(self, path, source_type, user_type, language):
@@ -213,9 +231,9 @@ def get_all_paths_in_one_source(path, extension = '.pkl'):
 def get_list_of_sources_in_language(path, language):
     pass
 '''
-path =r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/ZH/SELF_LEARNING/ASSIMIL'
-ASS_ZH = SOURCE_CREATE(name='ASS_ZH',path = path, source_type='AUDIO', user_type='BOOK', lang='zh')
-pick = ASS_ZH.create_pickle(path=path, source_type='AUDIO', user_type='BOOK', language='zh')
+path =r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/JA/SELF_LEARNING/ASSIMIL'
+ASS_JA = SOURCE_CREATE(name='ASS_JA',path = path, source_type='AUDIO', user_type='BOOK', lang='ja')
+pick = ASS_JA.create_pickle(path=path, source_type='AUDIO', user_type='BOOK', language='ja')
 with open('my_pick.pkl', 'wb') as file:
     # Step 4: Use pickle.dump() to serialize and save the dictionary
     pickle.dump(pick, file)

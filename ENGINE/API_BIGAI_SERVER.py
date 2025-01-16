@@ -8,9 +8,9 @@ import platform
 os_name = platform.system()
 
 
-STT_WHISPERX = False
-TTS_MELO = False
-SPACY_STANZA = False
+STT_WHISPERX = True
+TTS_MELO = True
+SPACY_STANZA = True
 TRANSLATE_NLLB = True
 LANG_DETECT_FT = True
 GEN_IMAGE_SD3 = False
@@ -269,7 +269,7 @@ if TRANSLATE_NLLB:
     @app.post("/translate", response_model=TranslationResponse)
     def translate(request: TranslationRequest):
         translator = pipeline('translation', model=model_trans, tokenizer=tokenizer,src_lang=request.source_language, tgt_lang=request.target_language,
-                              max_length=400, device='cpu')
+                              max_length=400, device='cuda:0')
         translated_text = translator(request.text)[0]['translation_text']
         return TranslationResponse(translated_text=translated_text)
 

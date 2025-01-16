@@ -20,7 +20,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='ollama'):
+    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='groq'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -90,7 +90,7 @@ class VoiceAssistant:
                     text = text['segments'][0]['text']
                 except IndexError:
                     print("Error: No transcription segments found. Please try speaking more clearly or check your microphone.")
-                    text='ok'
+                    text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
             print(text)
 
         lang_of_my_sentence = detect_language(text)
@@ -101,7 +101,7 @@ class VoiceAssistant:
 
 
 
-        if lang_of_my_sentence == self.main_page.user.native:
+        if lang_of_my_sentence != self.main_language:
             if self.stt == 'whisper':
                 print("Transcribing audio...")
                 if os_name == 'Darwin':
@@ -120,7 +120,7 @@ class VoiceAssistant:
 
 
         text_field = ft.TextField(
-            label='YOUR SENTENCE',
+            label='YOUR SENTENCE ORGINAL',
             multiline=True,
             label_style=ft.TextStyle(color=ft.colors.YELLOW),
             color=ft.colors.YELLOW,
@@ -135,9 +135,9 @@ class VoiceAssistant:
             self.main_page.conversation_column.controls.clear()
             self.main_page.conversation_column.controls.append(magic_row)
 
-        if lang_of_my_sentence == self.main_page.user.native:
+        if lang_of_my_sentence != self.main_language:
             text_field_ll = ft.TextField(
-                label='YOUR SENTENCE',
+                label='YOUR SENTENCE IN TARGET LANGUAGE',
                 multiline=True,
                 label_style=ft.TextStyle(color=ft.colors.YELLOW),
                 color=ft.colors.YELLOW,
@@ -148,22 +148,16 @@ class VoiceAssistant:
 
 
         self.main_page.conversation_column.controls.append(text_field)
-        self.context += text
         self.main_page.update()
 
-        if lang_of_my_sentence != self.main_page.user.native:
-            if self.tts == 'melo':
-                tts_melo(text, lang=self.main_language, output="example.wav")
-            if self.tts == 'openai':
-                generate_and_play(text,voice=self.tts_voice)
-        else:
+        if lang_of_my_sentence != self.main_language:
             if self.tts == 'melo':
                 tts_melo(text_ll, lang=self.main_language, output="example.wav")
             if self.tts == 'openai':
                 generate_and_play(text_ll,voice=self.tts_voice)
 
-        bot_reply = generate_text(self)
 
+        bot_reply = generate_text(self, text)
         print(bot_reply)
 
 
@@ -192,7 +186,8 @@ class VoiceAssistant:
 
         self.main_page.conversation_column.controls.append(text_field)
         self.main_page.conversation_column.controls.append(text_field_translated)
-        self.context += bot_reply
+        self.context += "user:"+text+'.'
+        self.context += "assistant:"+bot_reply+'.'
         self.main_page.update()
 
         if lang_of_my_sentence in self.main_page.user.langs:
