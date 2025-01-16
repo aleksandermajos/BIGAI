@@ -4,7 +4,7 @@ import pykakasi
 kks = pykakasi.kakasi()
 
 # Sample list of unique Japanese words
-unique_words = ["見ました", "ピカソ展", "何を", "まだです"]
+unique_words = ['で', 'も', '全然', '効か', 'ない', 'の', '?']
 
 # Transliterate each word and display the original and its rōmaji equivalent
 for word in unique_words:
