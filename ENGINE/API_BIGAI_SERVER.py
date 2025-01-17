@@ -143,21 +143,29 @@ if STT_WHISPERX:
 
         @app.post("/transcribe/")
         async def transcribe(file: UploadFile = File(...), language: str = Form(...), file_path: str = Form(...)):
-
+            print('before load audio')
             audio = whisperx.load_audio(file_path)
+            print('after load audio')
+            print('before transcribe')
             if language == 'zz': language=''
             result = model.transcribe(audio, batch_size=16, task="transcribe",language=language)
+            print('after transcribe')
 
+            '''
+            print('before align transcribe')
             device = 'cuda:0'
             model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=device)
             result = whisperx.align(result["segments"], model_a, metadata, audio, device, return_char_alignments=False)
-
+            print('after align transcribe')
+            
 
             response_data = {
                 "segments": result["segments"]
             }
-
-            return JSONResponse(content=response_data)
+            '''
+            print('before return')
+            print(JSONResponse(content=result))
+            return JSONResponse(content=result)
 
 if TTS_MELO:
     from melo.api import TTS

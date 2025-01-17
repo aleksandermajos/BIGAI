@@ -1,9 +1,7 @@
-from ENGINE.ALOHAPP_LANG_CODES import get_lang_name_to_tts_melo, get_lang_name_to_nllb
-from ENGINE.API_BIGAI_CLIENT import translate, detect_language
 import ollama
 
 def generate_text(page, user_text):
-    system_prompt = 'You are super helpful language teacher.User try to learn ' + page.main_language + '.' + 'User knows only following words: ' + page.main_page.user.prompt_present + '.Use only provided words.' + 'Answer always in ' + page.main_language + ' language and use maximal 2 short sentences.In any circumstances do not reply in other language that' + page.main_language+' of any part of reply'
+    system_prompt = 'You are super helpful language teacher.User try to learn ' + page.main_language + '.' + 'User knows only following words: ' + page.main_page.user.prompt_present + '.Use only provided words.' + 'Answer always in ' + page.main_language + ' language and use maximal 2 short sentences.In any circumstances do not reply in other language that the language: ' + page.main_language+' of any part of reply'
 
     last_conversation = page.context
     mess = []

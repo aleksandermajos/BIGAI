@@ -13,7 +13,7 @@ def main(page: ft.Page):
 
     page.user.hmt = 4
 
-    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='ja',start=0,end=4)
+    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='ja',start=0,end=6)
     page.user.Create_Prompt_From_Words_Present()
 
     page.words_buttons = generate_words_buttons(list(page.user.words_present))

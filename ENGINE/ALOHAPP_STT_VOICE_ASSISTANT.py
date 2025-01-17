@@ -13,7 +13,7 @@ from scipy.io.wavfile import write
 import pyaudio
 from sudachipy import dictionary
 import pykakasi
-
+import time
 import flet as ft
 import os
 
@@ -80,6 +80,8 @@ class VoiceAssistant:
         # Convert byte string to numpy array
         audio_np = np.frombuffer(audio_data, dtype=np.int16).astype(np.float32) / 32768.0
         write(os.getcwd()+'/audio_file.wav',self.RATE, audio_np)
+        print(len(audio_np))
+
 
 
         print(os.getcwd())
@@ -88,12 +90,13 @@ class VoiceAssistant:
             if os_name == 'Darwin':
                 text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
             if os_name == 'Linux':
-                text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
                 try:
+                    text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
                     text = text['segments'][0]['text']
                 except IndexError:
                     print("Error: No transcription segments found. Please try speaking more clearly or check your microphone.")
-                    text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
+                    text = 'transcribe error'
+                    print(text)
             print(text)
 
         lang_of_my_sentence = detect_language(text)
@@ -106,7 +109,7 @@ class VoiceAssistant:
 
         if lang_of_my_sentence != self.main_language:
             if self.stt == 'whisper':
-                print("Transcribing audio...")
+                print("Transcribing audio.!")
                 if os_name == 'Darwin':
                     text_ll = transcribe(file_path=os.getcwd()+'/audio_file.wav', language=self.main_language)
                 if os_name == 'Linux':
@@ -116,6 +119,7 @@ class VoiceAssistant:
                     except IndexError:
                         print("Error: No transcription segments found. Please try speaking more clearly or check your microphone.")
                         text = 'ok'
+        else: text_ll = ''
 
 
 
@@ -133,7 +137,7 @@ class VoiceAssistant:
 
 
 
-        if len(self.main_page.conversation_column.controls) > 8:
+        if len(self.main_page.conversation_column.controls) > 3:
             magic_row = self.main_page.conversation_column.controls[0]
             self.main_page.conversation_column.controls.clear()
             self.main_page.conversation_column.controls.append(magic_row)
@@ -214,12 +218,13 @@ class VoiceAssistant:
         self.context += "assistant:"+bot_reply+'.'
         self.main_page.update()
 
+        '''
         if lang_of_my_sentence in self.main_page.user.langs:
            known_words =  self.main_page.user.Update_Words_Past(my_sentences=self.my_sentences,my_sentences_languages=self.my_sentences_languages, bot_sentences=self.bot_sentences)
            if known_words:
                self.main_page.words_buttons = delete_words_buttons(page=self.main_page, known_words=known_words)
                self.main_page.update()
-
+        '''
 
         if self.tts == 'melo':
             tts_melo(bot_reply, lang=self.main_language, output="example.wav")
