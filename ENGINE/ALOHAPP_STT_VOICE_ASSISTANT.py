@@ -13,7 +13,7 @@ from scipy.io.wavfile import write
 import pyaudio
 from sudachipy import dictionary
 import pykakasi
-import time
+import json
 import flet as ft
 import os
 
@@ -178,7 +178,11 @@ class VoiceAssistant:
 
 
         bot_reply = generate_text(self, text)
+        response_bot_json = json.loads(bot_reply)
+        bot_reply = response_bot_json["japanese"]
+        bot_reply_translated = response_bot_json["english"]
         print(bot_reply)
+        print(bot_reply_translated)
 
         above = ''
         below = ''
@@ -199,9 +203,11 @@ class VoiceAssistant:
 
         )
 
+        '''
         source_language = get_lang_name_to_nllb(self.main_page.user.langs[0])
         target_language = get_lang_name_to_nllb(self.main_page.user.native)
         bot_reply_translated = translate(bot_reply, source_language, target_language)
+        '''
         text_field_translated = ft.TextField(
             label='BOT REPLY TRANSLATED',
             multiline=True,

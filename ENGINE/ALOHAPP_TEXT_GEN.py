@@ -1,7 +1,7 @@
 import ollama
 
 def generate_text(page, user_text):
-    system_prompt = 'You are super helpful language teacher.User try to learn ' + page.main_language + '.' + 'User knows only following words: ' + page.main_page.user.prompt_present + '.Use only provided words.' + 'Answer always in ' + page.main_language + ' language and use maximal 2 short sentences.In any circumstances do not reply in other language that the language: ' + page.main_language+' of any part of reply'
+    system_prompt = 'You are super helpful language teacher.You are teaching ' + page.main_language+ ' User try to learn ' + page.main_language + '.' + 'User knows following words: ' + page.main_page.user.prompt_present + '.Use as many of these words as possible, but you may include small grammar words that are needed to form a correct sentence.You have to produce at least one sentence in target language.Also include the English translation in a JSON object with the structure: {\"japanese\": \"<Japanese response>\", \"english\": \"<English translation>\"}'
 
     last_conversation = page.context
     mess = []
@@ -20,6 +20,7 @@ def generate_text(page, user_text):
             messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
             chat_completion = page.client_groq.chat.completions.create(
                 messages=messages,
+                response_format={"type": "json_object"},
                 model="llama3-70b-8192",
             )
             page.welcome = False
@@ -27,6 +28,7 @@ def generate_text(page, user_text):
             messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
             chat_completion = page.client_groq.chat.completions.create(
                 messages=messages,
+                response_format={"type": "json_object"},
                 model="llama3-70b-8192",
             )
         bot_reply = chat_completion.choices[0].message.content

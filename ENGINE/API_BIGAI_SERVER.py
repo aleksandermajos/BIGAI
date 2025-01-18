@@ -150,7 +150,8 @@ if STT_WHISPERX:
             if language == 'zz': language=''
             result = model.transcribe(audio, batch_size=16, task="transcribe",language=language)
             print('after transcribe')
-
+            if result is None:
+                result = 'Transcribe error'
             '''
             print('before align transcribe')
             device = 'cuda:0'
@@ -258,7 +259,7 @@ if GEN_IMAGE_SD3:
 if TRANSLATE_NLLB:
     from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
-    checkpoint = 'facebook/nllb-200-distilled-600M'
+    checkpoint = "facebook/nllb-200-3.3B"
     model_trans = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 
@@ -277,7 +278,7 @@ if TRANSLATE_NLLB:
     @app.post("/translate", response_model=TranslationResponse)
     def translate(request: TranslationRequest):
         translator = pipeline('translation', model=model_trans, tokenizer=tokenizer,src_lang=request.source_language, tgt_lang=request.target_language,
-                              max_length=400, device='cuda:0')
+                              max_length=400, device='cuda:1')
         translated_text = translator(request.text)[0]['translation_text']
         return TranslationResponse(translated_text=translated_text)
 
