@@ -187,7 +187,7 @@ if TTS_MELO:
         output_path = request.output_path
 
         if get_lang_name_to_tts_melo(lang_beg):
-            speed = 0.9
+            speed = 0.65
             if os_name == 'Linux':
                 device_melo = 'cuda:0'
             if os_name == 'Darwin':
@@ -259,7 +259,7 @@ if GEN_IMAGE_SD3:
 if TRANSLATE_NLLB:
     from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
-    checkpoint = "facebook/nllb-200-3.3B"
+    checkpoint = "facebook/nllb-200-distilled-600M"
     model_trans = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 

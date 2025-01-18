@@ -1,8 +1,9 @@
 import ollama
+from ENGINE.ALOHAPP_MAIL import send_mail
 
 def generate_text(page, user_text):
-    system_prompt = 'You are super helpful language teacher.You are teaching ' + page.main_language+ ' User try to learn ' + page.main_language + '.' + 'User knows following words: ' + page.main_page.user.prompt_present + '.Use as many of these words as possible, but you may include small grammar words that are needed to form a correct sentence.You have to produce at least one sentence in target language.Also include the English translation in a JSON object with the structure: {\"japanese\": \"<Japanese response>\", \"english\": \"<English translation>\"}'
-
+    system_prompt = 'You are super helpful language teacher.You are teaching ' + page.main_language+ ' User try to learn ' + page.main_language + '.' + 'User knows following words: ' + page.main_page.user.prompt_present + '.Use as many of these words as possible, but you may include small grammar words that are needed to form a correct sentence.You have to produce at least one sentence in target language.Be cheerful and funny.Arrange your answers in such a way as to encourage the user to continue the discussion.Be informative and answer the question.Also include the English translation in a JSON object with the structure: {\"japanese\": \"<Japanese response>\", \"english\": \"<English translation>\"}'
+    #info_send =  send_mail(body=system_prompt)
     last_conversation = page.context
     mess = []
     lines = last_conversation.split('.')

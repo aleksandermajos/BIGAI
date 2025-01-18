@@ -22,7 +22,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='groq'):
+    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='groq'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -97,6 +97,7 @@ class VoiceAssistant:
                     print("Error: No transcription segments found. Please try speaking more clearly or check your microphone.")
                     text = 'transcribe error'
                     print(text)
+
             print(text)
 
         lang_of_my_sentence = detect_language(text)
