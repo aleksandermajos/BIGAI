@@ -184,6 +184,13 @@ class VoiceAssistant:
         print(bot_reply)
         print(bot_reply_translated)
 
+        if bot_reply == '':
+            source_language = 'eng_Latn'
+            target_language = 'jpn_Jpan'
+            bot_reply = translate(bot_reply_translated, source_language, target_language)
+
+
+
         above = ''
         below = ''
         tokens = self.tokenizer_obj.tokenize(bot_reply)
@@ -203,11 +210,6 @@ class VoiceAssistant:
 
         )
 
-        '''
-        source_language = get_lang_name_to_nllb(self.main_page.user.langs[0])
-        target_language = get_lang_name_to_nllb(self.main_page.user.native)
-        bot_reply_translated = translate(bot_reply, source_language, target_language)
-        '''
         text_field_translated = ft.TextField(
             label='BOT REPLY TRANSLATED',
             multiline=True,

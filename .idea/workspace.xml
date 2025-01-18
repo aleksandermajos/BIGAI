@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="ALOHAPP REMOVE UNCESSARY STUFF FROM TRANSCRIBE.SPEED REALTIME">
-      <change afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_TRANSLATE_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="ALOHAPP PROMPT + SUPER FAST TRANSLATIONS">
       <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_TEXT_GEN.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_TEXT_GEN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/ALOHAPP.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ALOHAPP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1636,7 +1631,7 @@
       <workItem from="1737100837192" duration="12555000" />
       <workItem from="1737116295825" duration="1481000" />
       <workItem from="1737137131727" duration="1944000" />
-      <workItem from="1737186688381" duration="11512000" />
+      <workItem from="1737186688381" duration="11813000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1665,14 +1660,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00193" summary="TRAnslate on server fixed, langdetect done without big file">
-      <option name="closed" value="true" />
-      <created>1729529346493</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1729529346493</updated>
     </task>
     <task id="LOCAL-00194" summary="TRAnslate on server fixed, langdetect done without big file">
       <option name="closed" value="true" />
@@ -2026,7 +2013,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737109209876</updated>
     </task>
-    <option name="localTasksCounter" value="238" />
+    <task id="LOCAL-00238" summary="ALOHAPP PROMPT + SUPER FAST TRANSLATIONS">
+      <option name="closed" value="true" />
+      <created>1737220921412</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1737220921413</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -2052,7 +2047,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="cuda?" />
     <MESSAGE value="cuda:0 + mac support on spacy" />
     <MESSAGE value="portuguese" />
     <MESSAGE value="save env before exo" />
@@ -2077,7 +2071,8 @@
     <MESSAGE value="ALOHAPP USEFULL JP" />
     <MESSAGE value="ALOHAPP HIRAHANA AND HAPBURN" />
     <MESSAGE value="ALOHAPP REMOVE UNCESSARY STUFF FROM TRANSCRIBE.SPEED REALTIME" />
-    <option name="LAST_COMMIT_MESSAGE" value="ALOHAPP REMOVE UNCESSARY STUFF FROM TRANSCRIBE.SPEED REALTIME" />
+    <MESSAGE value="ALOHAPP PROMPT + SUPER FAST TRANSLATIONS" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALOHAPP PROMPT + SUPER FAST TRANSLATIONS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2324,6 +2319,16 @@
           <line>129</line>
           <option name="timeStamp" value="446" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py</url>
+          <line>187</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py</url>
+          <line>186</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -2491,7 +2496,7 @@
     <SUITE FILE_PATH="coverage/BIGAI$KEY_ELEVENLABS.coverage" NAME="KEY_ELEVENLABS Coverage Results" MODIFIED="1696585391806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$TTS_BARK_MP.coverage" NAME="TTS_BARK_MP Coverage Results" MODIFIED="1713694665793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$file_picker_all_modes.coverage" NAME="file-picker-all-modes Coverage Results" MODIFIED="1710318829076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../examples/python/controls/file-picker" />
-    <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP.coverage" NAME="ALOHAPP Coverage Results" MODIFIED="1737220523755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$ALOHAPP.coverage" NAME="ALOHAPP Coverage Results" MODIFIED="1737221148292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$STT_WHISPERTIMESTAMPED.coverage" NAME="STT_WHISPERTIMESTAMPED Coverage Results" MODIFIED="1708268309951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$TEXT_RECOGNIZE_TROCR.coverage" NAME="TEXT_RECOGNIZE_TROCR Coverage Results" MODIFIED="1714989319335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$SUPER_RUDE_ASSISTANT_LOCAL.coverage" NAME="SUPER_RUDE_ASSISTANT_LOCAL Coverage Results" MODIFIED="1730751109645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/SMALLPROJECTS/SUPER_RUDE_ASSISTANT" />
