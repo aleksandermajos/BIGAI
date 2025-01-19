@@ -5,7 +5,7 @@ from openai import OpenAI
 from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from ENGINE.TTS_OPENAI import generate_and_play
 from ENGINE.API_BIGAI_CLIENT import *
-from ENGINE.ALOHAPP_TEXT_GEN import generate_text
+from ENGINE.ALOHAPP_TEXT_GEN import generate_text, generate_sugestion
 from FRONT.ALOHAPP.CONTAINERS import delete_words_buttons
 from ENGINE.ALOHAPP_LANG_CODES import *
 from groq import Groq
@@ -74,6 +74,7 @@ class VoiceAssistant:
         self.my_sentences = []
         self.my_sentences_languages = []
         self.bot_sentences = []
+        self.bot_sugestions = []
         self.main_language = self.main_page.user.langs[0]
         self.tokenizer_obj = dictionary.Dictionary().create()
         self.kks = pykakasi.kakasi()
@@ -126,6 +127,9 @@ class VoiceAssistant:
         if lang_of_my_sentence in self.main_page.user.langs:
             self.my_sentences.append(text)
             self.my_sentences_languages.append(lang_of_my_sentence)
+
+
+
 
 
 
@@ -241,12 +245,49 @@ class VoiceAssistant:
 
         )
 
+        bot_sugestions = generate_sugestion(self, bot_reply)
+        response_bot_json = json.loads(bot_sugestions)
+        bot_reply_sugestions = response_bot_json["japanese"]
+        bot_reply_sugestions_translated = response_bot_json["english"]
+        print(bot_reply_sugestions)
+        print(bot_reply_sugestions_translated)
+        if bot_reply_sugestions == '':
+            source_language = 'eng_Latn'
+            target_language = 'jpn_Jpan'
+            bot_reply_sugestions = translate(bot_reply_sugestions_translated, source_language, target_language)
 
+        above = ''
+        below = ''
+        tokens = self.tokenizer_obj.tokenize(bot_reply_sugestions)
+        words = [token.surface() for token in tokens]
+        for word in words:
+            result = self.kks.convert(word)
+            for item in result:
+                above += item['hira'] + ' '
+                below += item['hepburn'] + ' '
+        self.bot_sugestions.append(bot_reply_sugestions)
+        text_field_su = ft.TextField(
+            label='BOT REPLY SUGESTIONS',
+            multiline=True,
+            label_style=ft.TextStyle(color=ft.colors.BLACK),
+            color=ft.colors.GREEN_800,
+            value=f"{above}\n{bot_reply_sugestions}\n{below}\n{bot_reply_sugestions_translated}"
+
+        )
+
+        self.main_page.helper_column.controls.append(text_field_su)
         self.main_page.conversation_column.controls.append(text_field)
         self.main_page.conversation_column.controls.append(text_field_translated)
         self.context += "user:"+text+'.'
         self.context += "assistant:"+bot_reply+'.'
+        self.last_bot_reply = bot_reply
         self.main_page.update()
+
+
+        if len(self.main_page.helper_column.controls) > 3:
+            magic_row = self.main_page.helper_column.controls[0]
+            self.main_page.helper_column.controls.clear()
+            self.main_page.helper_column.controls.append(magic_row)
 
         '''
         if lang_of_my_sentence in self.main_page.user.langs:

@@ -15,8 +15,8 @@ def generate_text(page, user_text):
         f'You are a super helpful language teacher. You are teaching {page.main_language}. '
         f'User is trying to learn {page.main_language}. '
         f'User knows the following words: {page.main_page.user.prompt_present}. '
-        'Use as many of these words as possible, but you may include small grammar words that are needed to form a correct sentence. '
-        'You have to produce at least one sentence in the target language. Be cheerful and funny. '
+        'Use some of these words if possible, but you may include small grammar words that are needed to form a correct sentence. '
+        'You have to produce at least one short sentence in the target language. Be cheerful, funny and concise. '
         'Arrange your answers in such a way as to encourage the user to continue the discussion. '
         'Be informative and answer the question. '
         "IMPORTANT: Return your entire answer as a JSON object in the format:"
@@ -43,18 +43,10 @@ def generate_text(page, user_text):
 
     if page.text_gen == 'google':
 
-        # Concatenate the system prompt with the user's initial text
-        user_prompt_with_system = system_prompt + " " + user_text
-        messages = []
-        for m in mess:
-            messages.append({"role": m["role"], "parts": [{"text": m["content"]}]})
-        messages.append({"role": "user", "parts": [{"text": user_prompt_with_system}]})
-
-        response = page.google_model.generate_content(messages)
+        messages = [{"role": "model", "parts": system_prompt},{"role": "user", "parts": user_text}]
+        chat = page.google_model.start_chat(history=messages)
+        response = chat.send_message(user_text)
         bot_reply = response.text
-        clean_text = re.sub(r"^```(\w+)?|```$", "", bot_reply.strip(), flags=re.MULTILINE).strip()
-        bot_reply = clean_text
-
 
 
 
@@ -97,5 +89,27 @@ def generate_text(page, user_text):
         bot_reply = TranslationResponseOllama.parse_raw(bot_message)
 
 
+
+    return bot_reply
+
+def generate_sugestion(page, bot_text):
+    system_prompt = (
+        f'You are a super helpful sentence analizer. You are analizing the sentence:  {bot_text}.'
+        f'User is trying to learn {page.main_language}. '
+        f'User knows the following words: {page.main_page.user.prompt_present}. '
+        f'You have to produce at least one super short sentence in a language.The produced sentence is what you think is the best answer for {bot_text} and need to be short. '
+        'Use some of these words if possible, you may include small grammar words that are needed to form a correct sentence. '
+        "IMPORTANT: Return your entire answer as a JSON object in the format:"
+        '{"japanese": "<Japanese response>", "english": "<English translation>"}'
+    )
+
+    if page.text_gen == 'openai':
+        messages = [{"role": "system", "content": system_prompt}] + [{"role": "user", "content": bot_text}]
+        response = page.client_openai.chat.completions.create(
+            messages=messages,
+            response_format={"type": "json_object"},
+            model = "gpt-4o"
+        )
+        bot_reply = response.choices[0].message.content
 
     return bot_reply
