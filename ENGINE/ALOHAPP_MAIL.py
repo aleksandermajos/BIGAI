@@ -30,5 +30,3 @@ def send_mail(body, sender_email="aleksander.majos@gmail.com", receiver_email="a
         info = 'Failed to send email'
         print(f"Failed to send email: {e}")
     return info
-
-send_mail(sender_email, receiver_email, subject, body)

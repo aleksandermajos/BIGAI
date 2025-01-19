@@ -9,6 +9,7 @@ from ENGINE.ALOHAPP_TEXT_GEN import generate_text
 from FRONT.ALOHAPP.CONTAINERS import delete_words_buttons
 from ENGINE.ALOHAPP_LANG_CODES import *
 from groq import Groq
+from cerebras.cloud.sdk import Cerebras
 from scipy.io.wavfile import write
 import pyaudio
 from sudachipy import dictionary
@@ -22,7 +23,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='groq'):
+    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='cerebras'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -40,6 +41,13 @@ class VoiceAssistant:
                 api_key=provide_key()
             )
             self.welcome = True
+
+        if text_gen == 'cerebras':
+            self.text_gen = 'cerebras'
+            from ENGINE.KEY_CEREBRAS import provide_key
+            key = provide_key()
+            self.client_cerebras = Cerebras(api_key=key,)
+
         if text_gen == 'ollama':
             self.text_gen = 'ollama'
 
