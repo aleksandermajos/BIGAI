@@ -5,11 +5,12 @@ from openai import OpenAI
 from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from ENGINE.TTS_OPENAI import generate_and_play
 from ENGINE.API_BIGAI_CLIENT import *
-from ENGINE.ALOHAPP_TEXT_GEN import generate_text
+from ENGINE.ALOHAPP_TEXT_GEN import generate_text, generate_sugestion
 from FRONT.ALOHAPP.CONTAINERS import delete_words_buttons
 from ENGINE.ALOHAPP_LANG_CODES import *
 from groq import Groq
 from cerebras.cloud.sdk import Cerebras
+import google.generativeai as genai
 from scipy.io.wavfile import write
 import pyaudio
 from sudachipy import dictionary
@@ -23,7 +24,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='cerebras'):
+    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='openai'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -34,6 +35,28 @@ class VoiceAssistant:
             self.tts = 'openai'
             self.tts_voice = "alloy"
 
+
+
+        if text_gen == 'openai':
+            self.text_gen = 'openai'
+            from ENGINE.KEY_OPENAI import provide_key
+            key = provide_key()
+            self.client_openai = OpenAI(api_key=key)
+
+        if text_gen == 'google':
+            self.text_gen = 'google'
+            from ENGINE.KEY_GOOGLE import provide_key
+            key = provide_key()
+            self.client_google = genai
+            self.client_google.configure(api_key=key)
+            self.google_model = self.client_google.GenerativeModel("gemini-2.0-flash-exp")
+
+        if text_gen == 'cerebras':
+            self.text_gen = 'cerebras'
+            from ENGINE.KEY_CEREBRAS import provide_key
+            key = provide_key()
+            self.client_cerebras = Cerebras(api_key=key,)
+
         if text_gen == 'groq':
             self.text_gen = 'groq'
             from ENGINE.KEY_GROQ import provide_key
@@ -42,25 +65,16 @@ class VoiceAssistant:
             )
             self.welcome = True
 
-        if text_gen == 'cerebras':
-            self.text_gen = 'cerebras'
-            from ENGINE.KEY_CEREBRAS import provide_key
-            key = provide_key()
-            self.client_cerebras = Cerebras(api_key=key,)
 
         if text_gen == 'ollama':
             self.text_gen = 'ollama'
 
-        if text_gen == 'openai':
-            self.text_gen = 'openai'
-            from ENGINE.KEY_OPENAI import provide_key
-            key = provide_key()
-            self.client_openai = OpenAI(api_key=key)
 
         self.context = ''
         self.my_sentences = []
         self.my_sentences_languages = []
         self.bot_sentences = []
+        self.bot_sugestions = []
         self.main_language = self.main_page.user.langs[0]
         self.tokenizer_obj = dictionary.Dictionary().create()
         self.kks = pykakasi.kakasi()
@@ -116,6 +130,9 @@ class VoiceAssistant:
 
 
 
+
+
+
         if lang_of_my_sentence != self.main_language:
             if self.stt == 'whisper':
                 print("Transcribing audio.!")
@@ -127,7 +144,7 @@ class VoiceAssistant:
                         text_ll = text_ll['segments'][0]['text']
                     except IndexError:
                         print("Error: No transcription segments found. Please try speaking more clearly or check your microphone.")
-                        text = 'ok'
+                        text_ll = 'ok'
         else: text_ll = ''
 
 
@@ -228,12 +245,49 @@ class VoiceAssistant:
 
         )
 
+        bot_sugestions = generate_sugestion(self, bot_reply)
+        response_bot_json = json.loads(bot_sugestions)
+        bot_reply_sugestions = response_bot_json["japanese"]
+        bot_reply_sugestions_translated = response_bot_json["english"]
+        print(bot_reply_sugestions)
+        print(bot_reply_sugestions_translated)
+        if bot_reply_sugestions == '':
+            source_language = 'eng_Latn'
+            target_language = 'jpn_Jpan'
+            bot_reply_sugestions = translate(bot_reply_sugestions_translated, source_language, target_language)
 
+        above = ''
+        below = ''
+        tokens = self.tokenizer_obj.tokenize(bot_reply_sugestions)
+        words = [token.surface() for token in tokens]
+        for word in words:
+            result = self.kks.convert(word)
+            for item in result:
+                above += item['hira'] + ' '
+                below += item['hepburn'] + ' '
+        self.bot_sugestions.append(bot_reply_sugestions)
+        text_field_su = ft.TextField(
+            label='BOT REPLY SUGESTIONS',
+            multiline=True,
+            label_style=ft.TextStyle(color=ft.colors.BLACK),
+            color=ft.colors.YELLOW,
+            value=f"{above}\n{bot_reply_sugestions}\n{below}\n{bot_reply_sugestions_translated}"
+
+        )
+
+        self.main_page.helper_column.controls.append(text_field_su)
         self.main_page.conversation_column.controls.append(text_field)
         self.main_page.conversation_column.controls.append(text_field_translated)
         self.context += "user:"+text+'.'
         self.context += "assistant:"+bot_reply+'.'
+        self.last_bot_reply = bot_reply
         self.main_page.update()
+
+
+        if len(self.main_page.helper_column.controls) > 3:
+            magic_row = self.main_page.helper_column.controls[0]
+            self.main_page.helper_column.controls.clear()
+            self.main_page.helper_column.controls.append(magic_row)
 
         '''
         if lang_of_my_sentence in self.main_page.user.langs:
