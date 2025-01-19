@@ -9,11 +9,12 @@ from ENGINE.ALOHAPP_TEXT_GEN import generate_text
 from FRONT.ALOHAPP.CONTAINERS import delete_words_buttons
 from ENGINE.ALOHAPP_LANG_CODES import *
 from groq import Groq
+from cerebras.cloud.sdk import Cerebras
 from scipy.io.wavfile import write
 import pyaudio
 from sudachipy import dictionary
 import pykakasi
-
+import json
 import flet as ft
 import os
 
@@ -22,7 +23,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='openai',text_gen='groq'):
+    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='cerebras'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -40,6 +41,13 @@ class VoiceAssistant:
                 api_key=provide_key()
             )
             self.welcome = True
+
+        if text_gen == 'cerebras':
+            self.text_gen = 'cerebras'
+            from ENGINE.KEY_CEREBRAS import provide_key
+            key = provide_key()
+            self.client_cerebras = Cerebras(api_key=key,)
+
         if text_gen == 'ollama':
             self.text_gen = 'ollama'
 
@@ -80,6 +88,8 @@ class VoiceAssistant:
         # Convert byte string to numpy array
         audio_np = np.frombuffer(audio_data, dtype=np.int16).astype(np.float32) / 32768.0
         write(os.getcwd()+'/audio_file.wav',self.RATE, audio_np)
+        print(len(audio_np))
+
 
 
         print(os.getcwd())
@@ -88,12 +98,14 @@ class VoiceAssistant:
             if os_name == 'Darwin':
                 text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
             if os_name == 'Linux':
-                text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
                 try:
+                    text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
                     text = text['segments'][0]['text']
                 except IndexError:
                     print("Error: No transcription segments found. Please try speaking more clearly or check your microphone.")
-                    text = transcribe(file_path=os.getcwd()+'/audio_file.wav', language='zz')
+                    text = 'transcribe error'
+                    print(text)
+
             print(text)
 
         lang_of_my_sentence = detect_language(text)
@@ -106,7 +118,7 @@ class VoiceAssistant:
 
         if lang_of_my_sentence != self.main_language:
             if self.stt == 'whisper':
-                print("Transcribing audio...")
+                print("Transcribing audio.!")
                 if os_name == 'Darwin':
                     text_ll = transcribe(file_path=os.getcwd()+'/audio_file.wav', language=self.main_language)
                 if os_name == 'Linux':
@@ -116,6 +128,7 @@ class VoiceAssistant:
                     except IndexError:
                         print("Error: No transcription segments found. Please try speaking more clearly or check your microphone.")
                         text = 'ok'
+        else: text_ll = ''
 
 
 
@@ -133,7 +146,7 @@ class VoiceAssistant:
 
 
 
-        if len(self.main_page.conversation_column.controls) > 8:
+        if len(self.main_page.conversation_column.controls) > 3:
             magic_row = self.main_page.conversation_column.controls[0]
             self.main_page.conversation_column.controls.clear()
             self.main_page.conversation_column.controls.append(magic_row)
@@ -174,7 +187,18 @@ class VoiceAssistant:
 
 
         bot_reply = generate_text(self, text)
+        response_bot_json = json.loads(bot_reply)
+        bot_reply = response_bot_json["japanese"]
+        bot_reply_translated = response_bot_json["english"]
         print(bot_reply)
+        print(bot_reply_translated)
+
+        if bot_reply == '':
+            source_language = 'eng_Latn'
+            target_language = 'jpn_Jpan'
+            bot_reply = translate(bot_reply_translated, source_language, target_language)
+
+
 
         above = ''
         below = ''
@@ -195,9 +219,6 @@ class VoiceAssistant:
 
         )
 
-        source_language = get_lang_name_to_nllb(self.main_page.user.langs[0])
-        target_language = get_lang_name_to_nllb(self.main_page.user.native)
-        bot_reply_translated = translate(bot_reply, source_language, target_language)
         text_field_translated = ft.TextField(
             label='BOT REPLY TRANSLATED',
             multiline=True,
@@ -214,12 +235,13 @@ class VoiceAssistant:
         self.context += "assistant:"+bot_reply+'.'
         self.main_page.update()
 
+        '''
         if lang_of_my_sentence in self.main_page.user.langs:
            known_words =  self.main_page.user.Update_Words_Past(my_sentences=self.my_sentences,my_sentences_languages=self.my_sentences_languages, bot_sentences=self.bot_sentences)
            if known_words:
                self.main_page.words_buttons = delete_words_buttons(page=self.main_page, known_words=known_words)
                self.main_page.update()
-
+        '''
 
         if self.tts == 'melo':
             tts_melo(bot_reply, lang=self.main_language, output="example.wav")

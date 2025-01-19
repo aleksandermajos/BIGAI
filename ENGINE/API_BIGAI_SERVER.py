@@ -143,21 +143,30 @@ if STT_WHISPERX:
 
         @app.post("/transcribe/")
         async def transcribe(file: UploadFile = File(...), language: str = Form(...), file_path: str = Form(...)):
-
+            print('before load audio')
             audio = whisperx.load_audio(file_path)
+            print('after load audio')
+            print('before transcribe')
             if language == 'zz': language=''
             result = model.transcribe(audio, batch_size=16, task="transcribe",language=language)
-
+            print('after transcribe')
+            if result is None:
+                result = 'Transcribe error'
+            '''
+            print('before align transcribe')
             device = 'cuda:0'
             model_a, metadata = whisperx.load_align_model(language_code=result["language"], device=device)
             result = whisperx.align(result["segments"], model_a, metadata, audio, device, return_char_alignments=False)
-
+            print('after align transcribe')
+            
 
             response_data = {
                 "segments": result["segments"]
             }
-
-            return JSONResponse(content=response_data)
+            '''
+            print('before return')
+            print(JSONResponse(content=result))
+            return JSONResponse(content=result)
 
 if TTS_MELO:
     from melo.api import TTS
@@ -178,7 +187,7 @@ if TTS_MELO:
         output_path = request.output_path
 
         if get_lang_name_to_tts_melo(lang_beg):
-            speed = 0.9
+            speed = 0.65
             if os_name == 'Linux':
                 device_melo = 'cuda:0'
             if os_name == 'Darwin':
@@ -250,7 +259,7 @@ if GEN_IMAGE_SD3:
 if TRANSLATE_NLLB:
     from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
-    checkpoint = 'facebook/nllb-200-distilled-600M'
+    checkpoint = "facebook/nllb-200-distilled-600M"
     model_trans = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 
@@ -269,7 +278,7 @@ if TRANSLATE_NLLB:
     @app.post("/translate", response_model=TranslationResponse)
     def translate(request: TranslationRequest):
         translator = pipeline('translation', model=model_trans, tokenizer=tokenizer,src_lang=request.source_language, tgt_lang=request.target_language,
-                              max_length=400, device='cuda:0')
+                              max_length=400, device='cuda:1')
         translated_text = translator(request.text)[0]['translation_text']
         return TranslationResponse(translated_text=translated_text)
 

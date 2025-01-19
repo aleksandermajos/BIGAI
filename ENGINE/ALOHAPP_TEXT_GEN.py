@@ -1,10 +1,26 @@
-from ENGINE.ALOHAPP_LANG_CODES import get_lang_name_to_tts_melo, get_lang_name_to_nllb
-from ENGINE.API_BIGAI_CLIENT import translate, detect_language
 import ollama
+from ENGINE.ALOHAPP_MAIL import send_mail
+from pydantic import BaseModel
+
+
+class TranslationResponseOllama(BaseModel):
+    japanese: str
+    english: str
+
 
 def generate_text(page, user_text):
-    system_prompt = 'You are super helpful language teacher.User try to learn ' + page.main_language + '.' + 'User knows only following words: ' + page.main_page.user.prompt_present + '.Use only provided words.' + 'Answer always in ' + page.main_language + ' language and use maximal 2 short sentences.In any circumstances do not reply in other language that' + page.main_language+' of any part of reply'
-
+    system_prompt = (
+        f'You are a super helpful language teacher. You are teaching {page.main_language}. '
+        f'User is trying to learn {page.main_language}. '
+        f'User knows the following words: {page.main_page.user.prompt_present}. '
+        'Use as many of these words as possible, but you may include small grammar words that are needed to form a correct sentence. '
+        'You have to produce at least one sentence in the target language. Be cheerful and funny. '
+        'Arrange your answers in such a way as to encourage the user to continue the discussion. '
+        'Be informative and answer the question. '
+        "IMPORTANT: Return your entire answer as a JSON object in the format:"
+        '{"japanese": "<Japanese response>", "english": "<English translation>"}'
+    )
+    #info_send =  send_mail(body=system_prompt)
     last_conversation = page.context
     mess = []
     lines = last_conversation.split('.')
@@ -22,6 +38,7 @@ def generate_text(page, user_text):
             messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
             chat_completion = page.client_groq.chat.completions.create(
                 messages=messages,
+                response_format={"type": "json_object"},
                 model="llama3-70b-8192",
             )
             page.welcome = False
@@ -29,26 +46,36 @@ def generate_text(page, user_text):
             messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
             chat_completion = page.client_groq.chat.completions.create(
                 messages=messages,
+                response_format={"type": "json_object"},
                 model="llama3-70b-8192",
             )
         bot_reply = chat_completion.choices[0].message.content
 
+    if page.text_gen == 'cerebras':
+        messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
+        chat_completion = page.client_cerebras.chat.completions.create(
+            messages=messages,
+            response_format={"type": "json_object"},
+            model="llama-3.3-70b",
+        )
+        bot_reply = chat_completion.choices[0].message.content
+
     if page.text_gen == 'ollama':
-        bot_reply = ollama.chat(model='llama3.1:8b', messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_text},
-            {"role": "assistant", "content": last_conversation}
-        ])
-        bot_reply = bot_reply['message']['content']
+        messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
+        bot_reply = ollama.chat(
+            model='llama3.1:8b',
+            messages=messages,
+
+        )
+        bot_message = bot_reply['message']['content']
+        bot_reply = TranslationResponseOllama.parse_raw(bot_message)
 
     if page.text_gen == 'openai':
+        messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
         response = page.client_openai.chat.completions.create(
-            model="gpt-4o",
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_text},
-                {"role": "assistant", "content": last_conversation}
-            ]
+            messages=messages,
+            response_format={"type": "json_object"},
+            model = "gpt-4o"
         )
         bot_reply = response.choices[0].message.content
 
