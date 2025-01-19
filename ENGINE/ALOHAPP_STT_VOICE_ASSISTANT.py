@@ -270,7 +270,7 @@ class VoiceAssistant:
             label='BOT REPLY SUGESTIONS',
             multiline=True,
             label_style=ft.TextStyle(color=ft.colors.BLACK),
-            color=ft.colors.GREEN_800,
+            color=ft.colors.YELLOW,
             value=f"{above}\n{bot_reply_sugestions}\n{below}\n{bot_reply_sugestions_translated}"
 
         )
