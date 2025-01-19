@@ -1,6 +1,8 @@
 import ollama
 from ENGINE.ALOHAPP_MAIL import send_mail
 from pydantic import BaseModel
+import json
+import re
 
 
 class TranslationResponseOllama(BaseModel):
@@ -30,7 +32,40 @@ def generate_text(page, user_text):
         elif line.startswith("assistant:"):
             mess.append({"role": "assistant", "content": line.replace("assistant:", "").strip()})
 
+    if page.text_gen == 'openai':
+        messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
+        response = page.client_openai.chat.completions.create(
+            messages=messages,
+            response_format={"type": "json_object"},
+            model = "gpt-4o"
+        )
+        bot_reply = response.choices[0].message.content
 
+    if page.text_gen == 'google':
+
+        # Concatenate the system prompt with the user's initial text
+        user_prompt_with_system = system_prompt + " " + user_text
+        messages = []
+        for m in mess:
+            messages.append({"role": m["role"], "parts": [{"text": m["content"]}]})
+        messages.append({"role": "user", "parts": [{"text": user_prompt_with_system}]})
+
+        response = page.google_model.generate_content(messages)
+        bot_reply = response.text
+        clean_text = re.sub(r"^```(\w+)?|```$", "", bot_reply.strip(), flags=re.MULTILINE).strip()
+        bot_reply = clean_text
+
+
+
+
+    if page.text_gen == 'cerebras':
+        messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
+        chat_completion = page.client_cerebras.chat.completions.create(
+            messages=messages,
+            response_format={"type": "json_object"},
+            model="llama-3.3-70b",
+        )
+        bot_reply = chat_completion.choices[0].message.content
 
 
     if page.text_gen == 'groq':
@@ -51,15 +86,6 @@ def generate_text(page, user_text):
             )
         bot_reply = chat_completion.choices[0].message.content
 
-    if page.text_gen == 'cerebras':
-        messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
-        chat_completion = page.client_cerebras.chat.completions.create(
-            messages=messages,
-            response_format={"type": "json_object"},
-            model="llama-3.3-70b",
-        )
-        bot_reply = chat_completion.choices[0].message.content
-
     if page.text_gen == 'ollama':
         messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
         bot_reply = ollama.chat(
@@ -70,13 +96,6 @@ def generate_text(page, user_text):
         bot_message = bot_reply['message']['content']
         bot_reply = TranslationResponseOllama.parse_raw(bot_message)
 
-    if page.text_gen == 'openai':
-        messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
-        response = page.client_openai.chat.completions.create(
-            messages=messages,
-            response_format={"type": "json_object"},
-            model = "gpt-4o"
-        )
-        bot_reply = response.choices[0].message.content
+
 
     return bot_reply

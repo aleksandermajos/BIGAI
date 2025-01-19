@@ -10,6 +10,7 @@ from FRONT.ALOHAPP.CONTAINERS import delete_words_buttons
 from ENGINE.ALOHAPP_LANG_CODES import *
 from groq import Groq
 from cerebras.cloud.sdk import Cerebras
+import google.generativeai as genai
 from scipy.io.wavfile import write
 import pyaudio
 from sudachipy import dictionary
@@ -23,7 +24,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='cerebras'):
+    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='openai'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -34,6 +35,28 @@ class VoiceAssistant:
             self.tts = 'openai'
             self.tts_voice = "alloy"
 
+
+
+        if text_gen == 'openai':
+            self.text_gen = 'openai'
+            from ENGINE.KEY_OPENAI import provide_key
+            key = provide_key()
+            self.client_openai = OpenAI(api_key=key)
+
+        if text_gen == 'google':
+            self.text_gen = 'google'
+            from ENGINE.KEY_GOOGLE import provide_key
+            key = provide_key()
+            self.client_google = genai
+            self.client_google.configure(api_key=key)
+            self.google_model = self.client_google.GenerativeModel("gemini-2.0-flash-exp")
+
+        if text_gen == 'cerebras':
+            self.text_gen = 'cerebras'
+            from ENGINE.KEY_CEREBRAS import provide_key
+            key = provide_key()
+            self.client_cerebras = Cerebras(api_key=key,)
+
         if text_gen == 'groq':
             self.text_gen = 'groq'
             from ENGINE.KEY_GROQ import provide_key
@@ -42,20 +65,10 @@ class VoiceAssistant:
             )
             self.welcome = True
 
-        if text_gen == 'cerebras':
-            self.text_gen = 'cerebras'
-            from ENGINE.KEY_CEREBRAS import provide_key
-            key = provide_key()
-            self.client_cerebras = Cerebras(api_key=key,)
 
         if text_gen == 'ollama':
             self.text_gen = 'ollama'
 
-        if text_gen == 'openai':
-            self.text_gen = 'openai'
-            from ENGINE.KEY_OPENAI import provide_key
-            key = provide_key()
-            self.client_openai = OpenAI(api_key=key)
 
         self.context = ''
         self.my_sentences = []
@@ -127,7 +140,7 @@ class VoiceAssistant:
                         text_ll = text_ll['segments'][0]['text']
                     except IndexError:
                         print("Error: No transcription segments found. Please try speaking more clearly or check your microphone.")
-                        text = 'ok'
+                        text_ll = 'ok'
         else: text_ll = ''
 
 
