@@ -7,7 +7,6 @@ from ENGINE.TTS_OPENAI import generate_and_play
 from ENGINE.API_BIGAI_CLIENT import *
 from ENGINE.ALOHAPP_TEXT_GEN import generate_text, generate_sugestion
 from FRONT.ALOHAPP.CONTAINERS import delete_words_buttons
-from ENGINE.ALOHAPP_LANG_CODES import *
 from groq import Groq
 from cerebras.cloud.sdk import Cerebras
 import google.generativeai as genai
@@ -71,6 +70,7 @@ class VoiceAssistant:
 
 
         self.context = ''
+        self.great = False
         self.my_sentences = []
         self.my_sentences_languages = []
         self.bot_sentences = []
@@ -125,6 +125,7 @@ class VoiceAssistant:
         lang_of_my_sentence = detect_language(text)
         lang_of_my_sentence = lang_of_my_sentence['language_code']
         if lang_of_my_sentence in self.main_page.user.langs:
+            self.great = True
             self.my_sentences.append(text)
             self.my_sentences_languages.append(lang_of_my_sentence)
 
@@ -133,7 +134,9 @@ class VoiceAssistant:
 
 
 
+
         if lang_of_my_sentence != self.main_language:
+            self.great = False
             if self.stt == 'whisper':
                 print("Transcribing audio.!")
                 if os_name == 'Darwin':
@@ -151,15 +154,25 @@ class VoiceAssistant:
 
 
 
+        if self.great == True:
+            text_field = ft.TextField(
+                label='YOUR SENTENCE ORGINAL',
+                multiline=True,
+                label_style=ft.TextStyle(color=ft.colors.GREEN_800),
+                color=ft.colors.GREEN_800,
+                value=text,
+                icon=ft.icons.EMOJI_EMOTIONS
+            )
+        else:
+            text_field = ft.TextField(
+                label='YOUR SENTENCE ORGINAL',
+                multiline=True,
+                label_style=ft.TextStyle(color=ft.colors.YELLOW),
+                color=ft.colors.YELLOW,
+                value=text,
+                icon=ft.icons.EMOJI_EMOTIONS
+            )
 
-        text_field = ft.TextField(
-            label='YOUR SENTENCE ORGINAL',
-            multiline=True,
-            label_style=ft.TextStyle(color=ft.colors.YELLOW),
-            color=ft.colors.YELLOW,
-            value=text,
-            icon=ft.icons.EMOJI_EMOTIONS
-        )
 
 
 

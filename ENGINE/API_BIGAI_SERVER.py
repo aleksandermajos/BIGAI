@@ -278,7 +278,7 @@ if TRANSLATE_NLLB:
     @app.post("/translate", response_model=TranslationResponse)
     def translate(request: TranslationRequest):
         translator = pipeline('translation', model=model_trans, tokenizer=tokenizer,src_lang=request.source_language, tgt_lang=request.target_language,
-                              max_length=400, device='cuda:1')
+                              max_length=400, device='cuda:0')
         translated_text = translator(request.text)[0]['translation_text']
         return TranslationResponse(translated_text=translated_text)
 
