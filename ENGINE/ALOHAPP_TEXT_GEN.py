@@ -16,7 +16,7 @@ def generate_text(page, user_text):
         f'User is trying to learn {page.main_language}. '
         f'User knows the following words: {page.main_page.user.prompt_present}. '
         'Use some of these words if possible, but you may include small grammar words that are needed to form a correct sentence. '
-        'You have to produce at least one short sentence in the target language. Be cheerful, funny and concise. '
+        'You have to produce at least one average length  sentence in the target language. Be cheerful, funny and concise. '
         'Arrange your answers in such a way as to encourage the user to continue the discussion. '
         'Be informative and answer the question. '
         "IMPORTANT: Return your entire answer as a JSON object in the format:"
@@ -97,7 +97,7 @@ def generate_sugestion(page, bot_text):
         f'You are a super helpful sentence analizer. You are analizing the sentence:  {bot_text}.'
         f'User is trying to learn {page.main_language}. '
         f'User knows the following words: {page.main_page.user.prompt_present}. '
-        f'You have to produce at least one super short sentence in a language.The produced sentence is what you think is the best answer for {bot_text} and need to be short. '
+        f'You have to produce at least one average length sentence in a target language.The produced sentence is what you think is the best answer for {bot_text}. '
         'Use some of these words if possible, you may include small grammar words that are needed to form a correct sentence. '
         "IMPORTANT: Return your entire answer as a JSON object in the format:"
         '{"japanese": "<Japanese response>", "english": "<English translation>"}'
