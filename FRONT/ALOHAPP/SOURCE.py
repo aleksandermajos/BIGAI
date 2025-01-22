@@ -1,15 +1,84 @@
-from ENGINE.API_BIGAI_CLIENT import transcribe, detect_language
+from ENGINE.API_BIGAI_CLIENT import transcribe, detect_language, lemmatize_sentences
+from WORD import WORD_Abstract, WORD_Japanese
+from sudachipy import tokenizer
 from sudachipy import dictionary
+import pykakasi
 from ordered_set import OrderedSet
 import pickle
 import spacy_stanza
+import pykakasi
 from pydub import AudioSegment
 from pathlib import Path
 import os
 import re
 
+def get_all_paths_in_one_source(path, extension = '.pkl'):
+
+    if not extension.startswith('.'):
+        extension = '.' + extension
+    all_files = os.listdir(path)
+    filtered_files = [file for file in all_files if file.endswith(extension)]
+
+    return filtered_files
+
+
 
 class SOURCE:
+    source_type = ['AUDIO', 'DECKS', 'EXEL', 'PIC', 'TATOEBA', 'TEXT', 'VIDEO']
+    user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA', 'NETFLIX', 'YT', 'TEXT', 'PIC', 'VIDEO', 'FREQDICT',
+                 'EXAMS']
+
+    def __init__(self, source_type, user_type, name, lang, path, part=-1):
+        if source_type not in self.source_type:
+            raise ValueError(f"Invalid source type '{source_type}'. Allowed source_type are: {self.source_type}")
+        self.source_type = source_type
+        if user_type not in self.user_type:
+            raise ValueError(f"Invalid user type '{user_type}'. Allowed user_type are: {self.user_type}")
+        self.user_type = user_type
+        self.path = path
+        self.name = name
+        self.lang = lang
+        self.part = part
+        self.words = set()
+        self.n_grams = set()
+        self.sentences = set()
+
+        if source_type=='AUDIO' and user_type=='BOOK':
+            if part == -1:
+                self.parts = sorted(get_all_paths_in_one_source(path,extension='.mp3'))
+            else:
+                self.parts = sorted(get_all_paths_in_one_source(path,extension='.mp3'))
+                self.parts = [self.parts[part]]
+
+            tokenizer_obj = dictionary.Dictionary().create()
+            mode = tokenizer.Tokenizer.SplitMode.A
+            kks = pykakasi.kakasi()
+            for part in self.parts:
+                text_seg = transcribe(file_path=self.path+'/'+part, language=self.lang)
+                audio = AudioSegment.from_file(self.path+'/'+part)
+
+                for segment in text_seg['segments']:
+                    segment['audio'] = audio[segment['start'] * 1000:segment['end'] * 1000]
+                    segment['text_lemma_spacy'] = lemmatize_sentences([segment['text']],lang=self.lang)[0]
+                    if self.lang == 'ja':
+                        tokens = tokenizer_obj.tokenize(segment['text'], mode)
+                        segment['text_lemma_suda'] = {token.dictionary_form() for token in tokens}
+                        segment['text_lemma_pos'] = {token.part_of_speech() for token in tokens}
+
+                        for word in segment['text_lemma_suda']:
+                            result = kks.convert(word)
+                            for item in result:
+                                print(f"Original: {item['orig']}, Rōmaji: {item['hepburn']}")
+                        oko=6
+
+so = SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang='ja',
+                                               path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/JA/SELF_LEARNING/ASSIMIL',
+                                               part=-1)
+
+
+
+
+class SOURCE_USE:
     source_type = ['AUDIO', 'DECKS', 'EXEL', 'PIC', 'TATOEBA', 'TEXT', 'VIDEO']
     user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA','NETFLIX', 'YT', 'TEXT','PIC', 'VIDEO', 'FREQDICT', 'EXAMS']
 
@@ -32,10 +101,30 @@ class SOURCE:
                 self.parts = sorted(get_all_paths_in_one_source(path))
                 self.parts = [self.parts[part]]
 
+            kks = pykakasi.kakasi()
             words_in_parts = []
+            hira_in_parts = []
+            hip = []
+            hepburn_in_parts = []
+            heip = []
             for part in self.parts:
-                words_in_parts.append(get_words_from_one_pickle(path=path+'/'+part,lang=self.lang))
+                wip = get_words_from_one_pickle(path=path+'/'+part,lang=self.lang)
+                words_in_parts.append(wip)
+                element = 0
+                for word in wip:
+                    print(element)
+                    element = element + 1
+                    result = (
+                        kks.convert(word))
+                    for item in result:
+                        hip.append(item['hira'])
+                        heip.append(item['hepburn'])
+                        print(word+'-'+ item['hira']+'-'+ item['hepburn'])
+                hira_in_parts.append(hip)
+                hepburn_in_parts.append(heip)
             self.words_in_parts = words_in_parts
+            self.hira_in_parts = hira_in_parts
+            self.hepburn_in_parts = hepburn_in_parts
             self.all_words = set().union(*self.words_in_parts)
 
         if source_type=='TEXT' and user_type=='FREQDICT':
@@ -111,18 +200,18 @@ class SOURCE_CREATE(object):
         tokenizer_obj = dictionary.Dictionary().create()
         audio = AudioSegment.from_file(self.path)
         for segment in text['segments']:
-            if self.language=='jaaaa':
+            if self.language=='ja':
 
                 tokens = tokenizer_obj.tokenize(segment['text'])
-                segment['text_lemma'] = tokens
+                #segment['text_lemma'] = tokens
                 # Extract words
                 words = [token.surface() for token in tokens]
                 unwanted_elements = ['。', '?', '.','_',' ',', ',',']
                 words = [item for item in words if item not in unwanted_elements]
                 # Get unique words
                 unique_words = set(words)
-                my_list = [item for item in unique_words]
-                word['word_lemma']= my_list
+                segment['words_lemma_suda'] = [item for item in unique_words]
+
 
             else:
                 lem = lemma(segment['text'])
@@ -174,14 +263,19 @@ def load_my_pickle(path):
 
 def get_words_from_one_pickle(path,lang):
     data = load_my_pickle(path)
-    words_gathered = set()
+    words_list = []
     for current_segment in data['segments']:
+        words_list.extend(current_segment['words_lemma_suda'])
+        '''
         for word in current_segment['words']:
 
             result = detect_language(word['word'])
             language_code = result['language_code']
             if language_code == lang:
                 words_gathered.add(word['word_lemma'])
+        '''
+
+    words_gathered = set(words_list)
 
 
     remove_punctuations = {',', '.', '?', '!', ';', ':','...','%'}
@@ -218,14 +312,7 @@ def get_words_from_one_exam_jlpt_words(path):
 
     return words_gathered
 
-def get_all_paths_in_one_source(path, extension = '.pkl'):
 
-    if not extension.startswith('.'):
-        extension = '.' + extension
-    all_files = os.listdir(path)
-    filtered_files = [file for file in all_files if file.endswith(extension)]
-
-    return filtered_files
 
 
 def get_list_of_sources_in_language(path, language):

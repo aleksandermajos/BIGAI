@@ -1,19 +1,19 @@
 import flet as ft
 from FRONT.ALOHAPP.CONTAINERS import generate_words_buttons,create_words_container, create_conversation_container, create_helper_container
 from ENGINE.ALOHAPP_STT_VOICE_ASSISTANT import VoiceAssistant
-from SOURCE import SOURCE
 import pickle
+from USER import USER
 
 
 def main(page: ft.Page):
     page.title = "ALOHAPP"
 
-    with open('USER_ALEX.pkl', 'rb') as file:
+    with open('USER_ALEX_ASSIMIL_0.pkl', 'rb') as file:
         page.user = pickle.load(file)
 
     page.user.hmt = 4
 
-    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='ja',start=0,end=12)
+    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='ja',start=0,end=0)
     page.user.Create_Prompt_From_Words_Present()
 
     page.words_buttons = generate_words_buttons(list(page.user.words_present))

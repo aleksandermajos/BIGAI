@@ -124,6 +124,10 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+    text_to_lemmatize = [']第1課はやくいきましょうわかりましたどこへ']
+    lem = lemmatize_sentences(text_to_lemmatize, lang='ja')
+
+
     text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"
     source_language = 'eng_Latn'
     target_language = "fra_Latn"

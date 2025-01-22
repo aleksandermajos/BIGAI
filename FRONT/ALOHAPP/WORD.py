@@ -1,20 +1,61 @@
-import datetime
-from typing import List
+from abc import ABC, abstractmethod
+from typing import Optional
+from pydantic import BaseModel, Field
 
-class WORD:
-    def __init__(self, word, lang, difficulty):
-        self.word = word
-        self.lang = lang
-        self.difficulty = difficulty
+class WORD_Abstract(ABC, BaseModel):
+    """
+       An abstract base model for words, combining Pydantic (for validation)
+       with Python's ABC (for abstract classes).
+    """
+    text: str
+    language: str
+    part_of_speech: Optional[str] = None
 
-    Part: List[str] = []
-    Possibilities: List[str] = []
-
-    def Popoulate_Sentences(self):
+    @abstractmethod
+    def lemmatize(self) -> str:
+        """
+        Abstract method that derived classes must implement.
+        """
         pass
 
-    def Popoulate_Audio(self):
-        pass
+    def __str__(self) -> str:
+        return f"[{self.language}] {self.text} - POS: {self.part_of_speech}"
 
-    def Popoulate_Pics(self):
-        pass
+class WORD_English(WORD_Abstract):
+    """
+    Concrete class for English words, implementing 'lemmatize'.
+    """
+
+
+    language: str = Field(default="en")
+
+    def lemmatize(self) -> str:
+        return self.text
+
+
+class WORD_Japanese(WORD_Abstract):
+    """
+    Concrete class for Japanese words, adding Japanese-specific fields.
+    """
+
+    language: str = Field(default="ja")
+    kanji: Optional[str] = None
+    hiragana: Optional[str] = None
+    katakana: Optional[str] = None
+    hepburn: Optional[str] = None
+
+
+    def lemmatize(self) -> str:
+        """
+        A dummy lemmatizer for Japanese words.
+        Integrate with MeCab, SudachiPy, etc., for real usage.
+        """
+        # Return the 'text' or 'kanji' as a placeholder
+        return self.text
+
+    def __str__(self) -> str:
+        """
+        Provide more descriptive string for Japanese words.
+        """
+        base_str = super().__str__()
+        return f"{base_str}\n  Kanji: {self.kanji}\n  Hiragana: {self.hiragana}\n  Katakana: {self.katakana}"

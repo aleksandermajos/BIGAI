@@ -189,8 +189,8 @@ class VoiceAssistant:
             for word in words:
                 result = self.kks.convert(word)
                 for item in result:
-                    above += item['hira']+' '
-                    below += item['hepburn']+' '
+                    above += ' '+ item['hira']+' '
+                    below += ' '+ item['hepburn']+' '
 
             if lang_of_my_sentence != self.main_language:
                 text_field_ll = ft.TextField(
@@ -237,8 +237,8 @@ class VoiceAssistant:
         for word in words:
             result = self.kks.convert(word)
             for item in result:
-                above += item['hira'] + ' '
-                below += item['hepburn'] + ' '
+                above += ' ' + item['hira'] + ' '
+                below += ' ' + item['hepburn'] + ' '
         self.bot_sentences.append(bot_reply)
         text_field = ft.TextField(
             label='BOT REPLY',
@@ -276,8 +276,8 @@ class VoiceAssistant:
         for word in words:
             result = self.kks.convert(word)
             for item in result:
-                above += item['hira'] + ' '
-                below += item['hepburn'] + ' '
+                above += ' ' + item['hira'] + ' '
+                below += ' ' + item['hepburn'] + ' '
         self.bot_sugestions.append(bot_reply_sugestions)
         text_field_su = ft.TextField(
             label='BOT REPLY SUGESTIONS',
