@@ -21,6 +21,18 @@ class WORD_Abstract(ABC, BaseModel):
     def __str__(self) -> str:
         return f"[{self.language}] {self.text} - POS: {self.part_of_speech}"
 
+    def __hash__(self) -> int:
+        return hash((self.text, self.language, self.part_of_speech))
+
+    def __eq__(self, other) -> bool:
+        if not isinstance(other, WORD_Abstract):
+            return NotImplemented
+        return (
+                self.text == other.text and
+                self.language == other.language and
+                self.part_of_speech == other.part_of_speech
+        )
+
 class WORD_English(WORD_Abstract):
     """
     Concrete class for English words, implementing 'lemmatize'.
@@ -39,10 +51,12 @@ class WORD_Japanese(WORD_Abstract):
     """
 
     language: str = Field(default="ja")
-    kanji: Optional[str] = None
+    orginal: Optional[str] = None
     hiragana: Optional[str] = None
     katakana: Optional[str] = None
     hepburn: Optional[str] = None
+    kunrei: Optional[str] = None
+    passport: Optional[str] = None
 
 
     def lemmatize(self) -> str:

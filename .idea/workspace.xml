@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="ALOHAPP GOOD ONE NA ZIELONO">
-      <change afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_LEMMA_FUGASHI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_LEMMA_SPACY_SIMPLIFIED.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_LEMMA_SUDACHIPY.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ENGINE/CODE_GEN_BY_DEEPSEEK_R1.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="ALOHAPP REARRANGE SOURCE PART A">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_LEMMA.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_TEXT_GEN.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_TEXT_GEN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_TRANSLATE_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/ALOHAPP.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ALOHAPP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/USER.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/USER.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/WORD.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/WORD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/WORDUSE.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1658,7 +1644,7 @@
       <workItem from="1737270989710" duration="24995000" />
       <workItem from="1737358352890" duration="13874000" />
       <workItem from="1737444038987" duration="21003000" />
-      <workItem from="1737531265880" duration="19298000" />
+      <workItem from="1737531265880" duration="23139000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1687,14 +1673,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00201" summary="1 CIRCLE-&gt; 1800H,&#10;ALL CLONES-&gt; 2700H,&#10;NEXT CYCLE+CLONES-&gt;3600H">
-      <option name="closed" value="true" />
-      <created>1729667612835</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1729667612836</updated>
     </task>
     <task id="LOCAL-00202" summary="SPACY STANZA LEMMATIZER ON SERVER">
       <option name="closed" value="true" />
@@ -2048,7 +2026,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737373579116</updated>
     </task>
-    <option name="localTasksCounter" value="246" />
+    <task id="LOCAL-00246" summary="ALOHAPP REARRANGE SOURCE PART A">
+      <option name="closed" value="true" />
+      <created>1737563956537</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1737563956537</updated>
+    </task>
+    <option name="localTasksCounter" value="247" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -2074,7 +2060,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="early stage Update words past" />
     <MESSAGE value="alex user" />
     <MESSAGE value="melo_tts repaired" />
     <MESSAGE value="no language zz repaired" />
@@ -2099,7 +2084,8 @@
     <MESSAGE value="ALOHAPP GOOGLE TEXT GEN..AVERAGE RESULTS" />
     <MESSAGE value="ALOHAPP MAKE SUGGESTION OF REPLY!" />
     <MESSAGE value="ALOHAPP GOOD ONE NA ZIELONO" />
-    <option name="LAST_COMMIT_MESSAGE" value="ALOHAPP GOOD ONE NA ZIELONO" />
+    <MESSAGE value="ALOHAPP REARRANGE SOURCE PART A" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALOHAPP REARRANGE SOURCE PART A" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2358,7 +2344,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py</url>
-          <line>247</line>
+          <line>249</line>
           <option name="timeStamp" value="487" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -2368,22 +2354,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py</url>
-          <line>123</line>
+          <line>125</line>
           <option name="timeStamp" value="507" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py</url>
-          <line>121</line>
+          <line>123</line>
           <option name="timeStamp" value="510" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py</url>
-          <line>198</line>
+          <line>200</line>
           <option name="timeStamp" value="516" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py</url>
-          <line>196</line>
+          <line>198</line>
           <option name="timeStamp" value="517" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -2398,8 +2384,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="551" />
+          <line>69</line>
+          <option name="timeStamp" value="557" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="558" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="561" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -2441,7 +2442,7 @@
     <SUITE FILE_PATH="coverage/BIGAI$LD_TOOL_TRAIN.coverage" NAME="LD_TOOL_TRAIN Coverage Results" MODIFIED="1718173064934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/SMALL PROJECTS/LD_TOOL" />
     <SUITE FILE_PATH="coverage/BIGAI$SUPER_RUDE_ASSISTANT_LOCAL_CLASS.coverage" NAME="SUPER_RUDE_ASSISTANT_LOCAL_CLASS Coverage Results" MODIFIED="1728765396946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SCHOOL/SMALLPROJECTS/SUPER_RUDE_ASSISTANT" />
     <SUITE FILE_PATH="coverage/BIGAI$GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL_8x22B_Q4.coverage" NAME="GEN_CODE_TEXT_LLAMA_CPP_MIXTRAL_8x22B_Q4 Coverage Results" MODIFIED="1717084974486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
-    <SUITE FILE_PATH="coverage/BIGAI$SOURCE.coverage" NAME="SOURCE Coverage Results" MODIFIED="1737563351941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
+    <SUITE FILE_PATH="coverage/BIGAI$SOURCE.coverage" NAME="SOURCE Coverage Results" MODIFIED="1737568574895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FRONT/ALOHAPP" />
     <SUITE FILE_PATH="coverage/BIGAI$TTS_BARK.coverage" NAME="TTS_BARK Coverage Results" MODIFIED="1713692296234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$API_STT_WHISPER_CLIENT.coverage" NAME="API_BIGAI_CLIENT Coverage Results" MODIFIED="1715875320901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />
     <SUITE FILE_PATH="coverage/BIGAI$SCREENSHOOT_SELENIUM.coverage" NAME="SCREENSHOOT_SELENIUM Coverage Results" MODIFIED="1717809362122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ENGINE" />

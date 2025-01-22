@@ -2,7 +2,6 @@ from ENGINE.API_BIGAI_CLIENT import transcribe, detect_language, lemmatize_sente
 from WORD import WORD_Abstract, WORD_Japanese
 from sudachipy import tokenizer
 from sudachipy import dictionary
-import pykakasi
 from ordered_set import OrderedSet
 import pickle
 import spacy_stanza
@@ -62,18 +61,26 @@ class SOURCE:
                     segment['text_lemma_spacy'] = lemmatize_sentences([segment['text']],lang=self.lang)[0]
                     if self.lang == 'ja':
                         tokens = tokenizer_obj.tokenize(segment['text'], mode)
-                        segment['text_lemma_suda'] = {token.dictionary_form() for token in tokens}
+                        segment['text_lemma_suda'] = {token.dictionary_form()  for token in tokens}
                         segment['text_lemma_pos'] = {token.part_of_speech() for token in tokens}
 
                         for word in segment['text_lemma_suda']:
                             result = kks.convert(word)
                             for item in result:
+                                self.words.add(WORD_Japanese(text=item['orig'],language=self.lang,part_of_speech='verb',orginal=item['orig'],hiragana=item['hira'],katakana=item['kana'],hepburn=item['hepburn'],kunrei=item['kunrei'],passport=item['passport']))
                                 print(f"Original: {item['orig']}, Rōmaji: {item['hepburn']}")
-                        oko=6
+
 
 so = SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang='ja',
                                                path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/JA/SELF_LEARNING/ASSIMIL',
                                                part=-1)
+oko=4
+with open("my_object.pkl", "wb") as file:  # 'wb' means write binary
+    pickle.dump(so, file)
+oko=6
+with open("my_object.pkl", "rb") as file:  # 'rb' means read binary
+    loaded_object = pickle.load(file)
+oko=7
 
 
 
