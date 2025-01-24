@@ -1,110 +1,150 @@
 import pygame
 import sys
-from pygame.locals import *
 
 # Initialize Pygame
 pygame.init()
 
-# Set up the game window
-WIDTH = 600
+# Constants
+WIDTH = 800
 HEIGHT = 600
-CELL_SIZE = WIDTH // 3
-LINE_WIDTH = 5
-
-window = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Tic Tac Toe")
+BALL_RADIUS = 20
+PADDLE_WIDTH = 100
+PADDLE_HEIGHT = 10
+FPS = 60
 
 # Colors
-BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
 
-# Set up the game board
-board = [['', '', ''], ['', '', ''], ['', '', '']]
-font = pygame.font.Font(None, 100)
-playing_X = True
-
-# Win conditions
-win_conditions = [
-    [[0, 0], [0, 1], [0, 2]],
-    [[1, 0], [1, 1], [1, 2]],
-    [[2, 0], [2, 1], [2, 2]],
-    [[0, 0], [1, 0], [2, 0]],
-    [[0, 1], [1, 1], [2, 1]],
-    [[0, 2], [1, 2], [2, 2]],
-    [[0, 0], [1, 1], [2, 2]],
-    [[0, 2], [1, 1], [2, 0]]
-]
+# Set up display
+SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Arkanoid")
 
 
-def check_win():
-    for condition in win_conditions:
-        a, b, c = condition
-        if board[a[0]][a[1]] == board[b[0]][b[1]] == board[c[0]][c[1]] != '':
-            return True
-    return False
+class Ball:
+    def __init__(self):
+        self.x = WIDTH // 2
+        self.y = HEIGHT - BALL_RADIUS * 2
+        self.speed_x = 5
+        self.speed_y = -5
+
+    def move(self):
+        if self.x < BALL_RADIUS or self.x > WIDTH - BALL_RADIUS:
+            self.speed_x *= -1
+        if self.y < BALL_RADIUS:
+            self.speed_y *= -1
+        self.x += self.speed_x
+        self.y += self.speed_y
 
 
-def draw_board():
-    window.fill(BLACK)
+class Paddle:
+    def __init__(self):
+        self.x = (WIDTH - PADDLE_WIDTH) // 2
+        self.y = HEIGHT - PADDLE_HEIGHT - 20
 
-    # Draw grid lines
-    for i in range(1, 3):
-        pygame.draw.line(window, WHITE, (i * CELL_SIZE, 0), (i * CELL_SIZE, HEIGHT), LINE_WIDTH)
-        pygame.draw.line(window, WHITE, (0, i * CELL_SIZE), (HEIGHT, i * CELL_SIZE), LINE_WIDTH)
-
-    # Draw X's and O's
-    for row in range(3):
-        for col in range(3):
-            if board[row][col] == 'X':
-                text = font.render('X', True, WHITE)
-                window.blit(text, (col * CELL_SIZE + CELL_SIZE / 2 - text.get_width() / 2,
-                                   row * CELL_SIZE + CELL_SIZE / 2 - text.get_height() / 2))
-            elif board[row][col] == 'O':
-                text = font.render('O', True, WHITE)
-                window.blit(text, (col * CELL_SIZE + CELL_SIZE / 2 - text.get_width() / 2,
-                                   row * CELL_SIZE + CELL_SIZE / 2 - text.get_height() / 2))
+    def move(self, direction):
+        if direction == 'left' and self.x > 0:
+            self.x -= 8
+        elif direction == 'right' and self.x < WIDTH - PADDLE_WIDTH:
+            self.x += 8
 
 
-def display_result(message):
-    result_font = pygame.font.Font(None, 74)
-    text = result_font.render(message, True, WHITE)
-    window.blit(text, (WIDTH / 2 - text.get_width() / 2, HEIGHT / 2 - text.get_height() / 2))
-    pygame.display.flip()
-    pygame.time.wait(1500)
+def create_bricks():
+    brick_width = 80
+    brick_height = 30
+    bricks = []
+    for i in range(5):
+        row = []
+        for j in range(10):
+            x = 50 + j * (brick_width + 5)
+            y = 50 + i * (brick_height + 5)
+            row.append((x, y))
+        bricks.append(row)
+    return bricks
 
 
-# Game loop
-while True:
-    for event in pygame.event.get():
-        if event.type == QUIT:
-            pygame.quit()
-            sys.exit()
-        elif event.type == MOUSEBUTTONDOWN:
-            x, y = pygame.mouse.get_pos()
-            col = x // CELL_SIZE
-            row = y // CELL_SIZE
+def draw_bricks(bricks):
+    brick_width = 80
+    brick_height = 30
+    for row in bricks:
+        for brick in row:
+            pygame.draw.rect(SCREEN, WHITE, (brick[0], brick[1], brick_width, brick_height), 2)
 
-            # Check if the cell is empty
-            if board[row][col] == '':
-                if playing_X:
-                    board[row][col] = 'X'
-                else:
-                    board[row][col] = 'O'
 
-                # Check for a win
-                if check_win():
-                    display_result(f"{'X' if playing_X else 'O'} Wins!")
-                    board = [['', '', ''], ['', '', ''], ['', '', '']]
-                    playing_X = True
-                else:
-                    # Check for draw
-                    if all(cell != '' for row in board for cell in row):
-                        display_result("Draw!")
-                        board = [['', '', ''], ['', '', ''], ['', '', '']]
-                        playing_X = True
-                    else:
-                        playing_X = not playing_X
+def main():
+    clock = pygame.time.Clock()
+    paddle = Paddle()
+    ball = Ball()
+    bricks = create_bricks()
 
-    window.fill(BLACK)
-    draw_board()
-    pygame.display.flip()
+    # Sound effects
+    hit_paddle = pygame.mixer.Sound('hit_paddle.wav')
+    hit_brick = pygame.mixer.Sound('hit_brick.wav')
+
+    score = 0
+    lives = 3
+
+    font = pygame.font.Font(None, 36)
+
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()
+
+        keys = pygame.key.get_pressed()
+        if keys[pygame.K_LEFT]:
+            paddle.move('left')
+        if keys[pygame.K_RIGHT]:
+            paddle.move('right')
+
+        SCREEN.fill(BLACK)
+
+        # Move ball
+        ball.move()
+        draw_bricks(bricks)
+
+        # Check collision with paddle
+        if (ball.y + BALL_RADIUS > paddle.y and
+                ball.x > paddle.x and
+                ball.x < paddle.x + PADDLE_WIDTH):
+            ball.speed_y *= -1
+            hit_paddle.play()
+
+        # Check for brick collisions
+        for i in range(len(bricks)):
+            for j in range(len(bricks[i])):
+                x, y = bricks[i][j]
+                if (ball.x > x and
+                        ball.x < x + 80 and
+                        ball.y > y and
+                        ball.y < y + 30):
+                    ball.speed_y *= -1
+                    hit_brick.play()
+                    del bricks[i][j]
+                    score += 10
+
+        # Check game over condition
+        if ball.y > HEIGHT:
+            lives -= 1
+            if lives == 0:
+                print("Game Over! Final Score:", score)
+                pygame.quit()
+                sys.exit()
+            else:
+                ball.x = WIDTH // 2
+                ball.y = HEIGHT - BALL_RADIUS * 2
+
+        # Draw elements
+        pygame.draw.circle(SCREEN, WHITE, (ball.x, ball.y), BALL_RADIUS)
+        pygame.draw.rect(SCREEN, WHITE, (paddle.x, paddle.y, PADDLE_WIDTH, PADDLE_HEIGHT))
+
+        score_text = font.render(f'Score: {score} Lives: {lives}', True, WHITE)
+        SCREEN.blit(score_text, (10, 10))
+
+        pygame.display.flip()
+        clock.tick(FPS)
+
+
+if __name__ == "__main__":
+    main()
