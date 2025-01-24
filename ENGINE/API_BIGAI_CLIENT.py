@@ -124,10 +124,32 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+    result = detect_language("Detected language")
+    language_code = result['language_code']
+    confidence = result['confidence']
+    print(f"Detected language: {language_code} with confidence {confidence}")
+
+
+
     text_to_translate = "To run the model we need to specify a pre-trained model file and a tokenizer for the text data"
     source_language = 'eng_Latn'
     target_language = "fra_Latn"
     translated_text = translate(text_to_translate, source_language, target_language)
+
+    text_to_lemmatize = [']第1課はやくいきましょうわかりましたどこへ']
+    lem = lemmatize_sentences(text_to_lemmatize, lang='ja')
+
+
+    tts_melo("I do not have a dream", lang="en", output="dream.wav")
+    tts_melo("私には夢があります", lang="jp", output="dream_jp.wav")
+
+
+    pic = generate_image('round logo, traveling colorfull, walking and talking, cartoonish',negative_prompt='',num_inference_steps=30,
+                            save_path="logo1.png")
+
+
+
+
 
     result = detect_language("Detected language")
     language_code = result['language_code']
@@ -140,8 +162,7 @@ if __name__ == "__main__":
     text = transcribe(file_path="audio_file.wav", language='pl')
 
 
-    tts_melo("I do not have a dream",lang="en", output="dream.wav")
-    tts_melo("私には夢があります", lang="jp", output="dream_jp.wav")
+
 
     sentences_fr = [
         "Les chauves-souris rayées s'accrochent à leurs pattes pour mieux s'en sortir",

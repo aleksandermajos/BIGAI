@@ -1,9 +1,7 @@
 import platform
 from typing import List, Set
 from datetime import datetime
-from WORDUSE import WordUse
-from WORD import WORD
-from SOURCE import SOURCE
+from SOURCE import SOURCE_USE
 from ENGINE.API_BIGAI_CLIENT import *
 os_name = platform.system()
 
@@ -23,19 +21,14 @@ class USER:
         self.time_pd = time_pd
         self.old_new = old_new
         self.hmt = hmt
-        self.sources: List[SOURCE] = []
+        self.sources: List[SOURCE_USE] = []
         if os_name == 'Darwin':
-            self.sources.append(SOURCE(source_type='AUDIO',user_type='BOOK',name='ASSIMIL',lang=self.langs[0][0],path=r'/Users/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+self.langs[0][0].upper()+'/SELF_LEARNING/ASSIMIL'))
+            self.sources.append(SOURCE_USE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=self.langs[0][0], path=r'/Users/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + self.langs[0][0].upper() + '/SELF_LEARNING/ASSIMIL'))
         elif os_name == 'Linux':
             for lang in self.langs:
-                self.sources.append(
-                    SOURCE(source_type='TEXT', user_type='FREQDICT', name='FREQDICT' + lang.upper(), lang=lang,
-                           path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/TEXT/FREQ_DICT_WORDS/' +lang.upper()))
-                self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='BLONDYNA', lang=lang,
-                                       path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/'+lang.upper()+'/SELF_LEARNING/BLONDYNA',part=-1))
-                self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=lang,
-                                           path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/SELF_LEARNING/ASSIMIL',
-                                           part=-1))
+                self.sources.append(SOURCE_USE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=lang,
+                                               path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/SELF_LEARNING/ASSIMIL',
+                                               part=-1))
 
 
 

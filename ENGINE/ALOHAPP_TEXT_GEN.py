@@ -97,8 +97,8 @@ def generate_sugestion(page, bot_text):
         f'You are a super helpful sentence analizer. You are analizing the sentence:  {bot_text}.'
         f'User is trying to learn {page.main_language}. '
         f'User knows the following words: {page.main_page.user.prompt_present}. '
-        f'You have to produce at least one average length sentence in a target language.The produced sentence is what you think is the best answer for {bot_text}. '
-        'Use some of these words if possible, you may include small grammar words that are needed to form a correct sentence. '
+        f'You have to produce at least one small length sentence in a target language.The produced sentence is what you think is the best answer for {bot_text}. '
+        'Use as many of these words , you may include small grammar words that are needed to form a correct sentence. '
         "IMPORTANT: Return your entire answer as a JSON object in the format:"
         '{"japanese": "<Japanese response>", "english": "<English translation>"}'
     )
