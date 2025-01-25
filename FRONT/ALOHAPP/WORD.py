@@ -10,6 +10,7 @@ class WORD_Abstract(ABC, BaseModel):
     text: str
     language: str
     part_of_speech: Optional[str] = None
+    translate: Optional[str] = None
 
     @abstractmethod
     def lemmatize(self) -> str:
@@ -33,6 +34,33 @@ class WORD_Abstract(ABC, BaseModel):
                 self.part_of_speech == other.part_of_speech
         )
 
+    def __getitem__(self, key: str):
+        """
+        Make the class subscriptable by attribute name.
+        """
+        if hasattr(self, key):
+            return getattr(self, key)
+        raise KeyError(f"{key} is not a valid attribute of {self.__class__.__name__}")
+
+    def __setitem__(self, key: str, value):
+        """
+        Allow item assignment via subscripting.
+        """
+        if hasattr(self, key):
+            setattr(self, key, value)
+        else:
+            raise KeyError(f"{key} is not a valid attribute of {self.__class__.__name__}")
+
+    def __getstate__(self):
+        # Return a dictionary of picklable attributes
+        return self.model_dump()
+
+    def __setstate__(self, state):
+        # Restore the object from the dictionary
+        for key, value in state.items():
+            setattr(self, key, value)
+
+
 class WORD_English(WORD_Abstract):
     """
     Concrete class for English words, implementing 'lemmatize'.
@@ -51,7 +79,7 @@ class WORD_Japanese(WORD_Abstract):
     """
 
     language: str = Field(default="ja")
-    orginal: Optional[str] = None
+    original: Optional[str] = None
     hiragana: Optional[str] = None
     katakana: Optional[str] = None
     hepburn: Optional[str] = None

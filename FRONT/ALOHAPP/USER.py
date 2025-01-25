@@ -1,8 +1,9 @@
 import platform
 from typing import List, Set
 from datetime import datetime
-from SOURCE import SOURCE_USE
 from ENGINE.API_BIGAI_CLIENT import *
+from SOURCE import *
+from WORD import *
 os_name = platform.system()
 
 
@@ -12,7 +13,7 @@ class USER:
         self.native = native
         self.langs = langs
         self.langs_priority = langs_priority
-        self.words_past: List[List[WordUse]] = [[] for _ in range(len(self.langs))]
+        self.words_past: List[List[WORD_Abstract]] = [[] for _ in range(len(self.langs))]
         self.words_present: List[Set[str]] = []
         self.words_future: List[Set[str]] = []
         self.prompt_present: ''
@@ -21,12 +22,12 @@ class USER:
         self.time_pd = time_pd
         self.old_new = old_new
         self.hmt = hmt
-        self.sources: List[SOURCE_USE] = []
+        self.sources: List[SOURCE] = []
         if os_name == 'Darwin':
-            self.sources.append(SOURCE_USE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=self.langs[0][0], path=r'/Users/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + self.langs[0][0].upper() + '/SELF_LEARNING/ASSIMIL'))
+            self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=self.langs[0][0], path=r'/Users/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + self.langs[0][0].upper() + '/SELF_LEARNING/ASSIMIL'))
         elif os_name == 'Linux':
             for lang in self.langs:
-                self.sources.append(SOURCE_USE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=lang,
+                self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=lang,
                                                path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/SELF_LEARNING/ASSIMIL',
                                                part=-1))
 
