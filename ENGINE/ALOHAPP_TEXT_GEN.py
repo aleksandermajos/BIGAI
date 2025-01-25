@@ -113,3 +113,28 @@ def generate_sugestion(page, bot_text):
         bot_reply = response.choices[0].message.content
 
     return bot_reply
+
+def generate_pos_tran(source,words,lang='ja',target_lang='en'):
+    originals = ', '.join(word.original for word in words)
+
+    system_prompt = (
+        f'You are a super helpful words analyzer. You are analyzing the the words:  {originals}.'
+        f'User is trying to learn {lang}.'
+        f'Your task is for each word from list: {originals} create part_of_speech information and translation for each word into a {target_lang} language'
+        "IMPORTANT: You MUST return your entire answer as a JSON object in the format every time:"
+        '[words]'
+        '{"original": "<word>", "part_of_speech": "<part_of_speech>", "translate": "<translate>"},'
+        'Only one line like {"original": "<word>", "part_of_speech": "<part_of_speech>", "translate": "<translate>"} is NOT acceptable'
+        'It need to contain all words'
+    )
+
+    if source.text_gen == 'openai':
+        messages = [{"role": "system", "content": system_prompt}]
+        response = source.client_openai.chat.completions.create(
+            messages=messages,
+            response_format={"type": "json_object"},
+            model="gpt-4o"
+        )
+        bot_reply = response.choices[0].message.content
+
+    return bot_reply

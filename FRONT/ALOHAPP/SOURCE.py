@@ -1,15 +1,15 @@
-from ENGINE.API_BIGAI_CLIENT import transcribe, detect_language, lemmatize_sentences
-from WORD import WORD_Abstract, WORD_Japanese
+from ENGINE.API_BIGAI_CLIENT import transcribe, lemmatize_sentences
+from ENGINE.ALOHAPP_TEXT_GEN import generate_pos_tran
+from openai import OpenAI
+from WORD import WORD_Japanese
 from sudachipy import tokenizer
 from sudachipy import dictionary
-from ordered_set import OrderedSet
 import pickle
-import spacy_stanza
 import pykakasi
 from pydub import AudioSegment
-from pathlib import Path
 import os
-import re
+import json
+
 
 def get_all_paths_in_one_source(path, extension = '.pkl'):
 
@@ -27,7 +27,7 @@ class SOURCE:
     user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA', 'NETFLIX', 'YT', 'TEXT', 'PIC', 'VIDEO', 'FREQDICT',
                  'EXAMS']
 
-    def __init__(self, source_type, user_type, name, lang, path, part=-1):
+    def __init__(self, source_type, user_type, name, lang, path, part=-1, text_gen='openai'):
         if source_type not in self.source_type:
             raise ValueError(f"Invalid source type '{source_type}'. Allowed source_type are: {self.source_type}")
         self.source_type = source_type
@@ -41,6 +41,12 @@ class SOURCE:
         self.words = set()
         self.n_grams = set()
         self.sentences = set()
+
+        if text_gen == 'openai':
+            self.text_gen = 'openai'
+            from ENGINE.KEY_OPENAI import provide_key
+            key = provide_key()
+            self.client_openai = OpenAI(api_key=key)
 
         if source_type=='AUDIO' and user_type=='BOOK':
             if part == -1:
@@ -67,17 +73,28 @@ class SOURCE:
                         for word in segment['text_lemma_suda']:
                             result = kks.convert(word)
                             for item in result:
-                                self.words.add(WORD_Japanese(text=item['orig'],language=self.lang,part_of_speech='verb',orginal=item['orig'],hiragana=item['hira'],katakana=item['kana'],hepburn=item['hepburn'],kunrei=item['kunrei'],passport=item['passport']))
+                                self.words.add(WORD_Japanese(text=item['orig'],language=self.lang,original=item['orig'],hiragana=item['hira'],katakana=item['kana'],hepburn=item['hepburn'],kunrei=item['kunrei'],passport=item['passport']))
                                 print(f"Original: {item['orig']}, Rōmaji: {item['hepburn']}")
+                        bot_reply = generate_pos_tran(self,words=self.words,lang=self.lang, target_lang='en')
+                        bot_reply_json = json.loads(bot_reply)
+
+                        if isinstance(bot_reply_json, dict) and 'words' in bot_reply_json:
+                            print("'words' exists in bot_reply_json")
+                        else:
+                            print("'words' does not exist")
+                            while not (isinstance(bot_reply_json, dict) and 'words' in bot_reply_json):
+                                bot_reply = generate_pos_tran(self, words=self.words, lang=self.lang, target_lang='en')
+                                bot_reply_json = json.loads(bot_reply)
+
+                        for word in self.words:
+                            for item in bot_reply_json['words']:
+                                if item['original'] == word['original']:
+                                    word['part_of_speech'] = item['part_of_speech']
+                                    word['translate'] = item['translate']
+            self.client_openai = None
 
 
-so = SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang='ja',
-                                               path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/JA/SELF_LEARNING/ASSIMIL',
-                                               part=-1)
-oko=4
-with open("my_object.pkl", "wb") as file:  # 'wb' means write binary
-    pickle.dump(so, file)
-oko=6
-with open("my_object.pkl", "rb") as file:  # 'rb' means read binary
-    loaded_object = pickle.load(file)
-oko=7
+
+
+
+
