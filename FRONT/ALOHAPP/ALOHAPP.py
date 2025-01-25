@@ -8,9 +8,12 @@ from USER import USER
 def main(page: ft.Page):
     page.title = "ALOHAPP"
 
-    page.user = USER(native='pl',langs=['ja'],langs_priority=['ja'])
-    with open("data.pkl", "wb") as file:  # 'wb' means write in binary mode
-        pickle.dump(page.user, file)
+    #page.user = USER(native='pl',langs=['ja'],langs_priority=['ja'])
+    #with open("USER_ALEX_ASSIMIL.pkl", "wb") as file:  # 'wb' means write in binary mode
+        #pickle.dump(page.user, file)
+
+    with open("USER_ALEX_ASSIMIL.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
+        page.user = pickle.load(file)
 
     page.user.hmt = 4
 

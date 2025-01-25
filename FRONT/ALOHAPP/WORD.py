@@ -57,8 +57,7 @@ class WORD_Abstract(ABC, BaseModel):
 
     def __setstate__(self, state):
         # Restore the object from the dictionary
-        for key, value in state.items():
-            setattr(self, key, value)
+        super().__init__(**state)
 
 
 class WORD_English(WORD_Abstract):
@@ -100,4 +99,8 @@ class WORD_Japanese(WORD_Abstract):
         Provide more descriptive string for Japanese words.
         """
         base_str = super().__str__()
-        return f"{base_str}\n  Kanji: {self.kanji}\n  Hiragana: {self.hiragana}\n  Katakana: {self.katakana}"
+        kanji_str = f"Kanji: {self.kanji}" if self.kanji else "Kanji: None" # Handle cases where kanji is None
+        hiragana_str = f"Hiragana: {self.hiragana}" if self.hiragana else "Hiragana: None"
+        katakana_str = f"Katakana: {self.katakana}" if self.katakana else "Katakana: None"
+
+        return f"{base_str}\n  {kanji_str}\n  {hiragana_str}\n  {katakana_str}"
