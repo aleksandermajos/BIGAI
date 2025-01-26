@@ -36,7 +36,13 @@ class USER:
         for source in self.sources:
             if source.lang == source_lang and source.name == source_name:
                 self.words_present = source.get_words_from_n_parts(start=start, end=end)
-                oko=4
+
+
+    def Upadete_Full_Words_Present(self,source_name,source_lang,start,end):
+        for source in self.sources:
+            if source.lang == source_lang and source.name == source_name:
+                self.full_words_present = source.get_words_from_n_parts(start=start, end=end)
+
 
 
     def Update_Words_Future(self):

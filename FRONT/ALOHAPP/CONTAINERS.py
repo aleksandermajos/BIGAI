@@ -26,6 +26,18 @@ def pick_files_result(e: FilePickerResultEvent):
 pick_files_dialog = FilePicker(on_result=pick_files_result)
 selected_files = Text()
 
+def generate_full_words_buttons_rows(full_words):
+    rows = []
+    for word in full_words:
+        buttons_row = [
+            ft.ElevatedButton(word.text),
+            ft.ElevatedButton(word.hepburn),
+            ft.ElevatedButton(word.translate),
+        ]
+        row = Row(controls=buttons_row, wrap=False)
+        rows.append(row)
+    return rows
+
 
 def generate_words_buttons(list_of_words):
     list_of_buttons = []
@@ -51,8 +63,8 @@ def delete_words_buttons(page, known_words):
 
 
 
-def create_words_container(wb):
-    words_column = ft.Column(wb, scroll=ft.ScrollMode.AUTO)
+def create_words_container(wr):
+    words_column = ft.Column(wr, scroll=ft.ScrollMode.AUTO)
     words_container = ft.Container(
         words_column,
         margin=10,

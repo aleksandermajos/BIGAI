@@ -109,12 +109,17 @@ class SOURCE:
                 self.client_openai = OpenAI(api_key=key)
             self.client_openai = None
 
-    def make_all_words_from_all_parts(self):
-        all_words_from_all_parts = set()
+    def make_full_words_from_all_parts(self):
+        full_words_from_all_parts = set()
         for current_set in self.words_in_parts:
-            all_words_from_all_parts.update(current_set)
-        self.all_words_from_all_parts = all_words_from_all_parts
+            full_words_from_all_parts.update(current_set)
+        self.all_words_from_all_parts = full_words_from_all_parts
 
+    def get_full_words_from_n_parts(self, start, end):
+        full_words_from_n_parts = set()
+        for current_set in self.words_in_parts[start:end]:
+            full_words_from_n_parts.update(current_set)
+        return full_words_from_n_parts
 
 
     def get_words_from_n_parts(self, start, end):
