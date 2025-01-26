@@ -3,6 +3,7 @@ from FRONT.ALOHAPP.CONTAINERS import generate_words_buttons,create_words_contain
 from ENGINE.ALOHAPP_STT_VOICE_ASSISTANT import VoiceAssistant
 import pickle
 from USER import USER
+from SOURCE import *
 
 
 def main(page: ft.Page):
@@ -15,9 +16,11 @@ def main(page: ft.Page):
     with open("USER_ALEX_ASSIMIL.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
         page.user = pickle.load(file)
 
+
+    page.user.sources[0].make_all_words_from_all_parts()
     page.user.hmt = 4
 
-    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='ja',start=0,end=0)
+    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='ja',start=0,end=1)
     page.user.Create_Prompt_From_Words_Present()
 
     page.words_buttons = generate_words_buttons(list(page.user.words_present))

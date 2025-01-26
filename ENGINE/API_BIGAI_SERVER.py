@@ -35,9 +35,9 @@ if SPACY_STANZA:
         '''
 
     if os_name == 'Linux':
-        lemma_pl = spacy_stanza.load_pipeline('pl',device='cuda:1')
-        lemma_en = spacy_stanza.load_pipeline('en',device='cuda:1')
-        lemma_ja = spacy_stanza.load_pipeline('ja', device='cuda:1')
+        lemma_pl = spacy_stanza.load_pipeline('pl',device='cuda:0')
+        lemma_en = spacy_stanza.load_pipeline('en',device='cuda:0')
+        lemma_ja = spacy_stanza.load_pipeline('ja', device='cuda:0')
         '''
         lemma_fr = spacy_stanza.load_pipeline('fr', device='cuda:0')
         lemma_es = spacy_stanza.load_pipeline('es',device='cuda:0')
@@ -158,7 +158,7 @@ if STT_WHISPERX:
             print('after transcribe')
             if result is None:
                 result = 'Transcribe error'
-            make_source = True
+            make_source = False
             if make_source:
                 print('before align transcribe')
                 device = 'cuda:0'
@@ -235,7 +235,7 @@ if GEN_IMAGE_SD3:
     from diffusers import StableDiffusion3Pipeline
 
     pipe = StableDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium-diffusers",
-                                                    torch_dtype=torch.float16,device='cuda:1')
+                                                    torch_dtype=torch.float16,device='cuda:0')
     pipe = pipe.to("cuda:0")
 
 
@@ -285,7 +285,7 @@ if TRANSLATE_NLLB:
     @app.post("/translate", response_model=TranslationResponse)
     def translate(request: TranslationRequest):
         translator = pipeline('translation', model=model_trans, tokenizer=tokenizer,src_lang=request.source_language, tgt_lang=request.target_language,
-                              max_length=400, device='cuda:1')
+                              max_length=400, device='cuda:0')
         translated_text = translator(request.text)[0]['translation_text']
         return TranslationResponse(translated_text=translated_text)
 

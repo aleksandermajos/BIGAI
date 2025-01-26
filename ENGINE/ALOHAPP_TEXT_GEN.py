@@ -18,7 +18,7 @@ def generate_text(page, user_text):
         'Use some of these words if possible, but you may include small grammar words that are needed to form a correct sentence. '
         'You have to produce at least one average length  sentence in the target language. Be cheerful, funny and concise. '
         'Arrange your answers in such a way as to encourage the user to continue the discussion. '
-        'Be informative and answer the question. '
+        'Be informative and answer the question.Do not repeat yourself.Or do not repeat after me'
         "IMPORTANT: Return your entire answer as a JSON object in the format:"
         '{"japanese": "<Japanese response>", "english": "<English translation>"}'
     )

@@ -22,6 +22,12 @@ def get_all_paths_in_one_source(path, extension = '.pkl'):
 
 
 
+
+
+
+
+
+
 class SOURCE:
     source_type = ['AUDIO', 'DECKS', 'EXEL', 'PIC', 'TATOEBA', 'TEXT', 'VIDEO']
     user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA', 'NETFLIX', 'YT', 'TEXT', 'PIC', 'VIDEO', 'FREQDICT',
@@ -102,6 +108,21 @@ class SOURCE:
                 key = provide_key()
                 self.client_openai = OpenAI(api_key=key)
             self.client_openai = None
+
+    def make_all_words_from_all_parts(self):
+        all_words_from_all_parts = set()
+        for current_set in self.words_in_parts:
+            all_words_from_all_parts.update(current_set)
+        self.all_words_from_all_parts = all_words_from_all_parts
+
+
+
+    def get_words_from_n_parts(self, start, end):
+        words_from_start_end_parts = []
+        for current_set in self.words_in_parts[start:end]:
+            words_from_current_set = [word.text for word in current_set]
+            words_from_start_end_parts.extend(words_from_current_set)
+        return words_from_start_end_parts
 
 
 
