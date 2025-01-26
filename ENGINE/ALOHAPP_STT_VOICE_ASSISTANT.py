@@ -6,7 +6,7 @@ from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from ENGINE.TTS_OPENAI import generate_and_play
 from ENGINE.API_BIGAI_CLIENT import *
 from ENGINE.ALOHAPP_TEXT_GEN import generate_text, generate_sugestion
-from FRONT.ALOHAPP.CONTAINERS import delete_words_buttons
+from FRONT.ALOHAPP.CONTAINERS import delete_rows_words_buttons
 from groq import Groq
 from cerebras.cloud.sdk import Cerebras
 import google.generativeai as genai

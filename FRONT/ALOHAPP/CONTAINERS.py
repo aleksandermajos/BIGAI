@@ -45,19 +45,21 @@ def generate_words_buttons(list_of_words):
         list_of_buttons.append(ft.ElevatedButton(word))
     return list_of_buttons
 
-def delete_words_buttons(page, known_words):
-    words_buttons = page.words_buttons
+
+def delete_rows_words_buttons(page, known_words):
+    rows_words_buttons = page.words_column
+
 
     indx_to_del = []
     for word in known_words:
-        for indx in range(len(words_buttons)):
-            if words_buttons[indx].text==word:
+        for indx in range(len(rows_words_buttons.controls)):
+            if rows_words_buttons.controls[indx].controls[0].text==word:
                 indx_to_del.append(indx)
 
     for index in sorted(indx_to_del, reverse=True):
-        del words_buttons[index]
+        del rows_words_buttons.controls[index]
 
-    return words_buttons
+    return rows_words_buttons
 
 
 
