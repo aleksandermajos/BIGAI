@@ -1,24 +1,32 @@
 import flet as ft
-from FRONT.ALOHAPP.CONTAINERS import generate_words_buttons,create_words_container, create_conversation_container, create_helper_container
+from FRONT.ALOHAPP.CONTAINERS import *
 from ENGINE.ALOHAPP_STT_VOICE_ASSISTANT import VoiceAssistant
 import pickle
 from USER import USER
+from SOURCE import *
 
 
 def main(page: ft.Page):
     page.title = "ALOHAPP"
 
-    page.user = USER(native='pl',langs=['ja'],langs_priority=['ja'])
-    with open("data.pkl", "wb") as file:  # 'wb' means write in binary mode
-        pickle.dump(page.user, file)
+    #page.user = USER(native='pl',langs=['ja'],langs_priority=['ja'])
+    #with open("USER_ALEX_ASSIMIL.pkl", "wb") as file:  # 'wb' means write in binary mode
+        #pickle.dump(page.user, file)
 
-    page.user.hmt = 4
+    with open("USER_ALEX_ASSIMIL.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
+        page.user = pickle.load(file)
 
-    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='ja',start=0,end=0)
+
+    page.user.sources[0].make_full_words_from_all_parts()
+    page.user.hmt = 1
+
+    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='ja',start=0,end=1)
     page.user.Create_Prompt_From_Words_Present()
 
-    page.words_buttons = generate_words_buttons(list(page.user.words_present))
-    page.words_column ,page.words_container = create_words_container(page.words_buttons)
+    full_words = page.user.sources[0].get_full_words_from_n_parts(start=0, end=1)
+    page.rows_full_words_button = generate_full_words_buttons_rows(full_words)
+    page.words_column ,page.words_container = create_words_container(page.rows_full_words_button)
+
     page.conversation_column ,page.conversation_container = create_conversation_container()
     page.helper_column ,page.helper_container = create_helper_container()
 

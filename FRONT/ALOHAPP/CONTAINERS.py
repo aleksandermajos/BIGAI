@@ -26,6 +26,18 @@ def pick_files_result(e: FilePickerResultEvent):
 pick_files_dialog = FilePicker(on_result=pick_files_result)
 selected_files = Text()
 
+def generate_full_words_buttons_rows(full_words):
+    rows = []
+    for word in full_words:
+        buttons_row = [
+            ft.ElevatedButton(word.text),
+            ft.ElevatedButton(word.hepburn),
+            ft.ElevatedButton(word.translate),
+        ]
+        row = Row(controls=buttons_row, wrap=False)
+        rows.append(row)
+    return rows
+
 
 def generate_words_buttons(list_of_words):
     list_of_buttons = []
@@ -33,26 +45,28 @@ def generate_words_buttons(list_of_words):
         list_of_buttons.append(ft.ElevatedButton(word))
     return list_of_buttons
 
-def delete_words_buttons(page, known_words):
-    words_buttons = page.words_buttons
+
+def delete_rows_words_buttons(page, known_words):
+    rows_words_buttons = page.words_column
+
 
     indx_to_del = []
     for word in known_words:
-        for indx in range(len(words_buttons)):
-            if words_buttons[indx].text==word:
+        for indx in range(len(rows_words_buttons.controls)):
+            if rows_words_buttons.controls[indx].controls[0].text==word:
                 indx_to_del.append(indx)
 
     for index in sorted(indx_to_del, reverse=True):
-        del words_buttons[index]
+        del rows_words_buttons.controls[index]
 
-    return words_buttons
-
-
+    return rows_words_buttons
 
 
 
-def create_words_container(wb):
-    words_column = ft.Column(wb, scroll=ft.ScrollMode.AUTO)
+
+
+def create_words_container(wr):
+    words_column = ft.Column(wr, scroll=ft.ScrollMode.AUTO)
     words_container = ft.Container(
         words_column,
         margin=10,

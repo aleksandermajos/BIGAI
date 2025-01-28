@@ -32,53 +32,17 @@ class USER:
                                                part=-1))
 
 
-
-    def Update_Words_Past(self,my_sentences, my_sentences_languages, bot_sentences):
-        known_words = []
-        lang = my_sentences_languages[-1]
-        lang_pos =  self.langs.index(lang)
-        curr_sentence = my_sentences[-1]
-        lemmatized = lemmatize_sentences([curr_sentence], lang=lang)
-        lemmatized_sentence = lemmatized[-1]
-
-        for word in lemmatized_sentence:
-            for source in self.sources:
-                if source.lang==lang and 'FREQDICT' in source.name:
-                    for thousand, part in enumerate(source.words_in_parts):
-                        if word in part:
-                            Filled = False
-                            for curr_word_use in self.words_past[lang_pos]:
-                                Filled = False
-                                if curr_word_use.word.word==word:
-                                    curr_word_use.Say.append(datetime.now())
-                                    if len(curr_word_use.Say) == self.hmt:
-                                        known_words.append(word)
-                                    Filled = True
-                                    break
-                            if not Filled:
-                                get_score = part.items.index(word)+thousand*1000
-                                WORD_INSTANCE = WORD(word, lang, get_score)
-                                WORDUSE_INSTANCE = WordUse(WORD_INSTANCE)
-                                WORDUSE_INSTANCE.Say.append(datetime.now())
-                                self.words_past[lang_pos].append(WORDUSE_INSTANCE)
-                                break
-                            if not self.words_past[lang_pos]:
-                                get_score = part.items.index(word) + thousand * 1000
-                                WORD_INSTANCE = WORD(word, lang, get_score)
-                                WORDUSE_INSTANCE = WordUse(WORD_INSTANCE)
-                                WORDUSE_INSTANCE.Say.append(datetime.now())
-                                self.words_past[lang_pos].append(WORDUSE_INSTANCE)
-                                break
-        return known_words
-
-
-
-
     def Update_Words_Present(self,source_name,source_lang,start,end):
         for source in self.sources:
             if source.lang == source_lang and source.name == source_name:
                 self.words_present = source.get_words_from_n_parts(start=start, end=end)
-                oko=4
+
+
+    def Upadete_Full_Words_Present(self,source_name,source_lang,start,end):
+        for source in self.sources:
+            if source.lang == source_lang and source.name == source_name:
+                self.full_words_present = source.get_words_from_n_parts(start=start, end=end)
+
 
 
     def Update_Words_Future(self):

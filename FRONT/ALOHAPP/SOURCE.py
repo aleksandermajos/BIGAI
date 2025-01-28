@@ -22,6 +22,12 @@ def get_all_paths_in_one_source(path, extension = '.pkl'):
 
 
 
+
+
+
+
+
+
 class SOURCE:
     source_type = ['AUDIO', 'DECKS', 'EXEL', 'PIC', 'TATOEBA', 'TEXT', 'VIDEO']
     user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA', 'NETFLIX', 'YT', 'TEXT', 'PIC', 'VIDEO', 'FREQDICT',
@@ -38,9 +44,7 @@ class SOURCE:
         self.name = name
         self.lang = lang
         self.part = part
-        self.words = set()
-        self.n_grams = set()
-        self.sentences = set()
+        self.words_in_parts = []
 
         if text_gen == 'openai':
             self.text_gen = 'openai'
@@ -59,10 +63,13 @@ class SOURCE:
             mode = tokenizer.Tokenizer.SplitMode.A
             kks = pykakasi.kakasi()
             for part in self.parts:
+                print("START OF NEXT PART")
+                self.words_in_parts.append(set())
                 text_seg = transcribe(file_path=self.path+'/'+part, language=self.lang)
                 audio = AudioSegment.from_file(self.path+'/'+part)
 
                 for segment in text_seg['segments']:
+                    print("START OF NEXT SEGMENT")
                     segment['audio'] = audio[segment['start'] * 1000:segment['end'] * 1000]
                     segment['text_lemma_spacy'] = lemmatize_sentences([segment['text']],lang=self.lang)[0]
                     if self.lang == 'ja':
@@ -73,9 +80,9 @@ class SOURCE:
                         for word in segment['text_lemma_suda']:
                             result = kks.convert(word)
                             for item in result:
-                                self.words.add(WORD_Japanese(text=item['orig'],language=self.lang,original=item['orig'],hiragana=item['hira'],katakana=item['kana'],hepburn=item['hepburn'],kunrei=item['kunrei'],passport=item['passport']))
-                                print(f"Original: {item['orig']}, Rōmaji: {item['hepburn']}")
-                        bot_reply = generate_pos_tran(self,words=self.words,lang=self.lang, target_lang='en')
+                                self.words_in_parts[-1].add(WORD_Japanese(text=item['orig'],language=self.lang,original=item['orig'],hiragana=item['hira'],katakana=item['kana'],hepburn=item['hepburn'],kunrei=item['kunrei'],passport=item['passport']))
+                                #print(f"Original: {item['orig']}, Rōmaji: {item['hepburn']}")
+                        bot_reply = generate_pos_tran(self,words=self.words_in_parts[-1],lang=self.lang, target_lang='en')
                         bot_reply_json = json.loads(bot_reply)
 
                         if isinstance(bot_reply_json, dict) and 'words' in bot_reply_json:
@@ -83,15 +90,47 @@ class SOURCE:
                         else:
                             print("'words' does not exist")
                             while not (isinstance(bot_reply_json, dict) and 'words' in bot_reply_json):
-                                bot_reply = generate_pos_tran(self, words=self.words, lang=self.lang, target_lang='en')
+                                bot_reply = generate_pos_tran(self, words=self.words_in_parts[-1], lang=self.lang, target_lang='en')
                                 bot_reply_json = json.loads(bot_reply)
 
-                        for word in self.words:
+                        for word in self.words_in_parts[-1]:
                             for item in bot_reply_json['words']:
                                 if item['original'] == word['original']:
                                     word['part_of_speech'] = item['part_of_speech']
                                     word['translate'] = item['translate']
+                    print("END OF NEXT SEGMENT")
+                print("END OF NEXT PART")
+                self.client_openai = None
+                with open(self.path + '/' + part + '.pkl', 'wb') as file:  # 'wb' mode is for writing in binary
+                    pickle.dump(self, file)
+                self.text_gen = 'openai'
+                from ENGINE.KEY_OPENAI import provide_key
+                key = provide_key()
+                self.client_openai = OpenAI(api_key=key)
             self.client_openai = None
+
+    def make_full_words_from_all_parts(self):
+        full_words_from_all_parts = set()
+        for current_set in self.words_in_parts:
+            full_words_from_all_parts.update(current_set)
+        self.all_words_from_all_parts = full_words_from_all_parts
+
+    def get_full_words_from_n_parts(self, start, end):
+        full_words_from_n_parts = set()
+        for current_set in self.words_in_parts[start:end]:
+            full_words_from_n_parts.update(current_set)
+        return full_words_from_n_parts
+
+
+    def get_words_from_n_parts(self, start, end):
+        words_from_start_end_parts = []
+        for current_set in self.words_in_parts[start:end]:
+            words_from_current_set = [word.text for word in current_set]
+            words_from_start_end_parts.extend(words_from_current_set)
+        return words_from_start_end_parts
+
+
+
 
 
 
