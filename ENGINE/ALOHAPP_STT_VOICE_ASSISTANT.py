@@ -302,13 +302,6 @@ class VoiceAssistant:
             self.main_page.helper_column.controls.clear()
             self.main_page.helper_column.controls.append(magic_row)
 
-        '''
-        if lang_of_my_sentence in self.main_page.user.langs:
-           known_words =  self.main_page.user.Update_Words_Past(my_sentences=self.my_sentences,my_sentences_languages=self.my_sentences_languages, bot_sentences=self.bot_sentences)
-           if known_words:
-               self.main_page.words_buttons = delete_words_buttons(page=self.main_page, known_words=known_words)
-               self.main_page.update()
-        '''
 
         if self.tts == 'melo':
             tts_melo(bot_reply, lang=self.main_language, output="example.wav")
