@@ -161,7 +161,7 @@ if STT_WHISPERX:
             print('after transcribe')
             if result is None:
                 result = 'Transcribe error'
-            make_source = True
+            make_source = False
             if make_source:
                 print('before align transcribe')
                 device = 'cuda:0'

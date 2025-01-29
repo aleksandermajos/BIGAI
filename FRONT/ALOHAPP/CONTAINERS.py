@@ -26,17 +26,29 @@ def pick_files_result(e: FilePickerResultEvent):
 pick_files_dialog = FilePicker(on_result=pick_files_result)
 selected_files = Text()
 
-def generate_full_words_buttons_rows(full_words):
+def generate_full_words_buttons_rows(full_words,lang):
     rows = []
-    for word in full_words:
-        buttons_row = [
-            ft.ElevatedButton(word.text),
-            ft.ElevatedButton(word.hepburn),
-            ft.ElevatedButton(word.translate),
-        ]
-        row = Row(controls=buttons_row, wrap=False)
-        rows.append(row)
-    return rows
+    if lang=='ja':
+        for word in full_words:
+            buttons_row = [
+                ft.ElevatedButton(word.text),
+                ft.ElevatedButton(word.hepburn),
+                ft.ElevatedButton(word.translate),
+            ]
+            row = Row(controls=buttons_row, wrap=False)
+            rows.append(row)
+        return rows
+    if lang == 'zh':
+        for word in full_words:
+            buttons_row = [
+                ft.ElevatedButton(word.text),
+                ft.ElevatedButton(word.pinyin),
+                ft.ElevatedButton(word.translate),
+            ]
+            row = Row(controls=buttons_row, wrap=False)
+            rows.append(row)
+        return rows
+
 
 
 def generate_words_buttons(list_of_words):

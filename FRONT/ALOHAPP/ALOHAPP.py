@@ -17,19 +17,12 @@ def main(page: ft.Page):
         page.user = pickle.load(file)
 
 
-    page.user.sources[0].make_full_words_from_all_parts()
-    page.user.sources[1].make_full_words_from_all_parts()
-
-    with open("USER_ALEX_ASSIMIL_6_LESSONS_JA_ZH.pkl", "wb") as file:  # 'wb' means write in binary mode
-        pickle.dump(page.user, file)
-
     page.user.hmt = 1
-
-    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='ja',start=0,end=1)
+    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='zh',start=0,end=1)
     page.user.Create_Prompt_From_Words_Present()
 
-    full_words = page.user.sources[0].get_full_words_from_n_parts(start=0, end=1)
-    page.rows_full_words_button = generate_full_words_buttons_rows(full_words)
+    full_words = page.user.sources[1].get_full_words_from_n_parts(start=0, end=1)
+    page.rows_full_words_button = generate_full_words_buttons_rows(full_words,lang='zh')
     page.words_column ,page.words_container = create_words_container(page.rows_full_words_button)
 
     page.conversation_column ,page.conversation_container = create_conversation_container()
