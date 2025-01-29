@@ -18,6 +18,11 @@ def main(page: ft.Page):
 
 
     page.user.sources[0].make_full_words_from_all_parts()
+    page.user.sources[1].make_full_words_from_all_parts()
+
+    with open("USER_ALEX_ASSIMIL_6_LESSONS_JA_ZH.pkl", "wb") as file:  # 'wb' means write in binary mode
+        pickle.dump(page.user, file)
+
     page.user.hmt = 1
 
     page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='ja',start=0,end=1)
