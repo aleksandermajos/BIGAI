@@ -13,9 +13,9 @@ class USER:
         self.native = native
         self.langs = langs
         self.langs_priority = langs_priority
-        self.words_past: List[List[WORD_Abstract]] = [[] for _ in range(len(self.langs))]
-        self.words_present: List[Set[str]] = []
-        self.words_future: List[Set[str]] = []
+        self.words_past: List[Set[WORD_Abstract]] = [set() for _ in range(len(langs))]
+        self.words_present: List[Set[WORD_Abstract]] = [set() for _ in range(len(langs))]
+        self.words_future: List[Set[WORD_Abstract]] = [set() for _ in range(len(langs))]
         self.prompt_present: ''
 
         self.words_pd = words_pd
@@ -27,7 +27,7 @@ class USER:
             self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=self.langs[0][0], path=r'/Users/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + self.langs[0][0].upper() + '/SELF_LEARNING/ASSIMIL'))
         elif os_name == 'Linux':
             for lang in self.langs:
-                self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=lang,
+                self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=lang, native=native,
                                                path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/SELF_LEARNING/ASSIMIL',
                                                part=-1))
 

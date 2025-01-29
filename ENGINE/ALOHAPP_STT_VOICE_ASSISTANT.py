@@ -14,6 +14,8 @@ from scipy.io.wavfile import write
 import pyaudio
 from sudachipy import dictionary
 import pykakasi
+import jieba
+from pypinyin import pinyin, Style
 import json
 import flet as ft
 import os
@@ -75,7 +77,7 @@ class VoiceAssistant:
         self.my_sentences_languages = []
         self.bot_sentences = []
         self.bot_sugestions = []
-        self.main_language = self.main_page.user.langs[0]
+        self.main_language = self.main_page.user.langs[1]
         self.tokenizer_obj = dictionary.Dictionary().create()
         self.kks = pykakasi.kakasi()
 
@@ -150,10 +152,7 @@ class VoiceAssistant:
                         text_ll = 'ok'
         else: text_ll = ''
 
-
-
-
-
+        self.main_page.conversation_column.controls.clear()
         if self.great == True:
             text_field = ft.TextField(
                 label='YOUR SENTENCE ORGINAL',
@@ -174,36 +173,48 @@ class VoiceAssistant:
             )
 
 
-
-
-        if len(self.main_page.conversation_column.controls) > 3:
-            magic_row = self.main_page.conversation_column.controls[0]
-            self.main_page.conversation_column.controls.clear()
-            self.main_page.conversation_column.controls.append(magic_row)
-
         if len(text_ll) > 0:
-            above = ''
-            below = ''
-            tokens = self.tokenizer_obj.tokenize(text_ll)
-            words = [token.surface() for token in tokens]
-            for word in words:
-                result = self.kks.convert(word)
-                for item in result:
-                    above += ' '+ item['hira']+' '
-                    below += ' '+ item['hepburn']+' '
+            if self.main_language == 'ja':
+                above = ''
+                below = ''
+                tokens = self.tokenizer_obj.tokenize(text_ll)
+                words = [token.surface() for token in tokens]
+                for word in words:
+                    result = self.kks.convert(word)
+                    for item in result:
+                        above += ' '+ item['hira']+' '
+                        below += ' '+ item['hepburn']+' '
 
-            if lang_of_my_sentence != self.main_language:
-                text_field_ll = ft.TextField(
-                    label='YOUR SENTENCE IN TARGET LANGUAGE',
-                    multiline=True,
-                    label_style=ft.TextStyle(color=ft.colors.YELLOW),
-                    color=ft.colors.YELLOW,
-                    value=f"{above}\n{text_ll}\n{below}",
-                    icon=ft.icons.EMOJI_EMOTIONS,
-                    text_style=ft.TextStyle(size=20, color=ft.colors.WHITE)
-                )
-                self.main_page.conversation_column.controls.append(text_field_ll)
+                if lang_of_my_sentence != self.main_language:
+                    text_field_ll = ft.TextField(
+                        label='YOUR SENTENCE IN TARGET LANGUAGE',
+                        multiline=True,
+                        label_style=ft.TextStyle(color=ft.colors.YELLOW),
+                        color=ft.colors.YELLOW,
+                        value=f"{above}\n{text_ll}\n{below}",
+                        icon=ft.icons.EMOJI_EMOTIONS,
+                        text_style=ft.TextStyle(size=20, color=ft.colors.WHITE)
+                    )
+                    self.main_page.conversation_column.controls.append(text_field_ll)
+            if self.main_language == 'zh':
+                above = ''
+                words = jieba.lcut(text_ll)
 
+                for word in words:
+                    pinyin_representation = pinyin(word, style=Style.TONE)
+                    above += '  ' + '  '.join([item for sublist in pinyin_representation for item in sublist])
+
+                if lang_of_my_sentence != self.main_language:
+                    text_field_ll = ft.TextField(
+                        label='YOUR SENTENCE IN TARGET LANGUAGE',
+                        multiline=True,
+                        label_style=ft.TextStyle(color=ft.colors.YELLOW),
+                        color=ft.colors.YELLOW,
+                        value=f"{above}\n{text_ll}",
+                        icon=ft.icons.EMOJI_EMOTIONS,
+                        text_style=ft.TextStyle(size=20, color=ft.colors.WHITE)
+                    )
+                    self.main_page.conversation_column.controls.append(text_field_ll)
 
 
         self.main_page.conversation_column.controls.append(text_field)
@@ -218,36 +229,55 @@ class VoiceAssistant:
 
         bot_reply = generate_text(self, text)
         response_bot_json = json.loads(bot_reply)
-        bot_reply = response_bot_json["japanese"]
+        if self.main_language=='ja': bot_reply = response_bot_json["japanese"]
+        if self.main_language=='zh': bot_reply = response_bot_json["chinese"]
+
         bot_reply_translated = response_bot_json["english"]
         print(bot_reply)
         print(bot_reply_translated)
 
         if bot_reply == '':
             source_language = 'eng_Latn'
-            target_language = 'jpn_Jpan'
+            if self.main_language=='ja': target_language = 'jpn_Jpan'
+            if self.main_language == 'zh': target_language = 'zho_Hans'
             bot_reply = translate(bot_reply_translated, source_language, target_language)
 
 
+        if self.main_language=='ja':
+            above = ''
+            below = ''
+            tokens = self.tokenizer_obj.tokenize(bot_reply)
+            words = [token.surface() for token in tokens]
+            for word in words:
+                result = self.kks.convert(word)
+                for item in result:
+                    above += ' ' + item['hira'] + ' '
+                    below += ' ' + item['hepburn'] + ' '
+            self.bot_sentences.append(bot_reply)
+            text_field = ft.TextField(
+                label='BOT REPLY',
+                multiline=True,
+                label_style=ft.TextStyle(color=ft.colors.BLACK),
+                color=ft.colors.BLACK,
+                value=f"{above}\n{bot_reply}\n{below}"
 
-        above = ''
-        below = ''
-        tokens = self.tokenizer_obj.tokenize(bot_reply)
-        words = [token.surface() for token in tokens]
-        for word in words:
-            result = self.kks.convert(word)
-            for item in result:
-                above += ' ' + item['hira'] + ' '
-                below += ' ' + item['hepburn'] + ' '
-        self.bot_sentences.append(bot_reply)
-        text_field = ft.TextField(
-            label='BOT REPLY',
-            multiline=True,
-            label_style=ft.TextStyle(color=ft.colors.BLACK),
-            color=ft.colors.BLACK,
-            value=f"{above}\n{bot_reply}\n{below}"
+            )
+        if self.main_language=='zh':
+            above = ''
+            words = jieba.lcut(bot_reply)
 
-        )
+            for word in words:
+                pinyin_representation = pinyin(word, style=Style.TONE)
+                above += '  ' + '  '.join([item for sublist in pinyin_representation for item in sublist])
+
+            self.bot_sentences.append(bot_reply)
+            text_field = ft.TextField(
+                label='BOT REPLY',
+                multiline=True,
+                label_style=ft.TextStyle(color=ft.colors.BLACK),
+                color=ft.colors.BLACK,
+                value=f"{above}\n{bot_reply}"
+            )
 
         text_field_translated = ft.TextField(
             label='BOT REPLY TRANSLATED',
@@ -260,34 +290,54 @@ class VoiceAssistant:
 
         bot_sugestions = generate_sugestion(self, bot_reply)
         response_bot_json = json.loads(bot_sugestions)
-        bot_reply_sugestions = response_bot_json["japanese"]
+        if self.main_language=='ja': bot_reply_sugestions = response_bot_json["japanese"]
+        if self.main_language == 'zh': bot_reply_sugestions = response_bot_json["chinese"]
         bot_reply_sugestions_translated = response_bot_json["english"]
         print(bot_reply_sugestions)
         print(bot_reply_sugestions_translated)
         if bot_reply_sugestions == '':
             source_language = 'eng_Latn'
-            target_language = 'jpn_Jpan'
+            if self.main_language=='ja': target_language = 'jpn_Jpan'
+            if self.main_language == 'zh': target_language = 'zho_Hans'
             bot_reply_sugestions = translate(bot_reply_sugestions_translated, source_language, target_language)
 
-        above = ''
-        below = ''
-        tokens = self.tokenizer_obj.tokenize(bot_reply_sugestions)
-        words = [token.surface() for token in tokens]
-        for word in words:
-            result = self.kks.convert(word)
-            for item in result:
-                above += ' ' + item['hira'] + ' '
-                below += ' ' + item['hepburn'] + ' '
-        self.bot_sugestions.append(bot_reply_sugestions)
-        text_field_su = ft.TextField(
-            label='BOT REPLY SUGESTIONS',
-            multiline=True,
-            label_style=ft.TextStyle(color=ft.colors.BLACK),
-            color=ft.colors.YELLOW,
-            value=f"{above}\n{bot_reply_sugestions}\n{below}\n{bot_reply_sugestions_translated}"
+        if self.main_language=='ja':
+            above = ''
+            below = ''
+            tokens = self.tokenizer_obj.tokenize(bot_reply_sugestions)
+            words = [token.surface() for token in tokens]
+            for word in words:
+                result = self.kks.convert(word)
+                for item in result:
+                    above += ' ' + item['hira'] + ' '
+                    below += ' ' + item['hepburn'] + ' '
+            self.bot_sugestions.append(bot_reply_sugestions)
+            text_field_su = ft.TextField(
+                label='BOT REPLY SUGESTIONS',
+                multiline=True,
+                label_style=ft.TextStyle(color=ft.colors.BLACK),
+                color=ft.colors.YELLOW,
+                value=f"{above}\n{bot_reply_sugestions}\n{below}\n{bot_reply_sugestions_translated}"
 
-        )
+            )
+        if self.main_language=='zh':
+            above = ''
+            words = jieba.lcut(bot_reply_sugestions)
 
+            for word in words:
+                pinyin_representation = pinyin(word, style=Style.TONE)
+                above += '  ' + '  '.join([item for sublist in pinyin_representation for item in sublist])
+
+            self.bot_sugestions.append(bot_reply_sugestions)
+            text_field_su = ft.TextField(
+                label='BOT REPLY SUGESTIONS',
+                multiline=True,
+                label_style=ft.TextStyle(color=ft.colors.BLACK),
+                color=ft.colors.YELLOW,
+                value=f"{above}\n{bot_reply_sugestions}\n{bot_reply_sugestions_translated}"
+            )
+
+        self.main_page.helper_column.controls.clear()
         self.main_page.helper_column.controls.append(text_field_su)
         self.main_page.conversation_column.controls.append(text_field)
         self.main_page.conversation_column.controls.append(text_field_translated)
@@ -295,12 +345,6 @@ class VoiceAssistant:
         self.context += "assistant:"+bot_reply+'.'
         self.last_bot_reply = bot_reply
         self.main_page.update()
-
-
-        if len(self.main_page.helper_column.controls) > 3:
-            magic_row = self.main_page.helper_column.controls[0]
-            self.main_page.helper_column.controls.clear()
-            self.main_page.helper_column.controls.append(magic_row)
 
 
         if self.tts == 'melo':

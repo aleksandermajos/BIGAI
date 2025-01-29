@@ -11,17 +11,30 @@ class TranslationResponseOllama(BaseModel):
 
 
 def generate_text(page, user_text):
-    system_prompt = (
-        f'You are a super helpful language teacher. You are teaching {page.main_language}. '
-        f'User is trying to learn {page.main_language}. '
-        f'User knows the following words: {page.main_page.user.prompt_present}. '
-        'Use some of these words if possible, but you may include small grammar words that are needed to form a correct sentence. '
-        'You have to produce at least one average length  sentence in the target language. Be cheerful, funny and concise. '
-        'Arrange your answers in such a way as to encourage the user to continue the discussion. '
-        'Be informative and answer the question.Do not repeat yourself.Or do not repeat after me'
-        "IMPORTANT: Return your entire answer as a JSON object in the format:"
-        '{"japanese": "<Japanese response>", "english": "<English translation>"}'
-    )
+    if page.main_language == 'ja':
+        system_prompt = (
+            f'You are a super helpful language teacher. You are teaching {page.main_language}. '
+            f'User is trying to learn {page.main_language}. '
+            f'User knows the following words: {page.main_page.user.prompt_present}. '
+            'Use some of these words if possible, but you may include small grammar words that are needed to form a correct sentence. '
+            'You have to produce at least one average length  sentence in the target language. Be cheerful, funny and concise. '
+            'Arrange your answers in such a way as to encourage the user to continue the discussion. '
+            'Be informative and answer the question.Do not repeat yourself.Or do not repeat after me'
+            "IMPORTANT: Return your entire answer as a JSON object in the format:"
+            '{"japanese": "<Japanese response>", "english": "<English translation>"}'
+        )
+    if page.main_language == 'zh':
+        system_prompt = (
+            f'You are a super helpful language teacher. You are teaching {page.main_language}. '
+            f'User is trying to learn {page.main_language}. '
+            f'User knows the following words: {page.main_page.user.prompt_present}. '
+            'Use some of these words if possible, but you may include small grammar words that are needed to form a correct sentence. '
+            'You have to produce at least one average length  sentence in the target language. Be cheerful, funny and concise. '
+            'Arrange your answers in such a way as to encourage the user to continue the discussion. '
+            'Be informative and answer the question.Do not repeat yourself.Or do not repeat after me'
+            "IMPORTANT: Return your entire answer as a JSON object in the format:"
+            '{"chinese": "<Chinese response>", "english": "<English translation>"}'
+        )
     #info_send =  send_mail(body=system_prompt)
     last_conversation = page.context
     mess = []
@@ -93,15 +106,26 @@ def generate_text(page, user_text):
     return bot_reply
 
 def generate_sugestion(page, bot_text):
-    system_prompt = (
-        f'You are a super helpful sentence analizer. You are analizing the sentence:  {bot_text}.'
-        f'User is trying to learn {page.main_language}. '
-        f'User knows the following words: {page.main_page.user.prompt_present}. '
-        f'You have to produce at least one small length sentence in a target language.The produced sentence is what you think is the best answer for {bot_text}. '
-        'Use as many of these words , you may include small grammar words that are needed to form a correct sentence. '
-        "IMPORTANT: Return your entire answer as a JSON object in the format:"
-        '{"japanese": "<Japanese response>", "english": "<English translation>"}'
-    )
+    if page.main_language == 'ja':
+        system_prompt = (
+            f'You are a super helpful sentence analizer. You are analizing the sentence:  {bot_text}.'
+            f'User is trying to learn {page.main_language}. '
+            f'User knows the following words: {page.main_page.user.prompt_present}. '
+            f'You have to produce at least one small length sentence in a target language.The produced sentence is what you think is the best answer for {bot_text}. '
+            'Use as many of these words , you may include small grammar words that are needed to form a correct sentence. '
+            "IMPORTANT: Return your entire answer as a JSON object in the format:"
+            '{"japanese": "<Japanese response>", "english": "<English translation>"}'
+        )
+    if page.main_language == 'zh':
+        system_prompt = (
+            f'You are a super helpful sentence analizer. You are analizing the sentence:  {bot_text}.'
+            f'User is trying to learn {page.main_language}. '
+            f'User knows the following words: {page.main_page.user.prompt_present}. '
+            f'You have to produce at least one small length sentence in a target language.The produced sentence is what you think is the best answer for {bot_text}. '
+            'Use as many of these words , you may include small grammar words that are needed to form a correct sentence. '
+            "IMPORTANT: Return your entire answer as a JSON object in the format:"
+            '{"chinese": "<Chinese response>", "english": "<English translation>"}'
+        )
 
     if page.text_gen == 'openai':
         messages = [{"role": "system", "content": system_prompt}] + [{"role": "user", "content": bot_text}]
