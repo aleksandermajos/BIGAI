@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="ALOHAPP DEEP SEEK JANUS PIC GEN.NOT WORKING">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/ALOHAPP.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ALOHAPP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/SOURCE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/USER.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/USER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" afterDir="false" />
-    </list>
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="ALOHAPP CHINESE WORDS" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1843,7 +1835,7 @@
       <workItem from="1738049914518" duration="651000" />
       <workItem from="1738066650641" duration="5481000" />
       <workItem from="1738138010278" duration="2993000" />
-      <workItem from="1738141019043" duration="7593000" />
+      <workItem from="1738141019043" duration="7911000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1872,14 +1864,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00209" summary="cuda:0 + mac support on spacy">
-      <option name="closed" value="true" />
-      <created>1730184996183</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1730184996183</updated>
     </task>
     <task id="LOCAL-00210" summary="portuguese">
       <option name="closed" value="true" />
@@ -2233,7 +2217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738066716789</updated>
     </task>
-    <option name="localTasksCounter" value="254" />
+    <task id="LOCAL-00254" summary="ALOHAPP CHINESE WORDS">
+      <option name="closed" value="true" />
+      <created>1738152386119</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1738152386120</updated>
+    </task>
+    <option name="localTasksCounter" value="255" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -2259,7 +2251,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="Translate bot part" />
     <MESSAGE value="JP DATA" />
     <MESSAGE value="JP DA" />
     <MESSAGE value="README" />
@@ -2284,7 +2275,8 @@
     <MESSAGE value="ALOHAPP BUTTONS CONTAINS TRANSLATE AND READING" />
     <MESSAGE value="ALOHAPP DELETE ROWS FROM WORDS CONTAINER" />
     <MESSAGE value="ALOHAPP DEEP SEEK JANUS PIC GEN.NOT WORKING" />
-    <option name="LAST_COMMIT_MESSAGE" value="ALOHAPP DEEP SEEK JANUS PIC GEN.NOT WORKING" />
+    <MESSAGE value="ALOHAPP CHINESE WORDS" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALOHAPP CHINESE WORDS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
