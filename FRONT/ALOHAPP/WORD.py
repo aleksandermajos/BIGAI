@@ -104,3 +104,31 @@ class WORD_Japanese(WORD_Abstract):
         katakana_str = f"Katakana: {self.katakana}" if self.katakana else "Katakana: None"
 
         return f"{base_str}\n  {kanji_str}\n  {hiragana_str}\n  {katakana_str}"
+
+class WORD_Chinese(WORD_Abstract):
+    """
+    Concrete class for Chinese words, adding Chinese-specific fields.
+    """
+
+    language: str = Field(default="ja")
+    original: Optional[str] = None
+    pinyin: Optional[str] = None
+
+
+
+    def lemmatize(self) -> str:
+        """
+        A dummy lemmatizer for Japanese words.
+        Integrate with MeCab, SudachiPy, etc., for real usage.
+        """
+        # Return the 'text' or 'kanji' as a placeholder
+        return self.text
+
+    def __str__(self) -> str:
+        """
+        Provide more descriptive string for Japanese words.
+        """
+        base_str = super().__str__()
+        pinyin_str = f"Pinyin: {self.pinyin}" if self.pinyin else "Pinyin: None" # Handle cases where kanji is None
+
+        return f"{base_str}\n  {pinyin_str}\n"

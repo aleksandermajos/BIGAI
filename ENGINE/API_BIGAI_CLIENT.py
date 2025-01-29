@@ -124,6 +124,10 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+    text_to_lemmatize = ['自然语言处理']
+    lem = lemmatize_sentences(text_to_lemmatize, lang='zh')
+
+
     result = detect_language("Detected language")
     language_code = result['language_code']
     confidence = result['confidence']

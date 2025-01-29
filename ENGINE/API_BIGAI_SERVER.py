@@ -38,6 +38,8 @@ if SPACY_STANZA:
         lemma_pl = spacy_stanza.load_pipeline('pl',device='cuda:0')
         lemma_en = spacy_stanza.load_pipeline('en',device='cuda:0')
         lemma_ja = spacy_stanza.load_pipeline('ja', device='cuda:0')
+        lemma_zh = spacy_stanza.load_pipeline('zh', device='cuda:0')
+
         '''
         lemma_fr = spacy_stanza.load_pipeline('fr', device='cuda:0')
         lemma_es = spacy_stanza.load_pipeline('es',device='cuda:0')
@@ -67,6 +69,7 @@ if SPACY_STANZA:
         if lang == 'pl': lemma = lemma_pl
         if lang == 'en': lemma = lemma_en
         if lang == 'ja': lemma = lemma_ja
+        if lang == 'zh': lemma = lemma_zh
 
 
 
@@ -158,7 +161,7 @@ if STT_WHISPERX:
             print('after transcribe')
             if result is None:
                 result = 'Transcribe error'
-            make_source = False
+            make_source = True
             if make_source:
                 print('before align transcribe')
                 device = 'cuda:0'
