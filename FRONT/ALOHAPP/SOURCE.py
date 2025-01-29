@@ -1,6 +1,8 @@
 from ENGINE.API_BIGAI_CLIENT import transcribe, lemmatize_sentences
 from ENGINE.ALOHAPP_TEXT_GEN import generate_pos_tran
 from openai import OpenAI
+
+from FRONT.ALOHAPP.WORD import WORD_Chinese
 from WORD import WORD_Japanese
 from sudachipy import tokenizer
 from sudachipy import dictionary
@@ -105,13 +107,32 @@ class SOURCE:
                                     word['part_of_speech'] = item['part_of_speech']
                                     word['translate'] = item['translate']
                     if self.lang == 'zh':
-                        words = jieba.lcut(segment['text'])
+                        words = segment['text_lemma_spacy']
                         unique_words = set(words)
                         for word in unique_words:
+
                             pinyin_representation = pinyin(word, style=Style.TONE)
                             # Flatten the list of lists and join syllables
                             pinyin_flat = ''.join([item for sublist in pinyin_representation for item in sublist])
-                            print(f"Original: {word}, Pinyin: {pinyin_flat}")
+                            self.words_in_parts[-1].add(WORD_Chinese(text=word,language=self.lang,original=word,pinyin=pinyin_flat))
+                        bot_reply = generate_pos_tran(self, words=self.words_in_parts[-1], lang=self.lang,target_lang=self.native)
+                        bot_reply_json = json.loads(bot_reply)
+                        if isinstance(bot_reply_json, dict) and 'words' in bot_reply_json:
+                            print("'words' exists in bot_reply_json")
+                        else:
+                            print("'words' does not exist")
+                            while not (isinstance(bot_reply_json, dict) and 'words' in bot_reply_json):
+                                bot_reply = generate_pos_tran(self, words=self.words_in_parts[-1], lang=self.lang, target_lang=self.native)
+                                bot_reply_json = json.loads(bot_reply)
+
+                        for word in self.words_in_parts[-1]:
+                            for item in bot_reply_json['words']:
+                                if item['original'] == word['original']:
+                                    word['part_of_speech'] = item['part_of_speech']
+                                    word['translate'] = item['translate']
+
+
+
                     print("END OF NEXT SEGMENT")
                 print("END OF NEXT PART")
                 self.client_openai = None

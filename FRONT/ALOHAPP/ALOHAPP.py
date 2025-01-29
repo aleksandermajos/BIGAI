@@ -9,12 +9,12 @@ from SOURCE import *
 def main(page: ft.Page):
     page.title = "ALOHAPP"
 
-    page.user = USER(native='en',langs=['zh'],langs_priority=['zh'])
-    with open("USER_ALEX_ASSIMIL.pkl", "wb") as file:  # 'wb' means write in binary mode
-        pickle.dump(page.user, file)
+    #page.user = USER(native='en',langs=['ja','zh'],langs_priority=['ja','zh'])
+    #with open("USER_ALEX_ASSIMIL_6_LESSONS_JA_ZH.pkl", "wb") as file:  # 'wb' means write in binary mode
+        #pickle.dump(page.user, file)
 
-    #with open("USER_ALEX_ASSIMIL.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
-        #page.user = pickle.load(file)
+    with open("USER_ALEX_ASSIMIL_6_LESSONS_JA_ZH.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
+        page.user = pickle.load(file)
 
 
     page.user.sources[0].make_full_words_from_all_parts()
