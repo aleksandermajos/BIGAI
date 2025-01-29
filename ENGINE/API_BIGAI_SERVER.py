@@ -27,6 +27,7 @@ if SPACY_STANZA:
         lemma_pl = spacy_stanza.load_pipeline('pl')
         lemma_en = spacy_stanza.load_pipeline('en')
         lemma_ja = spacy_stanza.load_pipeline('ja')
+        lemma_zh = spacy_stanza.load_pipeline('zh')
         '''
         lemma_fr = spacy_stanza.load_pipeline('fr')
         lemma_es = spacy_stanza.load_pipeline('es')
@@ -94,7 +95,7 @@ if LANG_DETECT_FT:
     import fasttext
 
     if os_name == 'Darwin':
-        MODEL_PATH = r'/Users/bigai_mini/PycharmProjects/BIGAI/MODELS/TEXT/fasttext/lid.176.bin'
+        MODEL_PATH = r'/Users/bigai/PycharmProjects/BIGAI/MODELS/TEXT/fasttext/lid.176.bin'
 
     if os_name == 'Linux':
         MODEL_PATH = r'/home/bigai/PycharmProjects/BIGAI/MODELS/TEXT/fasttext/lid.176.bin'
@@ -201,7 +202,7 @@ if TTS_MELO:
             if os_name == 'Linux':
                 device_melo = 'cuda:0'
             if os_name == 'Darwin':
-                device_melo = 'cpu'
+                device_melo = 'mps'
 
             lang = get_lang_name_to_tts_melo(lang_beg)
             speaker = get_speaker_name_to_tts_melo(lang)

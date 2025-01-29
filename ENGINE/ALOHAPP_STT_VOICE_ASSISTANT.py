@@ -77,7 +77,7 @@ class VoiceAssistant:
         self.my_sentences_languages = []
         self.bot_sentences = []
         self.bot_sugestions = []
-        self.main_language = self.main_page.user.langs[1]
+        self.main_language = self.main_page.user.langs[0]
         self.tokenizer_obj = dictionary.Dictionary().create()
         self.kks = pykakasi.kakasi()
 

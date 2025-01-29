@@ -124,6 +124,16 @@ def tts_melo(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+
+    text = '自然语言处理'
+    output = 'example.wav'
+    lang = 'zh'
+    tts_melo(text, lang=lang, output=output)
+
+    tts_melo("I have a dream", lang="en", output="dream.wav")
+    tts_melo("私には夢があります", lang="jp", output="dream_jp.wav")
+
+
     text_to_lemmatize = ['自然语言处理']
     lem = lemmatize_sentences(text_to_lemmatize, lang='zh')
 
