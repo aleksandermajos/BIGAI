@@ -25,13 +25,18 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='melo',text_gen='openai'):
+    def __init__(self,main_page,stt='whisper',tts='kokoro',text_gen='openai'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
 
         if tts == 'melo':
             self.tts = 'melo'
+        if tts == 'kokoro':
+            self.tts = 'kokoro'
+
+
+
         if tts == 'openai':
             self.tts = 'openai'
             self.tts_voice = "alloy"
@@ -223,6 +228,8 @@ class VoiceAssistant:
         if lang_of_my_sentence != self.main_language:
             if self.tts == 'melo':
                 tts_melo(text_ll, lang=self.main_language, output="example.wav")
+            if self.tts == 'kokoro':
+                tts_kokoro(text_ll, lang=self.main_language, output="example.wav")
             if self.tts == 'openai':
                 generate_and_play(text_ll,voice=self.tts_voice)
 
@@ -349,6 +356,9 @@ class VoiceAssistant:
 
         if self.tts == 'melo':
             tts_melo(bot_reply, lang=self.main_language, output="example.wav")
+        if self.tts == 'kokoro':
+            tts_kokoro(bot_reply, lang=self.main_language, output="example.wav")
+
         if self.tts == 'openai':
             generate_and_play(bot_reply,voice=self.tts_voice)
 

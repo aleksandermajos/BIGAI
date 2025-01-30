@@ -119,11 +119,32 @@ def tts_melo(text: str, lang: str, output: str):
         return output
     else:
         raise Exception(f"Error: {response.status_code} - {response.json().get('detail')}")
-
+def tts_kokoro(text: str, lang: str, output: str):
+    url = "http://127.0.0.1:8000/tts_kokoro"
+    payload = {
+        "text": text,
+        "lang": lang,
+        "output_path": output
+    }
+    response = requests.post(url, json=payload)
+    if response.status_code == 200:
+        print("file saved in "+ output)
+        return output
+    else:
+        raise Exception(f"Error: {response.status_code} - {response.json().get('detail')}")
 
 
 
 if __name__ == "__main__":
+    tts_kokoro("私には夢があります", lang="ja", output="dream_jp.wav")
+
+
+    text = '自然语言处理'
+    output = 'example.wav'
+    lang = 'zh'
+
+    tts_melo(text, lang=lang, output=output)
+    tts_kokoro(text, lang=lang, output=output)
 
     text = '自然语言处理'
     output = 'example.wav'

@@ -9,6 +9,7 @@ os_name = platform.system()
 
 
 STT_WHISPERX = True
+TTS_KOKORO = True
 TTS_MELO = True
 SPACY_STANZA = True
 TRANSLATE_NLLB = True
@@ -178,6 +179,75 @@ if STT_WHISPERX:
             print('before return')
             print(JSONResponse(content=result))
             return JSONResponse(content=result)
+if TTS_KOKORO:
+    from playsound import playsound
+    from fastapi.responses import FileResponse
+    from ALOHAPP_LANG_CODES import get_lang_name_to_tts_kokoro, get_speaker_name_to_tts_kokoro
+    from kokoro import KPipeline
+    import soundfile as sf
+
+    pipeline_en = KPipeline(lang_code='b')
+    pipeline_fr = KPipeline(lang_code='f')
+    pipeline_it = KPipeline(lang_code='i')
+    pipeline_zh = KPipeline(lang_code='z')
+    pipeline_ja = KPipeline(lang_code='j')
+    pipeline_pt = KPipeline(lang_code='p')
+    pipeline_es = KPipeline(lang_code='e')
+
+
+    class TextRequest(BaseModel):
+        text: str
+        lang: str
+        output_path: str
+
+
+    @app.post("/tts_kokoro")
+    async def tts_kokoro(request: TextRequest):
+        text = request.text
+        lang_beg = request.lang
+        output_path = request.output_path
+
+        if get_lang_name_to_tts_kokoro(lang_beg):
+
+            lang = get_lang_name_to_tts_kokoro(lang_beg)
+            if lang_beg == 'en': pipeline = pipeline_en
+            if lang_beg == 'fr': pipeline = pipeline_fr
+            if lang_beg == 'it': pipeline = pipeline_it
+            if lang_beg == 'zh': pipeline = pipeline_zh
+            if lang_beg == 'ja': pipeline = pipeline_ja
+            if lang_beg == 'pt': pipeline = pipeline_pt
+            if lang_beg == 'es': pipeline = pipeline_es
+
+            speaker = get_speaker_name_to_tts_kokoro(lang_beg)
+            generator = pipeline(
+                text, voice=speaker,  # <= change voice here
+                speed=0.75, split_pattern=r'\n+'
+            )
+
+
+        else:
+            generate_and_play(text,'nova',path=output_path)
+            lang = lang_beg
+
+
+
+        if not text or not lang or not output_path:
+            raise HTTPException(status_code=400, detail="text,lang,output_path is required")
+        if get_lang_name_to_tts_kokoro(lang_beg):
+            try:
+                for i, (gs, ps, audio) in enumerate(generator):
+                    print(i)  # i => index
+                    print(gs)  # gs => graphemes/text
+                    print(ps)  # ps => phonemes
+                    sf.write(output_path, audio, 24000)
+                    playsound(output_path)
+
+
+                return FileResponse(output_path, media_type="audio/wav", filename=output_path)
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+
+
 
 if TTS_MELO:
     from melo.api import TTS
