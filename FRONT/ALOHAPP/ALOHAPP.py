@@ -13,11 +13,10 @@ def main(page: ft.Page):
     #with open("USER_ALEX_ASSIMIL_2_LESSONS_JA_ZH.pkl", "wb") as file:  # 'wb' means write in binary mode
         #pickle.dump(page.user, file)
 
-    with open("USER_ALEX_ASSIMIL_2_LESSONS_JA_ZH.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
+    with open("USER_ALEX_ASSIMIL.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
         page.user = pickle.load(file)
 
 
-    page.user.hmt = 1
     page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='zh',start=0,end=1)
     page.user.Create_Prompt_From_Words_Present(lang='zh')
 

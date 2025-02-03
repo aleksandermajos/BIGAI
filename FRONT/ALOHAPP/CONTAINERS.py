@@ -14,6 +14,8 @@ from flet import (
     icons,
 )
 from ENGINE.ALOHAPP_ACTIONS import pic_button_clicked
+from datetime import datetime
+import pickle
 
 
 def pick_files_result(e: FilePickerResultEvent):
@@ -60,18 +62,33 @@ def generate_words_buttons(list_of_words):
     return list_of_buttons
 
 
-def delete_rows_words_buttons(page, known_words):
+def delete_rows_words_buttons(page, known_words, lang):
     rows_words_buttons = page.words_column
     known_words = [item for sublist in known_words for item in sublist]
 
-    indx_to_del = []
-    for word in known_words:
-        for indx in range(len(rows_words_buttons.controls)):
-            if rows_words_buttons.controls[indx].controls[0].text==word:
-                indx_to_del.append(indx)
+    index = page.user.langs.index(lang)
+    words_present_lang = page.user.words_present[index]
 
-    for index in sorted(indx_to_del, reverse=True):
-        del rows_words_buttons.controls[index]
+    for word in words_present_lang:
+        for known_word in known_words:
+            if word.text==known_word:
+                word.add_timestamp(datetime.now())
+                if word.rfh:
+                    print(word.rfh)
+                    page.user.words_past[index].add(word)
+
+                    indx_to_del_button = []
+                    for word_button in known_words:
+                        for indx in range(len(rows_words_buttons.controls)):
+                            print(word_button)
+                            if rows_words_buttons.controls[indx].controls[0].text == word_button:
+                                indx_to_del_button.append(indx)
+
+                    for i in sorted(indx_to_del_button, reverse=True):
+                        del rows_words_buttons.controls[i]
+
+                    with open("USER_ALEX_ASSIMIL.pkl", "wb") as file:  # 'wb' means write in binary mode
+                        pickle.dump(page.user, file)
 
     return rows_words_buttons
 

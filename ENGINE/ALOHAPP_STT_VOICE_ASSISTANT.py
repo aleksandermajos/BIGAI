@@ -130,12 +130,11 @@ class VoiceAssistant:
 
             print(text)
 
-
         lang_of_my_sentence = detect_language(text)
         lang_of_my_sentence = lang_of_my_sentence['language_code']
         if lang_of_my_sentence in self.main_page.user.langs:
             words = lemmatize_sentences([text], lang_of_my_sentence)
-            delete_rows_words_buttons(page = self.main_page,known_words=words)
+            delete_rows_words_buttons(page = self.main_page,known_words=words,lang=lang_of_my_sentence)
             self.great = True
             self.my_sentences.append(text)
             self.my_sentences_languages.append(lang_of_my_sentence)

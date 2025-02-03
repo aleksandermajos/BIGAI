@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
-from typing import Optional
+from datetime import datetime
+from typing import List, Optional
 from pydantic import BaseModel, Field
 
 class WORD_Abstract(ABC, BaseModel):
@@ -11,6 +12,19 @@ class WORD_Abstract(ABC, BaseModel):
     language: str
     part_of_speech: Optional[str] = None
     translate: Optional[str] = None
+    timestamps: List[datetime] = Field(default_factory=list)
+    hmt: int = 0
+    rfh: bool = False
+    threshold: int = 2  # Set your desired threshold here
+
+    def add_timestamp(self, timestamp: datetime):
+        """
+        Adds a timestamp to the timestamps list and updates the counter.
+        """
+        self.timestamps.append(timestamp)
+        self.hmt = len(self.timestamps)
+        self.rfh = self.hmt > self.threshold
+
 
     @abstractmethod
     def lemmatize(self) -> str:
