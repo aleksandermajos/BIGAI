@@ -6,6 +6,7 @@ from ENGINE.PYAUDIO_DEVICES import find_mic_id
 from ENGINE.TTS_OPENAI import generate_and_play
 from ENGINE.API_BIGAI_CLIENT import *
 from ENGINE.ALOHAPP_TEXT_GEN import generate_text, generate_sugestion
+from ENGINE.API_BIGAI_CLIENT import transcribe, lemmatize_sentences
 from FRONT.ALOHAPP.CONTAINERS import delete_rows_words_buttons
 from groq import Groq
 from cerebras.cloud.sdk import Cerebras
@@ -129,9 +130,12 @@ class VoiceAssistant:
 
             print(text)
 
+
         lang_of_my_sentence = detect_language(text)
         lang_of_my_sentence = lang_of_my_sentence['language_code']
         if lang_of_my_sentence in self.main_page.user.langs:
+            words = lemmatize_sentences([text], lang_of_my_sentence)
+            delete_rows_words_buttons(page = self.main_page,known_words=words)
             self.great = True
             self.my_sentences.append(text)
             self.my_sentences_languages.append(lang_of_my_sentence)
@@ -225,6 +229,14 @@ class VoiceAssistant:
         self.main_page.conversation_column.controls.append(text_field)
         self.main_page.update()
 
+        if lang_of_my_sentence == self.main_language:
+            if self.tts == 'melo':
+                tts_melo(text, lang=self.main_language, output="example.wav")
+            if self.tts == 'kokoro':
+                tts_kokoro(text, lang=self.main_language, output="example.wav")
+            if self.tts == 'openai':
+                generate_and_play(text,voice=self.tts_voice)
+
         if lang_of_my_sentence != self.main_language:
             if self.tts == 'melo':
                 tts_melo(text_ll, lang=self.main_language, output="example.wav")
@@ -232,6 +244,8 @@ class VoiceAssistant:
                 tts_kokoro(text_ll, lang=self.main_language, output="example.wav")
             if self.tts == 'openai':
                 generate_and_play(text_ll,voice=self.tts_voice)
+
+
 
 
         bot_reply = generate_text(self, text)

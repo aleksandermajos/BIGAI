@@ -81,7 +81,7 @@ if SPACY_STANZA:
             lem_text = []
             for token in lem:
                 lem_text.append(str(token.lemma_))
-            unwanted_elements = [']','[','。', '?', '.', '_', ' ', ', ', ',']
+            unwanted_elements = [']','[','。', '?', '.', '_', ' ', ', ', ',','，']
             filtered_lem_text = [item for item in lem_text if item not in unwanted_elements]
             lemmatized_sentences.append(filtered_lem_text)
 

@@ -62,7 +62,7 @@ def generate_words_buttons(list_of_words):
 
 def delete_rows_words_buttons(page, known_words):
     rows_words_buttons = page.words_column
-
+    known_words = [item for sublist in known_words for item in sublist]
 
     indx_to_del = []
     for word in known_words:
