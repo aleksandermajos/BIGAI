@@ -26,12 +26,6 @@ def get_all_paths_in_one_source(path, extension = '.pkl'):
 
 
 
-
-
-
-
-
-
 class SOURCE:
     source_type = ['AUDIO', 'DECKS', 'EXEL', 'PIC', 'TATOEBA', 'TEXT', 'VIDEO']
     user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA', 'NETFLIX', 'YT', 'TEXT', 'PIC', 'VIDEO', 'FREQDICT',
@@ -90,8 +84,18 @@ class SOURCE:
                             for item in result:
                                 self.words_in_parts[-1].add(WORD_Japanese(text=item['orig'],language=self.lang,original=item['orig'],hiragana=item['hira'],katakana=item['kana'],hepburn=item['hepburn'],kunrei=item['kunrei'],passport=item['passport']))
                                 #print(f"Original: {item['orig']}, Rōmaji: {item['hepburn']}")
-                        bot_reply = generate_pos_tran(self,words=self.words_in_parts[-1],lang=self.lang, target_lang=self.native)
-                        bot_reply_json = json.loads(bot_reply)
+
+
+                        while True:
+                            try:
+                                bot_reply = generate_pos_tran(self, words=self.words_in_parts[-1], lang=self.lang,
+                                                              target_lang=self.native)
+                                bot_reply_json = json.loads(bot_reply)
+                                break  # Exit the loop if parsing is successful
+                            except json.JSONDecodeError:
+                                # Handle the exception (e.g., wait for new data or log an error)
+                                print("Invalid JSON data received. Retrying...")
+                                # Update 'received_data' with new data before retrying
 
                         if isinstance(bot_reply_json, dict) and 'words' in bot_reply_json:
                             print("'words' exists in bot_reply_json")
@@ -158,10 +162,9 @@ class SOURCE:
 
 
     def get_words_from_n_parts(self, start, end):
-        words_from_start_end_parts = []
+        words_from_start_end_parts = set()
         for current_set in self.words_in_parts[start:end]:
-            words_from_current_set = [word.text for word in current_set]
-            words_from_start_end_parts.extend(words_from_current_set)
+            words_from_start_end_parts.update(current_set)
         return words_from_start_end_parts
 
 

@@ -3,6 +3,7 @@ from ENGINE.ALOHAPP_MAIL import send_mail
 from pydantic import BaseModel
 import json
 import re
+import asyncio
 
 
 class TranslationResponseOllama(BaseModel):

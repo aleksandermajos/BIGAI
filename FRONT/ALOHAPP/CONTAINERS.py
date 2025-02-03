@@ -26,7 +26,9 @@ def pick_files_result(e: FilePickerResultEvent):
 pick_files_dialog = FilePicker(on_result=pick_files_result)
 selected_files = Text()
 
-def generate_full_words_buttons_rows(full_words,lang):
+def generate_full_words_buttons_rows(user,lang):
+    index = user.langs.index(lang)
+    full_words = user.words_present[index]
     rows = []
     if lang=='ja':
         for word in full_words:

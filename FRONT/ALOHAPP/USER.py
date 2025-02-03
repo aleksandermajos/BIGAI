@@ -16,7 +16,7 @@ class USER:
         self.words_past: List[Set[WORD_Abstract]] = [set() for _ in range(len(langs))]
         self.words_present: List[Set[WORD_Abstract]] = [set() for _ in range(len(langs))]
         self.words_future: List[Set[WORD_Abstract]] = [set() for _ in range(len(langs))]
-        self.prompt_present: ''
+        self.prompt_present: List[str] = ['' for _ in range(len(langs))]
 
         self.words_pd = words_pd
         self.time_pd = time_pd
@@ -35,8 +35,9 @@ class USER:
     def Update_Words_Present(self,source_name,source_lang,start,end):
         for source in self.sources:
             if source.lang == source_lang and source.name == source_name:
-                self.words_present = source.get_words_from_n_parts(start=start, end=end)
-
+                WORDS = source.get_words_from_n_parts(start=start, end=end)
+                index = self.langs.index(source_lang)
+                self.words_present[index].update(WORDS)
 
     def Upadete_Full_Words_Present(self,source_name,source_lang,start,end):
         for source in self.sources:
@@ -49,9 +50,9 @@ class USER:
         pass
 
     def Create_Prompt_From_Words_Present(self, lang='ja'):
-        self.prompt_present = ', '.join(self.words_present)
-
-
+        index = self.langs.index(lang)
+        self.prompt_present[index] = self.words_present[index]
+        self.prompt_present[index] = ','.join(word.original for word in self.prompt_present[index])
 
     def Get_Progress(self):
         pass

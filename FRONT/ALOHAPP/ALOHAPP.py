@@ -10,19 +10,18 @@ def main(page: ft.Page):
     page.title = "ALOHAPP"
 
     #page.user = USER(native='en',langs=['ja','zh'],langs_priority=['ja','zh'])
-    #with open("USER_ALEX_ASSIMIL_6_LESSONS_JA_ZH.pkl", "wb") as file:  # 'wb' means write in binary mode
+    #with open("USER_ALEX_ASSIMIL_2_LESSONS_JA_ZH.pkl", "wb") as file:  # 'wb' means write in binary mode
         #pickle.dump(page.user, file)
 
-    with open("USER_ALEX_ASSIMIL_6_LESSONS_JA_ZH.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
+    with open("USER_ALEX_ASSIMIL_2_LESSONS_JA_ZH.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
         page.user = pickle.load(file)
 
 
     page.user.hmt = 1
     page.user.Update_Words_Present(source_name='ASSIMIL',source_lang='zh',start=0,end=1)
-    page.user.Create_Prompt_From_Words_Present()
+    page.user.Create_Prompt_From_Words_Present(lang='zh')
 
-    full_words = page.user.sources[1].get_full_words_from_n_parts(start=0, end=1)
-    page.rows_full_words_button = generate_full_words_buttons_rows(full_words,lang='zh')
+    page.rows_full_words_button = generate_full_words_buttons_rows(user=page.user,lang='zh')
     page.words_column ,page.words_container = create_words_container(page.rows_full_words_button)
 
     page.conversation_column ,page.conversation_container = create_conversation_container()
