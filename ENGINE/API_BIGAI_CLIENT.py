@@ -136,14 +136,14 @@ def tts_kokoro(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
-    tts_kokoro("私には夢があります", lang="ja", output="dream_jp.wav")
-
-
     text = '自然语言处理'
     output = 'example.wav'
     lang = 'zh'
 
     tts_melo(text, lang=lang, output=output)
+
+    tts_kokoro("私には夢があります", lang="ja", output="dream_jp.wav")
+
     tts_kokoro(text, lang=lang, output=output)
 
     text = '自然语言处理'

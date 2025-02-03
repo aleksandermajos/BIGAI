@@ -21,7 +21,7 @@ def get_lang_name_to_tts_kokoro(short):
     if short == 'zh': return 'Mandarin Chinese'
 
 def get_speaker_name_to_tts_kokoro(short):
-    if short == 'ja': return 'jf_alpha'
+    if short == 'ja': return 'jm_kumo'
     if short == 'zh': return 'zm_yunjian'
 
 

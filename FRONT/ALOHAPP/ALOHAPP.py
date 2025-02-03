@@ -9,7 +9,7 @@ from SOURCE import *
 def main(page: ft.Page):
     page.title = "ALOHAPP"
 
-    lang = 'zh'
+    lang = 'ja'
 
     #page.user = USER(native='en',langs=['ja','zh'],langs_priority=['ja','zh'])
     #with open("USER_ALEX_ASSIMIL.pkl", "wb") as file:  # 'wb' means write in binary mode
