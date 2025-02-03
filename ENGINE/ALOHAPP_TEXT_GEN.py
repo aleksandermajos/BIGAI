@@ -13,10 +13,11 @@ class TranslationResponseOllama(BaseModel):
 
 def generate_text(page, user_text):
     if page.main_language == 'ja':
+        index = page.main_page.user.langs.index(page.main_language)
         system_prompt = (
             f'You are a super helpful language teacher. You are teaching {page.main_language}. '
             f'User is trying to learn {page.main_language}. '
-            f'User knows the following words: {page.main_page.user.prompt_present}. '
+            f'User knows the following words: {page.main_page.user.prompt_present[index]}. '
             'Use some of these words if possible, but you may include small grammar words that are needed to form a correct sentence. '
             'You have to produce at least one average length  sentence in the target language. Be cheerful, funny and concise. '
             'Arrange your answers in such a way as to encourage the user to continue the discussion. '
@@ -25,10 +26,11 @@ def generate_text(page, user_text):
             '{"japanese": "<Japanese response>", "english": "<English translation>"}'
         )
     if page.main_language == 'zh':
+        index = page.main_page.user.langs.index(page.main_language)
         system_prompt = (
             f'You are a super helpful language teacher. You are teaching {page.main_language}. '
             f'User is trying to learn {page.main_language}. '
-            f'User knows the following words: {page.main_page.user.prompt_present}. '
+            f'User knows the following words: {page.main_page.user.prompt_present[index]}. '
             'Use some of these words if possible, but you may include small grammar words that are needed to form a correct sentence. '
             'You have to produce at least one average length  sentence in the target language. Be cheerful, funny and concise. '
             'Arrange your answers in such a way as to encourage the user to continue the discussion. '
