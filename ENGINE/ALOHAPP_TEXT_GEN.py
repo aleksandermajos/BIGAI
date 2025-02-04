@@ -110,20 +110,22 @@ def generate_text(page, user_text):
 
 def generate_sugestion(page, bot_text):
     if page.main_language == 'ja':
+        index = page.main_page.user.langs.index(page.main_language)
         system_prompt = (
             f'You are a super helpful sentence analizer. You are analizing the sentence:  {bot_text}.'
             f'User is trying to learn {page.main_language}. '
-            f'User knows the following words: {page.main_page.user.prompt_present}. '
+            f'User knows the following words: {page.main_page.user.prompt_present[index]}. '
             f'You have to produce at least one small length sentence in a target language.The produced sentence is what you think is the best answer for {bot_text}. '
             'Use as many of these words , you may include small grammar words that are needed to form a correct sentence. '
             "IMPORTANT: Return your entire answer as a JSON object in the format:"
             '{"japanese": "<Japanese response>", "english": "<English translation>"}'
         )
     if page.main_language == 'zh':
+        index = page.main_page.user.langs.index(page.main_language)
         system_prompt = (
             f'You are a super helpful sentence analizer. You are analizing the sentence:  {bot_text}.'
             f'User is trying to learn {page.main_language}. '
-            f'User knows the following words: {page.main_page.user.prompt_present}. '
+            f'User knows the following words: {page.main_page.user.prompt_present[index]}. '
             f'You have to produce at least one small length sentence in a target language.The produced sentence is what you think is the best answer for {bot_text}. '
             'Use as many of these words , you may include small grammar words that are needed to form a correct sentence. '
             "IMPORTANT: Return your entire answer as a JSON object in the format:"
@@ -138,6 +140,15 @@ def generate_sugestion(page, bot_text):
             model = "gpt-4o"
         )
         bot_reply = response.choices[0].message.content
+
+    if page.text_gen == 'cerebras':
+        messages = [{"role": "system", "content": system_prompt}] + [{"role": "user", "content": bot_text}]
+        chat_completion = page.client_cerebras.chat.completions.create(
+            messages=messages,
+            response_format={"type": "json_object"},
+            model="llama-3.3-70b",
+        )
+        bot_reply = chat_completion.choices[0].message.content
 
     return bot_reply
 

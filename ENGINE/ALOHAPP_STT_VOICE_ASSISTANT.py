@@ -26,7 +26,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='kokoro',text_gen='openai'):
+    def __init__(self,main_page,stt='whisper',tts='kokoro',text_gen='cerebras'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -83,7 +83,7 @@ class VoiceAssistant:
         self.my_sentences_languages = []
         self.bot_sentences = []
         self.bot_sugestions = []
-        self.main_language = self.main_page.user.langs[0]
+        self.main_language = self.main_page.lang
         self.tokenizer_obj = dictionary.Dictionary().create()
         self.kks = pykakasi.kakasi()
 

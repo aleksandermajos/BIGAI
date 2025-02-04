@@ -147,3 +147,11 @@ class WORD_Chinese(WORD_Abstract):
         pinyin_str = f"Pinyin: {self.pinyin}" if self.pinyin else "Pinyin: None" # Handle cases where kanji is None
 
         return f"{base_str}\n  {pinyin_str}\n"
+
+def compare_two_sets_of_WORDS(set_A, set_B):
+    # Elements exclusive to set_A
+    set_only_A = set_A - set_B
+    set_common_AB = set_A & set_B
+    set_only_B = set_B - set_A
+
+    return set_only_A, set_common_AB, set_only_B

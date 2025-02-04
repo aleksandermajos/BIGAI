@@ -9,7 +9,7 @@ os_name = platform.system()
 
 
 class USER:
-    def __init__(self, native, langs, langs_priority,hmt=2, words_pd=25, time_pd=60, old_new=80):
+    def __init__(self, native, langs, langs_priority,hmt=2, words_pd=25, time_pd=60, old_new=80, name='ALEX_ASSIMIL'):
         self.native = native
         self.langs = langs
         self.langs_priority = langs_priority
