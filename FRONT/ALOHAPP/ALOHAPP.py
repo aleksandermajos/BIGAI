@@ -11,16 +11,13 @@ def main(page: ft.Page):
 
     lang = 'zh'
 
-    page.user = USER(native='en',langs=['ja','zh'],langs_priority=['ja','zh'])
-    with open("USER_ALEX_ASSIMIL.pkl", "wb") as file:  # 'wb' means write in binary mode
-        pickle.dump(page.user, file)
+    #page.user = USER(native='en',langs=['ja','zh'],langs_priority=[10,8])
+    #with open("USER_ALEX_ASSIMIL_EXP.pkl", "wb") as file:  # 'wb' means write in binary mode
+        #pickle.dump(page.user, file)
 
-    with open("USER_ALEX_ASSIMIL.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
+    with open("USER_ALEX_ASSIMIL_EXP.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
         page.user = pickle.load(file)
 
-
-
-    all_words = page.user.sources[0].get_words_from_n_parts(start=0,end=2)
 
     page.user.Update_Words_Present(source_name='ASSIMIL',source_lang=lang,start=0,end=1)
     page.user.Create_Prompt_From_Words_Present(lang=lang)

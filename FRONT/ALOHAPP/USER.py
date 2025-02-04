@@ -32,11 +32,12 @@ class USER:
 
 
     def Update_Words_Present(self,source_name,source_lang,start,end):
-        for source in self.sources:
-            if source.lang == source_lang and source.name == source_name:
-                WORDS = source.get_words_from_n_parts(start=start, end=end)
-                index = self.langs.index(source_lang)
-                self.words_present[index].update(WORDS)
+        for source_set in self.sources:
+                for source in source_set:
+                    if source.name == source_name and source.lang == source_lang:
+                        WORDS = source.get_words_from_n_parts(start=start, end=end)
+                        index = self.langs.index(source_lang)
+                        self.words_present[index].update(WORDS)
 
     def Upadete_Full_Words_Present(self,source_name,source_lang,start,end):
         for source in self.sources:
