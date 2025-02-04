@@ -15,7 +15,8 @@ class WORD_Abstract(ABC, BaseModel):
     timestamps: List[datetime] = Field(default_factory=list)
     hmt: int = 0
     rfh: bool = False
-    threshold: int = 2  # Set your desired threshold here
+    threshold: int = 2
+    priority: int = 0
 
     def add_timestamp(self, timestamp: datetime):
         """

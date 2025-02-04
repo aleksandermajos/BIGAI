@@ -136,6 +136,12 @@ def tts_kokoro(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+    transcribe()
+
+    text_to_lemmatize = ['Nonostante il cielo fosse coperto da nuvole minacciose e il vento soffiasse con forza']
+    lem = lemmatize_sentences(text_to_lemmatize, lang='it')
+
+
     text = '自然语言处理'
     output = 'example.wav'
     lang = 'zh'

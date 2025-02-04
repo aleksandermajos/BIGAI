@@ -44,6 +44,7 @@ class SOURCE:
         self.native = native
         self.part = part
         self.words_in_parts = []
+        self.source_priority = 0
 
         if text_gen == 'openai':
             self.text_gen = 'openai'
@@ -73,6 +74,9 @@ class SOURCE:
                     segment['audio'] = audio[segment['start'] * 1000:segment['end'] * 1000]
                     segment['text_lemma_spacy'] = lemmatize_sentences([segment['text']],lang=self.lang)[0]
 
+
+                    if self.lang == 'it':
+                        pass
 
                     if self.lang == 'ja':
                         tokens = tokenizer_obj.tokenize(segment['text'], mode)
@@ -146,6 +150,14 @@ class SOURCE:
                 from ENGINE.KEY_OPENAI import provide_key
                 key = provide_key()
                 self.client_openai = OpenAI(api_key=key)
+
+            self.words_in_all_parts = set()
+            for current_set in self.words_in_parts:
+                self.words_in_all_parts.update(current_set)
+
+            n = len(self.words_in_parts)
+            self.parts_priority = [0] * n
+
             self.client_openai = None
 
     def make_full_words_from_all_parts(self):
@@ -159,7 +171,6 @@ class SOURCE:
         for current_set in self.words_in_parts[start:end]:
             full_words_from_n_parts.update(current_set)
         return full_words_from_n_parts
-
 
     def get_words_from_n_parts(self, start, end):
         words_from_start_end_parts = set()

@@ -17,19 +17,18 @@ class USER:
         self.words_present: List[Set[WORD_Abstract]] = [set() for _ in range(len(langs))]
         self.words_future: List[Set[WORD_Abstract]] = [set() for _ in range(len(langs))]
         self.prompt_present: List[str] = ['' for _ in range(len(langs))]
+        self.sources: List[Set[SOURCE]] = [set() for _ in range(len(langs))]
 
         self.words_pd = words_pd
         self.time_pd = time_pd
         self.old_new = old_new
         self.hmt = hmt
-        self.sources: List[SOURCE] = []
-        if os_name == 'Darwin':
-            self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=self.langs[0][0], path=r'/Users/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + self.langs[0][0].upper() + '/SELF_LEARNING/ASSIMIL'))
-        elif os_name == 'Linux':
-            for lang in self.langs:
-                self.sources.append(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=lang, native=native,
-                                               path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/SELF_LEARNING/ASSIMIL',
-                                               part=-1))
+
+        for lang in self.langs:
+            index = self.langs.index(lang)
+            self.sources[index].add(SOURCE(source_type='AUDIO', user_type='BOOK', name='ASSIMIL', lang=lang, native=native,
+                       path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/SELF_LEARNING/ASSIMIL',
+                       part=-1))
 
 
     def Update_Words_Present(self,source_name,source_lang,start,end):
