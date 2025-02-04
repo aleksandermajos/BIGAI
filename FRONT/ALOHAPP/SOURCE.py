@@ -44,7 +44,7 @@ class SOURCE:
         self.native = native
         self.part = part
         self.words_in_parts = []
-        self.source_priority = 0
+        self.source_priority = 5
 
         if text_gen == 'openai':
             self.text_gen = 'openai'

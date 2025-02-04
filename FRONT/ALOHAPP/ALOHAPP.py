@@ -1,10 +1,7 @@
-import flet as ft
 from FRONT.ALOHAPP.CONTAINERS import *
 from ENGINE.ALOHAPP_STT_VOICE_ASSISTANT import VoiceAssistant
-import pickle
-from USER import USER
 from SOURCE import *
-from WORD import compare_two_sets_of_WORDS
+from WORD import *
 
 
 def main(page: ft.Page):
@@ -19,11 +16,7 @@ def main(page: ft.Page):
     with open("USER_ALEX_ASSIMIL.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
         page.user = pickle.load(file)
 
-    compare_two_sets_of_WORDS(set_A=page.user.words_past[1], set_B=next(iter(page.user.sources[1])).words_in_parts[0])
-
-
-    page.user.Update_Words_Present(source_name='ASSIMIL',source_lang=page.lang,start=0,end=1)
-    page.user.Create_Prompt_From_Words_Present(lang=page.lang)
+    page.user.prepare_words(lang=page.lang)
 
     page.rows_full_words_button = generate_full_words_buttons_rows(user=page.user,lang=page.lang)
     page.words_column ,page.words_container = create_words_container(page.rows_full_words_button)

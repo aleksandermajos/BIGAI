@@ -155,3 +155,38 @@ def compare_two_sets_of_WORDS(set_A, set_B):
     set_only_B = set_B - set_A
 
     return set_only_A, set_common_AB, set_only_B
+
+
+def Update_Words_Present(user,lang):
+    for source_set in user.sources:
+        for source in source_set:
+            if source.lang == lang:
+                index = user.langs.index(lang)
+                for words_set_in_part in source.words_in_parts:
+                    set_only_A, set_common_AB, set_only_B = compare_two_sets_of_WORDS(set_A = user.words_past[index],set_B=words_set_in_part)
+
+                user.words_present[index].update(set_only_B)
+    return set_only_B
+
+def Create_Prompt_From_Words_Present(user, lang='ja'):
+    index = user.langs.index(lang)
+    user.prompt_present[index] = user.words_present[index]
+    result = ','.join(word.original for word in user.prompt_present[index])
+    user.prompt_present[index] = result
+    return result
+
+def Update_Words_Future(user, lang):
+    user.words_pd = 12
+    for source_set in user.sources:
+        for source in source_set:
+            if source.lang == lang:
+                index = user.langs.index(lang)
+                candidate = set()
+                for words_set_in_part in source.words_in_parts:
+                    set_only_A, set_common_AB, set_only_B = compare_two_sets_of_WORDS(set_A = user.words_present[index],set_B=words_set_in_part)
+                    candidate = candidate | set_only_B
+                    if len(candidate) >= user.words_pd:
+                        user.words_future[index].update(candidate)
+
+
+    return candidate

@@ -1,7 +1,5 @@
 import platform
-from typing import List, Set
-from datetime import datetime
-from ENGINE.API_BIGAI_CLIENT import *
+from typing import Set
 from SOURCE import *
 from WORD import *
 os_name = platform.system()
@@ -30,38 +28,8 @@ class USER:
                        path=r'/home/bigai/PycharmProjects/BIGAI/DATA/ALOHAPP/AUDIO/BOOK/' + lang.upper() + '/SELF_LEARNING/ASSIMIL',
                        part=-1))
 
-
-    def Update_Words_Present(self,source_name,source_lang,start,end):
-        for source_set in self.sources:
-                for source in source_set:
-                    if source.name == source_name and source.lang == source_lang:
-                        WORDS = source.get_words_from_n_parts(start=start, end=end)
-                        index = self.langs.index(source_lang)
-                        self.words_present[index].update(WORDS)
-
-    def Upadete_Full_Words_Present(self,source_name,source_lang,start,end):
-        for source in self.sources:
-            if source.lang == source_lang and source.name == source_name:
-                self.full_words_present = source.get_words_from_n_parts(start=start, end=end)
-
-
-
-    def Update_Words_Future(self):
-        pass
-
-    def Create_Prompt_From_Words_Present(self, lang='ja'):
+    def prepare_words(self,lang):
         index = self.langs.index(lang)
-        self.prompt_present[index] = self.words_present[index]
-        self.prompt_present[index] = ','.join(word.original for word in self.prompt_present[index])
-
-    def Get_Progress(self):
-        pass
-
-    def Generate_Decks(self):
-        pass
-
-    def Popoulate_Audio(self):
-        pass
-
-    def Popoulate_Pics(self):
-        pass
+        self.words_present[index] = Update_Words_Present(self,lang)
+        self.prompt_present[index] = Create_Prompt_From_Words_Present(self,lang)
+        self.words_future[index] = Update_Words_Future(self,lang)
