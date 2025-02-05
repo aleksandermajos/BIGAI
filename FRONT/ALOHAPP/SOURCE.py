@@ -200,6 +200,15 @@ class SOURCE:
             if text_gen == 'openai':
                 self.client_openai = None
 
+            if text_gen == 'groq':
+                self.client_groq = None
+
+            if text_gen == 'cerebras':
+                self.client_cerebras = None
+
+            if text_gen == 'ollama':
+                self.ollama_model = None
+
     def make_full_words_from_all_parts(self):
         full_words_from_all_parts = set()
         for current_set in self.words_in_parts:
