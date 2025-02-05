@@ -32,7 +32,7 @@ class SOURCE:
     user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA', 'NETFLIX', 'YT', 'TEXT', 'PIC', 'VIDEO', 'FREQDICT',
                  'EXAMS']
 
-    def __init__(self, source_type, user_type, name, lang, native, path, part=-1, text_gen='ollama'):
+    def __init__(self, source_type, user_type, name, lang, native, path, part=-1, text_gen='openai'):
         if source_type not in self.source_type:
             raise ValueError(f"Invalid source type '{source_type}'. Allowed source_type are: {self.source_type}")
         self.source_type = source_type
@@ -69,7 +69,7 @@ class SOURCE:
 
         if text_gen == 'ollama':
             self.text_gen = 'ollama'
-            self.ollama_model = 'llama3.1:8b'
+            self.ollama_model = 'deepseek-r1:14b'
 
         if source_type=='AUDIO' and user_type=='BOOK':
             if part == -1:
@@ -84,6 +84,7 @@ class SOURCE:
 
             for part in self.parts:
                 print("START OF NEXT PART")
+                print(part)
                 self.words_in_parts.append(set())
                 text_seg = transcribe(file_path=self.path+'/'+part, language=self.lang)
                 audio = AudioSegment.from_file(self.path+'/'+part)
@@ -130,9 +131,28 @@ class SOURCE:
 
                         for word in self.words_in_parts[-1]:
                             for item in bot_reply_json['words']:
+                                if isinstance(item['original'], str) and isinstance(word['original'], str):
+                                    print("Both are strings.")
+                                else:
+                                    print("At least one is not a string.")
                                 if item['original'] == word['original']:
+                                    print("item 'original':")
+                                    print(item['original'])
+                                    print("word 'original':")
+                                    print(word['original'])
+
                                     word['part_of_speech'] = item['part_of_speech']
+                                    print("word 'part_of_speech':")
+                                    print(word['part_of_speech'])
+                                    print("item 'part_of_speech':")
+                                    print(item['part_of_speech'])
+
                                     word['translate'] = item['translate']
+                                    print("word 'translate':")
+                                    print(word['translate'])
+                                    print("item 'translate':")
+                                    print(item['translate'])
+
                     if self.lang == 'zh':
                         words = segment['text_lemma_spacy']
                         unique_words = set(words)
@@ -160,8 +180,10 @@ class SOURCE:
 
 
 
+
                     print("END OF NEXT SEGMENT")
-                print("END OF NEXT PART")
+                print("END OF NEXT PART:")
+                print(part)
                 self.client_openai = None
                 with open(self.path + '/' + part + '.pkl', 'wb') as file:  # 'wb' mode is for writing in binary
                     pickle.dump(self, file)
@@ -188,7 +210,7 @@ class SOURCE:
 
                 if text_gen == 'ollama':
                     self.text_gen = 'ollama'
-                    self.ollama_model = 'llama3.1:8b'
+                    self.ollama_model = 'deepseek-r1:14b'
 
             self.words_in_all_parts = set()
             for current_set in self.words_in_parts:

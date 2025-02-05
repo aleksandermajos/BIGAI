@@ -53,7 +53,7 @@ def generate_text(page, user_text):
         response = page.client_openai.chat.completions.create(
             messages=messages,
             response_format={"type": "json_object"},
-            model = "gpt-4o"
+            model = "gpt-4o-mini"
         )
         bot_reply = response.choices[0].message.content
 
@@ -135,7 +135,7 @@ def generate_sugestion(page, bot_text):
         response = page.client_openai.chat.completions.create(
             messages=messages,
             response_format={"type": "json_object"},
-            model = "gpt-4o"
+            model = "gpt-4o-mini"
         )
         bot_reply = response.choices[0].message.content
 
@@ -180,6 +180,7 @@ def generate_pos_tran(source,words,lang='ja',target_lang='en'):
         '{"original": "<word>", "part_of_speech": "<part_of_speech>", "translate": "<translate>"},'
         'Only one line like {"original": "<word>", "part_of_speech": "<part_of_speech>", "translate": "<translate>"} is NOT acceptable'
         'It need to contain all words'
+        'Be SURE that You KEEP exactly "original", "part_of_speech" and "translate" fields and NOT variations of this words.'
     )
 
     if source.text_gen == 'openai':
@@ -187,7 +188,7 @@ def generate_pos_tran(source,words,lang='ja',target_lang='en'):
         response = source.client_openai.chat.completions.create(
             messages=messages,
             response_format={"type": "json_object"},
-            model="gpt-4o"
+            model="gpt-4o-mini"
         )
         bot_reply = response.choices[0].message.content
 
