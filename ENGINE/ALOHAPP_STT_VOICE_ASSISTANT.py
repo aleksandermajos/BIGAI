@@ -26,7 +26,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='kokoro',text_gen='groq'):
+    def __init__(self,main_page,stt='whisper',tts='kokoro',text_gen='ollama'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'

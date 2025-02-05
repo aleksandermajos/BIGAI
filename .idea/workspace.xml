@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="ALOHAPP CANDIDATE PAST PRESENT FUTURE PIPELINE">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="ALOHAPP GROQ AND CEREBRAS TEXT GEN AND SUG">
       <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_STT_VOICE_ASSISTANT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/ALOHAPP_TEXT_GEN.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/ALOHAPP_TEXT_GEN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/SMALLPROJECTS/SUPER_RUDE_ASSISTANT/oko.wav" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/SMALLPROJECTS/SUPER_RUDE_ASSISTANT/oko.wav" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1864,7 +1861,7 @@
       <workItem from="1738585182564" duration="17098000" />
       <workItem from="1738603850445" duration="2562000" />
       <workItem from="1738656335338" duration="23310000" />
-      <workItem from="1738741564940" duration="4101000" />
+      <workItem from="1738741564940" duration="4544000" />
     </task>
     <task id="LOCAL-00001" summary="CUDA CPU">
       <created>1670347438927</created>
@@ -1893,14 +1890,6 @@
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
-    </task>
-    <task id="LOCAL-00226" summary="Translate bot part">
-      <option name="closed" value="true" />
-      <created>1730902547596</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1730902547596</updated>
     </task>
     <task id="LOCAL-00227" summary="Translate bot part">
       <option name="closed" value="true" />
@@ -2254,7 +2243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738683927892</updated>
     </task>
-    <option name="localTasksCounter" value="271" />
+    <task id="LOCAL-00271" summary="ALOHAPP GROQ AND CEREBRAS TEXT GEN AND SUG">
+      <option name="closed" value="true" />
+      <created>1738749664939</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1738749664940</updated>
+    </task>
+    <option name="localTasksCounter" value="272" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -2280,7 +2277,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="ALOHAPP MAKE SUGGESTION OF REPLY!" />
     <MESSAGE value="ALOHAPP GOOD ONE NA ZIELONO" />
     <MESSAGE value="ALOHAPP REARRANGE SOURCE PART A" />
     <MESSAGE value="ALOHAPP REARRANGE SOURCE PART B, JAPANESE WORDS" />
@@ -2305,7 +2301,8 @@
     <MESSAGE value="ALOHAPP UPDATE WORDS PRESENT.NOT FINAL" />
     <MESSAGE value="ALOHAPP Compare two sets" />
     <MESSAGE value="ALOHAPP CANDIDATE PAST PRESENT FUTURE PIPELINE" />
-    <option name="LAST_COMMIT_MESSAGE" value="ALOHAPP CANDIDATE PAST PRESENT FUTURE PIPELINE" />
+    <MESSAGE value="ALOHAPP GROQ AND CEREBRAS TEXT GEN AND SUG" />
+    <option name="LAST_COMMIT_MESSAGE" value="ALOHAPP GROQ AND CEREBRAS TEXT GEN AND SUG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

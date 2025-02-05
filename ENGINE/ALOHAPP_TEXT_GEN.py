@@ -65,7 +65,6 @@ def generate_text(page, user_text):
         bot_reply = response.text
 
 
-
     if page.text_gen == 'cerebras':
         messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
         chat_completion = page.client_cerebras.chat.completions.create(
@@ -99,11 +98,8 @@ def generate_text(page, user_text):
         bot_reply = ollama.chat(
             model='llama3.1:8b',
             messages=messages,
-
         )
-        bot_message = bot_reply['message']['content']
-        bot_reply = TranslationResponseOllama.parse_raw(bot_message)
-
+        bot_reply = bot_reply['message']['content']
 
 
     return bot_reply
@@ -159,6 +155,14 @@ def generate_sugestion(page, bot_text):
         )
         bot_reply = chat_completion.choices[0].message.content
 
+    if page.text_gen == 'ollama':
+        messages = [{"role": "system", "content": system_prompt}] + [{"role": "user", "content": bot_text}]
+        bot_reply = ollama.chat(
+            model='llama3.1:8b',
+            messages=messages,
+        )
+        bot_reply = bot_reply['message']['content']
+
     return bot_reply
 
 def generate_pos_tran(source,words,lang='ja',target_lang='en'):
@@ -201,5 +205,13 @@ def generate_pos_tran(source,words,lang='ja',target_lang='en'):
             model="llama3-70b-8192",
         )
         bot_reply = chat_completion.choices[0].message.content
+
+    if source.text_gen == 'ollama':
+        messages = [{"role": "system", "content": system_prompt}]
+        bot_reply = ollama.chat(
+            model='llama3.1:8b',
+            messages=messages,
+        )
+        bot_reply = bot_reply['message']['content']
 
     return bot_reply
