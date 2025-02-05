@@ -98,8 +98,10 @@ def generate_text(page, user_text):
         bot_reply = ollama.chat(
             model='llama3.1:8b',
             messages=messages,
+            format='json',
         )
         bot_reply = bot_reply['message']['content']
+        #bot_reply = json.loads(bot_reply)
 
 
     return bot_reply
@@ -160,6 +162,7 @@ def generate_sugestion(page, bot_text):
         bot_reply = ollama.chat(
             model='llama3.1:8b',
             messages=messages,
+            format='json',
         )
         bot_reply = bot_reply['message']['content']
 
@@ -211,6 +214,7 @@ def generate_pos_tran(source,words,lang='ja',target_lang='en'):
         bot_reply = ollama.chat(
             model='llama3.1:8b',
             messages=messages,
+            format='json',
         )
         bot_reply = bot_reply['message']['content']
 
