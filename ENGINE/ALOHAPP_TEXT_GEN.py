@@ -31,10 +31,10 @@ def generate_text(page, user_text):
             f'You are a super helpful language teacher. You are teaching {page.main_language}. '
             f'User is trying to learn {page.main_language}. '
             f'User knows the following words: {page.main_page.user.prompt_present[index]}. '
-            'Use some of these words if possible, but you may include small grammar words that are needed to form a correct sentence. '
-            'You have to produce at least one average length  sentence in the target language. Be cheerful, funny and concise. '
+            'Use some of these words if possible, but you may include small grammar words that are needed to form a correct sentence.'
+            'You have to produce at least one average length  sentence in the target language. Be cheerful, funny and concise.'
             'Arrange your answers in such a way as to encourage the user to continue the discussion. '
-            'Be informative and answer the question.Do not repeat yourself.Or do not repeat after me'
+            'Be informative and answer the question.Do not repeat yourself.Or do not repeat after me.'
             "IMPORTANT: Return your entire answer as a JSON object in the format:"
             '{"chinese": "<Chinese response>", "english": "<English translation>"}'
         )
@@ -113,10 +113,10 @@ def generate_sugestion(page, bot_text):
         index = page.main_page.user.langs.index(page.main_language)
         system_prompt = (
             f'You are a super helpful sentence analizer. You are analizing the sentence:  {bot_text}.'
-            f'User is trying to learn {page.main_language}. '
-            f'User knows the following words: {page.main_page.user.prompt_present[index]}. '
-            f'You have to produce at least one small length sentence in a target language.The produced sentence is what you think is the best answer for {bot_text}. '
-            'Use as many of these words , you may include small grammar words that are needed to form a correct sentence. '
+            f'User is trying to learn {page.main_language}.'
+            f'User knows the following words: {page.main_page.user.prompt_present[index]}.'
+            f'You have to produce at least one small length sentence in a target language.The produced sentence is what you think is the best answer for {bot_text}.'
+            'Use as many of these words , you may include small grammar words that are needed to form a correct sentence.'
             "IMPORTANT: Return your entire answer as a JSON object in the format:"
             '{"japanese": "<Japanese response>", "english": "<English translation>"}'
         )
@@ -150,6 +150,15 @@ def generate_sugestion(page, bot_text):
         )
         bot_reply = chat_completion.choices[0].message.content
 
+    if page.text_gen == 'groq':
+        messages = [{"role": "system", "content": system_prompt}]  + [{"role": "user", "content": bot_text}]
+        chat_completion = page.client_groq.chat.completions.create(
+            messages=messages,
+            response_format={"type": "json_object"},
+            model="llama3-70b-8192",
+        )
+        bot_reply = chat_completion.choices[0].message.content
+
     return bot_reply
 
 def generate_pos_tran(source,words,lang='ja',target_lang='en'):
@@ -174,5 +183,23 @@ def generate_pos_tran(source,words,lang='ja',target_lang='en'):
             model="gpt-4o"
         )
         bot_reply = response.choices[0].message.content
+
+    if source.text_gen == 'cerebras':
+        messages = [{"role": "system", "content": system_prompt}]
+        chat_completion = source.client_cerebras.chat.completions.create(
+            messages=messages,
+            response_format={"type": "json_object"},
+            model="llama-3.3-70b",
+        )
+        bot_reply = chat_completion.choices[0].message.content
+
+    if source.text_gen == 'groq':
+        messages = [{"role": "system", "content": system_prompt}]
+        chat_completion = source.client_groq.chat.completions.create(
+            messages=messages,
+            response_format={"type": "json_object"},
+            model="llama3-70b-8192",
+        )
+        bot_reply = chat_completion.choices[0].message.content
 
     return bot_reply
