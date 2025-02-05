@@ -2,16 +2,17 @@ from FRONT.ALOHAPP.CONTAINERS import *
 from ENGINE.ALOHAPP_STT_VOICE_ASSISTANT import VoiceAssistant
 from SOURCE import *
 from WORD import *
+from USER import *
 
 
 def main(page: ft.Page):
     page.title = "ALOHAPP"
 
-    page.lang = 'zh'
+    page.lang = 'ja'
 
-    #page.user = USER(native='en',langs=['ja','zh'],langs_priority=[10,8])
-    #with open("USER_ALEX_ASSIMIL_EXP.pkl", "wb") as file:  # 'wb' means write in binary mode
-        #pickle.dump(page.user, file)
+    page.user = USER(native='en',langs=['ja','zh'],langs_priority=[10,8])
+    with open("USER_ALEX_ASSIMIL_EXP.pkl", "wb") as file:  # 'wb' means write in binary mode
+        pickle.dump(page.user, file)
 
     with open("USER_ALEX_ASSIMIL.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
         page.user = pickle.load(file)

@@ -29,10 +29,10 @@ if SPACY_STANZA:
         lemma_en = spacy_stanza.load_pipeline('en')
         lemma_ja = spacy_stanza.load_pipeline('ja')
         lemma_zh = spacy_stanza.load_pipeline('zh')
-        lemma_fr = spacy_stanza.load_pipeline('fr')
-        lemma_es = spacy_stanza.load_pipeline('es')
-        lemma_it = spacy_stanza.load_pipeline('it')
-        lemma_pt = spacy_stanza.load_pipeline('pt')
+        #lemma_fr = spacy_stanza.load_pipeline('fr')
+        #lemma_es = spacy_stanza.load_pipeline('es')
+        #lemma_it = spacy_stanza.load_pipeline('it')
+        #lemma_pt = spacy_stanza.load_pipeline('pt')
 
 
     if os_name == 'Linux':
@@ -40,10 +40,10 @@ if SPACY_STANZA:
         lemma_en = spacy_stanza.load_pipeline('en',device='cuda:0')
         lemma_ja = spacy_stanza.load_pipeline('ja', device='cuda:0')
         lemma_zh = spacy_stanza.load_pipeline('zh', device='cuda:0')
-        lemma_fr = spacy_stanza.load_pipeline('fr', device='cuda:0')
-        lemma_es = spacy_stanza.load_pipeline('es',device='cuda:0')
-        lemma_it = spacy_stanza.load_pipeline('it',device='cuda:0')
-        lemma_pt = spacy_stanza.load_pipeline('pt', device='cuda:0')
+        #lemma_fr = spacy_stanza.load_pipeline('fr', device='cuda:0')
+        #lemma_es = spacy_stanza.load_pipeline('es',device='cuda:0')
+        #lemma_it = spacy_stanza.load_pipeline('it',device='cuda:0')
+        #lemma_pt = spacy_stanza.load_pipeline('pt', device='cuda:0')
 
 
 
@@ -69,10 +69,10 @@ if SPACY_STANZA:
         if lang == 'en': lemma = lemma_en
         if lang == 'ja': lemma = lemma_ja
         if lang == 'zh': lemma = lemma_zh
-        if lang == 'fr': lemma = lemma_fr
-        if lang == 'es': lemma = lemma_es
-        if lang == 'it': lemma = lemma_it
-        if lang == 'pt': lemma = lemma_pt
+        #if lang == 'fr': lemma = lemma_fr
+        #if lang == 'es': lemma = lemma_es
+        #if lang == 'it': lemma = lemma_it
+        #if lang == 'pt': lemma = lemma_pt
 
 
         lemmatized_sentences = []
@@ -163,7 +163,7 @@ if STT_WHISPERX:
             print('after transcribe')
             if result is None:
                 result = 'Transcribe error'
-            make_source = False
+            make_source = True
             if make_source:
                 print('before align transcribe')
                 device = 'cuda:0'

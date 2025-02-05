@@ -96,7 +96,7 @@ def generate_text(page, user_text):
     if page.text_gen == 'ollama':
         messages = [{"role": "system", "content": system_prompt}] + mess + [{"role": "user", "content": user_text}]
         bot_reply = ollama.chat(
-            model='llama3.1:8b',
+            model=page.ollama_model,
             messages=messages,
             format='json',
         )
@@ -160,7 +160,7 @@ def generate_sugestion(page, bot_text):
     if page.text_gen == 'ollama':
         messages = [{"role": "system", "content": system_prompt}] + [{"role": "user", "content": bot_text}]
         bot_reply = ollama.chat(
-            model='llama3.1:8b',
+            model=page.ollama_model,
             messages=messages,
             format='json',
         )
@@ -212,7 +212,7 @@ def generate_pos_tran(source,words,lang='ja',target_lang='en'):
     if source.text_gen == 'ollama':
         messages = [{"role": "system", "content": system_prompt}]
         bot_reply = ollama.chat(
-            model='llama3.1:8b',
+            model=source.ollama_model,
             messages=messages,
             format='json',
         )

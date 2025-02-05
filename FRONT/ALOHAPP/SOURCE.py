@@ -1,7 +1,8 @@
 from ENGINE.API_BIGAI_CLIENT import transcribe, lemmatize_sentences
 from ENGINE.ALOHAPP_TEXT_GEN import generate_pos_tran
 from openai import OpenAI
-
+from groq import Groq
+from cerebras.cloud.sdk import Cerebras
 from FRONT.ALOHAPP.WORD import WORD_Chinese
 from WORD import WORD_Japanese
 from sudachipy import tokenizer
@@ -31,7 +32,7 @@ class SOURCE:
     user_type = ['BOOK', 'SELFLEARNING', 'DECK', 'TATOEBA', 'NETFLIX', 'YT', 'TEXT', 'PIC', 'VIDEO', 'FREQDICT',
                  'EXAMS']
 
-    def __init__(self, source_type, user_type, name, lang, native, path, part=-1, text_gen='openai'):
+    def __init__(self, source_type, user_type, name, lang, native, path, part=-1, text_gen='ollama'):
         if source_type not in self.source_type:
             raise ValueError(f"Invalid source type '{source_type}'. Allowed source_type are: {self.source_type}")
         self.source_type = source_type
@@ -51,6 +52,24 @@ class SOURCE:
             from ENGINE.KEY_OPENAI import provide_key
             key = provide_key()
             self.client_openai = OpenAI(api_key=key)
+
+        if text_gen == 'cerebras':
+            self.text_gen = 'cerebras'
+            from ENGINE.KEY_CEREBRAS import provide_key
+            key = provide_key()
+            self.client_cerebras = Cerebras(api_key=key, )
+
+        if text_gen == 'groq':
+            self.text_gen = 'groq'
+            from ENGINE.KEY_GROQ import provide_key
+            self.client_groq = Groq(
+                api_key=provide_key()
+            )
+            self.welcome = True
+
+        if text_gen == 'ollama':
+            self.text_gen = 'ollama'
+            self.ollama_model = 'llama3.1:8b'
 
         if source_type=='AUDIO' and user_type=='BOOK':
             if part == -1:
@@ -146,10 +165,30 @@ class SOURCE:
                 self.client_openai = None
                 with open(self.path + '/' + part + '.pkl', 'wb') as file:  # 'wb' mode is for writing in binary
                     pickle.dump(self, file)
-                self.text_gen = 'openai'
-                from ENGINE.KEY_OPENAI import provide_key
-                key = provide_key()
-                self.client_openai = OpenAI(api_key=key)
+
+                if text_gen == 'openai':
+                    self.text_gen = 'openai'
+                    from ENGINE.KEY_OPENAI import provide_key
+                    key = provide_key()
+                    self.client_openai = OpenAI(api_key=key)
+
+                if text_gen == 'cerebras':
+                    self.text_gen = 'cerebras'
+                    from ENGINE.KEY_CEREBRAS import provide_key
+                    key = provide_key()
+                    self.client_cerebras = Cerebras(api_key=key, )
+
+                if text_gen == 'groq':
+                    self.text_gen = 'groq'
+                    from ENGINE.KEY_GROQ import provide_key
+                    self.client_groq = Groq(
+                        api_key=provide_key()
+                    )
+                    self.welcome = True
+
+                if text_gen == 'ollama':
+                    self.text_gen = 'ollama'
+                    self.ollama_model = 'llama3.1:8b'
 
             self.words_in_all_parts = set()
             for current_set in self.words_in_parts:
@@ -158,7 +197,8 @@ class SOURCE:
             n = len(self.words_in_parts)
             self.parts_priority = [0] * n
 
-            self.client_openai = None
+            if text_gen == 'openai':
+                self.client_openai = None
 
     def make_full_words_from_all_parts(self):
         full_words_from_all_parts = set()

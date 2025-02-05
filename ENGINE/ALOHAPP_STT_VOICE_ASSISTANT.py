@@ -75,6 +75,7 @@ class VoiceAssistant:
 
         if text_gen == 'ollama':
             self.text_gen = 'ollama'
+            self.ollama_model = 'deepseek-r1:8b'
 
 
         self.context = ''
