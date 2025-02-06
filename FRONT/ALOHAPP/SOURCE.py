@@ -74,6 +74,11 @@ class SOURCE:
         if source_type=='AUDIO' and user_type=='BOOK':
             if part == -1:
                 self.parts = sorted(get_all_paths_in_one_source(path,extension='.mp3'))
+                self.parts_done = sorted(get_all_paths_in_one_source(path,extension='.pkl'))
+                pkl_set = {filename.replace('.pkl', '') for filename in self.parts_done}
+                missing_files = [filename for filename in self.parts if filename not in pkl_set]
+                if len(missing_files) > 0: self.parts = missing_files
+
             else:
                 self.parts = sorted(get_all_paths_in_one_source(path,extension='.mp3'))
                 self.parts = [self.parts[part]]
@@ -162,8 +167,16 @@ class SOURCE:
                             # Flatten the list of lists and join syllables
                             pinyin_flat = ''.join([item for sublist in pinyin_representation for item in sublist])
                             self.words_in_parts[-1].add(WORD_Chinese(text=word,language=self.lang,original=word,pinyin=pinyin_flat))
-                        bot_reply = generate_pos_tran(self, words=self.words_in_parts[-1], lang=self.lang,target_lang=self.native)
-                        bot_reply_json = json.loads(bot_reply)
+                        bot_reply_json = False
+                        while not bot_reply_json:
+                            bot_reply = generate_pos_tran(self, words=self.words_in_parts[-1], lang=self.lang,
+                                                          target_lang=self.native)
+                            try:
+                                bot_reply_json = json.loads(bot_reply)
+                            except json.JSONDecodeError:
+                                print("Invalid JSON received:", bot_reply)
+                                break
+
                         if isinstance(bot_reply_json, dict) and 'words' in bot_reply_json:
                             print("'words' exists in bot_reply_json")
                         else:

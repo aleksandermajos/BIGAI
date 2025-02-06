@@ -8,7 +8,7 @@ from USER import *
 def main(page: ft.Page):
     page.title = "ALOHAPP"
 
-    page.lang = 'ja'
+    page.lang = 'zh'
 
     page.user = USER(native='en',langs=['ja','zh'],langs_priority=[10,8])
     with open("USER_ALEX_ASSIMIL_EXP.pkl", "wb") as file:  # 'wb' means write in binary mode
