@@ -148,6 +148,16 @@ class WORD_Chinese(WORD_Abstract):
 
         return f"{base_str}\n  {pinyin_str}\n"
 
+# Define a model for a single word entry.
+class WordEntry(BaseModel):
+    original: str
+    part_of_speech: str
+    translate: str
+
+# Define a model for the entire output.
+class WordsOutput(BaseModel):
+    words: List[WordEntry]
+
 def compare_two_sets_of_WORDS(set_A, set_B):
     # Elements exclusive to set_A
     set_only_A = set_A - set_B
