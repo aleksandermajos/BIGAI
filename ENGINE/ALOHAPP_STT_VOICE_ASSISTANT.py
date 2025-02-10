@@ -26,7 +26,7 @@ os_name = platform.system()
 
 
 class VoiceAssistant:
-    def __init__(self,main_page,stt='whisper',tts='kokoro',text_gen='cerebras'):
+    def __init__(self,main_page,stt='whisper',tts='kokoro',text_gen='openai'):
         self.main_page = main_page
         if stt == 'whisper':
             self.stt = 'whisper'
@@ -36,13 +36,9 @@ class VoiceAssistant:
         if tts == 'kokoro':
             self.tts = 'kokoro'
 
-
-
         if tts == 'openai':
             self.tts = 'openai'
             self.tts_voice = "alloy"
-
-
 
         if text_gen == 'openai':
             self.text_gen = 'openai'
@@ -131,6 +127,7 @@ class VoiceAssistant:
 
             print(text)
 
+        text = '是否代表同样的意思?'
         lang_of_my_sentence = detect_language(text)
         lang_of_my_sentence = lang_of_my_sentence['language_code']
         if lang_of_my_sentence in self.main_page.user.langs:

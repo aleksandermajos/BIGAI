@@ -186,7 +186,6 @@ def Create_Prompt_From_Words_Present(user, lang='ja'):
     return result
 
 def Update_Words_Future(user, lang):
-    user.words_pd = 12
     for source_set in user.sources:
         for source in source_set:
             if source.lang == lang:
@@ -195,8 +194,8 @@ def Update_Words_Future(user, lang):
                 for words_set_in_part in source.words_in_parts:
                     set_only_A, set_common_AB, set_only_B = compare_two_sets_of_WORDS(set_A = user.words_present[index],set_B=words_set_in_part)
                     candidate = candidate | set_only_B
-                    if len(candidate) >= user.words_pd:
+                    if len(candidate) <= user.words_pd:
                         user.words_future[index].update(candidate)
 
 
-    return candidate
+    return user.words_future[index]
