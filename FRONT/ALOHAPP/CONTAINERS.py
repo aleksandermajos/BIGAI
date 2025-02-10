@@ -16,6 +16,7 @@ from flet import (
 from ENGINE.ALOHAPP_ACTIONS import pic_button_clicked
 from datetime import datetime
 import pickle
+from WORD import *
 
 
 def pick_files_result(e: FilePickerResultEvent):
@@ -67,12 +68,14 @@ def delete_rows_words_buttons(page, known_words, lang):
     known_words = [item for sublist in known_words for item in sublist]
 
     index = page.user.langs.index(lang)
+    srs = page.user.srs[index]
     words_present_lang = page.user.words_present[index]
 
     for word in words_present_lang:
         for known_word in known_words:
             if word.text==known_word:
                 word.add_timestamp(datetime.now())
+                word.SRS_Date_Update(system=srs)
                 if word.rfh:
                     print(word.rfh)
                     page.user.words_past[index].add(word)

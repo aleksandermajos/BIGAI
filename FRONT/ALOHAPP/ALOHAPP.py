@@ -17,12 +17,6 @@ def main(page: ft.Page):
     with open("USER_ALEX_ZH_JA.pkl", 'rb') as file:  # 'rb' mode is for reading in binary
         page.user = pickle.load(file)
 
-    page.user.srs = ['SM2','ANKI']
-    page.user.plus_one = [0.2,0.1]
-
-    with open("USER_ALEX_ZH_JA.pkl", "wb") as file:
-        pickle.dump(page.user, file)
-
 
     page.user.prepare_words(lang=page.lang)
 

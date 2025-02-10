@@ -32,4 +32,4 @@ class USER:
         index = self.langs.index(lang)
         self.words_present[index] = Update_Words_Present(self,lang)
         self.prompt_present[index] = Create_Prompt_From_Words_Present(self,lang)
-        self.words_future[index] = Update_Words_Future(self,lang)
+        #self.words_future[index] = Update_Words_Future(self,lang)

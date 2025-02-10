@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 from datetime import datetime
 from typing import List, Optional
 from pydantic import BaseModel, Field
+from datetime import timedelta
 
 class WORD_Abstract(ABC, BaseModel):
     """
@@ -17,6 +18,7 @@ class WORD_Abstract(ABC, BaseModel):
     rfh: bool = False
     threshold: int = 2
     priority: int = 0
+    srs: Optional[List[datetime]] = Field(default_factory=list)
 
     def add_timestamp(self, timestamp: datetime):
         """
@@ -26,6 +28,16 @@ class WORD_Abstract(ABC, BaseModel):
         self.hmt = len(self.timestamps)
         self.rfh = self.hmt > self.threshold
 
+    def SRS_Date_Update(self, system):
+        if system=='SM2': self.srs = [self.timestamps[0]+timedelta(days=1),self.timestamps[0]+timedelta(days=6),self.timestamps[0]+timedelta(days=16),self.timestamps[0]+timedelta(days=37),self.timestamps[0]+timedelta(days=66),self.timestamps[0]+timedelta(days=150),self.timestamps[0]+timedelta(days=360)]
+        if system == 'ANKI': self.srs = [self.timestamps[0] + timedelta(minutes=1), self.timestamps[0] + timedelta(minutes=10),
+                                        self.timestamps[0] + timedelta(days=1),
+                                        self.timestamps[0] + timedelta(days=4),
+                                         self.timestamps[0]+timedelta(days=16),
+                                         self.timestamps[0]+timedelta(days=37),
+                                         self.timestamps[0]+timedelta(days=66),
+                                         self.timestamps[0]+timedelta(days=150),
+                                         self.timestamps[0]+timedelta(days=360)]
 
     @abstractmethod
     def lemmatize(self) -> str:
