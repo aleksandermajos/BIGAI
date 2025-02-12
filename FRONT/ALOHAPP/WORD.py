@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from datetime import datetime
 from typing import List, Optional
+from typing import Tuple
 from pydantic import BaseModel, Field
 from datetime import timedelta
 
@@ -19,6 +20,8 @@ class WORD_Abstract(ABC, BaseModel):
     threshold: int = 2
     priority: int = 0
     srs: Optional[List[datetime]] = Field(default_factory=list)
+    srs_tuple: Optional[List[Tuple[datetime, datetime]]] = Field(default_factory=list)
+    srs_index: int = 0
 
     def add_timestamp(self, timestamp: datetime):
         """
@@ -29,15 +32,44 @@ class WORD_Abstract(ABC, BaseModel):
         self.rfh = self.hmt > self.threshold
 
     def SRS_Date_Update(self, system):
-        if system=='SM2': self.srs = [self.timestamps[0]+timedelta(days=1),self.timestamps[0]+timedelta(days=6),self.timestamps[0]+timedelta(days=16),self.timestamps[0]+timedelta(days=37),self.timestamps[0]+timedelta(days=66),self.timestamps[0]+timedelta(days=150),self.timestamps[0]+timedelta(days=360)]
-        if system == 'ANKI': self.srs = [self.timestamps[0] + timedelta(minutes=1), self.timestamps[0] + timedelta(minutes=10),
-                                        self.timestamps[0] + timedelta(days=1),
-                                        self.timestamps[0] + timedelta(days=4),
-                                         self.timestamps[0]+timedelta(days=16),
-                                         self.timestamps[0]+timedelta(days=37),
-                                         self.timestamps[0]+timedelta(days=66),
-                                         self.timestamps[0]+timedelta(days=150),
-                                         self.timestamps[0]+timedelta(days=360)]
+        if not self.srs:
+            if system=='SM2':
+                self.srs = [self.timestamps[0], self.timestamps[0] + timedelta(days=1),
+                            self.timestamps[0] + timedelta(days=6), self.timestamps[0] + timedelta(days=16),
+                            self.timestamps[0] + timedelta(days=37), self.timestamps[0] + timedelta(days=66),
+                            self.timestamps[0] + timedelta(days=150), self.timestamps[0] + timedelta(days=360)]
+            if system == 'ANKI':
+                if not self.srs and system == 'ANKI': self.srs = [self.timestamps[0],
+                                                                    self.timestamps[0] + timedelta(minutes=1),
+                                                                    self.timestamps[0] + timedelta(minutes=10),
+                                                                    self.timestamps[0] + timedelta(days=1),
+                                                                    self.timestamps[0] + timedelta(days=4),
+                                                                    self.timestamps[0] + timedelta(days=16),
+                                                                    self.timestamps[0] + timedelta(days=37),
+                                                                    self.timestamps[0] + timedelta(days=66),
+                                                                    self.timestamps[0] + timedelta(days=150),
+                                                                    self.timestamps[0] + timedelta(days=360)]
+            for i in range(len(self.srs) - 1):
+                current_date = self.srs[i]
+                next_date = self.srs[i + 1]
+
+                    # Calculate half the interval between the current and next datetime
+                half_interval = (next_date - current_date) / 2
+
+                    # Compute start and end datetimes by subtracting/adding half_interval
+                start = current_date - half_interval
+                end = current_date + half_interval
+
+                self.srs_tuple.append((start, end))
+
+            if len(self.srs) >= 2:
+                last_half_interval = (self.srs[-1] - self.srs[-2]) / 2
+                last_start = self.srs[-1] - last_half_interval
+                last_end = self.srs[-1] + last_half_interval
+                self.srs_tuple.append((last_start, last_end))
+        else:
+            pass
+
 
     @abstractmethod
     def lemmatize(self) -> str:
