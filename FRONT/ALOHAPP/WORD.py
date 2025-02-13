@@ -31,23 +31,24 @@ class WORD_Abstract(ABC, BaseModel):
         self.hmt = len(self.timestamps)
         self.rfh = self.hmt > self.threshold
 
-    def SRS_Date_Update(self, system):
+    def SRS_Date_Update(self,page,lang, system):
+        now = datetime.now()
         if not self.srs:
             if system=='SM2':
-                self.srs = [datetime.now(),datetime.now() + timedelta(days=1),
-                            datetime.now() + timedelta(days=6), datetime.now() + timedelta(days=16),
-                            datetime.now() + timedelta(days=37), datetime.now() + timedelta(days=66),
-                            datetime.now() + timedelta(days=150), datetime.now() + timedelta(days=360)]
+                self.srs = [now,now + timedelta(days=1),
+                            now + timedelta(days=6), now + timedelta(days=16),
+                            now + timedelta(days=37), now + timedelta(days=66),
+                            now + timedelta(days=150), now + timedelta(days=360)]
             if system == 'ANKI':
-                if not self.srs and system == 'ANKI': self.srs = [datetime.now() + timedelta(minutes=1),
-                                                                    datetime.now() + timedelta(minutes=10),
-                                                                    datetime.now() + timedelta(days=1),
-                                                                    datetime.now() + timedelta(days=4),
-                                                                    datetime.now() + timedelta(days=16),
-                                                                    datetime.now() + timedelta(days=37),
-                                                                    datetime.now() + timedelta(days=66),
-                                                                    datetime.now() + timedelta(days=150),
-                                                                    datetime.now() + timedelta(days=360)]
+                if not self.srs and system == 'ANKI': self.srs = [now, now + timedelta(minutes=1),
+                                                                    now + timedelta(minutes=5),
+                                                                    now + timedelta(days=1),
+                                                                    now + timedelta(days=4),
+                                                                    now + timedelta(days=16),
+                                                                    now + timedelta(days=37),
+                                                                    now + timedelta(days=66),
+                                                                    now + timedelta(days=150),
+                                                                    now + timedelta(days=360)]
             for i in range(len(self.srs) - 1):
                 if i==0:
                     current_date = datetime.now()
@@ -76,7 +77,21 @@ class WORD_Abstract(ABC, BaseModel):
             del self.srs_tuple[0]
             oko=6
         else:
-            pass
+            index = next((i for i, (start, end) in enumerate(self.srs_tuple) if start <= now <= end), None)
+            if index is not None and index==0:
+                print('git on index', index)
+                del self.srs[index]
+                del self.srs_tuple[index]
+                ind = page.user.langs.index(lang)
+                words_future_set = page.user.words_future[ind]
+                words_future_set.add(self)
+                page.user.words_future[ind] = words_future_set
+                oko=6
+
+
+            else:
+                print('not git', index)
+                oko=6
 
 
     @abstractmethod

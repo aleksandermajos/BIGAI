@@ -69,13 +69,14 @@ def delete_rows_words_buttons(page, known_words, lang):
 
     index = page.user.langs.index(lang)
     srs = page.user.srs[index]
+    srs = 'ANKI'
     words_present_lang = page.user.words_present[index]
 
     for word in words_present_lang:
         for known_word in known_words:
             if word.text==known_word:
                 word.add_timestamp(datetime.now())
-                word.SRS_Date_Update(system=srs)
+                word.SRS_Date_Update(page=page,lang = lang,system=srs)
                 if word.rfh:
                     print(word.rfh)
                     page.user.words_past[index].add(word)
