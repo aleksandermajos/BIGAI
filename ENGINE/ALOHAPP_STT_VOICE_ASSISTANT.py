@@ -127,7 +127,7 @@ class VoiceAssistant:
 
             print(text)
 
-        text = '是否代表同样的意思?'
+        text = '“是否”和“同样的意思”在语法上是不同的：前者用来询问事情的真伪，后者则用来比较词语的意思。不过，有些情况下，它们可以一起使用，例如在问一个词是否代表另一个词的意思时。你觉得这样好玩吗'
         lang_of_my_sentence = detect_language(text)
         lang_of_my_sentence = lang_of_my_sentence['language_code']
         if lang_of_my_sentence in self.main_page.user.langs:

@@ -91,7 +91,7 @@ def delete_rows_words_buttons(page, known_words, lang):
                     for i in sorted(indx_to_del_button, reverse=True):
                         del rows_words_buttons.controls[i]
 
-                    with open("USER_ALEX_ASSIMIL.pkl", "wb") as file:  # 'wb' means write in binary mode
+                    with open("USER_ALEX_ZH_JA.pkl", "wb") as file:  # 'wb' means write in binary mode
                         pickle.dump(page.user, file)
 
     return rows_words_buttons

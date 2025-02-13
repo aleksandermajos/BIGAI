@@ -4,6 +4,7 @@ from typing import List, Optional
 from typing import Tuple
 from pydantic import BaseModel, Field
 from datetime import timedelta
+import pickle
 
 class WORD_Abstract(ABC, BaseModel):
     """
@@ -83,10 +84,19 @@ class WORD_Abstract(ABC, BaseModel):
                 del self.srs[index]
                 del self.srs_tuple[index]
                 ind = page.user.langs.index(lang)
+
                 words_future_set = page.user.words_future[ind]
                 words_future_set.add(self)
                 page.user.words_future[ind] = words_future_set
-                oko=6
+
+                print('before rem')
+                #page.user.words_present[ind].remove(self)
+                print('after rem')
+
+                print('before ave user')
+                with open("USER_ALEX_ZH_JA.pkl", "wb") as file:
+                    pickle.dump(page.user, file)
+                print('after ave user')
 
 
             else:
