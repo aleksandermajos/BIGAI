@@ -34,27 +34,31 @@ class WORD_Abstract(ABC, BaseModel):
     def SRS_Date_Update(self, system):
         if not self.srs:
             if system=='SM2':
-                self.srs = [self.timestamps[0], self.timestamps[0] + timedelta(days=1),
-                            self.timestamps[0] + timedelta(days=6), self.timestamps[0] + timedelta(days=16),
-                            self.timestamps[0] + timedelta(days=37), self.timestamps[0] + timedelta(days=66),
-                            self.timestamps[0] + timedelta(days=150), self.timestamps[0] + timedelta(days=360)]
+                self.srs = [datetime.now(),datetime.now() + timedelta(days=1),
+                            datetime.now() + timedelta(days=6), datetime.now() + timedelta(days=16),
+                            datetime.now() + timedelta(days=37), datetime.now() + timedelta(days=66),
+                            datetime.now() + timedelta(days=150), datetime.now() + timedelta(days=360)]
             if system == 'ANKI':
-                if not self.srs and system == 'ANKI': self.srs = [self.timestamps[0],
-                                                                    self.timestamps[0] + timedelta(minutes=1),
-                                                                    self.timestamps[0] + timedelta(minutes=10),
-                                                                    self.timestamps[0] + timedelta(days=1),
-                                                                    self.timestamps[0] + timedelta(days=4),
-                                                                    self.timestamps[0] + timedelta(days=16),
-                                                                    self.timestamps[0] + timedelta(days=37),
-                                                                    self.timestamps[0] + timedelta(days=66),
-                                                                    self.timestamps[0] + timedelta(days=150),
-                                                                    self.timestamps[0] + timedelta(days=360)]
+                if not self.srs and system == 'ANKI': self.srs = [datetime.now() + timedelta(minutes=1),
+                                                                    datetime.now() + timedelta(minutes=10),
+                                                                    datetime.now() + timedelta(days=1),
+                                                                    datetime.now() + timedelta(days=4),
+                                                                    datetime.now() + timedelta(days=16),
+                                                                    datetime.now() + timedelta(days=37),
+                                                                    datetime.now() + timedelta(days=66),
+                                                                    datetime.now() + timedelta(days=150),
+                                                                    datetime.now() + timedelta(days=360)]
             for i in range(len(self.srs) - 1):
-                current_date = self.srs[i]
-                next_date = self.srs[i + 1]
+                if i==0:
+                    current_date = datetime.now()
+                    prev_date = datetime.now()
+                else:
+                    prev_date = self.srs[i -1]
+                    current_date = self.srs[i]
+
 
                     # Calculate half the interval between the current and next datetime
-                half_interval = (next_date - current_date) / 2
+                half_interval = (current_date-prev_date) / 2
 
                     # Compute start and end datetimes by subtracting/adding half_interval
                 start = current_date - half_interval
@@ -67,6 +71,10 @@ class WORD_Abstract(ABC, BaseModel):
                 last_start = self.srs[-1] - last_half_interval
                 last_end = self.srs[-1] + last_half_interval
                 self.srs_tuple.append((last_start, last_end))
+
+            del self.srs[0]
+            del self.srs_tuple[0]
+            oko=5
         else:
             pass
 
