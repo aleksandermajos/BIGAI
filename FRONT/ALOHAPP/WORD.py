@@ -74,7 +74,7 @@ class WORD_Abstract(ABC, BaseModel):
 
             del self.srs[0]
             del self.srs_tuple[0]
-            oko=5
+            oko=6
         else:
             pass
 
