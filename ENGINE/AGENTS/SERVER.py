@@ -1,65 +1,35 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from pydantic import BaseModel
-from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# CORS Configuration
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-class OperationRequest(BaseModel):
+class CalcRequest(BaseModel):
     a: float
     b: float
+    context: dict  # Model Context Protocol (optional usage here)
 
 @app.post("/add")
-async def add_numbers(request: OperationRequest):
-    return {"result": request.a + request.b}
+def add(req: CalcRequest):
+    result = req.a + req.b
+    return {"result": result, "context": req.context}
 
 @app.post("/subtract")
-async def subtract_numbers(request: OperationRequest):
-    return {"result": request.a - request.b}
+def subtract(req: CalcRequest):
+    result = req.a - req.b
+    return {"result": result, "context": req.context}
 
 @app.post("/multiply")
-async def multiply_numbers(request: OperationRequest):
-    return {"result": request.a * request.b}
+def multiply(req: CalcRequest):
+    result = req.a * req.b
+    return {"result": result, "context": req.context}
 
 @app.post("/divide")
-async def divide_numbers(request: OperationRequest):
-    if request.b == 0:
-        raise HTTPException(status_code=400, detail="Division by zero")
-    return {"result": request.a / request.b}
+def divide(req: CalcRequest):
+    if req.b == 0:
+        return {"error": "Cannot divide by zero", "context": req.context}
+    result = req.a / req.b
+    return {"result": result, "context": req.context}
 
-@app.get("/tools")
-async def list_tools():
-    return {
-        "tools": [
-            {
-                "name": "add",
-                "description": "Add two numbers",
-                "parameters": {"a": "number", "b": "number"}
-            },
-            {
-                "name": "subtract",
-                "description": "Subtract two numbers",
-                "parameters": {"a": "number", "b": "number"}
-            },
-            {
-                "name": "multiply",
-                "description": "Multiply two numbers",
-                "parameters": {"a": "number", "b": "number"}
-            },
-            {
-                "name": "divide",
-                "description": "Divide two numbers",
-                "parameters": {"a": "number", "b": "number"}
-            }
-        ]
-    }
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)

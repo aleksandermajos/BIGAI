@@ -1,70 +1,83 @@
-from abc import ABC, abstractmethod
-from langchain.agents import AgentExecutor, initialize_agent, Tool
-from langchain_community.chat_models import ChatOllama
-from langchain_core.prompts import ChatPromptTemplate
-from typing import List, Dict, Any
+from langchain.agents import initialize_agent, Tool
+from langchain.llms import Ollama
 import requests
+import json
+import re
 
-# Model Context Protocol
-class ModelContextProtocol(ABC):
-    @abstractmethod
-    def get_tools(self) -> List[Dict]:
-        pass
+# Context Protocol class
+class ModelContextProtocol:
+    def __init__(self):
+        self.context = {}
 
-    @abstractmethod
-    def execute_tool(self, tool_name: str, params: Dict) -> float:
-        pass
+    def update_context(self, new_data):
+        self.context.update(new_data)
 
-# Server Context Implementation
-class ServerContext(ModelContextProtocol):
-    def __init__(self, base_url: str = "http://localhost:8000"):
-        self.base_url = base_url
+    def get_context(self):
+        return self.context
 
-    def get_tools(self) -> List[Dict]:
-        response = requests.get(f"{self.base_url}/tools")
-        return response.json()["tools"]
+# Calculator API client function
+def api_call(endpoint, a, b, context):
+    payload = {"a": a, "b": b, "context": context.get_context()}
+    response = requests.post(f"http://127.0.0.1:8000/{endpoint}", json=payload)
+    return response.json()
 
-    def execute_tool(self, tool_name: str, params: Dict) -> float:
-        response = requests.post(
-            f"{self.base_url}/{tool_name}",
-            json={"a": params["a"], "b": params["b"]}
-        )
-        return response.json()["result"]
+# Initialize Context
+context_protocol = ModelContextProtocol()
 
-# Initialize Context and Tools
-context = ServerContext()
+# Expression parser (simple and safe)
+def parse_expression(expr):
+    # Extract numbers from basic arithmetic expressions like "5 + 10"
+    numbers = re.findall(r'[-+]?\d*\.\d+|\d+', expr)
+    if len(numbers) != 2:
+        raise ValueError(f"Expected two numbers, got: {expr}")
+    return float(numbers[0]), float(numbers[1])
+
+# Define tools with safe parsing
+def add_tool(expr):
+    a, b = parse_expression(expr)
+    result = api_call("add", a, b, context_protocol)
+    context_protocol.update_context({"last_operation": "add", "last_result": result["result"]})
+    return result["result"]
+
+def subtract_tool(expr):
+    a, b = parse_expression(expr)
+    result = api_call("subtract", a, b, context_protocol)
+    context_protocol.update_context({"last_operation": "subtract", "last_result": result["result"]})
+    return result["result"]
+
+def multiply_tool(expr):
+    a, b = parse_expression(expr)
+    result = api_call("multiply", a, b, context_protocol)
+    context_protocol.update_context({"last_operation": "multiply", "last_result": result["result"]})
+    return result["result"]
+
+def divide_tool(expr):
+    a, b = parse_expression(expr)
+    result = api_call("divide", a, b, context_protocol)
+    if "error" in result:
+        return result["error"]
+    context_protocol.update_context({"last_operation": "divide", "last_result": result["result"]})
+    return result["result"]
+
+# Register tools correctly
 tools = [
-    Tool(
-        name=tool["name"],
-        description=tool["description"],
-        func=lambda params, tool_name=tool["name"]: context.execute_tool(tool_name, params),
-    )
-    for tool in context.get_tools()
+    Tool(name="Add", func=add_tool, description="Use to add two numbers, e.g., '5 + 10'."),
+    Tool(name="Subtract", func=subtract_tool, description="Use to subtract two numbers, e.g., '20 - 5'."),
+    Tool(name="Multiply", func=multiply_tool, description="Use to multiply two numbers, e.g., '2 * 4'."),
+    Tool(name="Divide", func=divide_tool, description="Use to divide two numbers, e.g., '20 / 4'."),
 ]
 
-# Initialize Ollama and Agent
-llm = ChatOllama(model="llama3.1:8b")
-prompt = ChatPromptTemplate.from_template(
-    "You are a calculator agent. Use the tools to answer: {input}\n"
-    "Always provide the full calculation reasoning."
-)
+# LangChain with Ollama
+llm = Ollama(model="llama3.1:8b")  # Make sure model is available in Ollama
+agent = initialize_agent(tools, llm, agent="zero-shot-react-description", verbose=True)
 
-agent = initialize_agent(
-    tools,
-    llm,
-    agent="structured-chat-zero-shot-react-description",
-    verbose=True,
-    prompt=prompt,
-)
+# Example prompt
+prompt = "Calculate (5 + 10) * (20 - 5) and provide each step clearly."
 
-# Run the agent
-if __name__ == "__main__":
-    while True:
-        try:
-            query = input("\nEnter math problem (or 'q' to quit): ")
-            if query.lower() == 'q':
-                break
-            result = agent.invoke({"input": query})
-            print(f"\nResult: {result['output']}")
-        except Exception as e:
-            print(f"Error: {str(e)}")
+print("\n🧑‍💻 Agent Response:")
+response = agent.run(prompt)
+print(response)
+
+# Inspect current context state
+print("\n📦 Current Model Context Protocol state:")
+print(json.dumps(context_protocol.get_context(), indent=2))
