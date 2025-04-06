@@ -135,7 +135,8 @@ class VoiceAssistant:
             delete_rows_words_buttons(page = self.main_page,known_words=words,lang=lang_of_my_sentence)
             self.great = True
             self.my_sentences.append(text)
-            self.my_sentences_languages.append(lang_of_my_sentence)
+            if lang_of_my_sentence not in self.main_page.user.langs:
+                self.my_sentences_languages.append(lang_of_my_sentence)
 
 
 

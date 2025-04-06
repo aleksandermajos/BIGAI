@@ -250,14 +250,21 @@ def Update_Words_Present(user,lang):
             if source.lang == lang:
                 index = user.langs.index(lang)
                 for words_set_in_part in source.words_in_parts:
-                    set_only_A, set_common_AB, set_only_B = compare_two_sets_of_WORDS(set_A = user.words_past[index],set_B=words_set_in_part)
+                    if 0 <= index < len(user.words_past):
+                        set_only_A, set_common_AB, set_only_B = compare_two_sets_of_WORDS(set_A = user.words_past[index],set_B=words_set_in_part)
+                    else:
+                        user.words_present.append(words_set_in_part)
+                        return words_set_in_part
 
                 user.words_present[index].update(set_only_B)
     return set_only_B
 
 def Create_Prompt_From_Words_Present(user, lang='ja'):
     index = user.langs.index(lang)
-    user.prompt_present[index] = user.words_present[index]
+    if 0 <= index < len(user.prompt_present):
+        user.prompt_present[index] = user.words_present[index]
+    else:
+        user.prompt_present.append(user.words_present[index])
     result = ','.join(word.original for word in user.prompt_present[index])
     user.prompt_present[index] = result
     return result
