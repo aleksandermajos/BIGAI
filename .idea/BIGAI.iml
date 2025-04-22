@@ -12,6 +12,5 @@
     <orderEntry type="module" module-name="SWE-agent" />
     <orderEntry type="module" module-name="crewai-flows-crash-course" />
     <orderEntry type="module" module-name="flows-feedback-loop" />
-    <orderEntry type="module" module-name="csm" />
   </component>
 </module>
