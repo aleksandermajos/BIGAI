@@ -7,16 +7,15 @@ from fastapi.responses import JSONResponse
 import platform
 os_name = platform.system()
 
-
-
-
-STT_WHISPERX = True
-TTS_KOKORO = True
-TTS_MELO = True
-SPACY_STANZA = True
-TRANSLATE_NLLB = True
-LANG_DETECT_FT = True
+STT_WHISPERX = False
+TTS_KOKORO = False
+TTS_MELO = False
+TTS_GEMINI = True
+SPACY_STANZA = False
+TRANSLATE_NLLB = False
+LANG_DETECT_FT = False
 GEN_IMAGE_SD3 = False
+
 
 app = FastAPI()
 
@@ -181,6 +180,56 @@ if STT_WHISPERX:
             print('before return')
             print(JSONResponse(content=result))
             return JSONResponse(content=result)
+
+if TTS_GEMINI:
+    from ENGINE.KEY_GOOGLE import provide_key
+    from google import genai
+    from google.genai import types
+    import wave
+
+    key = provide_key()
+    client = genai.Client(api_key=key)
+
+    class TextRequest(BaseModel):
+        text: str
+        voice: str
+        output_path: str
+
+
+    def wave_file(filename, pcm, channels=1, rate=24000, sample_width=2):
+        with wave.open(filename, "wb") as wf:
+            wf.setnchannels(channels)
+            wf.setsampwidth(sample_width)
+            wf.setframerate(rate)
+            wf.writeframes(pcm)
+
+
+    @app.post("/tts_gemini")
+    async def tts_gemini(request: TextRequest):
+        text = request.text
+        voice = request.voice
+        output_path = request.output_path
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-preview-tts",
+            contents=text,
+            config=types.GenerateContentConfig(
+                response_modalities=["AUDIO"],
+                speech_config=types.SpeechConfig(
+                    voice_config=types.VoiceConfig(
+                        prebuilt_voice_config=types.PrebuiltVoiceConfig(
+                            voice_name=voice,
+                        )
+                    )
+                ),
+            )
+        )
+
+        data = response.candidates[0].content.parts[0].inline_data.data
+
+        file_name = output_path
+        wave_file(file_name, data)  # Saves the file to current directory
+
 if TTS_KOKORO:
     from playsound import playsound
     from fastapi.responses import FileResponse

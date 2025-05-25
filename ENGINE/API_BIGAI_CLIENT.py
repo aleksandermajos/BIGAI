@@ -119,6 +119,22 @@ def tts_melo(text: str, lang: str, output: str):
         return output
     else:
         raise Exception(f"Error: {response.status_code} - {response.json().get('detail')}")
+
+def tts_gemini(text: str, voice: str, output: str):
+    url = "http://127.0.0.1:8000/tts_gemini"
+    payload = {
+        "text": text,
+        "voice": voice,
+        "output_path": output
+    }
+    response = requests.post(url, json=payload)
+    if response.status_code == 200:
+        print("file saved in "+ output)
+        return output
+    else:
+        raise Exception(f"Error: {response.status_code} - {response.json().get('detail')}")
+
+
 def tts_kokoro(text: str, lang: str, output: str):
     url = "http://127.0.0.1:8000/tts_kokoro"
     payload = {
@@ -136,6 +152,9 @@ def tts_kokoro(text: str, lang: str, output: str):
 
 
 if __name__ == "__main__":
+    tts_gemini(text='Stimmt. Aber wir könnten uns ja ein nettes kleines Airbnb suchen, vielleicht ein bisschen außerhalb vom direkten Zentrum, um Kosten zu sparen. Hauptsache, wir erleben die Stadt',voice='Kore',output='out.wav')
+    oko=4
+
     transcribe()
 
     text_to_lemmatize = ['Nonostante il cielo fosse coperto da nuvole minacciose e il vento soffiasse con forza']
