@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="yt sound working">
-      <change afterPath="$PROJECT_DIR$/ENGINE/TTS_GOOGLE.py" afterDir="false" />
+    <list default="true" id="392f1cd1-d266-4141-b627-efb9be4db297" name="Changes" comment="TTS_GEMINI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT_TOOLS.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" beforeDir="false" afterPath="$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ENGINE/API_DEEPSEEK_R1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/ALOHAPP.py" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/ALOHAPP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" beforeDir="false" afterPath="$PROJECT_DIR$/FRONT/ALOHAPP/audio_file.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCHOOL/SMALLPROJECTS/SUPER_RUDE_ASSISTANT/oko.wav" beforeDir="false" afterPath="$PROJECT_DIR$/SCHOOL/SMALLPROJECTS/SUPER_RUDE_ASSISTANT/oko.wav" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +316,7 @@
       <recent name="$PROJECT_DIR$/DATA/ALOHAPP/TEXT/EXAMS/JA/JLPT/EXPRESSIONS" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.API_BIGAI_SERVER">
+  <component name="RunManager" selected="Python.API_BIGAI_CLIENT">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="TensorFlow-Developer-Certificate-Guide" />
       <option name="ENV_FILES" value="" />
@@ -1226,8 +1220,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.API_BIGAI_SERVER" />
         <item itemvalue="Python.API_BIGAI_CLIENT" />
+        <item itemvalue="Python.API_BIGAI_SERVER" />
         <item itemvalue="Python.TTS_GOOGLE" />
         <item itemvalue="Python.ALOHAPP" />
         <item itemvalue="Python.SUPER_RUDE_ASSISTANT_LOCAL" />
@@ -1956,14 +1950,6 @@
       <option name="project" value="LOCAL" />
       <updated>1670711648255</updated>
     </task>
-    <task id="LOCAL-00246" summary="ALOHAPP REARRANGE SOURCE PART A">
-      <option name="closed" value="true" />
-      <created>1737563956537</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1737563956537</updated>
-    </task>
     <task id="LOCAL-00247" summary="ALOHAPP REARRANGE SOURCE PART B, JAPANESE WORDS">
       <option name="closed" value="true" />
       <created>1737568965220</created>
@@ -2316,7 +2302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745347834207</updated>
     </task>
-    <option name="localTasksCounter" value="291" />
+    <task id="LOCAL-00291" summary="TTS_GEMINI">
+      <option name="closed" value="true" />
+      <created>1748167227383</created>
+      <option name="number" value="00291" />
+      <option name="presentableId" value="LOCAL-00291" />
+      <option name="project" value="LOCAL" />
+      <updated>1748167227383</updated>
+    </task>
+    <option name="localTasksCounter" value="292" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -2342,7 +2336,6 @@
       <path value="$PROJECT_DIR$/../QUANTMAVERICK" />
       <path value="$PROJECT_DIR$/../audiocraft" />
     </ignored-roots>
-    <MESSAGE value="ALOHAPP USER ZH" />
     <MESSAGE value="ALOHAPP INITIAL PRIORITY, all_words" />
     <MESSAGE value="ALOHAPP UPDATE WORDS PRESENT.NOT FINAL" />
     <MESSAGE value="ALOHAPP Compare two sets" />
@@ -2367,7 +2360,8 @@
     <MESSAGE value="SUPER QUICK FIX JA" />
     <MESSAGE value="conda env" />
     <MESSAGE value="yt sound working" />
-    <option name="LAST_COMMIT_MESSAGE" value="yt sound working" />
+    <MESSAGE value="TTS_GEMINI" />
+    <option name="LAST_COMMIT_MESSAGE" value="TTS_GEMINI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2611,7 +2605,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py</url>
-          <line>186</line>
+          <line>200</line>
           <option name="timeStamp" value="568" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -2660,34 +2654,29 @@
           <option name="timeStamp" value="1054" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py</url>
-          <line>212</line>
-          <option name="timeStamp" value="1055" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py</url>
-          <line>208</line>
-          <option name="timeStamp" value="1057" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py</url>
-          <line>230</line>
-          <option name="timeStamp" value="1059" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py</url>
-          <line>155</line>
+          <line>169</line>
           <option name="timeStamp" value="1060" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py</url>
-          <line>154</line>
-          <option name="timeStamp" value="1061" />
+          <line>168</line>
+          <option name="timeStamp" value="1064" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py</url>
-          <line>190</line>
-          <option name="timeStamp" value="1062" />
+          <line>205</line>
+          <option name="timeStamp" value="1066" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_SERVER.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="1067" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ENGINE/API_BIGAI_CLIENT.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="1068" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

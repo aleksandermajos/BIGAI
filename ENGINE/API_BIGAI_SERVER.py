@@ -10,7 +10,8 @@ os_name = platform.system()
 STT_WHISPERX = False
 TTS_KOKORO = False
 TTS_MELO = False
-TTS_GEMINI = True
+TTS_GEMINI = False
+TTS_OPENAI = True
 SPACY_STANZA = False
 TRANSLATE_NLLB = False
 LANG_DETECT_FT = False
@@ -181,6 +182,37 @@ if STT_WHISPERX:
             print(JSONResponse(content=result))
             return JSONResponse(content=result)
 
+if TTS_OPENAI:
+    from playsound import playsound
+    from ENGINE.KEY_OPENAI import provide_key
+    from openai import OpenAI
+    import os
+
+    key = provide_key()
+    client = OpenAI(api_key=key)
+
+    class TextRequest(BaseModel):
+        text: str
+        voice: str
+        output_path: str
+
+
+    @app.post("/tts_openai")
+    async def tts_openai(request: TextRequest):
+        text = request.text
+        voice = request.voice
+        output_path = request.output_path
+
+        response = client.audio.speech.create(
+            model="tts-1",
+            voice=voice,
+            input=text
+        )
+
+        response.stream_to_file(output_path)
+
+
+
 if TTS_GEMINI:
     from ENGINE.KEY_GOOGLE import provide_key
     from google import genai
@@ -224,6 +256,12 @@ if TTS_GEMINI:
                 ),
             )
         )
+        print("Input tokens:", response.usage_metadata.prompt_token_count)
+        print("Output tokens:", response.usage_metadata.candidates_token_count)
+
+        # 2) From the first candidate itself:
+        print("Candidate token count:",
+              response.candidates[0].token_count)
 
         data = response.candidates[0].content.parts[0].inline_data.data
 
