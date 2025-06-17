@@ -1,0 +1,181 @@
+# agent_qwq_inet_weather.py
+# -------------------------------------------
+# Agent z modelem QwQ 32B (Ollama) + Internet:
+# • search_web  – wyszukuje i scrapuje strony (DuckDuckGo) z retry & cache
+# • get_weather – pobiera bieżącą pogodę (Open-Meteo) bez klucza API
+#
+# Instalacja:
+#   pip install -U \
+#       ollama langchain-core langgraph langchain-ollama \
+#       duckduckgo_search beautifulsoup4 requests
+#   ollama pull qwq:32b
+# Uruchom:
+#   python agent_qwq_inet_weather.py
+# -------------------------------------------
+
+import textwrap, requests, bs4, datetime, time, random, functools
+from typing import Sequence, Annotated, TypedDict
+
+from duckduckgo_search import DDGS
+from langchain_core.tools import tool
+from langchain_core.messages import HumanMessage, AIMessage
+from langchain_ollama import ChatOllama
+from langgraph.graph import StateGraph, END
+from langgraph.prebuilt import ToolNode, tools_condition
+from langgraph.graph.message import add_messages
+
+# ---------------------------------------------------------------------------
+# 1) TOOL: wyszukiwarka z cache’em i exponential back-off na HTTP 202 (rate-limit)
+# ---------------------------------------------------------------------------
+
+# Pamięć podręczna w RAM – 128 ostatnich zapytań (z duplikatami parametrów)
+def lru_cache(maxsize=128):
+    def decorator(func):
+        cache = {}
+        order = []
+        @functools.wraps(func)
+        def wrapped(*args):
+            if args in cache:
+                return cache[args]
+            result = func(*args)
+            cache[args] = result
+            order.append(args)
+            if len(order) > maxsize:
+                oldest = order.pop(0)
+                cache.pop(oldest, None)
+            return result
+        return wrapped
+    return decorator
+
+@lru_cache(maxsize=128)
+def ddg_query(query: str, max_results: int):
+    """Jedno zapytanie DDG z retry na 202 (ratelimit)."""
+    delay = 2
+    for _ in range(6):                              # max 6 prób ≈ 2 + 4 + 8 + … = 126 s
+        hits = list(DDGS().text(query, max_results=max_results))
+        if hits and hits[0].get("status_code") != 202:
+            return hits
+        time.sleep(delay + random.uniform(0.0, 1.0))
+        delay *= 2                                  # podwajamy opóźnienie
+    return []                                       # po przekroczeniu limitu – pusta lista
+
+from ENGINE.KEY_BRAVE import provide_key
+BRAVE_KEY = "BSARA1urd6D3VE5oZDRGdd-HMGUUQ9B"
+BASE_URL  = "https://api.search.brave.com/res/v1/web/search"
+@tool
+def search_web(query: str, k: int = 5) -> str:
+    """Wyszukuje Brave Search API, zwraca k skróconych wyników."""
+    if not BRAVE_KEY:
+        return "[Brak klucza BRAVE_API_KEY w zmiennych środowiska]"
+
+    params  = {"q": query, "count": k}
+    headers = {"X-Subscription-Token": BRAVE_KEY, "Accept": "application/json"}
+
+    try:
+        data = requests.get(BASE_URL, params=params,
+                            headers=headers, timeout=8).json()
+        results = data["web"]["results"]
+    except Exception as e:
+        return f"[Błąd Brave API: {e}]"
+
+    out = []
+    for i, r in enumerate(results, 1):
+        url, snippet = r["url"], r.get("description", "")
+        snippet = textwrap.shorten(snippet or url, 700, placeholder=" …")
+        out.append(f"[{i}] {url}\n{snippet}\n")
+
+    ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    return f"(Brave Search – {ts})\n\n" + "\n".join(out)
+
+
+# ---------------------------------------------------------------------------
+# 2) TOOL: aktualna pogoda z Open-Meteo (bez klucza i limitów praktycznych)
+# ---------------------------------------------------------------------------
+CITY_COORDS = {
+    "Wrocław":   (51.1079, 17.0385),
+    "Warszawa":  (52.2297, 21.0122),
+    "Kraków":    (50.0647, 19.9450),
+    "Gdańsk":    (54.3520, 18.6466),
+}
+
+@tool
+def get_weather(city: str = "Wrocław") -> str:
+    """
+    Zwraca bieżącą pogodę (temperatura °C, wiatr km/h, kod warunków) z Open-Meteo.
+    Obsługuje tylko miasta z predefiniowanej listy CITY_COORDS.
+    """
+    if city not in CITY_COORDS:
+        return f"Miasto {city} nieobsługiwane (dostępne: {', '.join(CITY_COORDS)})"
+    lat, lon = CITY_COORDS[city]
+    url = (f"https://api.open-meteo.com/v1/forecast?"
+           f"latitude={lat}&longitude={lon}&current_weather=true")
+    try:
+        data = requests.get(url, timeout=8).json()["current_weather"]
+        return (f"Pogoda w {city}: {data['temperature']} °C, "
+                f"wiatr {data['windspeed']} km/h, "
+                f"kod warunków {data['weathercode']} "
+                f"(odczyt {data['time']}).")
+    except Exception as e:
+        return f"[błąd pobierania pogody: {e}]"
+
+
+# ---------------------------------------------------------------------------
+# 3) MODEL QwQ 32B + powiązanie z narzędziami
+# ---------------------------------------------------------------------------
+tools = [search_web, get_weather]
+llm = ChatOllama(model="qwq:32b", temperature=0.2).bind_tools(tools)
+
+SYSTEM_PROMPT = (
+    "You are an assistant with real-time internet tools. "
+    "Call the tools when they can provide fresh data; "
+    "then answer the user in Polish."
+)
+
+# ---------------------------------------------------------------------------
+# 4) LangGraph – graf stanów
+# ---------------------------------------------------------------------------
+class AgentState(TypedDict):
+    messages: Annotated[Sequence, add_messages]
+
+graph = StateGraph(AgentState)
+
+# — węzeł: model
+def chatbot(state: AgentState):
+    reply_msg = llm.invoke(state["messages"])
+    return {"messages": [reply_msg]}
+
+graph.add_node("chatbot", chatbot)
+
+# — węzeł: wykonanie narzędzi
+graph.add_node("tools", ToolNode(tools))
+
+# Start: model
+graph.set_entry_point("chatbot")
+
+# Routing: jeśli model zwróci tool_calls → do węzła tools; inaczej koniec
+graph.add_conditional_edges(
+    "chatbot",
+    tools_condition,
+    {"tools": "tools", "__end__": END},
+)
+
+# Po wykonaniu narzędzia wracamy do modelu
+graph.add_edge("tools", "chatbot")
+
+agent = graph.compile()
+
+# ---------------------------------------------------------------------------
+# 5) REPL
+# ---------------------------------------------------------------------------
+if __name__ == "__main__":
+    print("Agent QwQ 32B + Internet + Pogoda.  Ctrl-C aby zakończyć.\n")
+    state: AgentState = {"messages": [{"role": "system", "content": SYSTEM_PROMPT}]}
+    try:
+        while True:
+            user = input("🧑 Ty: ")
+            state["messages"].append(HumanMessage(content=user))
+            state = agent.invoke(state)
+            answer = state["messages"][-1]          # ostatnia wiadomość od bota
+            print(f"🤖 Bot: {answer.content}\n")
+    except KeyboardInterrupt:
+        print("\nDo zobaczenia!")

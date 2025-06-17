@@ -395,20 +395,21 @@ if TTS_MELO:
 
 
 if GEN_IMAGE_SD3:
-
     from pydantic import BaseModel
     import torch
     from fastapi.responses import FileResponse
     from diffusers import StableDiffusion3Pipeline
 
     pipe = StableDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium-diffusers",
-                                                    torch_dtype=torch.float16, device='cuda:0')
+                                                    torch_dtype=torch.float16,device='cuda:0')
     pipe = pipe.to("cuda:0")
+
 
     class ImageRequest(BaseModel):
         prompt: str
         negative_prompt: str
         num_inference_steps: int
+
 
     @app.post("/generate_image/")
     async def generate_image(request: ImageRequest):
@@ -424,9 +425,9 @@ if GEN_IMAGE_SD3:
             file_path = "pic.png"
             image.save(file_path)
             return FileResponse(file_path, media_type="image/png", filename="pic.png")
+
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
-
 
 if TRANSLATE_NLLB:
     from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
@@ -443,8 +444,8 @@ if TRANSLATE_NLLB:
         target_language: str
 
 
-    class TranslationResponse(BaseModel):
-        translated_text: str
+class TranslationResponse(BaseModel):
+    translated_text: str
 
 
     @app.post("/translate", response_model=TranslationResponse)

@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+BIGAI.egg-info/PKG-INFO
+BIGAI.egg-info/SOURCES.txt
+BIGAI.egg-info/dependency_links.txt
+BIGAI.egg-info/not-zip-safe
+BIGAI.egg-info/top_level.txt

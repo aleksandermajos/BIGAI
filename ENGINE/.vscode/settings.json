@@ -1,0 +1,6 @@
+{
+    "python.condaPath": "/home/bigai/miniconda3/bin/conda",
+    "python.pythonPath": "/home/bigai/miniconda3/envs/BIGAI/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true
+  }
