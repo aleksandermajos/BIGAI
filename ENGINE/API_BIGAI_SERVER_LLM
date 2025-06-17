@@ -60,7 +60,6 @@ def ddg_query(query: str, max_results: int):
     return []                                       # po przekroczeniu limitu – pusta lista
 
 from ENGINE.KEY_BRAVE import provide_key
-BRAVE_KEY = "BSARA1urd6D3VE5oZDRGdd-HMGUUQ9B"
 BASE_URL  = "https://api.search.brave.com/res/v1/web/search"
 @tool
 def search_web(query: str, k: int = 5) -> str:
